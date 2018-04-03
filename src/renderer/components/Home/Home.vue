@@ -74,6 +74,13 @@
                 var self=this;
                 self.accounts2=[];
                 for(var i=0;i<this.accounts.length;i++){
+                    //如果不存在某个地址，添加
+                    if (!this.$db.has('czr_accounts.'+this.accounts[i]).value()) {
+                    this.$db.set('czr_accounts.'+this.accounts[i], {
+                        'tx_list':{}
+                    }).write()
+                    }
+
                     var balance = web3.eth.getBalance(this.accounts[i]);
                     // console.log(balance)
                     self.accounts2.push({
@@ -82,7 +89,8 @@
                     })
                     total+=balance.toNumber();
                 }
-                console.log(self.accounts2)
+                console.log('HomeDb',this.$db.get('czr_accounts').value())
+            
                 return web3.fromWei(total,"ether");
             },
             addressBalance:function(address){

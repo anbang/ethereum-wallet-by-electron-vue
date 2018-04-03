@@ -25,9 +25,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+//引入db数据库
+import db from '../datastore/index'
 
-
-
+Vue.prototype.$db = db
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

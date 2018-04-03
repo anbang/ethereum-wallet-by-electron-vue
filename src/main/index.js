@@ -1,5 +1,7 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow ,Menu} from 'electron'
+// import { app, BrowserWindow, Tray, Menu, Notification, clipboard, ipcMain, globalShortcut, dialog } from 'electron'
 
+let menu;
 // const path          = require('path');
 // const url           = require('url');
 
@@ -59,6 +61,8 @@ function createWindow () {
         //取消引用窗口对象，如果您的应用程序支持多窗口，通常您会将窗口存储在数组中，点击关闭的应该删除相应元素的
         mainWindow = null
     })
+
+    createMenu()
 }
 
 function windowAllClose() {
@@ -74,6 +78,33 @@ function activateFn() {
 }
 
 //当前文件中，可以包含应用程序的其他代码，你也可以把它们放在单独的文件中 并require。
+
+//解决生产环境无法使用复制粘贴
+const createMenu = () => {
+    if (process.env.NODE_ENV !== 'development') {
+      const template = [{
+        label: 'Edit',
+        submenu: [
+          { label: 'Undo', accelerator: 'CmdOrCtrl+Z', selector: 'undo:' },
+          { label: 'Redo', accelerator: 'Shift+CmdOrCtrl+Z', selector: 'redo:' },
+          { type: 'separator' },
+          { label: 'Cut', accelerator: 'CmdOrCtrl+X', selector: 'cut:' },
+          { label: 'Copy', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
+          { label: 'Paste', accelerator: 'CmdOrCtrl+V', selector: 'paste:' },
+          { label: 'Select All', accelerator: 'CmdOrCtrl+A', selector: 'selectAll:' },
+          {
+            label: 'Quit',
+            accelerator: 'CmdOrCtrl+Q',
+            click () {
+              app.quit()
+            }
+          }
+        ]
+      }]
+      menu = Menu.buildFromTemplate(template)
+      Menu.setApplicationMenu(menu)
+    }
+  }
 
 /**
  * Auto Updater

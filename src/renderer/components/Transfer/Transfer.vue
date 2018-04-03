@@ -8,8 +8,7 @@
     <br><br>
     转出方：
     <select name="from_address" @change="onSelected">
-      <option v-for="account in accounts" :value="account" v-if="account == queryAcc">{{account}}</option>
-      <option v-for="account in accounts" :value="account" >{{account}}</option>
+      <option v-for="account in accounts" :value="account" :selected="fromAcc(account)" >{{account}}</option>
     </select>
     <span> {{thisAccBa}} Eth</span>
 
@@ -42,6 +41,7 @@
 <script>
 import web3 from '@/global/web3.js'
 import { throws } from 'assert';
+import { triggerAsyncId } from 'async_hooks';
 
 export default {
   name: 'Search',
@@ -51,7 +51,7 @@ export default {
       txidInfo:"",//TXID查询的数据，需要储存
       tranTotal:"",//当前交易合计需要的ETH
       accounts:web3.eth.accounts,//当前账号列表
-      fromAccount:web3.eth.accounts[0],//发送放的账号
+      fromAccount:this.$route.query.account|| web3.eth.defaultAccount || web3.eth.accounts[0],//发送放的账号
       defaultAcc:web3.eth.defaultAccount,//默认的主账号
 
       queryAcc:this.$route.query.account,//当前路由带过来的账号信息
@@ -82,6 +82,17 @@ export default {
     }
   },
   methods:{
+    fromAcc:function(account){
+      if(this.queryAcc){
+        if(account == this.queryAcc){
+          return true;
+        }
+      }else{
+        if(account == this.defaultAcc){
+          return true;
+        }
+      }
+    },
     onSelected:function(ele) {
       var currentAdd=ele.target.value;
       this.fromAccount= currentAdd ; 
@@ -109,8 +120,12 @@ export default {
       var userWeiGas= web3.toWei(this.userGas, 'ether');
       var TotalWei=parseInt(transWeiVal)+parseInt(userWeiGas);
       
-      console.log(this.$route.query.account);
       this.tranTotal = web3.fromWei(TotalWei,'ether' ) ;
+
+      //仅仅是测试
+      // this.$db.set('czr_accounts.account_list', "hahahahahahaha").write();
+      console.log(this.$db.read().get('czr_accounts.0x57076e46a13a61069cba47cd83db9dfd4a321505').value());
+
     },
 
     submitTran:function(){
@@ -129,9 +144,20 @@ export default {
       }
       web3.eth.sendTransaction(options,function(err, address) {
           if (!err){
-              var receipt=web3.eth.getTransactionReceipt(address);
+              var receipt=web3.eth.getTransaction(address);
               self.txid = address;
               self.txidInfo = receipt;
+              
+
+              // self.$db.
+
+              if (self.$db.read().has('czr_accounts.'+options.from).value()) {
+                self.$db.read().set('czr_accounts.'+options.from+'.tx_list.'+address, receipt).write()
+              }
+              if (self.$db.read().has('czr_accounts.'+options.to).value()) {
+                self.$db.read().set('czr_accounts.'+options.to+'.tx_list.'+address, receipt).write()
+              }
+
 
               console.log(address);//0x059b9238d7003416960db8d9f9d8de506f17574b37f03c9101c941a439fa942c
               console.log(receipt);

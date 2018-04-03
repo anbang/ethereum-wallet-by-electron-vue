@@ -43,11 +43,14 @@ export default {
       return balaceVal;
     },
     transIds:function(){
-        var receipt=web3.eth.getTransactionReceipt('0x059b9238d7003416960db8d9f9d8de506f17574b37f03c9101c941a439fa942c');
         
+        var tx_list = this.$db.read().get('czr_accounts.'+this.currentAcc+'.tx_list').value();
+
+        console.log(this.$db.read().get('czr_accounts.'+this.currentAcc).value())
+
         //0x059b9238d7003416960db8d9f9d8de506f17574b37f03c9101c941a439fa942c
         //0xffd52aab6437ba8ad2947f5745d1ab6f03c92f3bc1dd61f23ccb8ad28133c2f6
-        return receipt;
+        return tx_list;
     }
   }
 }

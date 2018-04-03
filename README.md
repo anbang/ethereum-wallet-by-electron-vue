@@ -1,6 +1,26 @@
-# electron-vue-demo
+# 依赖
 
-> An electron-vue project
+需要Geth，我用的是 ganache-cli 来模拟测试的；
+
+https://github.com/trufflesuite/ganache-cli
+
+启动步骤
+
+
+``` bash
+# install dependencies
+-  npm install -g ganache-cli
+
+# 命令行输入下面命令，并且保持运行状态；
+-  ganache-cli
+
+```
+
+
+
+
+
+
 
 #### Build Setup
 
@@ -18,5 +38,3 @@ npm run build
 ```
 
 ---
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[7c4e3e9](https://github.com/SimulatedGREG/electron-vue/tree/7c4e3e90a772bd4c27d2dd4790f61f09bae0fcef) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
