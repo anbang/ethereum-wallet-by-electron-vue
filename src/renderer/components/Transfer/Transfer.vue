@@ -8,7 +8,7 @@
     <br><br>
     转出方：
     <select name="from_address" @change="onSelected">
-      <option v-for="account in accounts" :value="account" :selected="fromAcc(account)" >{{account}}</option>
+      <option v-for="account in accounts" :value="account" v-once :selected="fromAcc(account)" >{{account}}</option>
     </select>
     <span> {{thisAccBa}} Eth</span>
 
