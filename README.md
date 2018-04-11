@@ -1,6 +1,6 @@
 ### 使用
 
-- electron   (跨平台)
+- electron   (跨平台、使用版本V8.4.0)
 - vue       （路由/SPA）
 - webpack   （构建）
 - node/npm

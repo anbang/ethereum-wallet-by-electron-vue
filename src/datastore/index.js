@@ -7,7 +7,8 @@ import { remote, app } from 'electron'// 引入remote模块，使其既能跑在
 
 const APP = process.type === 'renderer' ? remote.app : app;// 根据process.type来分辨在哪种模式使用哪种模块
 const STORE_PATH = APP.getPath('userData')// 获取electron应用的用户目录
-alert('一些本地数据储存在'+STORE_PATH)
+console.log(STORE_PATH)
+// alert('一些本地数据储存在'+STORE_PATH)
 
 if (process.type !== 'renderer') {
     // 如果路径不存在，就创建一个,
@@ -16,7 +17,7 @@ if (process.type !== 'renderer') {
   }
 }
 
-const adapter = new FileSync(path.join(STORE_PATH, '/data.json'))// 初始化lowdb读写的json文件名以及存储路径
+const adapter = new FileSync(path.join(STORE_PATH, '/czr_data.json'))// 初始化lowdb读写的json文件名以及存储路径
 // console.log(adapter)
 
 const db = Datastore(adapter)// lowdb接管该文件
@@ -28,6 +29,23 @@ if (!db.has('czr_accounts').value()) {
 }
 if (!db.has('czr_setting').value()) {
     db.set('czr_setting', {}).write()
+}
+if (!db.has('czr_contacts').value()) {
+  db.set('czr_contacts', {}).write()
+}
+
+//获取用户浏览器优先选择语言
+function get_language() {
+  if (navigator.language) {
+      var language = navigator.language;
+  } else {
+      var language = navigator.browserLanguage;
   }
+  return language;
+}
+if (!db.has('czr_contacts.lang').value()) {
+  db.set('czr_contacts.lang', get_language()).write()//根据语言设置
+}
+
 
 export default db
