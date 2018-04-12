@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"تنظیم"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"خانه",
+        "transfer":"انتقال",
+        "contacts":"اطلاعات تماس",
+        "setting":"تنظیمات",
+        "total":"کل"
+    },
+    "page_setting":{
+        "tit":"تنظیمات"
+    }
+}

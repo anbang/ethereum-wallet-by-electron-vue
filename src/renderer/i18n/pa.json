@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ਸੈਟਿੰਗ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ਘਰ",
+        "transfer":"ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
+        "contacts":"ਸੰਪਰਕ",
+        "setting":"ਸੈਟਿੰਗਾਂ",
+        "total":"ਕੁੱਲ"
+    },
+    "page_setting":{
+        "tit":"ਸੈਟਿੰਗਾਂ"
+    }
+}

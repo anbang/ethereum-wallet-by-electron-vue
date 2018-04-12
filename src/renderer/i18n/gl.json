@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Configuración"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Inicio",
+        "transfer":"Transferencia",
+        "contacts":"Contactos",
+        "setting":"Configuración",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuración"
+    }
+}

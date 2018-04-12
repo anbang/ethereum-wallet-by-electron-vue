@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"సెట్టింగు"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"హోమ్",
+        "transfer":"ట్రాన్స్ఫర్",
+        "contacts":"సంప్రదించండి",
+        "setting":"ఏర్పాటు",
+        "total":"మొత్తం"
+    },
+    "page_setting":{
+        "tit":"ఏర్పాటు"
+    }
+}

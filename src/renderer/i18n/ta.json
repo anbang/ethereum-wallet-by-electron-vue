@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"அமைப்பை"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"முகப்பு",
+        "transfer":"மாற்றம்",
+        "contacts":"தொடர்பு",
+        "setting":"அமைக்கவும்",
+        "total":"மொத்த"
+    },
+    "page_setting":{
+        "tit":"அமைக்கவும்"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"postavljanje"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"dom",
+        "transfer":"prijenos",
+        "contacts":"kontakt",
+        "setting":"postaviti",
+        "total":"ukupno"
+    },
+    "page_setting":{
+        "tit":"postaviti"
+    }
+}

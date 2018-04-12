@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Постављање"
+    },
+    "unit":{
+        "czr":"ЦЗР"
+    },
+    "model_header":{
+        "home":"Хоме",
+        "transfer":"Трансфер",
+        "contacts":"Контакти",
+        "setting":"Подешавања",
+        "total":"Укупно"
+    },
+    "page_setting":{
+        "tit":"Подешавања"
+    }
+}

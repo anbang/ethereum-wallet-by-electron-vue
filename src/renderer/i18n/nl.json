@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"omgeving"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"thuis",
+        "transfer":"overdracht",
+        "contacts":"contact",
+        "setting":"oprichten",
+        "total":"totaal"
+    },
+    "page_setting":{
+        "tit":"oprichten"
+    }
+}

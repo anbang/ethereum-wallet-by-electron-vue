@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"سیٹنگ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"گھر",
+        "transfer":"منتقلی",
+        "contacts":"رابطے",
+        "setting":"ترتیبات",
+        "total":"کل"
+    },
+    "page_setting":{
+        "tit":"ترتیبات"
+    }
+}

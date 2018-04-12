@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"સેટિંગ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"હોમ",
+        "transfer":"પરિવહન",
+        "contacts":"સંપર્કો",
+        "setting":"સેટિંગ્સ",
+        "total":"કુલ"
+    },
+    "page_setting":{
+        "tit":"સેટિંગ્સ"
+    }
+}

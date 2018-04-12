@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"mjedis"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"shtëpi",
+        "transfer":"transferim",
+        "contacts":"kontakt",
+        "setting":"ngritur",
+        "total":"total"
+    },
+    "page_setting":{
+        "tit":"ngritur"
+    }
+}

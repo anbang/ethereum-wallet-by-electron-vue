@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"жөндөө"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"үй",
+        "transfer":"ташуу",
+        "contacts":"Байланыш",
+        "setting":"орнотуу",
+        "total":"Бардыгы болуп"
+    },
+    "page_setting":{
+        "tit":"орнотуу"
+    }
+}

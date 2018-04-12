@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"محيط"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"منزل",
+        "transfer":"نقل",
+        "contacts":"اتصال",
+        "setting":"نصب",
+        "total":"مجموع"
+    },
+    "page_setting":{
+        "tit":"نصب"
+    }
+}

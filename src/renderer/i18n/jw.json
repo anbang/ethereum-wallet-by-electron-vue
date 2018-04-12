@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Setelan"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ngarep",
+        "transfer":"Transfer",
+        "contacts":"Kontak",
+        "setting":"Setelan",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Setelan"
+    }
+}

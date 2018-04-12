@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Dejinta"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Guriga",
+        "transfer":"Bedelka",
+        "contacts":"Xiriirrada",
+        "setting":"Goobaha",
+        "total":"Wadarta"
+    },
+    "page_setting":{
+        "tit":"Goobaha"
+    }
+}

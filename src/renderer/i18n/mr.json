@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"सेटिंग"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"मुख्यपृष्ठ",
+        "transfer":"हस्तांतरण",
+        "contacts":"संपर्क",
+        "setting":"सेटिंग्ज",
+        "total":"एकूण"
+    },
+    "page_setting":{
+        "tit":"सेटिंग्ज"
+    }
+}

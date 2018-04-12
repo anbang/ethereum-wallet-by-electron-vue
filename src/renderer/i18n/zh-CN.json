@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Setting"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"首页",
+        "transfer":"转账",
+        "contacts":"联系人",
+        "setting":"设置",
+        "total":"合计"
+    },
+    "page_setting":{
+        "tit":"设置"
+    }
+}

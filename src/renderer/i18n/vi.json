@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Thiết lập"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Trang chủ",
+        "transfer":"Chuyển",
+        "contacts":"Liên hệ",
+        "setting":"Cài đặt",
+        "total":"Tổng cộng"
+    },
+    "page_setting":{
+        "tit":"Cài đặt"
+    }
+}

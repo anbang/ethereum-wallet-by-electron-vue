@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Nastavitev"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Domov",
+        "transfer":"Prenos",
+        "contacts":"Stiki",
+        "setting":"Nastavitve",
+        "total":"Skupaj"
+    },
+    "page_setting":{
+        "tit":"Nastavitve"
+    }
+}

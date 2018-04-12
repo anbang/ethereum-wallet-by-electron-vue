@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ക്രമീകരണം"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"വീട്",
+        "transfer":"കൈമാറ്റം ചെയ്യുക",
+        "contacts":"ബന്ധങ്ങൾ",
+        "setting":"ക്രമീകരണങ്ങൾ",
+        "total":"ആകെ"
+    },
+    "page_setting":{
+        "tit":"ക്രമീകരണങ്ങൾ"
+    }
+}

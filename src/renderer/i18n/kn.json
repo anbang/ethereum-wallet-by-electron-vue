@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ಮುಖಪುಟ",
+        "transfer":"ವರ್ಗಾವಣೆ",
+        "contacts":"ಸಂಪರ್ಕಗಳು",
+        "setting":"ಸೆಟ್ಟಿಂಗ್ಗಳು",
+        "total":"ಒಟ್ಟು"
+    },
+    "page_setting":{
+        "tit":"ಸೆಟ್ಟಿಂಗ್ಗಳು"
+    }
+}

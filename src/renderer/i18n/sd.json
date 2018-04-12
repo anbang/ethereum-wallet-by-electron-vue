@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"سيٽنگ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"گھر",
+        "transfer":"منتقلي",
+        "contacts":"رابطا",
+        "setting":"سيٽنگون",
+        "total":"ڪل"
+    },
+    "page_setting":{
+        "tit":"سيٽنگون"
+    }
+}

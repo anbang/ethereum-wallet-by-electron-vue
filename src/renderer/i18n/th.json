@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"การตั้งค่า"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"บ้าน",
+        "transfer":"โอน",
+        "contacts":"ติดต่อ",
+        "setting":"จัดตั้งขึ้น",
+        "total":"ทั้งหมด"
+    },
+    "page_setting":{
+        "tit":"จัดตั้งขึ้น"
+    }
+}

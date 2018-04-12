@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Twaqqif"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Dar",
+        "transfer":"Trasferiment",
+        "contacts":"Kuntatti",
+        "setting":"Settings",
+        "total":"Totali"
+    },
+    "page_setting":{
+        "tit":"Settings"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Entorno"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Hasiera",
+        "transfer":"Transfer",
+        "contacts":"Harremanetarako",
+        "setting":"Ezarri",
+        "total":"Guztira"
+    },
+    "page_setting":{
+        "tit":"Ezarri"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"설정"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"홈",
+        "transfer":"전송",
+        "contacts":"연락처",
+        "setting":"설정",
+        "total":"합계"
+    },
+    "page_setting":{
+        "tit":"설정"
+    }
+}

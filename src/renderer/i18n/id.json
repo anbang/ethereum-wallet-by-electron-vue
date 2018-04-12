@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Pengaturan"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Rumah",
+        "transfer":"Transfer",
+        "contacts":"Kontak",
+        "setting":"Pengaturan",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Pengaturan"
+    }
+}

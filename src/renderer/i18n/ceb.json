@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Pagtakda"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Panimalay",
+        "transfer":"Pagbalhin",
+        "contacts":"Mga kontak",
+        "setting":"Mga Setting",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Mga Setting"
+    }
+}

@@ -25,44 +25,29 @@ import VueI18n from 'vue-i18n'
 
 import App from './App'
 import router from './router'
-import store from './store'
+// import store from './store'
 
 //引入db数据库
 import db from '../datastore/index'
+//引入需要支持的语言
+import languges from '../../i18n/languges'
 
 Vue.prototype.$db = db
 Vue.config.productionTip = false
 
 Vue.use(VueI18n);
 // 加载i18语言
-const messages = {
-    'zh-CN': require('@/i18n/zh.json'),
-    'ca': require('@/i18n/tap-i18n.json'),
-    'de': require('@/i18n/tap-i18n.json'),
-    'es': require('@/i18n/tap-i18n.json'),
-    'en': require('@/i18n/tap-i18n.json'),
-    'fa': require('@/i18n/tap-i18n.json'),
-
-    'fr': require('@/i18n/tap-i18n.json'),
-    'ja': require('@/i18n/tap-i18n.json'),
-    'ko': require('@/i18n/tap-i18n.json'),
-    'pt': require('@/i18n/tap-i18n.json'),
-    'ro': require('@/i18n/tap-i18n.json'),
-
-    'ru': require('@/i18n/tap-i18n.json'),
-    'sq': require('@/i18n/tap-i18n.json'),
-    'ua': require('@/i18n/tap-i18n.json'),
-    'zh-TW': require('@/i18n/zh-TW.json'),
-    'zh': require('@/i18n/zh.json')
-};
+const messages={};
+for(const languge in languges){
+    var key=languges[languge];
+    messages[key]=require("@/i18n/"+key+".json");
+}
 
 //判断用户使用的语言
 var locale =db.get('czr_contacts.lang').value() ;
-// store.state.Counter.lang = db.get('czr_contacts.lang').value() ;
-// console.log(store.state.Counter.lang)
 //生成国际化插件实例
 const i18n = new VueI18n({
-    locale: store.state.Counter.lang, // set locale
+    locale: locale ,// set locale
     messages, // set locale messages
 });
 
@@ -70,7 +55,7 @@ const i18n = new VueI18n({
 new Vue({
     el: '#app',
     router,
-    store,
+    // store,
     i18n,
     render:h=>h(App)
 })

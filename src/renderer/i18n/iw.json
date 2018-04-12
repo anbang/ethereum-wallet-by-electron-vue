@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"הגדרה"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"בית",
+        "transfer":"העברה",
+        "contacts":"מגעים",
+        "setting":"הגדרות",
+        "total":"סך הכל"
+    },
+    "page_setting":{
+        "tit":"הגדרות"
+    }
+}

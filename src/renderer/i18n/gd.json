@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"A 'suidheachadh"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Dachaigh",
+        "transfer":"Aistridh",
+        "contacts":"Caraidean",
+        "setting":"Roghainnean",
+        "total":"Iomlan"
+    },
+    "page_setting":{
+        "tit":"Roghainnean"
+    }
+}

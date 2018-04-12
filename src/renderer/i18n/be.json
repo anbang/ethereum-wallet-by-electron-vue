@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"налада"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"дома",
+        "transfer":"перадача",
+        "contacts":"кантакт",
+        "setting":"ўсталёўваць",
+        "total":"агульны"
+    },
+    "page_setting":{
+        "tit":"ўсталёўваць"
+    }
+}

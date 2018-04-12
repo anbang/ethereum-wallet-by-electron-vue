@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Ayar"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ev",
+        "transfer":"transfer",
+        "contacts":"temas",
+        "setting":"kurmak",
+        "total":"toplam"
+    },
+    "page_setting":{
+        "tit":"kurmak"
+    }
+}

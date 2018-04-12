@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Faʻatonu"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Aiga",
+        "transfer":"Fesuiaiga",
+        "contacts":"Fesoʻotaʻiga",
+        "setting":"Faʻasologa",
+        "total":"Aofaʻi"
+    },
+    "page_setting":{
+        "tit":"Faʻasologa"
+    }
+}

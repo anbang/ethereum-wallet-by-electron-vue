@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"omgewing"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"huis",
+        "transfer":"oordrag",
+        "contacts":"Kontak",
+        "setting":"opstel",
+        "total":"totale"
+    },
+    "page_setting":{
+        "tit":"opstel"
+    }
+}

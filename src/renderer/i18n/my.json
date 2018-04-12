@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"setting ကို"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"နေအိမ်",
+        "transfer":"လွှဲပြောင်း",
+        "contacts":"ထိတှေ့",
+        "setting":"တက် Set",
+        "total":"စုစုပေါငျး"
+    },
+    "page_setting":{
+        "tit":"တက် Set"
+    }
+}

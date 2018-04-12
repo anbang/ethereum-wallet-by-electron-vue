@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ambiente"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"casa",
+        "transfer":"trasferimento",
+        "contacts":"contatto",
+        "setting":"impostare",
+        "total":"totale"
+    },
+    "page_setting":{
+        "tit":"impostare"
+    }
+}

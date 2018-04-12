@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Налаштування"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Будинок",
+        "transfer":"Трансфер",
+        "contacts":"Контакти",
+        "setting":"Налаштування",
+        "total":"Всього"
+    },
+    "page_setting":{
+        "tit":"Налаштування"
+    }
+}

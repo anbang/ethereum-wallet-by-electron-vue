@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ቅንብር"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ቤት",
+        "transfer":"ዝውውር",
+        "contacts":"እውቂያዎች",
+        "setting":"ቅንብሮች",
+        "total":"ጠቅላላ"
+    },
+    "page_setting":{
+        "tit":"ቅንብሮች"
+    }
+}

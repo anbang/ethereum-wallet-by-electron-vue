@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"nastavenie"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"domov",
+        "transfer":"prevod",
+        "contacts":"kontakt",
+        "setting":"založiť",
+        "total":"totálnej"
+    },
+    "page_setting":{
+        "tit":"založiť"
+    }
+}

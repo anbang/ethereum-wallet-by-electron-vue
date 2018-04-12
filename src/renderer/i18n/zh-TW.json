@@ -1,5 +1,18 @@
 {
     "lang": {
-        "browse": "繁体浏览"
+        "browse":"Setting"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"首頁",
+        "transfer":"轉賬",
+        "contacts":"聯繫人",
+        "setting":"設置",
+        "total":"合計"
+    },
+    "page_setting":{
+        "tit":"設置"
     }
 }

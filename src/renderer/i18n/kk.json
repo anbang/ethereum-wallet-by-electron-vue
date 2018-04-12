@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Орнату"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Үй",
+        "transfer":"Аудару",
+        "contacts":"Байланыс",
+        "setting":"Параметрлер",
+        "total":"Барлығы"
+    },
+    "page_setting":{
+        "tit":"Параметрлер"
+    }
+}

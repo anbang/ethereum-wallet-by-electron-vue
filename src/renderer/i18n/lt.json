@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Nustatymas"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Namuose",
+        "transfer":"Perdavimas",
+        "contacts":"Kontaktai",
+        "setting":"Nustatymai",
+        "total":"Iš viso"
+    },
+    "page_setting":{
+        "tit":"Nustatymai"
+    }
+}

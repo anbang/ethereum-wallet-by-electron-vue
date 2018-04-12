@@ -1,15 +1,15 @@
 <template>
   <header class="header b-flex">
       <ul class="header-nav">
-          <li><router-link to="/" class="active">首页</router-link></li>
-          <li><router-link to="/transfer">转账</router-link></li>
-          <li><router-link to="/contacts">联系人</router-link></li>
-          <li><router-link to="/setting">设置</router-link></li>
+          <li><router-link to="/" class="active">{{ $t('model_header.home') }}</router-link></li>
+          <li><router-link to="/transfer">{{ $t('model_header.transfer') }}</router-link></li>
+          <li><router-link to="/contacts">{{ $t('model_header.contacts') }}</router-link></li>
+          <li><router-link to="/setting">{{ $t('model_header.setting') }}</router-link></li>
       </ul>
       <div class="has-assets-czr">
-          合计持有
+          {{ $t('model_header.total') }}
           <strong>2636578.5483</strong>
-          CZR
+          {{ $t('unit.czr') }}
       </div>
   </header>
 
@@ -31,9 +31,9 @@ export default {
   padding: 12px 20px;
   /* background-color: #f4f4f4; */
 }
-.header-nav{width: 50%;text-align: left;}
+.header-nav{width: 70%;text-align: left;}
 .has-assets-czr{
-    width: 50%;
+    width: 30%;
     text-align: right;
     font-size: 16px;
 }

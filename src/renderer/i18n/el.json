@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Ρύθμιση"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Αρχική σελίδα",
+        "transfer":"Μεταφορά",
+        "contacts":"Επαφές",
+        "setting":"Ρυθμίσεις",
+        "total":"Σύνολο"
+    },
+    "page_setting":{
+        "tit":"Ρυθμίσεις"
+    }
+}

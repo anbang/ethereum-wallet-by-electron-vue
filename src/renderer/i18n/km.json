@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ការកំណត់"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ផ្ទះ",
+        "transfer":"ផ្ទេរ",
+        "contacts":"ទំនាក់ទំនង",
+        "setting":"ការកំណត់",
+        "total":"សរុប"
+    },
+    "page_setting":{
+        "tit":"ការកំណត់"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Ustawienie"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Strona główna",
+        "transfer":"Przenieś",
+        "contacts":"Kontakty",
+        "setting":"Ustawienia",
+        "total":"Razem"
+    },
+    "page_setting":{
+        "tit":"Ustawienia"
+    }
+}

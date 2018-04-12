@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"reglaj"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"acasă",
+        "transfer":"transfer",
+        "contacts":"Contacte",
+        "setting":"Configurarea",
+        "total":"total"
+    },
+    "page_setting":{
+        "tit":"Configurarea"
+    }
+}

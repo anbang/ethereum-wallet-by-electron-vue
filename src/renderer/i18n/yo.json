@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Eto"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ile",
+        "transfer":"Gbigbe lọ",
+        "contacts":"Awọn olubasọrọ",
+        "setting":"Eto",
+        "total":"Lapapọ"
+    },
+    "page_setting":{
+        "tit":"Eto"
+    }
+}

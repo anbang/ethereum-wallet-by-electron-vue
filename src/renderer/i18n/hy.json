@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Կարգավորում"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Գլխավոր էջ",
+        "transfer":"Փոխանցում",
+        "contacts":"Կոնտակտներ",
+        "setting":"Կարգավորումներ",
+        "total":"Ընդամենը"
+    },
+    "page_setting":{
+        "tit":"Կարգավորումներ"
+    }
+}

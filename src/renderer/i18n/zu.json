@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Ukubeka"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ikhaya",
+        "transfer":"Kudluliselwa",
+        "contacts":"Oxhumana nabo",
+        "setting":"Izilungiselelo",
+        "total":"Inani"
+    },
+    "page_setting":{
+        "tit":"Izilungiselelo"
+    }
+}

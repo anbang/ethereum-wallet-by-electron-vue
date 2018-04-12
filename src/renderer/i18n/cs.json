@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Nastavení"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Domů",
+        "transfer":"Přenos",
+        "contacts":"Kontakty",
+        "setting":"Nastavení",
+        "total":"Celkem"
+    },
+    "page_setting":{
+        "tit":"Nastavení"
+    }
+}

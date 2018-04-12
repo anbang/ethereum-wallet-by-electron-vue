@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Menetapkan"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Rumah",
+        "transfer":"Pemindahan",
+        "contacts":"Kenalan",
+        "setting":"Tetapan",
+        "total":"Jumlah"
+    },
+    "page_setting":{
+        "tit":"Tetapan"
+    }
+}

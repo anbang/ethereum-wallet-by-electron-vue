@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"asetus"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"koti",
+        "transfer":"siirto",
+        "contacts":"kosketus",
+        "setting":"perustettu",
+        "total":"kokonais-"
+    },
+    "page_setting":{
+        "tit":"perustettu"
+    }
+}

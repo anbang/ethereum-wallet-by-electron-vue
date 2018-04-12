@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"設定"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ホーム",
+        "transfer":"転送",
+        "contacts":"連絡先",
+        "setting":"設定",
+        "total":"合計"
+    },
+    "page_setting":{
+        "tit":"設定"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"inställning"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Home",
+        "transfer":"Transfer",
+        "contacts":"Kontakta",
+        "setting":"Ställ in",
+        "total":"total"
+    },
+    "page_setting":{
+        "tit":"Ställ in"
+    }
+}

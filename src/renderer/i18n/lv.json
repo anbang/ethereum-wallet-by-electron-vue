@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Iestatījums"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Mājas",
+        "transfer":"Pārsūtīšana",
+        "contacts":"Kontakti",
+        "setting":"Iestatījumi",
+        "total":"Kopā"
+    },
+    "page_setting":{
+        "tit":"Iestatījumi"
+    }
+}

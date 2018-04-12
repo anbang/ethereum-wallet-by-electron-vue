@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"ການຕັ້ງຄ່າ"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ຫນ້າທໍາອິດ",
+        "transfer":"ການໂອນເງິນ",
+        "contacts":"ຕິດຕໍ່ພົວພັນ",
+        "setting":"Settings",
+        "total":"ລວມ"
+    },
+    "page_setting":{
+        "tit":"Settings"
+    }
+}

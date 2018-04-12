@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"באַשטעטיקן"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"היים",
+        "transfer":"אַריבערפירן",
+        "contacts":"קאָנטאַקטן",
+        "setting":"Settings",
+        "total":"גאַנץ"
+    },
+    "page_setting":{
+        "tit":"Settings"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"Postavljanje"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Home",
+        "transfer":"Transfer",
+        "contacts":"Kontakti",
+        "setting":"Postavke",
+        "total":"Ukupno"
+    },
+    "page_setting":{
+        "tit":"Postavke"
+    }
+}

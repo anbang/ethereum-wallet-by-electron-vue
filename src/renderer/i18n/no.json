@@ -1,0 +1,18 @@
+{
+    "lang": {
+        "browse":"innstilling"
+    },
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Hjem",
+        "transfer":"Transfer",
+        "contacts":"Kontakt",
+        "setting":"Sett opp",
+        "total":"total"
+    },
+    "page_setting":{
+        "tit":"Sett opp"
+    }
+}
