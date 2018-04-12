@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Configuració"
-    },
+    "lang":"Llengua",
+    "confirm":"Confirmació",
+    "cancel":"Cancel·lació",
+    "confirm_you_active":"Confirmeu el vostre funcionament",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Inici",
         "transfer":"Transferència",
-        "contacts":"Contactes",
+        "contacts":"Llibreta d'adreces",
         "setting":"Configuració",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Llibreta d'adreces",
+        "add_cont":{
+            "tri_dialog":"Afegeix adreça",
+            "dialog_tit":"Introduïu la informació d'adreça",
+            "dialog_tag":"Etiquetes",
+            "tag_placeholder":"Introduïu l'etiqueta de comentaris de l'adreça",
+            "dialog_address":"Adreça",
+            "address_placeholder":"Introduïu l'adreça"
+        },
+        "delete_dialog":{
+            "title":"Estàs eliminant"
+        }
     },
     "page_setting":{
         "tit":"Configuració"

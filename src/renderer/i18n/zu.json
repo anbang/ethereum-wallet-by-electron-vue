@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ukubeka"
-    },
+    "lang":"Ulimi",
+    "confirm":"Isiqinisekiso",
+    "cancel":"Ukukhansela",
+    "confirm_you_active":"Sicela uqinisekise ukusebenza kwakho",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Ikhaya",
         "transfer":"Kudluliselwa",
-        "contacts":"Oxhumana nabo",
+        "contacts":"Ibhuku lekheli",
         "setting":"Izilungiselelo",
         "total":"Inani"
+    },
+    "page_contacts":{
+        "tit":"Ibhuku lekheli",
+        "add_cont":{
+            "tri_dialog":"Engeza ikheli",
+            "dialog_tit":"Faka imininingwane yekheli",
+            "dialog_tag":"Amathegi",
+            "tag_placeholder":"Sicela ufake ithegi yamazwana ekhelini",
+            "dialog_address":"Ikheli",
+            "address_placeholder":"Sicela ufake ikheli"
+        },
+        "delete_dialog":{
+            "title":"Ususa"
+        }
     },
     "page_setting":{
         "tit":"Izilungiselelo"

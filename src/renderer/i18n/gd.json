@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"A 'suidheachadh"
-    },
+    "lang":"Cànan",
+    "confirm":"Dearbhadh",
+    "cancel":"Sguir dheth",
+    "confirm_you_active":"Dearbhaich an obair agad",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Dachaigh",
         "transfer":"Aistridh",
-        "contacts":"Caraidean",
+        "contacts":"Leabhar seòlaidh",
         "setting":"Roghainnean",
         "total":"Iomlan"
+    },
+    "page_contacts":{
+        "tit":"Leabhar seòlaidh",
+        "add_cont":{
+            "tri_dialog":"Cuir seòladh",
+            "dialog_tit":"Cuir a-steach fiosrachadh seòlaidh",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Cuir a-steach an tag tag airson an t-seòlaidh",
+            "dialog_address":"Seòladh",
+            "address_placeholder":"Cuir a-steach an seòladh"
+        },
+        "delete_dialog":{
+            "title":"Tha thu a 'toirt air falbh"
+        }
     },
     "page_setting":{
         "tit":"Roghainnean"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ການຕັ້ງຄ່າ"
-    },
+    "lang":"ພາສາ",
+    "confirm":"ການຢືນຢັນ",
+    "cancel":"ການຍົກເລີກ",
+    "confirm_you_active":"ກະລຸນາຢືນຢັນການເຮັດວຽກຂອງທ່ານ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ຫນ້າທໍາອິດ",
         "transfer":"ການໂອນເງິນ",
-        "contacts":"ຕິດຕໍ່ພົວພັນ",
+        "contacts":"ປື້ມທີ່ຢູ່",
         "setting":"Settings",
         "total":"ລວມ"
+    },
+    "page_contacts":{
+        "tit":"ປື້ມທີ່ຢູ່",
+        "add_cont":{
+            "tri_dialog":"ຕື່ມການທີ່ຢູ່",
+            "dialog_tit":"ໃສ່ຂໍ້ມູນທີ່ຢູ່",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"ກະລຸນາໃສ່ແທັບຄໍາສໍາລັບທີ່ຢູ່",
+            "dialog_address":"ທີ່ຢູ່",
+            "address_placeholder":"ກະລຸນາໃສ່ທີ່ຢູ່"
+        },
+        "delete_dialog":{
+            "title":"ທ່ານກໍາລັງຖອນເອົາ"
+        }
     },
     "page_setting":{
         "tit":"Settings"

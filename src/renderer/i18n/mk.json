@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Поставување"
-    },
+    "lang":"Јазик",
+    "confirm":"Потврда",
+    "cancel":"Поништување",
+    "confirm_you_active":"Ве молиме потврдете ја вашата работа",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Дома",
         "transfer":"Трансфер",
-        "contacts":"Контакти",
+        "contacts":"Адресар",
         "setting":"Поставки",
         "total":"Вкупно"
+    },
+    "page_contacts":{
+        "tit":"Адресар",
+        "add_cont":{
+            "tri_dialog":"Додај адреса",
+            "dialog_tit":"Внесете информации за адреса",
+            "dialog_tag":"Тагови",
+            "tag_placeholder":"Ве молиме внесете ја ознаката за коментар за адресата",
+            "dialog_address":"Адреса",
+            "address_placeholder":"Ве молиме внесете ја адресата"
+        },
+        "delete_dialog":{
+            "title":"Вие се отстранувате"
+        }
     },
     "page_setting":{
         "tit":"Поставки"

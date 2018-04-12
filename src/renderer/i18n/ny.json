@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Kukhazikitsa"
-    },
+    "lang":"Chilankhulo",
+    "confirm":"Umboni",
+    "cancel":"Kuletsedwa",
+    "confirm_you_active":"Chonde tsimikizani ntchito yanu",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Kunyumba",
         "transfer":"Tumizani",
-        "contacts":"Othandizira",
+        "contacts":"Bukhu la Maadiresi",
         "setting":"Makhalidwe",
         "total":"Chiwerengero"
+    },
+    "page_contacts":{
+        "tit":"Bukhu la Maadiresi",
+        "add_cont":{
+            "tri_dialog":"Onjezani adilesi",
+            "dialog_tit":"Lowani chidziwitso cha adresse",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Chonde lowetsani ndemanga ya ndemanga pa adilesi",
+            "dialog_address":"Adilesi",
+            "address_placeholder":"Chonde lowetsani adilesi"
+        },
+        "delete_dialog":{
+            "title":"Mukuchotsa"
+        }
     },
     "page_setting":{
         "tit":"Makhalidwe"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Configuración"
-    },
+    "lang":"Linguaxe",
+    "confirm":"Confirmación",
+    "cancel":"Cancelación",
+    "confirm_you_active":"Confirma a túa operación",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Inicio",
         "transfer":"Transferencia",
-        "contacts":"Contactos",
+        "contacts":"Caderno de enderezos",
         "setting":"Configuración",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Caderno de enderezos",
+        "add_cont":{
+            "tri_dialog":"Engadir enderezo",
+            "dialog_tit":"Introduce a información do enderezo",
+            "dialog_tag":"Etiquetas",
+            "tag_placeholder":"Introduce a etiqueta de comentario para a dirección",
+            "dialog_address":"Enderezo",
+            "address_placeholder":"Introduce o enderezo"
+        },
+        "delete_dialog":{
+            "title":"Estás a eliminar"
+        }
     },
     "page_setting":{
         "tit":"Configuración"

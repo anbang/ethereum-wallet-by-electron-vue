@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"تنظیم"
-    },
+    "lang":"زبان",
+    "confirm":"تأیید",
+    "cancel":"لغو",
+    "confirm_you_active":"لطفا عملیات خود را تأیید کنید",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"خانه",
         "transfer":"انتقال",
-        "contacts":"اطلاعات تماس",
+        "contacts":"کتاب آدرس",
         "setting":"تنظیمات",
         "total":"کل"
+    },
+    "page_contacts":{
+        "tit":"کتاب آدرس",
+        "add_cont":{
+            "tri_dialog":"آدرس را اضافه کنید",
+            "dialog_tit":"اطلاعات آدرس را وارد کنید",
+            "dialog_tag":"برچسب ها",
+            "tag_placeholder":"لطفا برچسب نظر را برای آدرس وارد کنید",
+            "dialog_address":"آدرس",
+            "address_placeholder":"لطفا آدرس را وارد کنید"
+        },
+        "delete_dialog":{
+            "title":"شما حذف می کنید"
+        }
     },
     "page_setting":{
         "tit":"تنظیمات"

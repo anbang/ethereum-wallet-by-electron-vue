@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"жөндөө"
-    },
+    "lang":"тил",
+    "confirm":"ырастоо",
+    "cancel":"жокко чыгарылды",
+    "confirm_you_active":"Сураныч, операция болушу керек",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"үй",
         "transfer":"ташуу",
-        "contacts":"Байланыш",
+        "contacts":"Дарек китеби",
         "setting":"орнотуу",
         "total":"Бардыгы болуп"
+    },
+    "page_contacts":{
+        "tit":"Дарек китеби",
+        "add_cont":{
+            "tri_dialog":"кошуу дарек",
+            "dialog_tit":"дарегин киргизүү",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Сураныч дарек этикеткасы Эскертүүлөр кирет",
+            "dialog_address":"дарек",
+            "address_placeholder":"Сураныч, дарегин киргизүү"
+        },
+        "delete_dialog":{
+            "title":"Сиз алып жатышат"
+        }
     },
     "page_setting":{
         "tit":"орнотуу"

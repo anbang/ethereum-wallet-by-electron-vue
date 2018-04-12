@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Réglage"
-    },
+    "lang":"Langue",
+    "confirm":"Confirmation",
+    "cancel":"Annulation",
+    "confirm_you_active":"S'il vous plaît confirmer votre opération",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Accueil",
         "transfer":"Transfert",
-        "contacts":"Contacts",
+        "contacts":"Carnet d'adresses",
         "setting":"Paramètres",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Carnet d'adresses",
+        "add_cont":{
+            "tri_dialog":"Ajouter une adresse",
+            "dialog_tit":"Entrez les informations d'adresse",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Veuillez entrer le tag de commentaire pour l'adresse",
+            "dialog_address":"Adresse",
+            "address_placeholder":"S'il vous plaît entrer l'adresse"
+        },
+        "delete_dialog":{
+            "title":"Vous supprimez"
+        }
     },
     "page_setting":{
         "tit":"Paramètres"

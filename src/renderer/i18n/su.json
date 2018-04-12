@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"setelan"
-    },
+    "lang":"basa",
+    "confirm":"ngeceskeun",
+    "cancel":"dibolaykeun",
+    "confirm_you_active":"Mangga pastikeun operasi anjeun",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"imah",
         "transfer":"mindahkeun",
-        "contacts":"hubungan",
+        "contacts":"alamat Book",
         "setting":"nyetél",
         "total":"total"
+    },
+    "page_contacts":{
+        "tit":"alamat Book",
+        "add_cont":{
+            "tri_dialog":"tambahkeun Alamat",
+            "dialog_tit":"Asupkeun inpo nu alamatna",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Mangga lebetkeun dina Katerangan labél alamat",
+            "dialog_address":"alamat",
+            "address_placeholder":"Mangga lebetkeun alamat nu"
+        },
+        "delete_dialog":{
+            "title":"Anjeun nyoplokkeun"
+        }
     },
     "page_setting":{
         "tit":"nyetél"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"настройка"
-    },
+    "lang":"язык",
+    "confirm":"подтвердить",
+    "cancel":"отменен",
+    "confirm_you_active":"Пожалуйста, подтвердите свою операцию",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"дома",
         "transfer":"передача",
-        "contacts":"контакт",
+        "contacts":"Адресная книга",
         "setting":"устанавливать",
         "total":"общий"
+    },
+    "page_contacts":{
+        "tit":"Адресная книга",
+        "add_cont":{
+            "tri_dialog":"Добавить адрес",
+            "dialog_tit":"Введите адресную информацию",
+            "dialog_tag":"тег",
+            "tag_placeholder":"Введите тег комментария для адреса",
+            "dialog_address":"адрес",
+            "address_placeholder":"Введите адрес"
+        },
+        "delete_dialog":{
+            "title":"Вы удаляете"
+        }
     },
     "page_setting":{
         "tit":"устанавливать"

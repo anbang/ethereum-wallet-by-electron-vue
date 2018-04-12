@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ambiente"
-    },
+    "lang":"lingua",
+    "confirm":"confermare",
+    "cancel":"annullato",
+    "confirm_you_active":"Si prega di confermare l'operazione",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"casa",
         "transfer":"trasferimento",
-        "contacts":"contatto",
+        "contacts":"Rubrica",
         "setting":"impostare",
         "total":"totale"
+    },
+    "page_contacts":{
+        "tit":"Rubrica",
+        "add_cont":{
+            "tri_dialog":"Aggiungi indirizzo",
+            "dialog_tit":"Inserisci le informazioni sull'indirizzo",
+            "dialog_tag":"etichetta",
+            "tag_placeholder":"Si prega di inserire il tag commento per l'indirizzo",
+            "dialog_address":"indirizzo",
+            "address_placeholder":"Si prega di inserire l'indirizzo"
+        },
+        "delete_dialog":{
+            "title":"Stai rimuovendo"
+        }
     },
     "page_setting":{
         "tit":"impostare"

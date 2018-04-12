@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"omgeving"
-    },
+    "lang":"taal",
+    "confirm":"bevestigen",
+    "cancel":"geannuleerd",
+    "confirm_you_active":"Bevestig uw werking",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"thuis",
         "transfer":"overdracht",
-        "contacts":"contact",
+        "contacts":"Adresboek",
         "setting":"oprichten",
         "total":"totaal"
+    },
+    "page_contacts":{
+        "tit":"Adresboek",
+        "add_cont":{
+            "tri_dialog":"Voeg adres toe",
+            "dialog_tit":"Voer adresinformatie in",
+            "dialog_tag":"label",
+            "tag_placeholder":"Voer de commentaartag in voor het adres",
+            "dialog_address":"adres",
+            "address_placeholder":"Voer het adres in"
+        },
+        "delete_dialog":{
+            "title":"Je verwijdert"
+        }
     },
     "page_setting":{
         "tit":"oprichten"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Parcu"
-    },
+    "lang":"Lingua",
+    "confirm":"Cunfirmazione",
+    "cancel":"Annullazione",
+    "confirm_you_active":"Cunfirmà a vostra operazione",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Trasferimentu",
-        "contacts":"Cuntatti",
+        "contacts":"Address book",
         "setting":"Settings",
         "total":"Tuttu"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Aghjunghjenu indirizzu",
+            "dialog_tit":"Introduce l'indirizzu infurmazione",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Per piacè inserite u cumendariu à l'indirizzu",
+            "dialog_address":"Indirizzu",
+            "address_placeholder":"Per piacè entre in l'indirizzu"
+        },
+        "delete_dialog":{
+            "title":"Vulete sguassà"
+        }
     },
     "page_setting":{
         "tit":"Settings"

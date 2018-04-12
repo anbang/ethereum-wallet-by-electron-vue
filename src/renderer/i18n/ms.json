@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Menetapkan"
-    },
+    "lang":"Bahasa",
+    "confirm":"Pengesahan",
+    "cancel":"Pembatalan",
+    "confirm_you_active":"Sila sahkan operasi anda",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Rumah",
         "transfer":"Pemindahan",
-        "contacts":"Kenalan",
+        "contacts":"Buku alamat",
         "setting":"Tetapan",
         "total":"Jumlah"
+    },
+    "page_contacts":{
+        "tit":"Buku alamat",
+        "add_cont":{
+            "tri_dialog":"Tambah alamat",
+            "dialog_tit":"Masukkan maklumat alamat",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Sila masukkan teg komen untuk alamat",
+            "dialog_address":"Alamat",
+            "address_placeholder":"Sila masukkan alamat"
+        },
+        "delete_dialog":{
+            "title":"Anda membuang"
+        }
     },
     "page_setting":{
         "tit":"Tetapan"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ترتیب"
-    },
+    "lang":"ژبه",
+    "confirm":"تایید",
+    "cancel":"ردول",
+    "confirm_you_active":"مهرباني وکړئ خپل عملیات تایید کړئ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"کور",
         "transfer":"انتقال",
-        "contacts":"اړیکې",
+        "contacts":"د پته کتاب",
         "setting":"امستنې",
         "total":"ټول"
+    },
+    "page_contacts":{
+        "tit":"د پته کتاب",
+        "add_cont":{
+            "tri_dialog":"پته اضافه کړه",
+            "dialog_tit":"د ادرس معلومات ولیکئ",
+            "dialog_tag":"ټکي",
+            "tag_placeholder":"لطفا د پته لپاره د تبصره لیک وليکئ",
+            "dialog_address":"پته",
+            "address_placeholder":"لطفا پته ولیکئ"
+        },
+        "delete_dialog":{
+            "title":"تاسو لرې کول"
+        }
     },
     "page_setting":{
         "tit":"امستنې"

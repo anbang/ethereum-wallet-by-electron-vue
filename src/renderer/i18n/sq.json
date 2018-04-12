@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"mjedis"
-    },
+    "lang":"gjuhë",
+    "confirm":"konfirmoj",
+    "cancel":"anuluar",
+    "confirm_you_active":"Lutemi konfirmoni operacionin tuaj",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"shtëpi",
         "transfer":"transferim",
-        "contacts":"kontakt",
+        "contacts":"Libri i adresave",
         "setting":"ngritur",
         "total":"total"
+    },
+    "page_contacts":{
+        "tit":"Libri i adresave",
+        "add_cont":{
+            "tri_dialog":"Shto adresën",
+            "dialog_tit":"Shkruani informacionin e adresës",
+            "dialog_tag":"etiketë",
+            "tag_placeholder":"Ju lutemi shkruani tag komentin për adresën",
+            "dialog_address":"adresë",
+            "address_placeholder":"Ju lutemi shkruani adresën"
+        },
+        "delete_dialog":{
+            "title":"Po heq"
+        }
     },
     "page_setting":{
         "tit":"ngritur"

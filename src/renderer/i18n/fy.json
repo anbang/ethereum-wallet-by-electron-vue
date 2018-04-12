@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Setting"
-    },
+    "lang":"Taal",
+    "confirm":"Befêstiging",
+    "cancel":"Annulearje",
+    "confirm_you_active":"Besykje jo operaasje befêstigje",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Thús",
         "transfer":"Oerstap",
-        "contacts":"Kontakten",
+        "contacts":"Adresboek",
         "setting":"Ynstellings",
         "total":"Totaal"
+    },
+    "page_contacts":{
+        "tit":"Adresboek",
+        "add_cont":{
+            "tri_dialog":"Adres taheakje",
+            "dialog_tit":"Fier adresynformaasje yn",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Fier de kommentaar yn foar it adres",
+            "dialog_address":"Adres",
+            "address_placeholder":"Fier it adres yn"
+        },
+        "delete_dialog":{
+            "title":"Jo binne fuorthelle"
+        }
     },
     "page_setting":{
         "tit":"Ynstellings"

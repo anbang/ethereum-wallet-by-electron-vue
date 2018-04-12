@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"postavljanje"
-    },
+    "lang":"jezik",
+    "confirm":"potvrditi",
+    "cancel":"otkazan",
+    "confirm_you_active":"Potvrdite svoju operaciju",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"dom",
         "transfer":"prijenos",
-        "contacts":"kontakt",
+        "contacts":"Adresar",
         "setting":"postaviti",
         "total":"ukupno"
+    },
+    "page_contacts":{
+        "tit":"Adresar",
+        "add_cont":{
+            "tri_dialog":"Dodajte adresu",
+            "dialog_tit":"Unesite adrese",
+            "dialog_tag":"oznaka",
+            "tag_placeholder":"Unesite oznaku komentara za adresu",
+            "dialog_address":"adresa",
+            "address_placeholder":"Unesite adresu"
+        },
+        "delete_dialog":{
+            "title":"Uklanjate"
+        }
     },
     "page_setting":{
         "tit":"postaviti"

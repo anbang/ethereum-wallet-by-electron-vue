@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ቅንብር"
-    },
+    "lang":"ቋንቋ",
+    "confirm":"ማረጋገጫ",
+    "cancel":"ስረዛ",
+    "confirm_you_active":"እባክዎ የእርስዎን ክወና ያረጋግጡ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ቤት",
         "transfer":"ዝውውር",
-        "contacts":"እውቂያዎች",
+        "contacts":"የአድራሻ ደብተር",
         "setting":"ቅንብሮች",
         "total":"ጠቅላላ"
+    },
+    "page_contacts":{
+        "tit":"የአድራሻ ደብተር",
+        "add_cont":{
+            "tri_dialog":"አድራሻ አክል",
+            "dialog_tit":"የአድራሻ መረጃ ያስገቡ",
+            "dialog_tag":"መለያዎች",
+            "tag_placeholder":"ለአድራሻው የአስተያየት መለያውን ያስገቡ",
+            "dialog_address":"አድራሻ",
+            "address_placeholder":"እባክህ አድራሻውን አስገባ"
+        },
+        "delete_dialog":{
+            "title":"እያስወገድክ ነው"
+        }
     },
     "page_setting":{
         "tit":"ቅንብሮች"

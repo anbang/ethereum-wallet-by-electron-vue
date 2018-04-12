@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"הגדרה"
-    },
+    "lang":"שפה",
+    "confirm":"אישור",
+    "cancel":"ביטול",
+    "confirm_you_active":"אשר את הפעולה שלך",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"בית",
         "transfer":"העברה",
-        "contacts":"מגעים",
+        "contacts":"פנקס כתובות",
         "setting":"הגדרות",
         "total":"סך הכל"
+    },
+    "page_contacts":{
+        "tit":"פנקס כתובות",
+        "add_cont":{
+            "tri_dialog":"הוסף כתובת",
+            "dialog_tit":"הזן פרטי כתובת",
+            "dialog_tag":"תגים",
+            "tag_placeholder":"הזן את תג התגובה עבור הכתובת",
+            "dialog_address":"כתובת",
+            "address_placeholder":"הזן את הכתובת"
+        },
+        "delete_dialog":{
+            "title":"אתה מסיר"
+        }
     },
     "page_setting":{
         "tit":"הגדרות"

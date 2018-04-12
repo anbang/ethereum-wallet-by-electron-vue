@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"beállítás"
-    },
+    "lang":"nyelv",
+    "confirm":"Erősítse",
+    "cancel":"törölve",
+    "confirm_you_active":"Kérjük, erősítse meg működését",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"otthon",
         "transfer":"átutalás",
-        "contacts":"érintkezés",
+        "contacts":"Címjegyzék",
         "setting":"beállítása",
         "total":"teljes"
+    },
+    "page_contacts":{
+        "tit":"Címjegyzék",
+        "add_cont":{
+            "tri_dialog":"Cím hozzáadása",
+            "dialog_tit":"Írja be a címadatokat",
+            "dialog_tag":"címke",
+            "tag_placeholder":"Adja meg a cím komment címkéjét",
+            "dialog_address":"cím",
+            "address_placeholder":"Kérjük, adja meg a címet"
+        },
+        "delete_dialog":{
+            "title":"Ön eltávolít"
+        }
     },
     "page_setting":{
         "tit":"beállítása"

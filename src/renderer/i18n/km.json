@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ការកំណត់"
-    },
+    "lang":"ភាសា",
+    "confirm":"ការបញ្ជាក់",
+    "cancel":"ការលប់ចោល",
+    "confirm_you_active":"សូមបញ្ជាក់ប្រតិបត្តិការរបស់អ្នក",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ផ្ទះ",
         "transfer":"ផ្ទេរ",
-        "contacts":"ទំនាក់ទំនង",
+        "contacts":"សៀវភៅអាសយដ្ឋាន",
         "setting":"ការកំណត់",
         "total":"សរុប"
+    },
+    "page_contacts":{
+        "tit":"សៀវភៅអាសយដ្ឋាន",
+        "add_cont":{
+            "tri_dialog":"បន្ថែមអាសយដ្ឋាន",
+            "dialog_tit":"បញ្ចូលព័ត៌មានអាសយដ្ឋាន",
+            "dialog_tag":"ស្លាក",
+            "tag_placeholder":"សូមបញ្ចូលស្លាកមតិយោបល់សម្រាប់អាសយដ្ឋាន",
+            "dialog_address":"អាសយដ្ឋាន",
+            "address_placeholder":"សូមបញ្ចូលអាសយដ្ឋាន"
+        },
+        "delete_dialog":{
+            "title":"អ្នកកំពុងដកចេញ"
+        }
     },
     "page_setting":{
         "tit":"ការកំណត់"

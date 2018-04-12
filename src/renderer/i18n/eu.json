@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Entorno"
-    },
+    "lang":"Hizkuntza",
+    "confirm":"Berretsi",
+    "cancel":"Bertan behera",
+    "confirm_you_active":"Mesedez berretsi zure eragiketa",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Hasiera",
         "transfer":"Transfer",
-        "contacts":"Harremanetarako",
+        "contacts":"Helbide liburua",
         "setting":"Ezarri",
         "total":"Guztira"
+    },
+    "page_contacts":{
+        "tit":"Helbide liburua",
+        "add_cont":{
+            "tri_dialog":"Gehitu helbidea",
+            "dialog_tit":"Idatzi helbide informazioa",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Idatzi iruzkina egiteko etiketa helbidera",
+            "dialog_address":"Helbidea",
+            "address_placeholder":"Idatzi helbidea"
+        },
+        "delete_dialog":{
+            "title":"Kendu egiten ari zara"
+        }
     },
     "page_setting":{
         "tit":"Ezarri"

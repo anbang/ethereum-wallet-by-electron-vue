@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Iestatījums"
-    },
+    "lang":"Valoda",
+    "confirm":"Apstiprinājums",
+    "cancel":"Anulēšana",
+    "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Mājas",
         "transfer":"Pārsūtīšana",
-        "contacts":"Kontakti",
+        "contacts":"Adrešu grāmata",
         "setting":"Iestatījumi",
         "total":"Kopā"
+    },
+    "page_contacts":{
+        "tit":"Adrešu grāmata",
+        "add_cont":{
+            "tri_dialog":"Pievienot adresi",
+            "dialog_tit":"Ievadiet adreses informāciju",
+            "dialog_tag":"Birkas",
+            "tag_placeholder":"Lūdzu, ievadiet komentāra tagu par adresi",
+            "dialog_address":"Adrese",
+            "address_placeholder":"Lūdzu, ievadiet adresi"
+        },
+        "delete_dialog":{
+            "title":"Jūs noņemat"
+        }
     },
     "page_setting":{
         "tit":"Iestatījumi"

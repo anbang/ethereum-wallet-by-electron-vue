@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"సెట్టింగు"
-    },
+    "lang":"భాషా",
+    "confirm":"నిర్ధారించండి",
+    "cancel":"రద్దు",
+    "confirm_you_active":"దయచేసి మీ ఆపరేషన్ను నిర్ధారించండి",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"హోమ్",
         "transfer":"ట్రాన్స్ఫర్",
-        "contacts":"సంప్రదించండి",
+        "contacts":"చిరునామా పుస్తకం",
         "setting":"ఏర్పాటు",
         "total":"మొత్తం"
+    },
+    "page_contacts":{
+        "tit":"చిరునామా పుస్తకం",
+        "add_cont":{
+            "tri_dialog":"చిరునామాను జోడించండి",
+            "dialog_tit":"చిరునామా సమాచారం నమోదు చేయండి",
+            "dialog_tag":"ట్యాగ్",
+            "tag_placeholder":"దయచేసి చిరునామా కోసం వ్యాఖ్య ట్యాగ్ను నమోదు చేయండి",
+            "dialog_address":"చిరునామా",
+            "address_placeholder":"దయచేసి చిరునామాను నమోదు చేయండి"
+        },
+        "delete_dialog":{
+            "title":"మీరు తీసివేస్తున్నారు"
+        }
     },
     "page_setting":{
         "tit":"ఏర్పాటు"

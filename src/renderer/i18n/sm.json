@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Faʻatonu"
-    },
+    "lang":"Gagana",
+    "confirm":"Faamauga",
+    "cancel":"Faaleaogaina",
+    "confirm_you_active":"Faʻamolemole faʻamaonia lau taotoga",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Aiga",
         "transfer":"Fesuiaiga",
-        "contacts":"Fesoʻotaʻiga",
+        "contacts":"Tusi lauga",
         "setting":"Faʻasologa",
         "total":"Aofaʻi"
+    },
+    "page_contacts":{
+        "tit":"Tusi lauga",
+        "add_cont":{
+            "tri_dialog":"Faʻaopoopo le tuatusi",
+            "dialog_tit":"Ulufale faʻamatalaga faʻamatalaga",
+            "dialog_tag":"Faailoga",
+            "tag_placeholder":"Faʻamolemole ulufale i le comment tag mo le tuatusi",
+            "dialog_address":"Tuatusi",
+            "address_placeholder":"Faamolemole ulufale mai i le tuatusi"
+        },
+        "delete_dialog":{
+            "title":"O loʻo e vaʻavaʻa"
+        }
     },
     "page_setting":{
         "tit":"Faʻasologa"

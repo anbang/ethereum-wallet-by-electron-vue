@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"setting ကို"
-    },
+    "lang":"ဘာသာစကား",
+    "confirm":"အတည်ပြု",
+    "cancel":"ဖျက်သိမ်း",
+    "confirm_you_active":"သင့်ရဲ့စစ်ဆင်ရေးသေချာအောင်ကျေးဇူးပြုပြီး",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"နေအိမ်",
         "transfer":"လွှဲပြောင်း",
-        "contacts":"ထိတှေ့",
+        "contacts":"စာအုပ်နေရပ်လိပ်စာ",
         "setting":"တက် Set",
         "total":"စုစုပေါငျး"
+    },
+    "page_contacts":{
+        "tit":"စာအုပ်နေရပ်လိပ်စာ",
+        "add_cont":{
+            "tri_dialog":"လိပ်စာ Add",
+            "dialog_tit":"လိပ်စာသတင်းအချက်အလက် Enter",
+            "dialog_tag":"tag ကို",
+            "tag_placeholder":"လိပ်စာတံဆိပ်မှတ်ချက်ရိုက်ထည့်ပေးပါ",
+            "dialog_address":"လိပ်စာ",
+            "address_placeholder":"လိပ်စာရိုက်ထည့်ပေးပါ"
+        },
+        "delete_dialog":{
+            "title":"သငျသညျမဖယ်ရှားကြသည်"
+        }
     },
     "page_setting":{
         "tit":"တက် Set"

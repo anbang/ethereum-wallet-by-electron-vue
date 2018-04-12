@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Nustatymas"
-    },
+    "lang":"Kalba",
+    "confirm":"Patvirtinimas",
+    "cancel":"Anuliavimas",
+    "confirm_you_active":"Patvirtinkite savo operaciją",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Namuose",
         "transfer":"Perdavimas",
-        "contacts":"Kontaktai",
+        "contacts":"Adresų knyga",
         "setting":"Nustatymai",
         "total":"Iš viso"
+    },
+    "page_contacts":{
+        "tit":"Adresų knyga",
+        "add_cont":{
+            "tri_dialog":"Pridėti adresą",
+            "dialog_tit":"Įveskite adreso informaciją",
+            "dialog_tag":"Žymos",
+            "tag_placeholder":"Įveskite adreso komentaro žymą",
+            "dialog_address":"Adresas",
+            "address_placeholder":"Įveskite adresą"
+        },
+        "delete_dialog":{
+            "title":"Jūs pašalinate"
+        }
     },
     "page_setting":{
         "tit":"Nustatymai"

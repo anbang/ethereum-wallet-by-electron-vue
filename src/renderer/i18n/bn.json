@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"বিন্যাস"
-    },
+    "lang":"ভাষা",
+    "confirm":"নিশ্চিত করা",
+    "cancel":"বাতিল করা হয়েছে",
+    "confirm_you_active":"আপনার অপারেশন নিশ্চিত করুন",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"বাড়ি",
         "transfer":"হস্তান্তর",
-        "contacts":"যোগাযোগ",
+        "contacts":"ঠিকানা বই",
         "setting":"সেট আপ করুন",
         "total":"মোট"
+    },
+    "page_contacts":{
+        "tit":"ঠিকানা বই",
+        "add_cont":{
+            "tri_dialog":"ঠিকানা জুড়ুন",
+            "dialog_tit":"ঠিকানা তথ্য লিখুন",
+            "dialog_tag":"ট্যাগ",
+            "tag_placeholder":"ঠিকানা জন্য মন্তব্য ট্যাগ লিখুন দয়া করে",
+            "dialog_address":"ঠিকানা",
+            "address_placeholder":"ঠিকানা লিখুন দয়া করে"
+        },
+        "delete_dialog":{
+            "title":"আপনি সরানো হয়"
+        }
     },
     "page_setting":{
         "tit":"সেট আপ করুন"

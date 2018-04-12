@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"સેટિંગ"
-    },
+    "lang":"ભાષા",
+    "confirm":"સમર્થન",
+    "cancel":"રદ",
+    "confirm_you_active":"કૃપા કરીને તમારા ઑપરેશનની પુષ્ટિ કરો",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"હોમ",
         "transfer":"પરિવહન",
-        "contacts":"સંપર્કો",
+        "contacts":"સરનામું પુસ્તક",
         "setting":"સેટિંગ્સ",
         "total":"કુલ"
+    },
+    "page_contacts":{
+        "tit":"સરનામું પુસ્તક",
+        "add_cont":{
+            "tri_dialog":"સરનામું ઉમેરો",
+            "dialog_tit":"સરનામું માહિતી દાખલ કરો",
+            "dialog_tag":"ટૅગ્સ",
+            "tag_placeholder":"સરનામા માટે ટિપ્પણી ટેગ દાખલ કરો",
+            "dialog_address":"સરનામું",
+            "address_placeholder":"કૃપા કરીને સરનામું દાખલ કરો"
+        },
+        "delete_dialog":{
+            "title":"તમે દૂર કરી રહ્યાં છો"
+        }
     },
     "page_setting":{
         "tit":"સેટિંગ્સ"

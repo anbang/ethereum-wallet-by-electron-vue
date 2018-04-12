@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Կարգավորում"
-    },
+    "lang":"Լեզուն",
+    "confirm":"Հաստատում",
+    "cancel":"Դադարեցումը",
+    "confirm_you_active":"Խնդրում ենք հաստատել ձեր գործողությունը",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Գլխավոր էջ",
         "transfer":"Փոխանցում",
-        "contacts":"Կոնտակտներ",
+        "contacts":"Հասցեների գիրք",
         "setting":"Կարգավորումներ",
         "total":"Ընդամենը"
+    },
+    "page_contacts":{
+        "tit":"Հասցեների գիրք",
+        "add_cont":{
+            "tri_dialog":"Ավելացնել հասցեն",
+            "dialog_tit":"Մուտքագրեք հասցեն",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Խնդրում ենք մուտքագրել մեկնաբանության պիտակը հասցեի համար",
+            "dialog_address":"Հասցե",
+            "address_placeholder":"Մուտքագրեք հասցեն"
+        },
+        "delete_dialog":{
+            "title":"Դուք հեռացնում եք"
+        }
     },
     "page_setting":{
         "tit":"Կարգավորումներ"

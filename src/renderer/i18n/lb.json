@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Setzen"
-    },
+    "lang":"Sprooch",
+    "confirm":"Bestätegung",
+    "cancel":"Annulatioun",
+    "confirm_you_active":"Bestätegt Är Operatioun confirméiert",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Kontakter",
+        "contacts":"Adressbuch",
         "setting":"Astellungen",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Adressbuch",
+        "add_cont":{
+            "tri_dialog":"Adress schécken",
+            "dialog_tit":"Adress Adress",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Gidd weg de Kommentartyp fir d'Adress",
+            "dialog_address":"Adress",
+            "address_placeholder":"Gitt d'Adress un"
+        },
+        "delete_dialog":{
+            "title":"Dir sidd ewechhuelen"
+        }
     },
     "page_setting":{
         "tit":"Astellungen"

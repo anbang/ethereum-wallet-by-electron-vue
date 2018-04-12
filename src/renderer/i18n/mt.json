@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Twaqqif"
-    },
+    "lang":"Lingwa",
+    "confirm":"Konferma",
+    "cancel":"Kanċellazzjoni",
+    "confirm_you_active":"Jekk jogħġbok ikkonferma l-operazzjoni tiegħek",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Dar",
         "transfer":"Trasferiment",
-        "contacts":"Kuntatti",
+        "contacts":"Indirizz ktieb",
         "setting":"Settings",
         "total":"Totali"
+    },
+    "page_contacts":{
+        "tit":"Indirizz ktieb",
+        "add_cont":{
+            "tri_dialog":"Żid l-indirizz",
+            "dialog_tit":"Daħħal l-informazzjoni tal-indirizz",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Jekk jogħġbok ikteb it-tikketta tal-kumment għall-indirizz",
+            "dialog_address":"Indirizz",
+            "address_placeholder":"Jekk jogħġbok ikteb l-indirizz"
+        },
+        "delete_dialog":{
+            "title":"Int qed tneħħi"
+        }
     },
     "page_setting":{
         "tit":"Settings"

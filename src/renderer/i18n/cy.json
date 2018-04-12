@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Gosod"
-    },
+    "lang":"Iaith",
+    "confirm":"Cadarnhad",
+    "cancel":"Canslo",
+    "confirm_you_active":"Cadarnhewch eich gweithrediad",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Cartref",
         "transfer":"Trosglwyddo",
-        "contacts":"Cysylltiadau",
+        "contacts":"Llyfr cyfeiriadau",
         "setting":"Gosodiadau",
         "total":"Cyfanswm"
+    },
+    "page_contacts":{
+        "tit":"Llyfr cyfeiriadau",
+        "add_cont":{
+            "tri_dialog":"Ychwanegu cyfeiriad",
+            "dialog_tit":"Rhowch wybodaeth gyfeiriad",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Rhowch y tag sylwadau ar gyfer y cyfeiriad",
+            "dialog_address":"Cyfeiriad",
+            "address_placeholder":"Rhowch y cyfeiriad"
+        },
+        "delete_dialog":{
+            "title":"Rydych chi'n cael gwared"
+        }
     },
     "page_setting":{
         "tit":"Gosodiadau"

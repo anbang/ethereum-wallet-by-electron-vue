@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"การตั้งค่า"
-    },
+    "lang":"ภาษา",
+    "confirm":"ยืนยัน",
+    "cancel":"ยกเลิก",
+    "confirm_you_active":"โปรดยืนยันการดำเนินการของคุณ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"บ้าน",
         "transfer":"โอน",
-        "contacts":"ติดต่อ",
+        "contacts":"สมุดที่อยู่",
         "setting":"จัดตั้งขึ้น",
         "total":"ทั้งหมด"
+    },
+    "page_contacts":{
+        "tit":"สมุดที่อยู่",
+        "add_cont":{
+            "tri_dialog":"เพิ่มที่อยู่",
+            "dialog_tit":"ป้อนข้อมูลที่อยู่",
+            "dialog_tag":"แท็ก",
+            "tag_placeholder":"โปรดป้อนแท็กความคิดเห็นสำหรับที่อยู่",
+            "dialog_address":"ที่อยู่",
+            "address_placeholder":"โปรดป้อนที่อยู่"
+        },
+        "delete_dialog":{
+            "title":"คุณกำลังนำออก"
+        }
     },
     "page_setting":{
         "tit":"จัดตั้งขึ้น"

@@ -27,24 +27,29 @@ import App from './App'
 import router from './router'
 // import store from './store'
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
 //引入db数据库
 import db from '../datastore/index'
 //引入需要支持的语言
-import languges from '../../i18n/languges'
+// import languges from '../../i18n/languges'
+import languges from '../../i18n/languges_conf'
 
 Vue.prototype.$db = db
 Vue.config.productionTip = false
 
 Vue.use(VueI18n);
+Vue.use(ElementUI);
 // 加载i18语言
 const messages={};
 for(const languge in languges){
-    var key=languges[languge];
-    messages[key]=require("@/i18n/"+key+".json");
+    messages[languge]=require("@/i18n/"+languge+".json");
 }
+// console.log(messages)
 
 //判断用户使用的语言
-var locale =db.get('czr_contacts.lang').value() ;
+var locale =db.get('czr_setting.lang').value() ;
 //生成国际化插件实例
 const i18n = new VueI18n({
     locale: locale ,// set locale

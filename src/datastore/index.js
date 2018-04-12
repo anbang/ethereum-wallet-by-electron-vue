@@ -5,9 +5,11 @@ import path from 'path'
 import fs from 'fs-extra'
 import { remote, app } from 'electron'// 引入remote模块，使其既能跑在main进程也能跑在renderer进程：
 
+const languges = require('../../i18n/languges_conf');
+
 const APP = process.type === 'renderer' ? remote.app : app;// 根据process.type来分辨在哪种模式使用哪种模块
 const STORE_PATH = APP.getPath('userData')// 获取electron应用的用户目录
-console.log(STORE_PATH)
+console.log("PATH",STORE_PATH)
 // alert('一些本地数据储存在'+STORE_PATH)
 
 if (process.type !== 'renderer') {
@@ -29,6 +31,10 @@ if (!db.has('czr_accounts').value()) {
 }
 if (!db.has('czr_setting').value()) {
     db.set('czr_setting', {}).write()
+    db.set('czr_setting.lang', get_language()).write()//根据语言设置
+    //配置各国语言
+    db.set('czr_setting.lang_conf', languges).write()//根据语言设置
+
 }
 if (!db.has('czr_contacts').value()) {
   db.set('czr_contacts', {}).write()
@@ -42,9 +48,6 @@ function get_language() {
       var language = navigator.browserLanguage;
   }
   return language;
-}
-if (!db.has('czr_contacts.lang').value()) {
-  db.set('czr_contacts.lang', get_language()).write()//根据语言设置
 }
 
 

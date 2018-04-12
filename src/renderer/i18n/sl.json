@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Nastavitev"
-    },
+    "lang":"Jezik",
+    "confirm":"Potrditev",
+    "cancel":"Odpoved",
+    "confirm_you_active":"Potrdite svoje delovanje",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Domov",
         "transfer":"Prenos",
-        "contacts":"Stiki",
+        "contacts":"Imenik",
         "setting":"Nastavitve",
         "total":"Skupaj"
+    },
+    "page_contacts":{
+        "tit":"Imenik",
+        "add_cont":{
+            "tri_dialog":"Dodaj naslov",
+            "dialog_tit":"Vnesite podatke o naslovu",
+            "dialog_tag":"Oznake",
+            "tag_placeholder":"Prosimo, vnesite oznako za komentar za naslov",
+            "dialog_address":"Naslov",
+            "address_placeholder":"Vnesite naslov"
+        },
+        "delete_dialog":{
+            "title":"Odstranite"
+        }
     },
     "page_setting":{
         "tit":"Nastavitve"

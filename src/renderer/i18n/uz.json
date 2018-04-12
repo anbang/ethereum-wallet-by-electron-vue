@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Sozlash"
-    },
+    "lang":"Til",
+    "confirm":"Tasdiqlash",
+    "cancel":"Bekor qilish",
+    "confirm_you_active":"Iltimos, amaliyotingizni tasdiqlang",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Bosh sahifa",
         "transfer":"Transfer",
-        "contacts":"Kontaktlar",
+        "contacts":"Manzillar kitobi",
         "setting":"Sozlamalar",
         "total":"Jami"
+    },
+    "page_contacts":{
+        "tit":"Manzillar kitobi",
+        "add_cont":{
+            "tri_dialog":"Manzilni qo'shish",
+            "dialog_tit":"Manzil ma'lumotlarini kiriting",
+            "dialog_tag":"Teglar",
+            "tag_placeholder":"Iltimos, manzil uchun izoh yorlig'ini kiriting",
+            "dialog_address":"Manzil",
+            "address_placeholder":"Iltimos, manzilingizni kiriting"
+        },
+        "delete_dialog":{
+            "title":"Siz olib tashlayapsiz"
+        }
     },
     "page_setting":{
         "tit":"Sozlamalar"

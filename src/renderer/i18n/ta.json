@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"அமைப்பை"
-    },
+    "lang":"மொழி",
+    "confirm":"உறுதிப்படுத்தவும்",
+    "cancel":"ரத்து",
+    "confirm_you_active":"தயவுசெய்து உங்கள் செயல்பாட்டை உறுதிப்படுத்தவும்",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"முகப்பு",
         "transfer":"மாற்றம்",
-        "contacts":"தொடர்பு",
+        "contacts":"முகவரி புத்தகம்",
         "setting":"அமைக்கவும்",
         "total":"மொத்த"
+    },
+    "page_contacts":{
+        "tit":"முகவரி புத்தகம்",
+        "add_cont":{
+            "tri_dialog":"முகவரி சேர்க்கவும்",
+            "dialog_tit":"முகவரி தகவல் சேர்க்கவும்",
+            "dialog_tag":"டேக்",
+            "tag_placeholder":"முகவரிக்கு கருத்துக் குறியீட்டை உள்ளிடவும்",
+            "dialog_address":"முகவரி",
+            "address_placeholder":"முகவரியை உள்ளிடவும்"
+        },
+        "delete_dialog":{
+            "title":"நீ நீக்கியிருக்கிறாய்"
+        }
     },
     "page_setting":{
         "tit":"அமைக்கவும்"

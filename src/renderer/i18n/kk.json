@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Орнату"
-    },
+    "lang":"Тіл",
+    "confirm":"Растау",
+    "cancel":"Болдырмау",
+    "confirm_you_active":"Сіздің операцияңызды растаңыз",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Үй",
         "transfer":"Аудару",
-        "contacts":"Байланыс",
+        "contacts":"Мекенжайлық кітап",
         "setting":"Параметрлер",
         "total":"Барлығы"
+    },
+    "page_contacts":{
+        "tit":"Мекенжайлық кітап",
+        "add_cont":{
+            "tri_dialog":"Мекенжайды қосыңыз",
+            "dialog_tit":"Мекен-жай мәліметтерін енгізіңіз",
+            "dialog_tag":"Тегтер",
+            "tag_placeholder":"Мекен-жайы үшін түсініктеме тегін енгізіңіз",
+            "dialog_address":"Мекенжай",
+            "address_placeholder":"Мекенжайды енгізіңіз"
+        },
+        "delete_dialog":{
+            "title":"Сіз жойып жатырсыз"
+        }
     },
     "page_setting":{
         "tit":"Параметрлер"

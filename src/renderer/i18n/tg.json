@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Танзимот"
-    },
+    "lang":"Забон",
+    "confirm":"Тасдиқ",
+    "cancel":"Бекор кардан",
+    "confirm_you_active":"Лутфан амалиёти худро тасдиқ кунед",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Интиқол",
-        "contacts":"Тамос",
+        "contacts":"Китобҳои адресӣ",
         "setting":"Танзимотҳо",
         "total":"Ҳамагӣ"
+    },
+    "page_contacts":{
+        "tit":"Китобҳои адресӣ",
+        "add_cont":{
+            "tri_dialog":"Суроға илова кунед",
+            "dialog_tit":"Маълумоти суроғаро ворид кунед",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Лутфан ба нишонии шарти барои суроға ворид шавед",
+            "dialog_address":"Суроға",
+            "address_placeholder":"Илтимос, суроғаро дохил кунед"
+        },
+        "delete_dialog":{
+            "title":"Шумо кушода истодаед"
+        }
     },
     "page_setting":{
         "tit":"Танзимотҳо"

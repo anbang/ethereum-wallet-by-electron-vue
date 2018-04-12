@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ayar"
-    },
+    "lang":"dil",
+    "confirm":"onaylamak",
+    "cancel":"iptal edildi",
+    "confirm_you_active":"Lütfen operasyonunuzu onaylayın",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ev",
         "transfer":"transfer",
-        "contacts":"temas",
+        "contacts":"Adres defteri",
         "setting":"kurmak",
         "total":"toplam"
+    },
+    "page_contacts":{
+        "tit":"Adres defteri",
+        "add_cont":{
+            "tri_dialog":"Adres ekle",
+            "dialog_tit":"Adres bilgilerini girin",
+            "dialog_tag":"etiket",
+            "tag_placeholder":"Lütfen adres için yorum etiketini girin",
+            "dialog_address":"adres",
+            "address_placeholder":"Lütfen adresi giriniz"
+        },
+        "delete_dialog":{
+            "title":"Sen kaldırıyorsun"
+        }
     },
     "page_setting":{
         "tit":"kurmak"

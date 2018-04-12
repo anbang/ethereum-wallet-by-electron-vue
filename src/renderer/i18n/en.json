@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Setting"
-    },
+    "lang":"Language",
+    "confirm":"confirm",
+    "cancel":"cancel",
+    "confirm_you_active":"Please confirm your operation",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Contacts",
+        "contacts":"Address book",
         "setting":"Settings",
         "total":"total"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Add address",
+            "dialog_tit":"Enter address information",
+            "dialog_tag":"label",
+            "tag_placeholder":"Please enter the comment tag for the address",
+            "dialog_address":"address",
+            "address_placeholder":"Please enter the address"
+        },
+        "delete_dialog":{
+            "title":"You are removing"
+        }
     },
     "page_setting":{
         "tit":"Settings"

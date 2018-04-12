@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Seadistus"
-    },
+    "lang":"Keel",
+    "confirm":"Kinnitus",
+    "cancel":"Tühistamine",
+    "confirm_you_active":"Palun kinnitage oma toiming",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Kodu",
         "transfer":"Üleandmine",
-        "contacts":"Kontaktid",
+        "contacts":"Aadressiraamat",
         "setting":"Seaded",
         "total":"Kokku"
+    },
+    "page_contacts":{
+        "tit":"Aadressiraamat",
+        "add_cont":{
+            "tri_dialog":"Lisage aadress",
+            "dialog_tit":"Sisestage aadressi andmed",
+            "dialog_tag":"Sildid",
+            "tag_placeholder":"Sisestage aadressi kommentaarimärgend",
+            "dialog_address":"Aadress",
+            "address_placeholder":"Palun sisestage aadress"
+        },
+        "delete_dialog":{
+            "title":"Te eemaldate"
+        }
     },
     "page_setting":{
         "tit":"Seaded"

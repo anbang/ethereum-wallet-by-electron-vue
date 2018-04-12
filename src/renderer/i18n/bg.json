@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"обстановка"
-    },
+    "lang":"език",
+    "confirm":"потвърждавам",
+    "cancel":"отменен",
+    "confirm_you_active":"Моля, потвърдете операцията си",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"у дома",
         "transfer":"прехвърляне",
-        "contacts":"контакт",
+        "contacts":"Адресна книга",
         "setting":"Създаване",
         "total":"общо"
+    },
+    "page_contacts":{
+        "tit":"Адресна книга",
+        "add_cont":{
+            "tri_dialog":"Добавяне на адрес",
+            "dialog_tit":"Въведете информация за адреса",
+            "dialog_tag":"свободен край",
+            "tag_placeholder":"Моля, въведете маркера на коментара за адреса",
+            "dialog_address":"адрес",
+            "address_placeholder":"Моля, въведете адреса"
+        },
+        "delete_dialog":{
+            "title":"Вие премахвате"
+        }
     },
     "page_setting":{
         "tit":"Създаване"

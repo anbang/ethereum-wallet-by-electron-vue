@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ"
-    },
+    "lang":"ಭಾಷೆ",
+    "confirm":"ದೃಢೀಕರಣ",
+    "cancel":"ರದ್ದತಿ",
+    "confirm_you_active":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ದೃಢೀಕರಿಸಿ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ಮುಖಪುಟ",
         "transfer":"ವರ್ಗಾವಣೆ",
-        "contacts":"ಸಂಪರ್ಕಗಳು",
+        "contacts":"ವಿಳಾಸ ಪುಸ್ತಕ",
         "setting":"ಸೆಟ್ಟಿಂಗ್ಗಳು",
         "total":"ಒಟ್ಟು"
+    },
+    "page_contacts":{
+        "tit":"ವಿಳಾಸ ಪುಸ್ತಕ",
+        "add_cont":{
+            "tri_dialog":"ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+            "dialog_tit":"ವಿಳಾಸ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ",
+            "dialog_tag":"ಟ್ಯಾಗ್ಗಳು",
+            "tag_placeholder":"ದಯವಿಟ್ಟು ವಿಳಾಸಕ್ಕಾಗಿ ಕಾಮೆಂಟ್ ಟ್ಯಾಗ್ ಅನ್ನು ನಮೂದಿಸಿ",
+            "dialog_address":"ವಿಳಾಸ",
+            "address_placeholder":"ದಯವಿಟ್ಟು ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+        },
+        "delete_dialog":{
+            "title":"ನೀವು ತೆಗೆದುಹಾಕುತ್ತಿರುವಿರಿ"
+        }
     },
     "page_setting":{
         "tit":"ಸೆಟ್ಟಿಂಗ್ಗಳು"

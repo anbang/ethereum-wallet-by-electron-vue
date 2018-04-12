@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ajuste"
-    },
+    "lang":"Idioma",
+    "confirm":"Confirmación",
+    "cancel":"Cancelación",
+    "confirm_you_active":"Por favor confirme su operación",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Inicio",
         "transfer":"Transferir",
-        "contacts":"Contactos",
+        "contacts":"Libreta de direcciones",
         "setting":"Configuraciones",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Libreta de direcciones",
+        "add_cont":{
+            "tri_dialog":"Agregar dirección",
+            "dialog_tit":"Ingrese la información de dirección",
+            "dialog_tag":"Etiquetas",
+            "tag_placeholder":"Por favor ingrese la etiqueta de comentario para la dirección",
+            "dialog_address":"Dirección",
+            "address_placeholder":"Por favor ingrese la dirección"
+        },
+        "delete_dialog":{
+            "title":"Estás eliminando"
+        }
     },
     "page_setting":{
         "tit":"Configuraciones"

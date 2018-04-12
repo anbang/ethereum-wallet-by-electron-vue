@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"सेटिंग"
-    },
+    "lang":"भाषा",
+    "confirm":"की पुष्टि करें",
+    "cancel":"रद्द",
+    "confirm_you_active":"कृपया अपने ऑपरेशन की पुष्टि करें",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"घर",
         "transfer":"स्थानांतरण",
-        "contacts":"संपर्क",
+        "contacts":"पता पुस्तिका",
         "setting":"सेट करें",
         "total":"संपूर्ण"
+    },
+    "page_contacts":{
+        "tit":"पता पुस्तिका",
+        "add_cont":{
+            "tri_dialog":"पता जोड़ें",
+            "dialog_tit":"पता जानकारी दर्ज करें",
+            "dialog_tag":"टैग",
+            "tag_placeholder":"कृपया पते के लिए टिप्पणी टैग दर्ज करें",
+            "dialog_address":"पता",
+            "address_placeholder":"कृपया पता दर्ज करें"
+        },
+        "delete_dialog":{
+            "title":"आप निकाल रहे हैं"
+        }
     },
     "page_setting":{
         "tit":"सेट करें"

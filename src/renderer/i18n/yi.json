@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"באַשטעטיקן"
-    },
+    "lang":"שפּראַך",
+    "confirm":"באַשטעטיקונג",
+    "cancel":"Cancellation",
+    "confirm_you_active":"ביטע באַשטעטיקן דיין אָפּעראַציע",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"היים",
         "transfer":"אַריבערפירן",
-        "contacts":"קאָנטאַקטן",
+        "contacts":"אַדרעס בוך",
         "setting":"Settings",
         "total":"גאַנץ"
+    },
+    "page_contacts":{
+        "tit":"אַדרעס בוך",
+        "add_cont":{
+            "tri_dialog":"לייג אַדרעס",
+            "dialog_tit":"אַרייַן אַדרעס אינפֿאָרמאַציע",
+            "dialog_tag":"טאַגס",
+            "tag_placeholder":"ביטע אַרייַן די באַמערקן צעטל פֿאַר די אַדרעס",
+            "dialog_address":"אַדרעס",
+            "address_placeholder":"ביטע אַרייַן די אַדרעס"
+        },
+        "delete_dialog":{
+            "title":"איר זענען רימוווינג"
+        }
     },
     "page_setting":{
         "tit":"Settings"

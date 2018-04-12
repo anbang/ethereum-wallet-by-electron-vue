@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ρύθμιση"
-    },
+    "lang":"Γλώσσα",
+    "confirm":"Επιβεβαίωση",
+    "cancel":"Ακύρωση",
+    "confirm_you_active":"Επιβεβαιώστε τη λειτουργία σας",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Αρχική σελίδα",
         "transfer":"Μεταφορά",
-        "contacts":"Επαφές",
+        "contacts":"Βιβλίο διευθύνσεων",
         "setting":"Ρυθμίσεις",
         "total":"Σύνολο"
+    },
+    "page_contacts":{
+        "tit":"Βιβλίο διευθύνσεων",
+        "add_cont":{
+            "tri_dialog":"Προσθήκη διεύθυνσης",
+            "dialog_tit":"Καταχωρίστε πληροφορίες διεύθυνσης",
+            "dialog_tag":"Ετικέτες",
+            "tag_placeholder":"Εισαγάγετε την ετικέτα σχόλιου για τη διεύθυνση",
+            "dialog_address":"Διεύθυνση",
+            "address_placeholder":"Εισαγάγετε τη διεύθυνση"
+        },
+        "delete_dialog":{
+            "title":"Αφαιρείτε"
+        }
     },
     "page_setting":{
         "tit":"Ρυθμίσεις"

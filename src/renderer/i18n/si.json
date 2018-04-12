@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"සැකසීම"
-    },
+    "lang":"භාෂාව",
+    "confirm":"තහවුරු කිරීම",
+    "cancel":"අවලංගු කිරීම",
+    "confirm_you_active":"කරුණාකර ඔබගේ මෙහෙයුම තහවුරු කරන්න",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"නිවස",
         "transfer":"මාරු කිරීම",
-        "contacts":"සබඳතා",
+        "contacts":"ලිපින පොත",
         "setting":"සැකසුම්",
         "total":"එකතුව"
+    },
+    "page_contacts":{
+        "tit":"ලිපින පොත",
+        "add_cont":{
+            "tri_dialog":"ලිපිනය එකතු කරන්න",
+            "dialog_tit":"ලිපින තොරතුරු ඇතුළත් කරන්න",
+            "dialog_tag":"ටැගයන්",
+            "tag_placeholder":"කරුණාකර ලිපින සඳහා ප්රතිචාර ටැගය ඇතුළත් කරන්න",
+            "dialog_address":"ලිපිනය",
+            "address_placeholder":"කරුණාකර ලිපිනය ඇතුලත් කරන්න"
+        },
+        "delete_dialog":{
+            "title":"ඔබ ඉවත් කරනවා"
+        }
     },
     "page_setting":{
         "tit":"සැකසුම්"

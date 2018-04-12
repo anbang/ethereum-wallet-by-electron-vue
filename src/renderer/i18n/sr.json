@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Постављање"
-    },
+    "lang":"Језик",
+    "confirm":"Потврда",
+    "cancel":"Отказ",
+    "confirm_you_active":"Потврдите своју операцију",
     "unit":{
         "czr":"ЦЗР"
     },
     "model_header":{
         "home":"Хоме",
         "transfer":"Трансфер",
-        "contacts":"Контакти",
+        "contacts":"Адресар",
         "setting":"Подешавања",
         "total":"Укупно"
+    },
+    "page_contacts":{
+        "tit":"Адресар",
+        "add_cont":{
+            "tri_dialog":"Додај адресу",
+            "dialog_tit":"Унесите информације о адреси",
+            "dialog_tag":"Ознаке",
+            "tag_placeholder":"Молимо унесите ознаку за коментар за адресу",
+            "dialog_address":"Адреса",
+            "address_placeholder":"Унесите адресу"
+        },
+        "delete_dialog":{
+            "title":"Ви уклањате"
+        }
     },
     "page_setting":{
         "tit":"Подешавања"

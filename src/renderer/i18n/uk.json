@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Налаштування"
-    },
+    "lang":"Мова",
+    "confirm":"Підтвердження",
+    "cancel":"Скасування",
+    "confirm_you_active":"Будь ласка, підтвердьте свою операцію",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Будинок",
         "transfer":"Трансфер",
-        "contacts":"Контакти",
+        "contacts":"Адресна книга",
         "setting":"Налаштування",
         "total":"Всього"
+    },
+    "page_contacts":{
+        "tit":"Адресна книга",
+        "add_cont":{
+            "tri_dialog":"Додати адресу",
+            "dialog_tit":"Введіть інформацію про адресу",
+            "dialog_tag":"Теги",
+            "tag_placeholder":"Будь ласка, введіть тег коментаря для адреси",
+            "dialog_address":"Адреса",
+            "address_placeholder":"Будь-ласка, введіть адресу"
+        },
+        "delete_dialog":{
+            "title":"Ви видаляєте"
+        }
     },
     "page_setting":{
         "tit":"Налаштування"

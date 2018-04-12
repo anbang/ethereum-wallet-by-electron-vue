@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Agordo"
-    },
+    "lang":"Lingvo",
+    "confirm":"Konfirmo",
+    "cancel":"Nuligo",
+    "confirm_you_active":"Bonvolu konfirmi vian operacion",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Hejmo",
         "transfer":"Translokigo",
-        "contacts":"Kontaktoj",
+        "contacts":"Libro de adresoj",
         "setting":"Agordoj",
         "total":"Tuta"
+    },
+    "page_contacts":{
+        "tit":"Libro de adresoj",
+        "add_cont":{
+            "tri_dialog":"Aldonu adreson",
+            "dialog_tit":"Eniri adreson-informojn",
+            "dialog_tag":"Etikedoj",
+            "tag_placeholder":"Bonvolu enmeti la komentan etikedon por la adreso",
+            "dialog_address":"Adreso",
+            "address_placeholder":"Bonvolu eniri la adreson"
+        },
+        "delete_dialog":{
+            "title":"Vi forigas"
+        }
     },
     "page_setting":{
         "tit":"Agordoj"

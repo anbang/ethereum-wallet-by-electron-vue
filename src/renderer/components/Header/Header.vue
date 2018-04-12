@@ -29,6 +29,7 @@ export default {
 <style scoped>
 .header {
   padding: 12px 20px;
+  -webkit-user-select: none;
   /* background-color: #f4f4f4; */
 }
 .header-nav{width: 70%;text-align: left;}

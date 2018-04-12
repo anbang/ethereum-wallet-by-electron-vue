@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Thiết lập"
-    },
+    "lang":"Ngôn ngữ",
+    "confirm":"Xác nhận",
+    "cancel":"Huỷ bỏ",
+    "confirm_you_active":"Vui lòng xác nhận hoạt động của bạn",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Trang chủ",
         "transfer":"Chuyển",
-        "contacts":"Liên hệ",
+        "contacts":"Sổ địa chỉ",
         "setting":"Cài đặt",
         "total":"Tổng cộng"
+    },
+    "page_contacts":{
+        "tit":"Sổ địa chỉ",
+        "add_cont":{
+            "tri_dialog":"Thêm địa chỉ",
+            "dialog_tit":"Nhập thông tin địa chỉ",
+            "dialog_tag":"Thẻ",
+            "tag_placeholder":"Vui lòng nhập thẻ nhận xét cho địa chỉ",
+            "dialog_address":"Địa chỉ",
+            "address_placeholder":"Vui lòng nhập địa chỉ"
+        },
+        "delete_dialog":{
+            "title":"Bạn đang xoá"
+        }
     },
     "page_setting":{
         "tit":"Cài đặt"

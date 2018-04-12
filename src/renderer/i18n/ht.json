@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Anviwònman"
-    },
+    "lang":"Lang",
+    "confirm":"Konfimasyon",
+    "cancel":"Anilasyon",
+    "confirm_you_active":"Tanpri konfime operasyon ou",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Kay",
         "transfer":"Transfè",
-        "contacts":"Kontak",
+        "contacts":"Adrès liv",
         "setting":"Anviwònman",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Adrès liv",
+        "add_cont":{
+            "tri_dialog":"Add adrès",
+            "dialog_tit":"Mete enfòmasyon sou adrès la",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Tanpri antre tag lan kòmantè pou adrès la",
+            "dialog_address":"Adrès",
+            "address_placeholder":"Tanpri antre adrès la"
+        },
+        "delete_dialog":{
+            "title":"Ou yo retire"
+        }
     },
     "page_setting":{
         "tit":"Anviwònman"

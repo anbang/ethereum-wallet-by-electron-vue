@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Configuração"
-    },
+    "lang":"Idioma",
+    "confirm":"Confirmação",
+    "cancel":"Cancelamento",
+    "confirm_you_active":"Por favor, confirme sua operação",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Transferir",
-        "contacts":"Contatos",
+        "contacts":"Livro de endereços",
         "setting":"Configurações",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Livro de endereços",
+        "add_cont":{
+            "tri_dialog":"Adicione o endereço",
+            "dialog_tit":"Digite as informações do endereço",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Por favor, insira a tag de comentário para o endereço",
+            "dialog_address":"Endereço",
+            "address_placeholder":"Por favor insira o endereço"
+        },
+        "delete_dialog":{
+            "title":"Você está removendo"
+        }
     },
     "page_setting":{
         "tit":"Configurações"

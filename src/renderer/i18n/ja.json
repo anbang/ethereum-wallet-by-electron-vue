@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"設定"
-    },
+    "lang":"言語",
+    "confirm":"確認",
+    "cancel":"キャンセル",
+    "confirm_you_active":"あなたの操作を確認してください",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ホーム",
         "transfer":"転送",
-        "contacts":"連絡先",
+        "contacts":"アドレス帳",
         "setting":"設定",
         "total":"合計"
+    },
+    "page_contacts":{
+        "tit":"アドレス帳",
+        "add_cont":{
+            "tri_dialog":"アドレスを追加する",
+            "dialog_tit":"アドレス情報を入力",
+            "dialog_tag":"タグ",
+            "tag_placeholder":"アドレスのコメントタグを入力してください",
+            "dialog_address":"住所",
+            "address_placeholder":"住所を入力してください"
+        },
+        "delete_dialog":{
+            "title":"あなたは削除しています"
+        }
     },
     "page_setting":{
         "tit":"設定"

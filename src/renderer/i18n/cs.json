@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Nastavení"
-    },
+    "lang":"Jazyk",
+    "confirm":"Potvrzení",
+    "cancel":"Zrušení",
+    "confirm_you_active":"Potvrďte svou činnost",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Domů",
         "transfer":"Přenos",
-        "contacts":"Kontakty",
+        "contacts":"Adresář",
         "setting":"Nastavení",
         "total":"Celkem"
+    },
+    "page_contacts":{
+        "tit":"Adresář",
+        "add_cont":{
+            "tri_dialog":"Přidat adresu",
+            "dialog_tit":"Zadejte informace o adrese",
+            "dialog_tag":"Tagy",
+            "tag_placeholder":"Zadejte značku komentářů pro adresu",
+            "dialog_address":"Adresa",
+            "address_placeholder":"Zadejte adresu"
+        },
+        "delete_dialog":{
+            "title":"Odstraňujete"
+        }
     },
     "page_setting":{
         "tit":"Nastavení"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Kuisa"
-    },
+    "lang":"Mutauro",
+    "confirm":"Chivimbiso",
+    "cancel":"Cancellation",
+    "confirm_you_active":"Ndapota simbisa kushanda kwako",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Musha",
         "transfer":"Dhinda",
-        "contacts":"Vatengi",
+        "contacts":"Bhuku rebhuku",
         "setting":"Zvirongwa",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Bhuku rebhuku",
+        "add_cont":{
+            "tri_dialog":"Wedzera kero",
+            "dialog_tit":"Pinda mukana wekero",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Ndapota nyora tereti yekutaura kwekero",
+            "dialog_address":"Address",
+            "address_placeholder":"Ndapota pinda kero"
+        },
+        "delete_dialog":{
+            "title":"Iwe uri kubvisa"
+        }
     },
     "page_setting":{
         "tit":"Zvirongwa"

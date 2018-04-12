@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Qhov chaw"
-    },
+    "lang":"Lus",
+    "confirm":"Kev lees paub",
+    "cancel":"Tshem tawm",
+    "confirm_you_active":"Thov paub meej tias koj lub lag luam",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Tsev",
         "transfer":"Hloov mus",
-        "contacts":"Hu rau",
+        "contacts":"Chaw nyob",
         "setting":"Chaw",
         "total":"Tag nrho"
+    },
+    "page_contacts":{
+        "tit":"Chaw nyob",
+        "add_cont":{
+            "tri_dialog":"Ntxiv chaw nyob",
+            "dialog_tit":"Sau chaw nyob",
+            "dialog_tag":"Ntawv cim npe",
+            "tag_placeholder":"Thov sau tag saib rau qhov chaw nyob",
+            "dialog_address":"Chaw nyob",
+            "address_placeholder":"Thov sau chaw nyob"
+        },
+        "delete_dialog":{
+            "title":"Koj tshem tawm"
+        }
     },
     "page_setting":{
         "tit":"Chaw"

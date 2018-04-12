@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"سیٹنگ"
-    },
+    "lang":"زبان",
+    "confirm":"تصدیق",
+    "cancel":"منسوخی",
+    "confirm_you_active":"براہ مہربانی اپنے آپریشن کی تصدیق کریں",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"گھر",
         "transfer":"منتقلی",
-        "contacts":"رابطے",
+        "contacts":"ایڈریس بک",
         "setting":"ترتیبات",
         "total":"کل"
+    },
+    "page_contacts":{
+        "tit":"ایڈریس بک",
+        "add_cont":{
+            "tri_dialog":"ایڈریس شامل کریں",
+            "dialog_tit":"ایڈریس کی معلومات درج کریں",
+            "dialog_tag":"ٹیگز",
+            "tag_placeholder":"ایڈریس کے لئے تبصرہ ٹیگ درج کریں",
+            "dialog_address":"ایڈریس",
+            "address_placeholder":"ایڈریس درج کریں"
+        },
+        "delete_dialog":{
+            "title":"آپ ہٹا رہے ہیں"
+        }
     },
     "page_setting":{
         "tit":"ترتیبات"

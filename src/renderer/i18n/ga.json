@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Socrú"
-    },
+    "lang":"Teanga",
+    "confirm":"Dearbhú",
+    "cancel":"Cealú",
+    "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Baile",
         "transfer":"Aistriú",
-        "contacts":"Teagmhálacha",
+        "contacts":"Leabhar seoladh",
         "setting":"Socruithe",
         "total":"Iomlán"
+    },
+    "page_contacts":{
+        "tit":"Leabhar seoladh",
+        "add_cont":{
+            "tri_dialog":"Cuir seoladh",
+            "dialog_tit":"Cuir isteach eolas seoladh",
+            "dialog_tag":"Clibeanna",
+            "tag_placeholder":"Cuir isteach an tag tráchta don seoladh",
+            "dialog_address":"Seoladh",
+            "address_placeholder":"Cuir isteach an seoladh"
+        },
+        "delete_dialog":{
+            "title":"Tá tú ag baint úsáide as"
+        }
     },
     "page_setting":{
         "tit":"Socruithe"

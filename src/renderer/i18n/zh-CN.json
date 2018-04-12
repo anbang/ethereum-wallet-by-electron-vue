@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Setting"
-    },
+    "lang":"语言",
+    "confirm":"确认",
+    "cancel":"取消",
+    "confirm_you_active":"请确认您的操作",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"首页",
         "transfer":"转账",
-        "contacts":"联系人",
+        "contacts":"地址薄",
         "setting":"设置",
         "total":"合计"
+    },
+    "page_contacts":{
+        "tit":"地址薄",
+        "add_cont":{
+            "tri_dialog":"添加地址",
+            "dialog_tit":"输入地址信息",
+            "dialog_tag":"标签",
+            "tag_placeholder":"请输入地址的备注标签",
+            "dialog_address":"地址",
+            "address_placeholder":"请输入地址"
+        },
+        "delete_dialog":{
+            "title":"您正在移除"
+        }
     },
     "page_setting":{
         "tit":"设置"

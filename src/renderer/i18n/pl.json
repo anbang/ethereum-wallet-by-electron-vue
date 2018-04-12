@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ustawienie"
-    },
+    "lang":"Język",
+    "confirm":"Potwierdzenie",
+    "cancel":"Anulowanie",
+    "confirm_you_active":"Proszę potwierdzić swoją operację",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Strona główna",
         "transfer":"Przenieś",
-        "contacts":"Kontakty",
+        "contacts":"Książka adresowa",
         "setting":"Ustawienia",
         "total":"Razem"
+    },
+    "page_contacts":{
+        "tit":"Książka adresowa",
+        "add_cont":{
+            "tri_dialog":"Dodaj adres",
+            "dialog_tit":"Wprowadź dane adresowe",
+            "dialog_tag":"Tagi",
+            "tag_placeholder":"Wprowadź tag komentarza dla adresu",
+            "dialog_address":"Adres",
+            "address_placeholder":"Proszę podać adres"
+        },
+        "delete_dialog":{
+            "title":"Usuwasz"
+        }
     },
     "page_setting":{
         "tit":"Ustawienia"

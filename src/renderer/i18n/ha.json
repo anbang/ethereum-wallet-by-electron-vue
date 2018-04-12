@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Saitin"
-    },
+    "lang":"Harshe",
+    "confirm":"Tabbatarwa",
+    "cancel":"Cancellation",
+    "confirm_you_active":"Da fatan a tabbatar da aikinku",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Canja wurin",
-        "contacts":"Lambobi",
+        "contacts":"Littafin adireshi",
         "setting":"Saituna",
         "total":"Jimlar"
+    },
+    "page_contacts":{
+        "tit":"Littafin adireshi",
+        "add_cont":{
+            "tri_dialog":"Ƙara adireshin",
+            "dialog_tit":"Shigar da bayanin adireshin",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Da fatan a shigar da tag na sharhi don adireshin",
+            "dialog_address":"Adireshin",
+            "address_placeholder":"Da fatan a shigar da adireshin"
+        },
+        "delete_dialog":{
+            "title":"Ana cirewa"
+        }
     },
     "page_setting":{
         "tit":"Saituna"

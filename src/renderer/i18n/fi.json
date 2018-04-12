@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"asetus"
-    },
+    "lang":"kieli",
+    "confirm":"vahvistaa",
+    "cancel":"peruttu",
+    "confirm_you_active":"Vahvista toiminto",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"koti",
         "transfer":"siirto",
-        "contacts":"kosketus",
+        "contacts":"Osoitekirja",
         "setting":"perustettu",
         "total":"kokonais-"
+    },
+    "page_contacts":{
+        "tit":"Osoitekirja",
+        "add_cont":{
+            "tri_dialog":"Lisää osoite",
+            "dialog_tit":"Anna osoiteinformaatiot",
+            "dialog_tag":"tag",
+            "tag_placeholder":"Anna osoite kommenttikoodille",
+            "dialog_address":"osoite",
+            "address_placeholder":"Anna osoite"
+        },
+        "delete_dialog":{
+            "title":"Poistat"
+        }
     },
     "page_setting":{
         "tit":"perustettu"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ntọala"
-    },
+    "lang":"Asụsụ",
+    "confirm":"Nkwenye",
+    "cancel":"Ịkagbu",
+    "confirm_you_active":"Biko gosi ọrụ gị",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Nyefee",
-        "contacts":"Ndi ana-akpo",
+        "contacts":"Akwụkwọ akwụkwọ",
         "setting":"Ntọala",
         "total":"Ọnụ"
+    },
+    "page_contacts":{
+        "tit":"Akwụkwọ akwụkwọ",
+        "add_cont":{
+            "tri_dialog":"Tinye adreesị",
+            "dialog_tit":"Tinye ozi adreesị",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Biko tinye mkpado edemede maka adreesị",
+            "dialog_address":"Adreesị",
+            "address_placeholder":"Biko tinye adreesị"
+        },
+        "delete_dialog":{
+            "title":"Ị na-ewepụ"
+        }
     },
     "page_setting":{
         "tit":"Ntọala"

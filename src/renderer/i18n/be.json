@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"налада"
-    },
+    "lang":"мова",
+    "confirm":"пацвердзіць",
+    "cancel":"адменены",
+    "confirm_you_active":"Калі ласка, пераканайцеся, што ваша праца",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"дома",
         "transfer":"перадача",
-        "contacts":"кантакт",
+        "contacts":"адрасная кніга",
         "setting":"ўсталёўваць",
         "total":"агульны"
+    },
+    "page_contacts":{
+        "tit":"адрасная кніга",
+        "add_cont":{
+            "tri_dialog":"дадаць адрас",
+            "dialog_tit":"Калі ласка, увядзіце інфармацыю пра адрас",
+            "dialog_tag":"тэг",
+            "tag_placeholder":"Калі ласка, увядзіце адрас этыкеткі Заўвагі",
+            "dialog_address":"адрас",
+            "address_placeholder":"Калі ласка, увядзіце адрас"
+        },
+        "delete_dialog":{
+            "title":"вы выдаляеце"
+        }
     },
     "page_setting":{
         "tit":"ўсталёўваць"

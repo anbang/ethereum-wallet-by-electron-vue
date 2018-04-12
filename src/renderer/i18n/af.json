@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"omgewing"
-    },
+    "lang":"taal",
+    "confirm":"bevestig",
+    "cancel":"gekanselleer",
+    "confirm_you_active":"Bevestig asseblief u operasie",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"huis",
         "transfer":"oordrag",
-        "contacts":"Kontak",
+        "contacts":"Adresboek",
         "setting":"opstel",
         "total":"totale"
+    },
+    "page_contacts":{
+        "tit":"Adresboek",
+        "add_cont":{
+            "tri_dialog":"Voeg adres by",
+            "dialog_tit":"Voer adresinligting in",
+            "dialog_tag":"tag",
+            "tag_placeholder":"Voer asseblief die kommentaar tag vir die adres in",
+            "dialog_address":"adres",
+            "address_placeholder":"Voer asseblief die adres in"
+        },
+        "delete_dialog":{
+            "title":"Jy verwyder"
+        }
     },
     "page_setting":{
         "tit":"opstel"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Pagtakda"
-    },
+    "lang":"Pinulongan",
+    "confirm":"Pagkumpirma",
+    "cancel":"Pagkansela",
+    "confirm_you_active":"Palihug kumpirmahi ang imong operasyon",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Panimalay",
         "transfer":"Pagbalhin",
-        "contacts":"Mga kontak",
+        "contacts":"Address book",
         "setting":"Mga Setting",
         "total":"Total"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Idugang ang address",
+            "dialog_tit":"Pagsulod sa impormasyon sa address",
+            "dialog_tag":"Mga Tag",
+            "tag_placeholder":"Palihug ibutang ang comment tag alang sa address",
+            "dialog_address":"Address",
+            "address_placeholder":"Palihug pagsulod sa address"
+        },
+        "delete_dialog":{
+            "title":"Gikuha nimo"
+        }
     },
     "page_setting":{
         "tit":"Mga Setting"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"설정"
-    },
+    "lang":"언어",
+    "confirm":"확인",
+    "cancel":"취소",
+    "confirm_you_active":"당신의 수술을 확인해주세요.",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"홈",
         "transfer":"전송",
-        "contacts":"연락처",
+        "contacts":"주소록",
         "setting":"설정",
         "total":"합계"
+    },
+    "page_contacts":{
+        "tit":"주소록",
+        "add_cont":{
+            "tri_dialog":"주소 추가",
+            "dialog_tit":"주소 정보 입력",
+            "dialog_tag":"태그",
+            "tag_placeholder":"주소에 대한 설명 태그를 입력하십시오.",
+            "dialog_address":"주소",
+            "address_placeholder":"주소를 입력하십시오."
+        },
+        "delete_dialog":{
+            "title":"제거하고 있습니다."
+        }
     },
     "page_setting":{
         "tit":"설정"

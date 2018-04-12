@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"შექმნის"
-    },
+    "lang":"ენა",
+    "confirm":"დადასტურება",
+    "cancel":"გაუქმება",
+    "confirm_you_active":"გთხოვთ დაადასტუროთ თქვენი ოპერაცია",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"მთავარი",
         "transfer":"გადარიცხვა",
-        "contacts":"კონტაქტები",
+        "contacts":"მისამართი წიგნი",
         "setting":"პარამეტრები",
         "total":"სულ"
+    },
+    "page_contacts":{
+        "tit":"მისამართი წიგნი",
+        "add_cont":{
+            "tri_dialog":"მისამართი",
+            "dialog_tit":"შეიყვანეთ მისამართი ინფორმაცია",
+            "dialog_tag":"წარწერები",
+            "tag_placeholder":"გთხოვთ, შეიყვანოთ მისამართი ტეგით მისამართი",
+            "dialog_address":"მისამართი",
+            "address_placeholder":"გთხოვთ შეიყვანოთ მისამართი"
+        },
+        "delete_dialog":{
+            "title":"თქვენ მოხსნით"
+        }
     },
     "page_setting":{
         "tit":"პარამეტრები"

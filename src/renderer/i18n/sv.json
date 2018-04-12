@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"inställning"
-    },
+    "lang":"språk",
+    "confirm":"bekräfta",
+    "cancel":"Inställd",
+    "confirm_you_active":"Vänligen bekräfta din operation",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Kontakta",
+        "contacts":"Adressbok",
         "setting":"Ställ in",
         "total":"total"
+    },
+    "page_contacts":{
+        "tit":"Adressbok",
+        "add_cont":{
+            "tri_dialog":"Lägg till adress",
+            "dialog_tit":"Ange adressinformation",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Vänligen ange kommentarkoden för adressen",
+            "dialog_address":"adress",
+            "address_placeholder":"Vänligen ange adressen"
+        },
+        "delete_dialog":{
+            "title":"Du tar bort"
+        }
     },
     "page_setting":{
         "tit":"Ställ in"

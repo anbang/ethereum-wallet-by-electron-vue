@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ਸੈਟਿੰਗ"
-    },
+    "lang":"ਭਾਸ਼ਾ",
+    "confirm":"ਪੁਸ਼ਟੀ",
+    "cancel":"ਰੱਦ ਕਰਨਾ",
+    "confirm_you_active":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਅਪਰੇਸ਼ਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"ਘਰ",
         "transfer":"ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
-        "contacts":"ਸੰਪਰਕ",
+        "contacts":"ਐਡਰੈੱਸ ਬੁੱਕ",
         "setting":"ਸੈਟਿੰਗਾਂ",
         "total":"ਕੁੱਲ"
+    },
+    "page_contacts":{
+        "tit":"ਐਡਰੈੱਸ ਬੁੱਕ",
+        "add_cont":{
+            "tri_dialog":"ਐਡਰੈੱਸ ਜੋੜੋ",
+            "dialog_tit":"ਐਡਰੈੱਸ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
+            "dialog_tag":"ਟੈਗਸ",
+            "tag_placeholder":"ਐਡਰੈੱਸ ਲਈ ਟਿੱਪਣੀ ਟੈਗ ਦਿਓ ਜੀ",
+            "dialog_address":"ਪਤਾ",
+            "address_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਪਤਾ ਦਰਜ ਕਰੋ"
+        },
+        "delete_dialog":{
+            "title":"ਤੁਸੀਂ ਹਟਾ ਰਹੇ ਹੋ"
+        }
     },
     "page_setting":{
         "tit":"ਸੈਟਿੰਗਾਂ"

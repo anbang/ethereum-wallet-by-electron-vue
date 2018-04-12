@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"सेटिङ"
-    },
+    "lang":"भाषा",
+    "confirm":"पुष्टिकरण",
+    "cancel":"रद्दीकरण",
+    "confirm_you_active":"कृपया तपाईंको अपरेशन पुष्टि गर्नुहोस्",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"घर",
         "transfer":"स्थानान्तरण गर्नुहोस्",
-        "contacts":"सम्पर्कहरू",
+        "contacts":"ठेगानापुस्तिका",
         "setting":"सेटिङ्हरू",
         "total":"कुल"
+    },
+    "page_contacts":{
+        "tit":"ठेगानापुस्तिका",
+        "add_cont":{
+            "tri_dialog":"ठेगाना थप्नुहोस्",
+            "dialog_tit":"ठेगाना जानकारी प्रविष्ट गर्नुहोस्",
+            "dialog_tag":"ट्यागहरू",
+            "tag_placeholder":"ठेगानाको लागि कृपया टिप्पणी ट्याग प्रविष्ट गर्नुहोस्",
+            "dialog_address":"ठेगाना",
+            "address_placeholder":"कृपया ठेगाना प्रविष्टि गर्नुहोस्"
+        },
+        "delete_dialog":{
+            "title":"तपाईं हटाउँदै हुनुहुन्छ"
+        }
     },
     "page_setting":{
         "tit":"सेटिङ्हरू"

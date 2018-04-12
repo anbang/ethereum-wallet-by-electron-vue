@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"सेटिंग"
-    },
+    "lang":"भाषा",
+    "confirm":"पुष्टीकरण",
+    "cancel":"रद्दीकरण",
+    "confirm_you_active":"कृपया आपल्या ऑपरेशनची पुष्टी करा",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"मुख्यपृष्ठ",
         "transfer":"हस्तांतरण",
-        "contacts":"संपर्क",
+        "contacts":"अॅड्रेस बुक",
         "setting":"सेटिंग्ज",
         "total":"एकूण"
+    },
+    "page_contacts":{
+        "tit":"अॅड्रेस बुक",
+        "add_cont":{
+            "tri_dialog":"पत्ता जोडा",
+            "dialog_tit":"पत्ता माहिती प्रविष्ट करा",
+            "dialog_tag":"टॅग्ज",
+            "tag_placeholder":"कृपया पत्त्यासाठी टिप्पणी टॅग प्रविष्ट करा",
+            "dialog_address":"पत्ता",
+            "address_placeholder":"कृपया पत्ता प्रविष्ट करा"
+        },
+        "delete_dialog":{
+            "title":"आपण काढत आहात"
+        }
     },
     "page_setting":{
         "tit":"सेटिंग्ज"

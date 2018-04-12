@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"innstilling"
-    },
+    "lang":"språk",
+    "confirm":"bekrefte",
+    "cancel":"avbrutt",
+    "confirm_you_active":"Vennligst bekreft operasjonen din",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Hjem",
         "transfer":"Transfer",
-        "contacts":"Kontakt",
+        "contacts":"Adressebok",
         "setting":"Sett opp",
         "total":"total"
+    },
+    "page_contacts":{
+        "tit":"Adressebok",
+        "add_cont":{
+            "tri_dialog":"Legg til adresse",
+            "dialog_tit":"Skriv inn adresseinformasjon",
+            "dialog_tag":"tag",
+            "tag_placeholder":"Vennligst skriv inn kommentarmerket for adressen",
+            "dialog_address":"adresse",
+            "address_placeholder":"Vennligst skriv inn adressen"
+        },
+        "delete_dialog":{
+            "title":"Du fjerner"
+        }
     },
     "page_setting":{
         "tit":"Sett opp"

@@ -2,84 +2,124 @@
   <div class="page-contacts">
       <div class="contacts-banner">
         <div class="contacts-center">
-          <h1 class="contacts-tit">{{msg}}</h1> 
+          <h1 class="contacts-tit">{{ $t('page_contacts.tit') }}</h1> 
         </div>
       </div>
 
         <div class="contacts-content">
             <div class="contacts-wrap b-flex">
-                <!-- <template v-for="account in accounts2"> -->
-                    <!-- <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item "> -->
+                <template v-for="contact in localContacts">
                     <div class="contacts-item ">
                         <div class="contacts-avatar">
                           <i class="iconfont ico-avatar">&#xe602;</i>
                         </div>
-                        <i class="iconfont delete-contacts">&#xe613;</i>
+                        <i class="iconfont delete-contacts" @click="showDeleteDia(contact)">&#xe613;</i>
                         <div class="contacts-cont">
-                            <p class="contacts-remark">账号备注信息</p>
-                            <p class="contacts-address">account.address</p>
+                            <p class="contacts-remark">{{contact.tag}}</p>
+                            <p class="contacts-address">{{contact.address}}</p>
                         </div>  
                     </div>
-                                        <div class="contacts-item ">
-                        <div class="contacts-avatar">
-                          <i class="iconfont ico-avatar">&#xe602;</i>
-                        </div>
-                        <i class="iconfont delete-contacts">&#xe613;</i>
-                        <div class="contacts-cont">
-                            <p class="contacts-remark">账号备注信息</p>
-                            <p class="contacts-address">account.address</p>
-                        </div>  
-                    </div>
-                                        <div class="contacts-item ">
-                        <div class="contacts-avatar">
-                          <i class="iconfont ico-avatar">&#xe602;</i>
-                        </div>
-                        <i class="iconfont delete-contacts">&#xe613;</i>
-                        <div class="contacts-cont">
-                            <p class="contacts-remark">账号备注信息</p>
-                            <p class="contacts-address">account.address</p>
-                        </div>  
-                    </div>
-                                        <div class="contacts-item ">
-                        <div class="contacts-avatar">
-                          <i class="iconfont ico-avatar">&#xe602;</i>
-                        </div>
-                        <i class="iconfont delete-contacts">&#xe613;</i>
-                        <div class="contacts-cont">
-                            <p class="contacts-remark">账号备注信息</p>
-                            <p class="contacts-address">account.address</p>
-                        </div>  
-                    </div>
-                                    <!--  ADD  -->
-                <div class="contacts-item add-contacts">
+              </template>
+                <!--  ADD  -->
+                <div class="contacts-item add-contacts" @click="dialogFormVisible = true">
                     <div class="contacts-cont">
                       <i class="iconfont icon-add-contacts">&#xe63b;</i>
-                      <p class="add-contacts-des">添加联系人</p>
+                      <p class="add-contacts-des">{{ $t('page_contacts.add_cont.tri_dialog') }}</p>
                     </div>  
                 </div>
 
-                    <!-- </router-link> -->
-              <!-- </template> -->
+
             </div>
         </div>
+<!-- create dialog -->
+<el-dialog :title="$t('page_contacts.add_cont.dialog_tit')" 
+width="70%":visible.sync="dialogFormVisible">
+  <el-form :model="form">
+    <el-form-item :label="$t('page_contacts.add_cont.dialog_tag')" :label-width="formLabelWidth">
+      <el-input v-model="form.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
+    </el-form-item>
 
-
-
-
-
-    <br><br>
-    <h1>{{ msg }}</h1>
+    <el-form-item :label="$t('page_contacts.add_cont.dialog_address')" :label-width="formLabelWidth">
+      <el-input v-model="form.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')" 
+      ></el-input>
+    </el-form-item>
+  </el-form>
+  <div slot="footer" class="dialog-footer">
+    <el-button @click="dialogFormVisible = false">{{$t('cancel')}}</el-button>
+    <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
   </div>
+</el-dialog>
+
+<!-- delete confirm dialog -->
+<el-dialog
+  :title="$t('page_contacts.delete_dialog.title')"
+  :visible.sync="dialogDelete.switch"
+  width="60%">
+  <p>
+    {{dialogDelete.addressObj.tag}}
+  </p>
+  <p class="text-regular">{{dialogDelete.addressObj.address}}</p>
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="dialogDelete.switch = false">{{$t('cancel')}}</el-button>
+    <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
+  </span>
+</el-dialog>
+
+</div>
 </template>
 
 <script>
 export default {
-  name: 'Search',
-  data () {
-    return {
-      msg: '联系人'
+  name: 'Contacts',
+    data() {
+      return {
+        dialogFormVisible: false,
+        dialogDelete: {
+          switch:false,
+          addressObj:{
+            tag:'',
+            address:''
+          }
+        },
+        localContacts:this.$db.read().get('czr_contacts.contact_ary').value(),
+        form: {
+          tag: '',
+          address: ''
+        },
+        formLabelWidth: '80px'
+      };
+    },
+    computed:{
+    },
+    methods: {
+      addContact:function(){
+        if(!this.form.tag || !this.form.address){
+          return;
+        }
+        var tempCon={
+          tag:this.form.tag,
+          address:this.form.address
+        }
+        if (!this.$db.read().has('czr_contacts.contact_ary').value()) {
+            this.$db.read().set('czr_contacts.contact_ary',[]).write()
+        }
+        this.$db.read().get('czr_contacts.contact_ary').push(tempCon).write()
+        this.localContacts = this.$db.read().get('czr_contacts.contact_ary').value();
+        this.dialogFormVisible = false
+        this.form.tag=""
+        this.form.address=""
+      },
+      showDeleteDia:function(contactObj){
+        this.dialogDelete.addressObj=contactObj;
+        this.dialogDelete.switch = true
+      },
+      deleteContact:function(){
+        this.$db.get('czr_contacts.contact_ary')
+            .remove({address: this.dialogDelete.addressObj.address}).write()
+        this.localContacts = this.$db.read().get('czr_contacts.contact_ary').value();
+        this.dialogDelete.switch = false
+      }
     }
-  }
 }
 </script>
 
@@ -106,7 +146,7 @@ export default {
   margin-top: 40px;
   /* width: 100%; */
   /* background: #1E8FAA; */
-  padding: 0 20px;
+  padding: 0 20px 40px 20px;
   margin-left: -20px;
   flex-wrap:wrap;
 }
@@ -117,7 +157,6 @@ export default {
     position: relative;
     margin: 40px 0 20px 20px;
     background-color: #fff;
-    cursor: pointer;
     -webkit-user-select: none;
 }
 .contacts-item.add-contacts{
@@ -163,11 +202,14 @@ export default {
     word-break: break-all; 
     overflow:hidden;
 }
+.add-contacts{cursor: pointer;}
 .contacts-item .icon-add-contacts{
   font-size: 32px;
   color: #9A9C9D ;
 }
 .contacts-item .add-contacts-des{color: #9A9C9D ;}
-
+.add-contacts:hover {border: 1px dashed #b6b3f8;}
+.add-contacts:hover .icon-add-contacts{color: #5a59a0;}
+.add-contacts:hover .add-contacts-des{color: #5a59a0;}
 
 </style>

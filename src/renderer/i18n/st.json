@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ho beha"
-    },
+    "lang":"Puo",
+    "confirm":"Bopaki",
+    "cancel":"Ho hlakola",
+    "confirm_you_active":"Ka kopo netefatsa ts'ebetso ea hau",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Lehae",
         "transfer":"Fetisetsa",
-        "contacts":"Mabitso",
+        "contacts":"Buka ea Aterese",
         "setting":"Lisebelisoa",
         "total":"Kakaretso"
+    },
+    "page_contacts":{
+        "tit":"Buka ea Aterese",
+        "add_cont":{
+            "tri_dialog":"Kenya aterese",
+            "dialog_tit":"Kenya boitsebiso ba aterese",
+            "dialog_tag":"Litlhaku",
+            "tag_placeholder":"Ka kopo kenya leboko la maikutlo bakeng sa aterese",
+            "dialog_address":"Aterese",
+            "address_placeholder":"Ka kopo kenya aterese"
+        },
+        "delete_dialog":{
+            "title":"Ua tlosa"
+        }
     },
     "page_setting":{
         "tit":"Lisebelisoa"

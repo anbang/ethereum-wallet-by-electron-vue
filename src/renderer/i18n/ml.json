@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"ക്രമീകരണം"
-    },
+    "lang":"ഭാഷ",
+    "confirm":"സ്ഥിരീകരണം",
+    "cancel":"റദ്ദാക്കൽ",
+    "confirm_you_active":"നിങ്ങളുടെ പ്രവർത്തനം സ്ഥിരീകരിക്കുക",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"വീട്",
         "transfer":"കൈമാറ്റം ചെയ്യുക",
-        "contacts":"ബന്ധങ്ങൾ",
+        "contacts":"വിലാസ പുസ്തകം",
         "setting":"ക്രമീകരണങ്ങൾ",
         "total":"ആകെ"
+    },
+    "page_contacts":{
+        "tit":"വിലാസ പുസ്തകം",
+        "add_cont":{
+            "tri_dialog":"വിലാസം ചേർക്കുക",
+            "dialog_tit":"വിലാസ വിവരം നൽകുക",
+            "dialog_tag":"ടാഗുകൾ",
+            "tag_placeholder":"ദയവായി വിലാസത്തിനായുള്ള അഭിപ്രായ ടാഗ് നൽകുക",
+            "dialog_address":"വിലാസം",
+            "address_placeholder":"വിലാസം നൽകുക"
+        },
+        "delete_dialog":{
+            "title":"നിങ്ങൾ നീക്കംചെയ്യുന്നു"
+        }
     },
     "page_setting":{
         "tit":"ക്രമീകരണങ്ങൾ"

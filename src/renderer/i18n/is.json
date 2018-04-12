@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Stillingar"
-    },
+    "lang":"Tungumál",
+    "confirm":"Staðfesting",
+    "cancel":"Afpöntun",
+    "confirm_you_active":"Vinsamlegast staðfestu aðgerðina þína",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Heim",
         "transfer":"Flytja",
-        "contacts":"Tengiliðir",
+        "contacts":"Heimilisfang bók",
         "setting":"Stillingar",
         "total":"Samtals"
+    },
+    "page_contacts":{
+        "tit":"Heimilisfang bók",
+        "add_cont":{
+            "tri_dialog":"Bæta við heimilisfangi",
+            "dialog_tit":"Sláðu inn heimilisfangsupplýsingar",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Vinsamlegast sláðu inn athugasemdarkóðann fyrir heimilisfangið",
+            "dialog_address":"Heimilisfang",
+            "address_placeholder":"Vinsamlegast sláðu inn heimilisfangið"
+        },
+        "delete_dialog":{
+            "title":"Þú ert að fjarlægja"
+        }
     },
     "page_setting":{
         "tit":"Stillingar"

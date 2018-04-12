@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Ayarlama"
-    },
+    "lang":"Dil",
+    "confirm":"Təsdiqləmə",
+    "cancel":"Ləğv et",
+    "confirm_you_active":"Xahiş edirik əməliyyatınızı təsdiq edin",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Ev",
         "transfer":"Transfer",
-        "contacts":"Əlaqə",
+        "contacts":"Ünvan kitab",
         "setting":"Ayarlar",
         "total":"Ümumi"
+    },
+    "page_contacts":{
+        "tit":"Ünvan kitab",
+        "add_cont":{
+            "tri_dialog":"Ünvan əlavə edin",
+            "dialog_tit":"Ünvan məlumatını daxil edin",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Lütfən, ünvan üçün şərh etiketini daxil edin",
+            "dialog_address":"Ünvanı",
+            "address_placeholder":"Xahiş edirik ünvanı daxil edin"
+        },
+        "delete_dialog":{
+            "title":"Siz çıxarırsınız"
+        }
     },
     "page_setting":{
         "tit":"Ayarlar"

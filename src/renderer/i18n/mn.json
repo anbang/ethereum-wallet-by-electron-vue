@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Тохируулах"
-    },
+    "lang":"Хэл",
+    "confirm":"Баталгаажуулалт",
+    "cancel":"Цуцлах",
+    "confirm_you_active":"Үйл ажиллагааг баталгаажуулна уу",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Нүүр хуудас",
         "transfer":"Шилжүүлэх",
-        "contacts":"Харилцагчид",
+        "contacts":"Хаяг ном",
         "setting":"Тохиргоо",
         "total":"Нийт"
+    },
+    "page_contacts":{
+        "tit":"Хаяг ном",
+        "add_cont":{
+            "tri_dialog":"Хаяг нэмэх",
+            "dialog_tit":"Хаягийн мэдээллийг оруулна уу",
+            "dialog_tag":"Сэдвийн",
+            "tag_placeholder":"Хаягийн тайлбар комментыг оруулна уу",
+            "dialog_address":"Хаяг",
+            "address_placeholder":"Хаягаа оруулна уу"
+        },
+        "delete_dialog":{
+            "title":"Та устгаж байна"
+        }
     },
     "page_setting":{
         "tit":"Тохиргоо"

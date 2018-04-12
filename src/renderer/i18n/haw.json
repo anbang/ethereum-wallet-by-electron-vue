@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Hoʻonohonoho"
-    },
+    "lang":"'Ōlelo",
+    "confirm":"Hōʻoia",
+    "cancel":"Hoʻokahuli",
+    "confirm_you_active":"Eʻoluʻolu e hōʻoia i kāu hana",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Home",
         "transfer":"Hoʻololi",
-        "contacts":"Nāʻike",
+        "contacts":"Puka puke",
         "setting":"Nā Papa",
         "total":"Hōʻuluʻulu"
+    },
+    "page_contacts":{
+        "tit":"Puka puke",
+        "add_cont":{
+            "tri_dialog":"Pākuʻi i kahi helu",
+            "dialog_tit":"E komo i kaʻikepili kūlana",
+            "dialog_tag":"Nā helu",
+            "tag_placeholder":"Eʻoluʻolu e tomo i ka helu tag no ka helu",
+            "dialog_address":"Wāina",
+            "address_placeholder":"Eʻoluʻolu e komo i kahi helu"
+        },
+        "delete_dialog":{
+            "title":"Ke wehe neiʻoe"
+        }
     },
     "page_setting":{
         "tit":"Nā Papa"

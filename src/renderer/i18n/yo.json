@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Eto"
-    },
+    "lang":"Ede",
+    "confirm":"Ijẹrisi",
+    "cancel":"Cancellation",
+    "confirm_you_active":"Jọwọ jẹrisi isẹ rẹ",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Ile",
         "transfer":"Gbigbe lọ",
-        "contacts":"Awọn olubasọrọ",
+        "contacts":"Iwe iwe ipamọ",
         "setting":"Eto",
         "total":"Lapapọ"
+    },
+    "page_contacts":{
+        "tit":"Iwe iwe ipamọ",
+        "add_cont":{
+            "tri_dialog":"Fi adirẹsi kun",
+            "dialog_tit":"Tẹ alaye adirẹsi sii",
+            "dialog_tag":"Awọn afiwe",
+            "tag_placeholder":"Jowo tẹ ami idaniloju ọrọ fun adirẹsi naa",
+            "dialog_address":"Adirẹsi",
+            "address_placeholder":"Jọwọ tẹ adirẹsi sii"
+        },
+        "delete_dialog":{
+            "title":"O n yọ kuro"
+        }
     },
     "page_setting":{
         "tit":"Eto"

@@ -1,16 +1,31 @@
 {
-    "lang": {
-        "browse":"Pagtatakda"
-    },
+    "lang":"Wika",
+    "confirm":"Kumpirmasyon",
+    "cancel":"Pagkansela",
+    "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit":{
         "czr":"CZR"
     },
     "model_header":{
         "home":"Bahay",
         "transfer":"Maglipat",
-        "contacts":"Mga contact",
+        "contacts":"Address book",
         "setting":"Mga Setting",
         "total":"Kabuuang"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Magdagdag ng address",
+            "dialog_tit":"Ipasok ang impormasyon ng address",
+            "dialog_tag":"Mga Tag",
+            "tag_placeholder":"Pakipasok ang tag ng komento para sa address",
+            "dialog_address":"Address",
+            "address_placeholder":"Mangyaring ipasok ang address"
+        },
+        "delete_dialog":{
+            "title":"Inaalis mo"
+        }
     },
     "page_setting":{
         "tit":"Mga Setting"
