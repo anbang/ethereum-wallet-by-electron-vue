@@ -9,7 +9,7 @@
         </div>
         <div class="home-content">
             <div class="account-wrap b-flex">
-                <template v-for="account in accounts2">
+                <template v-for="account in localAccounts">
                     <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item ">
                         <div class="account-avatar">
                           <i class="iconfont ico-avatar">&#xe602;</i>
@@ -40,7 +40,6 @@
 
         <h2>默认主账号: {{defaultAcc}}</h2>
         <h2>挖矿成功奖励的地址: {{mainAcc}}</h2>
-        <h2>所有账户的总额：{{totalBalance}} Eth</h2>
         <br>
 
 
@@ -103,35 +102,22 @@ export default {
     };
   },
   computed: {
-    totalBalance: function() {
-      var total = 0;
-      var self = this;
-      self.accounts2 = [];
-      for (var i = 0; i < this.accounts.length; i++) {
-        //如果不存在某个地址，添加
-        if (!this.$db.has("czr_accounts." + this.accounts[i]).value()) {
-          this.$db
-            .set("czr_accounts." + this.accounts[i], {
-              tx_list: {}
-            })
-            .write();
-        }
-
-        var balance = web3.eth.getBalance(this.accounts[i]);
-        // console.log(balance)
-        self.accounts2.push({
-          address: this.accounts[i],
-          balance: web3.fromWei(balance.toNumber(), "ether")
-        });
-        total += balance.toNumber();
-      }
-      console.log("HomeDb", this.$db.get("czr_accounts").value());
-
-      return web3.fromWei(total, "ether");
-    },
     addressBalance: function(address) {
       var balance = web3.eth.getBalance(address);
       return web3.fromWei(balance, "ether");
+    },
+    localAccounts:function(){
+      var tempAcc=this.$db.read().get('czr_accounts').value();
+      for(var i=0;i<tempAcc.length;i++){
+        var current=web3.eth.getBalance(tempAcc[i]["address"]);
+        //如果最新的余额和本地数据库不同，更新数据；
+        if(current!=tempAcc[i]["balance"]){
+          this.$db.read().get('czr_accounts').find({'address': tempAcc[i]["address"]}).assign({'balance':current}).write()
+        }
+        //转成用户金额
+        tempAcc[i]["balance"]= web3.fromWei(tempAcc[i]["balance"], "ether");
+      }
+      return tempAcc;
     }
   },
   methods: {

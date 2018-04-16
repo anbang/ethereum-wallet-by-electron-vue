@@ -26,9 +26,11 @@ const db = Datastore(adapter)// lowdb接管该文件
 db._.mixin(LodashId)
 
 // 初始化数据，预先指定数据库的基本结构
+console.log("是否有czr_accounts",db.read().has('czr_accounts').value())
 if (!db.has('czr_accounts').value()) {
-  db.set('czr_accounts', {}).write()
+  db.set('czr_accounts', []).write()
 }
+
 if (!db.has('czr_setting').value()) {
     db.set('czr_setting', {}).write()
     db.set('czr_setting.lang', get_language()).write()//根据语言设置

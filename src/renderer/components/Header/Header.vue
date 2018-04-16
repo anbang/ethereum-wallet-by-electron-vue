@@ -8,7 +8,7 @@
       </ul>
       <div class="has-assets-czr">
           {{ $t('model_header.total') }}
-          <strong>2636578.5483</strong>
+          <strong>{{totalBalance}}</strong>
           {{ $t('unit.czr') }}
       </div>
   </header>
@@ -16,14 +16,43 @@
 </template>
 
 <script>
+import web3 from "@/global/web3.js";
+
 export default {
   name: "Header",
   data() {
     return {
-      logo: "canonchain"
+      accounts: web3.personal.listAccounts
     };
+  },
+  computed:{
+    totalBalance:function(){
+      var total = 0;
+      var temoObj=null;
+      for (var i = 0; i < this.accounts.length; i++) {
+        var balance = web3.eth.getBalance(this.accounts[i]);
+        temoObj={
+          tag:"账号"+(i+1),
+          address:this.accounts[i],
+          balance: balance
+        }
+        //如果不存在某个地址，添加
+        if (!this.$db.read().get("czr_accounts").filter({address:this.accounts[i]}).value().length) {
+          this.$db
+            .get("czr_accounts")
+            .push(temoObj)
+            .write();
+        }
+
+        //TODO 判断余额变化，更新对应
+
+        total += balance.toNumber();
+    }
+    return web3.fromWei(total, "ether");
   }
-};
+}
+}
+
 </script>
 
 <style scoped>

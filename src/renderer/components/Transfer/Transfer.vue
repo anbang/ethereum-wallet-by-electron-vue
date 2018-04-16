@@ -1,64 +1,57 @@
 <template>
   <div class="page-transfer">
     <div class="transfer-cont">
-            <form class="bui-form" name="" method="post" action="/">
-                <fieldset>
-                    <legend>表单标题</legend>
-                      <div class="bui-form-item">
-                        <label for="" class="bui-label"><span class="bui-form-required">*</span>转出账号</label>
-                        <select id="province" name="province" class="bui-form-selector">
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462249</option>
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462254</option>
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462344</option>
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462253</option>
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462254</option>
-                            <option value="English">0xe0245dc5c13e4055461ec381d5bcbd322f462255</option>
-                        </select>
-                    </div>
-                    <div class="bui-form-item">
-                        <label for="" class="bui-label">
-                          <span class="bui-form-required">*</span>
-                            收款方
-                        </label>
-                        <div><input class="bui-input bui-input-l" type="text" placeholder="请输入对方地址"></div>
-                    </div>
-                    <div class="bui-form-item">
-                        <label for="" class="bui-label">
-                          <span class="bui-form-required">*</span>
-                            金额
-                        </label>
-                        <input class="bui-input" type="text" placeholder="请输入转账金额">
-                        <span class="bui-form-other">CZR</span>
-                        <span class="bui-form-other select-none">
-                          <label for="to-all">
-                            <input class="bui-checkbox" id="to-all" value="" type="checkbox">
-                            发送全部
-                          </label>
-                        </span>
-                    </div>
-                    <div class="bui-form-item">
-                        <label for="" class="bui-label">备注</label>
-                        <textarea class="bui-textarea" placeholder="选填"></textarea>
-                    </div>
-                    <div class="bui-form-item">
-                        <label for="" class="bui-label">
-                          <span class="bui-form-required">*</span>
-                            手续费
-                        </label>
-                        <input class="bui-input" type="text" placeholder="请输入手续费">
-                        <span class="bui-form-other">CZR</span>
-                        <p class="expected-assets">预估手续费 20 CZR</p>
-                    </div>
-                    <div class="bui-form-item">
-                        <input type="button" class="bui-button bui-button-green bui-button-l" value="下一步">
-                    </div>
-                </fieldset>
-            </form>
+      <p>从那个账号进来的：{{queryAcc || '直接进入的'}}</p> 
+      <el-form ref="form" :model="form" label-width="100px">
+          <el-form-item label="转出账号">
+              <el-select v-model="value6" placeholder="请选择" style="width:100%;" @change='onSelectedFrom'>
+                <el-option
+                  v-for="item in cities"
+                  :key="item.value"
+                  :label="item.label"
+                  :value="item.value">
+                  <span style="float: left">{{ item.label }}</span>
+                  <span style="float: right; color: #8492a6; font-size: 13px">{{ item.value }}</span>
+                </el-option>
+              </el-select>
+          </el-form-item>
+          <el-form-item label="收款方">
+            <div class="trigger-contacts">
+              <i class="el-icon-tickets"></i>
+            </div>
+            <el-input v-model="form.name" ></el-input>
+          </el-form-item>
+
+          <el-form-item label="金额">
+            <el-input v-model="form.name" class="width-180"></el-input>
+            <span>CZR</span>
+            <el-checkbox v-model="checked" class="send-all-assets">发送全部</el-checkbox>
+          </el-form-item>
+          <el-form-item label="备注">
+            <el-input type="textarea" v-model="form.desc"></el-input>
+          </el-form-item>
+          <el-form-item label="手续费">
+              <div class="block">
+                <el-slider
+                  v-model="value7"
+                  :min='1'
+                  :max='100'
+                  :step="10"
+                  show-input
+                  input-size	= 'mini'
+                  show-stops>
+                </el-slider>
+              </div>
+            <span class='speculate-wrap'>预估手续费：<strong>34.23</strong> CZR</span>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" @click="onSubmit">下一步</el-button>
+          </el-form-item>
+    </el-form>
+    <br><br><hr>
     </div>
     <br><br><br><br><br>
      <p>从那个账号进来的：{{queryAcc || '直接进入的'}}</p> 
-      <h2>默认的主账号：{{defaultAcc}}</h2>
-    <h1>{{ msg }} Gas暂时使用默认</h1>
     <br><br>
     转出方：
     <select name="from_address" @change="onSelected">
@@ -101,16 +94,74 @@ export default {
   name: "Search",
   data() {
     return {
+      form: {
+        name: '',
+        region: '',
+        date1: '',
+        date2: '',
+        delivery: false,
+        type: [],
+        resource: '',
+        desc: ''
+      },
+      checked:false,
+      value7: 34.2789,
+      cities: [{
+                value: 'Beijing',
+                label: '北京'
+              }, {
+                value: 'Shanghai',
+                label: '上海'
+              }, {
+                value: 'Nanjing',
+                label: '南京'
+              }, {
+                value: 'Chengdu',
+                label: '成都'
+              }, {
+                value: 'Shenzhen',
+                label: '深圳'
+              }, {
+                value: 'Guangzhou',
+                label: '广州'
+              }],
+        value6: '',
+
+
+      transform:{
+        //最终提交的数据
+        from  :"",
+        to    :"",
+        amount:"",
+        remark:"",
+        fees  :""
+      },
+      transSource:{
+        //form
+        accounts:web3.eth.accounts, //当前账号列表
+        fromAccount: this.$route.query.account ||
+                     web3.eth.accounts[0], //发送放的账号
+        queryAcc: this.$route.query.account, //当前路由带过来的账号信息
+        thisAccBa: web3.fromWei(
+            web3.eth
+              .getBalance(this.$route.query.account || web3.eth.accounts[0])
+              .toNumber(),
+            "ether"
+          ), //发送方的账户余额
+          tranTotal:""
+      },
+
+
+
+
       txid: "", //交易发送时候的TXID，需要储存
       txidInfo: "", //TXID查询的数据，需要储存
+
       tranTotal: "", //当前交易合计需要的ETH
       accounts: web3.eth.accounts, //当前账号列表
       fromAccount:
         this.$route.query.account ||
-        web3.eth.defaultAccount ||
         web3.eth.accounts[0], //发送放的账号
-      defaultAcc: web3.eth.defaultAccount, //默认的主账号
-
       queryAcc: this.$route.query.account, //当前路由带过来的账号信息
 
       toAccount: "", //接收方的地址
@@ -144,13 +195,16 @@ export default {
     }
   },
   methods: {
+    onSelectedFrom:function(val){
+      console.log("HAHAH",val)
+    },
+    //------------------------------
+    onSubmit() {
+      console.log('submit!');
+    },
     fromAcc: function(account) {
       if (this.queryAcc) {
         if (account == this.queryAcc) {
-          return true;
-        }
-      } else {
-        if (account == this.defaultAcc) {
           return true;
         }
       }
@@ -263,9 +317,23 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .page-transfer { text-align: left;background: #fff;border-top: 1px solid rgba(0,0,0,0.25);padding-top: 55px; }
+.transfer-cont{padding: 0 90px;}
 .page-transfer .bui-form-selector { width: 420px;font-size: 14px;}
 .page-transfer .bui-form-item { padding-left: 220px;}
 .tran_input { width: 300px; }
 .select-none {-webkit-user-select: none;}
 .expected-assets{margin-top: 14px;}
+
+.trigger-contacts{width: 50px;height: 38px;
+  background: #fff;
+  position: absolute;
+  right: 1px;top: 1px;
+  z-index: 2;border-radius: 4px;cursor: pointer;
+}
+.trigger-contacts .el-icon-tickets{font-size: 24px;padding-left: 13px;padding-top: 7px;color: #a7aaaf;}
+.trigger-contacts:hover{background: #dbdbff;}
+.trigger-contacts:hover .el-icon-tickets{color: #5a59a0;}
+
+.send-all-assets{margin-left: 20px;font-size: 16px;}
+.speculate-wrap{color: rgb(168, 168, 168);}
 </style>
