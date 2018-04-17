@@ -33,3 +33,27 @@ const createMenu = () => {
   ### vuejs  18国语言的实际构建
 
   https://github.com/zhubangbang/translation-by-gulp
+
+
+  ###   Computed property "defaultGas" was assigned to but it has no setter.
+
+  https://github.com/ElemeFE/mint-ui/issues/1000
+
+  ###  Invalid prop: type check failed for prop "value". Expected Number, Array, got String.
+
+vue的model 通过computed来设置的了
+
+            <el-form-item label="手续费">
+              <div class="block">
+                <el-slider
+                  v-model="defaultGas"
+                  :min='0.00001'
+                  :max='0.01'
+                  show-input
+                  :step="0.001"
+                  input-size	= 'mini'
+                  show-stops>
+                </el-slider>
+              </div>
+            <span class='speculate-wrap'>预估手续费：<strong>{{ defaultGas }}</strong> CZR</span>
+          </el-form-item>
