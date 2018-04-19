@@ -2,6 +2,7 @@
     "lang":"Dil",
     "confirm":"Təsdiqləmə",
     "cancel":"Ləğv et",
+    "dialog_tit":"Sövq et",
     "confirm_you_active":"Xahiş edirik əməliyyatınızı təsdiq edin",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Ünvan kitab",
         "setting":"Ayarlar",
         "total":"Ümumi"
+    },
+    "page_setting":{
+        "tit":"Ayarlar"
     },
     "page_contacts":{
         "tit":"Ünvan kitab",
@@ -27,7 +31,21 @@
             "title":"Siz çıxarırsınız"
         }
     },
-    "page_setting":{
-        "tit":"Ayarlar"
+    "page_transfer":{
+        "from_address":"Transfer et",
+        "to_address":"İnto",
+        "amount":"Məbləğ",
+        "send_all":"Hamısını göndər",
+        "remark":"Qeyd",
+        "fees":"Ücretler",
+        "expected_fees":"Tahmini haqlar",
+        "total":"Ümumi",
+        "select":"Xahiş edirik seçin",
+        "confirmDia":{
+            "title":"Xahiş edirik təsdiq edin",
+            "enter_passworld_tit":"Şifrənizi daxil edin",
+            "enter_passworld_place":"Şifrənizi daxil edin"
+        }
     }
+
 }

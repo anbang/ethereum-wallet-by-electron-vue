@@ -2,6 +2,7 @@
     "lang":"Tungumál",
     "confirm":"Staðfesting",
     "cancel":"Afpöntun",
+    "dialog_tit":"Hvetja",
     "confirm_you_active":"Vinsamlegast staðfestu aðgerðina þína",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Heimilisfang bók",
         "setting":"Stillingar",
         "total":"Samtals"
+    },
+    "page_setting":{
+        "tit":"Stillingar"
     },
     "page_contacts":{
         "tit":"Heimilisfang bók",
@@ -27,7 +31,21 @@
             "title":"Þú ert að fjarlægja"
         }
     },
-    "page_setting":{
-        "tit":"Stillingar"
+    "page_transfer":{
+        "from_address":"Flytja út",
+        "to_address":"Inn í",
+        "amount":"Upphæð",
+        "send_all":"Senda allt",
+        "remark":"Athugaðu",
+        "fees":"Gjöld",
+        "expected_fees":"Áætlaðir gjöld",
+        "total":"Samtals",
+        "select":"Vinsamlegast veldu",
+        "confirmDia":{
+            "title":"Vinsamlegast staðfestu",
+            "enter_passworld_tit":"Vinsamlegast sláðu inn lykilorðið þitt",
+            "enter_passworld_place":"Vinsamlegast sláðu inn lykilorðið þitt"
+        }
     }
+
 }

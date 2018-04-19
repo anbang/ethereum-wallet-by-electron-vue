@@ -2,6 +2,7 @@
     "lang":"زبان",
     "confirm":"تأیید",
     "cancel":"لغو",
+    "dialog_tit":"درخواست",
     "confirm_you_active":"لطفا عملیات خود را تأیید کنید",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"کتاب آدرس",
         "setting":"تنظیمات",
         "total":"کل"
+    },
+    "page_setting":{
+        "tit":"تنظیمات"
     },
     "page_contacts":{
         "tit":"کتاب آدرس",
@@ -27,7 +31,21 @@
             "title":"شما حذف می کنید"
         }
     },
-    "page_setting":{
-        "tit":"تنظیمات"
+    "page_transfer":{
+        "from_address":"منتقل کن",
+        "to_address":"به داخل",
+        "amount":"مقدار",
+        "send_all":"ارسال همه",
+        "remark":"توجه داشته باشید",
+        "fees":"هزینه ها",
+        "expected_fees":"هزینه های تخمینی",
+        "total":"کل",
+        "select":"لطفا انتخاب کنید",
+        "confirmDia":{
+            "title":"لطفا تایید کنید",
+            "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
+            "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
+        }
     }
+
 }

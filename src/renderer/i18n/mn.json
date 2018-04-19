@@ -2,6 +2,7 @@
     "lang":"Хэл",
     "confirm":"Баталгаажуулалт",
     "cancel":"Цуцлах",
+    "dialog_tit":"Захиалга",
     "confirm_you_active":"Үйл ажиллагааг баталгаажуулна уу",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Хаяг ном",
         "setting":"Тохиргоо",
         "total":"Нийт"
+    },
+    "page_setting":{
+        "tit":"Тохиргоо"
     },
     "page_contacts":{
         "tit":"Хаяг ном",
@@ -27,7 +31,21 @@
             "title":"Та устгаж байна"
         }
     },
-    "page_setting":{
-        "tit":"Тохиргоо"
+    "page_transfer":{
+        "from_address":"Дамжуулалт",
+        "to_address":"Руу",
+        "amount":"Дүн",
+        "send_all":"Бүгдийг нь илгээх",
+        "remark":"Тэмдэглэл",
+        "fees":"Төлбөр",
+        "expected_fees":"Төлөвлөсөн төлбөр",
+        "total":"Нийт",
+        "select":"Сонгоно уу",
+        "confirmDia":{
+            "title":"Баталгаажуулна уу",
+            "enter_passworld_tit":"Нууц үгээ оруулна уу",
+            "enter_passworld_place":"Нууц үгээ оруулна уу"
+        }
     }
+
 }

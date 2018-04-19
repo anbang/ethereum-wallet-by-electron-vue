@@ -2,6 +2,7 @@
     "lang":"ভাষা",
     "confirm":"নিশ্চিত করা",
     "cancel":"বাতিল করা হয়েছে",
+    "dialog_tit":"প্রম্পট",
     "confirm_you_active":"আপনার অপারেশন নিশ্চিত করুন",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ঠিকানা বই",
         "setting":"সেট আপ করুন",
         "total":"মোট"
+    },
+    "page_setting":{
+        "tit":"সেট আপ করুন"
     },
     "page_contacts":{
         "tit":"ঠিকানা বই",
@@ -27,7 +31,21 @@
             "title":"আপনি সরানো হয়"
         }
     },
-    "page_setting":{
-        "tit":"সেট আপ করুন"
+    "page_transfer":{
+        "from_address":"স্থানান্তর আউট",
+        "to_address":"মধ্যে",
+        "amount":"টাকা",
+        "send_all":"সব পাঠান",
+        "remark":"মন্তব্য",
+        "fees":"ফি",
+        "expected_fees":"আনুমানিক ফি",
+        "total":"মোট",
+        "select":"নির্বাচন করুন",
+        "confirmDia":{
+            "title":"দয়া করে নিশ্চিত করুন",
+            "enter_passworld_tit":"আপনার পাসওয়ার্ড লিখুন দয়া করে",
+            "enter_passworld_place":"আপনার পাসওয়ার্ড লিখুন দয়া করে"
+        }
     }
+
 }

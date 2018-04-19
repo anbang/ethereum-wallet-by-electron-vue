@@ -2,6 +2,7 @@
     "lang":"'Ōlelo",
     "confirm":"Hōʻoia",
     "cancel":"Hoʻokahuli",
+    "dialog_tit":"Hoʻonui",
     "confirm_you_active":"Eʻoluʻolu e hōʻoia i kāu hana",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Puka puke",
         "setting":"Nā Papa",
         "total":"Hōʻuluʻulu"
+    },
+    "page_setting":{
+        "tit":"Nā Papa"
     },
     "page_contacts":{
         "tit":"Puka puke",
@@ -27,7 +31,21 @@
             "title":"Ke wehe neiʻoe"
         }
     },
-    "page_setting":{
-        "tit":"Nā Papa"
+    "page_transfer":{
+        "from_address":"E hoʻololi i kahi",
+        "to_address":"Komo i loko",
+        "amount":"Ka nui",
+        "send_all":"Hoʻouna i nā mea a pau",
+        "remark":"Kākau",
+        "fees":"Nā uku",
+        "expected_fees":"Kūlāʻia nā uku",
+        "total":"Hōʻuluʻulu",
+        "select":"E koho",
+        "confirmDia":{
+            "title":"Eʻoluʻolu e hōʻike",
+            "enter_passworld_tit":"Eʻoluʻolu e kau i kāu hua'ōlelo",
+            "enter_passworld_place":"Eʻoluʻolu e kau i kāu hua'ōlelo"
+        }
     }
+
 }

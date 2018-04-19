@@ -2,6 +2,7 @@
     "lang":"Llengua",
     "confirm":"Confirmació",
     "cancel":"Cancel·lació",
+    "dialog_tit":"Preguntar",
     "confirm_you_active":"Confirmeu el vostre funcionament",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Llibreta d'adreces",
         "setting":"Configuració",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuració"
     },
     "page_contacts":{
         "tit":"Llibreta d'adreces",
@@ -27,7 +31,21 @@
             "title":"Estàs eliminant"
         }
     },
-    "page_setting":{
-        "tit":"Configuració"
+    "page_transfer":{
+        "from_address":"Trasllat",
+        "to_address":"Into",
+        "amount":"Import",
+        "send_all":"Envieu-ho tot",
+        "remark":"Nota",
+        "fees":"Honoraris",
+        "expected_fees":"Tarifes estimades",
+        "total":"Total",
+        "select":"Seleccioneu",
+        "confirmDia":{
+            "title":"Confirma",
+            "enter_passworld_tit":"Introduïu la vostra contrasenya",
+            "enter_passworld_place":"Introduïu la vostra contrasenya"
+        }
     }
+
 }

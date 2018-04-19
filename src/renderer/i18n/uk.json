@@ -2,6 +2,7 @@
     "lang":"Мова",
     "confirm":"Підтвердження",
     "cancel":"Скасування",
+    "dialog_tit":"Підказка",
     "confirm_you_active":"Будь ласка, підтвердьте свою операцію",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Адресна книга",
         "setting":"Налаштування",
         "total":"Всього"
+    },
+    "page_setting":{
+        "tit":"Налаштування"
     },
     "page_contacts":{
         "tit":"Адресна книга",
@@ -27,7 +31,21 @@
             "title":"Ви видаляєте"
         }
     },
-    "page_setting":{
-        "tit":"Налаштування"
+    "page_transfer":{
+        "from_address":"Передати",
+        "to_address":"Into",
+        "amount":"Сума",
+        "send_all":"Надіслати все",
+        "remark":"Примітка",
+        "fees":"Тарифи",
+        "expected_fees":"Орієнтовні збори",
+        "total":"Всього",
+        "select":"Будь ласка, виберіть",
+        "confirmDia":{
+            "title":"Будь ласка, підтвердьте",
+            "enter_passworld_tit":"Будь ласка, введіть свій пароль",
+            "enter_passworld_place":"Будь ласка, введіть свій пароль"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Langue",
     "confirm":"Confirmation",
     "cancel":"Annulation",
+    "dialog_tit":"Demander",
     "confirm_you_active":"S'il vous plaît confirmer votre opération",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Carnet d'adresses",
         "setting":"Paramètres",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Paramètres"
     },
     "page_contacts":{
         "tit":"Carnet d'adresses",
@@ -27,7 +31,21 @@
             "title":"Vous supprimez"
         }
     },
-    "page_setting":{
-        "tit":"Paramètres"
+    "page_transfer":{
+        "from_address":"Transférer",
+        "to_address":"Dans",
+        "amount":"Montant",
+        "send_all":"Envoyer tout",
+        "remark":"Remarque",
+        "fees":"Les frais",
+        "expected_fees":"Frais estimés",
+        "total":"Total",
+        "select":"Veuillez sélectionner",
+        "confirmDia":{
+            "title":"Veuillez confirmer",
+            "enter_passworld_tit":"Veuillez entrer votre mot de passe",
+            "enter_passworld_place":"Veuillez entrer votre mot de passe"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Pinulongan",
     "confirm":"Pagkumpirma",
     "cancel":"Pagkansela",
+    "dialog_tit":"Gipangayo",
     "confirm_you_active":"Palihug kumpirmahi ang imong operasyon",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Address book",
         "setting":"Mga Setting",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Mga Setting"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -27,7 +31,21 @@
             "title":"Gikuha nimo"
         }
     },
-    "page_setting":{
-        "tit":"Mga Setting"
+    "page_transfer":{
+        "from_address":"Pagbalhin",
+        "to_address":"Sa",
+        "amount":"Amgo",
+        "send_all":"Ipadala ang tanan",
+        "remark":"Mubo nga sulat",
+        "fees":"Bayad",
+        "expected_fees":"Gibanabana nga bayad",
+        "total":"Total",
+        "select":"Palihug pagpili",
+        "confirmDia":{
+            "title":"Palihug kumpirma",
+            "enter_passworld_tit":"Palihug pasabta ang imong password",
+            "enter_passworld_place":"Palihug pasabta ang imong password"
+        }
     }
+
 }

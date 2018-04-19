@@ -34,9 +34,10 @@ export default {
         temoObj={
           tag:"账号"+(i+1),
           address:this.accounts[i],
-          balance: balance
+          balance: balance,
+          tx_list:[]
         }
-        //如果不存在某个地址，添加
+        //如果不存在某个地址 添加
         if (!this.$db.read().get("czr_accounts").filter({address:this.accounts[i]}).value().length) {
           this.$db
             .get("czr_accounts")

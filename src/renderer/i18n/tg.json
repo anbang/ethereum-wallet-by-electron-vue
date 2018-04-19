@@ -2,6 +2,7 @@
     "lang":"Забон",
     "confirm":"Тасдиқ",
     "cancel":"Бекор кардан",
+    "dialog_tit":"Бештар",
     "confirm_you_active":"Лутфан амалиёти худро тасдиқ кунед",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Китобҳои адресӣ",
         "setting":"Танзимотҳо",
         "total":"Ҳамагӣ"
+    },
+    "page_setting":{
+        "tit":"Танзимотҳо"
     },
     "page_contacts":{
         "tit":"Китобҳои адресӣ",
@@ -27,7 +31,21 @@
             "title":"Шумо кушода истодаед"
         }
     },
-    "page_setting":{
-        "tit":"Танзимотҳо"
+    "page_transfer":{
+        "from_address":"Интиқол",
+        "to_address":"Ба рост",
+        "amount":"Маблағ",
+        "send_all":"Ҳамаи фиристед",
+        "remark":"Эзоҳ",
+        "fees":"Маблағҳо",
+        "expected_fees":"Арзиши тахминӣ",
+        "total":"Ҳамагӣ",
+        "select":"Лутфан интихоб кунед",
+        "confirmDia":{
+            "title":"Лутфан тасдиқ кунед",
+            "enter_passworld_tit":"Лутфан пароли худро ворид кунед",
+            "enter_passworld_place":"Лутфан пароли худро ворид кунед"
+        }
     }
+
 }

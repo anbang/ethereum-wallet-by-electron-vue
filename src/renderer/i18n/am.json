@@ -2,6 +2,7 @@
     "lang":"ቋንቋ",
     "confirm":"ማረጋገጫ",
     "cancel":"ስረዛ",
+    "dialog_tit":"አስገራሚ",
     "confirm_you_active":"እባክዎ የእርስዎን ክወና ያረጋግጡ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"የአድራሻ ደብተር",
         "setting":"ቅንብሮች",
         "total":"ጠቅላላ"
+    },
+    "page_setting":{
+        "tit":"ቅንብሮች"
     },
     "page_contacts":{
         "tit":"የአድራሻ ደብተር",
@@ -27,7 +31,21 @@
             "title":"እያስወገድክ ነው"
         }
     },
-    "page_setting":{
-        "tit":"ቅንብሮች"
+    "page_transfer":{
+        "from_address":"አስተላልፍ",
+        "to_address":"ወደ ውስጥ",
+        "amount":"መጠን",
+        "send_all":"ሁሉንም ላክ",
+        "remark":"ማስታወሻ",
+        "fees":"ክፍያዎች",
+        "expected_fees":"ግምታዊ ክፍያዎች",
+        "total":"ጠቅላላ",
+        "select":"እባክዎ ይምረጡ",
+        "confirmDia":{
+            "title":"እባክዎ ያረጋግጡ",
+            "enter_passworld_tit":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
+            "enter_passworld_place":"እባክዎ የይለፍ ቃልዎን ያስገቡ"
+        }
     }
+
 }

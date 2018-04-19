@@ -2,6 +2,7 @@
     "lang":"език",
     "confirm":"потвърждавам",
     "cancel":"отменен",
+    "dialog_tit":"бърз",
     "confirm_you_active":"Моля, потвърдете операцията си",
     "unit":{
         "czr":"CZR"
@@ -11,7 +12,10 @@
         "transfer":"прехвърляне",
         "contacts":"Адресна книга",
         "setting":"Създаване",
-        "total":"общо"
+        "total":"агрегат"
+    },
+    "page_setting":{
+        "tit":"Създаване"
     },
     "page_contacts":{
         "tit":"Адресна книга",
@@ -27,7 +31,21 @@
             "title":"Вие премахвате"
         }
     },
-    "page_setting":{
-        "tit":"Създаване"
+    "page_transfer":{
+        "from_address":"Прехвърлете",
+        "to_address":"в",
+        "amount":"пари",
+        "send_all":"Изпратете всички",
+        "remark":"забележка",
+        "fees":"Такси",
+        "expected_fees":"Оценени такси",
+        "total":"агрегат",
+        "select":"Моля, изберете",
+        "confirmDia":{
+            "title":"Моля, потвърдете",
+            "enter_passworld_tit":"Моля, въведете паролата си",
+            "enter_passworld_place":"Моля, въведете паролата си"
+        }
     }
+
 }

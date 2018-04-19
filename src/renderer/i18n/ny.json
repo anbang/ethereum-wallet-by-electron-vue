@@ -2,6 +2,7 @@
     "lang":"Chilankhulo",
     "confirm":"Umboni",
     "cancel":"Kuletsedwa",
+    "dialog_tit":"Mwamsanga",
     "confirm_you_active":"Chonde tsimikizani ntchito yanu",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Bukhu la Maadiresi",
         "setting":"Makhalidwe",
         "total":"Chiwerengero"
+    },
+    "page_setting":{
+        "tit":"Makhalidwe"
     },
     "page_contacts":{
         "tit":"Bukhu la Maadiresi",
@@ -27,7 +31,21 @@
             "title":"Mukuchotsa"
         }
     },
-    "page_setting":{
-        "tit":"Makhalidwe"
+    "page_transfer":{
+        "from_address":"Tumizani",
+        "to_address":"Kulowa",
+        "amount":"Zambiri",
+        "send_all":"Tumizani zonse",
+        "remark":"Zindikirani",
+        "fees":"Malipiro",
+        "expected_fees":"Malipiro owerengedwa",
+        "total":"Chiwerengero",
+        "select":"Chonde sankhani",
+        "confirmDia":{
+            "title":"Chonde tsimikizirani",
+            "enter_passworld_tit":"Chonde lowetsani mawu anu achinsinsi",
+            "enter_passworld_place":"Chonde lowetsani mawu anu achinsinsi"
+        }
     }
+
 }

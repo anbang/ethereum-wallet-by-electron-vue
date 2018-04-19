@@ -2,6 +2,7 @@
     "lang":"Sprooch",
     "confirm":"Bestätegung",
     "cancel":"Annulatioun",
+    "dialog_tit":"Prompéiert",
     "confirm_you_active":"Bestätegt Är Operatioun confirméiert",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adressbuch",
         "setting":"Astellungen",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Astellungen"
     },
     "page_contacts":{
         "tit":"Adressbuch",
@@ -27,7 +31,21 @@
             "title":"Dir sidd ewechhuelen"
         }
     },
-    "page_setting":{
-        "tit":"Astellungen"
+    "page_transfer":{
+        "from_address":"Transfer aus",
+        "to_address":"Into",
+        "amount":"Betrag",
+        "send_all":"Schéckt all",
+        "remark":"Notéieren",
+        "fees":"Bénévolat",
+        "expected_fees":"Geschätzte Käschten",
+        "total":"Total",
+        "select":"Wielt we g",
+        "confirmDia":{
+            "title":"Confirméiert weg",
+            "enter_passworld_tit":"Gidd weg Äert Passwuert",
+            "enter_passworld_place":"Gidd weg Äert Passwuert"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"язык",
     "confirm":"подтвердить",
     "cancel":"отменен",
+    "dialog_tit":"подсказка",
     "confirm_you_active":"Пожалуйста, подтвердите свою операцию",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Адресная книга",
         "setting":"устанавливать",
         "total":"общий"
+    },
+    "page_setting":{
+        "tit":"устанавливать"
     },
     "page_contacts":{
         "tit":"Адресная книга",
@@ -27,7 +31,21 @@
             "title":"Вы удаляете"
         }
     },
-    "page_setting":{
-        "tit":"устанавливать"
+    "page_transfer":{
+        "from_address":"Передача",
+        "to_address":"в",
+        "amount":"деньги",
+        "send_all":"Отправить все",
+        "remark":"замечание",
+        "fees":"сборы",
+        "expected_fees":"Расчетные сборы",
+        "total":"общий",
+        "select":"Пожалуйста, выберите",
+        "confirmDia":{
+            "title":"Пожалуйста, подтвердите",
+            "enter_passworld_tit":"Введите пароль",
+            "enter_passworld_place":"Введите пароль"
+        }
     }
+
 }

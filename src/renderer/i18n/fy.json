@@ -2,6 +2,7 @@
     "lang":"Taal",
     "confirm":"Befêstiging",
     "cancel":"Annulearje",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Besykje jo operaasje befêstigje",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adresboek",
         "setting":"Ynstellings",
         "total":"Totaal"
+    },
+    "page_setting":{
+        "tit":"Ynstellings"
     },
     "page_contacts":{
         "tit":"Adresboek",
@@ -27,7 +31,21 @@
             "title":"Jo binne fuorthelle"
         }
     },
-    "page_setting":{
-        "tit":"Ynstellings"
+    "page_transfer":{
+        "from_address":"Gean út",
+        "to_address":"Yntocht",
+        "amount":"Beleanne",
+        "send_all":"Alle stjoere",
+        "remark":"Notysje",
+        "fees":"Fees",
+        "expected_fees":"Estimated fees",
+        "total":"Totaal",
+        "select":"Please select",
+        "confirmDia":{
+            "title":"Besykje befêstigje",
+            "enter_passworld_tit":"Fier jo wachtwurd ynfiere",
+            "enter_passworld_place":"Fier jo wachtwurd ynfiere"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"ភាសា",
     "confirm":"ការបញ្ជាក់",
     "cancel":"ការលប់ចោល",
+    "dialog_tit":"ប្រអប់បញ្ចូល",
     "confirm_you_active":"សូមបញ្ជាក់ប្រតិបត្តិការរបស់អ្នក",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"សៀវភៅអាសយដ្ឋាន",
         "setting":"ការកំណត់",
         "total":"សរុប"
+    },
+    "page_setting":{
+        "tit":"ការកំណត់"
     },
     "page_contacts":{
         "tit":"សៀវភៅអាសយដ្ឋាន",
@@ -27,7 +31,21 @@
             "title":"អ្នកកំពុងដកចេញ"
         }
     },
-    "page_setting":{
-        "tit":"ការកំណត់"
+    "page_transfer":{
+        "from_address":"ផ្ទេរចេញ",
+        "to_address":"ចូលទៅ",
+        "amount":"ចំនួន",
+        "send_all":"ផ្ញើទាំងអស់",
+        "remark":"ចំណាំ",
+        "fees":"កម្រៃ",
+        "expected_fees":"ថ្លៃប៉ាន់ស្មាន",
+        "total":"សរុប",
+        "select":"សូមជ្រើសរើស",
+        "confirmDia":{
+            "title":"សូមបញ្ជាក់",
+            "enter_passworld_tit":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក",
+            "enter_passworld_place":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"ژبه",
     "confirm":"تایید",
     "cancel":"ردول",
+    "dialog_tit":"ژبړئ",
     "confirm_you_active":"مهرباني وکړئ خپل عملیات تایید کړئ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"د پته کتاب",
         "setting":"امستنې",
         "total":"ټول"
+    },
+    "page_setting":{
+        "tit":"امستنې"
     },
     "page_contacts":{
         "tit":"د پته کتاب",
@@ -27,7 +31,21 @@
             "title":"تاسو لرې کول"
         }
     },
-    "page_setting":{
-        "tit":"امستنې"
+    "page_transfer":{
+        "from_address":"لیږدول",
+        "to_address":"په",
+        "amount":"مقدار",
+        "send_all":"ټول ولېږل",
+        "remark":"یادونه",
+        "fees":"فیسونه",
+        "expected_fees":"اټکل شوی فيس",
+        "total":"ټول",
+        "select":"مهرباني وکړئ غوره کړه",
+        "confirmDia":{
+            "title":"مهرباني وکړئ تایید کړئ",
+            "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
+            "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
+        }
     }
+
 }

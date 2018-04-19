@@ -2,6 +2,7 @@
     "lang":"fiteny",
     "confirm":"Hamarino",
     "cancel":"nofoanana ny",
+    "dialog_tit":"avy hatrany",
     "confirm_you_active":"Azafady manamarina ny asanao",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adiresy boky",
         "setting":"Manangana",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Manangana"
     },
     "page_contacts":{
         "tit":"Adiresy boky",
@@ -27,7 +31,21 @@
             "title":"Miala ianao"
         }
     },
-    "page_setting":{
-        "tit":"Manangana"
+    "page_transfer":{
+        "from_address":"Mialà eo",
+        "to_address":"Eo an-",
+        "amount":"Money",
+        "send_all":"Alefaso ny rehetra",
+        "remark":"fanamarihana",
+        "fees":"Fees",
+        "expected_fees":"Estimated fees",
+        "total":"Total",
+        "select":"Mifantena azafady",
+        "confirmDia":{
+            "title":"Miangavy azafady",
+            "enter_passworld_tit":"Ampidiro azafady ny tenimiafinao",
+            "enter_passworld_place":"Ampidiro azafady ny tenimiafinao"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Jezik",
     "confirm":"Potvrda",
     "cancel":"Otkazivanje",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Potvrdite svoju operaciju",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adresar",
         "setting":"Postavke",
         "total":"Ukupno"
+    },
+    "page_setting":{
+        "tit":"Postavke"
     },
     "page_contacts":{
         "tit":"Adresar",
@@ -27,7 +31,21 @@
             "title":"Vi uklanjate"
         }
     },
-    "page_setting":{
-        "tit":"Postavke"
+    "page_transfer":{
+        "from_address":"Prenesi",
+        "to_address":"Into",
+        "amount":"Iznos",
+        "send_all":"Pošaljite sve",
+        "remark":"Napomena",
+        "fees":"Naknade",
+        "expected_fees":"Procenjene naknade",
+        "total":"Ukupno",
+        "select":"Molimo izaberite",
+        "confirmDia":{
+            "title":"Potvrdite",
+            "enter_passworld_tit":"Unesite svoju lozinku",
+            "enter_passworld_place":"Unesite svoju lozinku"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Language",
     "confirm":"confirm",
     "cancel":"cancel",
+    "dialog_tit":"prompt",
     "confirm_you_active":"Please confirm your operation",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Address book",
         "setting":"Settings",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"Settings"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -27,7 +31,21 @@
             "title":"You are removing"
         }
     },
-    "page_setting":{
-        "tit":"Settings"
+    "page_transfer":{
+        "from_address":"Transfer out",
+        "to_address":"Into",
+        "amount":"Amount",
+        "send_all":"Send all",
+        "remark":"Note",
+        "fees":"Fees",
+        "expected_fees":"Estimated fees",
+        "total":"total",
+        "select":"please choose",
+        "confirmDia":{
+            "title":"please confirm",
+            "enter_passworld_tit":"Please enter your password",
+            "enter_passworld_place":"Please enter your password"
+        }
     }
+
 }

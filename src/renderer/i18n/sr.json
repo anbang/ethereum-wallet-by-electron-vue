@@ -2,6 +2,7 @@
     "lang":"Језик",
     "confirm":"Потврда",
     "cancel":"Отказ",
+    "dialog_tit":"Промпт",
     "confirm_you_active":"Потврдите своју операцију",
     "unit":{
         "czr":"ЦЗР"
@@ -12,6 +13,9 @@
         "contacts":"Адресар",
         "setting":"Подешавања",
         "total":"Укупно"
+    },
+    "page_setting":{
+        "tit":"Подешавања"
     },
     "page_contacts":{
         "tit":"Адресар",
@@ -27,7 +31,21 @@
             "title":"Ви уклањате"
         }
     },
-    "page_setting":{
-        "tit":"Подешавања"
+    "page_transfer":{
+        "from_address":"Пренеси",
+        "to_address":"Инто",
+        "amount":"Износ",
+        "send_all":"Пошаљите све",
+        "remark":"Напомена",
+        "fees":"Накнаде",
+        "expected_fees":"Процењене накнаде",
+        "total":"Укупно",
+        "select":"Изаберите",
+        "confirmDia":{
+            "title":"Потврдите",
+            "enter_passworld_tit":"Унесите своју лозинку",
+            "enter_passworld_place":"Унесите своју лозинку"
+        }
     }
+
 }

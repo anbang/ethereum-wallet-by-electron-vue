@@ -2,6 +2,7 @@
     "lang":"Wika",
     "confirm":"Kumpirmasyon",
     "cancel":"Pagkansela",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Address book",
         "setting":"Mga Setting",
         "total":"Kabuuang"
+    },
+    "page_setting":{
+        "tit":"Mga Setting"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -27,7 +31,21 @@
             "title":"Inaalis mo"
         }
     },
-    "page_setting":{
-        "tit":"Mga Setting"
+    "page_transfer":{
+        "from_address":"Maglipat ng out",
+        "to_address":"Sa",
+        "amount":"Halaga",
+        "send_all":"Ipadala lahat",
+        "remark":"Tandaan",
+        "fees":"Bayad",
+        "expected_fees":"Tinatayang mga bayarin",
+        "total":"Kabuuang",
+        "select":"Mangyaring piliin",
+        "confirmDia":{
+            "title":"Mangyaring kumpirmahin",
+            "enter_passworld_tit":"Pakipasok ang iyong password",
+            "enter_passworld_place":"Pakipasok ang iyong password"
+        }
     }
+
 }

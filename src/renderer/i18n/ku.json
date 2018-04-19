@@ -2,6 +2,7 @@
     "lang":"Ziman",
     "confirm":"Pejirandin",
     "cancel":"Daxistinê",
+    "dialog_tit":"Bêguman",
     "confirm_you_active":"Ji kerema xwe operasyonê xwe bipejirîne",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Pirtûka navnîşê",
         "setting":"Mîhengên",
         "total":"Tevahî"
+    },
+    "page_setting":{
+        "tit":"Mîhengên"
     },
     "page_contacts":{
         "tit":"Pirtûka navnîşê",
@@ -27,7 +31,21 @@
             "title":"Tu derxistin"
         }
     },
-    "page_setting":{
-        "tit":"Mîhengên"
+    "page_transfer":{
+        "from_address":"Veguherînin",
+        "to_address":"Li",
+        "amount":"Amount",
+        "send_all":"Hemî bişînin",
+        "remark":"Têbînî",
+        "fees":"Fees",
+        "expected_fees":"Heqê nirxandin",
+        "total":"Tevahî",
+        "select":"Ji kerema xwe hilbijêrin",
+        "confirmDia":{
+            "title":"Ji kerema xwe piştrast bikin",
+            "enter_passworld_tit":"Ji kerema xwe şîfreya xwe binivîse",
+            "enter_passworld_place":"Ji kerema xwe şîfreya xwe binivîse"
+        }
     }
+
 }

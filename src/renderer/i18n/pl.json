@@ -2,6 +2,7 @@
     "lang":"Język",
     "confirm":"Potwierdzenie",
     "cancel":"Anulowanie",
+    "dialog_tit":"Pytaj",
     "confirm_you_active":"Proszę potwierdzić swoją operację",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Książka adresowa",
         "setting":"Ustawienia",
         "total":"Razem"
+    },
+    "page_setting":{
+        "tit":"Ustawienia"
     },
     "page_contacts":{
         "tit":"Książka adresowa",
@@ -27,7 +31,21 @@
             "title":"Usuwasz"
         }
     },
-    "page_setting":{
-        "tit":"Ustawienia"
+    "page_transfer":{
+        "from_address":"Przenieś",
+        "to_address":"Do",
+        "amount":"Kwota",
+        "send_all":"Wyślij wszystko",
+        "remark":"Uwaga",
+        "fees":"Opłaty",
+        "expected_fees":"Szacowane opłaty",
+        "total":"Razem",
+        "select":"Proszę wybrać",
+        "confirmDia":{
+            "title":"Proszę potwierdzić",
+            "enter_passworld_tit":"Wprowadź swoje hasło",
+            "enter_passworld_place":"Wprowadź swoje hasło"
+        }
     }
+
 }

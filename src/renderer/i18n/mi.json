@@ -2,6 +2,7 @@
     "lang":"Reo",
     "confirm":"Whakaaturanga",
     "cancel":"Whakakore",
+    "dialog_tit":"Whakataka",
     "confirm_you_active":"Tena koa koa to mahi",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Puka pukapuka",
         "setting":"Tautuhinga",
         "total":"Te tapeke"
+    },
+    "page_setting":{
+        "tit":"Tautuhinga"
     },
     "page_contacts":{
         "tit":"Puka pukapuka",
@@ -27,7 +31,21 @@
             "title":"Kei te tango koe"
         }
     },
-    "page_setting":{
-        "tit":"Tautuhinga"
+    "page_transfer":{
+        "from_address":"Whakawhiti atu",
+        "to_address":"Haere ki roto",
+        "amount":"Te nui",
+        "send_all":"Tukua katoatia",
+        "remark":"Tuhipoka",
+        "fees":"Nga utu",
+        "expected_fees":"Te utu kua whakaritea",
+        "total":"Te tapeke",
+        "select":"Tono koa",
+        "confirmDia":{
+            "title":"Tena koa",
+            "enter_passworld_tit":"Tomohia koa to kupuhipa",
+            "enter_passworld_place":"Tomohia koa to kupuhipa"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"lingua",
     "confirm":"confermare",
     "cancel":"annullato",
+    "dialog_tit":"sollecito",
     "confirm_you_active":"Si prega di confermare l'operazione",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Rubrica",
         "setting":"impostare",
         "total":"totale"
+    },
+    "page_setting":{
+        "tit":"impostare"
     },
     "page_contacts":{
         "tit":"Rubrica",
@@ -27,7 +31,21 @@
             "title":"Stai rimuovendo"
         }
     },
-    "page_setting":{
-        "tit":"impostare"
+    "page_transfer":{
+        "from_address":"Trasferire",
+        "to_address":"in",
+        "amount":"soldi",
+        "send_all":"Invia tutto",
+        "remark":"osservazione",
+        "fees":"tasse",
+        "expected_fees":"Tasse stimate",
+        "total":"totale",
+        "select":"Per favore seleziona",
+        "confirmDia":{
+            "title":"Per favore conferma",
+            "enter_passworld_tit":"Per favore inserisci la tua password",
+            "enter_passworld_place":"Per favore inserisci la tua password"
+        }
     }
+
 }

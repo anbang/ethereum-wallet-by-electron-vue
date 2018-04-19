@@ -2,6 +2,7 @@
     "lang":"Kalba",
     "confirm":"Patvirtinimas",
     "cancel":"Anuliavimas",
+    "dialog_tit":"Skubiai",
     "confirm_you_active":"Patvirtinkite savo operaciją",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adresų knyga",
         "setting":"Nustatymai",
         "total":"Iš viso"
+    },
+    "page_setting":{
+        "tit":"Nustatymai"
     },
     "page_contacts":{
         "tit":"Adresų knyga",
@@ -27,7 +31,21 @@
             "title":"Jūs pašalinate"
         }
     },
-    "page_setting":{
-        "tit":"Nustatymai"
+    "page_transfer":{
+        "from_address":"Perleisti",
+        "to_address":"Into",
+        "amount":"Suma",
+        "send_all":"Siųsti visus",
+        "remark":"Pastaba",
+        "fees":"Mokesčiai",
+        "expected_fees":"Numatomi mokesčiai",
+        "total":"Iš viso",
+        "select":"Prašome pasirinkti",
+        "confirmDia":{
+            "title":"Prašau patvirtinti",
+            "enter_passworld_tit":"Įveskite savo slaptažodį",
+            "enter_passworld_place":"Įveskite savo slaptažodį"
+        }
     }
+
 }

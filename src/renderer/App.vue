@@ -27,6 +27,6 @@ export default {
   width: 100%;
   /* margin-top: 60px; */
 }
-#bodyer{min-height: 548px;width: 100%;;margin: 0 auto;background-color: #ececec;}
+#bodyer{min-height: 550px;width: 100%;;margin: 0 auto;background-color: #ececec;}
 
 </style>

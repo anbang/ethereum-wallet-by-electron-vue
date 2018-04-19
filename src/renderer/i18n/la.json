@@ -2,6 +2,7 @@
     "lang":"lingua",
     "confirm":"Constituo",
     "cancel":"Pax:",
+    "dialog_tit":"promptus",
     "confirm_you_active":"Quaeso, scrutare operationem tuum",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Address book",
         "setting":"eriges",
         "total":"summa"
+    },
+    "page_setting":{
+        "tit":"eriges"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -27,7 +31,21 @@
             "title":"Movens igitur tu es"
         }
     },
-    "page_setting":{
-        "tit":"eriges"
+    "page_transfer":{
+        "from_address":"turn ex",
+        "to_address":"in",
+        "amount":"pecunia",
+        "send_all":"omnes Mitte",
+        "remark":"Attende",
+        "fees":"fees",
+        "expected_fees":"aestimari feodo",
+        "total":"summa",
+        "select":"placere eligere",
+        "confirmDia":{
+            "title":"Quaesumus, adfirma",
+            "enter_passworld_tit":"Please enter vestri password",
+            "enter_passworld_place":"Please enter vestri password"
+        }
     }
+
 }

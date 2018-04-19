@@ -2,6 +2,7 @@
     "lang":"Sprache",
     "confirm":"Bestätigung",
     "cancel":"Stornierung",
+    "dialog_tit":"Aufforderung",
     "confirm_you_active":"Bitte bestätigen Sie Ihre Operation",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adressbuch",
         "setting":"Einstellungen",
         "total":"Summe"
+    },
+    "page_setting":{
+        "tit":"Einstellungen"
     },
     "page_contacts":{
         "tit":"Adressbuch",
@@ -27,7 +31,21 @@
             "title":"Sie entfernen"
         }
     },
-    "page_setting":{
-        "tit":"Einstellungen"
+    "page_transfer":{
+        "from_address":"Übertragen Sie aus",
+        "to_address":"In",
+        "amount":"Betrag",
+        "send_all":"Sende alles",
+        "remark":"Hinweis",
+        "fees":"Gebühren",
+        "expected_fees":"Geschätzte Gebühren",
+        "total":"Summe",
+        "select":"Bitte auswählen",
+        "confirmDia":{
+            "title":"Bitte bestätigen",
+            "enter_passworld_tit":"Bitte geben Sie Ihr Passwort ein",
+            "enter_passworld_place":"Bitte geben Sie Ihr Passwort ein"
+        }
     }
+
 }

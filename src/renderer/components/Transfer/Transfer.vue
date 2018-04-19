@@ -3,8 +3,8 @@
     <div class="transfer-cont">
       <!-- <p>从那个账号进来的：{{activeData.queryAcc || '直接进入的'}}</p>  -->
       <el-form ref="form" label-width="100px">
-          <el-form-item label="转出账号">
-              <el-select v-model="submitData.from" placeholder="请选择" style="width:100%;" @change='onSelectedFrom'>
+          <el-form-item :label="$t('page_transfer.from_address')">
+              <el-select v-model="submitData.from" :placeholder="$t('page_transfer.select')" style="width:100%;" @change='onSelectedFrom'>
                 <el-option
                   v-for="item in initData.fromAccounts"
                   :key="item.address"
@@ -15,30 +15,30 @@
                 </el-option>
               </el-select>
           </el-form-item>
-          <el-form-item label="收款方">
+          <el-form-item :label="$t('page_transfer.to_address')">
             <div class="trigger-contacts"  @click="dialogSeleVisible = true">
               <i class="el-icon-tickets"></i>
             </div>
             <el-input v-model="submitData.to" @change="setToAddress" ></el-input>
           </el-form-item>
 
-          <el-form-item label="金额">
+          <el-form-item :label="$t('page_transfer.amount')">
             <el-input v-model="submitData.amount" class="width-180" @change="setAmount"></el-input>
-            <span>CZR</span>
+            <span>{{$t('unit.czr')}}</span>
             <el-checkbox v-model="initData.checkedAll" 
             @change='sendAllAmount'
             class="send-all-assets">
-              发送全部&nbsp;
+              {{$t('page_transfer.send_all')}}&nbsp;
               <span class="czr-txt-muted">
-                (&nbsp;{{activeData.hasBalance}} CZR&nbsp;)
+                (&nbsp;{{activeData.hasBalance}} {{$t('unit.czr')}}&nbsp;)
               </span>
               
             </el-checkbox>
           </el-form-item>
-          <el-form-item label="备注">
+          <el-form-item :label="$t('page_transfer.remark')">
             <el-input type="textarea" v-model="submitData.remark"></el-input>
           </el-form-item>
-          <el-form-item label="手续费">
+          <el-form-item :label="$t('page_transfer.fees')">
             <!-- show-stops -->
               <div class="block">
                 <el-slider
@@ -53,41 +53,27 @@
                   >
                 </el-slider>
               </div>
-            <span class='speculate-wrap'>预估手续费：<strong v-text="this.defaultGas" v-once ></strong>CZR</span>
+            <span class='speculate-wrap'>{{$t('page_transfer.expected_fees')}} <strong v-text="this.defaultGas" v-once ></strong>{{$t('unit.czr')}}</span>
           </el-form-item>
 
-          <el-form-item label="合计">
-            {{activeData.tranTotal}} CZR
+          <el-form-item :label="$t('page_transfer.total')">
+            {{activeData.tranTotal}} {{$t('unit.czr')}}
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="toNextStep">下一步</el-button>
+            <el-button type="primary" @click="outerVisible = true">{{$t('confirm')}}</el-button>
+            
           </el-form-item>
     </el-form>
-    <br><br><hr>
-    </div>
+  </div>
 
-
-
-
-
-
-     <br><br><br>
-  
-      <br><br><br>
-      <!-- <input type="button" value="确定转账" @click="submitTran"> -->
-      <br><br>
-      <p>发送交易的交易哈希:{{txid}}</p>
-      <div style="text-align: left;">
-      <pre >{{txidInfo}}</pre>
-      </div>
 
 <el-dialog
-  title="提示"
+  :title= "$t('dialog_tit')"
   :visible.sync="dialogSeleVisible"
   width="80%">
   <span>
-      <el-select v-model="submitData.to" placeholder="请选择" style="width:100%;" @change='onSelectedTo'>
+      <el-select v-model="submitData.to" :placeholder="$t('page_transfer.select')" style="width:100%;" @change='onSelectedTo'>
         <el-option
           v-for="item in initData.contactsAccounts"
           :key="item.address"
@@ -99,10 +85,63 @@
       </el-select>
   </span>
   <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogSeleVisible = false">取 消</el-button>
-    <el-button type="primary" @click="dialogSeleVisible = false">确 定</el-button>
+    <el-button @click="dialogSeleVisible = false">{{$t('cancel')}}</el-button>
+    <el-button type="primary" @click="dialogSeleVisible = false">{{$t('confirm')}}</el-button>
   </span>
 </el-dialog>
+
+<template>  
+  <el-dialog 
+    :title="$t('page_transfer.confirmDia.title')"
+    width="65%"
+    :visible.sync="outerVisible">
+      <el-dialog
+        width="60%"
+        :title="$t('page_transfer.confirmDia.enter_passworld_tit')"
+        :visible.sync="innerVisible"
+        append-to-body>
+        <el-form ref="form" label-width="100px">
+            <el-input v-model="activeData.password" :placeholder="$t('page_transfer.confirmDia.enter_passworld_place')" type="password"></el-input>
+        </el-form>
+
+        <div slot="footer" class="dialog-footer">
+            <el-button @click="innerVisible = false">{{$t('cancel')}}</el-button>
+            <el-button type="primary" @click="toNextStep">{{$t('confirm')}}</el-button>
+        </div>
+      </el-dialog>
+      <div>
+        
+
+<el-form ref="form"label-width="120px">
+  <el-form-item :label="$t('page_transfer.from_address')">
+    <p>{{submitData.from}}</p>
+  </el-form-item>
+    <el-form-item :label="$t('page_transfer.to_address')">
+    <p>{{submitData.to}}</p>
+  </el-form-item>
+  <el-form-item :label="$t('page_transfer.amount')">
+    <p>{{submitData.amount}} {{$t('unit.czr')}}</p>
+  </el-form-item>
+  <el-form-item :label="$t('page_transfer.remark')">
+    <p>{{submitData.remark || '-'}}</p>
+  </el-form-item>
+    <el-form-item :label="$t('page_transfer.fees')">
+    <p>{{submitData.fees | toStrong}} {{$t('unit.czr')}}</p>
+  </el-form-item>
+      <el-form-item :label="$t('page_transfer.total')">
+    <p>{{activeData.tranTotal}} {{$t('unit.czr')}}</p>
+  </el-form-item>
+</el-form>
+
+
+      </div>
+      <div slot="footer" class="dialog-footer">
+        <el-button @click="outerVisible = false">{{$t('cancel')}}</el-button>
+        <el-button type="primary" @click="innerVisible = true">{{$t('confirm')}}</el-button>
+      </div>
+  </el-dialog>
+</template>
+
 
   </div>
 </template>
@@ -117,6 +156,8 @@ export default {
   data() {
     return {
       dialogSeleVisible:false,
+      outerVisible: false,
+      innerVisible: false,
       //数据开始
       initData:{
         //初始数据
@@ -131,6 +172,7 @@ export default {
         minGas:0,
         maxGas:0,
         step:0,
+        password:'',
         tranTotal:0  //当前交易合计需要的ETH
       },
       submitData:{
@@ -138,20 +180,14 @@ export default {
         from  :this.$route.query.account || web3.eth.accounts[0],
         to    :"",
         
-        value:"",
-        gas:"",
+        value:0,
+        // gas:0,
 
-        amount:"",
+        amount:0,
         remark:"",
         fees  :0
       },
       //数据结束
-
-
-
-
-      txid: "", //交易发送时候的TXID，需要储存
-      txidInfo: "", //TXID查询的数据，需要储存
 
 
 
@@ -167,6 +203,12 @@ export default {
       msg: "转账页面"
     };
   },
+  filters:{
+    toStrong : function(val){
+      var valueStr=web3.toBigNumber(val).toString(10);
+      return valueStr;
+    }
+  },
   computed: {
     accBalance: function() {
       var balaceWei = web3.eth.getBalance(this.currentAcc).toNumber();
@@ -175,13 +217,15 @@ export default {
     },
     defaultGas:function() {
         var GasVal = web3.eth.gasPrice.toNumber();
-        var gasEthNum= parseFloat(web3.fromWei(GasVal, "ether"));
+        var gasCZR= web3.fromWei(GasVal, "ether");
+        var gasEthNum= web3.toBigNumber(gasCZR).toNumber();
         this.submitData.fees=gasEthNum;
+        this.activeData.tranTotal=gasCZR;
         this.activeData.minGas=gasEthNum/5;
-        this.activeData.maxGas=gasEthNum*25;
-        this.activeData.step=(this.activeData.maxGas-this.activeData.minGas)/15;
+        this.activeData.maxGas=gasEthNum*10;
+        this.activeData.step=(this.activeData.maxGas-this.activeData.minGas)/10;
         
-        return gasEthNum;
+        return gasCZR;
     }
   },
   methods: {
@@ -214,7 +258,6 @@ export default {
       this.getTotal();
     },
     getTotal: function() {
-      // console.log("submitData",this.submitData)
       var transWeiVal = web3.toWei(this.submitData.amount, "ether");
       var userWeiGas = web3.toWei(this.submitData.fees, "ether");
       var TotalWei = parseInt(transWeiVal) + parseInt(userWeiGas);
@@ -224,70 +267,53 @@ export default {
 
     },
     toNextStep:function() {
-      console.log('submit!');
-      self = this;
-      var options = this.submitData;
+      var self = this;
+      var options = self.submitData;
+      // options.gas=web3.toWei(options.fees, "ether");
+      options.value=web3.toWei(options.amount, "ether");
 
-      console.log(options);
-
+      console.log(options)
       if (!options.to) {
-        alert("请填写地址");
+        // alert("请填写地址");
+        return;
       }
-      return;
-      
+      //转换Gas数量和金额的单位
+
       web3.eth.sendTransaction(options, function(err, address) {
         if (!err) {
           var receipt = web3.eth.getTransaction(address);
-          self.txid = address;
-          self.txidInfo = receipt;
 
-          // self.$db.
+          var testFrom=self.$db.read().get("czr_accounts").find({address:options.from}).value();
+          var testTo=self.$db.read().get("czr_accounts").find({address:options.to}).value();
 
-          if (
-            self.$db
-              .read()
-              .has("czr_accounts." + options.from)
-              .value()
-          ) {
-            self.$db
-              .read()
-              .set(
-                "czr_accounts." + options.from + ".tx_list." + address,
-                receipt
-              )
-              .write();
-          }
-          if (
-            self.$db
-              .read()
-              .has("czr_accounts." + options.to)
-              .value()
-          ) {
-            self.$db
-              .read()
-              .set(
-                "czr_accounts." + options.to + ".tx_list." + address,
-                receipt
-              )
-              .write();
+          if (testFrom) {
+            self.$db.read().get("czr_accounts").find({address:options.from}).get('tx_list').unshift(receipt).write()
           }
 
-          console.log(address); //0x059b9238d7003416960db8d9f9d8de506f17574b37f03c9101c941a439fa942c
-          console.log(receipt);
+          if (testTo) {
+            self.$db.read().get("czr_accounts").find({address:options.to}).get('tx_list').unshift(receipt).write()
+          }
+
+          //清空数据
+          self.outerVisible=false;
+          self.innerVisible=false;
+          self.submitData.to='';
+          self.submitData.amount=0;
+          self.submitData.value=0;
+          self.submitData.remark='';
+          self.$router.push('/account/'+self.submitData.from);
+
+
         } else {
           throw err;
         }
       });
     }
-
-    //   // 发送后向交易记录添加
-    // }
   }
 };
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.page-transfer { text-align: left;background: #fff;border-top: 1px solid rgba(0,0,0,0.25);padding-top: 55px; }
+.page-transfer { text-align: left;background: #fff;border-top: 1px solid rgba(0,0,0,0.25);padding: 38px 0 20px; }
 .transfer-cont{padding: 0 90px;}
 .page-transfer .bui-form-selector { width: 420px;font-size: 14px;}
 .page-transfer .bui-form-item { padding-left: 220px;}

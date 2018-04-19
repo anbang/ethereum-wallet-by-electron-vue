@@ -2,6 +2,7 @@
     "lang":"Јазик",
     "confirm":"Потврда",
     "cancel":"Поништување",
+    "dialog_tit":"Прашај",
     "confirm_you_active":"Ве молиме потврдете ја вашата работа",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Адресар",
         "setting":"Поставки",
         "total":"Вкупно"
+    },
+    "page_setting":{
+        "tit":"Поставки"
     },
     "page_contacts":{
         "tit":"Адресар",
@@ -27,7 +31,21 @@
             "title":"Вие се отстранувате"
         }
     },
-    "page_setting":{
-        "tit":"Поставки"
+    "page_transfer":{
+        "from_address":"Трансфер надвор",
+        "to_address":"Во",
+        "amount":"Износ",
+        "send_all":"Испрати сите",
+        "remark":"Забелешка",
+        "fees":"Такси",
+        "expected_fees":"Проценети такси",
+        "total":"Вкупно",
+        "select":"Ве молиме изберете",
+        "confirmDia":{
+            "title":"Ве молиме потврдете",
+            "enter_passworld_tit":"Ве молиме внесете ја вашата лозинка",
+            "enter_passworld_place":"Ве молиме внесете ја вашата лозинка"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"språk",
     "confirm":"bekräfta",
     "cancel":"Inställd",
+    "dialog_tit":"prompt",
     "confirm_you_active":"Vänligen bekräfta din operation",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adressbok",
         "setting":"Ställ in",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"Ställ in"
     },
     "page_contacts":{
         "tit":"Adressbok",
@@ -27,7 +31,21 @@
             "title":"Du tar bort"
         }
     },
-    "page_setting":{
-        "tit":"Ställ in"
+    "page_transfer":{
+        "from_address":"Överför",
+        "to_address":"till",
+        "amount":"pengar",
+        "send_all":"Skicka allt",
+        "remark":"anmärkning",
+        "fees":"avgifter",
+        "expected_fees":"Uppskattade avgifter",
+        "total":"total",
+        "select":"Vänligen välj",
+        "confirmDia":{
+            "title":"Vänligen bekräfta",
+            "enter_passworld_tit":"Vänligen ange ditt lösenord",
+            "enter_passworld_place":"Vänligen ange ditt lösenord"
+        }
     }
+
 }

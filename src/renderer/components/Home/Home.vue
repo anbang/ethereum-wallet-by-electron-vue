@@ -17,7 +17,7 @@
                         <i class="iconfont delete-acc">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">账号备注信息</p>
-                            <h1 class="account-assets">{{account.balance}}</h1>
+                            <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
                             <p class="account-unit">CZR</p>
                             <p class="account-address">{{account.address}}</p>
                         </div>  
@@ -100,6 +100,13 @@ export default {
       accounts2: [],
       accounts: web3.personal.listAccounts
     };
+  },
+  filters: {
+    ShortVal: function (value) {
+      if (!value) return ''
+      value = Number(value)
+      return value.toFixed(2)
+    }
   },
   computed: {
     addressBalance: function(address) {

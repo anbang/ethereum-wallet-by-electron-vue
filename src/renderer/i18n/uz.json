@@ -2,6 +2,7 @@
     "lang":"Til",
     "confirm":"Tasdiqlash",
     "cancel":"Bekor qilish",
+    "dialog_tit":"Tez so'raladigan",
     "confirm_you_active":"Iltimos, amaliyotingizni tasdiqlang",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Manzillar kitobi",
         "setting":"Sozlamalar",
         "total":"Jami"
+    },
+    "page_setting":{
+        "tit":"Sozlamalar"
     },
     "page_contacts":{
         "tit":"Manzillar kitobi",
@@ -27,7 +31,21 @@
             "title":"Siz olib tashlayapsiz"
         }
     },
-    "page_setting":{
-        "tit":"Sozlamalar"
+    "page_transfer":{
+        "from_address":"Ko'chiring",
+        "to_address":"Into",
+        "amount":"Miqdori",
+        "send_all":"Barchasini jo'natish",
+        "remark":"Eslatma",
+        "fees":"Narxlar",
+        "expected_fees":"Bashoratli to'lovlar",
+        "total":"Jami",
+        "select":"Iltimos, tanlang",
+        "confirmDia":{
+            "title":"Iltimos, tasdiqlang",
+            "enter_passworld_tit":"Iltimos, parolingizni kiriting",
+            "enter_passworld_place":"Iltimos, parolingizni kiriting"
+        }
     }
+
 }

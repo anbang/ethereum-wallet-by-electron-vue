@@ -2,6 +2,7 @@
     "lang":"භාෂාව",
     "confirm":"තහවුරු කිරීම",
     "cancel":"අවලංගු කිරීම",
+    "dialog_tit":"ප්රොම්ප්ට්",
     "confirm_you_active":"කරුණාකර ඔබගේ මෙහෙයුම තහවුරු කරන්න",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ලිපින පොත",
         "setting":"සැකසුම්",
         "total":"එකතුව"
+    },
+    "page_setting":{
+        "tit":"සැකසුම්"
     },
     "page_contacts":{
         "tit":"ලිපින පොත",
@@ -27,7 +31,21 @@
             "title":"ඔබ ඉවත් කරනවා"
         }
     },
-    "page_setting":{
-        "tit":"සැකසුම්"
+    "page_transfer":{
+        "from_address":"මාරු කිරීම",
+        "to_address":"ඒ",
+        "amount":"මුදල",
+        "send_all":"සියල්ල යවන්න",
+        "remark":"සටහන",
+        "fees":"ගාස්තු",
+        "expected_fees":"ඇස්තමේන්තු ගාස්තු",
+        "total":"එකතුව",
+        "select":"කරුණාකර තෝරන්න",
+        "confirmDia":{
+            "title":"කරුණාකර තහවුරු කරන්න",
+            "enter_passworld_tit":"කරුණාකර ඔබගේ මුරපදය ඇතුලත් කරන්න",
+            "enter_passworld_place":"කරුණාකර ඔබගේ මුරපදය ඇතුලත් කරන්න"
+        }
     }
+
 }

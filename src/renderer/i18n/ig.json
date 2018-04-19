@@ -2,6 +2,7 @@
     "lang":"Asụsụ",
     "confirm":"Nkwenye",
     "cancel":"Ịkagbu",
+    "dialog_tit":"Mee ngwa ngwa",
     "confirm_you_active":"Biko gosi ọrụ gị",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Akwụkwọ akwụkwọ",
         "setting":"Ntọala",
         "total":"Ọnụ"
+    },
+    "page_setting":{
+        "tit":"Ntọala"
     },
     "page_contacts":{
         "tit":"Akwụkwọ akwụkwọ",
@@ -27,7 +31,21 @@
             "title":"Ị na-ewepụ"
         }
     },
-    "page_setting":{
-        "tit":"Ntọala"
+    "page_transfer":{
+        "from_address":"Nyefee",
+        "to_address":"Banye",
+        "amount":"Ọnụ",
+        "send_all":"Ziga niile",
+        "remark":"Rịba ama",
+        "fees":"Ụgwọ",
+        "expected_fees":"Atụle ụgwọ",
+        "total":"Ọnụ",
+        "select":"Biko họrọ",
+        "confirmDia":{
+            "title":"Biko gosi",
+            "enter_passworld_tit":"Biko tinye paswọọdụ gị",
+            "enter_passworld_place":"Biko tinye paswọọdụ gị"
+        }
     }
+
 }

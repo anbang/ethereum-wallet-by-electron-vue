@@ -2,6 +2,7 @@
     "lang":"語言",
     "confirm":"確認",
     "cancel":"取消",
+    "dialog_tit":"提示",
     "confirm_you_active":"請確認您的操作",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"地址薄",
         "setting":"設置",
         "total":"合計"
+    },
+    "page_setting":{
+        "tit":"設置"
     },
     "page_contacts":{
         "tit":"地址薄",
@@ -27,7 +31,21 @@
             "title":"您正在移除"
         }
     },
-    "page_setting":{
-        "tit":"設置"
+    "page_transfer":{
+        "from_address":"轉出",
+        "to_address":"轉入",
+        "amount":"金額",
+        "send_all":"發送全部",
+        "remark":"備註",
+        "fees":"手續費",
+        "expected_fees":"預估手續費",
+        "total":"合計",
+        "select":"請選擇",
+        "confirmDia":{
+            "title":"請確認",
+            "enter_passworld_tit":"請輸入密碼",
+            "enter_passworld_place":"請輸入密碼"
+        }
     }
+
 }

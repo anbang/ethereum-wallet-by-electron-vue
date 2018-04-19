@@ -2,6 +2,7 @@
     "lang":"Jazyk",
     "confirm":"Potvrzení",
     "cancel":"Zrušení",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Potvrďte svou činnost",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adresář",
         "setting":"Nastavení",
         "total":"Celkem"
+    },
+    "page_setting":{
+        "tit":"Nastavení"
     },
     "page_contacts":{
         "tit":"Adresář",
@@ -27,7 +31,21 @@
             "title":"Odstraňujete"
         }
     },
-    "page_setting":{
-        "tit":"Nastavení"
+    "page_transfer":{
+        "from_address":"Přejděte ven",
+        "to_address":"Into",
+        "amount":"Částka",
+        "send_all":"Pošlete vše",
+        "remark":"Poznámka:",
+        "fees":"Poplatky",
+        "expected_fees":"Odhadované poplatky",
+        "total":"Celkem",
+        "select":"Vyberte prosím",
+        "confirmDia":{
+            "title":"Potvrďte prosím",
+            "enter_passworld_tit":"Zadejte své heslo",
+            "enter_passworld_place":"Zadejte své heslo"
+        }
     }
+
 }

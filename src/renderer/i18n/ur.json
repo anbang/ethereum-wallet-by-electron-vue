@@ -2,6 +2,7 @@
     "lang":"زبان",
     "confirm":"تصدیق",
     "cancel":"منسوخی",
+    "dialog_tit":"فوری طور پر",
     "confirm_you_active":"براہ مہربانی اپنے آپریشن کی تصدیق کریں",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ایڈریس بک",
         "setting":"ترتیبات",
         "total":"کل"
+    },
+    "page_setting":{
+        "tit":"ترتیبات"
     },
     "page_contacts":{
         "tit":"ایڈریس بک",
@@ -27,7 +31,21 @@
             "title":"آپ ہٹا رہے ہیں"
         }
     },
-    "page_setting":{
-        "tit":"ترتیبات"
+    "page_transfer":{
+        "from_address":"منتقلی",
+        "to_address":"اندر",
+        "amount":"رقم",
+        "send_all":"سب بھیجیں",
+        "remark":"نوٹ",
+        "fees":"فیس",
+        "expected_fees":"متوقع فیس",
+        "total":"کل",
+        "select":"براہ کرم منتخب کریں",
+        "confirmDia":{
+            "title":"براہ مہربانی تصدیق کریں",
+            "enter_passworld_tit":"اپنا پاس ورڈ درج کریں",
+            "enter_passworld_place":"اپنا پاس ورڈ درج کریں"
+        }
     }
+
 }

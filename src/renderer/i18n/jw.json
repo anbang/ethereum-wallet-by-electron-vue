@@ -2,6 +2,7 @@
     "lang":"Basa",
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Mangga konfirmasi operasi sampeyan",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Buku alamat",
         "setting":"Setelan",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Setelan"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -27,7 +31,21 @@
             "title":"Sampeyan ngilangi"
         }
     },
-    "page_setting":{
-        "tit":"Setelan"
+    "page_transfer":{
+        "from_address":"Nransfer metu",
+        "to_address":"Into",
+        "amount":"Jumlah",
+        "send_all":"Kirim kabeh",
+        "remark":"Cathetan",
+        "fees":"Biaya",
+        "expected_fees":"Biaya ditrapake",
+        "total":"Total",
+        "select":"Mangga pilih",
+        "confirmDia":{
+            "title":"Mangga konfirmasi",
+            "enter_passworld_tit":"Mangga ketik sandhi",
+            "enter_passworld_place":"Mangga ketik sandhi"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Lingua",
     "confirm":"Cunfirmazione",
     "cancel":"Annullazione",
+    "dialog_tit":"Avvirtendu",
     "confirm_you_active":"Cunfirmà a vostra operazione",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Address book",
         "setting":"Settings",
         "total":"Tuttu"
+    },
+    "page_setting":{
+        "tit":"Settings"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -27,7 +31,21 @@
             "title":"Vulete sguassà"
         }
     },
-    "page_setting":{
-        "tit":"Settings"
+    "page_transfer":{
+        "from_address":"Trasmissione",
+        "to_address":"Into",
+        "amount":"Amount",
+        "send_all":"Mandate tuttu",
+        "remark":"Nota",
+        "fees":"Puli",
+        "expected_fees":"Cumposti stimati",
+        "total":"Tuttu",
+        "select":"Sceglite puru",
+        "confirmDia":{
+            "title":"Cunfirmà",
+            "enter_passworld_tit":"Per piacè inserite u vostru password",
+            "enter_passworld_place":"Per piacè inserite u vostru password"
+        }
     }
+
 }

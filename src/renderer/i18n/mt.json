@@ -2,6 +2,7 @@
     "lang":"Lingwa",
     "confirm":"Konferma",
     "cancel":"Kanċellazzjoni",
+    "dialog_tit":"Pront",
     "confirm_you_active":"Jekk jogħġbok ikkonferma l-operazzjoni tiegħek",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Indirizz ktieb",
         "setting":"Settings",
         "total":"Totali"
+    },
+    "page_setting":{
+        "tit":"Settings"
     },
     "page_contacts":{
         "tit":"Indirizz ktieb",
@@ -27,7 +31,21 @@
             "title":"Int qed tneħħi"
         }
     },
-    "page_setting":{
-        "tit":"Settings"
+    "page_transfer":{
+        "from_address":"Trasferiment barra",
+        "to_address":"Into",
+        "amount":"Ammont",
+        "send_all":"Ibgħat kollha",
+        "remark":"Nota",
+        "fees":"Drittijiet",
+        "expected_fees":"Ħlas stmat",
+        "total":"Totali",
+        "select":"Jekk jogħġbok agħżel",
+        "confirmDia":{
+            "title":"Jekk jogħġbok ikkonferma",
+            "enter_passworld_tit":"Jekk jogħġbok daħħal il-password tiegħek",
+            "enter_passworld_place":"Jekk jogħġbok daħħal il-password tiegħek"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"ULwimi",
     "confirm":"Isiqinisekiso",
     "cancel":"Ku rhoxiswa",
+    "dialog_tit":"Ukunyuswa",
     "confirm_you_active":"Nceda uqinisekise ukusebenza kwakho",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Incwadi yee dilesi",
         "setting":"Izicwangciso",
         "total":"Iyonke"
+    },
+    "page_setting":{
+        "tit":"Izicwangciso"
     },
     "page_contacts":{
         "tit":"Incwadi yee dilesi",
@@ -27,7 +31,21 @@
             "title":"U kususa"
         }
     },
-    "page_setting":{
-        "tit":"Izicwangciso"
+    "page_transfer":{
+        "from_address":"Dlulisa",
+        "to_address":"Ngaphakathi",
+        "amount":"Isixa",
+        "send_all":"Thumela konke",
+        "remark":"Qaphela",
+        "fees":"Imali",
+        "expected_fees":"Imali eqikelelweyo",
+        "total":"Iyonke",
+        "select":"Nceda ukhethe",
+        "confirmDia":{
+            "title":"Nceda uqinisekise",
+            "enter_passworld_tit":"Nceda faka iphasiwedi yakho",
+            "enter_passworld_place":"Nceda faka iphasiwedi yakho"
+        }
     }
+
 }

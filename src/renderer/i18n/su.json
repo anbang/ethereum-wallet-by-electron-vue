@@ -2,6 +2,7 @@
     "lang":"basa",
     "confirm":"ngeceskeun",
     "cancel":"dibolaykeun",
+    "dialog_tit":"pas",
     "confirm_you_active":"Mangga pastikeun operasi anjeun",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"alamat Book",
         "setting":"nyetél",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"nyetél"
     },
     "page_contacts":{
         "tit":"alamat Book",
@@ -27,7 +31,21 @@
             "title":"Anjeun nyoplokkeun"
         }
     },
-    "page_setting":{
-        "tit":"nyetél"
+    "page_transfer":{
+        "from_address":"Hurungkeun kaluar",
+        "to_address":"kana",
+        "amount":"duit",
+        "send_all":"Kirim sadaya",
+        "remark":"nyarios",
+        "fees":"waragad",
+        "expected_fees":"fee diperkirakeun",
+        "total":"total",
+        "select":"Mangga pilih",
+        "confirmDia":{
+            "title":"Mangga mastikeun",
+            "enter_passworld_tit":"Mangga lebetkeun sandi anjeun",
+            "enter_passworld_place":"Mangga lebetkeun sandi anjeun"
+        }
     }
+
 }

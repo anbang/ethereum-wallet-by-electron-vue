@@ -2,6 +2,7 @@
     "lang":"Lingvo",
     "confirm":"Konfirmo",
     "cancel":"Nuligo",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Bonvolu konfirmi vian operacion",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Libro de adresoj",
         "setting":"Agordoj",
         "total":"Tuta"
+    },
+    "page_setting":{
+        "tit":"Agordoj"
     },
     "page_contacts":{
         "tit":"Libro de adresoj",
@@ -27,7 +31,21 @@
             "title":"Vi forigas"
         }
     },
-    "page_setting":{
-        "tit":"Agordoj"
+    "page_transfer":{
+        "from_address":"Translokiĝi",
+        "to_address":"Into",
+        "amount":"Kvanto",
+        "send_all":"Sendu ĉion",
+        "remark":"Noto",
+        "fees":"Kotizoj",
+        "expected_fees":"Takso de taksoj",
+        "total":"Tuta",
+        "select":"Bonvolu elekti",
+        "confirmDia":{
+            "title":"Bonvolu konfirmi",
+            "enter_passworld_tit":"Bonvolu enmeti vian pasvorton",
+            "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
+        }
     }
+
 }

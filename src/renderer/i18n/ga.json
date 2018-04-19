@@ -2,6 +2,7 @@
     "lang":"Teanga",
     "confirm":"Dearbhú",
     "cancel":"Cealú",
+    "dialog_tit":"Pras",
     "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Leabhar seoladh",
         "setting":"Socruithe",
         "total":"Iomlán"
+    },
+    "page_setting":{
+        "tit":"Socruithe"
     },
     "page_contacts":{
         "tit":"Leabhar seoladh",
@@ -27,7 +31,21 @@
             "title":"Tá tú ag baint úsáide as"
         }
     },
-    "page_setting":{
-        "tit":"Socruithe"
+    "page_transfer":{
+        "from_address":"Aistriú amach",
+        "to_address":"Isteach",
+        "amount":"Méid",
+        "send_all":"Seol go léir",
+        "remark":"Nóta",
+        "fees":"Táillí",
+        "expected_fees":"Táillí measta",
+        "total":"Iomlán",
+        "select":"Roghnaigh",
+        "confirmDia":{
+            "title":"Deimhnigh le do thoil",
+            "enter_passworld_tit":"Cuir isteach do phasfhocal",
+            "enter_passworld_place":"Cuir isteach do phasfhocal"
+        }
     }
+
 }

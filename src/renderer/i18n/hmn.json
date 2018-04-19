@@ -2,6 +2,7 @@
     "lang":"Lus",
     "confirm":"Kev lees paub",
     "cancel":"Tshem tawm",
+    "dialog_tit":"Sij hawm",
     "confirm_you_active":"Thov paub meej tias koj lub lag luam",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Chaw nyob",
         "setting":"Chaw",
         "total":"Tag nrho"
+    },
+    "page_setting":{
+        "tit":"Chaw"
     },
     "page_contacts":{
         "tit":"Chaw nyob",
@@ -27,7 +31,21 @@
             "title":"Koj tshem tawm"
         }
     },
-    "page_setting":{
-        "tit":"Chaw"
+    "page_transfer":{
+        "from_address":"Tshem tawm",
+        "to_address":"Rau hauv",
+        "amount":"Tus nqi",
+        "send_all":"Xa tag nrho",
+        "remark":"Lus Cim",
+        "fees":"Tus Nqi",
+        "expected_fees":"Cov nqi kwv yees",
+        "total":"Tag nrho",
+        "select":"Thov xaiv",
+        "confirmDia":{
+            "title":"Thov paub meej",
+            "enter_passworld_tit":"Thov sau koj tus password",
+            "enter_passworld_place":"Thov sau koj tus password"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"Jezik",
     "confirm":"Potrditev",
     "cancel":"Odpoved",
+    "dialog_tit":"Poziv",
     "confirm_you_active":"Potrdite svoje delovanje",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Imenik",
         "setting":"Nastavitve",
         "total":"Skupaj"
+    },
+    "page_setting":{
+        "tit":"Nastavitve"
     },
     "page_contacts":{
         "tit":"Imenik",
@@ -27,7 +31,21 @@
             "title":"Odstranite"
         }
     },
-    "page_setting":{
-        "tit":"Nastavitve"
+    "page_transfer":{
+        "from_address":"Prenesi ven",
+        "to_address":"Into",
+        "amount":"Znesek",
+        "send_all":"Pošlji vse",
+        "remark":"Opomba",
+        "fees":"Pristojbine",
+        "expected_fees":"Ocenjene pristojbine",
+        "total":"Skupaj",
+        "select":"Prosim izberite",
+        "confirmDia":{
+            "title":"Prosimo, potrdite",
+            "enter_passworld_tit":"Vnesite geslo",
+            "enter_passworld_place":"Vnesite geslo"
+        }
     }
+
 }

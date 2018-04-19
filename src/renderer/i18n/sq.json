@@ -2,6 +2,7 @@
     "lang":"gjuhë",
     "confirm":"konfirmoj",
     "cancel":"anuluar",
+    "dialog_tit":"i menjëhershëm",
     "confirm_you_active":"Lutemi konfirmoni operacionin tuaj",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Libri i adresave",
         "setting":"ngritur",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"ngritur"
     },
     "page_contacts":{
         "tit":"Libri i adresave",
@@ -27,7 +31,21 @@
             "title":"Po heq"
         }
     },
-    "page_setting":{
-        "tit":"ngritur"
+    "page_transfer":{
+        "from_address":"Shpërndajeni",
+        "to_address":"në",
+        "amount":"para",
+        "send_all":"Dërgo te gjitha",
+        "remark":"vërejtje",
+        "fees":"tarifat",
+        "expected_fees":"Tarifat e vlerësuara",
+        "total":"total",
+        "select":"Ju lutem zgjidhni",
+        "confirmDia":{
+            "title":"Ju lutem konfirmoni",
+            "enter_passworld_tit":"Ju lutemi shkruani fjalëkalimin tuaj",
+            "enter_passworld_place":"Ju lutemi shkruani fjalëkalimin tuaj"
+        }
     }
+
 }

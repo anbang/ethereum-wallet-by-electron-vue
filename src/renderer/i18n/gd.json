@@ -2,6 +2,7 @@
     "lang":"Cànan",
     "confirm":"Dearbhadh",
     "cancel":"Sguir dheth",
+    "dialog_tit":"Ceasnachadh",
     "confirm_you_active":"Dearbhaich an obair agad",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Leabhar seòlaidh",
         "setting":"Roghainnean",
         "total":"Iomlan"
+    },
+    "page_setting":{
+        "tit":"Roghainnean"
     },
     "page_contacts":{
         "tit":"Leabhar seòlaidh",
@@ -27,7 +31,21 @@
             "title":"Tha thu a 'toirt air falbh"
         }
     },
-    "page_setting":{
-        "tit":"Roghainnean"
+    "page_transfer":{
+        "from_address":"Aistrich a-mach",
+        "to_address":"A-steach",
+        "amount":"Suim",
+        "send_all":"Cuir a h-uile càil",
+        "remark":"Nota",
+        "fees":"Cìsean",
+        "expected_fees":"Cìsean àbhaisteach",
+        "total":"Iomlan",
+        "select":"Tagh",
+        "confirmDia":{
+            "title":"Dearbhaich",
+            "enter_passworld_tit":"Cuir a-steach am facal-faire agad",
+            "enter_passworld_place":"Cuir a-steach am facal-faire agad"
+        }
     }
+
 }

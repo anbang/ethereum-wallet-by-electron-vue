@@ -2,6 +2,7 @@
     "lang":"ٻولي",
     "confirm":"تصديق",
     "cancel":"منسوب",
+    "dialog_tit":"تڪڙو",
     "confirm_you_active":"مهرباني ڪري پنهنجي آپريشن جي تصديق ڪريو",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ايڊريس ڪتاب",
         "setting":"سيٽنگون",
         "total":"ڪل"
+    },
+    "page_setting":{
+        "tit":"سيٽنگون"
     },
     "page_contacts":{
         "tit":"ايڊريس ڪتاب",
@@ -27,7 +31,21 @@
             "title":"توهان کي ختم ڪري رهيا آهيو"
         }
     },
-    "page_setting":{
-        "tit":"سيٽنگون"
+    "page_transfer":{
+        "from_address":"منتقل ڪريو",
+        "to_address":"اندر",
+        "amount":"رقم",
+        "send_all":"سڀئي موڪل",
+        "remark":"نوٽ",
+        "fees":"فيز",
+        "expected_fees":"متوقع فيس",
+        "total":"ڪل",
+        "select":"مهرباني ڪري چونڊيو",
+        "confirmDia":{
+            "title":"مهرباني ڪري تصديق ڪريو",
+            "enter_passworld_tit":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو",
+            "enter_passworld_place":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو"
+        }
     }
+
 }

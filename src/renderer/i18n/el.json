@@ -2,6 +2,7 @@
     "lang":"Γλώσσα",
     "confirm":"Επιβεβαίωση",
     "cancel":"Ακύρωση",
+    "dialog_tit":"Προτροπή",
     "confirm_you_active":"Επιβεβαιώστε τη λειτουργία σας",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Βιβλίο διευθύνσεων",
         "setting":"Ρυθμίσεις",
         "total":"Σύνολο"
+    },
+    "page_setting":{
+        "tit":"Ρυθμίσεις"
     },
     "page_contacts":{
         "tit":"Βιβλίο διευθύνσεων",
@@ -27,7 +31,21 @@
             "title":"Αφαιρείτε"
         }
     },
-    "page_setting":{
-        "tit":"Ρυθμίσεις"
+    "page_transfer":{
+        "from_address":"Μεταφορά έξω",
+        "to_address":"Into",
+        "amount":"Ποσό",
+        "send_all":"Αποστολή όλων",
+        "remark":"Σημείωση",
+        "fees":"Τέλη",
+        "expected_fees":"Εκτιμώμενα τέλη",
+        "total":"Σύνολο",
+        "select":"Παρακαλώ επιλέξτε",
+        "confirmDia":{
+            "title":"Παρακαλώ επιβεβαιώστε",
+            "enter_passworld_tit":"Πληκτρολογήστε τον κωδικό πρόσβασής σας",
+            "enter_passworld_place":"Πληκτρολογήστε τον κωδικό πρόσβασής σας"
+        }
     }
+
 }

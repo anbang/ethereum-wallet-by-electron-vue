@@ -2,6 +2,7 @@
     "lang":"भाषा",
     "confirm":"पुष्टिकरण",
     "cancel":"रद्दीकरण",
+    "dialog_tit":"प्रतिक्षा गर्नुहोस्",
     "confirm_you_active":"कृपया तपाईंको अपरेशन पुष्टि गर्नुहोस्",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ठेगानापुस्तिका",
         "setting":"सेटिङ्हरू",
         "total":"कुल"
+    },
+    "page_setting":{
+        "tit":"सेटिङ्हरू"
     },
     "page_contacts":{
         "tit":"ठेगानापुस्तिका",
@@ -27,7 +31,21 @@
             "title":"तपाईं हटाउँदै हुनुहुन्छ"
         }
     },
-    "page_setting":{
-        "tit":"सेटिङ्हरू"
+    "page_transfer":{
+        "from_address":"स्थान्तरण गर्नुहोस्",
+        "to_address":"भित्र",
+        "amount":"राशि",
+        "send_all":"सबै पठाउनुहोस्",
+        "remark":"नोट",
+        "fees":"शुल्कहरू",
+        "expected_fees":"अनुमानित शुल्क",
+        "total":"कुल",
+        "select":"कृपया चयन गर्नुहोस्",
+        "confirmDia":{
+            "title":"कृपया पुष्टि गर्नुहोस्",
+            "enter_passworld_tit":"कृपया आफ्नो पासवर्ड प्रविष्ट गर्नुहोस्",
+            "enter_passworld_place":"कृपया आफ्नो पासवर्ड प्रविष्ट गर्नुहोस्"
+        }
     }
+
 }

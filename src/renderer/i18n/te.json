@@ -2,6 +2,7 @@
     "lang":"భాషా",
     "confirm":"నిర్ధారించండి",
     "cancel":"రద్దు",
+    "dialog_tit":"ప్రాంప్ట్",
     "confirm_you_active":"దయచేసి మీ ఆపరేషన్ను నిర్ధారించండి",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"చిరునామా పుస్తకం",
         "setting":"ఏర్పాటు",
         "total":"మొత్తం"
+    },
+    "page_setting":{
+        "tit":"ఏర్పాటు"
     },
     "page_contacts":{
         "tit":"చిరునామా పుస్తకం",
@@ -27,7 +31,21 @@
             "title":"మీరు తీసివేస్తున్నారు"
         }
     },
-    "page_setting":{
-        "tit":"ఏర్పాటు"
+    "page_transfer":{
+        "from_address":"బదిలీ చేయండి",
+        "to_address":"ఇంటు",
+        "amount":"మనీ",
+        "send_all":"అన్నింటినీ పంపండి",
+        "remark":"వ్యాఖ్య",
+        "fees":"ఫీజు",
+        "expected_fees":"అంచనా వేసిన ఫీజులు",
+        "total":"మొత్తం",
+        "select":"దయచేసి ఎంచుకోండి",
+        "confirmDia":{
+            "title":"దయచేసి నిర్ధారించండి",
+            "enter_passworld_tit":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి",
+            "enter_passworld_place":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి"
+        }
     }
+
 }

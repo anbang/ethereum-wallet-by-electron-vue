@@ -2,6 +2,7 @@
     "lang":"ພາສາ",
     "confirm":"ການຢືນຢັນ",
     "cancel":"ການຍົກເລີກ",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"ກະລຸນາຢືນຢັນການເຮັດວຽກຂອງທ່ານ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ປື້ມທີ່ຢູ່",
         "setting":"Settings",
         "total":"ລວມ"
+    },
+    "page_setting":{
+        "tit":"Settings"
     },
     "page_contacts":{
         "tit":"ປື້ມທີ່ຢູ່",
@@ -27,7 +31,21 @@
             "title":"ທ່ານກໍາລັງຖອນເອົາ"
         }
     },
-    "page_setting":{
-        "tit":"Settings"
+    "page_transfer":{
+        "from_address":"ໂອນອອກ",
+        "to_address":"Into",
+        "amount":"ຈໍານວນເງິນ",
+        "send_all":"ສົ່ງທັງຫມົດ",
+        "remark":"ຫມາຍເຫດ",
+        "fees":"ຄ່າທໍານຽມ",
+        "expected_fees":"ຄ່າທໍານຽມທີ່ຄາດຄະເນ",
+        "total":"ລວມ",
+        "select":"ກະລຸນາເລືອກ",
+        "confirmDia":{
+            "title":"ໂປດຍືນຍັນ",
+            "enter_passworld_tit":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
+            "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
+        }
     }
+
 }

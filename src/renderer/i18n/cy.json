@@ -2,6 +2,7 @@
     "lang":"Iaith",
     "confirm":"Cadarnhad",
     "cancel":"Canslo",
+    "dialog_tit":"Yn brydlon",
     "confirm_you_active":"Cadarnhewch eich gweithrediad",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Llyfr cyfeiriadau",
         "setting":"Gosodiadau",
         "total":"Cyfanswm"
+    },
+    "page_setting":{
+        "tit":"Gosodiadau"
     },
     "page_contacts":{
         "tit":"Llyfr cyfeiriadau",
@@ -27,7 +31,21 @@
             "title":"Rydych chi'n cael gwared"
         }
     },
-    "page_setting":{
-        "tit":"Gosodiadau"
+    "page_transfer":{
+        "from_address":"Trosglwyddo allan",
+        "to_address":"I mewn",
+        "amount":"Swm",
+        "send_all":"Anfonwch bawb",
+        "remark":"Nodyn",
+        "fees":"Ffioedd",
+        "expected_fees":"Ffioedd amcangyfrifedig",
+        "total":"Cyfanswm",
+        "select":"Dewiswch",
+        "confirmDia":{
+            "title":"Cadarnhewch",
+            "enter_passworld_tit":"Rhowch eich cyfrinair",
+            "enter_passworld_place":"Rhowch eich cyfrinair"
+        }
     }
+
 }

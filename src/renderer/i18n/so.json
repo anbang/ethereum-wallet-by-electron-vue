@@ -2,6 +2,7 @@
     "lang":"Luuqadda",
     "confirm":"Xaqiijinta",
     "cancel":"Joojinta",
+    "dialog_tit":"Baahi",
     "confirm_you_active":"Fadlan hubi qaliinkaaga",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Buugga Cinwaanka",
         "setting":"Goobaha",
         "total":"Wadarta"
+    },
+    "page_setting":{
+        "tit":"Goobaha"
     },
     "page_contacts":{
         "tit":"Buugga Cinwaanka",
@@ -27,7 +31,21 @@
             "title":"Adigu waad ka saartaa"
         }
     },
-    "page_setting":{
-        "tit":"Goobaha"
+    "page_transfer":{
+        "from_address":"U soo wareeji",
+        "to_address":"Into",
+        "amount":"Tirada",
+        "send_all":"Soo dir dhammaan",
+        "remark":"Ogow",
+        "fees":"Khidmadaha",
+        "expected_fees":"Qiimaha qiyaasta",
+        "total":"Wadarta",
+        "select":"Fadlan dooro",
+        "confirmDia":{
+            "title":"Fadlan cadee",
+            "enter_passworld_tit":"Fadlan gali sirtaada",
+            "enter_passworld_place":"Fadlan gali sirtaada"
+        }
     }
+
 }

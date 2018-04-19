@@ -2,6 +2,7 @@
     "lang":"Valoda",
     "confirm":"Apstiprinājums",
     "cancel":"Anulēšana",
+    "dialog_tit":"Uzvedne",
     "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adrešu grāmata",
         "setting":"Iestatījumi",
         "total":"Kopā"
+    },
+    "page_setting":{
+        "tit":"Iestatījumi"
     },
     "page_contacts":{
         "tit":"Adrešu grāmata",
@@ -27,7 +31,21 @@
             "title":"Jūs noņemat"
         }
     },
-    "page_setting":{
-        "tit":"Iestatījumi"
+    "page_transfer":{
+        "from_address":"Pārskaitīt",
+        "to_address":"Into",
+        "amount":"Summa",
+        "send_all":"Sūtīt visus",
+        "remark":"Piezīme",
+        "fees":"Maksas",
+        "expected_fees":"Aprēķinātās maksas",
+        "total":"Kopā",
+        "select":"Lūdzu, izvēlieties",
+        "confirmDia":{
+            "title":"Lūdzu, apstipriniet",
+            "enter_passworld_tit":"Lūdzu, ievadiet savu paroli",
+            "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
+        }
     }
+
 }

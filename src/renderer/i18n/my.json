@@ -2,6 +2,7 @@
     "lang":"ဘာသာစကား",
     "confirm":"အတည်ပြု",
     "cancel":"ဖျက်သိမ်း",
+    "dialog_tit":"လျင်မြန်စွာ",
     "confirm_you_active":"သင့်ရဲ့စစ်ဆင်ရေးသေချာအောင်ကျေးဇူးပြုပြီး",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"စာအုပ်နေရပ်လိပ်စာ",
         "setting":"တက် Set",
         "total":"စုစုပေါငျး"
+    },
+    "page_setting":{
+        "tit":"တက် Set"
     },
     "page_contacts":{
         "tit":"စာအုပ်နေရပ်လိပ်စာ",
@@ -27,7 +31,21 @@
             "title":"သငျသညျမဖယ်ရှားကြသည်"
         }
     },
-    "page_setting":{
-        "tit":"တက် Set"
+    "page_transfer":{
+        "from_address":"အထဲက Turn",
+        "to_address":"သို့",
+        "amount":"ပိုက်ဆံ",
+        "send_all":"အားလုံး Send",
+        "remark":"ပွောဆို",
+        "fees":"အဖိုးအခ",
+        "expected_fees":"ခန့်မှန်းခြေကြေး",
+        "total":"စုစုပေါငျး",
+        "select":"ကို select ပေးပါ",
+        "confirmDia":{
+            "title":"ကျေးဇူးပြု. အတည်ပြု",
+            "enter_passworld_tit":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
+            "enter_passworld_place":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ"
+        }
     }
+
 }

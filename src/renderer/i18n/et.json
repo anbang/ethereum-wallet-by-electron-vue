@@ -2,6 +2,7 @@
     "lang":"Keel",
     "confirm":"Kinnitus",
     "cancel":"Tühistamine",
+    "dialog_tit":"Küsi",
     "confirm_you_active":"Palun kinnitage oma toiming",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Aadressiraamat",
         "setting":"Seaded",
         "total":"Kokku"
+    },
+    "page_setting":{
+        "tit":"Seaded"
     },
     "page_contacts":{
         "tit":"Aadressiraamat",
@@ -27,7 +31,21 @@
             "title":"Te eemaldate"
         }
     },
-    "page_setting":{
-        "tit":"Seaded"
+    "page_transfer":{
+        "from_address":"Üle kanda",
+        "to_address":"Into",
+        "amount":"Summa",
+        "send_all":"Saada kõik",
+        "remark":"Märkus",
+        "fees":"Tasud",
+        "expected_fees":"Hinnangulised tasud",
+        "total":"Kokku",
+        "select":"Palun vali",
+        "confirmDia":{
+            "title":"Palun kinnitage",
+            "enter_passworld_tit":"Palun sisesta oma parool",
+            "enter_passworld_place":"Palun sisesta oma parool"
+        }
     }
+
 }

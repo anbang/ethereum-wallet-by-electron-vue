@@ -2,6 +2,7 @@
     "lang":"Harshe",
     "confirm":"Tabbatarwa",
     "cancel":"Cancellation",
+    "dialog_tit":"Ƙaddara",
     "confirm_you_active":"Da fatan a tabbatar da aikinku",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Littafin adireshi",
         "setting":"Saituna",
         "total":"Jimlar"
+    },
+    "page_setting":{
+        "tit":"Saituna"
     },
     "page_contacts":{
         "tit":"Littafin adireshi",
@@ -27,7 +31,21 @@
             "title":"Ana cirewa"
         }
     },
-    "page_setting":{
-        "tit":"Saituna"
+    "page_transfer":{
+        "from_address":"Canja wurin fita",
+        "to_address":"Cikin",
+        "amount":"Adadin",
+        "send_all":"Aika duk",
+        "remark":"Lura",
+        "fees":"Kudin",
+        "expected_fees":"An kiyasta kudade",
+        "total":"Jimlar",
+        "select":"Da fatan a zaɓi",
+        "confirmDia":{
+            "title":"Da fatan a tabbatar",
+            "enter_passworld_tit":"Da fatan a shigar da kalmar sirri",
+            "enter_passworld_place":"Da fatan a shigar da kalmar sirri"
+        }
     }
+
 }

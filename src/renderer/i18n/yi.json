@@ -2,6 +2,7 @@
     "lang":"שפּראַך",
     "confirm":"באַשטעטיקונג",
     "cancel":"Cancellation",
+    "dialog_tit":"פּינטלעך",
     "confirm_you_active":"ביטע באַשטעטיקן דיין אָפּעראַציע",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"אַדרעס בוך",
         "setting":"Settings",
         "total":"גאַנץ"
+    },
+    "page_setting":{
+        "tit":"Settings"
     },
     "page_contacts":{
         "tit":"אַדרעס בוך",
@@ -27,7 +31,21 @@
             "title":"איר זענען רימוווינג"
         }
     },
-    "page_setting":{
-        "tit":"Settings"
+    "page_transfer":{
+        "from_address":"אַריבערפירן אויס",
+        "to_address":"אין",
+        "amount":"Amount",
+        "send_all":"שיקן אַלע",
+        "remark":"באַמערקונג",
+        "fees":"Fees",
+        "expected_fees":"עסטימאַטעד פיז",
+        "total":"גאַנץ",
+        "select":"ביטע אויסקלייַבן",
+        "confirmDia":{
+            "title":"ביטע באַשטעטיקן",
+            "enter_passworld_tit":"ביטע אַרייַן דיין פּאַראָל",
+            "enter_passworld_place":"ביטע אַרייַן דיין פּאַראָל"
+        }
     }
+
 }

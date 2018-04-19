@@ -2,6 +2,7 @@
     "lang":"言語",
     "confirm":"確認",
     "cancel":"キャンセル",
+    "dialog_tit":"プロンプト",
     "confirm_you_active":"あなたの操作を確認してください",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"アドレス帳",
         "setting":"設定",
         "total":"合計"
+    },
+    "page_setting":{
+        "tit":"設定"
     },
     "page_contacts":{
         "tit":"アドレス帳",
@@ -27,7 +31,21 @@
             "title":"あなたは削除しています"
         }
     },
-    "page_setting":{
-        "tit":"設定"
+    "page_transfer":{
+        "from_address":"転送する",
+        "to_address":"入る",
+        "amount":"金額",
+        "send_all":"すべてを送る",
+        "remark":"ノート",
+        "fees":"料金",
+        "expected_fees":"見積もり手数料",
+        "total":"合計",
+        "select":"選択してください",
+        "confirmDia":{
+            "title":"確認してください",
+            "enter_passworld_tit":"パスワードを入力してください",
+            "enter_passworld_place":"パスワードを入力してください"
+        }
     }
+
 }

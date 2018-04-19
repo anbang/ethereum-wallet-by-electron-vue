@@ -2,6 +2,7 @@
     "lang":"שפה",
     "confirm":"אישור",
     "cancel":"ביטול",
+    "dialog_tit":"הפקודה",
     "confirm_you_active":"אשר את הפעולה שלך",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"פנקס כתובות",
         "setting":"הגדרות",
         "total":"סך הכל"
+    },
+    "page_setting":{
+        "tit":"הגדרות"
     },
     "page_contacts":{
         "tit":"פנקס כתובות",
@@ -27,7 +31,21 @@
             "title":"אתה מסיר"
         }
     },
-    "page_setting":{
-        "tit":"הגדרות"
+    "page_transfer":{
+        "from_address":"העברה החוצה",
+        "to_address":"לתוך",
+        "amount":"סכום",
+        "send_all":"שלח הכל",
+        "remark":"הערה",
+        "fees":"אגרות",
+        "expected_fees":"תשלומים משוערים",
+        "total":"סך הכל",
+        "select":"בחר",
+        "confirmDia":{
+            "title":"אשר",
+            "enter_passworld_tit":"הזן את הסיסמה שלך",
+            "enter_passworld_place":"הזן את הסיסמה שלך"
+        }
     }
+
 }

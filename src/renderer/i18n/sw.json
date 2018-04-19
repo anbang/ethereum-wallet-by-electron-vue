@@ -2,6 +2,7 @@
     "lang":"Lugha",
     "confirm":"Uthibitisho",
     "cancel":"Kuondolewa",
+    "dialog_tit":"Fungua",
     "confirm_you_active":"Tafadhali thibitisha operesheni yako",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Kitabu cha anwani",
         "setting":"Mipangilio",
         "total":"Jumla"
+    },
+    "page_setting":{
+        "tit":"Mipangilio"
     },
     "page_contacts":{
         "tit":"Kitabu cha anwani",
@@ -27,7 +31,21 @@
             "title":"Unaondoa"
         }
     },
-    "page_setting":{
-        "tit":"Mipangilio"
+    "page_transfer":{
+        "from_address":"Tuma",
+        "to_address":"Ingia",
+        "amount":"Kiasi",
+        "send_all":"Tuma yote",
+        "remark":"Kumbuka",
+        "fees":"Malipo",
+        "expected_fees":"Thamani zilizohesabiwa",
+        "total":"Jumla",
+        "select":"Tafadhali chagua",
+        "confirmDia":{
+            "title":"Tafadhali thibitisha",
+            "enter_passworld_tit":"Tafadhali ingiza nenosiri lako",
+            "enter_passworld_place":"Tafadhali ingiza nenosiri lako"
+        }
     }
+
 }

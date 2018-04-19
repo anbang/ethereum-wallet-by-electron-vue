@@ -2,6 +2,7 @@
     "lang":"Puo",
     "confirm":"Bopaki",
     "cancel":"Ho hlakola",
+    "dialog_tit":"Tsoela pele",
     "confirm_you_active":"Ka kopo netefatsa ts'ebetso ea hau",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Buka ea Aterese",
         "setting":"Lisebelisoa",
         "total":"Kakaretso"
+    },
+    "page_setting":{
+        "tit":"Lisebelisoa"
     },
     "page_contacts":{
         "tit":"Buka ea Aterese",
@@ -27,7 +31,21 @@
             "title":"Ua tlosa"
         }
     },
-    "page_setting":{
-        "tit":"Lisebelisoa"
+    "page_transfer":{
+        "from_address":"Tlosa",
+        "to_address":"Kena",
+        "amount":"Chelete",
+        "send_all":"Romela tsohle",
+        "remark":"Hlokomela",
+        "fees":"Litefiso",
+        "expected_fees":"Litefiso tse lekantsoeng",
+        "total":"Kakaretso",
+        "select":"Ka kopo khetha",
+        "confirmDia":{
+            "title":"Ka kopo netefatsa",
+            "enter_passworld_tit":"Ka kopo kenya phasewete ea hau",
+            "enter_passworld_place":"Ka kopo kenya phasewete ea hau"
+        }
     }
+
 }

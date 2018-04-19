@@ -2,6 +2,7 @@
     "lang":"тил",
     "confirm":"ырастоо",
     "cancel":"жокко чыгарылды",
+    "dialog_tit":"тез",
     "confirm_you_active":"Сураныч, операция болушу керек",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Дарек китеби",
         "setting":"орнотуу",
         "total":"Бардыгы болуп"
+    },
+    "page_setting":{
+        "tit":"орнотуу"
     },
     "page_contacts":{
         "tit":"Дарек китеби",
@@ -27,7 +31,21 @@
             "title":"Сиз алып жатышат"
         }
     },
-    "page_setting":{
-        "tit":"орнотуу"
+    "page_transfer":{
+        "from_address":"күйгүзүү чыгып",
+        "to_address":"эске",
+        "amount":"акча",
+        "send_all":"бардык жөнөтүү",
+        "remark":"пикир",
+        "fees":"Алымдар",
+        "expected_fees":"болжолдуу алым",
+        "total":"Бардыгы болуп",
+        "select":"Сураныч, тандоо",
+        "confirmDia":{
+            "title":"Сураныч, ырастоо",
+            "enter_passworld_tit":"Сураныч, сөздү киргизип",
+            "enter_passworld_place":"Сураныч, сөздү киргизип"
+        }
     }
+
 }

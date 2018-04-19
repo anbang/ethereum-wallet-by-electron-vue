@@ -2,6 +2,7 @@
     "lang":"Тіл",
     "confirm":"Растау",
     "cancel":"Болдырмау",
+    "dialog_tit":"Кеңес",
     "confirm_you_active":"Сіздің операцияңызды растаңыз",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Мекенжайлық кітап",
         "setting":"Параметрлер",
         "total":"Барлығы"
+    },
+    "page_setting":{
+        "tit":"Параметрлер"
     },
     "page_contacts":{
         "tit":"Мекенжайлық кітап",
@@ -27,7 +31,21 @@
             "title":"Сіз жойып жатырсыз"
         }
     },
-    "page_setting":{
-        "tit":"Параметрлер"
+    "page_transfer":{
+        "from_address":"Ауыстыру",
+        "to_address":"Ішке",
+        "amount":"Сома",
+        "send_all":"Барлығын жіберіңіз",
+        "remark":"Ескерту",
+        "fees":"Тарифтер",
+        "expected_fees":"Болжамды алымдар",
+        "total":"Барлығы",
+        "select":"Таңдаңыз",
+        "confirmDia":{
+            "title":"Растаңыз",
+            "enter_passworld_tit":"Құпия сөзіңізді енгізіңіз",
+            "enter_passworld_place":"Құпия сөзіңізді енгізіңіз"
+        }
     }
+
 }

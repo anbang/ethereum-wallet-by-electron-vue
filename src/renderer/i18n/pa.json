@@ -2,6 +2,7 @@
     "lang":"ਭਾਸ਼ਾ",
     "confirm":"ਪੁਸ਼ਟੀ",
     "cancel":"ਰੱਦ ਕਰਨਾ",
+    "dialog_tit":"ਪੁੱਛੋ",
     "confirm_you_active":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਅਪਰੇਸ਼ਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ਐਡਰੈੱਸ ਬੁੱਕ",
         "setting":"ਸੈਟਿੰਗਾਂ",
         "total":"ਕੁੱਲ"
+    },
+    "page_setting":{
+        "tit":"ਸੈਟਿੰਗਾਂ"
     },
     "page_contacts":{
         "tit":"ਐਡਰੈੱਸ ਬੁੱਕ",
@@ -27,7 +31,21 @@
             "title":"ਤੁਸੀਂ ਹਟਾ ਰਹੇ ਹੋ"
         }
     },
-    "page_setting":{
-        "tit":"ਸੈਟਿੰਗਾਂ"
+    "page_transfer":{
+        "from_address":"ਬਾਹਰ ਤਬਦੀਲ ਕਰੋ",
+        "to_address":"ਵਿੱਚ",
+        "amount":"ਰਕਮ",
+        "send_all":"ਸਭ ਨੂੰ ਭੇਜੋ",
+        "remark":"ਨੋਟ",
+        "fees":"ਫੀਸ",
+        "expected_fees":"ਅੰਦਾਜ਼ਾ ਫੀਸ",
+        "total":"ਕੁੱਲ",
+        "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ",
+        "confirmDia":{
+            "title":"ਕਿਰਪਾ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "enter_passworld_tit":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+            "enter_passworld_place":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"
+        }
     }
+
 }

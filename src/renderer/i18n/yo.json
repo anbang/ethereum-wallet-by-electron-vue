@@ -2,6 +2,7 @@
     "lang":"Ede",
     "confirm":"Ijẹrisi",
     "cancel":"Cancellation",
+    "dialog_tit":"Gbọ",
     "confirm_you_active":"Jọwọ jẹrisi isẹ rẹ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Iwe iwe ipamọ",
         "setting":"Eto",
         "total":"Lapapọ"
+    },
+    "page_setting":{
+        "tit":"Eto"
     },
     "page_contacts":{
         "tit":"Iwe iwe ipamọ",
@@ -27,7 +31,21 @@
             "title":"O n yọ kuro"
         }
     },
-    "page_setting":{
-        "tit":"Eto"
+    "page_transfer":{
+        "from_address":"Gbe jade",
+        "to_address":"Sinu",
+        "amount":"Iye",
+        "send_all":"Firanṣẹ gbogbo",
+        "remark":"Akiyesi",
+        "fees":"Owo sisan",
+        "expected_fees":"Awọn owo iṣiro",
+        "total":"Lapapọ",
+        "select":"Jọwọ yan",
+        "confirmDia":{
+            "title":"Jọwọ jẹrisi",
+            "enter_passworld_tit":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
+            "enter_passworld_place":"Jọwọ tẹ ọrọigbaniwọle rẹ sii"
+        }
     }
+
 }

@@ -2,6 +2,7 @@
     "lang":"nyelv",
     "confirm":"Erősítse",
     "cancel":"törölve",
+    "dialog_tit":"azonnali",
     "confirm_you_active":"Kérjük, erősítse meg működését",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Címjegyzék",
         "setting":"beállítása",
         "total":"teljes"
+    },
+    "page_setting":{
+        "tit":"beállítása"
     },
     "page_contacts":{
         "tit":"Címjegyzék",
@@ -27,7 +31,21 @@
             "title":"Ön eltávolít"
         }
     },
-    "page_setting":{
-        "tit":"beállítása"
+    "page_transfer":{
+        "from_address":"Átutalás",
+        "to_address":"bele",
+        "amount":"pénz",
+        "send_all":"Küldj mindent",
+        "remark":"megjegyzés",
+        "fees":"díjak",
+        "expected_fees":"Becsült díjak",
+        "total":"teljes",
+        "select":"Kérem válasszon",
+        "confirmDia":{
+            "title":"Kérjük, erősítse meg",
+            "enter_passworld_tit":"Kérjük, adja meg jelszavát",
+            "enter_passworld_place":"Kérjük, adja meg jelszavát"
+        }
     }
+
 }

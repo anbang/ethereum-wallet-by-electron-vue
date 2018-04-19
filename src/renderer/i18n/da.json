@@ -2,6 +2,7 @@
     "lang":"sprog",
     "confirm":"bekræfte",
     "cancel":"aflyst",
+    "dialog_tit":"Spørg",
     "confirm_you_active":"Bekræft venligst din operation",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adressebog",
         "setting":"Opsæt",
         "total":"I alt"
+    },
+    "page_setting":{
+        "tit":"Opsæt"
     },
     "page_contacts":{
         "tit":"Adressebog",
@@ -27,7 +31,21 @@
             "title":"Du fjerner"
         }
     },
-    "page_setting":{
-        "tit":"Opsæt"
+    "page_transfer":{
+        "from_address":"Overførsel",
+        "to_address":"ind i",
+        "amount":"penge",
+        "send_all":"Send alle",
+        "remark":"bemærkning",
+        "fees":"Gebyrer",
+        "expected_fees":"Anslåede gebyrer",
+        "total":"I alt",
+        "select":"Vælg venligst",
+        "confirmDia":{
+            "title":"Bekræft venligst",
+            "enter_passworld_tit":"Indtast venligst dit kodeord",
+            "enter_passworld_place":"Indtast venligst dit kodeord"
+        }
     }
+
 }

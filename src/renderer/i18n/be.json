@@ -2,6 +2,7 @@
     "lang":"мова",
     "confirm":"пацвердзіць",
     "cancel":"адменены",
+    "dialog_tit":"падказка",
     "confirm_you_active":"Калі ласка, пераканайцеся, што ваша праца",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"адрасная кніга",
         "setting":"ўсталёўваць",
         "total":"агульны"
+    },
+    "page_setting":{
+        "tit":"ўсталёўваць"
     },
     "page_contacts":{
         "tit":"адрасная кніга",
@@ -27,7 +31,21 @@
             "title":"вы выдаляеце"
         }
     },
-    "page_setting":{
-        "tit":"ўсталёўваць"
+    "page_transfer":{
+        "from_address":"выпускаць",
+        "to_address":"у",
+        "amount":"грошы",
+        "send_all":"адправіць ўсе",
+        "remark":"заўвагу",
+        "fees":"зборы",
+        "expected_fees":"ацэначны плата",
+        "total":"агульны",
+        "select":"Калі ласка, абярыце",
+        "confirmDia":{
+            "title":"Калі ласка, пацвердзіце",
+            "enter_passworld_tit":"Калі ласка, увядзіце ваш пароль",
+            "enter_passworld_place":"Калі ласка, увядзіце ваш пароль"
+        }
     }
+
 }

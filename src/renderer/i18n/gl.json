@@ -2,6 +2,7 @@
     "lang":"Linguaxe",
     "confirm":"Confirmación",
     "cancel":"Cancelación",
+    "dialog_tit":"Preguntar",
     "confirm_you_active":"Confirma a túa operación",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Caderno de enderezos",
         "setting":"Configuración",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuración"
     },
     "page_contacts":{
         "tit":"Caderno de enderezos",
@@ -27,7 +31,21 @@
             "title":"Estás a eliminar"
         }
     },
-    "page_setting":{
-        "tit":"Configuración"
+    "page_transfer":{
+        "from_address":"Transferir",
+        "to_address":"Into",
+        "amount":"Cantidade",
+        "send_all":"Enviar todo",
+        "remark":"Nota",
+        "fees":"Taxas",
+        "expected_fees":"Taxas estimadas",
+        "total":"Total",
+        "select":"Selecciona",
+        "confirmDia":{
+            "title":"Confirma",
+            "enter_passworld_tit":"Introduce o teu contrasinal",
+            "enter_passworld_place":"Introduce o teu contrasinal"
+        }
     }
+
 }

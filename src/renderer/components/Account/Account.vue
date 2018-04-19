@@ -27,66 +27,45 @@
     <div class="account-content">
       <h2 class="transfer-tit">交易记录</h2>
       <div class="transfer-log">
-        
-        <div class="transfer-item b-flex b-flex-justify plus-assets">
-          <div class="icon-wrap">
-            <i class="iconfont icon-transfer">&#xe639;</i>
-          </div>
-          <div class="transfer-info">
-            <p class="by-address">0x251f44b86c6095c7c9d5791756c6a769f44f5fea</p>
-            <p class="transfer-time">02 / 27 /2018</p>
-          </div>
-          <div class="transfer-assets">
-            <div class="assets">+ 18000.23 CZR</div>
-           </div>
-        </div>
-                <div class="transfer-item b-flex b-flex-justify less-assets">
-          <div class="icon-wrap">
-            <i class="iconfont icon-transfer">&#xe638;</i>
-          </div>
-          <div class="transfer-info">
-            <p class="by-address">0x251f44b86c6095c7c9d5791756c6a769f44f5fea</p>
-            <p class="transfer-time">02 / 27 /2018</p>
-          </div>
-          <div class="transfer-assets">
-            <div class="assets">- 34.56 CZR</div>
-           </div>
-        </div>
-         <div class="transfer-item b-flex b-flex-justify plus-assets">
-          <div class="icon-wrap">
-            <i class="iconfont icon-transfer">&#xe639;</i>
-          </div>
-          <div class="transfer-info">
-            <p class="by-address">0x251f44b86c6095c7c9d5791756c6a769f44f5fea</p>
-            <p class="transfer-time">02 / 27 /2018</p>
-          </div>
-          <div class="transfer-assets">
-            <div class="assets">+ 330.23 CZR</div>
-           </div>
-        </div>
+        <template v-for="item in transList">
+            <div v-if="item.to == currentAcc">
+              <div   class="transfer-item b-flex b-flex-justify plus-assets">
+                <div class="icon-wrap">
+                  <i class="iconfont icon-transfer">&#xe639;</i>
+                </div>
+                <div class="transfer-info">
+                  <p class="by-address">{{item.from}}</p>
+                  <p class="transfer-time">02 / 27 /2018</p>
+                </div>
+                <div class="transfer-assets">
+                  <div class="assets">+ {{item.value | toCZR }} CZR</div>
+                </div>
+              </div>
+            </div>
 
+            <div v-if="item.from == currentAcc">
+                  <div class="transfer-item b-flex b-flex-justify less-assets">
+                  <div class="icon-wrap">
+                    <i class="iconfont icon-transfer">&#xe638;</i>
+                  </div>
+                  <div class="transfer-info">
+                    <p class="by-address">{{item.to}}</p>
+                    <p class="transfer-time">02 / 27 /2018</p>
+                  </div>
+                  <div class="transfer-assets">
+                    <div class="assets">- {{item.value | toCZR }} CZR</div>
+                  </div>
+                </div>
+            </div>
+        </template>
       </div>
+      
       <!--  无交易记录  -->
-      <div class="no-transfer-log">
+      <div v-if="transList.length==0" class="no-transfer-log">
         <i class="iconfont">&#xe6e7;</i>
         <p>暂无交易记录</p>
       </div>
     </div>
-
-
-
-
-    <br><br><br><br><br><br><br><br>
-    <h4>交易记录</h4>
-    <ul>
-      <li>
-        <div style="text-align: left;">
-          <pre >{{transIds}}</pre>
-        </div>
-      </li>
-    </ul>
-
-    <!-- <p>{{balaceVal}}</p> -->
 
   </div>
 </template>
@@ -100,8 +79,12 @@ export default {
   data () {
     return {
       msg: '账号',
-      currentAcc:this.$route.params.id,
-      balaceVal:web3.eth.getBalance(this.$route.params.id).toNumber()
+      currentAcc:this.$route.params.id
+    }
+  },
+  filters:{
+    toCZR:function(val){
+      return web3.fromWei(val,"ether");
     }
   },
   computed:{
@@ -110,14 +93,9 @@ export default {
       var balaceVal = web3.fromWei(balaceWei, 'ether')
       return balaceVal;
     },
-    transIds:function(){
-        
-        var tx_list = this.$db.read().get('czr_accounts.'+this.currentAcc+'.tx_list').value();
+    transList:function(){
+        var tx_list = this.$db.read().get('czr_accounts').find({address:this.currentAcc}).get('tx_list').value();
 
-        console.log(this.$db.read().get('czr_accounts.'+this.currentAcc).value())
-
-        //0x059b9238d7003416960db8d9f9d8de506f17574b37f03c9101c941a439fa942c
-        //0xffd52aab6437ba8ad2947f5745d1ab6f03c92f3bc1dd61f23ccb8ad28133c2f6
         return tx_list;
     }
   }
@@ -131,7 +109,7 @@ export default {
   background-color:#5a59a0 ;
   color: #fff;
   width: 100%;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none; */
   position: relative;
 }
 

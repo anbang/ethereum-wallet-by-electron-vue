@@ -2,6 +2,7 @@
     "lang":"kieli",
     "confirm":"vahvistaa",
     "cancel":"peruttu",
+    "dialog_tit":"nopea",
     "confirm_you_active":"Vahvista toiminto",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Osoitekirja",
         "setting":"perustettu",
         "total":"kokonais-"
+    },
+    "page_setting":{
+        "tit":"perustettu"
     },
     "page_contacts":{
         "tit":"Osoitekirja",
@@ -27,7 +31,21 @@
             "title":"Poistat"
         }
     },
-    "page_setting":{
-        "tit":"perustettu"
+    "page_transfer":{
+        "from_address":"Siirrä ulos",
+        "to_address":"osaksi",
+        "amount":"raha",
+        "send_all":"Lähetä kaikki",
+        "remark":"huomautus",
+        "fees":"maksu",
+        "expected_fees":"Arvioidut maksut",
+        "total":"kokonais-",
+        "select":"Valitse",
+        "confirmDia":{
+            "title":"Vahvista",
+            "enter_passworld_tit":"Anna salasanasi",
+            "enter_passworld_place":"Anna salasanasi"
+        }
     }
+
 }

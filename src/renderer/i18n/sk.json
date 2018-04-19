@@ -2,6 +2,7 @@
     "lang":"jazyk",
     "confirm":"potvrdiť",
     "cancel":"zrušený",
+    "dialog_tit":"prompt",
     "confirm_you_active":"Potvrďte svoju činnosť",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adresár",
         "setting":"založiť",
         "total":"totálnej"
+    },
+    "page_setting":{
+        "tit":"založiť"
     },
     "page_contacts":{
         "tit":"Adresár",
@@ -27,7 +31,21 @@
             "title":"Odstraňujete"
         }
     },
-    "page_setting":{
-        "tit":"založiť"
+    "page_transfer":{
+        "from_address":"Odstúpte",
+        "to_address":"do",
+        "amount":"peniaze",
+        "send_all":"Odoslať všetko",
+        "remark":"poznámka",
+        "fees":"poplatky",
+        "expected_fees":"Odhadované poplatky",
+        "total":"totálnej",
+        "select":"Vyberte prosím",
+        "confirmDia":{
+            "title":"Potvrďte prosím",
+            "enter_passworld_tit":"Zadajte svoje heslo",
+            "enter_passworld_place":"Zadajte svoje heslo"
+        }
     }
+
 }

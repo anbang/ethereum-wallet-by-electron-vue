@@ -2,6 +2,7 @@
     "lang":"ಭಾಷೆ",
     "confirm":"ದೃಢೀಕರಣ",
     "cancel":"ರದ್ದತಿ",
+    "dialog_tit":"ಪ್ರಾಂಪ್ಟ್",
     "confirm_you_active":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ದೃಢೀಕರಿಸಿ",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"ವಿಳಾಸ ಪುಸ್ತಕ",
         "setting":"ಸೆಟ್ಟಿಂಗ್ಗಳು",
         "total":"ಒಟ್ಟು"
+    },
+    "page_setting":{
+        "tit":"ಸೆಟ್ಟಿಂಗ್ಗಳು"
     },
     "page_contacts":{
         "tit":"ವಿಳಾಸ ಪುಸ್ತಕ",
@@ -27,7 +31,21 @@
             "title":"ನೀವು ತೆಗೆದುಹಾಕುತ್ತಿರುವಿರಿ"
         }
     },
-    "page_setting":{
-        "tit":"ಸೆಟ್ಟಿಂಗ್ಗಳು"
+    "page_transfer":{
+        "from_address":"ವರ್ಗಾಯಿಸಿ",
+        "to_address":"ಒಳಗೆ",
+        "amount":"ಮೊತ್ತ",
+        "send_all":"ಎಲ್ಲವನ್ನೂ ಕಳುಹಿಸಿ",
+        "remark":"ಗಮನಿಸಿ",
+        "fees":"ಶುಲ್ಕಗಳು",
+        "expected_fees":"ಅಂದಾಜು ಶುಲ್ಕ",
+        "total":"ಒಟ್ಟು",
+        "select":"ದಯವಿಟ್ಟು ಆಯ್ಕೆ ಮಾಡಿ",
+        "confirmDia":{
+            "title":"ದಯವಿಟ್ಟು ದೃಢೀಕರಿಸಿ",
+            "enter_passworld_tit":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+            "enter_passworld_place":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ"
+        }
     }
+
 }

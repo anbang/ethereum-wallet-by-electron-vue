@@ -2,6 +2,7 @@
     "lang": "语言",
     "confirm": "确认",
     "cancel": "取消",
+    "dialog_tit":"提示",
     "confirm_you_active": "请确认您的操作",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"地址薄",
         "setting":"设置",
         "total":"合计"
+    },
+    "page_setting":{
+        "tit":"设置"
     },
     "page_contacts":{
         "tit":"地址薄",
@@ -27,7 +31,21 @@
             "title":"您正在移除"
         }
     },
-    "page_setting":{
-        "tit":"设置"
+    "page_transfer":{
+        "from_address":"转出",
+        "to_address":"转入",
+        "amount":"金额",
+        "send_all":"发送全部",
+        "remark":"备注",
+        "fees":"手续费",
+        "expected_fees":"预估手续费",
+        "total":"合计",
+        "select":"请选择",
+        "confirmDia":{
+            "title":"请确认",
+            "enter_passworld_tit":"请输入密码",
+            "enter_passworld_place":"请输入密码"
+        }
     }
+
 }

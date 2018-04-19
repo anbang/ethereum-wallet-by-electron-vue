@@ -2,6 +2,7 @@
     "lang":"भाषा",
     "confirm":"की पुष्टि करें",
     "cancel":"रद्द",
+    "dialog_tit":"शीघ्र",
     "confirm_you_active":"कृपया अपने ऑपरेशन की पुष्टि करें",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"पता पुस्तिका",
         "setting":"सेट करें",
         "total":"संपूर्ण"
+    },
+    "page_setting":{
+        "tit":"सेट करें"
     },
     "page_contacts":{
         "tit":"पता पुस्तिका",
@@ -27,7 +31,21 @@
             "title":"आप निकाल रहे हैं"
         }
     },
-    "page_setting":{
-        "tit":"सेट करें"
+    "page_transfer":{
+        "from_address":"बाहर स्थानांतरण",
+        "to_address":"में",
+        "amount":"पैसा",
+        "send_all":"सब भेजें",
+        "remark":"टिप्पणी",
+        "fees":"फीस",
+        "expected_fees":"अनुमानित फीस",
+        "total":"संपूर्ण",
+        "select":"कृपया चुनें",
+        "confirmDia":{
+            "title":"कृपया पुष्टि करें",
+            "enter_passworld_tit":"कृपया अपना पासवर्ड दर्ज करें",
+            "enter_passworld_place":"कृपया अपना पासवर्ड दर्ज करें"
+        }
     }
+
 }

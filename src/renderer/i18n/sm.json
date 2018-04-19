@@ -2,6 +2,7 @@
     "lang":"Gagana",
     "confirm":"Faamauga",
     "cancel":"Faaleaogaina",
+    "dialog_tit":"Usiusitai",
     "confirm_you_active":"Faʻamolemole faʻamaonia lau taotoga",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Tusi lauga",
         "setting":"Faʻasologa",
         "total":"Aofaʻi"
+    },
+    "page_setting":{
+        "tit":"Faʻasologa"
     },
     "page_contacts":{
         "tit":"Tusi lauga",
@@ -27,7 +31,21 @@
             "title":"O loʻo e vaʻavaʻa"
         }
     },
-    "page_setting":{
-        "tit":"Faʻasologa"
+    "page_transfer":{
+        "from_address":"Fesiitaʻi",
+        "to_address":"Totonu",
+        "amount":"Aofaʻi",
+        "send_all":"Auina uma",
+        "remark":"Manatua",
+        "fees":"Totogi",
+        "expected_fees":"Tausaga fuafuaina",
+        "total":"Aofaʻi",
+        "select":"Faamolemole filifili",
+        "confirmDia":{
+            "title":"Faʻamolemole faʻamaonia",
+            "enter_passworld_tit":"Faʻamolemole ulufale i lau faʻaupuga",
+            "enter_passworld_place":"Faʻamolemole ulufale i lau faʻaupuga"
+        }
     }
+
 }

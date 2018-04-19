@@ -2,6 +2,7 @@
     "lang":"språk",
     "confirm":"bekrefte",
     "cancel":"avbrutt",
+    "dialog_tit":"prompt",
     "confirm_you_active":"Vennligst bekreft operasjonen din",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adressebok",
         "setting":"Sett opp",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"Sett opp"
     },
     "page_contacts":{
         "tit":"Adressebok",
@@ -27,7 +31,21 @@
             "title":"Du fjerner"
         }
     },
-    "page_setting":{
-        "tit":"Sett opp"
+    "page_transfer":{
+        "from_address":"Overfør ut",
+        "to_address":"til",
+        "amount":"penger",
+        "send_all":"Send alle",
+        "remark":"bemerkning",
+        "fees":"avgifter",
+        "expected_fees":"Estimerte avgifter",
+        "total":"total",
+        "select":"Vennligst velg",
+        "confirmDia":{
+            "title":"Vennligst bekreft",
+            "enter_passworld_tit":"Vennligst skriv inn passordet ditt",
+            "enter_passworld_place":"Vennligst skriv inn passordet ditt"
+        }
     }
+
 }

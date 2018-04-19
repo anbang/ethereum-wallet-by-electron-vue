@@ -2,6 +2,7 @@
     "lang":"dil",
     "confirm":"onaylamak",
     "cancel":"iptal edildi",
+    "dialog_tit":"çabuk",
     "confirm_you_active":"Lütfen operasyonunuzu onaylayın",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adres defteri",
         "setting":"kurmak",
         "total":"toplam"
+    },
+    "page_setting":{
+        "tit":"kurmak"
     },
     "page_contacts":{
         "tit":"Adres defteri",
@@ -27,7 +31,21 @@
             "title":"Sen kaldırıyorsun"
         }
     },
-    "page_setting":{
-        "tit":"kurmak"
+    "page_transfer":{
+        "from_address":"Transfer",
+        "to_address":"içine",
+        "amount":"para",
+        "send_all":"Tümünü gönder",
+        "remark":"düşünce",
+        "fees":"harç",
+        "expected_fees":"Tahmini ücretler",
+        "total":"toplam",
+        "select":"Seçiniz",
+        "confirmDia":{
+            "title":"Lütfen onaylayın",
+            "enter_passworld_tit":"Lütfen şifrenizi giriniz",
+            "enter_passworld_place":"Lütfen şifrenizi giriniz"
+        }
     }
+
 }

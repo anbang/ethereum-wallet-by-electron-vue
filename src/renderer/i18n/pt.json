@@ -2,6 +2,7 @@
     "lang":"Idioma",
     "confirm":"Confirmação",
     "cancel":"Cancelamento",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Por favor, confirme sua operação",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Livro de endereços",
         "setting":"Configurações",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configurações"
     },
     "page_contacts":{
         "tit":"Livro de endereços",
@@ -27,7 +31,21 @@
             "title":"Você está removendo"
         }
     },
-    "page_setting":{
-        "tit":"Configurações"
+    "page_transfer":{
+        "from_address":"Transferir",
+        "to_address":"Para",
+        "amount":"Quantidade",
+        "send_all":"Enviar tudo",
+        "remark":"Nota",
+        "fees":"Taxas",
+        "expected_fees":"Taxas estimadas",
+        "total":"Total",
+        "select":"Por favor selecione",
+        "confirmDia":{
+            "title":"Por favor confirme",
+            "enter_passworld_tit":"Por favor digite sua senha",
+            "enter_passworld_place":"Por favor digite sua senha"
+        }
     }
+
 }

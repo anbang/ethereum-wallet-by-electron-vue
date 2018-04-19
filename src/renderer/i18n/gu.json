@@ -2,6 +2,7 @@
     "lang":"ભાષા",
     "confirm":"સમર્થન",
     "cancel":"રદ",
+    "dialog_tit":"પ્રોમ્પ્ટ",
     "confirm_you_active":"કૃપા કરીને તમારા ઑપરેશનની પુષ્ટિ કરો",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"સરનામું પુસ્તક",
         "setting":"સેટિંગ્સ",
         "total":"કુલ"
+    },
+    "page_setting":{
+        "tit":"સેટિંગ્સ"
     },
     "page_contacts":{
         "tit":"સરનામું પુસ્તક",
@@ -27,7 +31,21 @@
             "title":"તમે દૂર કરી રહ્યાં છો"
         }
     },
-    "page_setting":{
-        "tit":"સેટિંગ્સ"
+    "page_transfer":{
+        "from_address":"બહાર સ્થાનાંતરિત કરો",
+        "to_address":"ઇનટુ",
+        "amount":"રકમ",
+        "send_all":"બધા મોકલો",
+        "remark":"નોંધ",
+        "fees":"ફી",
+        "expected_fees":"અંદાજિત ફી",
+        "total":"કુલ",
+        "select":"કૃપા કરીને પસંદ કરો",
+        "confirmDia":{
+            "title":"કૃપા કરીને પુષ્ટિ કરો",
+            "enter_passworld_tit":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો",
+            "enter_passworld_place":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો"
+        }
     }
+
 }

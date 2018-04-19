@@ -2,6 +2,7 @@
     "lang":"Lang",
     "confirm":"Konfimasyon",
     "cancel":"Anilasyon",
+    "dialog_tit":"Èd memwa",
     "confirm_you_active":"Tanpri konfime operasyon ou",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Adrès liv",
         "setting":"Anviwònman",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Anviwònman"
     },
     "page_contacts":{
         "tit":"Adrès liv",
@@ -27,7 +31,21 @@
             "title":"Ou yo retire"
         }
     },
-    "page_setting":{
-        "tit":"Anviwònman"
+    "page_transfer":{
+        "from_address":"Transfè soti",
+        "to_address":"Nan",
+        "amount":"Kantite lajan",
+        "send_all":"Voye tout",
+        "remark":"Remak",
+        "fees":"Frè",
+        "expected_fees":"Estimasyon frè",
+        "total":"Total",
+        "select":"Tanpri chwazi",
+        "confirmDia":{
+            "title":"Tanpri konfime",
+            "enter_passworld_tit":"Tanpri antre modpas ou",
+            "enter_passworld_place":"Tanpri antre modpas ou"
+        }
     }
+
 }

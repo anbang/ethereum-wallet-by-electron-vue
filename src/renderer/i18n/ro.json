@@ -2,6 +2,7 @@
     "lang":"limbă",
     "confirm":"confirma",
     "cancel":"anulat",
+    "dialog_tit":"prompt",
     "confirm_you_active":"Vă rugăm să confirmați funcționarea",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Agendă de adrese",
         "setting":"Configurarea",
         "total":"total"
+    },
+    "page_setting":{
+        "tit":"Configurarea"
     },
     "page_contacts":{
         "tit":"Agendă de adrese",
@@ -27,7 +31,21 @@
             "title":"Înlăturați"
         }
     },
-    "page_setting":{
-        "tit":"Configurarea"
+    "page_transfer":{
+        "from_address":"Transferați-vă",
+        "to_address":"în",
+        "amount":"bani",
+        "send_all":"Trimiteți-le pe toate",
+        "remark":"remarcă",
+        "fees":"Taxe",
+        "expected_fees":"Taxele estimate",
+        "total":"total",
+        "select":"Selectați",
+        "confirmDia":{
+            "title":"Vă rugăm să confirmați",
+            "enter_passworld_tit":"Introduceți parola",
+            "enter_passworld_place":"Introduceți parola"
+        }
     }
+
 }

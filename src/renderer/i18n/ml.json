@@ -2,6 +2,7 @@
     "lang":"ഭാഷ",
     "confirm":"സ്ഥിരീകരണം",
     "cancel":"റദ്ദാക്കൽ",
+    "dialog_tit":"ആവശ്യപ്പെടുക",
     "confirm_you_active":"നിങ്ങളുടെ പ്രവർത്തനം സ്ഥിരീകരിക്കുക",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"വിലാസ പുസ്തകം",
         "setting":"ക്രമീകരണങ്ങൾ",
         "total":"ആകെ"
+    },
+    "page_setting":{
+        "tit":"ക്രമീകരണങ്ങൾ"
     },
     "page_contacts":{
         "tit":"വിലാസ പുസ്തകം",
@@ -27,7 +31,21 @@
             "title":"നിങ്ങൾ നീക്കംചെയ്യുന്നു"
         }
     },
-    "page_setting":{
-        "tit":"ക്രമീകരണങ്ങൾ"
+    "page_transfer":{
+        "from_address":"നീക്കുക",
+        "to_address":"ഇവിടേക്ക്",
+        "amount":"തുക",
+        "send_all":"എല്ലാം അയയ്ക്കുക",
+        "remark":"കുറിപ്പ്",
+        "fees":"ഫീസ്",
+        "expected_fees":"കണക്കാക്കപ്പെട്ട ഫീസ്",
+        "total":"ആകെ",
+        "select":"ദയവായി തിരഞ്ഞെടുക്കുക",
+        "confirmDia":{
+            "title":"ദയവായി സ്ഥിരീകരിക്കുക",
+            "enter_passworld_tit":"നിങ്ങളുടെ പാസ്വേഡ് നൽകുക",
+            "enter_passworld_place":"നിങ്ങളുടെ പാസ്വേഡ് നൽകുക"
+        }
     }
+
 }

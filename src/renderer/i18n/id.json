@@ -2,6 +2,7 @@
     "lang":"Bahasa",
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Harap konfirmasi operasi Anda",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Buku alamat",
         "setting":"Pengaturan",
         "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Pengaturan"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -27,7 +31,21 @@
             "title":"Anda menghapus"
         }
     },
-    "page_setting":{
-        "tit":"Pengaturan"
+    "page_transfer":{
+        "from_address":"Transfer keluar",
+        "to_address":"Ke",
+        "amount":"Jumlah",
+        "send_all":"Kirim semua",
+        "remark":"Catatan",
+        "fees":"Biaya",
+        "expected_fees":"Taksiran biaya",
+        "total":"Total",
+        "select":"Silakan pilih",
+        "confirmDia":{
+            "title":"Tolong konfirmasi",
+            "enter_passworld_tit":"Silakan masukkan kata sandi Anda",
+            "enter_passworld_place":"Silakan masukkan kata sandi Anda"
+        }
     }
+
 }

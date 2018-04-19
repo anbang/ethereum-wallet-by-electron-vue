@@ -2,6 +2,7 @@
     "lang":"Ngôn ngữ",
     "confirm":"Xác nhận",
     "cancel":"Huỷ bỏ",
+    "dialog_tit":"Nhắc nhở",
     "confirm_you_active":"Vui lòng xác nhận hoạt động của bạn",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Sổ địa chỉ",
         "setting":"Cài đặt",
         "total":"Tổng cộng"
+    },
+    "page_setting":{
+        "tit":"Cài đặt"
     },
     "page_contacts":{
         "tit":"Sổ địa chỉ",
@@ -27,7 +31,21 @@
             "title":"Bạn đang xoá"
         }
     },
-    "page_setting":{
-        "tit":"Cài đặt"
+    "page_transfer":{
+        "from_address":"Chuyển ra ngoài",
+        "to_address":"Vào",
+        "amount":"Số tiền",
+        "send_all":"Gửi tất cả",
+        "remark":"Lưu ý",
+        "fees":"Phí",
+        "expected_fees":"Phí ước tính",
+        "total":"Tổng cộng",
+        "select":"Vui lòng chọn",
+        "confirmDia":{
+            "title":"Vui lòng xác nhận",
+            "enter_passworld_tit":"Vui lòng nhập mật khẩu của bạn",
+            "enter_passworld_place":"Vui lòng nhập mật khẩu của bạn"
+        }
     }
+
 }

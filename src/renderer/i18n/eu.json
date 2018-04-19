@@ -2,6 +2,7 @@
     "lang":"Hizkuntza",
     "confirm":"Berretsi",
     "cancel":"Bertan behera",
+    "dialog_tit":"Galdetu",
     "confirm_you_active":"Mesedez berretsi zure eragiketa",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Helbide liburua",
         "setting":"Ezarri",
         "total":"Guztira"
+    },
+    "page_setting":{
+        "tit":"Ezarri"
     },
     "page_contacts":{
         "tit":"Helbide liburua",
@@ -27,7 +31,21 @@
             "title":"Kendu egiten ari zara"
         }
     },
-    "page_setting":{
-        "tit":"Ezarri"
+    "page_transfer":{
+        "from_address":"Transferitu",
+        "to_address":"sartu",
+        "amount":"Dirua",
+        "send_all":"Bidali dena",
+        "remark":"Oharra",
+        "fees":"Tarifak",
+        "expected_fees":"Estimatutako tasak",
+        "total":"Guztira",
+        "select":"Aukeratu ezazu",
+        "confirmDia":{
+            "title":"Berretsi",
+            "enter_passworld_tit":"Idatzi zure pasahitza",
+            "enter_passworld_place":"Idatzi zure pasahitza"
+        }
     }
+
 }

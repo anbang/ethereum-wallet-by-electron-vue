@@ -2,6 +2,7 @@
     "lang":"Bahasa",
     "confirm":"Pengesahan",
     "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
     "confirm_you_active":"Sila sahkan operasi anda",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"Buku alamat",
         "setting":"Tetapan",
         "total":"Jumlah"
+    },
+    "page_setting":{
+        "tit":"Tetapan"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -27,7 +31,21 @@
             "title":"Anda membuang"
         }
     },
-    "page_setting":{
-        "tit":"Tetapan"
+    "page_transfer":{
+        "from_address":"Pindahan",
+        "to_address":"Ke dalam",
+        "amount":"Jumlah",
+        "send_all":"Hantar semua",
+        "remark":"Nota",
+        "fees":"Bayaran",
+        "expected_fees":"Anggaran yuran",
+        "total":"Jumlah",
+        "select":"Sila pilih",
+        "confirmDia":{
+            "title":"Sila sahkan",
+            "enter_passworld_tit":"Sila masukkan kata laluan anda",
+            "enter_passworld_place":"Sila masukkan kata laluan anda"
+        }
     }
+
 }

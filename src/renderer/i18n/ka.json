@@ -2,6 +2,7 @@
     "lang":"ენა",
     "confirm":"დადასტურება",
     "cancel":"გაუქმება",
+    "dialog_tit":"სასწრაფოდ",
     "confirm_you_active":"გთხოვთ დაადასტუროთ თქვენი ოპერაცია",
     "unit":{
         "czr":"CZR"
@@ -12,6 +13,9 @@
         "contacts":"მისამართი წიგნი",
         "setting":"პარამეტრები",
         "total":"სულ"
+    },
+    "page_setting":{
+        "tit":"პარამეტრები"
     },
     "page_contacts":{
         "tit":"მისამართი წიგნი",
@@ -27,7 +31,21 @@
             "title":"თქვენ მოხსნით"
         }
     },
-    "page_setting":{
-        "tit":"პარამეტრები"
+    "page_transfer":{
+        "from_address":"გადარიცხვა",
+        "to_address":"Into",
+        "amount":"თანხა",
+        "send_all":"გააგზავნე ყველაფერი",
+        "remark":"შენიშვნა",
+        "fees":"მოსაკრებელი",
+        "expected_fees":"სავარაუდო საფასური",
+        "total":"სულ",
+        "select":"გთხოვთ, აირჩიოთ",
+        "confirmDia":{
+            "title":"გთხოვთ დაადასტუროთ",
+            "enter_passworld_tit":"გთხოვთ შეიყვანოთ პაროლი",
+            "enter_passworld_place":"გთხოვთ შეიყვანოთ პაროლი"
+        }
     }
+
 }
