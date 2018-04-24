@@ -3,6 +3,7 @@
     "confirm":"Bestätigung",
     "cancel":"Stornierung",
     "dialog_tit":"Aufforderung",
+    "close":"Geschlossen",
     "confirm_you_active":"Bitte bestätigen Sie Ihre Operation",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Bitte bestätigen",
             "enter_passworld_tit":"Bitte geben Sie Ihr Passwort ein",
             "enter_passworld_place":"Bitte geben Sie Ihr Passwort ein"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-Code",
+        "go_transfer":"Übertragung einleiten",
+        "transfer_log":"Transaktionsverlauf",
+        "transfer_log_null":"Kein Transaktionsverlauf",
+        "copy_success":"Die Adresse wurde kopiert",
+        "edit_dia":{
+            "tit":"Notiz ändern",
+            "subtit":"Geben Sie eine Notiz mit einer Länge von nicht mehr als 8 Ziffern für Ihr Konto ein"
         }
     }
 

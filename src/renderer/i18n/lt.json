@@ -3,6 +3,7 @@
     "confirm":"Patvirtinimas",
     "cancel":"Anuliavimas",
     "dialog_tit":"Skubiai",
+    "close":"Uždaryta",
     "confirm_you_active":"Patvirtinkite savo operaciją",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Prašau patvirtinti",
             "enter_passworld_tit":"Įveskite savo slaptažodį",
             "enter_passworld_place":"Įveskite savo slaptažodį"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodas",
+        "go_transfer":"Inicijuoti perkėlimą",
+        "transfer_log":"Sandorių istorija",
+        "transfer_log_null":"Nėra sandorių istorijos",
+        "copy_success":"Adresas buvo nukopijuotas",
+        "edit_dia":{
+            "tit":"Pakeisti pastabą",
+            "subtit":"Įveskite pastabą, kurios ilgis neviršija 8 skaitmenų jūsų paskyrai"
         }
     }
 

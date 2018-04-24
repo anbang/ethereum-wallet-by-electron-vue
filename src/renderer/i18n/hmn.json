@@ -3,6 +3,7 @@
     "confirm":"Kev lees paub",
     "cancel":"Tshem tawm",
     "dialog_tit":"Sij hawm",
+    "close":"Kaw",
     "confirm_you_active":"Thov paub meej tias koj lub lag luam",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Thov paub meej",
             "enter_passworld_tit":"Thov sau koj tus password",
             "enter_passworld_place":"Thov sau koj tus password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Pib hloov chaw",
+        "transfer_log":"Tuaj hauv keeb kwm",
+        "transfer_log_null":"Tsis muaj keeb kwm ua lag luam",
+        "copy_success":"Chaw nyob tau luam tawm",
+        "edit_dia":{
+            "tit":"Hloov ntawv",
+            "subtit":"Sau ib daim ntawv nrog ntev ntev tsis tshaj 8 tus lej rau koj tus account"
         }
     }
 

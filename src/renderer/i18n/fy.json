@@ -3,6 +3,7 @@
     "confirm":"Befêstiging",
     "cancel":"Annulearje",
     "dialog_tit":"Prompt",
+    "close":"Closed",
     "confirm_you_active":"Besykje jo operaasje befêstigje",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Besykje befêstigje",
             "enter_passworld_tit":"Fier jo wachtwurd ynfiere",
             "enter_passworld_place":"Fier jo wachtwurd ynfiere"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Inisjatyf fan oerdracht",
+        "transfer_log":"Triemhistoarje",
+        "transfer_log_null":"Gjin transaksjekiednis",
+        "copy_success":"Adres is kopiearre",
+        "edit_dia":{
+            "tit":"Wizigje notysje",
+            "subtit":"Fier in nota mei in lingte fan net mear as 8 sifers foar jo akkount"
         }
     }
 

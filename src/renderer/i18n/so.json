@@ -3,6 +3,7 @@
     "confirm":"Xaqiijinta",
     "cancel":"Joojinta",
     "dialog_tit":"Baahi",
+    "close":"Xiran",
     "confirm_you_active":"Fadlan hubi qaliinkaaga",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Fadlan cadee",
             "enter_passworld_tit":"Fadlan gali sirtaada",
             "enter_passworld_place":"Fadlan gali sirtaada"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Kala bedel wareejinta",
+        "transfer_log":"Taariikhda wax-gadashada",
+        "transfer_log_null":"Taariikhda isweydaarsiga",
+        "copy_success":"Cinwaanka ayaa la daabacay",
+        "edit_dia":{
+            "tit":"Bedel qoraalka",
+            "subtit":"Ku qor qori dhererka wax ka badan 8 lambar xisaabtaada"
         }
     }
 

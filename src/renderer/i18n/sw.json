@@ -3,6 +3,7 @@
     "confirm":"Uthibitisho",
     "cancel":"Kuondolewa",
     "dialog_tit":"Fungua",
+    "close":"Ilifungwa",
     "confirm_you_active":"Tafadhali thibitisha operesheni yako",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Tafadhali thibitisha",
             "enter_passworld_tit":"Tafadhali ingiza nenosiri lako",
             "enter_passworld_place":"Tafadhali ingiza nenosiri lako"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Anza uhamisho",
+        "transfer_log":"Historia ya shughuli",
+        "transfer_log_null":"Hakuna historia ya shughuli",
+        "copy_success":"Anwani imechapishwa",
+        "edit_dia":{
+            "tit":"Badilisha maelezo",
+            "subtit":"Ingiza safu kwa urefu wa tarakimu zaidi ya 8 za akaunti yako"
         }
     }
 

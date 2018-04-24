@@ -3,6 +3,7 @@
     "confirm":"Təsdiqləmə",
     "cancel":"Ləğv et",
     "dialog_tit":"Sövq et",
+    "close":"Bağlıdır",
     "confirm_you_active":"Xahiş edirik əməliyyatınızı təsdiq edin",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Xahiş edirik təsdiq edin",
             "enter_passworld_tit":"Şifrənizi daxil edin",
             "enter_passworld_place":"Şifrənizi daxil edin"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodu",
+        "go_transfer":"Transferin təşəbbüsü",
+        "transfer_log":"Əməliyyat tarixi",
+        "transfer_log_null":"Əməliyyat tarixi yoxdur",
+        "copy_success":"Ünvanı kopyalandı",
+        "edit_dia":{
+            "tit":"Notu dəyişdirin",
+            "subtit":"Hesabınız üçün ən çox 8 rəqəmdən ibarət olan bir not daxil edin"
         }
     }
 

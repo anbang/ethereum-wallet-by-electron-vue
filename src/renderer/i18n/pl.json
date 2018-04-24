@@ -3,6 +3,7 @@
     "confirm":"Potwierdzenie",
     "cancel":"Anulowanie",
     "dialog_tit":"Pytaj",
+    "close":"Zamknięte",
     "confirm_you_active":"Proszę potwierdzić swoją operację",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Proszę potwierdzić",
             "enter_passworld_tit":"Wprowadź swoje hasło",
             "enter_passworld_place":"Wprowadź swoje hasło"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kod QR",
+        "go_transfer":"Rozpocznij transfer",
+        "transfer_log":"Historia transakcji",
+        "transfer_log_null":"Brak historii transakcji",
+        "copy_success":"Adres został skopiowany",
+        "edit_dia":{
+            "tit":"Zmodyfikuj notatkę",
+            "subtit":"Wprowadź notatkę o długości nie większej niż 8 cyfr dla swojego konta"
         }
     }
 

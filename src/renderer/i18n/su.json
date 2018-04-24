@@ -3,6 +3,7 @@
     "confirm":"ngeceskeun",
     "cancel":"dibolaykeun",
     "dialog_tit":"pas",
+    "close":"nutup",
     "confirm_you_active":"Mangga pastikeun operasi anjeun",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Mangga mastikeun",
             "enter_passworld_tit":"Mangga lebetkeun sandi anjeun",
             "enter_passworld_place":"Mangga lebetkeun sandi anjeun"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kode dua diménsi",
+        "go_transfer":"initiate mindahkeun",
+        "transfer_log":"Rékam urus",
+        "transfer_log_null":"Taya transaksi",
+        "copy_success":"Alamat geus ditiron",
+        "edit_dia":{
+            "tit":"Edit Catetan",
+            "subtit":"Pikeun akun anjeun ngasupkeun panjangna teu leuwih ti 8 Katerangan"
         }
     }
 

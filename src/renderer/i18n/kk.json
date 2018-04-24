@@ -3,6 +3,7 @@
     "confirm":"Растау",
     "cancel":"Болдырмау",
     "dialog_tit":"Кеңес",
+    "close":"Жабық",
     "confirm_you_active":"Сіздің операцияңызды растаңыз",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Растаңыз",
             "enter_passworld_tit":"Құпия сөзіңізді енгізіңіз",
             "enter_passworld_place":"Құпия сөзіңізді енгізіңіз"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR коды",
+        "go_transfer":"Ауыстыруды бастау",
+        "transfer_log":"Транзакция тарихы",
+        "transfer_log_null":"Транзакция тарихы жоқ",
+        "copy_success":"Мекенжай көшірілді",
+        "edit_dia":{
+            "tit":"Жазбаны өзгерту",
+            "subtit":"Есептік жазбаңызға 8 таңбадан аспайтын жазбаны енгізіңіз"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"Apstiprinājums",
     "cancel":"Anulēšana",
     "dialog_tit":"Uzvedne",
+    "close":"Slēgts",
     "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Lūdzu, apstipriniet",
             "enter_passworld_tit":"Lūdzu, ievadiet savu paroli",
             "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kods",
+        "go_transfer":"Uzsākt pārskaitījumu;",
+        "transfer_log":"Darījumu vēsture",
+        "transfer_log_null":"Nav darījumu vēstures",
+        "copy_success":"Adrese ir kopēta",
+        "edit_dia":{
+            "tit":"Mainīt piezīmi",
+            "subtit":"Ievadiet piezīmi ar sava konta garumu ne vairāk kā 8 ciparus"
         }
     }
 

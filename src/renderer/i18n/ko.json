@@ -3,6 +3,7 @@
     "confirm":"확인",
     "cancel":"취소",
     "dialog_tit":"프롬프트",
+    "close":"휴무일",
     "confirm_you_active":"당신의 수술을 확인해주세요.",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"확인해주세요.",
             "enter_passworld_tit":"비밀번호를 입력하십시오.",
             "enter_passworld_place":"비밀번호를 입력하십시오."
+        }
+    },
+    "page_account":{
+        "qrcode":"QR 코드",
+        "go_transfer":"전송 시작",
+        "transfer_log":"거래 내역",
+        "transfer_log_null":"거래 내역 없음",
+        "copy_success":"주소가 복사되었습니다.",
+        "edit_dia":{
+            "tit":"메모 수정",
+            "subtit":"계정에 8 자리 이하의 길이로 메모를 입력하십시오."
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"Whakaaturanga",
     "cancel":"Whakakore",
     "dialog_tit":"Whakataka",
+    "close":"Kua kati",
     "confirm_you_active":"Tena koa koa to mahi",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Tena koa",
             "enter_passworld_tit":"Tomohia koa to kupuhipa",
             "enter_passworld_place":"Tomohia koa to kupuhipa"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Tīmatahia te whakawhitinga",
+        "transfer_log":"Te hītori mahi",
+        "transfer_log_null":"Kāore he hītori tukanga",
+        "copy_success":"Kua tohua te korero",
+        "edit_dia":{
+            "tit":"Whakakēhia te tuhinga",
+            "subtit":"Tāurutia he tuhipoka me te roa o te kore neke atu i te 8 nga tau mo to taakete"
         }
     }
 

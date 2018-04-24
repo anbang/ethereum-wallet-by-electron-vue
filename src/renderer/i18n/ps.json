@@ -3,6 +3,7 @@
     "confirm":"تایید",
     "cancel":"ردول",
     "dialog_tit":"ژبړئ",
+    "close":"تړل شوی",
     "confirm_you_active":"مهرباني وکړئ خپل عملیات تایید کړئ",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"مهرباني وکړئ تایید کړئ",
             "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
             "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
+        }
+    },
+    "page_account":{
+        "qrcode":"د QR کود",
+        "go_transfer":"د لیږد پیل",
+        "transfer_log":"د راکړې ورکړې تاریخ",
+        "transfer_log_null":"د لیږد تاریخ نه",
+        "copy_success":"پته نقل شوی",
+        "edit_dia":{
+            "tit":"تعدیل یادښت",
+            "subtit":"د خپل حساب لپاره د 8 ګوتو څخه زیات د اوږدې اندازې یادښت ولیکئ"
         }
     }
 

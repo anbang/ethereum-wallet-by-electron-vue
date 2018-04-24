@@ -3,6 +3,7 @@
     "confirm":"أكد",
     "cancel":"ألغيت",
     "dialog_tit":"موجه",
+    "close":"قريب",
     "confirm_you_active":"يرجى تأكيد العملية الخاصة بك",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"يرجى تأكيد",
             "enter_passworld_tit":"يرجى إدخال كلمة المرور الخاصة بك",
             "enter_passworld_place":"يرجى إدخال كلمة المرور الخاصة بك"
+        }
+    },
+    "page_account":{
+        "qrcode":"رمز الاستجابة السريعة",
+        "go_transfer":"بدء النقل",
+        "transfer_log":"سجل المعاملات",
+        "transfer_log_null":"لا يوجد سجل المعاملات",
+        "copy_success":"تم نسخ العنوان",
+        "edit_dia":{
+            "tit":"تعديل الملاحظة",
+            "subtit":"أدخل ملاحظة بطول لا يتعدى 8 أرقام لحسابك"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"potvrdiť",
     "cancel":"zrušený",
     "dialog_tit":"prompt",
+    "close":"zavrieť",
     "confirm_you_active":"Potvrďte svoju činnosť",
     "unit":{
         "czr":"CZR"
@@ -24,7 +25,7 @@
             "dialog_tit":"Zadajte informácie o adrese",
             "dialog_tag":"štítok",
             "tag_placeholder":"Zadajte značku komentára pre adresu",
-            "dialog_address":"adresa",
+            "dialog_address":"address",
             "address_placeholder":"Zadajte adresu"
         },
         "delete_dialog":{
@@ -45,6 +46,17 @@
             "title":"Potvrďte prosím",
             "enter_passworld_tit":"Zadajte svoje heslo",
             "enter_passworld_place":"Zadajte svoje heslo"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kód",
+        "go_transfer":"Spustenie prenosu",
+        "transfer_log":"História transakcií",
+        "transfer_log_null":"Žiadna história transakcií",
+        "copy_success":"Adresa bola skopírovaná",
+        "edit_dia":{
+            "tit":"Upraviť poznámku",
+            "subtit":"Zadajte poznámku s dĺžkou maximálne 8 číslic pre váš účet"
         }
     }
 

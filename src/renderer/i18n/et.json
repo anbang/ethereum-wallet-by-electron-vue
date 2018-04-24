@@ -3,6 +3,7 @@
     "confirm":"Kinnitus",
     "cancel":"Tühistamine",
     "dialog_tit":"Küsi",
+    "close":"Suletud",
     "confirm_you_active":"Palun kinnitage oma toiming",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Palun kinnitage",
             "enter_passworld_tit":"Palun sisesta oma parool",
             "enter_passworld_place":"Palun sisesta oma parool"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kood",
+        "go_transfer":"Käivita üleandmine",
+        "transfer_log":"Tehinguajalugu",
+        "transfer_log_null":"Tehingute ajalugu pole",
+        "copy_success":"Aadress on kopeeritud",
+        "edit_dia":{
+            "tit":"Muuda märkmeid",
+            "subtit":"Sisestage kontole pikkusega kuni 8 numbrit"
         }
     }
 

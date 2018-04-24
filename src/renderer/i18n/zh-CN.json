@@ -3,6 +3,7 @@
     "confirm":"确认",
     "cancel":"取消",
     "dialog_tit":"提示",
+    "close":"关闭",
     "confirm_you_active":"请确认您的操作",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"请确认",
             "enter_passworld_tit":"请输入密码",
             "enter_passworld_place":"请输入密码"
+        }
+    },
+    "page_account":{
+        "qrcode":"二维码",
+        "go_transfer":"发起转账",
+        "transfer_log":"交易记录",
+        "transfer_log_null":"暂无交易记录",
+        "copy_success":"地址已经复制",
+        "edit_dia":{
+            "tit":"修改备注",
+            "subtit":"为您的账户输入一个长度不大于8位的备注"
         }
     }
 

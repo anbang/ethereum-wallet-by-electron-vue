@@ -3,6 +3,7 @@
     "confirm":"confirm",
     "cancel":"cancel",
     "dialog_tit":"prompt",
+    "close":"shut down",
     "confirm_you_active":"Please confirm your operation",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"please confirm",
             "enter_passworld_tit":"Please enter your password",
             "enter_passworld_place":"Please enter your password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Initiate transfer",
+        "transfer_log":"Transaction Record",
+        "transfer_log_null":"No transaction history",
+        "copy_success":"Address has been copied",
+        "edit_dia":{
+            "tit":"Modify note",
+            "subtit":"Enter a note with a length of no more than 8 digits for your account"
         }
     }
 

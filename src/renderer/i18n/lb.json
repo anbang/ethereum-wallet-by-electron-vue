@@ -3,6 +3,7 @@
     "confirm":"Bestätegung",
     "cancel":"Annulatioun",
     "dialog_tit":"Prompéiert",
+    "close":"Zou",
     "confirm_you_active":"Bestätegt Är Operatioun confirméiert",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Confirméiert weg",
             "enter_passworld_tit":"Gidd weg Äert Passwuert",
             "enter_passworld_place":"Gidd weg Äert Passwuert"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Initiatioun transferéieren",
+        "transfer_log":"Transaktiounsgeschicht",
+        "transfer_log_null":"Keng Transaktiounsgeschicht",
+        "copy_success":"Adress gouf kopéiert",
+        "edit_dia":{
+            "tit":"Änneren",
+            "subtit":"Gitt eng Note mat enger Längt vun net méi wéi 8 Zifferen fir Äre Kont"
         }
     }
 

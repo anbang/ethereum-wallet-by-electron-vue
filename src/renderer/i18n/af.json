@@ -3,6 +3,7 @@
     "confirm":"bevestig",
     "cancel":"gekanselleer",
     "dialog_tit":"prompt",
+    "close":"Close",
     "confirm_you_active":"Bevestig asseblief u operasie",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Bevestig asseblief",
             "enter_passworld_tit":"Voer asseblief u wagwoord in",
             "enter_passworld_place":"Voer asseblief u wagwoord in"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kode",
+        "go_transfer":"Inisieer oordrag",
+        "transfer_log":"Transaksiegeskiedenis",
+        "transfer_log_null":"Geen transaksiegeskiedenis nie",
+        "copy_success":"Adres is gekopieer",
+        "edit_dia":{
+            "tit":"Wysig nota",
+            "subtit":"Voer 'n nota in met 'n lengte van nie meer as 8 syfers vir jou rekening nie"
         }
     }
 

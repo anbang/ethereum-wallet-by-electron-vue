@@ -3,6 +3,7 @@
     "confirm":"Constituo",
     "cancel":"Pax:",
     "dialog_tit":"promptus",
+    "close":"prope",
     "confirm_you_active":"Quaeso, scrutare operationem tuum",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Quaesumus, adfirma",
             "enter_passworld_tit":"Please enter vestri password",
             "enter_passworld_place":"Please enter vestri password"
+        }
+    },
+    "page_account":{
+        "qrcode":"Duo dumtaxat codice",
+        "go_transfer":"initium capiat",
+        "transfer_log":"Record transaction",
+        "transfer_log_null":"Non transactions",
+        "copy_success":"Oratio est copied",
+        "edit_dia":{
+            "tit":"Nota Edit",
+            "subtit":"Propterea quia non amplius VIII ad Eutropii longitudinem"
         }
     }
 

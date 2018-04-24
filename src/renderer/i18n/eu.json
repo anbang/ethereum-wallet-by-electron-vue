@@ -3,6 +3,7 @@
     "confirm":"Berretsi",
     "cancel":"Bertan behera",
     "dialog_tit":"Galdetu",
+    "close":"Itxi",
     "confirm_you_active":"Mesedez berretsi zure eragiketa",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Berretsi",
             "enter_passworld_tit":"Idatzi zure pasahitza",
             "enter_passworld_place":"Idatzi zure pasahitza"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodea",
+        "go_transfer":"Hasi transferentzia",
+        "transfer_log":"Transakzioaren historia",
+        "transfer_log_null":"Ez dago transakzioaren historia",
+        "copy_success":"Helbidea kopiatu da",
+        "edit_dia":{
+            "tit":"Aldatu oharra",
+            "subtit":"Idatzi ohar bat zure konturako 8 digitu baino gehiagoko luzerarekin"
         }
     }
 

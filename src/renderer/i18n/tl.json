@@ -3,6 +3,7 @@
     "confirm":"Kumpirmasyon",
     "cancel":"Pagkansela",
     "dialog_tit":"Prompt",
+    "close":"Isinara",
     "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Mangyaring kumpirmahin",
             "enter_passworld_tit":"Pakipasok ang iyong password",
             "enter_passworld_place":"Pakipasok ang iyong password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Magsimula ng paglipat",
+        "transfer_log":"Kasaysayan ng transaksyon",
+        "transfer_log_null":"Walang kasaysayan ng transaksyon",
+        "copy_success":"Nakopya ang address",
+        "edit_dia":{
+            "tit":"Baguhin ang tala",
+            "subtit":"Magpasok ng tala na may haba na hindi hihigit sa 8 na digit para sa iyong account"
         }
     }
 

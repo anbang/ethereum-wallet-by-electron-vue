@@ -3,6 +3,7 @@
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
+    "close":"Ditutup",
     "confirm_you_active":"Mangga konfirmasi operasi sampeyan",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Mangga konfirmasi",
             "enter_passworld_tit":"Mangga ketik sandhi",
             "enter_passworld_place":"Mangga ketik sandhi"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Miwiti transfer",
+        "transfer_log":"Sajarah transaksi",
+        "transfer_log_null":"Ora ana riwayat transaksi",
+        "copy_success":"Alamat wis disalin",
+        "edit_dia":{
+            "tit":"Ngowahi cathetan",
+            "subtit":"Ketik cathetan kanthi dawane ora luwih saka 8 digit kanggo akun sampeyan"
         }
     }
 

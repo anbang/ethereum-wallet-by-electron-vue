@@ -30,6 +30,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+
 //引入db数据库
 import db from '../datastore/index'
 //引入需要支持的语言

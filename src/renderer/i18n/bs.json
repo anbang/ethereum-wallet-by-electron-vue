@@ -3,6 +3,7 @@
     "confirm":"Potvrda",
     "cancel":"Otkazivanje",
     "dialog_tit":"Prompt",
+    "close":"Zatvoreno",
     "confirm_you_active":"Potvrdite svoju operaciju",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite svoju lozinku",
             "enter_passworld_place":"Unesite svoju lozinku"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kod",
+        "go_transfer":"Pokrenite transfer",
+        "transfer_log":"Istorija transakcija",
+        "transfer_log_null":"Nema istorije transakcija",
+        "copy_success":"Adresa je kopirana",
+        "edit_dia":{
+            "tit":"Izmenite belešku",
+            "subtit":"Unesite belešku sa dužinom od najviše 8 cifara za vaš nalog"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"Hamarino",
     "cancel":"nofoanana ny",
     "dialog_tit":"avy hatrany",
+    "close":"Close",
     "confirm_you_active":"Azafady manamarina ny asanao",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Miangavy azafady",
             "enter_passworld_tit":"Ampidiro azafady ny tenimiafinao",
             "enter_passworld_place":"Ampidiro azafady ny tenimiafinao"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Hanomboka handefasana",
+        "transfer_log":"Tantaran'ny trosa",
+        "transfer_log_null":"Tsy misy tantara momba ny raharaham-barotra",
+        "copy_success":"Adiresy dia nadika",
+        "edit_dia":{
+            "tit":"Hanova fanamarihana",
+            "subtit":"Ampidiro marika tsy mihoatra ny 8 ny isa amin'ny kaontinao"
         }
     }
 

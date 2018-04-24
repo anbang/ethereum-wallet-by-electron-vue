@@ -3,6 +3,7 @@
     "confirm":"confirma",
     "cancel":"anulat",
     "dialog_tit":"prompt",
+    "close":"închide",
     "confirm_you_active":"Vă rugăm să confirmați funcționarea",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Vă rugăm să confirmați",
             "enter_passworld_tit":"Introduceți parola",
             "enter_passworld_place":"Introduceți parola"
+        }
+    },
+    "page_account":{
+        "qrcode":"Codul QR",
+        "go_transfer":"Inițiați transferul",
+        "transfer_log":"Istoricul tranzacțiilor",
+        "transfer_log_null":"Nu există istoricul tranzacțiilor",
+        "copy_success":"Adresa a fost copiată",
+        "edit_dia":{
+            "tit":"Modificați nota",
+            "subtit":"Introduceți o notă cu o lungime de cel mult 8 cifre pentru contul dvs."
         }
     }
 

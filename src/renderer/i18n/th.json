@@ -3,6 +3,7 @@
     "confirm":"ยืนยัน",
     "cancel":"ยกเลิก",
     "dialog_tit":"รวดเร็ว",
+    "close":"ใกล้",
     "confirm_you_active":"โปรดยืนยันการดำเนินการของคุณ",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"โปรดยืนยัน",
             "enter_passworld_tit":"โปรดป้อนรหัสผ่านของคุณ",
             "enter_passworld_place":"โปรดป้อนรหัสผ่านของคุณ"
+        }
+    },
+    "page_account":{
+        "qrcode":"รหัส QR",
+        "go_transfer":"เริ่มการถ่ายโอน",
+        "transfer_log":"ประวัติการทำธุรกรรม",
+        "transfer_log_null":"ไม่มีประวัติการทำธุรกรรม",
+        "copy_success":"คัดลอกที่อยู่แล้ว",
+        "edit_dia":{
+            "tit":"แก้ไขบันทึก",
+            "subtit":"ป้อนโน้ตที่มีความยาวไม่เกิน 8 หลักสำหรับบัญชีของคุณ"
         }
     }
 

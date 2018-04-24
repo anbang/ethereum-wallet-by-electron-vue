@@ -3,6 +3,7 @@
     "confirm":"באַשטעטיקונג",
     "cancel":"Cancellation",
     "dialog_tit":"פּינטלעך",
+    "close":"קלאָוזד",
     "confirm_you_active":"ביטע באַשטעטיקן דיין אָפּעראַציע",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"ביטע באַשטעטיקן",
             "enter_passworld_tit":"ביטע אַרייַן דיין פּאַראָל",
             "enter_passworld_place":"ביטע אַרייַן דיין פּאַראָל"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"אָנהייבן אַריבערפירן",
+        "transfer_log":"ויספאָרשונג געשיכטע",
+        "transfer_log_null":"קיין דורכפאָר געשיכטע",
+        "copy_success":"אַדרעס איז קאַפּיד",
+        "edit_dia":{
+            "tit":"Modify note",
+            "subtit":"אַרייַן אַ טאָן מיט אַ לענג פון ניט מער ווי 8 דידזשאַץ פֿאַר דיין חשבון"
         }
     }
 

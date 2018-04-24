@@ -3,6 +3,7 @@
     "confirm":"bekrefte",
     "cancel":"avbrutt",
     "dialog_tit":"prompt",
+    "close":"Lukk",
     "confirm_you_active":"Vennligst bekreft operasjonen din",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Vennligst bekreft",
             "enter_passworld_tit":"Vennligst skriv inn passordet ditt",
             "enter_passworld_place":"Vennligst skriv inn passordet ditt"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kode",
+        "go_transfer":"Start overføring",
+        "transfer_log":"Transaksjonshistorikk",
+        "transfer_log_null":"Ingen transaksjonshistorikk",
+        "copy_success":"Adressen er kopiert",
+        "edit_dia":{
+            "tit":"Endre notat",
+            "subtit":"Skriv inn et notat med en lengde på ikke mer enn 8 siffer for kontoen din"
         }
     }
 

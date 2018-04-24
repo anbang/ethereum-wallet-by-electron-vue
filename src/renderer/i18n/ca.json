@@ -3,6 +3,7 @@
     "confirm":"Confirmació",
     "cancel":"Cancel·lació",
     "dialog_tit":"Preguntar",
+    "close":"Tancat",
     "confirm_you_active":"Confirmeu el vostre funcionament",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Confirma",
             "enter_passworld_tit":"Introduïu la vostra contrasenya",
             "enter_passworld_place":"Introduïu la vostra contrasenya"
+        }
+    },
+    "page_account":{
+        "qrcode":"Codi QR",
+        "go_transfer":"Inicieu la transferència",
+        "transfer_log":"Historial de transaccions",
+        "transfer_log_null":"Sense historial de transaccions",
+        "copy_success":"S'ha copiat l'adreça",
+        "edit_dia":{
+            "tit":"Modifica nota",
+            "subtit":"Introduïu una nota amb una durada no superior a 8 dígits per al vostre compte"
         }
     }
 

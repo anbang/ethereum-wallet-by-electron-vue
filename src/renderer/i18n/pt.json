@@ -3,6 +3,7 @@
     "confirm":"Confirmação",
     "cancel":"Cancelamento",
     "dialog_tit":"Prompt",
+    "close":"Fechado",
     "confirm_you_active":"Por favor, confirme sua operação",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Por favor confirme",
             "enter_passworld_tit":"Por favor digite sua senha",
             "enter_passworld_place":"Por favor digite sua senha"
+        }
+    },
+    "page_account":{
+        "qrcode":"Código QR",
+        "go_transfer":"Iniciar transferência",
+        "transfer_log":"Histórico de transações",
+        "transfer_log_null":"Nenhum histórico de transações",
+        "copy_success":"Endereço foi copiado",
+        "edit_dia":{
+            "tit":"Modificar nota",
+            "subtit":"Insira uma nota com um comprimento de no máximo 8 dígitos para sua conta"
         }
     }
 

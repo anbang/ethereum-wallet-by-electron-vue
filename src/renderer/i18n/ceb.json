@@ -3,6 +3,7 @@
     "confirm":"Pagkumpirma",
     "cancel":"Pagkansela",
     "dialog_tit":"Gipangayo",
+    "close":"Sulud",
     "confirm_you_active":"Palihug kumpirmahi ang imong operasyon",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Palihug kumpirma",
             "enter_passworld_tit":"Palihug pasabta ang imong password",
             "enter_passworld_place":"Palihug pasabta ang imong password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Pagsugod sa pagbalhin",
+        "transfer_log":"Kasaysayan sa transaksyon",
+        "transfer_log_null":"Walay kasaysayan sa transaksyon",
+        "copy_success":"Gikopya ang adres",
+        "edit_dia":{
+            "tit":"Usba ang mubo nga sulat",
+            "subtit":"Pagsulod sa usa ka sulat nga adunay gitas-on nga dili molabaw sa 8 ka digit alang sa imong account"
         }
     }
 

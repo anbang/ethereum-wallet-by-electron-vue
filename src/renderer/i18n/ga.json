@@ -3,6 +3,7 @@
     "confirm":"Dearbhú",
     "cancel":"Cealú",
     "dialog_tit":"Pras",
+    "close":"Dúnta",
     "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Deimhnigh le do thoil",
             "enter_passworld_tit":"Cuir isteach do phasfhocal",
             "enter_passworld_place":"Cuir isteach do phasfhocal"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR cód",
+        "go_transfer":"Aistriú a thosú",
+        "transfer_log":"Stair na hidirbhearta",
+        "transfer_log_null":"Uimh stair idirbheart",
+        "copy_success":"Tá an seoladh cóipeáilte",
+        "edit_dia":{
+            "tit":"Nóta a mhodhnú",
+            "subtit":"Cuir nóta le fad nach mó ná 8 dhigit ar do chuntas"
         }
     }
 

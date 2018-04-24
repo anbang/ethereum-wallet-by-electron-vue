@@ -3,6 +3,7 @@
     "confirm":"Faamauga",
     "cancel":"Faaleaogaina",
     "dialog_tit":"Usiusitai",
+    "close":"Tapunia",
     "confirm_you_active":"Faʻamolemole faʻamaonia lau taotoga",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Faʻamolemole faʻamaonia",
             "enter_passworld_tit":"Faʻamolemole ulufale i lau faʻaupuga",
             "enter_passworld_place":"Faʻamolemole ulufale i lau faʻaupuga"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Amata le fesiitaiga",
+        "transfer_log":"Talaʻaga o galuega",
+        "transfer_log_null":"Leai se tala faʻasolopito",
+        "copy_success":"Ua uma ona kopi le tuatusi",
+        "edit_dia":{
+            "tit":"Suia le tusi",
+            "subtit":"Ulufale mai se tusi ma se umi o le sili atu ma le 8 numera mo lau faʻamatalaga"
         }
     }
 

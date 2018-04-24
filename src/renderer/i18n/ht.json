@@ -3,6 +3,7 @@
     "confirm":"Konfimasyon",
     "cancel":"Anilasyon",
     "dialog_tit":"Èd memwa",
+    "close":"Fèmen",
     "confirm_you_active":"Tanpri konfime operasyon ou",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Tanpri konfime",
             "enter_passworld_tit":"Tanpri antre modpas ou",
             "enter_passworld_place":"Tanpri antre modpas ou"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kòd",
+        "go_transfer":"Inisye transfè",
+        "transfer_log":"Istwa tranzaksyon",
+        "transfer_log_null":"Pa gen istwa tranzaksyon",
+        "copy_success":"Adrès ki te kopye",
+        "edit_dia":{
+            "tit":"Modifye nòt",
+            "subtit":"Mete yon nòt ki gen yon longè ki pa plis pase 8 chif pou kont ou"
         }
     }
 

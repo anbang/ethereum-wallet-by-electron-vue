@@ -3,6 +3,7 @@
     "confirm":"تأیید",
     "cancel":"لغو",
     "dialog_tit":"درخواست",
+    "close":"بسته شده",
     "confirm_you_active":"لطفا عملیات خود را تأیید کنید",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"لطفا تایید کنید",
             "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
             "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
+        }
+    },
+    "page_account":{
+        "qrcode":"کد QR",
+        "go_transfer":"شروع انتقال",
+        "transfer_log":"سابقه تراکنش",
+        "transfer_log_null":"بدون تاریخ معامله",
+        "copy_success":"آدرس کپی شده است",
+        "edit_dia":{
+            "tit":"تغییر یادداشت",
+            "subtit":"یک یادداشت با طول بیش از 8 رقم برای حساب خود وارد کنید"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"Hōʻoia",
     "cancel":"Hoʻokahuli",
     "dialog_tit":"Hoʻonui",
+    "close":"Pauʻia",
     "confirm_you_active":"Eʻoluʻolu e hōʻoia i kāu hana",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Eʻoluʻolu e hōʻike",
             "enter_passworld_tit":"Eʻoluʻolu e kau i kāu hua'ōlelo",
             "enter_passworld_place":"Eʻoluʻolu e kau i kāu hua'ōlelo"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"E hoʻomaka i ka hoʻololi",
+        "transfer_log":"Ka hana kuhi puke",
+        "transfer_log_null":"ʻAʻohe kūkena maʻamau",
+        "copy_success":"Ua kāpiliʻia ka helu",
+        "edit_dia":{
+            "tit":"Hoʻololi i ka memo",
+            "subtit":"E kākau i kahi leka me ka lōʻihi o nāʻoi aku aʻoi aku ma mua o 8 mau helu no kāu moʻokāki"
         }
     }
 

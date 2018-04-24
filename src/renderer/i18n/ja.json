@@ -3,6 +3,7 @@
     "confirm":"確認",
     "cancel":"キャンセル",
     "dialog_tit":"プロンプト",
+    "close":"クローズド",
     "confirm_you_active":"あなたの操作を確認してください",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"確認してください",
             "enter_passworld_tit":"パスワードを入力してください",
             "enter_passworld_place":"パスワードを入力してください"
+        }
+    },
+    "page_account":{
+        "qrcode":"QRコード",
+        "go_transfer":"転送を開始する",
+        "transfer_log":"取引履歴",
+        "transfer_log_null":"取引履歴はありません",
+        "copy_success":"アドレスがコピーされました",
+        "edit_dia":{
+            "tit":"メモを変更する",
+            "subtit":"あなたのアカウントの長さが8桁以下のメモを入力してください"
         }
     }
 

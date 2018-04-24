@@ -3,6 +3,7 @@
     "confirm":"Ijẹrisi",
     "cancel":"Cancellation",
     "dialog_tit":"Gbọ",
+    "close":"Ti pa",
     "confirm_you_active":"Jọwọ jẹrisi isẹ rẹ",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Jọwọ jẹrisi",
             "enter_passworld_tit":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
             "enter_passworld_place":"Jọwọ tẹ ọrọigbaniwọle rẹ sii"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR koodu",
+        "go_transfer":"Bẹrẹ gbigbe",
+        "transfer_log":"Itan iṣowo",
+        "transfer_log_null":"Ko si idunadura itan",
+        "copy_success":"Adirẹsi ti dakọ",
+        "edit_dia":{
+            "tit":"Ṣe akọsilẹ atunṣe",
+            "subtit":"Tẹ akọsilẹ sii pẹlu ipari ti ko si ju awọn nọmba mẹẹdogun fun àkọọlẹ rẹ"
         }
     }
 

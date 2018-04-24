@@ -3,6 +3,7 @@
     "confirm":"Cadarnhad",
     "cancel":"Canslo",
     "dialog_tit":"Yn brydlon",
+    "close":"Ar gau",
     "confirm_you_active":"Cadarnhewch eich gweithrediad",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Cadarnhewch",
             "enter_passworld_tit":"Rhowch eich cyfrinair",
             "enter_passworld_place":"Rhowch eich cyfrinair"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR cod",
+        "go_transfer":"Cychwyn trosglwyddo",
+        "transfer_log":"Hanes trafodion",
+        "transfer_log_null":"Dim hanes trafodion",
+        "copy_success":"Mae'r cyfeiriad wedi ei gopïo",
+        "edit_dia":{
+            "tit":"Addasu nodyn",
+            "subtit":"Nodwch nodyn gyda hyd o ddim mwy na 8 digid ar gyfer eich cyfrif"
         }
     }
 

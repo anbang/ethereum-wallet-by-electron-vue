@@ -3,6 +3,7 @@
     "confirm":"ການຢືນຢັນ",
     "cancel":"ການຍົກເລີກ",
     "dialog_tit":"Prompt",
+    "close":"ປິດ",
     "confirm_you_active":"ກະລຸນາຢືນຢັນການເຮັດວຽກຂອງທ່ານ",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"ໂປດຍືນຍັນ",
             "enter_passworld_tit":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
             "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
+        "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
+        "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
+        "copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+        "edit_dia":{
+            "tit":"ແກ້ໄຂບັນທຶກ",
+            "subtit":"ໃສ່ປື້ມທີ່ມີຄວາມຍາວບໍ່ເກີນ 8 ໂຕເລກສໍາລັບບັນຊີຂອງທ່ານ"
         }
     }
 

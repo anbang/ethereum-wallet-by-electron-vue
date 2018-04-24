@@ -3,6 +3,7 @@
     "confirm":"Chivimbiso",
     "cancel":"Cancellation",
     "dialog_tit":"Kukurumidza",
+    "close":"Yakavharwa",
     "confirm_you_active":"Ndapota simbisa kushanda kwako",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Ndapota fungidzira",
             "enter_passworld_tit":"Ndapota nyora password yako",
             "enter_passworld_place":"Ndapota nyora password yako"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Tanga kutumira",
+        "transfer_log":"Transaction history",
+        "transfer_log_null":"Kwete nhoroondo yekutengesa",
+        "copy_success":"Tsamba yakanyorwa",
+        "edit_dia":{
+            "tit":"Shandura nyora",
+            "subtit":"Isa chinyorwa nehurefu hwepasina mairi 8 maverengi eakaunti yako"
         }
     }
 

@@ -1,18 +1,18 @@
 <template>
   <div class="page-account-detail">
     <div class="account-banner">
-      <div class="acc-interactive qrcode-wrap">
+      <div class="acc-interactive qrcode-wrap" @click="creatQrCode">
         <i class="iconfont icon-qrcode">&#xe628;</i>
-        <p class="icon-des">二维码</p>
+        <p class="icon-des">{{ $t('page_account.qrcode') }}</p>
       </div>
       <router-link :to="'/transfer?account=' + currentAcc" tag="div"  class="acc-interactive transfer-wrap">
               <i class="iconfont icon-transfer">&#xe605;</i>
-          <p class="icon-des">发起转账</p>
+          <p class="icon-des">{{ $t('page_account.go_transfer') }}</p>
       </router-link>
       <div class="account-center">
         <div class="account-alias-wrap">
-          <span class="text-sub-color">账号备注信息</span>
-          <i class="iconfont icon-edit-alias"> &#xe604; </i>
+          <span class="text-sub-color">{{currentName}}</span>
+          <i class="iconfont icon-edit-alias"   @click="editNameVisible = true"> &#xe604; </i>
         </div>
         <div class="account-has-assets">
           <h1 class="account-assets">{{accBalance}}</h1>
@@ -20,12 +20,12 @@
         </div>
         <div class="account-address-wrap">
           <span class="text-sub-color">{{ currentAcc }}</span>
-          <i class="iconfont icon-address-copy"> &#xe645; </i>
+          <i class="iconfont icon-address-copy" @click="copyAddress"> &#xe645; </i>
         </div>
       </div>
     </div>
     <div class="account-content">
-      <h2 class="transfer-tit">交易记录</h2>
+      <h2 class="transfer-tit">{{ $t('page_account.transfer_log') }}</h2>
       <div class="transfer-log">
         <template v-for="item in transList">
             <div v-if="item.to == currentAcc">
@@ -38,7 +38,7 @@
                   <p class="transfer-time">02 / 27 /2018</p>
                 </div>
                 <div class="transfer-assets">
-                  <div class="assets">+ {{item.value | toCZR }} CZR</div>
+                  <div class="assets">+ {{item.value | toCZR }} {{ $t('unit.czr') }}</div>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@
                     <p class="transfer-time">02 / 27 /2018</p>
                   </div>
                   <div class="transfer-assets">
-                    <div class="assets">- {{item.value | toCZR }} CZR</div>
+                    <div class="assets">- {{item.value | toCZR }} {{ $t('unit.czr') }}</div>
                   </div>
                 </div>
             </div>
@@ -63,9 +63,37 @@
       <!--  无交易记录  -->
       <div v-if="transList.length==0" class="no-transfer-log">
         <i class="iconfont">&#xe6e7;</i>
-        <p>暂无交易记录</p>
+        <p>{{ $t('page_account.transfer_log_null') }}</p>
       </div>
     </div>
+
+<el-dialog
+  :title="$t('dialog_tit')"
+  :visible.sync="dialogQRcodeVisible"
+  width="50%" center>
+  <span>
+    <img :src="qrImg" alt="code" class="qrcode-img">
+    <p class="dia-address">{{currentAcc}}</p>
+  </span>
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="dialogQRcodeVisible = false">{{$t('close')}}</el-button>
+  </span>
+</el-dialog>
+
+<el-dialog
+  :title="$t('page_account.edit_dia.tit')"
+  :visible.sync="editNameVisible"
+  width="65%" center>
+  <span>
+    <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
+    <el-input v-model="targetName"></el-input>
+  </span>
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="editNameVisible = false">{{$t('cancel')}}</el-button>
+    <el-button type="primary" @click="setEditName">{{$t('confirm')}}</el-button>
+  </span>
+</el-dialog>
+
 
   </div>
 </template>
@@ -73,15 +101,22 @@
 <script>
 import web3 from '@/global/web3.js'
 import { futimes } from 'fs';
+const {clipboard} = require('electron')
+import QRCode from 'qrcode'
 
 export default {
   name: 'Account',
+  // components: {VueQr},
   data () {
     return {
-      msg: '账号',
+      dialogQRcodeVisible:false,
+      editNameVisible:false,
+      qrImg:'',
+      targetName:"",
       currentAcc:this.$route.params.id
     }
   },
+
   filters:{
     toCZR:function(val){
       return web3.fromWei(val,"ether");
@@ -97,6 +132,32 @@ export default {
         var tx_list = this.$db.read().get('czr_accounts').find({address:this.currentAcc}).get('tx_list').value();
 
         return tx_list;
+    },
+    currentName:function(){
+      return this.$db.read().get('czr_accounts').filter({'address':this.currentAcc}).value()[0].tag;
+    }
+  },
+  methods:{
+    copyAddress:function(){
+        this.$message({
+          message: this.$t('page_account.copy_success'),
+          type: 'success'
+        });
+      clipboard.writeText(this.currentAcc)
+
+    },
+    creatQrCode:function(){ 
+      var self=this;
+      QRCode.toDataURL(self.currentAcc, function (err, url) {
+          self.qrImg=url;
+      })
+      this.dialogQRcodeVisible = true
+    },
+    setEditName:function(){
+      // console.log(this.targetName);
+      this.$db.read().get('czr_accounts').find({'address':this.currentAcc}).assign({'tag':this.targetName}).write();
+      console.log(this.currentName);
+      this.editNameVisible=false;
     }
   }
 }
@@ -136,7 +197,7 @@ export default {
 /* 交易记录 */
 .account-content .no-transfer-log {text-align: center;color: #9B9B9B;}
 .account-content .no-transfer-log .iconfont{font-size: 128px;}
-.account-content .transfer-log{margin-top: 22px;}
+.account-content .transfer-log{padding: 22px 0;}
 
 .transfer-log .transfer-item{background-color: #fff;padding: 10px 15px;margin-bottom: 2px;
   cursor: pointer;-webkit-user-select: none;}
@@ -150,6 +211,8 @@ export default {
 .transfer-log .transfer-assets .assets{font-size: 18px;height: 42px;line-height: 42px;width: 300px;text-align: right;}
 .plus-assets .assets{color: green;}
 .less-assets .assets{color: rgb(255, 51, 0);}
-
+.qrcode-img{width: 100%;height: auto;display: block;}
+.dia-address{text-align: center;}
+.edit-name-subtit{margin-bottom: 30px;text-align: center;}
 
 </style>

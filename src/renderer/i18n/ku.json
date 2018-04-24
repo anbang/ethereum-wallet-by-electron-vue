@@ -3,6 +3,7 @@
     "confirm":"Pejirandin",
     "cancel":"Daxistinê",
     "dialog_tit":"Bêguman",
+    "close":"Girtin",
     "confirm_you_active":"Ji kerema xwe operasyonê xwe bipejirîne",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Ji kerema xwe piştrast bikin",
             "enter_passworld_tit":"Ji kerema xwe şîfreya xwe binivîse",
             "enter_passworld_place":"Ji kerema xwe şîfreya xwe binivîse"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Veguherîna destpêkirinê",
+        "transfer_log":"Dîroka danûstendinê",
+        "transfer_log_null":"Dîroka danûstandinê tune",
+        "copy_success":"Navnîşan qeydkirî ye",
+        "edit_dia":{
+            "tit":"Şirovekirin",
+            "subtit":"Têkiliya navnîşan ji bo 8 hejmaran ji bo hesabê we re binivîse"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"אישור",
     "cancel":"ביטול",
     "dialog_tit":"הפקודה",
+    "close":"סגור",
     "confirm_you_active":"אשר את הפעולה שלך",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"אשר",
             "enter_passworld_tit":"הזן את הסיסמה שלך",
             "enter_passworld_place":"הזן את הסיסמה שלך"
+        }
+    },
+    "page_account":{
+        "qrcode":"קוד QR",
+        "go_transfer":"התחל את ההעברה",
+        "transfer_log":"היסטוריית עסקאות",
+        "transfer_log_null":"אין היסטוריית עסקאות",
+        "copy_success":"הכתובת הועתקה",
+        "edit_dia":{
+            "tit":"שנה הערה",
+            "subtit":"הזן הערה עם אורך של לא יותר מ -8 ספרות עבור החשבון שלך"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"Konfirmo",
     "cancel":"Nuligo",
     "dialog_tit":"Prompt",
+    "close":"Fermita",
     "confirm_you_active":"Bonvolu konfirmi vian operacion",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Bonvolu konfirmi",
             "enter_passworld_tit":"Bonvolu enmeti vian pasvorton",
             "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kodo",
+        "go_transfer":"Komenca translokigo",
+        "transfer_log":"Transakcio-historio",
+        "transfer_log_null":"Neniu transakcia historio",
+        "copy_success":"Direkto estis kopiita",
+        "edit_dia":{
+            "tit":"Modifi noton",
+            "subtit":"Enmetu noton kun pli ol 8 ciferoj por via konto"
         }
     }
 

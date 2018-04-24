@@ -20,7 +20,7 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
-const winWidth=process.env.NODE_ENV === 'development' ? (800+580) : 800;
+const winWidth=process.env.NODE_ENV === 'development' ? (805+580) : 805;
 
 
 app.on('ready', createWindow);// 在Electron完成时调用,初始化并准备创建浏览器窗口，一些API只能在发生此事件后才能使用。

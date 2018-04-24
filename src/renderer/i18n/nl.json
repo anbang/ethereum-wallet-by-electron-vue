@@ -3,6 +3,7 @@
     "confirm":"bevestigen",
     "cancel":"geannuleerd",
     "dialog_tit":"prompt",
+    "close":"dicht",
     "confirm_you_active":"Bevestig uw werking",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Bevestig alstublieft",
             "enter_passworld_tit":"Voer uw wachtwoord in",
             "enter_passworld_place":"Voer uw wachtwoord in"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-code",
+        "go_transfer":"Start overdracht",
+        "transfer_log":"Transactiegeschiedenis",
+        "transfer_log_null":"Geen transactiegeschiedenis",
+        "copy_success":"Adres is gekopieerd",
+        "edit_dia":{
+            "tit":"Wijzig opmerking",
+            "subtit":"Voer een notitie in met een lengte van niet meer dan 8 cijfers voor uw account"
         }
     }
 

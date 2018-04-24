@@ -3,6 +3,7 @@
     "confirm":"Nkwenye",
     "cancel":"Ịkagbu",
     "dialog_tit":"Mee ngwa ngwa",
+    "close":"Emechiri",
     "confirm_you_active":"Biko gosi ọrụ gị",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Biko gosi",
             "enter_passworld_tit":"Biko tinye paswọọdụ gị",
             "enter_passworld_place":"Biko tinye paswọọdụ gị"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR koodu",
+        "go_transfer":"Buru ụzọ nyefee",
+        "transfer_log":"Akụkọ azụmahịa",
+        "transfer_log_null":"Ọ dịghị akụkọ ihe mere eme",
+        "copy_success":"E depụtala adreesị",
+        "edit_dia":{
+            "tit":"Gbanwee ederede",
+            "subtit":"Tinye ederede na ogologo oge karịa 8 digit maka akaụntụ gị"
         }
     }
 

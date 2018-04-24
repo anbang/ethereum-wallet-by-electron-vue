@@ -3,6 +3,7 @@
     "confirm":"Tasdiqlash",
     "cancel":"Bekor qilish",
     "dialog_tit":"Tez so'raladigan",
+    "close":"Yopiq",
     "confirm_you_active":"Iltimos, amaliyotingizni tasdiqlang",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Iltimos, tasdiqlang",
             "enter_passworld_tit":"Iltimos, parolingizni kiriting",
             "enter_passworld_place":"Iltimos, parolingizni kiriting"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodi",
+        "go_transfer":"O'tkazishni boshlang",
+        "transfer_log":"Jurnal tarixi",
+        "transfer_log_null":"Jurnal tarixi yo'q",
+        "copy_success":"Manzil ko'chirildi",
+        "edit_dia":{
+            "tit":"Qaydni o'zgartiring",
+            "subtit":"Hisobingiz uchun eng ko'p 8 raqamdan iborat bo'lgan eslatma kiriting"
         }
     }
 

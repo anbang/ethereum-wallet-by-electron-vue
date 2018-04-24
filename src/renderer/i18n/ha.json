@@ -3,6 +3,7 @@
     "confirm":"Tabbatarwa",
     "cancel":"Cancellation",
     "dialog_tit":"Ƙaddara",
+    "close":"An rufe",
     "confirm_you_active":"Da fatan a tabbatar da aikinku",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Da fatan a tabbatar",
             "enter_passworld_tit":"Da fatan a shigar da kalmar sirri",
             "enter_passworld_place":"Da fatan a shigar da kalmar sirri"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Fara canja wuri",
+        "transfer_log":"Tarihin ma'amala",
+        "transfer_log_null":"Babu tarihin fassarar",
+        "copy_success":"An buga adireshin",
+        "edit_dia":{
+            "tit":"Sauya bayanin kula",
+            "subtit":"Shigar da bayanin kula tare da tsawon fiye da 8 lambobi don asusunku"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"ырастоо",
     "cancel":"жокко чыгарылды",
     "dialog_tit":"тез",
+    "close":"жакын",
     "confirm_you_active":"Сураныч, операция болушу керек",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Сураныч, ырастоо",
             "enter_passworld_tit":"Сураныч, сөздү киргизип",
             "enter_passworld_place":"Сураныч, сөздү киргизип"
+        }
+    },
+    "page_account":{
+        "qrcode":"Эки өлчөмдүү коду",
+        "go_transfer":"которууну демилгелөө",
+        "transfer_log":"бүтүмдүн Record",
+        "transfer_log_null":"эч кандай бүтүмдөр",
+        "copy_success":"Дареги көчүрүлдү",
+        "edit_dia":{
+            "tit":"Edit Note",
+            "subtit":"Эсепке 8 ашуун Эскертүүлөр эмес, узундугу кирүү үчүн"
         }
     }
 

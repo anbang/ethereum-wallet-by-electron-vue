@@ -3,6 +3,7 @@
     "confirm":"Cunfirmazione",
     "cancel":"Annullazione",
     "dialog_tit":"Avvirtendu",
+    "close":"Chjucu",
     "confirm_you_active":"Cunfirmà a vostra operazione",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Cunfirmà",
             "enter_passworld_tit":"Per piacè inserite u vostru password",
             "enter_passworld_place":"Per piacè inserite u vostru password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Inizià trasferimentu",
+        "transfer_log":"Storia di a transacità",
+        "transfer_log_null":"Nisuna storia di transaczione",
+        "copy_success":"L'indirizzu hè statu copiatu",
+        "edit_dia":{
+            "tit":"Modifiche nota",
+            "subtit":"Ingressu una nota cun una durata di micca più di 8 ducumenti per u vostru contu"
         }
     }
 

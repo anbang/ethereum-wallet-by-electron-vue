@@ -3,6 +3,7 @@
     "confirm":"bekräfta",
     "cancel":"Inställd",
     "dialog_tit":"prompt",
+    "close":"stänga",
     "confirm_you_active":"Vänligen bekräfta din operation",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Vänligen bekräfta",
             "enter_passworld_tit":"Vänligen ange ditt lösenord",
             "enter_passworld_place":"Vänligen ange ditt lösenord"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kod",
+        "go_transfer":"Inleda överföring",
+        "transfer_log":"Transaktionshistorik",
+        "transfer_log_null":"Ingen transaktionshistorik",
+        "copy_success":"Adressen har kopierats",
+        "edit_dia":{
+            "tit":"Ändra anteckning",
+            "subtit":"Ange en anteckning med en längd av högst 8 siffror för ditt konto"
         }
     }
 

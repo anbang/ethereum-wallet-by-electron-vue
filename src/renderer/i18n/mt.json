@@ -3,6 +3,7 @@
     "confirm":"Konferma",
     "cancel":"Kanċellazzjoni",
     "dialog_tit":"Pront",
+    "close":"Magħluq",
     "confirm_you_active":"Jekk jogħġbok ikkonferma l-operazzjoni tiegħek",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Jekk jogħġbok ikkonferma",
             "enter_passworld_tit":"Jekk jogħġbok daħħal il-password tiegħek",
             "enter_passworld_place":"Jekk jogħġbok daħħal il-password tiegħek"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kodiċi QR",
+        "go_transfer":"Ibda t-trasferiment",
+        "transfer_log":"L-istorja tat-tranżazzjoni",
+        "transfer_log_null":"L-ebda storja ta 'transazzjoni",
+        "copy_success":"L-indirizz ġie kkupjat",
+        "edit_dia":{
+            "tit":"Tibdel in-nota",
+            "subtit":"Daħħal nota b'tul ta 'mhux aktar minn 8 ċifri għall-kont tiegħek"
         }
     }
 

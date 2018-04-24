@@ -3,6 +3,7 @@
     "confirm":"Bopaki",
     "cancel":"Ho hlakola",
     "dialog_tit":"Tsoela pele",
+    "close":"E koetsoe",
     "confirm_you_active":"Ka kopo netefatsa ts'ebetso ea hau",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Ka kopo netefatsa",
             "enter_passworld_tit":"Ka kopo kenya phasewete ea hau",
             "enter_passworld_place":"Ka kopo kenya phasewete ea hau"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Qala ho fetisetsa",
+        "transfer_log":"Transaction histori",
+        "transfer_log_null":"Ha ho histori ea ho rekisa",
+        "copy_success":"Aterese e kopitsoe",
+        "edit_dia":{
+            "tit":"Fetola tsebiso",
+            "subtit":"Kenya lengolo le bolelele ba linomoro tse fetang 8 bakeng sa akhaonto ea hau"
         }
     }
 

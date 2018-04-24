@@ -3,6 +3,7 @@
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
+    "close":"Tertutup",
     "confirm_you_active":"Harap konfirmasi operasi Anda",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Tolong konfirmasi",
             "enter_passworld_tit":"Silakan masukkan kata sandi Anda",
             "enter_passworld_place":"Silakan masukkan kata sandi Anda"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kode QR",
+        "go_transfer":"Mulai transfer",
+        "transfer_log":"Riwayat transaksi",
+        "transfer_log_null":"Tidak ada riwayat transaksi",
+        "copy_success":"Alamat telah disalin",
+        "edit_dia":{
+            "tit":"Ubah catatan",
+            "subtit":"Masukkan catatan dengan panjang tidak lebih dari 8 digit untuk akun Anda"
         }
     }
 

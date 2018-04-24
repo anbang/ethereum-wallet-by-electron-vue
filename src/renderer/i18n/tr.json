@@ -3,6 +3,7 @@
     "confirm":"onaylamak",
     "cancel":"iptal edildi",
     "dialog_tit":"çabuk",
+    "close":"yakın",
     "confirm_you_active":"Lütfen operasyonunuzu onaylayın",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Lütfen onaylayın",
             "enter_passworld_tit":"Lütfen şifrenizi giriniz",
             "enter_passworld_place":"Lütfen şifrenizi giriniz"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodu",
+        "go_transfer":"Aktarımı başlat",
+        "transfer_log":"İşlem geçmişi",
+        "transfer_log_null":"İşlem geçmişi yok",
+        "copy_success":"Adres kopyalandı",
+        "edit_dia":{
+            "tit":"Notu değiştir",
+            "subtit":"Hesabınız için 8 haneden fazla olmayan bir not girin"
         }
     }
 

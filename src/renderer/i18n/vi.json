@@ -3,6 +3,7 @@
     "confirm":"Xác nhận",
     "cancel":"Huỷ bỏ",
     "dialog_tit":"Nhắc nhở",
+    "close":"Đóng",
     "confirm_you_active":"Vui lòng xác nhận hoạt động của bạn",
     "unit":{
         "czr":"CZR"
@@ -28,7 +29,7 @@
             "address_placeholder":"Vui lòng nhập địa chỉ"
         },
         "delete_dialog":{
-            "title":"Bạn đang xoá"
+            "title":"Bạn đang xóa"
         }
     },
     "page_transfer":{
@@ -45,6 +46,17 @@
             "title":"Vui lòng xác nhận",
             "enter_passworld_tit":"Vui lòng nhập mật khẩu của bạn",
             "enter_passworld_place":"Vui lòng nhập mật khẩu của bạn"
+        }
+    },
+    "page_account":{
+        "qrcode":"Mã QR",
+        "go_transfer":"Bắt đầu chuyển",
+        "transfer_log":"Lịch sử giao dịch",
+        "transfer_log_null":"Không có lịch sử giao dịch",
+        "copy_success":"Địa chỉ đã được sao chép",
+        "edit_dia":{
+            "tit":"Sửa đổi ghi chú",
+            "subtit":"Nhập ghi chú có chiều dài không quá 8 chữ số cho tài khoản của bạn"
         }
     }
 

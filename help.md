@@ -57,3 +57,8 @@ vue的model 通过computed来设置的了
               </div>
             <span class='speculate-wrap'>预估手续费：<strong>{{ defaultGas }}</strong> CZR</span>
           </el-form-item>
+
+#### this.$refs 第一次undefind的解决
+
+
+#### lowdb  vue 无法自动动刷新

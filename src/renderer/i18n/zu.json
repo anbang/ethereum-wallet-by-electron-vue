@@ -3,6 +3,7 @@
     "confirm":"Isiqinisekiso",
     "cancel":"Ukukhansela",
     "dialog_tit":"I-Prompt",
+    "close":"Kuvaliwe",
     "confirm_you_active":"Sicela uqinisekise ukusebenza kwakho",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Sicela uqinisekise",
             "enter_passworld_tit":"Sicela ufake iphasiwedi yakho",
             "enter_passworld_place":"Sicela ufake iphasiwedi yakho"
+        }
+    },
+    "page_account":{
+        "qrcode":"Ikhodi ye-QR",
+        "go_transfer":"Qalisa ukudluliswa",
+        "transfer_log":"Umlando wokuThengiswa",
+        "transfer_log_null":"Ayikho umlando wokuthengiselana",
+        "copy_success":"Ikheli likopishwe",
+        "edit_dia":{
+            "tit":"Shintsha inothi",
+            "subtit":"Faka inothi ngobude bezinombolo ezingaphezu kuka-8 ze-akhawunti yakho"
         }
     }
 

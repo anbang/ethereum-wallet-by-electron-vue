@@ -3,6 +3,7 @@
     "confirm":"vahvistaa",
     "cancel":"peruttu",
     "dialog_tit":"nopea",
+    "close":"lähellä",
     "confirm_you_active":"Vahvista toiminto",
     "unit":{
         "czr":"CZR"
@@ -37,7 +38,7 @@
         "amount":"raha",
         "send_all":"Lähetä kaikki",
         "remark":"huomautus",
-        "fees":"maksu",
+        "fees":"palkkiot",
         "expected_fees":"Arvioidut maksut",
         "total":"kokonais-",
         "select":"Valitse",
@@ -45,6 +46,17 @@
             "title":"Vahvista",
             "enter_passworld_tit":"Anna salasanasi",
             "enter_passworld_place":"Anna salasanasi"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-koodi",
+        "go_transfer":"Käynnistä siirto",
+        "transfer_log":"Tapahtumahistoria",
+        "transfer_log_null":"Ei tapahtumahistoriaa",
+        "copy_success":"Osoite on kopioitu",
+        "edit_dia":{
+            "tit":"Muokkaa huomautusta",
+            "subtit":"Anna tili, jonka pituus on enintään 8 numeroa"
         }
     }
 

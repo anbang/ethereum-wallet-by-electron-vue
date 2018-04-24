@@ -3,6 +3,7 @@
     "confirm":"ማረጋገጫ",
     "cancel":"ስረዛ",
     "dialog_tit":"አስገራሚ",
+    "close":"ተዘግቷል",
     "confirm_you_active":"እባክዎ የእርስዎን ክወና ያረጋግጡ",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"እባክዎ ያረጋግጡ",
             "enter_passworld_tit":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
             "enter_passworld_place":"እባክዎ የይለፍ ቃልዎን ያስገቡ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR ኮድ",
+        "go_transfer":"ዝውውር ጀምር",
+        "transfer_log":"የግብይት ታሪክ",
+        "transfer_log_null":"ምንም የግብይት ታሪክ የለም",
+        "copy_success":"አድራሻው ተቀድቷል",
+        "edit_dia":{
+            "tit":"ማስታወሻን ያሻሽሉ",
+            "subtit":"ለመለያዎ ከ 8 በላይ ቁጥሮችን የያዘ ማስታወሻ ያስገቡ"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"की पुष्टि करें",
     "cancel":"रद्द",
     "dialog_tit":"शीघ्र",
+    "close":"पास",
     "confirm_you_active":"कृपया अपने ऑपरेशन की पुष्टि करें",
     "unit":{
         "czr":"CZR"
@@ -23,12 +24,12 @@
             "tri_dialog":"पता जोड़ें",
             "dialog_tit":"पता जानकारी दर्ज करें",
             "dialog_tag":"टैग",
-            "tag_placeholder":"कृपया पते के लिए टिप्पणी टैग दर्ज करें",
+            "tag_placeholder":"पते के लिए टिप्पणी टैग दर्ज करें",
             "dialog_address":"पता",
             "address_placeholder":"कृपया पता दर्ज करें"
         },
         "delete_dialog":{
-            "title":"आप निकाल रहे हैं"
+            "title":"आप हटा रहे हैं"
         }
     },
     "page_transfer":{
@@ -45,6 +46,17 @@
             "title":"कृपया पुष्टि करें",
             "enter_passworld_tit":"कृपया अपना पासवर्ड दर्ज करें",
             "enter_passworld_place":"कृपया अपना पासवर्ड दर्ज करें"
+        }
+    },
+    "page_account":{
+        "qrcode":"क्यूआर कोड",
+        "go_transfer":"स्थानांतरण शुरू करें",
+        "transfer_log":"लेनदेन इतिहास",
+        "transfer_log_null":"कोई लेनदेन इतिहास नहीं",
+        "copy_success":"पता कॉपी किया गया है",
+        "edit_dia":{
+            "tit":"नोट संशोधित करें",
+            "subtit":"अपने खाते के लिए 8 से अधिक अंकों की लंबाई के साथ एक नोट दर्ज करें"
         }
     }
 

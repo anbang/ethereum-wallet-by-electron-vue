@@ -3,6 +3,7 @@
     "confirm":"Staðfesting",
     "cancel":"Afpöntun",
     "dialog_tit":"Hvetja",
+    "close":"Lokað",
     "confirm_you_active":"Vinsamlegast staðfestu aðgerðina þína",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Vinsamlegast staðfestu",
             "enter_passworld_tit":"Vinsamlegast sláðu inn lykilorðið þitt",
             "enter_passworld_place":"Vinsamlegast sláðu inn lykilorðið þitt"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kóða",
+        "go_transfer":"Hefja flutning",
+        "transfer_log":"Viðskiptasaga",
+        "transfer_log_null":"Engin viðskiptasaga",
+        "copy_success":"Heimilisfang hefur verið afritað",
+        "edit_dia":{
+            "tit":"Breyta athugasemd",
+            "subtit":"Sláðu inn minnismiða með lengd sem er ekki meira en 8 tölustafir fyrir reikninginn þinn"
         }
     }
 

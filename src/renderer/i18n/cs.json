@@ -3,6 +3,7 @@
     "confirm":"Potvrzení",
     "cancel":"Zrušení",
     "dialog_tit":"Prompt",
+    "close":"Zavřeno",
     "confirm_you_active":"Potvrďte svou činnost",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Potvrďte prosím",
             "enter_passworld_tit":"Zadejte své heslo",
             "enter_passworld_place":"Zadejte své heslo"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kód",
+        "go_transfer":"Zahajte převod",
+        "transfer_log":"Historie transakcí",
+        "transfer_log_null":"Žádná historie transakcí",
+        "copy_success":"Adresa byla zkopírována",
+        "edit_dia":{
+            "tit":"Upravit poznámku",
+            "subtit":"Zadejte poznámku s délkou nejvýše 8 číslic pro váš účet"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"konfirmoj",
     "cancel":"anuluar",
     "dialog_tit":"i menjëhershëm",
+    "close":"afër",
     "confirm_you_active":"Lutemi konfirmoni operacionin tuaj",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Ju lutem konfirmoni",
             "enter_passworld_tit":"Ju lutemi shkruani fjalëkalimin tuaj",
             "enter_passworld_place":"Ju lutemi shkruani fjalëkalimin tuaj"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodi",
+        "go_transfer":"Nise transferimin",
+        "transfer_log":"Historiku i transaksionit",
+        "transfer_log_null":"Asnjë histori transaksioni",
+        "copy_success":"Adresa është kopjuar",
+        "edit_dia":{
+            "tit":"Modifiko shënimin",
+            "subtit":"Futni një shënim me gjatësi jo më shumë se 8 shifra për llogarinë tuaj"
         }
     }
 

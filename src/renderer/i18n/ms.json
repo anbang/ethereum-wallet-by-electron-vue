@@ -3,6 +3,7 @@
     "confirm":"Pengesahan",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
+    "close":"Tertutup",
     "confirm_you_active":"Sila sahkan operasi anda",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Sila sahkan",
             "enter_passworld_tit":"Sila masukkan kata laluan anda",
             "enter_passworld_place":"Sila masukkan kata laluan anda"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kod QR",
+        "go_transfer":"Pindahan awal",
+        "transfer_log":"Sejarah urus niaga",
+        "transfer_log_null":"Tiada sejarah transaksi",
+        "copy_success":"Alamat telah disalin",
+        "edit_dia":{
+            "tit":"Ubah nota",
+            "subtit":"Masukkan nota dengan panjang tidak lebih daripada 8 digit untuk akaun anda"
         }
     }
 

@@ -3,6 +3,7 @@
     "confirm":"確認",
     "cancel":"取消",
     "dialog_tit":"提示",
+    "close":"關閉",
     "confirm_you_active":"請確認您的操作",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"請確認",
             "enter_passworld_tit":"請輸入密碼",
             "enter_passworld_place":"請輸入密碼"
+        }
+    },
+    "page_account":{
+        "qrcode":"二維碼",
+        "go_transfer":"發起轉賬",
+        "transfer_log":"交易記錄",
+        "transfer_log_null":"暫無交易記錄",
+        "copy_success":"地址已經復制",
+        "edit_dia":{
+            "tit":"修改備註",
+            "subtit":"為您的賬戶輸入一個長度不大於8位的備註"
         }
     }
 

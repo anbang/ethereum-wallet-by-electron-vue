@@ -3,6 +3,7 @@
     "confirm":"Dearbhadh",
     "cancel":"Sguir dheth",
     "dialog_tit":"Ceasnachadh",
+    "close":"Dùinte",
     "confirm_you_active":"Dearbhaich an obair agad",
     "unit":{
         "czr":"CZR"
@@ -45,6 +46,17 @@
             "title":"Dearbhaich",
             "enter_passworld_tit":"Cuir a-steach am facal-faire agad",
             "enter_passworld_place":"Cuir a-steach am facal-faire agad"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR còd",
+        "go_transfer":"A 'tòiseachadh a' gluasad",
+        "transfer_log":"Eachdraidh atharrachadh",
+        "transfer_log_null":"Chan eil eachdraidh malairt",
+        "copy_success":"Chaidh an seòladh a chraoladh",
+        "edit_dia":{
+            "tit":"Nòta atharrachaidh",
+            "subtit":"Cuir a-steach nota le fad gun a bhith nas fhaide na 8 dhigit airson do chunntas"
         }
     }
 
