@@ -4,7 +4,7 @@
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
                 <button class="bui-button">导入账号</button>
-                <button class="bui-button">备份账号</button>
+                <button class="bui-button" @click="openFolder">备份账号</button>
             </div>
         </div>
         <div class="home-content">
@@ -16,7 +16,7 @@
                         </div>
                         <i class="iconfont delete-acc">&#xe613;</i>
                         <div class="account-cont">
-                            <p class="account-remark">账号备注信息</p>
+                            <p class="account-remark">{{account.tag}}</p>
                             <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
                             <p class="account-unit">CZR</p>
                             <p class="account-address">{{account.address}}</p>
@@ -24,7 +24,7 @@
                     </router-link>
               </template>
                 <!--  ADD  -->
-                <div class="accounrt-item add-account">
+                <div class="accounrt-item add-account" @click="addPwdDiaVisible = true">
                     <div class="account-cont">
                       <i class="iconfont icon-add-acc">&#xe63b;</i>
                       <p class="add-acc-des">新建账号</p>
@@ -38,7 +38,6 @@
 
         <h1 class="demo-hist">{{ msg }} </h1>
 
-        <h2>默认主账号: {{defaultAcc}}</h2>
         <h2>挖矿成功奖励的地址: {{mainAcc}}</h2>
         <br>
 
@@ -46,7 +45,7 @@
         <br><br>
         <form action="">
             <div>
-                <label for="">创建账号</label>
+                <label for="">创建 账 号</label>
                 <input v-model="password" type="password">
                 <input type="button" value="Create" @click='createAcc'>
             </div>
@@ -63,12 +62,36 @@
         <br>
         <br>
         <input type="file" id='userImport' enctype="multipart/form-data">
-        <input type="button" value="import Account" @click='importAcc'>
+        <input type="button" value="import Account" @click="addPwdDiaVisible = true">
 
 <br><br>
 <p>导入的账户信息：</p>
         <p> {{importInfo}}</p>
         <br> <br>
+
+
+
+<el-dialog
+  title="提示"
+  :visible.sync="addPwdDiaVisible"
+  width="60%">
+  <span>
+    <p>输入一个强密码（ 至少9位 ）</p>
+<el-form :model="ruleForm2" status-icon :rules="rules2" ref="ruleForm2" label-width="100px" class="demo-ruleForm">
+  <el-form-item label="密码" prop="pass">
+    <el-input type="password" v-model="ruleForm2.pass" auto-complete="off"></el-input>
+  </el-form-item>
+  <el-form-item label="确认密码" prop="checkPass">
+    <el-input type="password" v-model="ruleForm2.checkPass" auto-complete="off"></el-input>
+  </el-form-item>
+</el-form>
+
+  </span>
+  <span slot="footer" class="dialog-footer">
+    <el-button @click="addPwdDiaVisible = false">取 消</el-button>
+    <el-button type="primary" @click="addAccount">确 定</el-button>
+  </span>
+</el-dialog>
 
     </div>
 
@@ -79,12 +102,59 @@
 import web3 from "@/global/web3.js";
 const path = require("path");
 
+//备份文件
+const shell = require('electron').shell
+import { remote, app } from 'electron'// 引入remote模块，使其既能跑在main进程也能跑在renderer进程：
+const APP = process.type === 'renderer' ? remote.app : app;// 根据process.type来分辨在哪种模式使用哪种模块
+const STORE_PATH = APP.getPath('userData')// 获取electron应用的用户目录
+console.log("PATH",STORE_PATH)
+
+
 const fs = require("fs");
 
 export default {
   name: "Bodyer",
   data() {
+    var validatePass = (rule, value, callback) => {
+      if (value === '') {
+        callback(new Error('请输入密码'));
+      } else {
+        if(value.length<9){
+          callback(new Error('至少9位'));
+        }
+        if (this.ruleForm2.checkPass !== '') {
+          this.$refs.ruleForm2.validateField('checkPass');
+        }
+        callback();
+      }
+    };
+    var validatePass2 = (rule, value, callback) => {
+      if (value === '') {
+        callback(new Error('请再次输入密码'));
+      } else if (value !== this.ruleForm2.pass) {
+        callback(new Error('两次输入密码不一致!'));
+      } else {
+        callback();
+      }
+    };
     return {
+      addPwdDiaVisible:false,
+      ruleForm2: {
+          pass: '',
+          checkPass: ''
+      },
+      rules2: {
+        pass: [
+          { validator: validatePass, trigger: 'blur' }
+        ],
+        checkPass: [
+          { validator: validatePass2, trigger: 'blur' }
+        ]
+      },
+
+
+
+
       msg: "欢迎来到CZR钱包的主界面 ",
       password: "",
       importInfo: "",
@@ -98,7 +168,7 @@ export default {
       defaultAcc: web3.eth.defaultAccount,
       mainAcc: web3.eth.coinbase,
       accounts2: [],
-      accounts: web3.personal.listAccounts
+      accounts: web3.eth.accounts
     };
   },
   filters: {
@@ -121,20 +191,51 @@ export default {
         if(current!=tempAcc[i]["balance"]){
           this.$db.read().get('czr_accounts').find({'address': tempAcc[i]["address"]}).assign({'balance':current}).write()
         }
-        //转成用户金额
+        //转成用户金额 
         tempAcc[i]["balance"]= web3.fromWei(tempAcc[i]["balance"], "ether");
       }
       return tempAcc;
     }
   },
   methods: {
-    setDefaule: function(address) {
-      this.defaultAcc = web3.eth.defaultAccount = address; //
+    // 备份账号
+    openFolder:function(){
+      shell.showItemInFolder(STORE_PATH+'/accounts');
+      // shell.openExternal('https://github.com'); 
     },
+
+    //addAccount
+    addAccount:function(){
+      console.log('22 2',web3)
+      var self=this;
+      if((this.ruleForm2.checkPass>=9)&&(this.ruleForm2.pass>=9)&&(this.ruleForm2.pass==this.ruleForm2.checkPass)){
+          console.log('000')
+          web3.personal.newAccount(this.ruleForm2.checkPass, function(e, res){
+              console.log(e, res)//0x2b765eba6de2da0b39365367215f93e563291f49
+              var temoObj={
+                  tag:"Account Name",
+                  address:res,
+                  balance:"0",
+                  tx_list:[]
+                }
+              self.$db
+              .get("czr_accounts")
+              .push(temoObj)
+              .write();
+          });
+
+
+          this.addPwdDiaVisible=false;
+          //TODO 页面更新新建的账号
+      }
+    },
+
+
     createAcc: function() {
       // alert("create")
       var account_three = web3.personal.newAccount(this.password);
-      console.log(account_three);
+      // web3.shh.generateSymKeyFromPassword()
+      console.log(account_three,web3.shh.generateSymKeyFromPassword(this.password));
       //账号的公钥 私钥 地址'
       // this.newAccountInfo.address=account_three
       // this.newAccountInfo.publicKey=web3.shh.getPublicKey(account_three)
@@ -142,7 +243,7 @@ export default {
       // this.newAccountInfo.balance=web3.eth.getBalance(account_three);
       // this.newAccountInfo.keyFile=web3.shh.getPublicKey()
 
-      this.accounts = web3.personal.listAccounts;
+      this.accounts = web3.eth.accounts;
       alert("OK,创建完成" + account_three);
     },
     importAcc: function() {
@@ -185,7 +286,7 @@ export default {
         //                    web3.personal.importRawKey(newAccount)
 
         //                    console.log('导入OK');
-        self.accounts = web3.personal.listAccounts;
+        self.accounts = web3.eth.accounts;
       });
 
       //                fs.copyFile(userImportPath, newPath, (err) => {
@@ -238,6 +339,8 @@ export default {
 }
 .accounrt-item.add-account{
   border: 1px dashed #dddddd;
+  padding-top: 24px;
+  padding-bottom: 30px;
   /* background: linear-gradient(white,white) padding-box,
     repeating-linear-gradient(-45deg,#ccc 0, #ccc 2px ,white 0,white 8px); */
 }
@@ -313,7 +416,7 @@ export default {
     overflow:hidden;
 }
 .accounrt-item .account-cont{
-  margin-top: 16px;
+  margin-top: 10px;
 }
 .accounrt-item .icon-add-acc{
   font-size: 48px;

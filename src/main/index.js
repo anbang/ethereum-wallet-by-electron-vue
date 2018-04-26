@@ -16,6 +16,7 @@ if (process.env.NODE_ENV !== 'development') {
 
 let mainWindow;// 保留窗口对象的全局引用，如果不这样做，当JavaScript对象被垃圾收集时，窗口将自动关闭。
 
+//更改8080 端口
 const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`

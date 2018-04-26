@@ -70,7 +70,7 @@
 <el-dialog
   :title="$t('dialog_tit')"
   :visible.sync="dialogQRcodeVisible"
-  width="50%" center>
+  width="40%" center>
   <span>
     <img :src="qrImg" alt="code" class="qrcode-img">
     <p class="dia-address">{{currentAcc}}</p>
@@ -157,6 +157,7 @@ export default {
       // console.log(this.targetName);
       this.$db.read().get('czr_accounts').find({'address':this.currentAcc}).assign({'tag':this.targetName}).write();
       console.log(this.currentName);
+      //TODO 同步修改后的tag
       this.editNameVisible=false;
     }
   }
@@ -212,7 +213,9 @@ export default {
 .plus-assets .assets{color: green;}
 .less-assets .assets{color: rgb(255, 51, 0);}
 .qrcode-img{width: 100%;height: auto;display: block;}
-.dia-address{text-align: center;}
+.dia-address{text-align: center;table-layout:fixed; 
+word-break: break-all; 
+overflow:hidden;}
 .edit-name-subtit{margin-bottom: 30px;text-align: center;}
 
 </style>
