@@ -31,10 +31,9 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
 
-//引入db数据库
+//Introducing db database
 import db from '../datastore/index'
-//引入需要支持的语言
-// import languges from '../../i18n/languges'
+//Introducing languages that need support
 import languges from '../../i18n/languges_conf'
 
 Vue.prototype.$db = db
@@ -42,16 +41,17 @@ Vue.config.productionTip = false
 
 Vue.use(VueI18n);
 Vue.use(ElementUI);
-// 加载i18语言
+
+// Loading i18 language
 const messages={};
 for(const languge in languges){
     messages[languge]=require("@/i18n/"+languge+".json");
 }
 // console.log(messages)
 
-//判断用户使用的语言
+//Determine the user's language
 var locale =db.get('czr_setting.lang').value() ;
-//生成国际化插件实例
+//Generate an internationalized plug-in instance
 const i18n = new VueI18n({
     locale: locale ,// set locale
     messages, // set locale messages

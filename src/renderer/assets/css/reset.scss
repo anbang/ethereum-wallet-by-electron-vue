@@ -103,7 +103,7 @@ a:focus, a:hover, a:active { outline: 0; }
 
   .margin-left{margin-left: 20px;}
 
-/* 字体文件 */
+/* Font file */
 @mixin font-face($file) {
     /* IE9*/
     src: url('http://at.alicdn.com/t/#{$file}.eot');
@@ -152,7 +152,7 @@ a:focus, a:hover, a:active { outline: 0; }
 }
 
 //text
-/*文本及链接颜色*/
+/*Text and link color*/
 .czr-txt-default {
   color: #333333; }
 
@@ -194,7 +194,7 @@ a:focus, a:hover, a:active { outline: 0; }
 a.czr-txt-decoration:hover {
     text-decoration: underline;
 }
-/* 字体大小 */
+/* font size */
 .czr-txt-9 {
   font-size: 9px; }
 
