@@ -16,7 +16,8 @@
         "total":"Jimlar"
     },
     "page_setting":{
-        "tit":"Saituna"
+        "tit":"Saituna",
+        "select":"Da fatan a zaɓi"
     },
     "page_contacts":{
         "tit":"Littafin adireshi",
@@ -58,6 +59,14 @@
             "tit":"Sauya bayanin kula",
             "subtit":"Shigar da bayanin kula tare da tsawon fiye da 8 lambobi don asusunku"
         }
+    },
+    "page_home":{
+        "import_account":"Shigo da asusu",
+        "back_up_account":"Asusun Ajiyayyen",
+        "add_account":"Sabon asusu",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kalmar sirri",
+        "confirm_password":"Tabbatar da kalmar sirri"
     }
 
 }

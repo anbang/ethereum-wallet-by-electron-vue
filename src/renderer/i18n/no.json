@@ -16,7 +16,8 @@
         "total":"total"
     },
     "page_setting":{
-        "tit":"Sett opp"
+        "tit":"Sett opp",
+        "select":"Vennligst velg"
     },
     "page_contacts":{
         "tit":"Adressebok",
@@ -58,6 +59,14 @@
             "tit":"Endre notat",
             "subtit":"Skriv inn et notat med en lengde på ikke mer enn 8 siffer for kontoen din"
         }
+    },
+    "page_home":{
+        "import_account":"Import konto",
+        "back_up_account":"Backup-konto",
+        "add_account":"Ny konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"passord",
+        "confirm_password":"Bekreft passord"
     }
 
 }

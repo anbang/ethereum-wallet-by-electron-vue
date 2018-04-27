@@ -16,7 +16,8 @@
         "total":"합계"
     },
     "page_setting":{
-        "tit":"설정"
+        "tit":"설정",
+        "select":"선택하십시오"
     },
     "page_contacts":{
         "tit":"주소록",
@@ -58,6 +59,14 @@
             "tit":"메모 수정",
             "subtit":"계정에 8 자리 이하의 길이로 메모를 입력하십시오."
         }
+    },
+    "page_home":{
+        "import_account":"수입 계정",
+        "back_up_account":"백업 계정",
+        "add_account":"새 계정",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"비밀번호",
+        "confirm_password":"암호 확인"
     }
 
 }

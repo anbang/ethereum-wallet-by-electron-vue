@@ -16,7 +16,8 @@
         "total":"Wadarta"
     },
     "page_setting":{
-        "tit":"Goobaha"
+        "tit":"Goobaha",
+        "select":"Fadlan dooro"
     },
     "page_contacts":{
         "tit":"Buugga Cinwaanka",
@@ -58,6 +59,14 @@
             "tit":"Bedel qoraalka",
             "subtit":"Ku qor qori dhererka wax ka badan 8 lambar xisaabtaada"
         }
+    },
+    "page_home":{
+        "import_account":"Koontada la soo galo",
+        "back_up_account":"Koontada keydka",
+        "add_account":"Koontada cusub",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Furaha",
+        "confirm_password":"Xaqiiji sirta"
     }
 
 }

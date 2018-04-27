@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Anviwònman"
+        "tit":"Anviwònman",
+        "select":"Tanpri chwazi"
     },
     "page_contacts":{
         "tit":"Adrès liv",
@@ -58,6 +59,14 @@
             "tit":"Modifye nòt",
             "subtit":"Mete yon nòt ki gen yon longè ki pa plis pase 8 chif pou kont ou"
         }
+    },
+    "page_home":{
+        "import_account":"Enpòte kont",
+        "back_up_account":"Kont sovgad",
+        "add_account":"Nouvo kont",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Modpas",
+        "confirm_password":"Konfime modpas"
     }
 
 }

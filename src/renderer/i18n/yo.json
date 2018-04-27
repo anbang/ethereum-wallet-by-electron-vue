@@ -16,7 +16,8 @@
         "total":"Lapapọ"
     },
     "page_setting":{
-        "tit":"Eto"
+        "tit":"Eto",
+        "select":"Jọwọ yan"
     },
     "page_contacts":{
         "tit":"Iwe iwe ipamọ",
@@ -58,6 +59,14 @@
             "tit":"Ṣe akọsilẹ atunṣe",
             "subtit":"Tẹ akọsilẹ sii pẹlu ipari ti ko si ju awọn nọmba mẹẹdogun fun àkọọlẹ rẹ"
         }
+    },
+    "page_home":{
+        "import_account":"Ṣe akọọlẹ akọọlẹ",
+        "back_up_account":"Iwe afẹyinti",
+        "add_account":"Iroyin titun",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Ọrọigbaniwọle",
+        "confirm_password":"Jẹrisi ọrọ igbaniwọle"
     }
 
 }

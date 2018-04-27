@@ -16,7 +16,8 @@
         "total":"Iomlan"
     },
     "page_setting":{
-        "tit":"Roghainnean"
+        "tit":"Roghainnean",
+        "select":"Tagh"
     },
     "page_contacts":{
         "tit":"Leabhar seòlaidh",
@@ -58,6 +59,14 @@
             "tit":"Nòta atharrachaidh",
             "subtit":"Cuir a-steach nota le fad gun a bhith nas fhaide na 8 dhigit airson do chunntas"
         }
+    },
+    "page_home":{
+        "import_account":"Cunntas a-steach",
+        "back_up_account":"Cunntas cùl-taice",
+        "add_account":"Cunntas ùr",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Facal-faire",
+        "confirm_password":"Dearbhaich am facal-faire"
     }
 
 }

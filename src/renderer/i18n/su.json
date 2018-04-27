@@ -16,7 +16,8 @@
         "total":"total"
     },
     "page_setting":{
-        "tit":"nyetél"
+        "tit":"nyetél",
+        "select":"Mangga pilih"
     },
     "page_contacts":{
         "tit":"alamat Book",
@@ -58,6 +59,14 @@
             "tit":"Edit Catetan",
             "subtit":"Pikeun akun anjeun ngasupkeun panjangna teu leuwih ti 8 Katerangan"
         }
+    },
+    "page_home":{
+        "import_account":"rekening impor",
+        "back_up_account":"rekening cadangan",
+        "add_account":"akun anyar",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"sandi",
+        "confirm_password":"Tegeskeun deui kecap akses"
     }
 
 }

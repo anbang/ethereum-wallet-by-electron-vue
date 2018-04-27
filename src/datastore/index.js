@@ -1,53 +1,52 @@
 import Datastore from 'lowdb'
-import LodashId from 'lodash-id'//为每个新增的数据自动加上一个唯一标识的id字段
+import LodashId from 'lodash-id'//Automatically add a unique ID field to each newly added data
 import FileSync from 'lowdb/adapters/FileSync'
 import path from 'path'
 import fs from 'fs-extra'
-import { remote, app } from 'electron'// 引入remote模块，使其既能跑在main进程也能跑在renderer进程：
+import { remote, app } from 'electron'// Introduce the remote module to run both in the main process and in the renderer process
 
 const languges = require('../../i18n/languges_conf');
 
-const APP = process.type === 'renderer' ? remote.app : app;// 根据process.type来分辨在哪种模式使用哪种模块
-const STORE_PATH = APP.getPath('userData')// 获取electron应用的用户目录
-console.log("PATH",STORE_PATH)
-// alert('一些本地数据储存在'+STORE_PATH)
+const APP = process.type === 'renderer' ? remote.app : app
+const STORE_PATH = APP.getPath('userData')// Get the electron application's user directory
+console.log("PATH", STORE_PATH)
 
 if (process.type !== 'renderer') {
-    // 如果路径不存在，就创建一个,
+  // If the path does not exist, create one,
   if (!fs.pathExistsSync(STORE_PATH)) {
     fs.mkdirpSync(STORE_PATH)
   }
 }
 
-const adapter = new FileSync(path.join(STORE_PATH, '/czr_data.json'))// 初始化lowdb读写的json文件名以及存储路径
+const adapter = new FileSync(path.join(STORE_PATH, '/czr_data.json'))// Initialize lowdb read and write json file name and storage path
+
 // console.log(adapter)
 
-const db = Datastore(adapter)// lowdb接管该文件
+const db = Datastore(adapter)// Lowdb takes over the file
 db._.mixin(LodashId)
 
-// 初始化数据，预先指定数据库的基本结构
-console.log("是否有czr_accounts",db.read().has('czr_accounts').value())
+// Initialize data, pre-specify the basic structure of the database
+console.log("是否有czr_accounts", db.read().has('czr_accounts').value())
 if (!db.has('czr_accounts').value()) {
   db.set('czr_accounts', []).write()
 }
 
 if (!db.has('czr_setting').value()) {
-    db.set('czr_setting', {}).write()
-    db.set('czr_setting.lang', get_language()).write()//根据语言设置
-    //配置各国语言
-    db.set('czr_setting.lang_conf', languges).write()//根据语言设置
+  db.set('czr_setting', {}).write()
+  db.set('czr_setting.lang', get_language()).write()
+  db.set('czr_setting.lang_conf', languges).write()
 
 }
 if (!db.has('czr_contacts').value()) {
   db.set('czr_contacts', {}).write()
 }
 
-//获取用户浏览器优先选择语言
+//Get user browser preference language
 function get_language() {
   if (navigator.language) {
-      var language = navigator.language;
+    var language = navigator.language;
   } else {
-      var language = navigator.browserLanguage;
+    var language = navigator.browserLanguage;
   }
   return language;
 }

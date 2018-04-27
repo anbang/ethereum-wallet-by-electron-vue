@@ -16,7 +16,8 @@
         "total":"Cyfanswm"
     },
     "page_setting":{
-        "tit":"Gosodiadau"
+        "tit":"Gosodiadau",
+        "select":"Dewiswch"
     },
     "page_contacts":{
         "tit":"Llyfr cyfeiriadau",
@@ -58,6 +59,14 @@
             "tit":"Addasu nodyn",
             "subtit":"Nodwch nodyn gyda hyd o ddim mwy na 8 digid ar gyfer eich cyfrif"
         }
+    },
+    "page_home":{
+        "import_account":"Cyfrif mewnforio",
+        "back_up_account":"Cyfrif wrth gefn",
+        "add_account":"Cyfrif newydd",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Cyfrinair",
+        "confirm_password":"Cadarnhau cyfrinair"
     }
 
 }

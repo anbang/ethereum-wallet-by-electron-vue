@@ -16,7 +16,8 @@
         "total":"total"
     },
     "page_setting":{
-        "tit":"ngritur"
+        "tit":"ngritur",
+        "select":"Ju lutem zgjidhni"
     },
     "page_contacts":{
         "tit":"Libri i adresave",
@@ -58,6 +59,14 @@
             "tit":"Modifiko shënimin",
             "subtit":"Futni një shënim me gjatësi jo më shumë se 8 shifra për llogarinë tuaj"
         }
+    },
+    "page_home":{
+        "import_account":"Llogaria e importit",
+        "back_up_account":"Llogari rezervë",
+        "add_account":"Llogari e re",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"fjalëkalim",
+        "confirm_password":"Konfirmo fjalëkalimin"
     }
 
 }

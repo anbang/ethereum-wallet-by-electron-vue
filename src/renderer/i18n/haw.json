@@ -16,7 +16,8 @@
         "total":"Hōʻuluʻulu"
     },
     "page_setting":{
-        "tit":"Nā Papa"
+        "tit":"Nā Papa",
+        "select":"E koho"
     },
     "page_contacts":{
         "tit":"Puka puke",
@@ -58,6 +59,14 @@
             "tit":"Hoʻololi i ka memo",
             "subtit":"E kākau i kahi leka me ka lōʻihi o nāʻoi aku aʻoi aku ma mua o 8 mau helu no kāu moʻokāki"
         }
+    },
+    "page_home":{
+        "import_account":"Ka lawe pūʻana i kaʻike",
+        "back_up_account":"Pūnaewele Pūnaewele",
+        "add_account":"Pūʻulu hou",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Manaʻo",
+        "confirm_password":"Hōʻoia i ka memo"
     }
 
 }

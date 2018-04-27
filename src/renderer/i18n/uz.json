@@ -16,7 +16,8 @@
         "total":"Jami"
     },
     "page_setting":{
-        "tit":"Sozlamalar"
+        "tit":"Sozlamalar",
+        "select":"Iltimos, tanlang"
     },
     "page_contacts":{
         "tit":"Manzillar kitobi",
@@ -58,6 +59,14 @@
             "tit":"Qaydni o'zgartiring",
             "subtit":"Hisobingiz uchun eng ko'p 8 raqamdan iborat bo'lgan eslatma kiriting"
         }
+    },
+    "page_home":{
+        "import_account":"Hisobni import qilish",
+        "back_up_account":"Zahira nusxasi",
+        "add_account":"Yangi hisob",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parol",
+        "confirm_password":"Parolni tasdiqlang"
     }
 
 }

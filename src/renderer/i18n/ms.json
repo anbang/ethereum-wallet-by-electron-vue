@@ -16,7 +16,8 @@
         "total":"Jumlah"
     },
     "page_setting":{
-        "tit":"Tetapan"
+        "tit":"Tetapan",
+        "select":"Sila pilih"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -58,6 +59,14 @@
             "tit":"Ubah nota",
             "subtit":"Masukkan nota dengan panjang tidak lebih daripada 8 digit untuk akaun anda"
         }
+    },
+    "page_home":{
+        "import_account":"Import akaun",
+        "back_up_account":"Akaun sandaran",
+        "add_account":"Akaun baru",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kata laluan",
+        "confirm_password":"Sahkan kata laluan"
     }
 
 }

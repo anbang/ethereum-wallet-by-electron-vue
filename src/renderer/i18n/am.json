@@ -16,7 +16,8 @@
         "total":"ጠቅላላ"
     },
     "page_setting":{
-        "tit":"ቅንብሮች"
+        "tit":"ቅንብሮች",
+        "select":"እባክዎ ይምረጡ"
     },
     "page_contacts":{
         "tit":"የአድራሻ ደብተር",
@@ -58,6 +59,14 @@
             "tit":"ማስታወሻን ያሻሽሉ",
             "subtit":"ለመለያዎ ከ 8 በላይ ቁጥሮችን የያዘ ማስታወሻ ያስገቡ"
         }
+    },
+    "page_home":{
+        "import_account":"መለያ አስገባ",
+        "back_up_account":"የመጠባበቂያ መለያ",
+        "add_account":"አዲስ መለያ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"የይለፍ ቃል",
+        "confirm_password":"የይለፍ ቃል አረጋግጥ"
     }
 
 }

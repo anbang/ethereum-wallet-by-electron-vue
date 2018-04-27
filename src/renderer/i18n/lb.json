@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Astellungen"
+        "tit":"Astellungen",
+        "select":"Wielt we g"
     },
     "page_contacts":{
         "tit":"Adressbuch",
@@ -58,6 +59,14 @@
             "tit":"Änneren",
             "subtit":"Gitt eng Note mat enger Längt vun net méi wéi 8 Zifferen fir Äre Kont"
         }
+    },
+    "page_home":{
+        "import_account":"Konto importéieren",
+        "back_up_account":"Backup Kont",
+        "add_account":"Neie Kont",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Passwuert",
+        "confirm_password":"Confirmatioun vum Passwuert"
     }
 
 }

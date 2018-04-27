@@ -16,7 +16,8 @@
         "total":"Celkem"
     },
     "page_setting":{
-        "tit":"Nastavení"
+        "tit":"Nastavení",
+        "select":"Vyberte prosím"
     },
     "page_contacts":{
         "tit":"Adresář",
@@ -58,6 +59,14 @@
             "tit":"Upravit poznámku",
             "subtit":"Zadejte poznámku s délkou nejvýše 8 číslic pro váš účet"
         }
+    },
+    "page_home":{
+        "import_account":"Importní účet",
+        "back_up_account":"Zálohovací účet",
+        "add_account":"Nový účet",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Heslo",
+        "confirm_password":"Potvrďte heslo"
     }
 
 }

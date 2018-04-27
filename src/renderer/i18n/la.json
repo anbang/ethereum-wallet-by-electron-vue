@@ -16,7 +16,8 @@
         "total":"summa"
     },
     "page_setting":{
-        "tit":"eriges"
+        "tit":"eriges",
+        "select":"placere eligere"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -58,6 +59,14 @@
             "tit":"Nota Edit",
             "subtit":"Propterea quia non amplius VIII ad Eutropii longitudinem"
         }
+    },
+    "page_home":{
+        "import_account":"propter Import",
+        "back_up_account":"propter tergum",
+        "add_account":"ratio Novae",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Affirmo password"
     }
 
 }

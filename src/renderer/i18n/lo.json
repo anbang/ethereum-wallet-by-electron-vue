@@ -16,7 +16,8 @@
         "total":"ລວມ"
     },
     "page_setting":{
-        "tit":"Settings"
+        "tit":"Settings",
+        "select":"ກະລຸນາເລືອກ"
     },
     "page_contacts":{
         "tit":"ປື້ມທີ່ຢູ່",
@@ -58,6 +59,14 @@
             "tit":"ແກ້ໄຂບັນທຶກ",
             "subtit":"ໃສ່ປື້ມທີ່ມີຄວາມຍາວບໍ່ເກີນ 8 ໂຕເລກສໍາລັບບັນຊີຂອງທ່ານ"
         }
+    },
+    "page_home":{
+        "import_account":"ບັນຊີນໍາເຂົ້າ",
+        "back_up_account":"ບັນຊີ Backup",
+        "add_account":"ບັນຊີໃຫມ່",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"ລະຫັດຜ່ານ",
+        "confirm_password":"ຢືນຢັນລະຫັດຜ່ານ"
     }
 
 }

@@ -16,7 +16,8 @@
         "total":"teljes"
     },
     "page_setting":{
-        "tit":"beállítása"
+        "tit":"beállítása",
+        "select":"Kérem válasszon"
     },
     "page_contacts":{
         "tit":"Címjegyzék",
@@ -58,6 +59,14 @@
             "tit":"Jegyzet módosítása",
             "subtit":"Adjon meg egy, legfeljebb 8 számjegyű számot fiókjához"
         }
+    },
+    "page_home":{
+        "import_account":"Számla importálása",
+        "back_up_account":"Biztonsági másolat",
+        "add_account":"Új fiók",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"jelszó",
+        "confirm_password":"Jelszó megerősítése"
     }
 
 }

@@ -16,7 +16,8 @@
         "total":"စုစုပေါငျး"
     },
     "page_setting":{
-        "tit":"တက် Set"
+        "tit":"တက် Set",
+        "select":"ကို select ပေးပါ"
     },
     "page_contacts":{
         "tit":"စာအုပ်နေရပ်လိပ်စာ",
@@ -58,6 +59,14 @@
             "tit":"Edit ကိုမှတ်ချက်",
             "subtit":"သင့်အကောင့်များအတွက်မပို 8 ထက်မှတ်ချက်တစ်ခုအရှည်ရိုက်ထည့်ရန်"
         }
+    },
+    "page_home":{
+        "import_account":"သွင်းကုန်အကောင့်",
+        "back_up_account":"Backup ကိုအကောင့်",
+        "add_account":"အကောင့်အသစ်",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password ကို",
+        "confirm_password":"စကားဝှက်ကိုအတည်ပြုပါ"
     }
 
 }

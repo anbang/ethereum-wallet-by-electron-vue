@@ -16,7 +16,8 @@
         "total":"Бардыгы болуп"
     },
     "page_setting":{
-        "tit":"орнотуу"
+        "tit":"орнотуу",
+        "select":"Сураныч, тандоо"
     },
     "page_contacts":{
         "tit":"Дарек китеби",
@@ -58,6 +59,14 @@
             "tit":"Edit Note",
             "subtit":"Эсепке 8 ашуун Эскертүүлөр эмес, узундугу кирүү үчүн"
         }
+    },
+    "page_home":{
+        "import_account":"Import каттоо эсеби",
+        "back_up_account":"Көмөкчү каттоо эсеби",
+        "add_account":"жаңы каттоо эсеби",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"пароль",
+        "confirm_password":"Сырсөздү ырастоо"
     }
 
 }

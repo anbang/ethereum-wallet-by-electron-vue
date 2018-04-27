@@ -16,7 +16,8 @@
         "total":"I alt"
     },
     "page_setting":{
-        "tit":"Opsæt"
+        "tit":"Opsæt",
+        "select":"Vælg venligst"
     },
     "page_contacts":{
         "tit":"Adressebog",
@@ -58,6 +59,14 @@
             "tit":"Rediger note",
             "subtit":"Indtast en note med en længde på højst 8 cifre for din konto"
         }
+    },
+    "page_home":{
+        "import_account":"Import konto",
+        "back_up_account":"Backup konto",
+        "add_account":"Ny konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"adgangskode",
+        "confirm_password":"Bekræft adgangskode"
     }
 
 }

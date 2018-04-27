@@ -4,7 +4,7 @@
     "cancel":"Annulearje",
     "dialog_tit":"Prompt",
     "close":"Closed",
-    "confirm_you_active":"Besykje jo operaasje befêstigje",
+    "confirm_you_active":"Befêstigje jo operaasje",
     "unit":{
         "czr":"CZR"
     },
@@ -16,7 +16,8 @@
         "total":"Totaal"
     },
     "page_setting":{
-        "tit":"Ynstellings"
+        "tit":"Ynstellings",
+        "select":"Please select"
     },
     "page_contacts":{
         "tit":"Adresboek",
@@ -58,6 +59,14 @@
             "tit":"Wizigje notysje",
             "subtit":"Fier in nota mei in lingte fan net mear as 8 sifers foar jo akkount"
         }
+    },
+    "page_home":{
+        "import_account":"Ymportearje akkount",
+        "back_up_account":"Reservekopy",
+        "add_account":"Nije akkount",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Wachtwurd",
+        "confirm_password":"Befêstigje wachtwurd"
     }
 
 }

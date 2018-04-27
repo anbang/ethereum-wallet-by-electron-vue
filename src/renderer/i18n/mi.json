@@ -16,7 +16,8 @@
         "total":"Te tapeke"
     },
     "page_setting":{
-        "tit":"Tautuhinga"
+        "tit":"Tautuhinga",
+        "select":"Tono koa"
     },
     "page_contacts":{
         "tit":"Puka pukapuka",
@@ -58,6 +59,14 @@
             "tit":"Whakakēhia te tuhinga",
             "subtit":"Tāurutia he tuhipoka me te roa o te kore neke atu i te 8 nga tau mo to taakete"
         }
+    },
+    "page_home":{
+        "import_account":"Kawemai i te kaute",
+        "back_up_account":"Pūkete Pūrua",
+        "add_account":"Pūkete hou",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kupuhipa",
+        "confirm_password":"Whakaae i te kupuhipa"
     }
 
 }

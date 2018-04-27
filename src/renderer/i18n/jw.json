@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Setelan"
+        "tit":"Setelan",
+        "select":"Mangga pilih"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -58,6 +59,14 @@
             "tit":"Ngowahi cathetan",
             "subtit":"Ketik cathetan kanthi dawane ora luwih saka 8 digit kanggo akun sampeyan"
         }
+    },
+    "page_home":{
+        "import_account":"Impor akun",
+        "back_up_account":"Akun cadangan",
+        "add_account":"Akun anyar",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pangguna Sandi",
+        "confirm_password":"Konfirmasi tembung sandi"
     }
 
 }

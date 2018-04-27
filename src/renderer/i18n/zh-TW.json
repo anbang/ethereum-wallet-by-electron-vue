@@ -16,7 +16,8 @@
         "total":"合計"
     },
     "page_setting":{
-        "tit":"設置"
+        "tit":"設置",
+        "select":"請選擇"
     },
     "page_contacts":{
         "tit":"地址薄",
@@ -58,6 +59,14 @@
             "tit":"修改備註",
             "subtit":"為您的賬戶輸入一個長度不大於8位的備註"
         }
+    },
+    "page_home":{
+        "import_account":"導入賬號",
+        "back_up_account":"備份賬號",
+        "add_account":"新建賬號",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"密碼",
+        "confirm_password":"確認密碼"
     }
 
 }

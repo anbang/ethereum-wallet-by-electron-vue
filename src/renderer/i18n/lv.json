@@ -16,7 +16,8 @@
         "total":"Kopā"
     },
     "page_setting":{
-        "tit":"Iestatījumi"
+        "tit":"Iestatījumi",
+        "select":"Lūdzu, izvēlieties"
     },
     "page_contacts":{
         "tit":"Adrešu grāmata",
@@ -58,6 +59,14 @@
             "tit":"Mainīt piezīmi",
             "subtit":"Ievadiet piezīmi ar sava konta garumu ne vairāk kā 8 ciparus"
         }
+    },
+    "page_home":{
+        "import_account":"Importēt kontu",
+        "back_up_account":"Rezerves konts",
+        "add_account":"Jauns konts",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parole",
+        "confirm_password":"Apstipriniet paroli"
     }
 
 }

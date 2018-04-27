@@ -16,7 +16,8 @@
         "total":"Inani"
     },
     "page_setting":{
-        "tit":"Izilungiselelo"
+        "tit":"Izilungiselelo",
+        "select":"Sicela ukhethe"
     },
     "page_contacts":{
         "tit":"Ibhuku lekheli",
@@ -58,6 +59,14 @@
             "tit":"Shintsha inothi",
             "subtit":"Faka inothi ngobude bezinombolo ezingaphezu kuka-8 ze-akhawunti yakho"
         }
+    },
+    "page_home":{
+        "import_account":"Ngenisa i-akhawunti",
+        "back_up_account":"I-akhawunti yokulondoloza",
+        "add_account":"I-akhawunti entsha",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Iphasiwedi",
+        "confirm_password":"Qinisekisa iphasiwedi"
     }
 
 }

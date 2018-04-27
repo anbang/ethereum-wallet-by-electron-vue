@@ -16,7 +16,8 @@
         "total":"totaal"
     },
     "page_setting":{
-        "tit":"oprichten"
+        "tit":"oprichten",
+        "select":"Selecteer alstublieft"
     },
     "page_contacts":{
         "tit":"Adresboek",
@@ -58,6 +59,14 @@
             "tit":"Wijzig opmerking",
             "subtit":"Voer een notitie in met een lengte van niet meer dan 8 cijfers voor uw account"
         }
+    },
+    "page_home":{
+        "import_account":"Account importeren",
+        "back_up_account":"Back-upaccount",
+        "add_account":"Nieuw account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"wachtwoord",
+        "confirm_password":"Bevestig wachtwoord"
     }
 
 }

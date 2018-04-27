@@ -16,7 +16,8 @@
         "total":"Iomlán"
     },
     "page_setting":{
-        "tit":"Socruithe"
+        "tit":"Socruithe",
+        "select":"Roghnaigh"
     },
     "page_contacts":{
         "tit":"Leabhar seoladh",
@@ -58,6 +59,14 @@
             "tit":"Nóta a mhodhnú",
             "subtit":"Cuir nóta le fad nach mó ná 8 dhigit ar do chuntas"
         }
+    },
+    "page_home":{
+        "import_account":"Cuntas iompórtála",
+        "back_up_account":"Cuntas Cúltaca",
+        "add_account":"Cuntas nua",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasfhocal",
+        "confirm_password":"Dearbhaigh focal faire"
     }
 
 }

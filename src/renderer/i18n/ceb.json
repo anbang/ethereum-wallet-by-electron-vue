@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Mga Setting"
+        "tit":"Mga Setting",
+        "select":"Palihug pagpili"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -58,6 +59,14 @@
             "tit":"Usba ang mubo nga sulat",
             "subtit":"Pagsulod sa usa ka sulat nga adunay gitas-on nga dili molabaw sa 8 ka digit alang sa imong account"
         }
+    },
+    "page_home":{
+        "import_account":"Import account",
+        "back_up_account":"Tabang sa pag-backup",
+        "add_account":"Bag-ong asoy",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Sala",
+        "confirm_password":"Kumpirmahan ang password"
     }
 
 }

@@ -16,7 +16,8 @@
         "total":"Skupaj"
     },
     "page_setting":{
-        "tit":"Nastavitve"
+        "tit":"Nastavitve",
+        "select":"Prosim izberite"
     },
     "page_contacts":{
         "tit":"Imenik",
@@ -58,6 +59,14 @@
             "tit":"Spremeni beležko",
             "subtit":"Vnesite beležko z dolžino največ 8 znakov za svoj račun"
         }
+    },
+    "page_home":{
+        "import_account":"Uvoz računa",
+        "back_up_account":"Rezervni račun",
+        "add_account":"Nov račun",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Geslo",
+        "confirm_password":"Potrdite geslo"
     }
 
 }

@@ -16,7 +16,8 @@
         "total":"Tevahî"
     },
     "page_setting":{
-        "tit":"Mîhengên"
+        "tit":"Mîhengên",
+        "select":"Ji kerema xwe hilbijêrin"
     },
     "page_contacts":{
         "tit":"Pirtûka navnîşê",
@@ -56,8 +57,16 @@
         "copy_success":"Navnîşan qeydkirî ye",
         "edit_dia":{
             "tit":"Şirovekirin",
-            "subtit":"Têkiliya navnîşan ji bo 8 hejmaran ji bo hesabê we re binivîse"
+            "subtit":"Têkiliya navnîşan ji bo hejmara 8 hejmar ji bo hesabê we re binivîse"
         }
+    },
+    "page_home":{
+        "import_account":"Hesabê Import",
+        "back_up_account":"Hesabê Backup",
+        "add_account":"Hesabê nû",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Şîfreya",
+        "confirm_password":"Şîfreya piştrast bikin"
     }
 
 }

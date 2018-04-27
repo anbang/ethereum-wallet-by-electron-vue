@@ -16,7 +16,8 @@
         "total":"Kabuuang"
     },
     "page_setting":{
-        "tit":"Mga Setting"
+        "tit":"Mga Setting",
+        "select":"Mangyaring piliin"
     },
     "page_contacts":{
         "tit":"Address book",
@@ -58,6 +59,14 @@
             "tit":"Baguhin ang tala",
             "subtit":"Magpasok ng tala na may haba na hindi hihigit sa 8 na digit para sa iyong account"
         }
+    },
+    "page_home":{
+        "import_account":"Mag-import ng account",
+        "back_up_account":"Backup account",
+        "add_account":"Bagong account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Kumpirmahin ang password"
     }
 
 }

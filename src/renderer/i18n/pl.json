@@ -16,7 +16,8 @@
         "total":"Razem"
     },
     "page_setting":{
-        "tit":"Ustawienia"
+        "tit":"Ustawienia",
+        "select":"Proszę wybrać"
     },
     "page_contacts":{
         "tit":"Książka adresowa",
@@ -58,6 +59,14 @@
             "tit":"Zmodyfikuj notatkę",
             "subtit":"Wprowadź notatkę o długości nie większej niż 8 cyfr dla swojego konta"
         }
+    },
+    "page_home":{
+        "import_account":"Importuj konto",
+        "back_up_account":"Konto zapasowe",
+        "add_account":"Nowe konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Hasło",
+        "confirm_password":"Potwierdź hasło"
     }
 
 }

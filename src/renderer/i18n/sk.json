@@ -16,7 +16,8 @@
         "total":"totálnej"
     },
     "page_setting":{
-        "tit":"založiť"
+        "tit":"založiť",
+        "select":"Vyberte prosím"
     },
     "page_contacts":{
         "tit":"Adresár",
@@ -25,7 +26,7 @@
             "dialog_tit":"Zadajte informácie o adrese",
             "dialog_tag":"štítok",
             "tag_placeholder":"Zadajte značku komentára pre adresu",
-            "dialog_address":"address",
+            "dialog_address":"adresa",
             "address_placeholder":"Zadajte adresu"
         },
         "delete_dialog":{
@@ -58,6 +59,14 @@
             "tit":"Upraviť poznámku",
             "subtit":"Zadajte poznámku s dĺžkou maximálne 8 číslic pre váš účet"
         }
+    },
+    "page_home":{
+        "import_account":"Importný účet",
+        "back_up_account":"Zálohovací účet",
+        "add_account":"Nový účet",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"heslo",
+        "confirm_password":"Potvrďte heslo"
     }
 
 }

@@ -16,7 +16,8 @@
         "total":"Iyonke"
     },
     "page_setting":{
-        "tit":"Izicwangciso"
+        "tit":"Izicwangciso",
+        "select":"Nceda ukhethe"
     },
     "page_contacts":{
         "tit":"Incwadi yee dilesi",
@@ -58,6 +59,14 @@
             "tit":"Shintsha ingqalelo",
             "subtit":"Faka inqaku ngobude obungaphantsi kweenombolo eziyi-8 ze-akhawunti yakho"
         }
+    },
+    "page_home":{
+        "import_account":"Ngenisa i-akhawunti",
+        "back_up_account":"Akhawunti yokugcina",
+        "add_account":"Akhawunti entsha",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Iphasiwedi",
+        "confirm_password":"Qinisekisa iphasiwedi"
     }
 
 }

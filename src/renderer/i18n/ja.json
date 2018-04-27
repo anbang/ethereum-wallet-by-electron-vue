@@ -16,7 +16,8 @@
         "total":"合計"
     },
     "page_setting":{
-        "tit":"設定"
+        "tit":"設定",
+        "select":"選択してください"
     },
     "page_contacts":{
         "tit":"アドレス帳",
@@ -58,6 +59,14 @@
             "tit":"メモを変更する",
             "subtit":"あなたのアカウントの長さが8桁以下のメモを入力してください"
         }
+    },
+    "page_home":{
+        "import_account":"アカウントをインポートする",
+        "back_up_account":"バックアップアカウント",
+        "add_account":"新しいアカウント",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"パスワード",
+        "confirm_password":"パスワードを確認する"
     }
 
 }

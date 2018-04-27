@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Manangana"
+        "tit":"Manangana",
+        "select":"Mifantena azafady"
     },
     "page_contacts":{
         "tit":"Adiresy boky",
@@ -58,6 +59,14 @@
             "tit":"Hanova fanamarihana",
             "subtit":"Ampidiro marika tsy mihoatra ny 8 ny isa amin'ny kaontinao"
         }
+    },
+    "page_home":{
+        "import_account":"Ampidiro ny kaonty",
+        "back_up_account":"Kaonty backup",
+        "add_account":"New account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Hamarino ny tenimiafina"
     }
 
 }

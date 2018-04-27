@@ -16,7 +16,8 @@
         "total":"total"
     },
     "page_setting":{
-        "tit":"Configurarea"
+        "tit":"Configurarea",
+        "select":"Selectați"
     },
     "page_contacts":{
         "tit":"Agendă de adrese",
@@ -58,6 +59,14 @@
             "tit":"Modificați nota",
             "subtit":"Introduceți o notă cu o lungime de cel mult 8 cifre pentru contul dvs."
         }
+    },
+    "page_home":{
+        "import_account":"Contul de import",
+        "back_up_account":"Contul de rezervă",
+        "add_account":"Cont nou",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"parolă",
+        "confirm_password":"Confirmați parola"
     }
 
 }

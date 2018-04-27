@@ -16,7 +16,8 @@
         "total":"Iš viso"
     },
     "page_setting":{
-        "tit":"Nustatymai"
+        "tit":"Nustatymai",
+        "select":"Prašome pasirinkti"
     },
     "page_contacts":{
         "tit":"Adresų knyga",
@@ -58,6 +59,14 @@
             "tit":"Pakeisti pastabą",
             "subtit":"Įveskite pastabą, kurios ilgis neviršija 8 skaitmenų jūsų paskyrai"
         }
+    },
+    "page_home":{
+        "import_account":"Importuoti paskyrą",
+        "back_up_account":"Atsarginė sąskaita",
+        "add_account":"Nauja paskyra",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Slaptažodis",
+        "confirm_password":"Patvirtinkite slaptažodį"
     }
 
 }

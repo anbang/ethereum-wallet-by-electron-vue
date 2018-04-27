@@ -8,7 +8,7 @@
     <div class="setting-content">
             <div class="selected-wrap">
               <span>{{ $t('lang') }} </span>
-              <el-select v-model="value" placeholder="请选择" @change="selectVal">
+              <el-select v-model="value" @change="selectVal">
                 <el-option
                   v-for="item in options"
                   :key="item.value"
@@ -23,54 +23,62 @@
 
 <script>
 export default {
-  name: 'Setting',
-  data () {
+  name: "Setting",
+  data() {
     return {
-      selected: this.$db.get('czr_setting.lang').value(),
-      value: this.$db.get('czr_setting.lang').value()
-    }
+      selected: this.$db.get("czr_setting.lang").value(),
+      value: this.$db.get("czr_setting.lang").value()
+    };
   },
-  computed:{
-    options:function(){
-      var langs=this.$db.get('czr_setting.lang_conf').value();
-      var tempOption=[];
-      for(const lang in langs ){
+  computed: {
+    options: function() {
+      var langs = this.$db.get("czr_setting.lang_conf").value();
+      var tempOption = [];
+      for (const lang in langs) {
         tempOption.push({
-          value:lang,
-          label:langs[lang]
-        })
+          value: lang,
+          label: langs[lang]
+        });
       }
       return tempOption;
     }
   },
-  methods:{
-    selectVal:function (val){
-      //写入数据库
-      this.$db.read().set('czr_setting.lang',val).write()
-      //更新当前语言
+  methods: {
+    selectVal: function(val) {
+      //Write to the database
+      this.$db
+        .read()
+        .set("czr_setting.lang", val)
+        .write();
+      //Update current language
       this.$i18n.locale = val;
     }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.setting-banner{  
+.setting-banner {
   height: 175px;
-  background-color:#5a59a0 ;
+  background-color: #5a59a0;
   color: #fff;
   width: 100%;
   -webkit-user-select: none;
   position: relative;
 }
-.setting-banner .setting-tit{
+.setting-banner .setting-tit {
   height: 175px;
   line-height: 175px;
   font-weight: 400;
   font-size: 30px;
 }
-.setting-content{text-align: left;margin-top: 38px;}
-.selected-wrap{text-align: center;}
+.setting-content {
+  text-align: left;
+  margin-top: 38px;
+}
+.selected-wrap {
+  text-align: center;
+}
 /* .lang-label{padding-top: 6px;} */
 </style>

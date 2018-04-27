@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Pengaturan"
+        "tit":"Pengaturan",
+        "select":"Silakan pilih"
     },
     "page_contacts":{
         "tit":"Buku alamat",
@@ -58,6 +59,14 @@
             "tit":"Ubah catatan",
             "subtit":"Masukkan catatan dengan panjang tidak lebih dari 8 digit untuk akun Anda"
         }
+    },
+    "page_home":{
+        "import_account":"Impor akun",
+        "back_up_account":"Akun cadangan",
+        "add_account":"Akun baru",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kata sandi",
+        "confirm_password":"Konfirmasi kata sandi"
     }
 
 }

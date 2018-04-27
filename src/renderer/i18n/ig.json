@@ -16,7 +16,8 @@
         "total":"Ọnụ"
     },
     "page_setting":{
-        "tit":"Ntọala"
+        "tit":"Ntọala",
+        "select":"Biko họrọ"
     },
     "page_contacts":{
         "tit":"Akwụkwọ akwụkwọ",
@@ -58,6 +59,14 @@
             "tit":"Gbanwee ederede",
             "subtit":"Tinye ederede na ogologo oge karịa 8 digit maka akaụntụ gị"
         }
+    },
+    "page_home":{
+        "import_account":"Bubata akaụntụ",
+        "back_up_account":"Akaụntụ ndabere",
+        "add_account":"Akaụntụ ọhụrụ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Okwuntughe",
+        "confirm_password":"Kwenye paswọọdụ"
     }
 
 }

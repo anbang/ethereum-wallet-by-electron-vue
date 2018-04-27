@@ -16,7 +16,8 @@
         "total":"Tuta"
     },
     "page_setting":{
-        "tit":"Agordoj"
+        "tit":"Agordoj",
+        "select":"Bonvolu elekti"
     },
     "page_contacts":{
         "tit":"Libro de adresoj",
@@ -58,6 +59,14 @@
             "tit":"Modifi noton",
             "subtit":"Enmetu noton kun pli ol 8 ciferoj por via konto"
         }
+    },
+    "page_home":{
+        "import_account":"Importi konton",
+        "back_up_account":"Rezerva konton",
+        "add_account":"Nova konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasvorto",
+        "confirm_password":"Konfirmu pasvorton"
     }
 
 }

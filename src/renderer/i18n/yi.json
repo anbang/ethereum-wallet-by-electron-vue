@@ -16,7 +16,8 @@
         "total":"גאַנץ"
     },
     "page_setting":{
-        "tit":"Settings"
+        "tit":"Settings",
+        "select":"ביטע אויסקלייַבן"
     },
     "page_contacts":{
         "tit":"אַדרעס בוך",
@@ -58,6 +59,14 @@
             "tit":"Modify note",
             "subtit":"אַרייַן אַ טאָן מיט אַ לענג פון ניט מער ווי 8 דידזשאַץ פֿאַר דיין חשבון"
         }
+    },
+    "page_home":{
+        "import_account":"אַרייַנפיר חשבון",
+        "back_up_account":"באַקקופּ חשבון",
+        "add_account":"New account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"באַשטעטיקן שפּריכוואָרט"
     }
 
 }

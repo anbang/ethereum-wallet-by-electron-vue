@@ -16,7 +16,8 @@
         "total":"Kokku"
     },
     "page_setting":{
-        "tit":"Seaded"
+        "tit":"Seaded",
+        "select":"Palun vali"
     },
     "page_contacts":{
         "tit":"Aadressiraamat",
@@ -58,6 +59,14 @@
             "tit":"Muuda märkmeid",
             "subtit":"Sisestage kontole pikkusega kuni 8 numbrit"
         }
+    },
+    "page_home":{
+        "import_account":"Impordi konto",
+        "back_up_account":"Varukoopia konto",
+        "add_account":"Uus konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parool",
+        "confirm_password":"Kinnitage parool"
     }
 
 }

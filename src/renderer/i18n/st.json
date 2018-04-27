@@ -16,7 +16,8 @@
         "total":"Kakaretso"
     },
     "page_setting":{
-        "tit":"Lisebelisoa"
+        "tit":"Lisebelisoa",
+        "select":"Ka kopo khetha"
     },
     "page_contacts":{
         "tit":"Buka ea Aterese",
@@ -56,8 +57,16 @@
         "copy_success":"Aterese e kopitsoe",
         "edit_dia":{
             "tit":"Fetola tsebiso",
-            "subtit":"Kenya lengolo le bolelele ba linomoro tse fetang 8 bakeng sa akhaonto ea hau"
+            "subtit":"Kenya lengolo le bolelele ba litefiso tse fetang 8 tsa akhaonto ea hau"
         }
+    },
+    "page_home":{
+        "import_account":"Kenya akhaonto",
+        "back_up_account":"Boloka account",
+        "add_account":"Tlaleho e ncha",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Netewete",
+        "confirm_password":"Netefatsa password"
     }
 
 }

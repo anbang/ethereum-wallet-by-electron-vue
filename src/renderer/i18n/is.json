@@ -16,7 +16,8 @@
         "total":"Samtals"
     },
     "page_setting":{
-        "tit":"Stillingar"
+        "tit":"Stillingar",
+        "select":"Vinsamlegast veldu"
     },
     "page_contacts":{
         "tit":"Heimilisfang bók",
@@ -58,6 +59,14 @@
             "tit":"Breyta athugasemd",
             "subtit":"Sláðu inn minnismiða með lengd sem er ekki meira en 8 tölustafir fyrir reikninginn þinn"
         }
+    },
+    "page_home":{
+        "import_account":"Innflutningur reikningur",
+        "back_up_account":"Backup reikningur",
+        "add_account":"Nýr reikningur",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Lykilorð",
+        "confirm_password":"Staðfestu lykilorð"
     }
 
 }

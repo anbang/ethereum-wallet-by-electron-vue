@@ -16,7 +16,8 @@
         "total":"Jumla"
     },
     "page_setting":{
-        "tit":"Mipangilio"
+        "tit":"Mipangilio",
+        "select":"Tafadhali chagua"
     },
     "page_contacts":{
         "tit":"Kitabu cha anwani",
@@ -58,6 +59,14 @@
             "tit":"Badilisha maelezo",
             "subtit":"Ingiza safu kwa urefu wa tarakimu zaidi ya 8 za akaunti yako"
         }
+    },
+    "page_home":{
+        "import_account":"Ingiza akaunti",
+        "back_up_account":"Backup akaunti",
+        "add_account":"Akaunti mpya",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Nenosiri",
+        "confirm_password":"Thibitisha nenosiri"
     }
 
 }

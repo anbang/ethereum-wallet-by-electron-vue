@@ -16,7 +16,8 @@
         "total":"Ümumi"
     },
     "page_setting":{
-        "tit":"Ayarlar"
+        "tit":"Ayarlar",
+        "select":"Xahiş edirik seçin"
     },
     "page_contacts":{
         "tit":"Ünvan kitab",
@@ -58,6 +59,14 @@
             "tit":"Notu dəyişdirin",
             "subtit":"Hesabınız üçün ən çox 8 rəqəmdən ibarət olan bir not daxil edin"
         }
+    },
+    "page_home":{
+        "import_account":"İdxal hesabı",
+        "back_up_account":"Backup hesabı",
+        "add_account":"Yeni hesab",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Şifrə",
+        "confirm_password":"Şifrəni təsdiqləyin"
     }
 
 }

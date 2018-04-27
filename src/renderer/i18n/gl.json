@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Configuración"
+        "tit":"Configuración",
+        "select":"Selecciona"
     },
     "page_contacts":{
         "tit":"Caderno de enderezos",
@@ -58,6 +59,14 @@
             "tit":"Modificar nota",
             "subtit":"Insira unha nota cunha lonxitude de non máis de 8 díxitos para a súa conta"
         }
+    },
+    "page_home":{
+        "import_account":"Importar conta",
+        "back_up_account":"Conta de copia de seguridade",
+        "add_account":"Nova conta",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Contrasinal",
+        "confirm_password":"Confirmar o contrasinal"
     }
 
 }

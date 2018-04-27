@@ -16,7 +16,8 @@
         "total":"Total"
     },
     "page_setting":{
-        "tit":"Zvirongwa"
+        "tit":"Zvirongwa",
+        "select":"Ndapota sarudza"
     },
     "page_contacts":{
         "tit":"Bhuku rebhuku",
@@ -43,7 +44,7 @@
         "total":"Total",
         "select":"Ndapota sarudza",
         "confirmDia":{
-            "title":"Ndapota fungidzira",
+            "title":"Ndapota chengetedza",
             "enter_passworld_tit":"Ndapota nyora password yako",
             "enter_passworld_place":"Ndapota nyora password yako"
         }
@@ -58,6 +59,14 @@
             "tit":"Shandura nyora",
             "subtit":"Isa chinyorwa nehurefu hwepasina mairi 8 maverengi eakaunti yako"
         }
+    },
+    "page_home":{
+        "import_account":"Tumira nhoroondo",
+        "back_up_account":"Backup account",
+        "add_account":"Nhoroondo itsva",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Tsimbisa password"
     }
 
 }

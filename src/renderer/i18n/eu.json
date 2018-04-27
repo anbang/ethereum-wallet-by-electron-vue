@@ -16,7 +16,8 @@
         "total":"Guztira"
     },
     "page_setting":{
-        "tit":"Ezarri"
+        "tit":"Ezarri",
+        "select":"Aukeratu ezazu"
     },
     "page_contacts":{
         "tit":"Helbide liburua",
@@ -58,6 +59,14 @@
             "tit":"Aldatu oharra",
             "subtit":"Idatzi ohar bat zure konturako 8 digitu baino gehiagoko luzerarekin"
         }
+    },
+    "page_home":{
+        "import_account":"Inportatu kontua",
+        "back_up_account":"Babeskopiaren kontua",
+        "add_account":"Kontu berria",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasahitza",
+        "confirm_password":"Berretsi pasahitza"
     }
 
 }

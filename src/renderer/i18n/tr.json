@@ -16,7 +16,8 @@
         "total":"toplam"
     },
     "page_setting":{
-        "tit":"kurmak"
+        "tit":"kurmak",
+        "select":"Seçiniz"
     },
     "page_contacts":{
         "tit":"Adres defteri",
@@ -58,6 +59,14 @@
             "tit":"Notu değiştir",
             "subtit":"Hesabınız için 8 haneden fazla olmayan bir not girin"
         }
+    },
+    "page_home":{
+        "import_account":"İthalat hesabı",
+        "back_up_account":"Yedek hesap",
+        "add_account":"Yeni hesap",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"şifre",
+        "confirm_password":"Şifreyi onayla"
     }
 
 }

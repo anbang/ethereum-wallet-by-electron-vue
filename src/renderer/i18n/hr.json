@@ -16,7 +16,8 @@
         "total":"ukupno"
     },
     "page_setting":{
-        "tit":"postaviti"
+        "tit":"postaviti",
+        "select":"Molimo odaberite"
     },
     "page_contacts":{
         "tit":"Adresar",
@@ -58,6 +59,14 @@
             "tit":"Izmijenite bilješku",
             "subtit":"Unesite bilješku s duljinom od najviše 8 znamenki za svoj račun"
         }
+    },
+    "page_home":{
+        "import_account":"Uvoz računa",
+        "back_up_account":"Sigurnosni račun",
+        "add_account":"Novi račun",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"lozinka",
+        "confirm_password":"Potvrdite lozinku"
     }
 
 }

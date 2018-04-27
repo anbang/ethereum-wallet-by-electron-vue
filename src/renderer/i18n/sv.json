@@ -16,7 +16,8 @@
         "total":"total"
     },
     "page_setting":{
-        "tit":"Ställ in"
+        "tit":"Ställ in",
+        "select":"Vänligen välj"
     },
     "page_contacts":{
         "tit":"Adressbok",
@@ -58,6 +59,14 @@
             "tit":"Ändra anteckning",
             "subtit":"Ange en anteckning med en längd av högst 8 siffror för ditt konto"
         }
+    },
+    "page_home":{
+        "import_account":"Importera konto",
+        "back_up_account":"Backup-konto",
+        "add_account":"Nytt konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"lösenord",
+        "confirm_password":"Bekräfta lösenordet"
     }
 
 }

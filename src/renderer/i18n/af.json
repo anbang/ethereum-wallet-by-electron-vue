@@ -16,7 +16,8 @@
         "total":"totale"
     },
     "page_setting":{
-        "tit":"opstel"
+        "tit":"opstel",
+        "select":"Kies asseblief"
     },
     "page_contacts":{
         "tit":"Adresboek",
@@ -58,6 +59,14 @@
             "tit":"Wysig nota",
             "subtit":"Voer 'n nota in met 'n lengte van nie meer as 8 syfers vir jou rekening nie"
         }
+    },
+    "page_home":{
+        "import_account":"Invoer rekening",
+        "back_up_account":"Rugsteunrekening",
+        "add_account":"Nuwe rekening",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"wagwoord",
+        "confirm_password":"Bevestig wagwoord"
     }
 
 }
