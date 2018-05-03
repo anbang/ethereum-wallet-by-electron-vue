@@ -66,7 +66,10 @@
         "add_account":"Nieuw account",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"wachtwoord",
-        "confirm_password":"Bevestig wachtwoord"
+        "confirm_password":"Bevestig wachtwoord",
+        
+        "remove_prompt":"Weet je zeker dat je wilt verwijderen?",
+        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
     }
 
 }

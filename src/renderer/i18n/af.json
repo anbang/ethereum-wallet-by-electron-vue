@@ -66,7 +66,10 @@
         "add_account":"Nuwe rekening",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"wagwoord",
-        "confirm_password":"Bevestig wagwoord"
+        "confirm_password":"Bevestig wagwoord",
+        
+        "remove_prompt":"Is jy seker jy wil verwyder?",
+        "please_back_up":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
     }
 
 }

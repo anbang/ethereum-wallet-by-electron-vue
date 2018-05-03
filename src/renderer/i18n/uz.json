@@ -66,7 +66,10 @@
         "add_account":"Yangi hisob",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Parol",
-        "confirm_password":"Parolni tasdiqlang"
+        "confirm_password":"Parolni tasdiqlang",
+        
+        "remove_prompt":"Siz o'chirmoqchimisiz?",
+        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
     }
 
 }

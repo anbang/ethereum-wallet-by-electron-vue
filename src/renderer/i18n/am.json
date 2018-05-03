@@ -66,7 +66,10 @@
         "add_account":"አዲስ መለያ",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"የይለፍ ቃል",
-        "confirm_password":"የይለፍ ቃል አረጋግጥ"
+        "confirm_password":"የይለፍ ቃል አረጋግጥ",
+        
+        "remove_prompt":"እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
+        "please_back_up":"እባክዎ የንብረት ጉዳት እንዳይደርስበት ሂሳቡ እንደተቀመጠ እርግጠኛ ይሁኑ"
     }
 
 }

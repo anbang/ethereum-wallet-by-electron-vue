@@ -57,7 +57,7 @@
         "copy_success":"Chaw nyob tau luam tawm",
         "edit_dia":{
             "tit":"Hloov ntawv",
-            "subtit":"Sau ib daim ntawv nrog ntev tsis pub tsawg tshaj 8 tus lej rau koj tus account"
+            "subtit":"Sau ib daim ntawv nrog ntev ntev tsis tshaj 8 tus lej rau koj tus account"
         }
     },
     "page_home":{
@@ -66,7 +66,10 @@
         "add_account":"Tshiab tus account",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Lo lus zais",
-        "confirm_password":"Confirm password"
+        "confirm_password":"Confirm password",
+        
+        "remove_prompt":"Koj puas paub tseeb tias koj xav rho tawm?",
+        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
     }
 
 }

@@ -66,7 +66,10 @@
         "add_account":"Neie Kont",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Passwuert",
-        "confirm_password":"Confirmatioun vum Passwuert"
+        "confirm_password":"Confirmatioun vum Passwuert",
+        
+        "remove_prompt":"Sidd Dir sécher datt Dir wëllt läschen?",
+        "please_back_up":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
     }
 
 }

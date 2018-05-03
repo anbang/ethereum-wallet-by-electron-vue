@@ -66,7 +66,10 @@
         "add_account":"Tài khoản mới",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Mật khẩu",
-        "confirm_password":"Xác nhận mật khẩu"
+        "confirm_password":"Xác nhận mật khẩu",
+        
+        "remove_prompt":"Bạn có chắc chắn muốn xóa không?",
+        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
     }
 
 }

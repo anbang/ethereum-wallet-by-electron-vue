@@ -66,7 +66,10 @@
         "add_account":"Nhoroondo itsva",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Password",
-        "confirm_password":"Tsimbisa password"
+        "confirm_password":"Tsimbisa password",
+        
+        "remove_prompt":"Unonyatsoziva here kuti unoda kubvisa?",
+        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
     }
 
 }

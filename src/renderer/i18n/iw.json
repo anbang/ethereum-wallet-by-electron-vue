@@ -66,7 +66,10 @@
         "add_account":"חשבון חדש",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"סיסמה",
-        "confirm_password":"אשר סיסמה"
+        "confirm_password":"אשר סיסמה",
+        
+        "remove_prompt":"האם אתה בטוח שברצונך למחוק?",
+        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
     }
 
 }

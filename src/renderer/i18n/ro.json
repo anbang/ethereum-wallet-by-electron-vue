@@ -66,7 +66,10 @@
         "add_account":"Cont nou",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"parolă",
-        "confirm_password":"Confirmați parola"
+        "confirm_password":"Confirmați parola",
+        
+        "remove_prompt":"Sigur doriți să ștergeți?",
+        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
     }
 
 }

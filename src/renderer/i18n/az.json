@@ -66,7 +66,10 @@
         "add_account":"Yeni hesab",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Şifrə",
-        "confirm_password":"Şifrəni təsdiqləyin"
+        "confirm_password":"Şifrəni təsdiqləyin",
+        
+        "remove_prompt":"Silmək istədiyinizə əminsiniz?",
+        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
     }
 
 }

@@ -66,7 +66,10 @@
         "add_account":"Pūkete hou",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Kupuhipa",
-        "confirm_password":"Whakaae i te kupuhipa"
+        "confirm_password":"Whakaae i te kupuhipa",
+        
+        "remove_prompt":"Kei te hiahia koe kia muku?",
+        "please_back_up":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
     }
 
 }

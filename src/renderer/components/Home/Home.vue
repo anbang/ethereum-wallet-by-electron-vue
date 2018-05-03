@@ -14,7 +14,7 @@
                         <div class="account-avatar">
                           <i class="iconfont ico-avatar">&#xe602;</i>
                         </div>
-                        <i class="iconfont delete-acc">&#xe613;</i>
+                        <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">{{account.tag}}</p>
                             <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
@@ -54,6 +54,22 @@
           </span>
         </el-dialog>
 
+        <el-dialog
+          :title="$t('page_home.remove_prompt')"
+          :visible.sync="removeAccDiaVisible"
+          width="70%" >
+          <span>
+            <p class="remove-acc">
+              {{this.currentRemoveAcc}}
+            </p>
+            {{$t('page_home.please_back_up')}}
+          </span>
+          <span slot="footer" class="dialog-footer">
+            <el-button @click="removeAccDiaVisible = false">{{ $t('cancel') }}</el-button>
+            <el-button type="primary" @click="removeAccount">{{ $t('confirm') }}</el-button>
+          </span>
+        </el-dialog>
+
     </div>
 
 </template>
@@ -65,6 +81,7 @@ const path = require("path");
 //backup
 const shell = require("electron").shell;
 import { remote, app } from "electron";
+import { fail } from 'assert';
 const APP = process.type === "renderer" ? remote.app : app;
 const STORE_PATH = APP.getPath("userData");
 console.log("PATH", STORE_PATH);
@@ -98,6 +115,8 @@ export default {
     };
     return {
       addPwdDiaVisible: false,
+      removeAccDiaVisible:false,
+      currentRemoveAcc:"",
       ruleForm2: {
         pass: "",
         checkPass: ""
@@ -150,6 +169,7 @@ export default {
 
     //addAccount
     addAccount: function() {
+      // DEMO path /Users/broszhu/Library/Ethereum/keystore
       console.log("22 2", web3);
       var self = this;
       if (
@@ -175,6 +195,39 @@ export default {
         this.addPwdDiaVisible = false;
         //TODO Page update new account
       }
+    },
+    showRemoveDia:function(currentAcc){
+      this.currentRemoveAcc=currentAcc;
+      this.removeAccDiaVisible=true;
+    },
+    removeAccount:function(){
+      //selected acc
+      var self=this;
+      var filePath = "/Users/broszhu/Library/Ethereum/keystore";//demo path
+      var files = fs.readdirSync(filePath);
+      files.forEach(function(filename) {
+        var filedir = path.join(filePath, filename);//currentFile
+        //Get file information based on file path, return an fs.Stats object
+        var stats = fs.statSync(filedir);
+        var isFile = stats.isFile();
+        if (isFile) {
+          var tempFile = fs.readFileSync(filedir).toString();
+          try {
+            var tempAcc = JSON.parse(tempFile).address;
+            console.log("current Acc",tempAcc)
+            if(tempAcc==self.currentRemoveAcc){
+              console.log("HAHAHA DEL",filedir)
+              fs.unlinkSync(filedir);
+              self.removeAccDiaVisible=false;
+            }
+          } catch (err) {
+            // console.log('err', err)
+          }
+        }
+      });
+
+      //TODO update current account list
+      window.location.reload();
     }
   }
 };
@@ -309,5 +362,8 @@ export default {
 
 .demo-hist {
   margin-top: 200px;
+}
+.remove-acc{
+  color: #F56C6C;
 }
 </style>

@@ -66,7 +66,10 @@
         "add_account":"Akun anyar",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Pangguna Sandi",
-        "confirm_password":"Konfirmasi tembung sandi"
+        "confirm_password":"Konfirmasi tembung sandi",
+        
+        "remove_prompt":"Apa sampeyan pengin mbusak?",
+        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
     }
 
 }

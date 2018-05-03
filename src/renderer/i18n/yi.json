@@ -66,7 +66,10 @@
         "add_account":"New account",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Password",
-        "confirm_password":"באַשטעטיקן שפּריכוואָרט"
+        "confirm_password":"באַשטעטיקן שפּריכוואָרט",
+        
+        "remove_prompt":"זענט איר זיכער איר ווילן צו ויסמעקן?",
+        "please_back_up":"ביטע פארזיכערן אז די אקאונט איז באשטעטיגט געווארן צו פארמיידן אייגענע שאדן"
     }
 
 }

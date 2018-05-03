@@ -66,7 +66,10 @@
         "add_account":"Cunntas ùr",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Facal-faire",
-        "confirm_password":"Dearbhaich am facal-faire"
+        "confirm_password":"Dearbhaich am facal-faire",
+        
+        "remove_prompt":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
+        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
     }
 
 }

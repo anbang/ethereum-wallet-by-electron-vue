@@ -66,7 +66,10 @@
         "add_account":"Tala fou",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Motugaafa",
-        "confirm_password":"Faʻamaonia le faʻamaonia"
+        "confirm_password":"Faʻamaonia le faʻamaonia",
+        
+        "remove_prompt":"E te mautinoa e te manaʻo e faʻamalo?",
+        "please_back_up":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino"
     }
 
 }

@@ -57,7 +57,7 @@
         "copy_success":"Cinwaanka ayaa la daabacay",
         "edit_dia":{
             "tit":"Bedel qoraalka",
-            "subtit":"Ku qor qori dhererka wax ka badan 8 lambar xisaabtaada"
+            "subtit":"Ku qor qori dhererka aan ka badnayn 8 lambar xisaabtaada"
         }
     },
     "page_home":{
@@ -66,7 +66,10 @@
         "add_account":"Koontada cusub",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Furaha",
-        "confirm_password":"Xaqiiji sirta"
+        "confirm_password":"Xaqiiji sirta",
+        
+        "remove_prompt":"Ma hubtaa inaad rabto inaad tirtirto?",
+        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
     }
 
 }

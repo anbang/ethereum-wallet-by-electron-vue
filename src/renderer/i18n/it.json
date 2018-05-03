@@ -66,7 +66,10 @@
         "add_account":"Nuovo account",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"password",
-        "confirm_password":"Conferma password"
+        "confirm_password":"Conferma password",
+        
+        "remove_prompt":"Sei sicuro di voler eliminare?",
+        "please_back_up":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
     }
 
 }

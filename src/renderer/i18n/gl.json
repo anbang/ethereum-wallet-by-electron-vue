@@ -66,7 +66,10 @@
         "add_account":"Nova conta",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Contrasinal",
-        "confirm_password":"Confirmar o contrasinal"
+        "confirm_password":"Confirmar o contrasinal",
+        
+        "remove_prompt":"¿Estás seguro de que queres eliminar?",
+        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
     }
 
 }

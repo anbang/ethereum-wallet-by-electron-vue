@@ -66,7 +66,10 @@
         "add_account":"Nouvo kont",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Modpas",
-        "confirm_password":"Konfime modpas"
+        "confirm_password":"Konfime modpas",
+        
+        "remove_prompt":"Èske ou sèten ou vle efase?",
+        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj sou pwopriyete a"
     }
 
 }

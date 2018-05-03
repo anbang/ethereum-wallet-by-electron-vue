@@ -66,7 +66,10 @@
         "add_account":"Akhawunti entsha",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Iphasiwedi",
-        "confirm_password":"Qinisekisa iphasiwedi"
+        "confirm_password":"Qinisekisa iphasiwedi",
+        
+        "remove_prompt":"Uqinisekile ukuba ufuna ukususa?",
+        "please_back_up":"Nceda uqinisekise ukuba i-akhawunti ixhaswe ukukhusela umonakalo wepropati"
     }
 
 }

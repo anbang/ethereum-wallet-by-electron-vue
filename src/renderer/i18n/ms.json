@@ -66,7 +66,10 @@
         "add_account":"Akaun baru",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Kata laluan",
-        "confirm_password":"Sahkan kata laluan"
+        "confirm_password":"Sahkan kata laluan",
+        
+        "remove_prompt":"Adakah anda pasti mahu memadamkannya?",
+        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
     }
 
 }

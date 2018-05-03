@@ -66,7 +66,10 @@
         "add_account":"Uusi tili",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"salasana",
-        "confirm_password":"Vahvista salasana"
+        "confirm_password":"Vahvista salasana",
+        
+        "remove_prompt":"Haluatko varmasti poistaa?",
+        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
     }
 
 }

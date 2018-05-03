@@ -66,7 +66,10 @@
         "add_account":"Cyfrif newydd",
         "add_prompt":"输入一个强密码（ 至少9位 ）",
         "password":"Cyfrinair",
-        "confirm_password":"Cadarnhau cyfrinair"
+        "confirm_password":"Cadarnhau cyfrinair",
+        
+        "remove_prompt":"Ydych chi'n siŵr eich bod am ddileu?",
+        "please_back_up":"Gwnewch yn siŵr bod y cyfrif wedi'i gefnogi i osgoi difrod i eiddo"
     }
 
 }
