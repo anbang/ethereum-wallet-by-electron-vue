@@ -69,7 +69,12 @@
         "confirm_password":"Jelszó megerősítése",
         
         "remove_prompt":"Biztosan törölni akarja?",
-        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
+        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta",
+
+        "import_prompt":"Van már egy CZR pénztárcája?",
+        "import_step":"Húzza a pénztárca fájlját itt",
+        "import_or":"vagy",
+        "import_click_up":"Hozzáadás hozzáadásához"
     }
 
 }

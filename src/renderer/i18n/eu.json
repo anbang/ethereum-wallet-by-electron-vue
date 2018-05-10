@@ -69,7 +69,12 @@
         "confirm_password":"Berretsi pasahitza",
         
         "remove_prompt":"Ziur al zaude ezabatu nahi duzula?",
-        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
+        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko",
+
+        "import_prompt":"Dagoeneko CZR zorroa al duzu?",
+        "import_step":"Arrastatu zure zorro fitxategia hemen",
+        "import_or":"edo",
+        "import_click_up":"Egin klik sartzeko"
     }
 
 }

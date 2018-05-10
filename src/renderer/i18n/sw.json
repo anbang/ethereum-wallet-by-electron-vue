@@ -69,7 +69,12 @@
         "confirm_password":"Thibitisha nenosiri",
         
         "remove_prompt":"Una uhakika unataka kufuta?",
-        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
+        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali",
+
+        "import_prompt":"Je, tayari una mkoba wa CZR?",
+        "import_step":"Drag faili yako ya mkoba hapa",
+        "import_or":"Au",
+        "import_click_up":"Bofya ili kuongeza"
     }
 
 }

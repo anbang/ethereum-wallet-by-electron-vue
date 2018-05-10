@@ -69,7 +69,12 @@
         "confirm_password":"Dearbhaigh focal faire",
         
         "remove_prompt":"An bhfuil tú cinnte gur mhaith leat a scriosadh?",
-        "please_back_up":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
+        "please_back_up":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint",
+
+        "import_prompt":"An bhfuil sparán CZR agat cheana féin?",
+        "import_step":"Tarraing do chomhad sparán anseo",
+        "import_or":"Nó",
+        "import_click_up":"Cliceáil chun cur leis"
     }
 
 }

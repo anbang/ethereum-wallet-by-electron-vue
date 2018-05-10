@@ -69,7 +69,12 @@
         "confirm_password":"Potvrdite lozinku",
         
         "remove_prompt":"Jeste li sigurni da želite izbrisati?",
-        "please_back_up":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
+        "please_back_up":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine",
+
+        "import_prompt":"Imate li već novčanik CZR?",
+        "import_step":"Ovdje povucite datoteku lisnice",
+        "import_or":"ili",
+        "import_click_up":"Kliknite da biste dodali"
     }
 
 }

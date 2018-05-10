@@ -69,7 +69,12 @@
         "confirm_password":"Whakaae i te kupuhipa",
         
         "remove_prompt":"Kei te hiahia koe kia muku?",
-        "please_back_up":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
+        "please_back_up":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa",
+
+        "import_prompt":"Kei a koe he putea CZR?",
+        "import_step":"Putahia to peke putea ki konei",
+        "import_or":"Or",
+        "import_click_up":"Pāwhiri hei tāpiri"
     }
 
 }

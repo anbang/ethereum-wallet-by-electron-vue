@@ -3,7 +3,7 @@
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
-                <button class="bui-button">{{ $t('page_home.import_account') }}</button>
+                <button class="bui-button" @click="importAccount">{{ $t('page_home.import_account') }}</button>
                 <button class="bui-button" @click="openFolder">{{ $t('page_home.back_up_account') }}</button>
             </div>
         </div>
@@ -70,6 +70,20 @@
           </span>
         </el-dialog>
 
+
+        <el-dialog
+          :title="$t('page_home.import_prompt')"
+          :visible.sync="importAccDiaVisible"
+          width="70%" >
+          <span>
+              <input type="file" id='userImport' enctype="multipart/form-data">
+          </span>
+          <span slot="footer" class="dialog-footer">
+            <el-button @click="importAccDiaVisible = false">{{ $t('cancel') }}</el-button>
+            <el-button type="primary" @click="importAcc">{{ $t('confirm') }}</el-button>
+          </span>
+        </el-dialog>
+
     </div>
 
 </template>
@@ -116,6 +130,7 @@ export default {
     return {
       addPwdDiaVisible: false,
       removeAccDiaVisible:false,
+      importAccDiaVisible:false,
       currentRemoveAcc:"",
       ruleForm2: {
         pass: "",
@@ -124,7 +139,8 @@ export default {
       rules2: {
         pass: [{ validator: validatePass, trigger: "blur" }],
         checkPass: [{ validator: validatePass2, trigger: "blur" }]
-      }
+      },
+      importAccFile:""
     };
   },
   filters: {
@@ -162,9 +178,29 @@ export default {
     }
   },
   methods: {
+    //importAccount
+    importAccount:function(){
+      this.importAccDiaVisible= true;
+    },
+    importAcc: function() {
+      var userImport = document.getElementById("userImport").files[0];
+      var userImportPath = userImport.path;//源文件路径
+      var userImportName = userImport.name;//源文件路径
+      //复制到目标那里 /Users/broszhu/Library/Ethereum/keystore
+      var targetPath='/Users/broszhu/Library/Ethereum/keystore/'+userImportName;
+      fs.createReadStream(userImportPath).pipe(fs.createWriteStream(targetPath));
+      this.importAccDiaVisible= false;
+      window.location.reload();
+
+      console.log(userImport, userImportPath);
+    },
     // Backup account
     openFolder: function() {
-      shell.showItemInFolder(STORE_PATH + "/accounts");
+      // /Users/broszhu/Library/Ethereum/keystore
+      // /Users/broszhu/Library/Application Support/Electron
+
+      // shell.showItemInFolder(STORE_PATH + "/accounts");
+      shell.showItemInFolder("/Users/broszhu/Library/Ethereum/keystore");
     },
 
     //addAccount

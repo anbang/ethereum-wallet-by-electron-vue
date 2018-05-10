@@ -69,7 +69,12 @@
         "confirm_password":"Potvrdite lozinku",
         
         "remove_prompt":"Da li ste sigurni da želite da izbrišete?",
-        "please_back_up":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
+        "please_back_up":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu",
+
+        "import_prompt":"Da li već imate novčanik CZR?",
+        "import_step":"Prevucite datoteku novčanika ovde",
+        "import_or":"Or",
+        "import_click_up":"Kliknite za dodavanje"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Patvirtinkite slaptažodį",
         
         "remove_prompt":"Ar tikrai norite ištrinti?",
-        "please_back_up":"Įsitikinkite, kad paskyra buvo atsarginė, kad išvengtumėte žalos"
+        "please_back_up":"Įsitikinkite, kad paskyra buvo atsarginė, kad išvengtumėte žalos",
+
+        "import_prompt":"Ar jau turite CZR piniginę?",
+        "import_step":"Vilkite savo piniginės failą čia",
+        "import_or":"Or",
+        "import_click_up":"Spustelėkite, jei norite pridėti"
     }
 
 }

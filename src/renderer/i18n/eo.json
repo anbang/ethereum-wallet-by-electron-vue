@@ -69,7 +69,12 @@
         "confirm_password":"Konfirmu pasvorton",
         
         "remove_prompt":"Ĉu vi certas, ke vi volas forigi?",
-        "please_back_up":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
+        "please_back_up":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn",
+
+        "import_prompt":"Ĉu vi jam havas CZR-monujon?",
+        "import_step":"Trenu ĉi tie vian dosierujon",
+        "import_or":"Aŭ",
+        "import_click_up":"Alklaku por aldoni"
     }
 
 }

@@ -4,7 +4,7 @@
     "cancel":"Annulearje",
     "dialog_tit":"Prompt",
     "close":"Closed",
-    "confirm_you_active":"Befêstigje jo operaasje",
+    "confirm_you_active":"Besykje jo operaasje befêstigje",
     "unit":{
         "czr":"CZR"
     },
@@ -69,7 +69,12 @@
         "confirm_password":"Befêstigje wachtwurd",
         
         "remove_prompt":"Binne jo wis dat jo wiskje wolle?",
-        "please_back_up":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen"
+        "please_back_up":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen",
+
+        "import_prompt":"Hawwe jo al in CZR-jaske?",
+        "import_step":"Sleep jo wallet bestân hjir",
+        "import_or":"Or",
+        "import_click_up":"Klik om te tafoege"
     }
 
 }

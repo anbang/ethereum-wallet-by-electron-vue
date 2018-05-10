@@ -69,7 +69,12 @@
         "confirm_password":"Konfime modpas",
         
         "remove_prompt":"Èske ou sèten ou vle efase?",
-        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj sou pwopriyete a"
+        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete",
+
+        "import_prompt":"Ou deja gen yon bous CZR?",
+        "import_step":"Trennen dosye bous ou isit la",
+        "import_or":"Oswa",
+        "import_click_up":"Klike sou yo ajoute"
     }
 
 }

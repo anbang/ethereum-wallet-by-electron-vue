@@ -69,7 +69,12 @@
         "confirm_password":"Potwierdź hasło",
         
         "remove_prompt":"Czy na pewno chcesz usunąć?",
-        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
+        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności",
+
+        "import_prompt":"Czy masz już portfel CZR?",
+        "import_step":"Przeciągnij tutaj swój portfel",
+        "import_or":"Or",
+        "import_click_up":"Kliknij, aby dodać"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Hamarino ny tenimiafina",
         
         "remove_prompt":"Azonao antoka ve fa te-hamafa ianao?",
-        "please_back_up":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
+        "please_back_up":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana",
+
+        "import_prompt":"Efa manana kitapo CZR ve ianao?",
+        "import_step":"Vahao eto ny rakitra misy ny kitaponao",
+        "import_or":"na",
+        "import_click_up":"Click to add"
     }
 
 }

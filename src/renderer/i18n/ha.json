@@ -69,7 +69,12 @@
         "confirm_password":"Tabbatar da kalmar sirri",
         
         "remove_prompt":"Kuna tabbatar kana so ka share?",
-        "please_back_up":"Da fatan a tabbatar cewa an goge bayanan ne don kaucewa lalacewar dukiya"
+        "please_back_up":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya",
+
+        "import_prompt":"Kuna da walat CZR?",
+        "import_step":"Jawo fayil din ku a nan",
+        "import_or":"Ko",
+        "import_click_up":"Danna don ƙarawa"
     }
 
 }

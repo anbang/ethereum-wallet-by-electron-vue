@@ -69,7 +69,12 @@
         "confirm_password":"Konfirmasi kata sandi",
         
         "remove_prompt":"Anda yakin ingin menghapus?",
-        "please_back_up":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
+        "please_back_up":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti",
+
+        "import_prompt":"Apakah Anda sudah memiliki dompet CZR?",
+        "import_step":"Seret file dompet Anda di sini",
+        "import_or":"Atau",
+        "import_click_up":"Klik untuk menambahkan"
     }
 
 }

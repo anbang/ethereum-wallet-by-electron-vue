@@ -69,7 +69,12 @@
         "confirm_password":"Xaqiiji sirta",
         
         "remove_prompt":"Ma hubtaa inaad rabto inaad tirtirto?",
-        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
+        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida",
+
+        "import_prompt":"Miyaad horey u leedahay jeebka CZR?",
+        "import_step":"Fadhi jadwalkaaga kumbuyuutarka halkan",
+        "import_or":"Ama",
+        "import_click_up":"Guji si aad ugu darto"
     }
 
 }

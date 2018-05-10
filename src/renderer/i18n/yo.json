@@ -69,7 +69,12 @@
         "confirm_password":"Jẹrisi ọrọ igbaniwọle",
         
         "remove_prompt":"Ṣe o da ọ loju pe o fẹ paarẹ?",
-        "please_back_up":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+        "please_back_up":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini",
+
+        "import_prompt":"Ṣe o ni apamọwọ CZR tẹlẹ?",
+        "import_step":"Fa faili faili apamọ rẹ nibi",
+        "import_or":"Tabi",
+        "import_click_up":"Tẹ lati fi kun"
     }
 
 }

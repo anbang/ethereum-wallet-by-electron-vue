@@ -69,7 +69,12 @@
         "confirm_password":"Vahvista salasana",
         
         "remove_prompt":"Haluatko varmasti poistaa?",
-        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
+        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja",
+
+        "import_prompt":"Onko sinulla jo CZR-lompakkoa?",
+        "import_step":"Vedä lompakon tiedosto täältä",
+        "import_or":"tai",
+        "import_click_up":"Napsauta lisätäksesi"
     }
 
 }

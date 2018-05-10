@@ -69,7 +69,12 @@
         "confirm_password":"Konfirmo fjalëkalimin",
         
         "remove_prompt":"Jeni i sigurt që doni të fshini?",
-        "please_back_up":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
+        "please_back_up":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës",
+
+        "import_prompt":"A keni një portofol CZR?",
+        "import_step":"Hiq skedarin e portofolit tënd këtu",
+        "import_or":"ose",
+        "import_click_up":"Kliko për të shtuar"
     }
 
 }

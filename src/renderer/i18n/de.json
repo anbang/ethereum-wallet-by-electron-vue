@@ -69,7 +69,12 @@
         "confirm_password":"Passwort bestätigen",
         
         "remove_prompt":"Sind Sie sicher, dass Sie löschen möchten?",
-        "please_back_up":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
+        "please_back_up":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden",
+
+        "import_prompt":"Haben Sie bereits eine CZR Wallet?",
+        "import_step":"Ziehen Sie hier Ihre Brieftaschen-Datei",
+        "import_or":"Or",
+        "import_click_up":"Klicken Sie, um hinzuzufügen"
     }
 
 }

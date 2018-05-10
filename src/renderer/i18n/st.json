@@ -69,7 +69,12 @@
         "confirm_password":"Netefatsa password",
         
         "remove_prompt":"Na u netefatsa hore u batla ho e tlosa?",
-        "please_back_up":"Ka kopo etsa bonnete ba hore akhaonto e tšehetsoe ho qoba tšenyo ea thepa"
+        "please_back_up":"Ka kopo etsa bonnete ba hore akhaonto e tšehetsoe ho qoba tšenyo ea thepa",
+
+        "import_prompt":"Na u se u ntse u e-na le sepache sa CZR?",
+        "import_step":"Etsa faele ea sepache sa hau mona",
+        "import_or":"Kapa",
+        "import_click_up":"Tobetsa ho kenya"
     }
 
 }

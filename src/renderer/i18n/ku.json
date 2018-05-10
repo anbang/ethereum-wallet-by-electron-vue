@@ -69,7 +69,12 @@
         "confirm_password":"Şîfreya piştrast bikin",
         
         "remove_prompt":"Ma tu dixwazî ​​ku hûn dixwazin jêbirin?",
-        "please_back_up":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
+        "please_back_up":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin",
+
+        "import_prompt":"Hûn ji walleta CZR heye?",
+        "import_step":"Vê pelê xwe hilweşînin",
+        "import_or":"An",
+        "import_click_up":"Click to add"
     }
 
 }

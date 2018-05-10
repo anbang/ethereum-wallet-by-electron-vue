@@ -69,7 +69,12 @@
         "confirm_password":"Confirm password",
         
         "remove_prompt":"Koj puas paub tseeb tias koj xav rho tawm?",
-        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
+        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom",
+
+        "import_prompt":"Koj puas tau muaj CZR hnab nyiaj?",
+        "import_step":"Luag koj lub hnab nyiaj ntawm no",
+        "import_or":"Los yog",
+        "import_click_up":"Nyem ntxiv"
     }
 
 }

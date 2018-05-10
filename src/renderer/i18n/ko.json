@@ -69,7 +69,12 @@
         "confirm_password":"암호 확인",
         
         "remove_prompt":"정말로 삭제 하시겠습니까?",
-        "please_back_up":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오."
+        "please_back_up":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오.",
+
+        "import_prompt":"이미 CZR 지갑이 있습니까?",
+        "import_step":"지갑 파일을 여기로 드래그하십시오.",
+        "import_or":"또는",
+        "import_click_up":"추가하려면 클릭하십시오."
     }
 
 }

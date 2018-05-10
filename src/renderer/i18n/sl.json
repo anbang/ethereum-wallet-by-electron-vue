@@ -69,7 +69,12 @@
         "confirm_password":"Potrdite geslo",
         
         "remove_prompt":"Ali ste prepričani, da želite izbrisati?",
-        "please_back_up":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+        "please_back_up":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi",
+
+        "import_prompt":"Ali že imate denarnico CZR?",
+        "import_step":"Tukaj povlecite datoteko denarnice",
+        "import_or":"Or",
+        "import_click_up":"Kliknite za dodajanje"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Bevestig wagwoord",
         
         "remove_prompt":"Is jy seker jy wil verwyder?",
-        "please_back_up":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
+        "please_back_up":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom",
+
+        "import_prompt":"Het jy al 'n CZR beursie?",
+        "import_step":"Sleep jou beursie lêer hier",
+        "import_or":"of",
+        "import_click_up":"Klik om by te voeg"
     }
 
 }

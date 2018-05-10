@@ -69,7 +69,12 @@
         "confirm_password":"Conferma password",
         
         "remove_prompt":"Sei sicuro di voler eliminare?",
-        "please_back_up":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
+        "please_back_up":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà",
+
+        "import_prompt":"Hai già un portafoglio CZR?",
+        "import_step":"Trascina qui il file del tuo portafoglio",
+        "import_or":"o",
+        "import_click_up":"Clicca per aggiungere"
     }
 
 }

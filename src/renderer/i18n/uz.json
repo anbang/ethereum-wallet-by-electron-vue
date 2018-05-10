@@ -69,7 +69,12 @@
         "confirm_password":"Parolni tasdiqlang",
         
         "remove_prompt":"Siz o'chirmoqchimisiz?",
-        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
+        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling",
+
+        "import_prompt":"Siz allaqachon CZR hamyoningiz bormi?",
+        "import_step":"Cüzdanınızın faylini bu erga ko'chiring",
+        "import_or":"Yoki",
+        "import_click_up":"Qo'shish uchun bosing"
     }
 
 }

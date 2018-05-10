@@ -69,7 +69,12 @@
         "confirm_password":"Qinisekisa iphasiwedi",
         
         "remove_prompt":"Uqinisekile ukuthi ufuna ukususa?",
-        "please_back_up":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla"
+        "please_back_up":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla",
+
+        "import_prompt":"Usuvele unayo isikhwama se-CZR?",
+        "import_step":"Hudula ifayela lakho lesikhwama lapha",
+        "import_or":"Noma",
+        "import_click_up":"Chofoza ukuze ungeze"
     }
 
 }

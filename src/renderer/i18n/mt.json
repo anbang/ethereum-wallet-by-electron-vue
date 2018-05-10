@@ -69,7 +69,12 @@
         "confirm_password":"Ikkonferma l-password",
         
         "remove_prompt":"Inti żgur li trid tħassar?",
-        "please_back_up":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
+        "please_back_up":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà",
+
+        "import_prompt":"Għandek diġà kartiera CZR?",
+        "import_step":"Drag il-fajl tal-kartiera tiegħek hawn",
+        "import_or":"Or",
+        "import_click_up":"Ikklikkja biex iżżid"
     }
 
 }

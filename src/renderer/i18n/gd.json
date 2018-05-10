@@ -69,7 +69,12 @@
         "confirm_password":"Dearbhaich am facal-faire",
         
         "remove_prompt":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
-        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
+        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh",
+
+        "import_prompt":"A bheil cearcall CZR agad mu thràth?",
+        "import_step":"Slaod am faidhle faire agad an seo",
+        "import_or":"No",
+        "import_click_up":"Briog airson cuir ris"
     }
 
 }

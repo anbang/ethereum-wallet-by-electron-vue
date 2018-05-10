@@ -69,7 +69,12 @@
         "confirm_password":"Sahkan kata laluan",
         
         "remove_prompt":"Adakah anda pasti mahu memadamkannya?",
-        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
+        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda",
+
+        "import_prompt":"Adakah anda sudah mempunyai dompet CZR?",
+        "import_step":"Seret fail dompet anda di sini",
+        "import_or":"Atau",
+        "import_click_up":"Klik untuk tambah"
     }
 
 }

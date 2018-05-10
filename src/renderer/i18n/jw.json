@@ -69,7 +69,12 @@
         "confirm_password":"Konfirmasi tembung sandi",
         
         "remove_prompt":"Apa sampeyan pengin mbusak?",
-        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
+        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti",
+
+        "import_prompt":"Sampeyan wis duwe dompet CZR?",
+        "import_step":"Seret file dompet sampeyan ing kene",
+        "import_or":"Utawa",
+        "import_click_up":"Klik kanggo nambah"
     }
 
 }

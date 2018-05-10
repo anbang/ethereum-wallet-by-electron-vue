@@ -69,7 +69,12 @@
         "confirm_password":"Tsimbisa password",
         
         "remove_prompt":"Unonyatsoziva here kuti unoda kubvisa?",
-        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
+        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba",
+
+        "import_prompt":"Iwe unotova neCZR chikwama here?",
+        "import_step":"Dragza faira yako yepakiti pano",
+        "import_or":"Kana",
+        "import_click_up":"Click to add"
     }
 
 }

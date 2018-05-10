@@ -69,7 +69,12 @@
         "confirm_password":"Kumpirmahan ang password",
         
         "remove_prompt":"Sigurado ba nga gusto nimong papason?",
-        "please_back_up":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
+        "please_back_up":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad",
+
+        "import_prompt":"Aduna ka bay CZR wallet?",
+        "import_step":"Gikuha ang file sa pitaka dinhi",
+        "import_or":"O",
+        "import_click_up":"I-klik aron makadugang"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Tegeskeun deui kecap akses",
         
         "remove_prompt":"Anjeun yakin rék ngahapus eta?",
-        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
+        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat",
+
+        "import_prompt":"Anjeun boga CZR dompét acan?",
+        "import_step":"Berkas kana dompét anjeun didieu",
+        "import_or":"atawa",
+        "import_click_up":"Klik Tambahkeun"
     }
 
 }

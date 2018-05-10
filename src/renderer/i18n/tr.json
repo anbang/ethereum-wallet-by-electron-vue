@@ -69,7 +69,12 @@
         "confirm_password":"Şifreyi onayla",
         
         "remove_prompt":"Silmek istediğinden emin misin?",
-        "please_back_up":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
+        "please_back_up":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun.",
+
+        "import_prompt":"Zaten bir CZR cüzdanınız var mı?",
+        "import_step":"Cüzdan dosyanızı buraya sürükleyin",
+        "import_or":"veya",
+        "import_click_up":"Eklemek için tıklayın"
     }
 
 }

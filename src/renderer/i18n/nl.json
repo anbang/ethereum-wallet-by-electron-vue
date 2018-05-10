@@ -69,7 +69,12 @@
         "confirm_password":"Bevestig wachtwoord",
         
         "remove_prompt":"Weet je zeker dat je wilt verwijderen?",
-        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
+        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen",
+
+        "import_prompt":"Heb je al een CZR-portemonnee?",
+        "import_step":"Sleep hier je wallet-bestand",
+        "import_or":"of",
+        "import_click_up":"Klik om toe te voegen"
     }
 
 }

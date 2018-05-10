@@ -69,7 +69,12 @@
         "confirm_password":"Bekräfta lösenordet",
         
         "remove_prompt":"Är du säker på att du vill radera?",
-        "please_back_up":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
+        "please_back_up":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom",
+
+        "import_prompt":"Har du redan en CZR plånbok?",
+        "import_step":"Dra din plånboksfil här",
+        "import_or":"eller",
+        "import_click_up":"Klicka för att lägga till"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Potvrďte heslo",
         
         "remove_prompt":"Opravdu chcete smazat?",
-        "please_back_up":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
+        "please_back_up":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku",
+
+        "import_prompt":"Máte již peněženku CZR?",
+        "import_step":"Zde přetáhněte soubor peněľenky",
+        "import_or":"Or",
+        "import_click_up":"Klepnutím přidáte"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Kwenye paswọọdụ",
         
         "remove_prompt":"Ị doro anya na ịchọrọ ihichapụ?",
-        "please_back_up":"Biko jide n'aka na akwadola akaụntụ ahụ iji zere mmebi ihe onwunwe"
+        "please_back_up":"Biko jide n'aka na akwadola akaụntụ ahụ iji zere mmebi ihe onwunwe",
+
+        "import_prompt":"Ị nwere obere akpa CZR?",
+        "import_step":"Detuo obere akpa gị ebe a",
+        "import_or":"Ma ọ bụ",
+        "import_click_up":"Pịa ịgbakwunye"
     }
 
 }

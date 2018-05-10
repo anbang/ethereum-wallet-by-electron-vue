@@ -69,7 +69,12 @@
         "confirm_password":"Hōʻoia i ka memo",
         
         "remove_prompt":"Makemakeʻoe makemake e holoi?",
-        "please_back_up":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
+        "please_back_up":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai",
+
+        "import_prompt":"Loaʻa iāʻoe he putele CZR?",
+        "import_step":"E kahaki i kāu putele maʻaneʻi",
+        "import_or":"ʻO",
+        "import_click_up":"Kaomi no ka hoʻopau"
     }
 
 }

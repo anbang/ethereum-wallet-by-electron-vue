@@ -69,7 +69,12 @@
         "confirm_password":"אשר סיסמה",
         
         "remove_prompt":"האם אתה בטוח שברצונך למחוק?",
-        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
+        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש",
+
+        "import_prompt":"האם יש לך כבר ארנק CZR?",
+        "import_step":"גרור את קובץ הארנק שלך לכאן",
+        "import_or":"או",
+        "import_click_up":"לחץ כדי להוסיף"
     }
 
 }

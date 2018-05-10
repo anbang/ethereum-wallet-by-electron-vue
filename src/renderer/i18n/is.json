@@ -69,7 +69,12 @@
         "confirm_password":"Staðfestu lykilorð",
         
         "remove_prompt":"Ertu viss um að þú viljir eyða?",
-        "please_back_up":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
+        "please_back_up":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón",
+
+        "import_prompt":"Hefur þú nú þegar CZR veski?",
+        "import_step":"Dragðu veskisskrána þína hér",
+        "import_or":"Eða",
+        "import_click_up":"Smelltu til að bæta við"
     }
 
 }

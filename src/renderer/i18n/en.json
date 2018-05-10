@@ -69,7 +69,12 @@
         "confirm_password":"confirm password",
         
         "remove_prompt":"Are you sure you want to delete?",
-        "please_back_up":"Please make sure the account has been backed up to avoid property damage"
+        "please_back_up":"Please make sure the account has been backed up to avoid property damage",
+
+        "import_prompt":"Do you already have a CZR wallet?",
+        "import_step":"Drag your wallet file here",
+        "import_or":"or",
+        "import_click_up":"Click to add"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Confirmar contraseña",
         
         "remove_prompt":"¿Estás seguro de que quieres eliminar?",
-        "please_back_up":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
+        "please_back_up":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad",
+
+        "import_prompt":"¿Ya tienes una billetera CZR?",
+        "import_step":"Arrastre el archivo de su billetera aquí",
+        "import_or":"O",
+        "import_click_up":"Haga clic para agregar"
     }
 
 }

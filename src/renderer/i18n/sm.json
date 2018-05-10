@@ -69,7 +69,12 @@
         "confirm_password":"Faʻamaonia le faʻamaonia",
         
         "remove_prompt":"E te mautinoa e te manaʻo e faʻamalo?",
-        "please_back_up":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino"
+        "please_back_up":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino",
+
+        "import_prompt":"Ua i ai sau pusa CZR?",
+        "import_step":"Faʻataʻi lau faila pusa iinei",
+        "import_or":"Pe",
+        "import_click_up":"Kiliki e faʻaopoopo"
     }
 
 }

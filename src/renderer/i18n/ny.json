@@ -69,7 +69,12 @@
         "confirm_password":"Tsimikizani mawu achinsinsi",
         
         "remove_prompt":"Mukutsimikiza kuti mukufuna kuchotsa?",
-        "please_back_up":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
+        "please_back_up":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe",
+
+        "import_prompt":"Kodi muli ndi kalemba la CZR?",
+        "import_step":"Kokani fayilo yanu ya chikwama pano",
+        "import_or":"Kapena",
+        "import_click_up":"Dinani kuti muwonjezere"
     }
 
 }

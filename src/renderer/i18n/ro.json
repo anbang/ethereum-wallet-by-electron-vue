@@ -69,7 +69,12 @@
         "confirm_password":"Confirmați parola",
         
         "remove_prompt":"Sigur doriți să ștergeți?",
-        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
+        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale",
+
+        "import_prompt":"Aveți deja un portofel CZR?",
+        "import_step":"Glisați fișierul portofel aici",
+        "import_or":"sau",
+        "import_click_up":"Faceți clic pentru a adăuga"
     }
 
 }

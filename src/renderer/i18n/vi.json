@@ -69,7 +69,12 @@
         "confirm_password":"Xác nhận mật khẩu",
         
         "remove_prompt":"Bạn có chắc chắn muốn xóa không?",
-        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
+        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản",
+
+        "import_prompt":"Bạn đã có ví CZR chưa?",
+        "import_step":"Kéo tệp ví của bạn vào đây",
+        "import_or":"Hoặc",
+        "import_click_up":"Nhấp để thêm"
     }
 
 }

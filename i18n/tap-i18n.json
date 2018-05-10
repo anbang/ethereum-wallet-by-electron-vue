@@ -69,7 +69,12 @@
         "confirm_password":"确认密码",
         
         "remove_prompt":"你确定要删除吗？",
-        "please_back_up":"请确定该账号已经备份，避免财产损失"
+        "please_back_up":"请确定该账号已经备份，避免财产损失",
+
+        "import_prompt":"您已经有CZR钱包了吗？",
+        "import_step":"将您的钱包文件拖入此处",
+        "import_or":"或者",
+        "import_click_up":"点击添加"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Confirme a senha",
         
         "remove_prompt":"Tem certeza de que deseja excluir?",
-        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
+        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade",
+
+        "import_prompt":"Você já tem uma carteira CZR?",
+        "import_step":"Arraste seu arquivo da carteira aqui",
+        "import_or":"Ou",
+        "import_click_up":"Clique para adicionar"
     }
 
 }

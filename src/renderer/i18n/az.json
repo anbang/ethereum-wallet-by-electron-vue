@@ -69,7 +69,12 @@
         "confirm_password":"Şifrəni təsdiqləyin",
         
         "remove_prompt":"Silmək istədiyinizə əminsiniz?",
-        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
+        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun",
+
+        "import_prompt":"Zaten CZR cüzdanınız var?",
+        "import_step":"Cüzdan dosyanızı burada çəkin",
+        "import_or":"Və ya",
+        "import_click_up":"Əlavə etmək üçün basın"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Affirmo password",
         
         "remove_prompt":"Tu es certus vos volo ut delete?",
-        "please_back_up":"Vide rationis iam certioribus illis ne proprietas damnum"
+        "please_back_up":"Vide rationis iam certioribus illis ne proprietas damnum",
+
+        "import_prompt":"Nondum habes CZR vidulum?",
+        "import_step":"Hic vidulus tuus est in File",
+        "import_or":"aut",
+        "import_click_up":"Click Add"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Bekreft passord",
         
         "remove_prompt":"Er du sikker på at du vil slette?",
-        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
+        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom",
+
+        "import_prompt":"Har du allerede en CZR lommebok?",
+        "import_step":"Dra din lommebokfil her",
+        "import_or":"eller",
+        "import_click_up":"Klikk for å legge til"
     }
 
 }

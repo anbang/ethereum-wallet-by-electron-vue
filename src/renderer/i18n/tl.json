@@ -69,7 +69,12 @@
         "confirm_password":"Kumpirmahin ang password",
         
         "remove_prompt":"Sigurado ka bang gusto mong tanggalin?",
-        "please_back_up":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
+        "please_back_up":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian",
+
+        "import_prompt":"Mayroon ka na bang CZR wallet?",
+        "import_step":"I-drag ang iyong file ng pitaka dito",
+        "import_or":"O kaya",
+        "import_click_up":"I-click upang idagdag"
     }
 
 }

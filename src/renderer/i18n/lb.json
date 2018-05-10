@@ -69,7 +69,12 @@
         "confirm_password":"Confirmatioun vum Passwuert",
         
         "remove_prompt":"Sidd Dir sécher datt Dir wëllt läschen?",
-        "please_back_up":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
+        "please_back_up":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren",
+
+        "import_prompt":"Hutt Dir schonn e CZR Portemonnaie?",
+        "import_step":"Verklengert Äre Portemonnaie Fichier hier",
+        "import_or":"Or",
+        "import_click_up":"Klickt fir ze addéieren"
     }
 
 }

@@ -69,7 +69,12 @@
         "confirm_password":"Confirmar o contrasinal",
         
         "remove_prompt":"¿Estás seguro de que queres eliminar?",
-        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
+        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade",
+
+        "import_prompt":"Xa tes unha moeda CZR?",
+        "import_step":"Arrastra aquí o teu ficheiro de billetera",
+        "import_or":"Ou",
+        "import_click_up":"Fai clic para engadir"
     }
 
 }

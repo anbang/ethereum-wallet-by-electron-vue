@@ -69,7 +69,12 @@
         "confirm_password":"Kinnitage parool",
         
         "remove_prompt":"Kas olete kindel, et soovite kustutada?",
-        "please_back_up":"Veenduge, et konto on tagatud varakahjude vältimiseks"
+        "please_back_up":"Veenduge, et konto on varundatud, et vältida varakahju",
+
+        "import_prompt":"Kas teil on juba CZR rahakott?",
+        "import_step":"Dragake oma rahakoti fail siit",
+        "import_or":"Or",
+        "import_click_up":"Klõpsa, et lisada"
     }
 
 }

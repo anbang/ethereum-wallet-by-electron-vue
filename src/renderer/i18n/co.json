@@ -69,7 +69,12 @@
         "confirm_password":"Confirmate password",
         
         "remove_prompt":"Sè sicuru chì vulete sguassate?",
-        "please_back_up":"Assicuratevi chì u vostru contu hà stati backed up per evità di danni à a pruprietà"
+        "please_back_up":"Assicuratevi chì u vostru contu hà stati backed up per evità di danni à a pruprietà",
+
+        "import_prompt":"Avete digià un monete CZR?",
+        "import_step":"Arraste u vostru cartulare aqui",
+        "import_or":"Or",
+        "import_click_up":"Cliccate per aghjustà"
     }
 
 }

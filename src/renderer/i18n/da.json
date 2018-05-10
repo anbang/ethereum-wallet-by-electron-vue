@@ -69,7 +69,12 @@
         "confirm_password":"Bekræft adgangskode",
         
         "remove_prompt":"Er du sikker på, at du vil slette?",
-        "please_back_up":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+        "please_back_up":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen",
+
+        "import_prompt":"Har du allerede en CZR tegnebog?",
+        "import_step":"Træk din tegnebogsfil her",
+        "import_or":"eller",
+        "import_click_up":"Klik for at tilføje"
     }
 
 }

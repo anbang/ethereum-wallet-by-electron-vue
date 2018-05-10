@@ -69,7 +69,12 @@
         "confirm_password":"Apstipriniet paroli",
         
         "remove_prompt":"Vai tiešām vēlaties dzēst?",
-        "please_back_up":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
+        "please_back_up":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem",
+
+        "import_prompt":"Vai jums jau ir CZR kase?",
+        "import_step":"Velciet savu seifa failu šeit",
+        "import_or":"Or",
+        "import_click_up":"Noklikšķiniet, lai pievienotu"
     }
 
 }

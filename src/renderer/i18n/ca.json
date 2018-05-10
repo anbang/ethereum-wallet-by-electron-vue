@@ -69,7 +69,12 @@
         "confirm_password":"Confirma la contrasenya",
         
         "remove_prompt":"Esteu segur que voleu suprimir?",
-        "please_back_up":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+        "please_back_up":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat",
+
+        "import_prompt":"Ja teniu una cartera CZR?",
+        "import_step":"Arrossega aquí el vostre fitxer de cartera",
+        "import_or":"O",
+        "import_click_up":"Feu clic per afegir"
     }
 
 }
