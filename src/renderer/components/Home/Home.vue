@@ -271,7 +271,8 @@ export default {
         address: account.address,
         tag: this.createInfo.tag || '账户' + (this.database.length + 1),
         keystore: this.createInfo.keystore,
-        tx_list: []
+        tx_list: [],
+        balance: "0"
       }
       this.initAccount(params)
       this.createInfo.step = 1
@@ -411,10 +412,17 @@ export default {
         address: account.address,
         tag: this.importInfo.tag || '账户' + (this.database.length + 1),
         keystore: this.importInfo.keystore,
-        tx_list: []
+        tx_list: [],
+        balance: "0"
       }
-      this.initAccount(params)
-      this.dialogVisible.import = false
+
+      this.$web3.eth.getBalance(params.address)
+          .then(data => {
+              params.balance = this.$web3.utils.fromWei(data, 'ether')
+              this.initAccount(params)
+              this.dialogVisible.import = false
+          })
+          .catch(console.log )
     },
     //Import End
 

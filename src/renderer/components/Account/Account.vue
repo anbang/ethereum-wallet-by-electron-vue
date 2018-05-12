@@ -1,34 +1,46 @@
 <template>
   <div class="page-account-detail">
     <div class="account-banner">
-      <div class="acc-interactive qrcode-wrap" @click="creatQrCode">
-        <i class="iconfont icon-qrcode">&#xe628;</i>
-        <p class="icon-des">{{ $t('page_account.qrcode') }}</p>
+
+      <div class="active-icon">
+        <router-link :to="'/transfer?account=' + address" tag="div"  class="acc-interactive">
+                <i class="iconfont">&#xe605;</i>
+            <p class="icon-des">{{ $t('page_account.go_transfer') }}</p>
+        </router-link>
+        <div class="acc-interactive" @click="exportKeystore">
+          <i class="iconfont">&#xe628;</i>
+          <p class="icon-des">导出keystore</p>
+        </div>
+
+        <div class="acc-interactive" @click="showQrCode">
+          <i class="iconfont">&#xe628;</i>
+          <p class="icon-des">{{ $t('page_account.qrcode') }}</p>
+        </div>
+
       </div>
-      <router-link :to="'/transfer?account=' + currentAcc" tag="div"  class="acc-interactive transfer-wrap">
-              <i class="iconfont icon-transfer">&#xe605;</i>
-          <p class="icon-des">{{ $t('page_account.go_transfer') }}</p>
-      </router-link>
+
       <div class="account-center">
         <div class="account-alias-wrap">
-          <span class="text-sub-color">{{currentName}}</span>
-          <i class="iconfont icon-edit-alias"   @click="editNameVisible = true"> &#xe604; </i>
+          <span class="text-sub-color">{{ accountInfo.tag }}</span>
+          <i class="iconfont icon-edit-alias"   @click="dialogVisible.editName = true"> &#xe604; </i>
         </div>
         <div class="account-has-assets">
-          <h1 class="account-assets">{{accBalance}}</h1>
+          <h1 class="account-assets">{{ accountInfo.balance }}</h1>
           <span>{{ $t('unit.czr') }}</span>
         </div>
         <div class="account-address-wrap">
-          <span class="text-sub-color">{{ currentAcc }}</span>
+          <span class="text-sub-color">{{ address }}</span>
           <i class="iconfont icon-address-copy" @click="copyAddress"> &#xe645; </i>
         </div>
       </div>
+
     </div>
+    
     <div class="account-content">
       <h2 class="transfer-tit">{{ $t('page_account.transfer_log') }}</h2>
       <div class="transfer-log">
-        <template v-for="item in transList">
-            <div v-if="item.to == currentAcc">
+        <template v-for="item in accountInfo.tx_list">
+            <div v-if="item.to == address">
               <div   class="transfer-item b-flex b-flex-justify plus-assets">
                 <div class="icon-wrap">
                   <i class="iconfont icon-transfer">&#xe639;</i>
@@ -43,7 +55,7 @@
               </div>
             </div>
 
-            <div v-if="item.from == currentAcc">
+            <div v-if="item.from == address">
                   <div class="transfer-item b-flex b-flex-justify less-assets">
                   <div class="icon-wrap">
                     <i class="iconfont icon-transfer">&#xe638;</i>
@@ -61,119 +73,181 @@
       </div>
       
       <!--  No transaction record  -->
-      <div v-if="transList.length==0" class="no-transfer-log">
+      <div v-if="accountInfo.tx_list.length==0" class="no-transfer-log">
         <i class="iconfont">&#xe6e7;</i>
         <p>{{ $t('page_account.transfer_log_null') }}</p>
       </div>
     </div>
 
-<el-dialog
-  :title="$t('dialog_tit')"
-  :visible.sync="dialogQRcodeVisible"
-  width="40%" center>
-  <span>
-    <img :src="qrImg" alt="code" class="qrcode-img">
-    <p class="dia-address">{{currentAcc}}</p>
-  </span>
-  <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogQRcodeVisible = false">{{$t('close')}}</el-button>
-  </span>
-</el-dialog>
+    <el-dialog
+      :title="$t('dialog_tit')"
+      :visible.sync="dialogVisible.qrCode"
+      width="40%" center>
+      <span>
+        <img :src="qrImgUrl" alt="code" class="qrcode-img">
+        <p class="dia-address">{{address}}</p>
+      </span>
+      <!-- <span slot="footer" class="dialog-footer">
+        <el-button @click="dialogVisible.qrCode = false">{{$t('close')}}</el-button>
+      </span> -->
+    </el-dialog>
 
-<el-dialog
-  :title="$t('page_account.edit_dia.tit')"
-  :visible.sync="editNameVisible"
-  width="65%" center>
-  <span>
-    <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
-    <el-input v-model="targetName"></el-input>
-  </span>
-  <span slot="footer" class="dialog-footer">
-    <el-button @click="editNameVisible = false">{{$t('cancel')}}</el-button>
-    <el-button type="primary" @click="setEditName">{{$t('confirm')}}</el-button>
-  </span>
-</el-dialog>
+    <el-dialog
+      :title="$t('page_account.edit_dia.tit')"
+      :visible.sync="dialogVisible.editName"
+      width="65%" center>
+      <span>
+        <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
+        <el-input v-model="editTag"></el-input>
+      </span>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="dialogVisible.editName = false">{{$t('cancel')}}</el-button>
+        <el-button type="primary" @click="setEditTag">{{$t('confirm')}}</el-button>
+      </span>
+    </el-dialog>
 
+    <el-dialog title="备份keystore" :visible.sync="dialogVisible.keystore">
+      <div class="mb10">请备份keystore</div>
+      <el-input
+        v-if="accountInfo"
+        :value="JSON.stringify(accountInfo.keystore)"
+        type="textarea"
+        :autosize="{minRows: 2}">
+      </el-input>
+      <div slot="footer">
+        <el-button @click="copyKeystore">复制</el-button>
+        <el-button type="primary" @click="downloadKeystore">下载keystore</el-button>
+      </div>
+    </el-dialog>
 
   </div>
 </template>
 
 <script>
-import web3 from "@/global/web3.js";
 import { futimes } from "fs";
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
+import { fail } from 'assert';
 
 export default {
   name: "Account",
   // components: {VueQr},
   data() {
     return {
-      dialogQRcodeVisible: false,
-      editNameVisible: false,
-      qrImg: "",
-      targetName: "",
-      currentAcc: this.$route.params.id
+      dialogVisible:{
+        qrCode:false,
+        editName:false,
+        keystore:false
+      },
+      address: this.$route.params.id,
+      accountInfo: null,
+      qrImgUrl: "",
+      editTag:""
     };
   },
+  created(){
+    var self=this;
+    QRCode.toDataURL(this.address,{width:800},function(err, url) {
+      if (err) {
+        console.log(err)
+        return
+      }
+      self.qrImgUrl = url;
+    });
 
-  filters: {
-    toCZR: function(val) {
-      return web3.fromWei(val, "ether");
-    }
-  },
-  computed: {
-    accBalance: function() {
-      var balaceWei = web3.eth.getBalance(this.currentAcc).toNumber();
-      var balaceVal = web3.fromWei(balaceWei, "ether");
-      return balaceVal;
-    },
-    transList: function() {
-      var tx_list = this.$db
+    this.accountInfo=this.$db
         .read()
         .get("czr_accounts")
-        .find({ address: this.currentAcc })
-        .get("tx_list")
-        .value();
-
-      return tx_list;
-    },
-    currentName: function() {
-      return this.$db
-        .read()
-        .get("czr_accounts")
-        .filter({ address: this.currentAcc })
-        .value()[0].tag;
-    }
+        .filter({ address: this.address })
+        .value()[0]
+    this.initTag();
+    this.getBalance()
   },
+
+  computed: {},
   methods: {
+    //Init 
+    initTag:function(){
+        this.editTag=this.accountInfo.tag;
+    },
+    getBalance () {
+        this.$web3.eth.getBalance(this.address)
+            .then(data => {
+                this.accountInfo.balance = this.$web3.utils.fromWei(data, 'ether')
+            })
+            .catch(console.log)
+          console.log(this.accountInfo.balance)
+    },
+
+    //Copy Address
     copyAddress: function() {
+      clipboard.writeText(this.address);
       this.$message({
         message: this.$t("page_account.copy_success"),
         type: "success"
       });
-      clipboard.writeText(this.currentAcc);
     },
-    creatQrCode: function() {
-      var self = this;
-      QRCode.toDataURL(self.currentAcc, function(err, url) {
-        self.qrImg = url;
-      });
-      this.dialogQRcodeVisible = true;
+
+    //Show Qrcode
+    showQrCode: function() {
+      this.dialogVisible.qrCode = true;
     },
-    setEditName: function() {
-      // console.log(this.targetName);
+
+    //Edit Tag
+    setEditTag: function() {
       this.$db
         .read()
         .get("czr_accounts")
-        .find({ address: this.currentAcc })
-        .assign({ tag: this.targetName })
+        .find({ address: this.address })
+        .assign({ tag: this.editTag })
         .write();
-      console.log(this.currentName);
-      //TODO Synchronized modified tags
-      this.editNameVisible = false;
+      this.accountInfo.tag=this.editTag
+      this.dialogVisible.editName = false;
+    },
+
+    //export Keystore
+    exportKeystore () {
+      this.dialogVisible.keystore = true
+    },
+
+    //copy
+    copyKeystore () {
+      clipboard.writeText(JSON.stringify(this.accountInfo.keystore))
+      this.$message.success('复制成功')
+      this.dialogVisible.keystore = false
+    },
+
+    //download
+    downloadKeystore () {
+      let link = document.createElement('a')
+      link.download = this.getNowTime()+"--"+this.address;
+      link.style.display = 'none'
+      let blob = new Blob([JSON.stringify(this.accountInfo.keystore)])
+      link.href = URL.createObjectURL(blob)
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      this.dialogVisible.keystore = false
+    },
+    getNowTime:function () {
+        let date = new Date();
+        let addZero=this.addZero;
+        let LocalTime = date.getFullYear() + "-" +addZero(date.getMonth()+1) + "-" + addZero(date.getDate()) + "-" +
+            addZero(date.getHours()) + addZero(date.getMinutes()) +  addZero(date.getSeconds());
+        return LocalTime;
+    },
+    addZero:function (val) {
+        return val<10 ? "0"+val : val;
+    },
+
+
+  },
+  filters: {
+    toCZR: function(val) {
+      // return this.$web3.fromWei(val, "ether");
+      return "222"
     }
-  }
+  },
 };
 </script>
 
@@ -188,42 +262,44 @@ export default {
   position: relative;
 }
 
-.account-banner .qrcode-wrap {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  color: #bfbef8;
-}
-.account-banner .transfer-wrap {
-  position: absolute;
-  top: 10px;
-  right: 80px;
-  color: #bfbef8;
-}
-.account-banner .qrcode-wrap:hover {
-  color: #e7e7ff;
-}
-.account-banner .qrcode-wrap:hover .icon-des {
-  color: #e7e7ff;
-}
-.account-banner .transfer-wrap:hover {
-  color: #e7e7ff;
-}
-.account-banner .transfer-wrap:hover .icon-des {
-  color: #e7e7ff;
-}
 
+.account-banner  .active-icon{
+  padding: 10px 10px;
+  min-width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.account-banner .acc-interactive{
+  margin: 10px;
+  display: inline-block;
+}
 .account-banner .acc-interactive:hover {
   cursor: pointer;
 }
+.account-banner .acc-interactive:hover .icon-des {
+  color: #e7e7ff;
+} 
+.account-banner .acc-interactive:hover .iconfont {
+  color: #e7e7ff;
+} 
 .account-banner .acc-interactive .iconfont {
   font-size: 18px;
+  color: #bfbef8;
 }
 .account-banner .icon-des {
   font-size: 12px;
+  min-width: 40px;
   color: #bfbef8;
 }
 
+
+.account-banner .account-center {
+  z-index: 20;
+  width: 420px;
+  margin: 0 auto;
+  /* text-align: left; */
+}
 .account-banner .account-center .iconfont {
   color: #c4c3f7;
   cursor: pointer;
@@ -329,4 +405,6 @@ export default {
   margin-bottom: 30px;
   text-align: center;
 }
+
+
 </style>
