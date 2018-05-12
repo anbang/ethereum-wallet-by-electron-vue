@@ -12,109 +12,49 @@
           {{ $t('unit.czr') }}
       </div>
   </header>
-
 </template>
 
 <script>
-import web3 from "@/global/web3.js";
-var fs = require("fs");
-var path = require("path");
-
 export default {
   name: "Header",
   data() {
-    return {};
+    return {
+      database:[]
+    };
+  },
+  created() {
+    // Init Account
+    const czrAccounts = this.$db.get('czr_accounts').value();
+    this.database = czrAccounts;
+    this.refresh()
   },
   computed: {
-    totalBalance: function() {
-      var self = this;
-      //Read file according to file path, return to file list；
-      //This is DEMO path
-      var filePath = "/Users/broszhu/Library/Ethereum/keystore";
-      var files = fs.readdirSync(filePath);
-
-      //Traversing the list of read files and accounts
-      var fileAddress = []; //Save the local file's address
-      files.forEach(function(filename) {
-        //Get the absolute path to the current file
-        var filedir = path.join(filePath, filename);
-        //Get file information based on file path, return an fs.Stats object
-        var stats = fs.statSync(filedir);
-        var isFile = stats.isFile();
-        // var isDir = stats.isDirectory();
-        if (isFile) {
-          var tempFile = fs.readFileSync(filedir).toString();
-          try {
-            var tempAcc = JSON.parse(tempFile).address;
-            fileAddress.push(tempAcc);
-          } catch (err) {
-            // console.log('err', err)
-          }
-        }
-        // if(isDir){
-        //     fileDisplay(filedir);//Recursive
-        // }
-      });
-
-      console.log("fileAddress ", fileAddress);
-      for (var k = 0; k < fileAddress.length; k++) {
-        var balance = web3.eth.getBalance(fileAddress[k]);
-        temoObj = {
-          tag: "Account" + (k + 1),
-          address: fileAddress[k],
-          balance: balance,
-          tx_list: []
-        };
-
-        //If there is no address added
-        if (
-          !self.$db
-            .read()
-            .get("czr_accounts")
-            .filter({ address: fileAddress[k] })
-            .value().length
-        ) {
-          self.$db
-            .get("czr_accounts")
-            .push(temoObj)
-            .write();
-        }
-
-        //TODO   Judgment of balance change Update correspondence
-        total += balance.toNumber();
+    totalBalance:function(){
+      var total=0;
+      if(this.database.length){
+        this.database.forEach(item => {
+            total+=Number(item.balance);
+        })
+        // return this.$web3.utils.fromWei(total.toString(), 'ether')
+        return total
+      }else{
+        return "-"
       }
-
-      //Create a local file and get the amount
-      var total = 0;
-      var temoObj = null;
-      var dbAddress = self.$db
-        .read()
-        .get("czr_accounts")
-        .value();
-
-      console.log("dbAddress:", dbAddress);
-
-      for (var i = 0; i < dbAddress.length; i++) {
-        var isExist = false;
-        for (var j = 0; j < fileAddress.length; j++) {
-          if (dbAddress[i].address == fileAddress[j]) {
-            isExist = true;
-            break;
-          }
-        }
-
-        //If it does not exist, delete
-        if (!isExist) {
-          self.$db
-            .read()
-            .get("czr_accounts")
-            .remove({ address: dbAddress[i].address })
-            .write();
-        }
-      }
-      console.log(total);
-
-      return web3.fromWei(total, "ether");
+    }
+  },
+  methods:{
+    refresh () {
+      this.database.forEach(item => {
+          this.getBalance(item)
+      })
+    },
+    getBalance (item) {
+      this.$web3.eth.getBalance(item.address)
+          .then(data => {
+              // item.balance = data
+              item.balance = this.$web3.utils.fromWei(data, 'ether')
+          })
+          .catch(console.log )
     }
   }
 };

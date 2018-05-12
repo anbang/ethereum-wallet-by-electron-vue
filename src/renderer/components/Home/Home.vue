@@ -3,13 +3,13 @@
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
-                <button class="bui-button" @click="importAccount">{{ $t('page_home.import_account') }}</button>
-                <button class="bui-button" @click="openFolder">{{ $t('page_home.back_up_account') }}</button>
+                <button class="bui-button" @click="dialogVisible.import = true">{{ $t('page_home.import_account') }}</button>
             </div>
         </div>
+
         <div class="home-content">
             <div class="account-wrap b-flex">
-                <template v-for="account in localAccounts">
+                <template v-for="account in database">
                     <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item ">
                         <div class="account-avatar">
                           <i class="iconfont ico-avatar">&#xe602;</i>
@@ -22,9 +22,9 @@
                             <p class="account-address">{{account.address}}</p>
                         </div>  
                     </router-link>
-              </template>
+                </template>
                 <!--  ADD  -->
-                <div class="accounrt-item add-account" @click="addPwdDiaVisible = true">
+                <div class="accounrt-item add-account" @click="dialogVisible.create = true">
                     <div class="account-cont">
                       <i class="iconfont icon-add-acc">&#xe63b;</i>
                       <p class="add-acc-des">{{ $t('page_home.add_account') }}</p>
@@ -33,54 +33,129 @@
             </div>
         </div>
 
-        <el-dialog
-          :title="$t('page_home.add_prompt')"
-          :visible.sync="addPwdDiaVisible"
-          width="70%">
-          <span>
-        <el-form :model="ruleForm2" status-icon :rules="rules2" ref="ruleForm2" label-width="140px" class="demo-ruleForm">
-          <el-form-item :label=" $t('page_home.password') " prop="pass">
-            <el-input type="password" v-model="ruleForm2.pass" auto-complete="off"></el-input>
-          </el-form-item>
-          <el-form-item :label=" $t('page_home.confirm_password') " prop="checkPass">
-            <el-input type="password" v-model="ruleForm2.checkPass" auto-complete="off"></el-input>
-          </el-form-item>
-        </el-form>
 
-          </span>
-          <span slot="footer" class="dialog-footer">
-            <el-button @click="addPwdDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="addAccount">{{ $t('confirm') }}</el-button>
-          </span>
+        <el-dialog
+          title="创建钱包"
+          :visible.sync="dialogVisible.create"
+          @open="initCreateInfo"
+          width="60%">
+          <template v-if="createInfo.step === 0">
+            <el-alert
+              v-if="createInfo.error"
+              :title="createInfo.error"
+              :closable="false"
+              type="error"
+              show-icon>
+            </el-alert>
+            <el-input v-model="createInfo.tag" placeholder="请设置钱包名称">
+              <template slot="prepend"><i class="el-icon-tickets"></i> 钱包名称</template>
+            </el-input>
+            <el-input v-model="createInfo.pwd" placeholder="请设置钱包密码" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> 设置密码</template>
+            </el-input>
+            <el-input v-model="createInfo.repwd" placeholder="请确认钱包密码" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> 确认密码</template>
+            </el-input>
+            <div slot="footer">
+              <el-button @click="dialogVisible.create = false">取消</el-button>
+              <el-button type="primary" @click="createAccount">确定</el-button>
+            </div>
+          </template>
+          <template v-else-if="createInfo.step === 1">
+            <el-alert
+              title="创建钱包成功,请保存你的keystore或者私钥，不要分享给任何人！"
+              :closable="false"
+              type="success"
+              show-icon>
+            </el-alert>
+            <el-input :value="createInfo.address">
+              <template slot="prepend">账户</template>
+            </el-input>
+            <el-input :value="createInfo.privateKey">
+              <template slot="prepend">私钥</template>
+            </el-input>
+            <div slot="footer">
+              <el-button type="primary" @click="downloadKeystore">下载keystore文件</el-button>
+            </div>
+          </template>
         </el-dialog>
 
         <el-dialog
+          title="导入钱包"
+          :visible.sync="dialogVisible.import"
+          @open="initImportInfo"
+          width="40%">
+          <template v-if="importInfo.step === 0">
+            <div class="text">请选择导入方式</div>
+            <div>
+              <el-radio v-model="importInfo.type" label="0" border>私钥</el-radio>
+              <el-radio v-model="importInfo.type" label="1" border>keystore文件</el-radio>
+            </div>
+            <div slot="footer">
+              <el-button @click="dialogVisible.import = false">取消</el-button>
+              <el-button type="primary" @click="importInfo.step = 1">确定</el-button>
+            </div>
+          </template>
+          <template v-if="importInfo.step === 1">
+            <el-alert
+              v-if="importInfo.msg"
+              :title="importInfo.msg.content"
+              :closable="false"
+              :type="importInfo.msg.type"
+              show-icon>
+            </el-alert>
+            <template v-if="importInfo.type === '0'">
+
+              <el-input
+                v-model="importInfo.privateKey"
+                type="textarea"
+                :autosize="{minRows: 2}"
+                placeholder="请将私钥粘贴在此处">
+              </el-input>
+
+              <el-input v-model="importInfo.tag" placeholder="请设置钱包名称">
+                <template slot="prepend"><i class="el-icon-document"></i> 钱包名称</template>
+              </el-input>
+
+              <el-input v-model="importInfo.pwd" placeholder="请设置钱包密码" type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> 设置密码</template>
+              </el-input>
+
+              <el-input v-model="importInfo.repwd" placeholder="请确认钱包密码" type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> 确认密码</template>
+              </el-input>
+
+            </template>
+            <template v-if="importInfo.type === '1'">
+              <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore">请将keystore文件拖入此处</div>
+              <el-input v-model="importInfo.tag" placeholder="请设置钱包名称">
+                <template slot="prepend"><i class="el-icon-document"></i> 钱包名称</template>
+              </el-input>
+              <el-input v-model="importInfo.pwd" placeholder="请输入钱包密码" type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> 输入密码</template>
+              </el-input>
+            </template>
+            <div slot="footer">
+              <el-button @click="dialogVisible.import = false">取消</el-button>
+              <el-button type="primary" @click="importAccount">确定</el-button>
+            </div>
+          </template>
+        </el-dialog>
+
+
+        <el-dialog
           :title="$t('page_home.remove_prompt')"
-          :visible.sync="removeAccDiaVisible"
-          width="70%" >
+          :visible.sync="dialogVisible.remove"
+          width="50%" >
           <span>
             <p class="remove-acc">
-              {{this.currentRemoveAcc}}
+              {{this.removeAccount}}
             </p>
             {{$t('page_home.please_back_up')}}
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button @click="removeAccDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="removeAccount">{{ $t('confirm') }}</el-button>
-          </span>
-        </el-dialog>
-
-
-        <el-dialog
-          :title="$t('page_home.import_prompt')"
-          :visible.sync="importAccDiaVisible"
-          width="70%" >
-          <span>
-              <input type="file" id='userImport' enctype="multipart/form-data">
-          </span>
-          <span slot="footer" class="dialog-footer">
-            <el-button @click="importAccDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="importAcc">{{ $t('confirm') }}</el-button>
+            <el-button @click="dialogVisible.remove = false">{{ $t('cancel') }}</el-button>
+            <el-button type="primary" @click="removeAccountFn">{{ $t('confirm') }}</el-button>
           </span>
         </el-dialog>
 
@@ -89,17 +164,6 @@
 </template>
 
 <script>
-import web3 from "@/global/web3.js";
-const path = require("path");
-
-//backup
-const shell = require("electron").shell;
-import { remote, app } from "electron";
-import { fail } from 'assert';
-const APP = process.type === "renderer" ? remote.app : app;
-const STORE_PATH = APP.getPath("userData");
-console.log("PATH", STORE_PATH);
-
 const fs = require("fs");
 
 export default {
@@ -128,142 +192,253 @@ export default {
       }
     };
     return {
-      addPwdDiaVisible: false,
-      removeAccDiaVisible:false,
-      importAccDiaVisible:false,
-      currentRemoveAcc:"",
-      ruleForm2: {
-        pass: "",
-        checkPass: ""
+      dialogVisible:{
+        create:false,
+        import:false,
+        remove:false
       },
-      rules2: {
-        pass: [{ validator: validatePass, trigger: "blur" }],
-        checkPass: [{ validator: validatePass2, trigger: "blur" }]
-      },
-      importAccFile:""
+      database:[],
+      createInfo: {},
+      importInfo: {},
+      removeAccount:""
     };
+  },
+  created(){
+    this.database = this.$db.get('czr_accounts').value();;
+    this.initCreateInfo()
+    this.initImportInfo()
+    this.refresh()
+  },
+  computed: {
+
+  },
+  methods: {
+    //Init Start
+    initCreateInfo () {
+      this.createInfo = {
+        tag: '账户' + (this.database.length + 1),
+        step: 0,
+        error: '',
+        pwd: '',
+        repwd: '',
+        address: '',
+        privateKey: '',
+        keystore: null
+      }
+    },
+    initImportInfo () {
+      this.importInfo = {
+        tag: '账户' + (this.database.length + 1),
+        privateKey: '',
+        keystore: null,
+        msg: null,
+        pwd: '',
+        repwd: '',
+        step: 0,
+        type: '0'
+      }
+    },
+    refresh () {
+      this.database.forEach(item => {
+          this.getBalance(item)
+      })
+    },
+    getBalance (item) {
+      this.$web3.eth.getBalance(item.address)
+          .then(data => {
+              item.balance = this.$web3.utils.fromWei(data, 'ether')
+          })
+          .catch(console.log )
+    },
+    //Init End
+
+    // Create Account Start
+    createAccount:function(){
+      if (!this.createInfo.pwd || !this.createInfo.repwd) {
+        this.createInfo.error = '请输入密码'
+        return
+      }
+      if (this.createInfo.pwd !== this.createInfo.repwd) {
+        this.createInfo.error = '两次输入的密码不一致'
+        return
+      }
+      let account = this.$web3.eth.accounts.create()
+      this.createInfo.address = account.address;
+      this.createInfo.privateKey = account.privateKey
+      this.createInfo.keystore = this.$web3.eth.accounts.encrypt(account.privateKey, this.createInfo.pwd)
+
+      let params = {
+        address: account.address,
+        tag: this.createInfo.tag || '账户' + (this.database.length + 1),
+        keystore: this.createInfo.keystore,
+        tx_list: []
+      }
+      this.initAccount(params)
+      this.createInfo.step = 1
+    },
+    initAccount:function(params){
+      var self=this;
+      let account = this.$db.get('czr_accounts')
+        .find({ address: params.address })
+        .value()
+      if(account){
+          this.$message.error('此钱包已经存在 , 名称是"'+account.tag+'"')
+          return
+      }
+
+      this.$db
+          .get("czr_accounts")
+          .push(params)
+          .write();
+      this.getBalance(params)
+
+      // this.database = this.$db.get('czr_accounts').value();;
+      // this.refresh()
+      // this.getBalance(params)
+      // this.$message({
+      //     type: 'success',
+      //     message: '操作成功',
+      //     duration: 1000,
+      //     onClose: () => {
+      //     }
+      //   })
+      // this.$message.success("操作成功")
+      // this.$router.push({name: 'Home'})
+
+    },
+    downloadKeystore () {
+      let link = document.createElement('a')
+      link.download = this.getNowTime()+"--"+this.createInfo.address;
+      link.style.display = 'none';
+      let blob = new Blob([JSON.stringify(this.createInfo.keystore)])
+      link.href = URL.createObjectURL(blob)
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      this.dialogVisible.create = false
+    },
+    getNowTime:function () {
+        let date = new Date();
+        let addZero=this.addZero;
+        let LocalTime = date.getFullYear() + "-" +addZero(date.getMonth()+1) + "-" + addZero(date.getDate()) + "-" +
+            addZero(date.getHours()) + addZero(date.getMinutes()) +  addZero(date.getSeconds());
+        return LocalTime;
+    },
+    addZero:function (val) {
+        return val<10 ? "0"+val : val;
+    },
+    // Create Account End
+
+    //Import Start
+    importKeystore (event) {
+      let path = event.dataTransfer.files[0].path;//拖拽过程中数据传递对象
+      fs.readFile(path, 'utf8', (err, data) => {
+        if (err) {
+          this.$message.error('错误：' + err)
+        }
+        this.importInfo.keystore = JSON.parse(data)
+        this.importInfo.msg = {
+          content: '导入文件成功',
+          type: 'success'
+        }
+      })
+    },
+    importAccount () {
+      let account = null
+      if (this.importInfo.type === '0') {
+        if (!this.importInfo.privateKey) {
+          this.importInfo.msg = {
+            content: '请输入密钥',
+            type: 'error'
+          }
+          return
+        }
+        if (!this.importInfo.pwd || !this.importInfo.repwd) {
+          this.importInfo.msg = {
+            content: '请输入密码',
+            type: 'error'
+          }
+          return
+        }
+        if (this.importInfo.pwd !== this.importInfo.repwd) {
+          this.importInfo.msg = {
+            content: '两次输入的密码不一致',
+            type: 'error'
+          }
+          return
+        }
+        if (this.importInfo.privateKey.indexOf('0x') !== 0) {
+          this.importInfo.privateKey = '0x' + this.importInfo.privateKey
+        }
+        try {
+          account = this.$web3.eth.accounts.privateKeyToAccount(this.importInfo.privateKey)
+          this.importInfo.keystore = this.$web3.eth.accounts.encrypt(this.importInfo.privateKey, this.importInfo.pwd)
+        } catch (e) {
+          console.log('importPrivateKeyError', e)
+          this.importInfo.msg = {
+            content: '钱包导入失败，可能是密钥错误',
+            type: 'error'
+          }
+          return
+        }
+      } else if (this.importInfo.type === '1') {
+        if (!this.importInfo.keystore) {
+          this.importInfo.msg = {
+            content: '请先导入keystore文件',
+            type: 'error'
+          }
+          return
+        }
+        if (!this.importInfo.pwd) {
+          this.importInfo.msg = {
+            content: '请输入密码',
+            type: 'error'
+          }
+          return
+        }
+        try {
+          account = this.$web3.eth.accounts.decrypt(this.importInfo.keystore, this.importInfo.pwd)
+        } catch (e) {
+          console.log('importWalletError', e)
+          this.importInfo.msg = {
+            content: '钱包导入失败，可能是密码错误',
+            type: 'error'
+          }
+          return
+        }
+      }
+      let params = {
+        address: account.address,
+        tag: this.importInfo.tag || '账户' + (this.database.length + 1),
+        keystore: this.importInfo.keystore,
+        tx_list: []
+      }
+      this.initAccount(params)
+      this.dialogVisible.import = false
+    },
+    //Import End
+
+    // Remove Start
+    showRemoveDia:function(currentAcc){
+      this.removeAccount=currentAcc;
+      this.dialogVisible.remove=true;
+    },
+    removeAccountFn:function(){
+        this.$db
+          .get("czr_accounts")
+          .remove({ address: this.removeAccount })
+          .write();
+        this.$message.success('删除成功')
+        this.refresh()
+        this.dialogVisible.remove=false;
+    },
+    // Remove End
   },
   filters: {
     ShortVal: function(value) {
       if (!value) return "";
       value = Number(value);
       return value.toFixed(2);
-    }
-  },
-  computed: {
-    addressBalance: function(address) {
-      var balance = web3.eth.getBalance(address);
-      return web3.fromWei(balance, "ether");
-    },
-    localAccounts: function() {
-      var tempAcc = this.$db
-        .read()
-        .get("czr_accounts")
-        .value();
-      for (var i = 0; i < tempAcc.length; i++) {
-        var current = web3.eth.getBalance(tempAcc[i]["address"]);
-        //If the latest balance is different from the local database, update the data;
-        if (current != tempAcc[i]["balance"]) {
-          this.$db
-            .read()
-            .get("czr_accounts")
-            .find({ address: tempAcc[i]["address"] })
-            .assign({ balance: current })
-            .write();
-        }
-        //Converted to user amount
-        tempAcc[i]["balance"] = web3.fromWei(tempAcc[i]["balance"], "ether");
-      }
-      return tempAcc;
-    }
-  },
-  methods: {
-    //importAccount
-    importAccount:function(){
-      this.importAccDiaVisible= true;
-    },
-    importAcc: function() {
-      var userImport = document.getElementById("userImport").files[0];
-      var userImportPath = userImport.path;//源文件路径
-      var userImportName = userImport.name;//源文件路径
-      //复制到目标那里 /Users/broszhu/Library/Ethereum/keystore
-      var targetPath='/Users/broszhu/Library/Ethereum/keystore/'+userImportName;
-      fs.createReadStream(userImportPath).pipe(fs.createWriteStream(targetPath));
-      this.importAccDiaVisible= false;
-      window.location.reload();
-
-      console.log(userImport, userImportPath);
-    },
-    // Backup account
-    openFolder: function() {
-      // /Users/broszhu/Library/Ethereum/keystore
-      // /Users/broszhu/Library/Application Support/Electron
-
-      // shell.showItemInFolder(STORE_PATH + "/accounts");
-      shell.showItemInFolder("/Users/broszhu/Library/Ethereum/keystore");
-    },
-
-    //addAccount
-    addAccount: function() {
-      // DEMO path /Users/broszhu/Library/Ethereum/keystore
-      console.log("22 2", web3);
-      var self = this;
-      if (
-        this.ruleForm2.checkPass >= 9 &&
-        this.ruleForm2.pass >= 9 &&
-        this.ruleForm2.pass == this.ruleForm2.checkPass
-      ) {
-        console.log("000");
-        web3.personal.newAccount(this.ruleForm2.checkPass, function(e, res) {
-          console.log(e, res); //0x2b765eba6de2da0b39365367215f93e563291f49
-          var temoObj = {
-            tag: "Account Name",
-            address: res,
-            balance: "0",
-            tx_list: []
-          };
-          self.$db
-            .get("czr_accounts")
-            .push(temoObj)
-            .write();
-        });
-
-        this.addPwdDiaVisible = false;
-        //TODO Page update new account
-      }
-    },
-    showRemoveDia:function(currentAcc){
-      this.currentRemoveAcc=currentAcc;
-      this.removeAccDiaVisible=true;
-    },
-    removeAccount:function(){
-      //selected acc
-      var self=this;
-      var filePath = "/Users/broszhu/Library/Ethereum/keystore";//demo path
-      var files = fs.readdirSync(filePath);
-      files.forEach(function(filename) {
-        var filedir = path.join(filePath, filename);//currentFile
-        //Get file information based on file path, return an fs.Stats object
-        var stats = fs.statSync(filedir);
-        var isFile = stats.isFile();
-        if (isFile) {
-          var tempFile = fs.readFileSync(filedir).toString();
-          try {
-            var tempAcc = JSON.parse(tempFile).address;
-            console.log("current Acc",tempAcc)
-            if(tempAcc==self.currentRemoveAcc){
-              console.log("HAHAHA DEL",filedir)
-              fs.unlinkSync(filedir);
-              self.removeAccDiaVisible=false;
-            }
-          } catch (err) {
-            // console.log('err', err)
-          }
-        }
-      });
-
-      //TODO update current account list
-      window.location.reload();
     }
   }
 };
@@ -287,7 +462,16 @@ export default {
   color: #fff;
   font-size: 80px;
 }
-
+.holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border: 1px dashed #6ab0df;
+  background: #e7f2fa;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
 /* account */
 .account-wrap {
   /* padding-top: 64px; */
@@ -402,4 +586,13 @@ export default {
 .remove-acc{
   color: #F56C6C;
 }
+
+.el-dialog h2 {
+    font-weight: 400;
+}
+.el-dialog .text,
+.el-dialog .el-textarea,
+.el-dialog .el-alert,
+.el-dialog .el-input,
+.el-dialog .text{margin-bottom: 10px;}
 </style>
