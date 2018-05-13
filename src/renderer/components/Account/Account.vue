@@ -25,7 +25,7 @@
           <i class="iconfont icon-edit-alias"   @click="dialogVisible.editName = true"> &#xe604; </i>
         </div>
         <div class="account-has-assets">
-          <h1 class="account-assets">{{ accountInfo.balance }}</h1>
+          <h1 class="account-assets">{{ accountInfo.balance | toCZRVal }}</h1>
           <span>{{ $t('unit.czr') }}</span>
         </div>
         <div class="account-address-wrap">
@@ -47,10 +47,10 @@
                 </div>
                 <div class="transfer-info">
                   <p class="by-address">{{item.from}}</p>
-                  <p class="transfer-time">02 / 27 /2018</p>
+                  <p class="transfer-time">{{item.timestamp |toDate }}</p>
                 </div>
                 <div class="transfer-assets">
-                  <div class="assets">+ {{item.value | toCZR }} {{ $t('unit.czr') }}</div>
+                  <div class="assets">+ {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
                 </div>
               </div>
             </div>
@@ -62,10 +62,10 @@
                   </div>
                   <div class="transfer-info">
                     <p class="by-address">{{item.to}}</p>
-                    <p class="transfer-time">02 / 27 /2018</p>
+                    <p class="transfer-time">{{item.timestamp |toDate }}</p>
                   </div>
                   <div class="transfer-assets">
-                    <div class="assets">- {{item.value | toCZR }} {{ $t('unit.czr') }}</div>
+                    <div class="assets">- {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
                   </div>
                 </div>
             </div>
@@ -124,14 +124,12 @@
 </template>
 
 <script>
-import { futimes } from "fs";
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
-import { fail } from 'assert';
+var self=null;
 
 export default {
   name: "Account",
-  // components: {VueQr},
   data() {
     return {
       dialogVisible:{
@@ -146,7 +144,7 @@ export default {
     };
   },
   created(){
-    var self=this;
+    self=this;
     QRCode.toDataURL(this.address,{width:800},function(err, url) {
       if (err) {
         console.log(err)
@@ -173,10 +171,17 @@ export default {
     getBalance () {
         this.$web3.eth.getBalance(this.address)
             .then(data => {
-                this.accountInfo.balance = this.$web3.utils.fromWei(data, 'ether')
+                this.accountInfo.balance = data
+                // reWrite balance
+                this.$db
+                  .read()
+                  .get("czr_accounts")
+                  .find({ address: this.address })
+                  .assign({ balance: data })
+                  .write();
+
             })
             .catch(console.log)
-          console.log(this.accountInfo.balance)
     },
 
     //Copy Address
@@ -243,9 +248,18 @@ export default {
 
   },
   filters: {
-    toCZR: function(val) {
-      // return this.$web3.fromWei(val, "ether");
-      return "222"
+    toCZRVal: function(val) {
+      var tempVal=self.$web3.utils.fromWei(val, 'ether');
+      return tempVal;//TODO 保留4位小数
+    },
+    toDate:function(val){
+      var newDate = new Date();
+      newDate.setTime(val * 1000);
+      return (newDate.getMonth()+1)+"/"+newDate.getDate()+ ' / '+ newDate.getFullYear() +" "+
+            (newDate.getHours()) + ":"+ (newDate.getMinutes()) + ":"+  (newDate.getSeconds());
+      // console.log(newDate);
+      // console.log(newDate.getFullYear());
+      // console.log(newDate.getMonth()+1);
     }
   },
 };
