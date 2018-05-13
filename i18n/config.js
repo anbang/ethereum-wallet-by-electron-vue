@@ -1,6 +1,6 @@
 const { youdao, baidu, google } = require('translation.js');
 
-var through = require('through2'),
+let through = require('through2'),
     gutil = require('gulp-util');
 PluginError = gutil.PluginError;
 
@@ -15,17 +15,17 @@ const PLUGIN_NAME = 'gulp-i18n';
  */
 function i18n(from, to) {
     // Create a stream channel to allow each file to pass
-    var stream = through.obj(function (file, enc, cb) {
+    let stream = through.obj(function (file, enc, cb) {
         // console.log(JSON.stringify(file))
         if (file.isStream()) {
             this.emit('error', new PluginError(PLUGIN_NAME, 'Streams are not supported!'));
             return cb();
         }
         if (file.isBuffer()) {
-            var json = JSON.parse(file.contents.toString());
-            var tJson = '';
+            let json = JSON.parse(file.contents.toString());
+            let tJson = '';
             //  Get the data to be translated in the json file
-            for (var v in json) {
+            for (let v in json) {
                 if (json[v] instanceof Object) {
                     tJson = getText(json[v], tJson);
                 }
@@ -53,9 +53,9 @@ function i18n(from, to) {
                     'Celkem',
                     'Nastavení' ]
                 * */
-                // var result=result;
+                // let result=result;
                 // console.log("内容是",file.contents.toString())
-                var content = file.contents.toString().replace(/(:\s*")(\S+)(")/gi, function (match, p1, p2, p3, offset, string) {
+                let content = file.contents.toString().replace(/(:\s*")(\S+)(")/gi, function (match, p1, p2, p3, offset, string) {
                     /*              console.log(
                     // result.raw.sentences,
                                       "【match=>"+match+"】",
@@ -87,10 +87,10 @@ function i18n(from, to) {
 
 
                      */
-                    for (var i = 0; i < result.raw.sentences.length; i++) {
+                    for (let i = 0; i < result.raw.sentences.length; i++) {
                         // console.log(result.raw.sentences[i].orig == p2, , match, p2)
-                        var sourcesStr = result.raw.sentences[i].orig.replace("\n", '');
-                        var targetStr = result.raw.sentences[i].trans.replace("\n", '');
+                        let sourcesStr = result.raw.sentences[i].orig.replace("\n", '');
+                        let targetStr = result.raw.sentences[i].trans.replace("\n", '');
                         if (sourcesStr == p2) {
                             return ':"' + targetStr + '"'
                         }
@@ -119,7 +119,7 @@ function i18n(from, to) {
  * @returns {*}
  */
 function getText(src, dst) {
-    for (var k in src) {
+    for (let k in src) {
         if (src[k] instanceof Object) {
             dst = getText(src[k], dst);
         }

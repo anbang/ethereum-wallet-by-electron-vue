@@ -17,7 +17,7 @@
                         <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">{{account.tag}}</p>
-                            <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
+                            <h1 class="account-assets">{{account.balance | toEthVal}}</h1>
                             <p class="account-unit">{{ $t('unit.czr') }}</p>
                             <p class="account-address">{{account.address}}</p>
                         </div>  
@@ -165,11 +165,11 @@
 
 <script>
 const fs = require("fs");
-
+let self=null;
 export default {
   name: "Bodyer",
   data() {
-    var validatePass = (rule, value, callback) => {
+    let validatePass = (rule, value, callback) => {
       if (value === "") {
         callback(new Error("Please enter your password"));
       } else {
@@ -182,7 +182,7 @@ export default {
         callback();
       }
     };
-    var validatePass2 = (rule, value, callback) => {
+    let validatePass2 = (rule, value, callback) => {
       if (value === "") {
         callback(new Error("Please enter your password again"));
       } else if (value !== this.ruleForm2.pass) {
@@ -204,6 +204,7 @@ export default {
     };
   },
   created(){
+    self=this;
     this.database = this.$db.get('czr_accounts').value();;
     this.initCreateInfo()
     this.initImportInfo()
@@ -246,7 +247,14 @@ export default {
     getBalance (item) {
       this.$web3.eth.getBalance(item.address)
           .then(data => {
-              item.balance = this.$web3.utils.fromWei(data, 'ether')
+              // item.balance = this.$web3.utils.fromWei(data, 'ether')
+              item.balance = data
+              this.$db
+                  .read()
+                  .get("czr_accounts")
+                  .find({ address: item.address })
+                  .assign({ balance: data })
+                  .write();
           })
           .catch(console.log )
     },
@@ -278,7 +286,7 @@ export default {
       this.createInfo.step = 1
     },
     initAccount:function(params){
-      var self=this;
+      let self=this;
       let account = this.$db.get('czr_accounts')
         .find({ address: params.address })
         .value()
@@ -443,10 +451,9 @@ export default {
     // Remove End
   },
   filters: {
-    ShortVal: function(value) {
-      if (!value) return "";
-      value = Number(value);
-      return value.toFixed(2);
+    toEthVal:function(val){
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
+      return tempVal;//TODO 保留4位小数
     }
   }
 };

@@ -30,13 +30,16 @@ export default {
   },
   computed: {
     totalBalance:function(){
-      var total=0;
+      let total=0;
       if(this.database.length){
         this.database.forEach(item => {
             total+=Number(item.balance);
         })
-        // return this.$web3.utils.fromWei(total.toString(), 'ether')
-        return total
+        //TODO 保留4位小数    
+        console.log("total",total)
+        return this.$web3.utils.fromWei(total+"", 'ether'); 
+        // return total;
+      
       }else{
         return "-"
       }
@@ -51,8 +54,8 @@ export default {
     getBalance (item) {
       this.$web3.eth.getBalance(item.address)
           .then(data => {
-              // item.balance = data
-              item.balance = this.$web3.utils.fromWei(data, 'ether')
+              // item.balance = this.$web3.utils.fromWei(data, 'ether')
+              item.balance = data
           })
           .catch(console.log )
     }

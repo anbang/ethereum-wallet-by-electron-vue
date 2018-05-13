@@ -52,7 +52,7 @@
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="dialogVisible.confrim = true">{{$t('confirm')}}</el-button>
+            <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
             
           </el-form-item>
     </el-form>
@@ -142,7 +142,7 @@
 </template>
 
 <script>
-var self=null;
+let self=null;
 export default {
   name: "Search",
   data() {
@@ -206,11 +206,10 @@ export default {
       }
     },
     confrimTotal:function(){
-      var amountWei=this.$web3.utils.toWei(this.amount.toString(), 'ether');
-      var feeWei=this.$web3.utils.toWei(this.fee.toString(), 'ether');
-      var totalVal=Number(amountWei)+Number(feeWei);
-      var totalVal=this.$web3.utils.fromWei(totalVal.toString(), 'ether');
-      return totalVal;
+      let amountWei=this.$web3.utils.toWei(this.amount.toString(), 'ether');
+      let feeWei=this.$web3.utils.toWei(this.fee.toString(), 'ether');
+      let totalVal=Number(amountWei)+Number(feeWei);
+      return this.$web3.utils.fromWei(totalVal.toString(), 'ether');;
     },
 
 
@@ -248,13 +247,23 @@ export default {
     },
     sendAllAmount: function() {
       if (this.checkedAll) {
-        var weiVal=this.accountInfo.balance - this.$web3.utils.toWei(this.fee, 'ether');
-        var targetVal=self.$web3.utils.fromWei(weiVal.toString(10), 'ether');
+        let weiVal=this.accountInfo.balance - this.$web3.utils.toWei(this.fee, 'ether');
+        let targetVal=self.$web3.utils.fromWei(weiVal.toString(10), 'ether');
         this.amount = Number(targetVal)>=0 ? targetVal : 0 ;
       } else {
         this.amount = 0;
       }
     },
+
+    //confrim validate
+    validateForm:function(){
+      //todo Validate'
+      console.log("Validate")
+      this.dialogVisible.confrim = true
+    },
+
+
+    //send transaction
     sendTransaction:function(){
       console.log("send")
       let self=this;
@@ -316,7 +325,7 @@ export default {
                     receiptData.timestamp=blockObj.timestamp;
 
                     let testFrom = self.$db.get("czr_accounts").find({ address: account.address }).value();
-                    var testTo = self.$db.get("czr_accounts").find({ address: self.toAccount }).value();
+                    let testTo = self.$db.get("czr_accounts").find({ address: self.toAccount }).value();
 
                     if (testFrom) {
                       self.$db.get("czr_accounts").find({ address: account.address }).get("tx_list").unshift(receiptData).write();
@@ -345,7 +354,7 @@ export default {
   },
   filters: {
     toEthVal:function(val){
-      var tempVal=self.$web3.utils.fromWei(val, 'ether');
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
       return tempVal;//TODO 保留4位小数
     }
   },

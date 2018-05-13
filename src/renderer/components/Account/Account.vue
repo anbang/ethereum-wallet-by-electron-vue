@@ -126,7 +126,7 @@
 <script>
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
-var self=null;
+let self=null;
 
 export default {
   name: "Account",
@@ -249,11 +249,11 @@ export default {
   },
   filters: {
     toCZRVal: function(val) {
-      var tempVal=self.$web3.utils.fromWei(val, 'ether');
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
       return tempVal;//TODO 保留4位小数
     },
     toDate:function(val){
-      var newDate = new Date();
+      let newDate = new Date();
       newDate.setTime(val * 1000);
       return (newDate.getMonth()+1)+"/"+newDate.getDate()+ ' / '+ newDate.getFullYear() +" "+
             (newDate.getHours()) + ":"+ (newDate.getMinutes()) + ":"+  (newDate.getSeconds());

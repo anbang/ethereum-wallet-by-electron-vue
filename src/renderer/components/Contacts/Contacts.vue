@@ -98,7 +98,7 @@ export default {
       if (!this.form.tag || !this.form.address) {
         return;
       }
-      var tempCon = {
+      let tempCon = {
         tag: this.form.tag,
         address: this.form.address
       };
