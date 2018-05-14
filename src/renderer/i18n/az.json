@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Siz çıxarırsınız"
+        },
+        "msg_info":{
+            "no_tag":"Xahiş edirik hesab adını daxil edin",
+            "no_address":"Xahiş edirik hesab ünvanını daxil edin",
+            "exist":"Əlaqə artıq mövcuddur,"
         }
     },
     "page_transfer":{

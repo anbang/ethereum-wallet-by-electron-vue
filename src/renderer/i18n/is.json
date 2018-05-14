@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Þú ert að fjarlægja"
+        },
+        "msg_info":{
+            "no_tag":"Vinsamlegast sláðu inn nafn reikningsins",
+            "no_address":"Vinsamlegast sláðu inn netfangið",
+            "exist":"Tengiliðurinn er þegar til,"
         }
     },
     "page_transfer":{

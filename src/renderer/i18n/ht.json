@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ou yo retire"
+        },
+        "msg_info":{
+            "no_tag":"Tanpri antre non kont lan",
+            "no_address":"Tanpri antre adrès la kont",
+            "exist":"Kontak la deja egziste,"
         }
     },
     "page_transfer":{

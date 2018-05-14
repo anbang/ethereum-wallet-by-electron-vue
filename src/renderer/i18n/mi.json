@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Kei te tango koe"
+        },
+        "msg_info":{
+            "no_tag":"Tomo koa koa te ingoa o te kaute",
+            "no_address":"Tomo koa ki te urunga korero",
+            "exist":"Kua noho tonu te whakapiri,"
         }
     },
     "page_transfer":{

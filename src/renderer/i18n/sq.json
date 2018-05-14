@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Po heq"
+        },
+        "msg_info":{
+            "no_tag":"Futni emrin e llogarisë",
+            "no_address":"Ju lutemi shkruani adresën e llogarisë",
+            "exist":"Kontakti tashmë ekziston,"
         }
     },
     "page_transfer":{

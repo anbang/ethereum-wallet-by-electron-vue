@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Sampeyan ngilangi"
+        },
+        "msg_info":{
+            "no_tag":"Mangga ketik jeneng akun",
+            "no_address":"Mangga ketik alamat akun",
+            "exist":"Kontak wis ana,"
         }
     },
     "page_transfer":{
@@ -91,13 +96,13 @@
             "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
 
             "account_address":"Akun",
-            "account_privateKey":"tombol pribadi",
+            "account_privateKey":"Tombol pribadi",
             "account_download_keystore":"Ngundhuh file keystore"
         },
         "import_dia":{
             "tit":"Impor akun",
             "select_type":"Mangga pilih metode ngimpor",
-            "type_private":"tombol pribadi",
+            "type_private":"Tombol pribadi",
             "type_keystore":"Keystore",
 
             "placeholder_private":"Mangga dipindhah tombol pribadi ing kene",

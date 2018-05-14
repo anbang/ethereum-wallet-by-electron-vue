@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"אתה מסיר"
+        },
+        "msg_info":{
+            "no_tag":"הזן את שם החשבון",
+            "no_address":"הזן את כתובת החשבון",
+            "exist":"איש הקשר כבר קיים,"
         }
     },
     "page_transfer":{

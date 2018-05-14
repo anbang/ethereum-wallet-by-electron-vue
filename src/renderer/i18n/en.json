@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"You are removing"
+        },
+        "msg_info":{
+            "no_tag":"Please enter the account name",
+            "no_address":"Please enter the account address",
+            "exist":"The contact already exists,"
         }
     },
     "page_transfer":{

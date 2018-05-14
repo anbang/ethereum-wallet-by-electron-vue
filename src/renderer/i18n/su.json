@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Anjeun nyoplokkeun"
+        },
+        "msg_info":{
+            "no_tag":"Tuliskeun ngaran akun",
+            "no_address":"Mangga lebetkeun alamat akun",
+            "exist":"Kontak geus aya,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Tá tú ag baint úsáide as"
+        },
+        "msg_info":{
+            "no_tag":"Cuir isteach ainm an chuntas",
+            "no_address":"Cuir isteach an seoladh cuntas",
+            "exist":"Tá an teagmháil ann cheana féin,"
         }
     },
     "page_transfer":{

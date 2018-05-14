@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Estàs eliminant"
+        },
+        "msg_info":{
+            "no_tag":"Introduïu el nom del compte",
+            "no_address":"Introduïu l'adreça del compte",
+            "exist":"El contacte ja existeix,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Iwe uri kubvisa"
+        },
+        "msg_info":{
+            "no_tag":"Ndapota tumira zita rekombi",
+            "no_address":"Ndapota nyora kero kero",
+            "exist":"Kukurukurirana kwave kuripo,"
         }
     },
     "page_transfer":{

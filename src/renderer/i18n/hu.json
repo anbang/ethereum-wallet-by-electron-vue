@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ön eltávolít"
+        },
+        "msg_info":{
+            "no_tag":"Fióknév megadása",
+            "no_address":"Kérjük, adja meg a fiók címe",
+            "exist":"Kapcsolat már létezik,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Poistat"
+        },
+        "msg_info":{
+            "no_tag":"Anna tilin nimi",
+            "no_address":"Anna tilin osoite",
+            "exist":"Yhteys on jo olemassa,"
         }
     },
     "page_transfer":{

@@ -32,11 +32,16 @@
         },
         "delete_dialog":{
             "title":"Anda menghapus"
+        },
+        "msg_info":{
+            "no_tag":"Silakan masukkan nama akun",
+            "no_address":"Silakan masukkan alamat akun",
+            "exist":"Kontak sudah ada,"
         }
     },
     "page_transfer":{
         "from_address":"Transfer keluar",
-        "to_address":"ke",
+        "to_address":"Ke",
         "amount":"Jumlah",
         "send_all":"Kirim semua",
         "remark":"Catatan",

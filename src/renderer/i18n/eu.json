@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Kendu egiten ari zara"
+        },
+        "msg_info":{
+            "no_tag":"Idatzi kontuaren izena",
+            "no_address":"Idatzi kontuaren helbidea",
+            "exist":"Kontaktua lehendik ere badago,"
         }
     },
     "page_transfer":{

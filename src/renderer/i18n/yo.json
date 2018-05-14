@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"O n yọ kuro"
+        },
+        "msg_info":{
+            "no_tag":"Jowo tẹ orukọ iroyin naa",
+            "no_address":"Jọwọ tẹ adirẹsi adirẹsi sii",
+            "exist":"Olubasọrọ naa ti wa tẹlẹ,"
         }
     },
     "page_transfer":{

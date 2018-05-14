@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Miala ianao"
+        },
+        "msg_info":{
+            "no_tag":"Ampidiro azafady ny anaran'ny kaonty",
+            "no_address":"Ampidiro azafady ny adiresy kaonty",
+            "exist":"Efa misy ny fifandraisana,"
         }
     },
     "page_transfer":{
@@ -109,7 +114,7 @@
         },
         "remove_dia":{
             "tit":"Azonao antoka ve fa te-hamafa ianao?",
-            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
+            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
         },
         "msg_info":{
             "exist":"Ity kaonty ity dia efa misy ary ny anarany dia",

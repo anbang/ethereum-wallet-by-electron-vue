@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Gikuha nimo"
+        },
+        "msg_info":{
+            "no_tag":"Palihug pagsulod sa ngalan sa account",
+            "no_address":"Palihug pagsulod sa address sa account",
+            "exist":"Ang kontak nga anaa na,"
         }
     },
     "page_transfer":{

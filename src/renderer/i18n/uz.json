@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Siz olib tashlayapsiz"
+        },
+        "msg_info":{
+            "no_tag":"Iltimos, hisob nomini kiriting",
+            "no_address":"Hisob manzilini kiriting",
+            "exist":"Kontakt allaqachon mavjud,"
         }
     },
     "page_transfer":{

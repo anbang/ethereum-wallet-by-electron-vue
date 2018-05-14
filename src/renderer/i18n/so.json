@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Adigu waad ka saartaa"
+        },
+        "msg_info":{
+            "no_tag":"Fadlan qor magaca koontada",
+            "no_address":"Fadlan qor cinwaanka koontada",
+            "exist":"Xiriirkii hore u jirey,"
         }
     },
     "page_transfer":{

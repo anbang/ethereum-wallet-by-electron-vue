@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Mukuchotsa"
+        },
+        "msg_info":{
+            "no_tag":"Chonde lowetsani dzina la akaunti",
+            "no_address":"Chonde lowetsani adilesi ya akaunti",
+            "exist":"Ulalowo ulipo kale,"
         }
     },
     "page_transfer":{

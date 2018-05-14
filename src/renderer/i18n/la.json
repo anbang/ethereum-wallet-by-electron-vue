@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Movens igitur tu es"
+        },
+        "msg_info":{
+            "no_tag":"Intra propter nomen tuum",
+            "no_address":"Oratio pro PDF",
+            "exist":"Iam enim Contact:"
         }
     },
     "page_transfer":{

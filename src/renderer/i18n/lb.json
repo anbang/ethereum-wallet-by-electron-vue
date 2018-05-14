@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Dir sidd ewechhuelen"
+        },
+        "msg_info":{
+            "no_tag":"Gidd weg den Numm vum Kont un",
+            "no_address":"Gidd weg d'Adress Adress",
+            "exist":"De Kontakt existéiert schonn,"
         }
     },
     "page_transfer":{

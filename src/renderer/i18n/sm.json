@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"O loʻo e vaʻavaʻa"
+        },
+        "msg_info":{
+            "no_tag":"Faamolemole ia tusia le igoa o le tala",
+            "no_address":"Faamolemole ia ulufale i le tuatusi o le tala",
+            "exist":"Ua i ai nei le fesootaiga,"
         }
     },
     "page_transfer":{

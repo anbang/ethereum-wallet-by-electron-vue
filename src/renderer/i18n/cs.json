@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Odstraňujete"
+        },
+        "msg_info":{
+            "no_tag":"Zadejte název účtu",
+            "no_address":"Zadejte adresu účtu",
+            "exist":"Kontakt již existuje,"
         }
     },
     "page_transfer":{

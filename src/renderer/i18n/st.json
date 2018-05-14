@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ua tlosa"
+        },
+        "msg_info":{
+            "no_tag":"Ka kopo kenya lebitso la akhaonto",
+            "no_address":"Ka kopo kenya aterese ea akhaonto",
+            "exist":"Mesebetsi e se e ntse e le teng,"
         }
     },
     "page_transfer":{

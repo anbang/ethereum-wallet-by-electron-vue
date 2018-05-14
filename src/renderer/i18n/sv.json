@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Du tar bort"
+        },
+        "msg_info":{
+            "no_tag":"Vänligen ange kontonamnet",
+            "no_address":"Ange kontoadressen",
+            "exist":"Kontakten existerar redan,"
         }
     },
     "page_transfer":{

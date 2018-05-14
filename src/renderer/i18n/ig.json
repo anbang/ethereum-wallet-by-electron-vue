@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ị na-ewepụ"
+        },
+        "msg_info":{
+            "no_tag":"Biko tinye aha akaụntụ",
+            "no_address":"Biko tinye adreesị akaụntụ",
+            "exist":"Kpọtụrụ onye ahụ,"
         }
     },
     "page_transfer":{

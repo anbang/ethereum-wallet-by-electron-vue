@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Je verwijdert"
+        },
+        "msg_info":{
+            "no_tag":"Voer de accountnaam in",
+            "no_address":"Voer het accountadres in",
+            "exist":"De contactpersoon bestaat al,"
         }
     },
     "page_transfer":{

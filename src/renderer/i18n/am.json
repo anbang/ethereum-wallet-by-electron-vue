@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"እያስወገድክ ነው"
+        },
+        "msg_info":{
+            "no_tag":"እባክዎ የመለያ ስም ያስገቡ",
+            "no_address":"እባክዎ የመለያውን አድራሻ ያስገቡ",
+            "exist":"እውቅያው አስቀድሞም ይገኛል,"
         }
     },
     "page_transfer":{

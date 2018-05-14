@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Int qed tneħħi"
+        },
+        "msg_info":{
+            "no_tag":"Jekk jogħġbok daħħal l-isem tal-kont",
+            "no_address":"Jekk jogħġbok daħħal l-indirizz tal-kont",
+            "exist":"Il-kuntatt diġà jeżisti,"
         }
     },
     "page_transfer":{

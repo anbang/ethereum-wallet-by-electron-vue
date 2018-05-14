@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Bạn đang xóa"
+        },
+        "msg_info":{
+            "no_tag":"Vui lòng nhập tên tài khoản",
+            "no_address":"Vui lòng nhập địa chỉ tài khoản",
+            "exist":"Địa chỉ liên hệ đã tồn tại,"
         }
     },
     "page_transfer":{

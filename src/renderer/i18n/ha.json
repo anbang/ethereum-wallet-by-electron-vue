@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ana cirewa"
+        },
+        "msg_info":{
+            "no_tag":"Da fatan a shigar da sunan asusun",
+            "no_address":"Da fatan a shigar da adireshin asusun",
+            "exist":"Lambar ta rigaya ta kasance,"
         }
     },
     "page_transfer":{

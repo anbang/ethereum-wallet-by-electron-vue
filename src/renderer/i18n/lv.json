@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Jūs noņemat"
+        },
+        "msg_info":{
+            "no_tag":"Lūdzu, ievadiet konta nosaukumu",
+            "no_address":"Lūdzu, ievadiet konta adresi",
+            "exist":"Kontaktpersona jau pastāv"
         }
     },
     "page_transfer":{

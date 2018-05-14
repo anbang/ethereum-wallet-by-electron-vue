@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"您正在移除"
+        },
+        "msg_info":{
+            "no_tag":"请输入账户名称",
+            "no_address":"请输入账户地址",
+            "exist":"联系人已经存在,"
         }
     },
     "page_transfer":{

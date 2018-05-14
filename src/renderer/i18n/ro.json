@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Înlăturați"
+        },
+        "msg_info":{
+            "no_tag":"Introduceți numele contului",
+            "no_address":"Introduceți adresa contului",
+            "exist":"Contactul există deja,"
         }
     },
     "page_transfer":{

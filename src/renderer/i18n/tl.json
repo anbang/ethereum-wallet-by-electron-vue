@@ -2,7 +2,7 @@
     "confirm":"Kumpirmasyon",
     "cancel":"Pagkansela",
     "dialog_tit":"Prompt",
-    "close":"malapit",
+    "close":"Isinara",
     "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit":{
         "czr":"CZR"
@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Inaalis mo"
+        },
+        "msg_info":{
+            "no_tag":"Mangyaring ipasok ang pangalan ng account",
+            "no_address":"Pakipasok ang address ng account",
+            "exist":"Ang contact ay umiiral na,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Rydych chi'n cael gwared"
+        },
+        "msg_info":{
+            "no_tag":"Rhowch enw'r cyfrif",
+            "no_address":"Rhowch y cyfeiriad cyfrif",
+            "exist":"Mae'r cyswllt eisoes yn bodoli,"
         }
     },
     "page_transfer":{

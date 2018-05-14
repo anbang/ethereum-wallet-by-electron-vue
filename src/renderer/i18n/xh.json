@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"U kususa"
+        },
+        "msg_info":{
+            "no_tag":"Nceda ufake igama le-akhawunti",
+            "no_address":"Nceda faka idilesi yeakhawunti",
+            "exist":"Uqhagamshelwano lukhona kakade,"
         }
     },
     "page_transfer":{

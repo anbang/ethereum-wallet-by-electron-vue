@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ususa"
+        },
+        "msg_info":{
+            "no_tag":"Sicela ufake igama le-akhawunti",
+            "no_address":"Sicela ufake ikheli le-akhawunti",
+            "exist":"Oxhumana naye usevele usekhona,"
         }
     },
     "page_transfer":{

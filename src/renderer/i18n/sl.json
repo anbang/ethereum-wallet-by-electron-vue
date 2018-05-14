@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Odstranite"
+        },
+        "msg_info":{
+            "no_tag":"Vnesite ime računa",
+            "no_address":"Vnesite naslov računa",
+            "exist":"Stik že obstaja,"
         }
     },
     "page_transfer":{

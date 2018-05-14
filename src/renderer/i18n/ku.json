@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Tu derxistin"
+        },
+        "msg_info":{
+            "no_tag":"Ji kerema xwe navê navnîşê hesab bike",
+            "no_address":"Ji kerema xwe navnîşana hesabê xwe binivîse",
+            "exist":"Têkilî niha heye,"
         }
     },
     "page_transfer":{

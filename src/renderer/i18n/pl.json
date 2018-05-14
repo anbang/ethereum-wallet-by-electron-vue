@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Usuwasz"
+        },
+        "msg_info":{
+            "no_tag":"Wprowadź nazwę konta",
+            "no_address":"Proszę podać adres konta",
+            "exist":"Kontakt już istnieje,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Sen kaldırıyorsun"
+        },
+        "msg_info":{
+            "no_tag":"Lütfen hesap adını giriniz",
+            "no_address":"Lütfen hesap adresini giriniz",
+            "exist":"Kişi zaten var,"
         }
     },
     "page_transfer":{

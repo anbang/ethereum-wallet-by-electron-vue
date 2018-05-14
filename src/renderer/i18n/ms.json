@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Anda membuang"
+        },
+        "msg_info":{
+            "no_tag":"Sila masukkan nama akaun",
+            "no_address":"Sila masukkan alamat akaun",
+            "exist":"Kenalan sudah wujud,"
         }
     },
     "page_transfer":{

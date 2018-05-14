@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Vi forigas"
+        },
+        "msg_info":{
+            "no_tag":"Bonvolu enmeti la kontonnomon",
+            "no_address":"Bonvolu eniri la adreson",
+            "exist":"La kontakto jam ekzistas,"
         }
     },
     "page_transfer":{

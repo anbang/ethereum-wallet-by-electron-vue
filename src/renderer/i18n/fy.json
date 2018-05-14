@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Jo binne fuorthelle"
+        },
+        "msg_info":{
+            "no_tag":"Fier de accountnamme yn",
+            "no_address":"Fier de accountadres yn",
+            "exist":"It kontakt is al bestiet,"
         }
     },
     "page_transfer":{

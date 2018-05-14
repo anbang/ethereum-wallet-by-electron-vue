@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Ke wehe neiʻoe"
+        },
+        "msg_info":{
+            "no_tag":"Eʻoluʻolu e helu i ka inoa inoa",
+            "no_address":"Eʻoluʻolu e komo i kahi helu wahi helu",
+            "exist":"Loaʻa ka hulina,"
         }
     },
     "page_transfer":{

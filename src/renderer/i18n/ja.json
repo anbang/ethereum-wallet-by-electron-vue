@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"あなたは削除しています"
+        },
+        "msg_info":{
+            "no_tag":"アカウント名を入力してください",
+            "no_address":"アカウントのアドレスを入力してください",
+            "exist":"連絡先は既に存在しますが、"
         }
     },
     "page_transfer":{

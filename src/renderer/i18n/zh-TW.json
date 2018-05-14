@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"您正在移除"
+        },
+        "msg_info":{
+            "no_tag":"請輸入賬戶名稱",
+            "no_address":"請輸入賬戶地址",
+            "exist":"聯繫人已經存在,"
         }
     },
     "page_transfer":{

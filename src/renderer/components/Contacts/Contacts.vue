@@ -1,70 +1,74 @@
 <template>
   <div class="page-contacts">
+
       <div class="contacts-banner">
         <div class="contacts-center">
           <h1 class="contacts-tit">{{ $t('page_contacts.tit') }}</h1> 
         </div>
       </div>
 
-        <div class="contacts-content">
-            <div class="contacts-wrap b-flex">
-                <template v-for="contact in localContacts">
-                    <div class="contacts-item ">
-                        <div class="contacts-avatar">
-                          <i class="iconfont ico-avatar">&#xe602;</i>
-                        </div>
-                        <i class="iconfont delete-contacts" @click="showDeleteDia(contact)">&#xe613;</i>
-                        <div class="contacts-cont">
-                            <p class="contacts-remark">{{contact.tag}}</p>
-                            <p class="contacts-address">{{contact.address}}</p>
-                        </div>  
-                    </div>
+      <div class="contacts-content">
+          <div class="contacts-wrap b-flex">
+
+              <template v-for="contact in database">
+                  <div class="contacts-item ">
+                      <div class="contacts-avatar">
+                        <i class="iconfont ico-avatar">&#xe602;</i>
+                      </div>
+                      <i class="iconfont delete-contacts" @click="initDeleteInfo(contact)">&#xe613;</i>
+                      <div class="contacts-cont">
+                          <p class="contacts-remark">{{contact.tag}}</p>
+                          <p class="contacts-address">{{contact.address}}</p>
+                      </div>  
+                  </div>
               </template>
-                <!--  ADD  -->
-                <div class="contacts-item add-contacts" @click="dialogFormVisible = true">
-                    <div class="contacts-cont">
-                      <i class="iconfont icon-add-contacts">&#xe63b;</i>
-                      <p class="add-contacts-des">{{ $t('page_contacts.add_dialog') }}</p>
-                    </div>  
-                </div>
 
+              <!--  ADD  -->
+              <div class="contacts-item add-contacts" @click="dialogSwitch.create = true">
+                  <div class="contacts-cont">
+                    <i class="iconfont icon-add-contacts">&#xe63b;</i>
+                    <p class="add-contacts-des">{{ $t('page_contacts.add_dialog') }}</p>
+                  </div>  
+              </div>
 
-            </div>
+          </div>
+      </div>
+
+      <!-- create dialog -->
+      <el-dialog :title="$t('page_contacts.add_cont.tit')" 
+      width="70%":visible.sync="dialogSwitch.create" @open="initCreateInfo" >
+
+        <el-form :model="createInfo">
+
+          <el-form-item :label="$t('page_contacts.add_cont.tag')" label-width="80px">
+            <el-input v-model="createInfo.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
+          </el-form-item>
+
+          <el-form-item :label="$t('page_contacts.add_cont.address')" label-width="80px">
+            <el-input v-model="createInfo.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')" ></el-input>
+          </el-form-item>
+
+        </el-form>
+        <div slot="footer" class="dialog-footer">
+          <el-button @click="dialogSwitch.create = false">{{$t('cancel')}}</el-button>
+          <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
         </div>
+      </el-dialog>
 
-  <!-- create dialog -->
-  <el-dialog :title="$t('page_contacts.add_cont.tit')" 
-  width="70%":visible.sync="dialogFormVisible">
-    <el-form :model="form">
-      <el-form-item :label="$t('page_contacts.add_cont.tag')" :label-width="formLabelWidth">
-        <el-input v-model="form.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
-      </el-form-item>
-
-      <el-form-item :label="$t('page_contacts.add_cont.address')" :label-width="formLabelWidth">
-        <el-input v-model="form.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')" 
-        ></el-input>
-      </el-form-item>
-    </el-form>
-    <div slot="footer" class="dialog-footer">
-      <el-button @click="dialogFormVisible = false">{{$t('cancel')}}</el-button>
-      <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
-    </div>
-  </el-dialog>
-
-  <!-- delete confirm dialog -->
-  <el-dialog
-    :title="$t('page_contacts.delete_dialog.title')"
-    :visible.sync="dialogDelete.switch"
-    width="60%">
-    <p>
-      {{dialogDelete.addressObj.tag}}
-    </p>
-    <p class="text-regular">{{dialogDelete.addressObj.address}}</p>
-    <span slot="footer" class="dialog-footer">
-      <el-button @click="dialogDelete.switch = false">{{$t('cancel')}}</el-button>
-      <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
-    </span>
-  </el-dialog>
+      <!-- delete confirm dialog -->
+      <el-dialog
+        :title="$t('page_contacts.delete_dialog.title')"
+        :visible.sync="dialogSwitch.delete"
+        width="60%">
+        <p>
+          {{deleteInfo.tag}}
+        </p>
+        <p class="text-regular">{{deleteInfo.address}}</p>
+        <span slot="footer" class="dialog-footer">
+          <el-button @click="dialogSwitch.delete = false">{{$t('cancel')}}</el-button>
+          <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
+        </span>
+      </el-dialog>
 
 </div>
 </template>
@@ -74,73 +78,69 @@ export default {
   name: "Contacts",
   data() {
     return {
-      dialogFormVisible: false,
-      dialogDelete: {
-        switch: false,
-        addressObj: {
-          tag: "",
-          address: ""
-        }
+      dialogSwitch:{
+        create:false,
+        delete:false
       },
-      localContacts: this.$db
-        .read()
-        .get("czr_contacts.contact_ary")
-        .value(),
-      form: {
-        tag: "",
-        address: ""
-      },
-      formLabelWidth: "80px"
+      database:[],
+      createInfo: {},
+      deleteInfo:{}
     };
   },
-  computed: {},
+  created(){
+    this.database=this.$db.get("czr_contacts.contact_ary").value();
+    this.initCreateInfo()
+  },
   methods: {
+    initCreateInfo () {
+      this.createInfo = {
+        tag: "",
+        address: ""
+      }
+    },
+    initDeleteInfo (contact) {
+      this.deleteInfo = contact
+      this.dialogSwitch.delete = true;
+    },
+
+
     addContact: function() {
-      if (!this.form.tag || !this.form.address) {
+      if (!this.createInfo.tag) {
+        this.$message.error(this.$t('page_contacts.msg_info.no_tag'))
         return;
       }
-      let tempCon = {
-        tag: this.form.tag,
-        address: this.form.address
-      };
-      if (
-        !this.$db
-          .read()
-          .has("czr_contacts.contact_ary")
-          .value()
-      ) {
-        this.$db
-          .read()
-          .set("czr_contacts.contact_ary", [])
-          .write();
+      if (!this.createInfo.address) {
+        this.$message.error(this.$t('page_contacts.msg_info.no_address'))
+        return;
       }
-      this.$db
-        .read()
-        .get("czr_contacts.contact_ary")
-        .push(tempCon)
-        .write();
-      this.localContacts = this.$db
-        .read()
-        .get("czr_contacts.contact_ary")
-        .value();
-      this.dialogFormVisible = false;
-      this.form.tag = "";
-      this.form.address = "";
+
+      let tempCon = {
+        tag: this.createInfo.tag,
+        address: this.createInfo.address
+      };
+      if (!this.$db.read().has("czr_contacts.contact_ary").value()) {
+        this.$db.read().set("czr_contacts.contact_ary", []).write();
+      }
+      this.initAddContact(tempCon)
     },
-    showDeleteDia: function(contactObj) {
-      this.dialogDelete.addressObj = contactObj;
-      this.dialogDelete.switch = true;
+
+    initAddContact:function(params){
+      let  self=this;
+      let contact = this.$db.get('czr_contacts.contact_ary')
+        .find({ address: params.address }).value()
+      if(contact){
+          this.$message.error(this.$t('page_contacts.msg_info.exist')+contact.tag)
+          return
+      }
+      //TODO validate contacts address
+      this.$db.get('czr_contacts.contact_ary').push(params).write();
+      this.database=this.$db.get("czr_contacts.contact_ary").value();
+      this.dialogSwitch.create = false;
     },
     deleteContact: function() {
-      this.$db
-        .get("czr_contacts.contact_ary")
-        .remove({ address: this.dialogDelete.addressObj.address })
-        .write();
-      this.localContacts = this.$db
-        .read()
-        .get("czr_contacts.contact_ary")
-        .value();
-      this.dialogDelete.switch = false;
+      this.$db.get("czr_contacts.contact_ary").remove({ address: this.deleteInfo.address }).write();
+      this.database = this.$db.read().get("czr_contacts.contact_ary").value();
+      this.dialogSwitch.delete = false;
     }
   }
 };

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Tha thu a 'toirt air falbh"
+        },
+        "msg_info":{
+            "no_tag":"Cuir a-steach ainm a 'chunntais",
+            "no_address":"Cuir a-steach an seòladh chunntais",
+            "exist":"Tha an ceangal a-cheana ann,"
         }
     },
     "page_transfer":{

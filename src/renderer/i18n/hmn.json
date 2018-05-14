@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Koj tshem tawm"
+        },
+        "msg_info":{
+            "no_tag":"Thov sau lub npe nyiaj",
+            "no_address":"Thov sau chaw nyob",
+            "exist":"Qhov kev sib cuag twb tshwm sim lawm,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Te eemaldate"
+        },
+        "msg_info":{
+            "no_tag":"Palun sisestage konto nimi",
+            "no_address":"Palun sisestage konto aadress",
+            "exist":"Kontakti on juba olemas"
         }
     },
     "page_transfer":{

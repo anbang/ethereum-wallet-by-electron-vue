@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"제거하고 있습니다."
+        },
+        "msg_info":{
+            "no_tag":"계정 이름을 입력하십시오.",
+            "no_address":"계정 주소를 입력하십시오.",
+            "exist":"연락처가 이미 있습니다."
         }
     },
     "page_transfer":{

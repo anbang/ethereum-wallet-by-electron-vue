@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Jy verwyder"
+        },
+        "msg_info":{
+            "no_tag":"Voer asseblief die rekening naam in",
+            "no_address":"Voer asseblief die rekening adres in",
+            "exist":"Die kontak bestaan ​​reeds,"
         }
     },
     "page_transfer":{

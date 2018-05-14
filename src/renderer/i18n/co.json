@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Vulete sguassà"
+        },
+        "msg_info":{
+            "no_tag":"Per piacè inserite u nome di u nome",
+            "no_address":"Per piacè inseritu u indirizzu di e contu",
+            "exist":"U cuntattu hè digià esiste,"
         }
     },
     "page_transfer":{

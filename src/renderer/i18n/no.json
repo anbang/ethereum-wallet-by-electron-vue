@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Du fjerner"
+        },
+        "msg_info":{
+            "no_tag":"Vennligst skriv inn kontonavnet",
+            "no_address":"Vennligst skriv inn kontoadressen",
+            "exist":"Kontakten eksisterer allerede,"
         }
     },
     "page_transfer":{

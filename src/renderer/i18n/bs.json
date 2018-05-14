@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Vi uklanjate"
+        },
+        "msg_info":{
+            "no_tag":"Molimo unesite ime računa",
+            "no_address":"Molimo unesite adresu računa",
+            "exist":"Kontakt već postoji,"
         }
     },
     "page_transfer":{

@@ -32,6 +32,11 @@
         },
         "delete_dialog":{
             "title":"Unaondoa"
+        },
+        "msg_info":{
+            "no_tag":"Tafadhali ingiza jina la akaunti",
+            "no_address":"Tafadhali ingiza anwani ya akaunti",
+            "exist":"Mawasiliano tayari iko,"
         }
     },
     "page_transfer":{
