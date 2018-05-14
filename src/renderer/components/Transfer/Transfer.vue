@@ -52,7 +52,7 @@
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="dialogVisible.confrim = true">{{$t('confirm')}}</el-button>
+            <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
             
           </el-form-item>
     </el-form>
@@ -255,6 +255,17 @@ export default {
         this.amount = 0;
       }
     },
+
+    //confrim validate
+    validateForm:function(){
+      //todo Validate'
+      console.log("Validate")
+      this.dialogVisible.confrim = true
+    },
+
+
+    //send transaction
+
     sendTransaction:function(){
       console.log("send")
       let self=this;

@@ -3,7 +3,7 @@
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
-                <button class="bui-button" @click="dialogVisible.import = true">{{ $t('page_home.import_account') }}</button>
+                <button class="bui-button" @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</button>
             </div>
         </div>
 
@@ -17,14 +17,14 @@
                         <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">{{account.tag}}</p>
-                            <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
+                            <h1 class="account-assets">{{account.balance | toEthVal}}</h1>
                             <p class="account-unit">{{ $t('unit.czr') }}</p>
                             <p class="account-address">{{account.address}}</p>
                         </div>  
                     </router-link>
                 </template>
                 <!--  ADD  -->
-                <div class="accounrt-item add-account" @click="dialogVisible.create = true">
+                <div class="accounrt-item add-account" @click="dialogSwitch.create = true">
                     <div class="account-cont">
                       <i class="iconfont icon-add-acc">&#xe63b;</i>
                       <p class="add-acc-des">{{ $t('page_home.add_account') }}</p>
@@ -36,7 +36,7 @@
 
         <el-dialog
           title="创建钱包"
-          :visible.sync="dialogVisible.create"
+          :visible.sync="dialogSwitch.create"
           @open="initCreateInfo"
           width="60%">
           <template v-if="createInfo.step === 0">
@@ -57,7 +57,7 @@
               <template slot="prepend"><i class="el-icon-edit"></i> 确认密码</template>
             </el-input>
             <div slot="footer">
-              <el-button @click="dialogVisible.create = false">取消</el-button>
+              <el-button @click="dialogSwitch.create = false">取消</el-button>
               <el-button type="primary" @click="createAccount">确定</el-button>
             </div>
           </template>
@@ -82,7 +82,7 @@
 
         <el-dialog
           title="导入钱包"
-          :visible.sync="dialogVisible.import"
+          :visible.sync="dialogSwitch.import"
           @open="initImportInfo"
           width="40%">
           <template v-if="importInfo.step === 0">
@@ -92,16 +92,16 @@
               <el-radio v-model="importInfo.type" label="1" border>keystore文件</el-radio>
             </div>
             <div slot="footer">
-              <el-button @click="dialogVisible.import = false">取消</el-button>
+              <el-button @click="dialogSwitch.import = false">取消</el-button>
               <el-button type="primary" @click="importInfo.step = 1">确定</el-button>
             </div>
           </template>
           <template v-if="importInfo.step === 1">
             <el-alert
-              v-if="importInfo.msg"
-              :title="importInfo.msg.content"
+              v-if="importInfo.alert"
+              :title="importInfo.alert.content"
               :closable="false"
-              :type="importInfo.msg.type"
+              :type="importInfo.alert.type"
               show-icon>
             </el-alert>
             <template v-if="importInfo.type === '0'">
@@ -136,7 +136,7 @@
               </el-input>
             </template>
             <div slot="footer">
-              <el-button @click="dialogVisible.import = false">取消</el-button>
+              <el-button @click="dialogSwitch.import = false">取消</el-button>
               <el-button type="primary" @click="importAccount">确定</el-button>
             </div>
           </template>
@@ -145,7 +145,7 @@
 
         <el-dialog
           :title="$t('page_home.remove_prompt')"
-          :visible.sync="dialogVisible.remove"
+          :visible.sync="dialogSwitch.remove"
           width="50%" >
           <span>
             <p class="remove-acc">
@@ -154,7 +154,7 @@
             {{$t('page_home.please_back_up')}}
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button @click="dialogVisible.remove = false">{{ $t('cancel') }}</el-button>
+            <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
             <el-button type="primary" @click="removeAccountFn">{{ $t('confirm') }}</el-button>
           </span>
         </el-dialog>
@@ -165,34 +165,13 @@
 
 <script>
 const fs = require("fs");
+var self=null;
 
 export default {
   name: "Bodyer",
   data() {
-    var validatePass = (rule, value, callback) => {
-      if (value === "") {
-        callback(new Error("Please enter your password"));
-      } else {
-        if (value.length < 9) {
-          callback(new Error("At least 9"));
-        }
-        if (this.ruleForm2.checkPass !== "") {
-          this.$refs.ruleForm2.validateField("checkPass");
-        }
-        callback();
-      }
-    };
-    var validatePass2 = (rule, value, callback) => {
-      if (value === "") {
-        callback(new Error("Please enter your password again"));
-      } else if (value !== this.ruleForm2.pass) {
-        callback(new Error("Inconsistent password entry twice!"));
-      } else {
-        callback();
-      }
-    };
     return {
-      dialogVisible:{
+      dialogSwitch:{
         create:false,
         import:false,
         remove:false
@@ -204,6 +183,7 @@ export default {
     };
   },
   created(){
+    self=this;
     this.database = this.$db.get('czr_accounts').value();;
     this.initCreateInfo()
     this.initImportInfo()
@@ -217,25 +197,29 @@ export default {
     initCreateInfo () {
       this.createInfo = {
         tag: '账户' + (this.database.length + 1),
-        step: 0,
-        error: '',
         pwd: '',
         repwd: '',
+
+        step: 0,
+        error: '',
+
         address: '',
-        privateKey: '',
-        keystore: null
+        keystore: null,
+        privateKey: ''
       }
     },
     initImportInfo () {
       this.importInfo = {
         tag: '账户' + (this.database.length + 1),
-        privateKey: '',
-        keystore: null,
-        msg: null,
         pwd: '',
         repwd: '',
+
         step: 0,
-        type: '0'
+        type: '0',
+        alert: null,
+      
+        privateKey: '',
+        keystore: null
       }
     },
     refresh () {
@@ -246,7 +230,8 @@ export default {
     getBalance (item) {
       this.$web3.eth.getBalance(item.address)
           .then(data => {
-              item.balance = this.$web3.utils.fromWei(data, 'ether')
+              // item.balance = this.$web3.utils.fromWei(data, 'ether')
+              item.balance = data
           })
           .catch(console.log )
     },
@@ -316,7 +301,7 @@ export default {
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
-      this.dialogVisible.create = false
+      this.dialogSwitch.create = false
     },
     getNowTime:function () {
         let date = new Date();
@@ -338,7 +323,7 @@ export default {
           this.$message.error('错误：' + err)
         }
         this.importInfo.keystore = JSON.parse(data)
-        this.importInfo.msg = {
+        this.importInfo.alert = {
           content: '导入文件成功',
           type: 'success'
         }
@@ -348,21 +333,21 @@ export default {
       let account = null
       if (this.importInfo.type === '0') {
         if (!this.importInfo.privateKey) {
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '请输入密钥',
             type: 'error'
           }
           return
         }
         if (!this.importInfo.pwd || !this.importInfo.repwd) {
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '请输入密码',
             type: 'error'
           }
           return
         }
         if (this.importInfo.pwd !== this.importInfo.repwd) {
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '两次输入的密码不一致',
             type: 'error'
           }
@@ -376,7 +361,7 @@ export default {
           this.importInfo.keystore = this.$web3.eth.accounts.encrypt(this.importInfo.privateKey, this.importInfo.pwd)
         } catch (e) {
           console.log('importPrivateKeyError', e)
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '钱包导入失败，可能是密钥错误',
             type: 'error'
           }
@@ -384,14 +369,14 @@ export default {
         }
       } else if (this.importInfo.type === '1') {
         if (!this.importInfo.keystore) {
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '请先导入keystore文件',
             type: 'error'
           }
           return
         }
         if (!this.importInfo.pwd) {
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '请输入密码',
             type: 'error'
           }
@@ -401,7 +386,7 @@ export default {
           account = this.$web3.eth.accounts.decrypt(this.importInfo.keystore, this.importInfo.pwd)
         } catch (e) {
           console.log('importWalletError', e)
-          this.importInfo.msg = {
+          this.importInfo.alert = {
             content: '钱包导入失败，可能是密码错误',
             type: 'error'
           }
@@ -420,7 +405,7 @@ export default {
           .then(data => {
               params.balance = this.$web3.utils.fromWei(data, 'ether')
               this.initAccount(params)
-              this.dialogVisible.import = false
+              this.dialogSwitch.import = false
           })
           .catch(console.log )
     },
@@ -429,7 +414,7 @@ export default {
     // Remove Start
     showRemoveDia:function(currentAcc){
       this.removeAccount=currentAcc;
-      this.dialogVisible.remove=true;
+      this.dialogSwitch.remove=true;
     },
     removeAccountFn:function(){
         this.$db
@@ -438,16 +423,15 @@ export default {
           .write();
         this.$message.success('删除成功')
         this.refresh()
-        this.dialogVisible.remove=false;
+        this.dialogSwitch.remove=false;
     },
     // Remove End
   },
   filters: {
-    ShortVal: function(value) {
-      if (!value) return "";
-      value = Number(value);
-      return value.toFixed(2);
-    }
+    toEthVal:function(val){
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
+      return tempVal;//TODO 保留4位小数
+     }
   }
 };
 </script>

@@ -36,7 +36,10 @@ export default {
             total+=Number(item.balance);
         })
         // return this.$web3.utils.fromWei(total.toString(), 'ether')
-        return total
+        // return total;
+        //TODO 保留4位小数
+        console.log("total",total)
+        return this.$web3.utils.fromWei(total+"", 'ether'); 
       }else{
         return "-"
       }
@@ -51,8 +54,8 @@ export default {
     getBalance (item) {
       this.$web3.eth.getBalance(item.address)
           .then(data => {
-              // item.balance = data
-              item.balance = this.$web3.utils.fromWei(data, 'ether')
+              item.balance = data
+              // item.balance = this.$web3.utils.fromWei(data, 'ether')
           })
           .catch(console.log )
     }
