@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kòd",
         "go_transfer":"Inisye transfè",
+
         "transfer_log":"Istwa tranzaksyon",
         "transfer_log_null":"Pa gen istwa tranzaksyon",
-        "copy_success":"Adrès ki te kopye",
+
+        "active_icon":{
+            "go_transfer":"Inisye transfè",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kòd"
+        },
         "edit_dia":{
             "tit":"Modifye nòt",
-            "subtit":"Mete yon nòt ki gen yon longè ki pa plis pase 8 chif pou kont ou"
+            "subtit":"Make yon nòt pou kont ou"
+        },
+        "keystore":{
+            "tit":"Tounen moute keystore la",
+            "copy":"Diplikata",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adrès ki te kopye",
+            "key_copy_success":"Siksè kopye"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Fayit enpòte kont, li ka yon modpas mal",
             "remove_success":"Retire siksè",
             "save":"Kreye bous avèk siksè, tanpri sove keystore ou oswa kle prive, pa pataje li nan nenpòt moun!"
-        },
-
-
-        
-        
-        "remove_prompt":"Èske ou sèten ou vle efase?",
-        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete"
+        }
     }
 
 }

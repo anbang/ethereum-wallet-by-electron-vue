@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-koodi",
         "go_transfer":"Käynnistä siirto",
+
         "transfer_log":"Tapahtumahistoria",
         "transfer_log_null":"Ei tapahtumahistoriaa",
-        "copy_success":"Osoite on kopioitu",
+
+        "active_icon":{
+            "go_transfer":"Käynnistä siirto",
+            "import_keystore":"keystore",
+            "qrcode":"QR-koodi"
+        },
         "edit_dia":{
             "tit":"Muokkaa huomautusta",
-            "subtit":"Anna tili, jonka pituus on enintään 8 numeroa"
+            "subtit":"Merkitse tiliisi merkintä"
+        },
+        "keystore":{
+            "tit":"Varmuuskopioi näppäimistö",
+            "copy":"kopio",
+            "download":"Lataa näppäimistö"
+        },
+        "msg_info":{
+            "ads_copy_success":"Osoite on kopioitu",
+            "key_copy_success":"Kopioitiin onnistuneesti"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
             "remove_success":"Poistettu onnistuneesti",
             "save":"Luo lompakko onnistuneesti, säilytä avaimen tai yksityisen avaimen, älä jakaa sitä kenellekään!"
-        },
-
-
-        
-        
-        "remove_prompt":"Haluatko varmasti poistaa?",
-        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Inisjatyf fan oerdracht",
+
         "transfer_log":"Triemhistoarje",
         "transfer_log_null":"Gjin transaksjekiednis",
-        "copy_success":"Adres is kopiearre",
+
+        "active_icon":{
+            "go_transfer":"Inisjatyf fan oerdracht",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Wizigje notysje",
-            "subtit":"Fier in nota mei in lingte fan net mear as 8 sifers foar jo akkount"
+            "subtit":"Markje in nota foar jo akkount"
+        },
+        "keystore":{
+            "tit":"Weromsette op de keystore",
+            "copy":"Dûbele",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres is kopiearre",
+            "key_copy_success":"Nei sukses kopieare"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"It mislearre akkount mislearre, it kin in ferkeard wachtwurd wêze",
             "remove_success":"Fuortsmite mei sukses",
             "save":"Meitsje jo wallet mei súkses, besykje jo keystore of privee kaai te bewarjen, diel it net oan elkenien!"
-        },
-
-
-        
-        
-        "remove_prompt":"Binne jo wis dat jo wiskje wolle?",
-        "please_back_up":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen"
+        }
     }
 
 }

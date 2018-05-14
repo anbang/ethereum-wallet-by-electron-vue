@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Kode dua diménsi",
         "go_transfer":"initiate mindahkeun",
+
         "transfer_log":"Rékam urus",
         "transfer_log_null":"Taya transaksi",
-        "copy_success":"Alamat geus ditiron",
+
+        "active_icon":{
+            "go_transfer":"initiate mindahkeun",
+            "import_keystore":"Keystore",
+            "qrcode":"Kode dua diménsi"
+        },
         "edit_dia":{
             "tit":"Edit Catetan",
-            "subtit":"Pikeun akun anjeun ngasupkeun panjangna teu leuwih ti 8 Katerangan"
+            "subtit":"Pikeun akun Anjeun nandaan nyarios a"
+        },
+        "keystore":{
+            "tit":"Nyadangkeun keystore nu",
+            "copy":"salinan",
+            "download":"download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat geus ditiron",
+            "key_copy_success":"ditiron hasil"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Rekening impor gagal, nya meureun sandi salah",
             "remove_success":"dipupus junun",
             "save":"Jieun dompét a sukses, simpen keystore Anjeun atawa swasta, teu babagi kalawan saha!"
-        },
-
-
-        
-        
-        "remove_prompt":"Anjeun yakin rék ngahapus eta?",
-        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kodu",
         "go_transfer":"Transferin təşəbbüsü",
+
         "transfer_log":"Əməliyyat tarixi",
         "transfer_log_null":"Əməliyyat tarixi yoxdur",
-        "copy_success":"Ünvanı kopyalandı",
+
+        "active_icon":{
+            "go_transfer":"Transferin təşəbbüsü",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kodu"
+        },
         "edit_dia":{
             "tit":"Notu dəyişdirin",
-            "subtit":"Hesabınız üçün ən çox 8 rəqəmdən ibarət olan bir not daxil edin"
+            "subtit":"Hesabınız üçün qeyd yaz"
+        },
+        "keystore":{
+            "tit":"Klaviatura geri qayıt",
+            "copy":"Dublikat",
+            "download":"Keystore yükləyin"
+        },
+        "msg_info":{
+            "ads_copy_success":"Ünvanı kopyalandı",
+            "key_copy_success":"Müvəffəqiyyətlə kopyalanır"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
             "remove_success":"Uğurla silindi",
             "save":"Cüzdanı uğurla yaradın, keystore və ya gizli anahtarı saxlayın, onu heç kimə bölüşməyin!"
-        },
-
-
-        
-        
-        "remove_prompt":"Silmək istədiyinizə əminsiniz?",
-        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
+        }
     }
 
 }

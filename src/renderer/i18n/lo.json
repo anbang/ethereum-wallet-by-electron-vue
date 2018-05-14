@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
+
         "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
         "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
-        "copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+
+        "active_icon":{
+            "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"ແກ້ໄຂບັນທຶກ",
-            "subtit":"ໃສ່ປື້ມທີ່ມີຄວາມຍາວບໍ່ເກີນ 8 ໂຕເລກສໍາລັບບັນຊີຂອງທ່ານ"
+            "subtit":"ຫມາຍຫມາຍສໍາລັບບັນຊີຂອງທ່ານ"
+        },
+        "keystore":{
+            "tit":"Back up keystore",
+            "copy":"Duplicate",
+            "download":"ດາວໂຫລດ keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+            "key_copy_success":"ຄັດລອກສົບຜົນສໍາເລັດ"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"ບໍ່ສາມາດເຂົ້າບັນຊີໄດ້, ມັນອາດເປັນລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ",
             "remove_success":"ລຶບລ້າງຄວາມສໍາເລັດ",
             "save":"ສ້າງປື້ມທີ່ປະສົບຄວາມສໍາເລັດ, ກະລຸນາບັນທຶກ keystore ຫຼືຄີສ່ວນຕົວຂອງທ່ານ, ຢ່າແບ່ງປັນໃຫ້ກັບໃຜ!"
-        },
-
-
-        
-        
-        "remove_prompt":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການລຶບ?",
-        "please_back_up":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ"
+        }
     }
 
 }

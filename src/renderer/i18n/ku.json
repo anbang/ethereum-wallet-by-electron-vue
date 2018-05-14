@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Veguherîna destpêkirinê",
+
         "transfer_log":"Dîroka danûstendinê",
         "transfer_log_null":"Dîroka danûstandinê tune",
-        "copy_success":"Navnîşan qeydkirî ye",
+
+        "active_icon":{
+            "go_transfer":"Veguherîna destpêkirinê",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Şirovekirin",
-            "subtit":"Têkiliya navnîşan ji bo hejmara 8 hejmar ji bo hesabê we re binivîse"
+            "subtit":"Ji bo hesabê we re gotarek binivîse"
+        },
+        "keystore":{
+            "tit":"Vegere keystore",
+            "copy":"Duplicate",
+            "download":"Klavyeyê daxistin"
+        },
+        "msg_info":{
+            "ads_copy_success":"Navnîşan qeydkirî ye",
+            "key_copy_success":"Serkeftî kopî kirin"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
             "remove_success":"Serkeftî hat",
             "save":"Wallet bi serkeftî biafirîne, kerema xwe ya keystore yan kilîta xwe ya xwe biparêze, ne bi kesek re parve bike!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ma tu dixwazî ​​ku hûn dixwazin jêbirin?",
-        "please_back_up":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kode",
         "go_transfer":"Start overførsel",
+
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
-        "copy_success":"Adressen er blevet kopieret",
+
+        "active_icon":{
+            "go_transfer":"Start overførsel",
+            "import_keystore":"keystore",
+            "qrcode":"QR kode"
+        },
         "edit_dia":{
             "tit":"Rediger note",
-            "subtit":"Indtast en note med en længde på højst 8 cifre for din konto"
+            "subtit":"Marker en note til din konto"
+        },
+        "keystore":{
+            "tit":"Back up keystore",
+            "copy":"kopi",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adressen er blevet kopieret",
+            "key_copy_success":"Kopieret succesfuldt"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
             "remove_success":"Fjernet med succes",
             "save":"Opret lommebog med succes, gem venligst dit nøglelager eller privat nøgle, del det ikke til nogen!"
-        },
-
-
-        
-        
-        "remove_prompt":"Er du sikker på, at du vil slette?",
-        "please_back_up":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+        }
     }
 
 }

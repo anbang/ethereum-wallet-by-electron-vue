@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR ikhowudi",
         "go_transfer":"Qalisa ukudluliselwa",
+
         "transfer_log":"Imbali yomsebenzi",
         "transfer_log_null":"Akukho mlando wokuthengiselana",
-        "copy_success":"Idilesi ikopishwe",
+
+        "active_icon":{
+            "go_transfer":"Qalisa ukudluliselwa",
+            "import_keystore":"Keystore",
+            "qrcode":"QR ikhowudi"
+        },
         "edit_dia":{
             "tit":"Shintsha ingqalelo",
-            "subtit":"Faka inqaku ngobude obungaphantsi kweenombolo eziyi-8 ze-akhawunti yakho"
+            "subtit":"Maka uphawu kwiakhawunti yakho"
+        },
+        "keystore":{
+            "tit":"Yenza isipele kwi-keystore",
+            "copy":"Phindaphinda",
+            "download":"Khuphela i-keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Idilesi ikopishwe",
+            "key_copy_success":"Ukukopishwa ngempumelelo"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba iphasiwedi engalunganga",
             "remove_success":"Kususwe ngempumelelo",
             "save":"Yenza isikhwama ngempumelelo, nceda ugcine isitoreji sakho seenkcenkca okanye ukhiye wecala, ungabelani nantoni na!"
-        },
-
-
-        
-        
-        "remove_prompt":"Uqinisekile ukuba ufuna ukususa?",
-        "please_back_up":"Nceda uqinisekise ukuba i-akhawunti ixhaswe ukukhusela umonakalo wepropati"
+        }
     }
 
 }

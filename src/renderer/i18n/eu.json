@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kodea",
         "go_transfer":"Hasi transferentzia",
+
         "transfer_log":"Transakzioaren historia",
         "transfer_log_null":"Ez dago transakzioaren historia",
-        "copy_success":"Helbidea kopiatu da",
+
+        "active_icon":{
+            "go_transfer":"Hasi transferentzia",
+            "import_keystore":"keystore",
+            "qrcode":"QR kodea"
+        },
         "edit_dia":{
             "tit":"Aldatu oharra",
-            "subtit":"Idatzi ohar bat zure konturako 8 digitu baino gehiagoko luzerarekin"
+            "subtit":"Markatu ohar bat zure konturako"
+        },
+        "keystore":{
+            "tit":"Egin teklatuaren babeskopia",
+            "copy":"Copy",
+            "download":"Deskargatu teklak"
+        },
+        "msg_info":{
+            "ads_copy_success":"Helbidea kopiatu da",
+            "key_copy_success":"Ongi kopiatu da"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
             "remove_success":"Behar bezala kendu da",
             "save":"Sortu zorroa arrakastaz, gorde teklak edo gako pribatua, ez partekatu inori!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ziur al zaude ezabatu nahi duzula?",
-        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
+        }
     }
 
 }

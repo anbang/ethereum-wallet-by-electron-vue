@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kodi",
         "go_transfer":"O'tkazishni boshlang",
+
         "transfer_log":"Jurnal tarixi",
         "transfer_log_null":"Jurnal tarixi yo'q",
-        "copy_success":"Manzil ko'chirildi",
+
+        "active_icon":{
+            "go_transfer":"O'tkazishni boshlang",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kodi"
+        },
         "edit_dia":{
             "tit":"Qaydni o'zgartiring",
-            "subtit":"Hisobingiz uchun eng ko'p 8 raqamdan iborat bo'lgan eslatma kiriting"
+            "subtit":"Hisobingiz uchun eslatma belgilang"
+        },
+        "keystore":{
+            "tit":"Klaviaturani zaxiralash",
+            "copy":"Duplikat",
+            "download":"Klaviaturani yuklab olish"
+        },
+        "msg_info":{
+            "ads_copy_success":"Manzil ko'chirildi",
+            "key_copy_success":"Muvaffaqiyatli ko'chirildi"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Hisobni import qilish amalga oshmadi, u noto'g'ri parol bo'lishi mumkin",
             "remove_success":"Muvaffaqiyatli olib tashlandi",
             "save":"Hamyonni muvaffaqiyatli yaratish, keystore yoki maxfiy tugmachani saqlang, uni hech kimga qo'shmang!"
-        },
-
-
-        
-        
-        "remove_prompt":"Siz o'chirmoqchimisiz?",
-        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Pagsugod sa pagbalhin",
+
         "transfer_log":"Kasaysayan sa transaksyon",
         "transfer_log_null":"Walay kasaysayan sa transaksyon",
-        "copy_success":"Gikopya ang adres",
+
+        "active_icon":{
+            "go_transfer":"Pagsugod sa pagbalhin",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Usba ang mubo nga sulat",
-            "subtit":"Pagsulod sa usa ka sulat nga adunay gitas-on nga dili molabaw sa 8 ka digit alang sa imong account"
+            "subtit":"Markahi ang usa ka mubo nga sulat alang sa imong account"
+        },
+        "keystore":{
+            "tit":"I-back up ang keystore",
+            "copy":"Pagdoble",
+            "download":"I-download ang keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Gikopya ang adres",
+            "key_copy_success":"Malampuson nga gikopya"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
             "remove_success":"Malampuson nga nahuman",
             "save":"Himoa nga malampuson ang pitaka, palihug haw-i ang imong keystore o pribadong yawe, ayaw ipaambit kini sa bisan kinsa!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sigurado ba nga gusto nimong papason?",
-        "please_back_up":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Codul QR",
         "go_transfer":"Inițiați transferul",
+
         "transfer_log":"Istoricul tranzacțiilor",
         "transfer_log_null":"Nu există istoricul tranzacțiilor",
-        "copy_success":"Adresa a fost copiată",
+
+        "active_icon":{
+            "go_transfer":"Inițiați transferul",
+            "import_keystore":"keystore",
+            "qrcode":"Codul QR"
+        },
         "edit_dia":{
             "tit":"Modificați nota",
-            "subtit":"Introduceți o notă cu o lungime de cel mult 8 cifre pentru contul dvs."
+            "subtit":"Marcați o notă pentru contul dvs."
+        },
+        "keystore":{
+            "tit":"Faceți o copie de rezervă a cheii",
+            "copy":"copie",
+            "download":"Descărcați magazinul de chei"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa a fost copiată",
+            "key_copy_success":"Copiați cu succes"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Contul nu a putut fi importat, poate fi o parolă greșită",
             "remove_success":"Eliminat cu succes",
             "save":"Creați portofelul cu succes, salvați cheia dvs. de magazin sau cheia privată, nu o partajați nimănui!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sigur doriți să ștergeți?",
-        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
+        }
     }
 
 }

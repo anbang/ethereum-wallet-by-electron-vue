@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Miwiti transfer",
+
         "transfer_log":"Sajarah transaksi",
         "transfer_log_null":"Ora ana riwayat transaksi",
-        "copy_success":"Alamat wis disalin",
+
+        "active_icon":{
+            "go_transfer":"Miwiti transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Ngowahi cathetan",
-            "subtit":"Ketik cathetan kanthi dawane ora luwih saka 8 digit kanggo akun sampeyan"
+            "subtit":"Kanggo akun tandha komentar sing"
+        },
+        "keystore":{
+            "tit":"Nggawe serep keystore ing",
+            "copy":"Copy",
+            "download":"download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat wis disalin",
+            "key_copy_success":"disalin kasil"
         }
     },
     "page_home":{
@@ -78,13 +93,13 @@
             "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
 
             "account_address":"Akun",
-            "account_privateKey":"Tombol pribadi",
+            "account_privateKey":"tombol pribadi",
             "account_download_keystore":"Ngundhuh file keystore"
         },
         "import_dia":{
             "tit":"Impor akun",
             "select_type":"Mangga pilih metode ngimpor",
-            "type_private":"Tombol pribadi",
+            "type_private":"tombol pribadi",
             "type_keystore":"Keystore",
 
             "placeholder_private":"Mangga dipindhah tombol pribadi ing kene",
@@ -110,13 +125,7 @@
             "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
             "remove_success":"Dibusak kasil",
             "save":"Gawe dompet sukses, monggo simpen tombol keystore utawa pribadi, aja gawanen menyang sapa wae!"
-        },
-
-
-        
-        
-        "remove_prompt":"Apa sampeyan pengin mbusak?",
-        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
+        }
     }
 
 }

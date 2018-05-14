@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Código QR",
         "go_transfer":"Iniciar transferencia",
+
         "transfer_log":"Historial de transaccións",
         "transfer_log_null":"Sen historial de transaccións",
-        "copy_success":"Copiouse a dirección",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferencia",
+            "import_keystore":"Tenda de teclas",
+            "qrcode":"Código QR"
+        },
         "edit_dia":{
             "tit":"Modificar nota",
-            "subtit":"Insira unha nota cunha lonxitude de non máis de 8 díxitos para a súa conta"
+            "subtit":"Marca unha nota para a túa conta"
+        },
+        "keystore":{
+            "tit":"Fai copias de seguridade da fiestra de teclas",
+            "copy":"Duplicar",
+            "download":"Descargar o teclado"
+        },
+        "msg_info":{
+            "ads_copy_success":"Copiouse a dirección",
+            "key_copy_success":"Copiada con éxito"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
             "remove_success":"Eliminouse con éxito",
             "save":"Crea billetera con éxito, garda a túa tenda de teclas ou a chave privada, non a compartas a ninguén."
-        },
-
-
-        
-        
-        "remove_prompt":"¿Estás seguro de que queres eliminar?",
-        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"E hoʻomaka i ka hoʻololi",
+
         "transfer_log":"Ka hana kuhi puke",
         "transfer_log_null":"ʻAʻohe kūkena maʻamau",
-        "copy_success":"Ua kāpiliʻia ka helu",
+
+        "active_icon":{
+            "go_transfer":"E hoʻomaka i ka hoʻololi",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Hoʻololi i ka memo",
-            "subtit":"E kākau i kahi leka me ka lōʻihi o nāʻoi aku aʻoi aku ma mua o 8 mau helu no kāu moʻokāki"
+            "subtit":"E kākau i kahi leka no kāu helu"
+        },
+        "keystore":{
+            "tit":"E kākoʻo i ka keystore",
+            "copy":"Pālua",
+            "download":"Hoʻoiho i kahi makaikai"
+        },
+        "msg_info":{
+            "ads_copy_success":"Ua kāpiliʻia ka helu",
+            "key_copy_success":"Hoʻoponopono kopeʻia"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
             "remove_success":"Ua hoʻopau 'ia iā ia",
             "save":"E hana maikaʻi i kahi putele, eʻoluʻolu e mālama i kāu keystore a kī kīnā paha, mai hoʻokaʻawale i kekahi i kekahi!"
-        },
-
-
-        
-        
-        "remove_prompt":"Makemakeʻoe makemake e holoi?",
-        "please_back_up":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
+        }
     }
 
 }

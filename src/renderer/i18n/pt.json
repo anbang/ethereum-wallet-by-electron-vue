@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Código QR",
         "go_transfer":"Iniciar transferência",
+
         "transfer_log":"Histórico de transações",
         "transfer_log_null":"Nenhum histórico de transações",
-        "copy_success":"Endereço foi copiado",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferência",
+            "import_keystore":"Keystore",
+            "qrcode":"Código QR"
+        },
         "edit_dia":{
             "tit":"Modificar nota",
-            "subtit":"Insira uma nota com um comprimento de no máximo 8 dígitos para sua conta"
+            "subtit":"Marque uma nota para sua conta"
+        },
+        "keystore":{
+            "tit":"Fazer backup do keystore",
+            "copy":"Duplicar",
+            "download":"Download de keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Endereço foi copiado",
+            "key_copy_success":"Copiado com sucesso"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Falha ao importar conta, pode ser uma senha errada",
             "remove_success":"Removido com sucesso",
             "save":"Crie uma carteira com sucesso, por favor, salve seu keystore ou chave privada, não compartilhe com ninguém!"
-        },
-
-
-        
-        
-        "remove_prompt":"Tem certeza de que deseja excluir?",
-        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
+        }
     }
 
 }

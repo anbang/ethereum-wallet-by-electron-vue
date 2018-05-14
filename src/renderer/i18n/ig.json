@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR koodu",
         "go_transfer":"Buru ụzọ nyefee",
+
         "transfer_log":"Akụkọ azụmahịa",
         "transfer_log_null":"Ọ dịghị akụkọ ihe mere eme",
-        "copy_success":"E depụtala adreesị",
+
+        "active_icon":{
+            "go_transfer":"Buru ụzọ nyefee",
+            "import_keystore":"Keystore",
+            "qrcode":"QR koodu"
+        },
         "edit_dia":{
             "tit":"Gbanwee ederede",
-            "subtit":"Tinye ederede na ogologo oge karịa 8 digit maka akaụntụ gị"
+            "subtit":"Dee ederede maka akaụntụ gị"
+        },
+        "keystore":{
+            "tit":"Weghachite isi ihe",
+            "copy":"Ntughari",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"E depụtala adreesị",
+            "key_copy_success":"E depụtaghachiri nke ọma"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ paswọọdụ na-ezighị ezi",
             "remove_success":"Wepụ ya nke ọma",
             "save":"Mepụta obere akpa ego, biko chekwaa ma ọ bụ igodo nzuzo gị, anaghị enye ya onye ọ bụla!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ị doro anya na ịchọrọ ihichapụ?",
-        "please_back_up":"Biko jide n'aka na akwadola akaụntụ ahụ iji zere mmebi ihe onwunwe"
+        }
     }
 
 }

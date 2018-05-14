@@ -165,7 +165,7 @@
 
 <script>
 const fs = require("fs");
-var self=null;
+let  self=null;
 
 export default {
   name: "Bodyer",
@@ -244,7 +244,7 @@ export default {
     //Init End
 
     initAccount:function(params){
-      var self=this;
+      let  self=this;
       let account = this.$db.get('czr_accounts')
         .find({ address: params.address })
         .value()

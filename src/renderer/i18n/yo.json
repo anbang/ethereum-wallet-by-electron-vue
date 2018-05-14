@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR koodu",
         "go_transfer":"Bẹrẹ gbigbe",
+
         "transfer_log":"Itan iṣowo",
         "transfer_log_null":"Ko si idunadura itan",
-        "copy_success":"Adirẹsi ti dakọ",
+
+        "active_icon":{
+            "go_transfer":"Bẹrẹ gbigbe",
+            "import_keystore":"Atilẹju ọja",
+            "qrcode":"QR koodu"
+        },
         "edit_dia":{
             "tit":"Ṣe akọsilẹ atunṣe",
-            "subtit":"Tẹ akọsilẹ sii pẹlu ipari ti ko si ju awọn nọmba mẹẹdogun fun àkọọlẹ rẹ"
+            "subtit":"Ṣe akọsilẹ akọsilẹ kan fun akọọlẹ rẹ"
+        },
+        "keystore":{
+            "tit":"Ṣe afẹyinti ile-iṣẹ bọtini",
+            "copy":"Duplicate",
+            "download":"Gba awọn oju-iwe ayelujara"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adirẹsi ti dakọ",
+            "key_copy_success":"Ti ṣe ayẹwo daradara"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
             "remove_success":"Pa kuro ni ifijišẹ",
             "save":"Ṣẹda apamọwọ ni ifijiṣe, jọwọ ṣe afihan bọtini-igbẹ rẹ tabi bọtini ikọkọ, ma ṣe pin pin si ẹnikẹni!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ṣe o da ọ loju pe o fẹ paarẹ?",
-        "please_back_up":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+        }
     }
 
 }

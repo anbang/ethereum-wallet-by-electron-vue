@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Kod QR",
         "go_transfer":"Pindahan awal",
+
         "transfer_log":"Sejarah urus niaga",
         "transfer_log_null":"Tiada sejarah transaksi",
-        "copy_success":"Alamat telah disalin",
+
+        "active_icon":{
+            "go_transfer":"Pindahan awal",
+            "import_keystore":"Kedai kunci",
+            "qrcode":"Kod QR"
+        },
         "edit_dia":{
             "tit":"Ubah nota",
-            "subtit":"Masukkan nota dengan panjang tidak lebih daripada 8 digit untuk akaun anda"
+            "subtit":"Tandakan nota untuk akaun anda"
+        },
+        "keystore":{
+            "tit":"Back up the keystore",
+            "copy":"Duplikat",
+            "download":"Muat turun keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat telah disalin",
+            "key_copy_success":"Berjaya disalin"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
             "remove_success":"Dihapuskan berjaya",
             "save":"Buat dompet berjaya, sila simpan kunci utama atau kunci peribadi anda, jangan berkongsinya dengan sesiapa sahaja!"
-        },
-
-
-        
-        
-        "remove_prompt":"Adakah anda pasti mahu memadamkannya?",
-        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
+        }
     }
 
 }

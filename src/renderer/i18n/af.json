@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kode",
         "go_transfer":"Inisieer oordrag",
+
         "transfer_log":"Transaksiegeskiedenis",
         "transfer_log_null":"Geen transaksiegeskiedenis nie",
-        "copy_success":"Adres is gekopieer",
+
+        "active_icon":{
+            "go_transfer":"Inisieer oordrag",
+            "import_keystore":"sleutelstoorlêers",
+            "qrcode":"QR kode"
+        },
         "edit_dia":{
             "tit":"Wysig nota",
-            "subtit":"Voer 'n nota in met 'n lengte van nie meer as 8 syfers vir jou rekening nie"
+            "subtit":"Merk 'n nota vir jou rekening"
+        },
+        "keystore":{
+            "tit":"Rugsteun die sleutelwinkel",
+            "copy":"kopie",
+            "download":"Laai sleutelwinkel af"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres is gekopieer",
+            "key_copy_success":"Suksesvol gekopieer"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Kon nie rekening invoer nie, dit mag dalk 'n verkeerde wagwoord wees",
             "remove_success":"Suksesvol verwyder",
             "save":"Skep 'n beursie suksesvol, slaan asseblief jou sleutelwinkel of privaat sleutel op, moenie dit aan enigiemand deel nie!"
-        },
-
-
-        
-        
-        "remove_prompt":"Is jy seker jy wil verwyder?",
-        "please_back_up":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
+        }
     }
 
 }

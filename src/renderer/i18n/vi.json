@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Mã QR",
         "go_transfer":"Bắt đầu chuyển",
+
         "transfer_log":"Lịch sử giao dịch",
         "transfer_log_null":"Không có lịch sử giao dịch",
-        "copy_success":"Địa chỉ đã được sao chép",
+
+        "active_icon":{
+            "go_transfer":"Bắt đầu chuyển",
+            "import_keystore":"Keystore",
+            "qrcode":"Mã QR"
+        },
         "edit_dia":{
             "tit":"Sửa đổi ghi chú",
-            "subtit":"Nhập ghi chú có độ dài không quá 8 chữ số cho tài khoản của bạn"
+            "subtit":"Đánh dấu ghi chú cho tài khoản của bạn"
+        },
+        "keystore":{
+            "tit":"Sao lưu kho khóa",
+            "copy":"Nhân đôi",
+            "download":"Tải xuống kho khóa"
+        },
+        "msg_info":{
+            "ads_copy_success":"Địa chỉ đã được sao chép",
+            "key_copy_success":"Đã sao chép thành công"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Không thể nhập tài khoản, có thể đó là mật khẩu sai",
             "remove_success":"Đã xóa thành công",
             "save":"Tạo ví thành công, vui lòng lưu kho khóa hoặc khóa cá nhân của bạn, không chia sẻ nó cho bất kỳ ai!"
-        },
-
-
-        
-        
-        "remove_prompt":"Bạn có chắc chắn muốn xóa không?",
-        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
+        }
     }
 
 }

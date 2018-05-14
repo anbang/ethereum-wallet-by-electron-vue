@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-kode",
         "go_transfer":"Start overføring",
+
         "transfer_log":"Transaksjonshistorikk",
         "transfer_log_null":"Ingen transaksjonshistorikk",
-        "copy_success":"Adressen er kopiert",
+
+        "active_icon":{
+            "go_transfer":"Start overføring",
+            "import_keystore":"keystore",
+            "qrcode":"QR-kode"
+        },
         "edit_dia":{
             "tit":"Endre notat",
-            "subtit":"Skriv inn et notat med en lengde på ikke mer enn 8 siffer for kontoen din"
+            "subtit":"Merk et notat for kontoen din"
+        },
+        "keystore":{
+            "tit":"Ta sikkerhetskopi av nøkkelbutikken",
+            "copy":"kopi",
+            "download":"Last ned nøkkelbutikk"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adressen er kopiert",
+            "key_copy_success":"Kopieres vellykket"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Kan ikke importere konto, det kan være et feil passord",
             "remove_success":"Fjernet vellykket",
             "save":"Opprett lommebok vellykket, vær så snill å lagre nøkkelbutikken eller privatnøkkelen, ikke del den til noen!"
-        },
-
-
-        
-        
-        "remove_prompt":"Er du sikker på at du vil slette?",
-        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
+        }
     }
 
 }

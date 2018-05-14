@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QRコード",
         "go_transfer":"転送を開始する",
+
         "transfer_log":"取引履歴",
         "transfer_log_null":"取引履歴はありません",
-        "copy_success":"アドレスがコピーされました",
+
+        "active_icon":{
+            "go_transfer":"転送を開始する",
+            "import_keystore":"キーストア",
+            "qrcode":"QRコード"
+        },
         "edit_dia":{
             "tit":"メモを変更する",
-            "subtit":"あなたのアカウントの長さが8桁以下のメモを入力してください"
+            "subtit":"アカウントの発言をマーク"
+        },
+        "keystore":{
+            "tit":"キーストアのバックアップ",
+            "copy":"重複",
+            "download":"ダウンロードストア"
+        },
+        "msg_info":{
+            "ads_copy_success":"アドレスがコピーされました",
+            "key_copy_success":"正常にコピー"
         }
     },
     "page_home":{
@@ -90,7 +105,7 @@
             "placeholder_private":"ここに秘密鍵を貼り付けてください",
             "placeholder_keystore":"ここにキーストアファイルをドラッグしてください",
 
-            "input_pwd":"パスワードを入力",
+            "input_pwd":"パスワードを入力します。",
             "placeholder_pwd":"アカウントのパスワードを入力してください"
 
         },
@@ -110,13 +125,7 @@
             "error_password":"アカウントのインポートに失敗しました。パスワードが間違っている可能性があります",
             "remove_success":"削除されました",
             "save":"ウォレットを作成してください。キーストアまたは秘密鍵を保存してください。他の人と共有しないでください！"
-        },
-
-
-        
-        
-        "remove_prompt":"削除してもよろしいですか？",
-        "please_back_up":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください"
+        }
     }
 
 }

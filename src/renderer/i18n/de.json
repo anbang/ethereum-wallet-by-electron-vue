@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-Code",
         "go_transfer":"Übertragung einleiten",
+
         "transfer_log":"Transaktionsverlauf",
         "transfer_log_null":"Kein Transaktionsverlauf",
-        "copy_success":"Die Adresse wurde kopiert",
+
+        "active_icon":{
+            "go_transfer":"Übertragung einleiten",
+            "import_keystore":"Schlüsselspeicher",
+            "qrcode":"QR-Code"
+        },
         "edit_dia":{
             "tit":"Notiz ändern",
-            "subtit":"Geben Sie eine Notiz mit einer Länge von nicht mehr als 8 Ziffern für Ihr Konto ein"
+            "subtit":"Für Ihr Konto markiert eine Bemerkung"
+        },
+        "keystore":{
+            "tit":"Sichern der Schlüsselspeicher",
+            "copy":"Kopie",
+            "download":"Herunterladen Schlüsselspeicher"
+        },
+        "msg_info":{
+            "ads_copy_success":"Die Adresse wurde kopiert",
+            "key_copy_success":"kopiert erfolgreich"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Konnte das Konto nicht importieren, kann dies ein falsches Passwort sein",
             "remove_success":"Erfolgreich entfernt",
             "save":"Erstellen Sie die Brieftasche erfolgreich, speichern Sie Ihren Keystore oder privaten Schlüssel, teilen Sie ihn nicht mit anderen!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sind Sie sicher, dass Sie löschen möchten?",
-        "please_back_up":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
+        }
     }
 
 }

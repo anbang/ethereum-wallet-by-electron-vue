@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Qala ho fetisetsa",
+
         "transfer_log":"Transaction histori",
         "transfer_log_null":"Ha ho histori ea ho rekisa",
-        "copy_success":"Aterese e kopitsoe",
+
+        "active_icon":{
+            "go_transfer":"Qala ho fetisetsa",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Fetola tsebiso",
-            "subtit":"Kenya lengolo le bolelele ba litefiso tse fetang 8 bakeng sa akhaonto ea hau"
+            "subtit":"Ngola lengolo bakeng sa akhaonto ea hau"
+        },
+        "keystore":{
+            "tit":"Khutlisetsa konteraka sa keystore",
+            "copy":"Pheta-pheta",
+            "download":"Kopitsa sesepa sa keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Aterese e kopitsoe",
+            "key_copy_success":"E kopitsoe ka katleho"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"E hlōlehile ho kenya akhaonto, e ka 'na ea e-ba polelo e fosahetseng",
             "remove_success":"E tlosoa ka katleho",
             "save":"Etsa ka katleho sepache, ka kopo pholosa sesepa sa hau sa keystore kapa senotlolo se le seng, u se ke ua se arolelana le mang kapa mang!"
-        },
-
-
-        
-        
-        "remove_prompt":"Na u netefatsa hore u batla ho e tlosa?",
-        "please_back_up":"Ka kopo etsa bonnete ba hore akhaonto e tšehetsoe ho qoba tšenyo ea thepa"
+        }
     }
 
 }

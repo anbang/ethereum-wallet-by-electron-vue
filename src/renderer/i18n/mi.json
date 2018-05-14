@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Tīmatahia te whakawhitinga",
+
         "transfer_log":"Te hītori mahi",
         "transfer_log_null":"Kāore he hītori tukanga",
-        "copy_success":"Kua tohua te korero",
+
+        "active_icon":{
+            "go_transfer":"Tīmatahia te whakawhitinga",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Whakakēhia te tuhinga",
-            "subtit":"Tāurutia he tuhipoka me te roa o te kore neke atu i te 8 nga tau mo to taakete"
+            "subtit":"Tuhia he tuhi mo to korero"
+        },
+        "keystore":{
+            "tit":"Whakahokia te taputapu",
+            "copy":"Tāruarua",
+            "download":"Tikiake keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Kua tohua te korero",
+            "key_copy_success":"I tāruatia te angitu"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"I rahua te kawemai i te pūkete, he kupuhipa he",
             "remove_success":"Tangohia angitu",
             "save":"Waihanga i te putea pai, waiho koa to maatau matua, tautuhi takitahi ranei, kaua e tuwha atu ki tetahi!"
-        },
-
-
-        
-        
-        "remove_prompt":"Kei te hiahia koe kia muku?",
-        "please_back_up":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
+        }
     }
 
 }

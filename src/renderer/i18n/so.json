@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Kala bedel wareejinta",
+
         "transfer_log":"Taariikhda wax-gadashada",
         "transfer_log_null":"Taariikhda isweydaarsiga",
-        "copy_success":"Cinwaanka ayaa la daabacay",
+
+        "active_icon":{
+            "go_transfer":"Kala bedel wareejinta",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Bedel qoraalka",
-            "subtit":"Ku qor qori dhererka aan ka badnayn 8 lambar xisaabtaada"
+            "subtit":"Calaamad ku qor xisaabtaada"
+        },
+        "keystore":{
+            "tit":"Dib ugu soo celi furaha",
+            "copy":"Duub",
+            "download":"Soo daji furaha furaha"
+        },
+        "msg_info":{
+            "ads_copy_success":"Cinwaanka ayaa la daabacay",
+            "key_copy_success":"Ku guulaystay koobi"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
             "remove_success":"Kala guuleysatay",
             "save":"Abuuri jeebka si guul leh, fadlan badbaadi furahaaga furaha ama furaha gaarka ah, ha la wadaagin cid kale!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ma hubtaa inaad rabto inaad tirtirto?",
-        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
+        }
     }
 
 }

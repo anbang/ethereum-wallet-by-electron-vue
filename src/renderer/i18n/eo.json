@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-kodo",
         "go_transfer":"Komenca translokigo",
+
         "transfer_log":"Transakcio-historio",
         "transfer_log_null":"Neniu transakcia historio",
-        "copy_success":"Direkto estis kopiita",
+
+        "active_icon":{
+            "go_transfer":"Komenca translokigo",
+            "import_keystore":"Ŝlosilo",
+            "qrcode":"QR-kodo"
+        },
         "edit_dia":{
             "tit":"Modifi noton",
-            "subtit":"Enmetu noton kun pli ol 8 ciferoj por via konto"
+            "subtit":"Marki noton por via konto"
+        },
+        "keystore":{
+            "tit":"Reen al la ŝlosilo",
+            "copy":"Dupliku",
+            "download":"Elŝuti ŝlosilon"
+        },
+        "msg_info":{
+            "ads_copy_success":"Direkto estis kopiita",
+            "key_copy_success":"Sukcese kopiis"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
             "remove_success":"Forigita sukcese",
             "save":"Krei moneron kun sukceso, bonvolu ŝpari vian ŝlosilon aŭ privatan ŝlosilon, ne dividu ĝin al iu ajn!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ĉu vi certas, ke vi volas forigi?",
-        "please_back_up":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
+        }
     }
 
 }

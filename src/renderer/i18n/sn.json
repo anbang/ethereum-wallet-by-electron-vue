@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Tanga kutumira",
+
         "transfer_log":"Transaction history",
         "transfer_log_null":"Kwete nhoroondo yekutengesa",
-        "copy_success":"Tsamba yakanyorwa",
+
+        "active_icon":{
+            "go_transfer":"Tanga kutumira",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Shandura nyora",
-            "subtit":"Isa chinyorwa nehurefu hwepasina mairi 8 maverengi eakaunti yako"
+            "subtit":"Isa chinyorwa cheakaunti yako"
+        },
+        "keystore":{
+            "tit":"Dzorera kona yechikoni",
+            "copy":"Duplicate",
+            "download":"Dhaunirodha kststore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Tsamba yakanyorwa",
+            "key_copy_success":"Akabudirira kubudirira"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Yakakundikana kutumira account, inogona kunge iri password isina kururama",
             "remove_success":"Yakabviswa kubudirira",
             "save":"Gadzira chikwama kubudirira, tapota ponesa kona yako yekodhi kana kiyi yega yega, urege kugovera kune ani zvake!"
-        },
-
-
-        
-        
-        "remove_prompt":"Unonyatsoziva here kuti unoda kubvisa?",
-        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
+        }
     }
 
 }

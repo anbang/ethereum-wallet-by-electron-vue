@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Hanomboka handefasana",
+
         "transfer_log":"Tantaran'ny trosa",
         "transfer_log_null":"Tsy misy tantara momba ny raharaham-barotra",
-        "copy_success":"Adiresy dia nadika",
+
+        "active_icon":{
+            "go_transfer":"Hanomboka handefasana",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Hanova fanamarihana",
-            "subtit":"Ampidiro marika tsy mihoatra ny 8 ny isa amin'ny kaontinao"
+            "subtit":"Mariho marika ho an'ny kaontinao"
+        },
+        "keystore":{
+            "tit":"Avereno ny kitaba",
+            "copy":"Copy",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adiresy dia nadika",
+            "key_copy_success":"Navoaka tamim-pahombiazana"
         }
     },
     "page_home":{
@@ -96,7 +111,7 @@
         },
         "remove_dia":{
             "tit":"Azonao antoka ve fa te-hamafa ianao?",
-            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
+            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
         },
         "msg_info":{
             "exist":"Ity kaonty ity dia efa misy ary ny anarany dia",
@@ -110,13 +125,7 @@
             "error_password":"Tsy mety ny mampiditra ny kaonty, mety ho teny tsy mety izany",
             "remove_success":"Nesorina tamim-pahombiazana",
             "save":"Ataovy mahomby tsara ny kitapom-bola, azafady manangona ny keystore na ny fanalahidin'ny tenanao manokana, aza mizara izany amin'iza na iza!"
-        },
-
-
-        
-        
-        "remove_prompt":"Azonao antoka ve fa te-hamafa ianao?",
-        "please_back_up":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
+        }
     }
 
 }

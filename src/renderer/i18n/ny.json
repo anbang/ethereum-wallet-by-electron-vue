@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Yambitsani kutumiza",
+
         "transfer_log":"Mbiri yamagulu",
         "transfer_log_null":"Palibe mbiri yakugulitsa",
-        "copy_success":"Adilesi yophimbidwa",
+
+        "active_icon":{
+            "go_transfer":"Yambitsani kutumiza",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Sinthani mawu",
-            "subtit":"Lowani cholemba ndi kutalika kwa maulendo osaposa 8 a akaunti yanu"
+            "subtit":"Lembani chizindikiro cha akaunti yanu"
+        },
+        "keystore":{
+            "tit":"Bwezerani seweroli",
+            "copy":"Duplicate",
+            "download":"Tsitsani makina osindikizira"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adilesi yophimbidwa",
+            "key_copy_success":"Ikopera bwino"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
             "remove_success":"Kuchotsedwa bwino",
             "save":"Pangani ngongole bwinobwino, chonde sungani sewero lanu lachinsinsi kapena chinsinsi chapadera, osagawana nawo kwa wina aliyense!"
-        },
-
-
-        
-        
-        "remove_prompt":"Mukutsimikiza kuti mukufuna kuchotsa?",
-        "please_back_up":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
+        }
     }
 
 }

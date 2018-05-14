@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Initiatioun transferéieren",
+
         "transfer_log":"Transaktiounsgeschicht",
         "transfer_log_null":"Keng Transaktiounsgeschicht",
-        "copy_success":"Adress gouf kopéiert",
+
+        "active_icon":{
+            "go_transfer":"Initiatioun transferéieren",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Änneren",
-            "subtit":"Gitt eng Note mat enger Längt vun net méi wéi 8 Zifferen fir Äre Kont"
+            "subtit":"Mark eng Notiz fir Äre Kont"
+        },
+        "keystore":{
+            "tit":"Zréck op den Tastekär",
+            "copy":"Duplizéieren",
+            "download":"Eroflueden"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adress gouf kopéiert",
+            "key_copy_success":"Erfolleg kopéiert"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
             "remove_success":"Erofgeholl",
             "save":"Setzt Är Portemonnaie Succès, späichere weg Äre Keystore oder e privaten Schlëssel, liwwere se net u jiddereen!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sidd Dir sécher datt Dir wëllt läschen?",
-        "please_back_up":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
+        }
     }
 
 }

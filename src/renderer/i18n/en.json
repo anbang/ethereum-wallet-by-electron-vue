@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Initiate transfer",
+
         "transfer_log":"Transaction Record",
         "transfer_log_null":"No transaction history",
-        "copy_success":"Address has been copied",
+
+        "active_icon":{
+            "go_transfer":"Initiate transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Modify note",
-            "subtit":"Enter a note with a length of no more than 8 digits for your account"
+            "subtit":"Mark a note for your account"
+        },
+        "keystore":{
+            "tit":"Back up the keystore",
+            "copy":"copy",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Address has been copied",
+            "key_copy_success":"Successfully copied"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Failed to import account, it may be a wrong password",
             "remove_success":"Removed successfully",
             "save":"Create wallet successfully, please save your keystore or private key, don't share it to anyone!"
-        },
-
-
-        
-        
-        "remove_prompt":"Are you sure you want to delete?",
-        "please_back_up":"Please make sure the account has been backed up to avoid property damage"
+        }
     }
 
 }

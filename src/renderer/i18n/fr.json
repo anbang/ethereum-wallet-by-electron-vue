@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Initier le transfert",
+
         "transfer_log":"Historique des transactions",
         "transfer_log_null":"Aucun historique de transaction",
-        "copy_success":"L'adresse a été copiée",
+
+        "active_icon":{
+            "go_transfer":"Initier le transfert",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Modifier la note",
-            "subtit":"Entrez une note d'une longueur maximale de 8 chiffres pour votre compte"
+            "subtit":"Marquer une note pour votre compte"
+        },
+        "keystore":{
+            "tit":"Sauvegarder le fichier de clés",
+            "copy":"Dupliquer",
+            "download":"Télécharger le fichier de clés"
+        },
+        "msg_info":{
+            "ads_copy_success":"L'adresse a été copiée",
+            "key_copy_success":"Copié avec succès"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Impossible d'importer le compte, il peut s'agir d'un mot de passe incorrect",
             "remove_success":"Retiré avec succès",
             "save":"Créez un portefeuille avec succès, enregistrez votre fichier de clés ou votre clé privée, ne le partagez pas avec qui que ce soit!"
-        },
-
-
-        
-        
-        "remove_prompt":"Êtes-vous sûr de vouloir supprimer?",
-        "please_back_up":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-code",
         "go_transfer":"Start overdracht",
+
         "transfer_log":"Transactiegeschiedenis",
         "transfer_log_null":"Geen transactiegeschiedenis",
-        "copy_success":"Adres is gekopieerd",
+
+        "active_icon":{
+            "go_transfer":"Start overdracht",
+            "import_keystore":"keystore",
+            "qrcode":"QR-code"
+        },
         "edit_dia":{
             "tit":"Wijzig opmerking",
-            "subtit":"Voer een notitie in met een lengte van niet meer dan 8 cijfers voor uw account"
+            "subtit":"Markeer een notitie voor uw account"
+        },
+        "keystore":{
+            "tit":"Maak een back-up van de keystore",
+            "copy":"exemplaar",
+            "download":"Keystore downloaden"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres is gekopieerd",
+            "key_copy_success":"Succesvol gekopieerd"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
             "remove_success":"Met succes verwijderd",
             "save":"Maak een portemonnee succesvol, bewaar uw keystore of private sleutel, deel hem met niemand!"
-        },
-
-
-        
-        
-        "remove_prompt":"Weet je zeker dat je wilt verwijderen?",
-        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kód",
         "go_transfer":"Átirányítás kezdeményezése",
+
         "transfer_log":"Tranzakciók előzményei",
         "transfer_log_null":"Nincs tranzakcióelőzmény",
-        "copy_success":"A cím át lett másolva",
+
+        "active_icon":{
+            "go_transfer":"Átirányítás kezdeményezése",
+            "import_keystore":"kulcstárát",
+            "qrcode":"QR kód"
+        },
         "edit_dia":{
             "tit":"Jegyzet módosítása",
-            "subtit":"Adjon meg egy, legfeljebb 8 számjegyű számot fiókjához"
+            "subtit":"Jelöljön meg egy jegyzetet fiókjához"
+        },
+        "keystore":{
+            "tit":"Hozza vissza a kulcsstartót",
+            "copy":"másolat",
+            "download":"A kulcstartó letöltése"
+        },
+        "msg_info":{
+            "ads_copy_success":"A cím át lett másolva",
+            "key_copy_success":"Sikeresen másolt"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
             "remove_success":"Sikeresen eltávolítva",
             "save":"Hozzon létre egy pénztárca sikeres mentse kulcstárát vagy magán, ne ossza meg senkivel!"
-        },
-
-
-        
-        
-        "remove_prompt":"Biztosan törölni akarja?",
-        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
+        }
     }
 
 }

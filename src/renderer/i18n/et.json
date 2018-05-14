@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-kood",
         "go_transfer":"Käivita üleandmine",
+
         "transfer_log":"Tehinguajalugu",
         "transfer_log_null":"Tehingute ajalugu pole",
-        "copy_success":"Aadress on kopeeritud",
+
+        "active_icon":{
+            "go_transfer":"Käivita üleandmine",
+            "import_keystore":"Keystore",
+            "qrcode":"QR-kood"
+        },
         "edit_dia":{
             "tit":"Muuda märkmeid",
-            "subtit":"Sisestage kontole pikkusega kuni 8 numbrit"
+            "subtit":"Märkige märkus oma konto jaoks"
+        },
+        "keystore":{
+            "tit":"Varundage võtmehoidja",
+            "copy":"Duplicate",
+            "download":"Laadi võtmestik alla"
+        },
+        "msg_info":{
+            "ads_copy_success":"Aadress on kopeeritud",
+            "key_copy_success":"Edukalt kopeeritud"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
             "remove_success":"Eemaldati edukalt",
             "save":"Rahakoti loomine edukalt, salvestage oma võtmehoidja või privaatvõti, ärge seda kellelegi jagage!"
-        },
-
-
-        
-        
-        "remove_prompt":"Kas olete kindel, et soovite kustutada?",
-        "please_back_up":"Veenduge, et konto on varundatud, et vältida varakahju"
+        }
     }
 
 }

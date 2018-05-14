@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR còd",
         "go_transfer":"A 'tòiseachadh a' gluasad",
+
         "transfer_log":"Eachdraidh atharrachadh",
         "transfer_log_null":"Chan eil eachdraidh malairt",
-        "copy_success":"Chaidh an seòladh a chraoladh",
+
+        "active_icon":{
+            "go_transfer":"A 'tòiseachadh a' gluasad",
+            "import_keystore":"Prìomh-stòr",
+            "qrcode":"QR còd"
+        },
         "edit_dia":{
             "tit":"Nòta atharrachaidh",
-            "subtit":"Cuir a-steach nota le fad gun a bhith nas fhaide na 8 dhigit airson do chunntas"
+            "subtit":"Dèan nota airson do chunntas"
+        },
+        "keystore":{
+            "tit":"Cùl-taic air a 'phrìomh chrann",
+            "copy":"Duplicate",
+            "download":"Luchdaich a-nuas clach-inneal"
+        },
+        "msg_info":{
+            "ads_copy_success":"Chaidh an seòladh a chraoladh",
+            "key_copy_success":"Chaidh a lethbhreacadh gu soirbheachail"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
             "remove_success":"Thoir air falbh gu soirbheachail",
             "save":"Cruthaich phasgan gu soirbheachail, sàbhail do stòr-inneal no iuchair prìobhaideach, na rannsaich e do dhuine sam bith!"
-        },
-
-
-        
-        
-        "remove_prompt":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
-        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
+        }
     }
 
 }

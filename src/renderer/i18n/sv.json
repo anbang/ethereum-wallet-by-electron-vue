@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR-kod",
         "go_transfer":"Inleda överföring",
+
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
-        "copy_success":"Adressen har kopierats",
+
+        "active_icon":{
+            "go_transfer":"Inleda överföring",
+            "import_keystore":"nyckel",
+            "qrcode":"QR-kod"
+        },
         "edit_dia":{
             "tit":"Ändra anteckning",
-            "subtit":"Ange en anteckning med en längd av högst 8 siffror för ditt konto"
+            "subtit":"Markera en anteckning för ditt konto"
+        },
+        "keystore":{
+            "tit":"Säkerhetskopiera nyckelbutiken",
+            "copy":"kopia",
+            "download":"Ladda ner nyckelbutiken"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adressen har kopierats",
+            "key_copy_success":"Kopieras framgångsrikt"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Det gick inte att importera ett konto, det kan vara ett felaktigt lösenord",
             "remove_success":"Avlägsnades framgångsrikt",
             "save":"Skapa en plånbok med framgång, var god spara din nyckelbutik eller privat nyckel, dela inte den till någon!"
-        },
-
-
-        
-        
-        "remove_prompt":"Är du säker på att du vill radera?",
-        "please_back_up":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
+        }
     }
 
 }

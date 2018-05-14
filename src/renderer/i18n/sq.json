@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kodi",
         "go_transfer":"Nise transferimin",
+
         "transfer_log":"Historiku i transaksionit",
         "transfer_log_null":"Asnjë histori transaksioni",
-        "copy_success":"Adresa është kopjuar",
+
+        "active_icon":{
+            "go_transfer":"Nise transferimin",
+            "import_keystore":"keystore",
+            "qrcode":"QR kodi"
+        },
         "edit_dia":{
             "tit":"Modifiko shënimin",
-            "subtit":"Futni një shënim me gjatësi jo më shumë se 8 shifra për llogarinë tuaj"
+            "subtit":"Shënoni një shënim për llogarinë tuaj"
+        },
+        "keystore":{
+            "tit":"Kthehu në tastierën",
+            "copy":"kopje",
+            "download":"Shkarko tastierën"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa është kopjuar",
+            "key_copy_success":"Kopjoi me sukses"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
             "remove_success":"Heqja me sukses",
             "save":"Krijoni portofolin me sukses, ju lutemi ruani tastierën tuaj ose çelësin privat, mos e ndani atë askujt!"
-        },
-
-
-        
-        
-        "remove_prompt":"Jeni i sigurt që doni të fshini?",
-        "please_back_up":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
+        }
     }
 
 }

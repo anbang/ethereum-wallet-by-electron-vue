@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Magsimula ng paglipat",
+
         "transfer_log":"Kasaysayan ng transaksyon",
         "transfer_log_null":"Walang kasaysayan ng transaksyon",
-        "copy_success":"Nakopya ang address",
+
+        "active_icon":{
+            "go_transfer":"Magsimula ng paglipat",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Baguhin ang tala",
-            "subtit":"Magpasok ng tala na may haba na hindi hihigit sa 8 na digit para sa iyong account"
+            "subtit":"Markahan ang isang tala para sa iyong account"
+        },
+        "keystore":{
+            "tit":"I-back up ang keystore",
+            "copy":"Doblehin",
+            "download":"I-download ang keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Nakopya ang address",
+            "key_copy_success":"Matagumpay na kinopya"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
             "remove_success":"Matagumpay na naalis",
             "save":"Lumikha ng wallet nang matagumpay, mangyaring i-save ang iyong keystore o pribadong key, huwag ibahagi ito sa sinuman!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sigurado ka bang gusto mong tanggalin?",
-        "please_back_up":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
+        }
     }
 
 }

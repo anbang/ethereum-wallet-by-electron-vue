@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR 코드",
         "go_transfer":"전송 시작",
+
         "transfer_log":"거래 내역",
         "transfer_log_null":"거래 내역 없음",
-        "copy_success":"주소가 복사되었습니다.",
+
+        "active_icon":{
+            "go_transfer":"전송 시작",
+            "import_keystore":"키 저장소",
+            "qrcode":"QR 코드"
+        },
         "edit_dia":{
             "tit":"메모 수정",
-            "subtit":"계정에 8 자리 이하의 길이로 메모를 입력하십시오."
+            "subtit":"내 계정에 메모 쓰기"
+        },
+        "keystore":{
+            "tit":"키 스토어 백업",
+            "copy":"중복",
+            "download":"키 스토어 다운로드"
+        },
+        "msg_info":{
+            "ads_copy_success":"주소가 복사되었습니다.",
+            "key_copy_success":"복사 완료"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"계정을 가져 오지 못했습니다. 잘못된 비밀번호 일 수 있습니다.",
             "remove_success":"성공적으로 제거되었습니다.",
             "save":"지갑을 성공적으로 만드십시오. 키 스토어 또는 개인 키를 저장하십시오. 누구와도 공유하지 마십시오!"
-        },
-
-
-        
-        
-        "remove_prompt":"정말로 삭제 하시겠습니까?",
-        "please_back_up":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오."
+        }
     }
 
 }

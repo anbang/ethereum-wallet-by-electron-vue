@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR ኮድ",
         "go_transfer":"ዝውውር ጀምር",
+
         "transfer_log":"የግብይት ታሪክ",
         "transfer_log_null":"ምንም የግብይት ታሪክ የለም",
-        "copy_success":"አድራሻው ተቀድቷል",
+
+        "active_icon":{
+            "go_transfer":"ዝውውር ጀምር",
+            "import_keystore":"የቁልፍ መደብር",
+            "qrcode":"QR ኮድ"
+        },
         "edit_dia":{
             "tit":"ማስታወሻን ያሻሽሉ",
-            "subtit":"ለመለያዎ ከ 8 በላይ ቁጥሮችን የያዘ ማስታወሻ ያስገቡ"
+            "subtit":"ለመለያዎ ማስታወሻ ያመልክቱ"
+        },
+        "keystore":{
+            "tit":"የቁልፍ መደብርን ምትኬ አስቀምጥ",
+            "copy":"የተባዛ",
+            "download":"የቁልፍ መደብር ያውርዱ"
+        },
+        "msg_info":{
+            "ads_copy_success":"አድራሻው ተቀድቷል",
+            "key_copy_success":"በተሳካ ሁኔታ ተቀድቷል"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ የይለፍ ቃል ሊሆን ይችላል",
             "remove_success":"በተሳካ ሁኔታ ተወግዷል",
             "save":"ቦርሳ በተሳካ ሁኔታ ይፍጠሩ, እባክዎ የቁልፍ መደብርዎን ወይም የግል ቁልፍዎን ያስቀምጡ, ለማንም አያጋሩት!"
-        },
-
-
-        
-        
-        "remove_prompt":"እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
-        "please_back_up":"እባክዎ የንብረት ጉዳት እንዳይደርስበት ሂሳቡ እንደተቀመጠ እርግጠኛ ይሁኑ"
+        }
     }
 
 }

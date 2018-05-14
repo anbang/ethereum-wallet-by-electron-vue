@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Codi QR",
         "go_transfer":"Inicieu la transferència",
+
         "transfer_log":"Historial de transaccions",
         "transfer_log_null":"Sense historial de transaccions",
-        "copy_success":"S'ha copiat l'adreça",
+
+        "active_icon":{
+            "go_transfer":"Inicieu la transferència",
+            "import_keystore":"Keystore",
+            "qrcode":"Codi QR"
+        },
         "edit_dia":{
             "tit":"Modifica nota",
-            "subtit":"Introduïu una nota amb una durada no superior a 8 dígits per al vostre compte"
+            "subtit":"Marqueu una nota per al vostre compte"
+        },
+        "keystore":{
+            "tit":"Feu una còpia de seguretat del magatzem de claus",
+            "copy":"Duplicat",
+            "download":"Baixa el magatzem de claus"
+        },
+        "msg_info":{
+            "ads_copy_success":"S'ha copiat l'adreça",
+            "key_copy_success":"S'ha copiat correctament"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
             "remove_success":"S'ha eliminat correctament",
             "save":"Crea un moneder amb èxit, si us plau, deseu el vostre magatzem de claus o la clau privada, no ho compartiu a ningú."
-        },
-
-
-        
-        
-        "remove_prompt":"Esteu segur que voleu suprimir?",
-        "please_back_up":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+        }
     }
 
 }

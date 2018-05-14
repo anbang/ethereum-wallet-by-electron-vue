@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Anza uhamisho",
+
         "transfer_log":"Historia ya shughuli",
         "transfer_log_null":"Hakuna historia ya shughuli",
-        "copy_success":"Anwani imechapishwa",
+
+        "active_icon":{
+            "go_transfer":"Anza uhamisho",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Badilisha maelezo",
-            "subtit":"Ingiza safu kwa urefu wa tarakimu zaidi ya 8 za akaunti yako"
+            "subtit":"Andika alama kwa akaunti yako"
+        },
+        "keystore":{
+            "tit":"Rudi nyuma kitufe cha ufunguo",
+            "copy":"Duplicate",
+            "download":"Pakua kituo cha keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Anwani imechapishwa",
+            "key_copy_success":"Ilikosa kwa ufanisi"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
             "remove_success":"Imeondolewa kwa mafanikio",
             "save":"Unda mkoba kwa ufanisi, tafadhali salama kitufe cha ufunguo au ufunguo wa faragha, usishiriki na mtu yeyote!"
-        },
-
-
-        
-        
-        "remove_prompt":"Una uhakika unataka kufuta?",
-        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Amata le fesiitaiga",
+
         "transfer_log":"Talaʻaga o galuega",
         "transfer_log_null":"Leai se tala faʻasolopito",
-        "copy_success":"Ua uma ona kopi le tuatusi",
+
+        "active_icon":{
+            "go_transfer":"Amata le fesiitaiga",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Suia le tusi",
-            "subtit":"Ulufale mai se tusi ma se umi o le sili atu ma le 8 numera mo lau faʻamatalaga"
+            "subtit":"Faailoga se tusi mo lau teugatupe"
+        },
+        "keystore":{
+            "tit":"Faʻamau i luga le kiliva",
+            "copy":"Faʻasologa",
+            "download":"Tikiake le keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Ua uma ona kopi le tuatusi",
+            "key_copy_success":"Suʻeina ma le manuia"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ua le mafai ona faaulufale mai le teugatupe, atonu o se sese sese",
             "remove_success":"Aveese ma le manuia",
             "save":"Fausia le atotupe ma le manuia, faʻamolemole faʻapolopolo lou kiliva poʻo le faalilolilo, aua le faʻasoa atu i se tasi!"
-        },
-
-
-        
-        
-        "remove_prompt":"E te mautinoa e te manaʻo e faʻamalo?",
-        "please_back_up":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino"
+        }
     }
 
 }

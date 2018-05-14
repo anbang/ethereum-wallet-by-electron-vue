@@ -35,7 +35,7 @@
     },
     "page_transfer":{
         "from_address":"Transfer keluar",
-        "to_address":"Ke",
+        "to_address":"ke",
         "amount":"Jumlah",
         "send_all":"Kirim semua",
         "remark":"Catatan",
@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Kode QR",
         "go_transfer":"Mulai transfer",
+
         "transfer_log":"Riwayat transaksi",
         "transfer_log_null":"Tidak ada riwayat transaksi",
-        "copy_success":"Alamat telah disalin",
+
+        "active_icon":{
+            "go_transfer":"Mulai transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"Kode QR"
+        },
         "edit_dia":{
             "tit":"Ubah catatan",
-            "subtit":"Masukkan catatan dengan panjang tidak lebih dari 8 digit untuk akun Anda"
+            "subtit":"Untuk akun Anda menandai sebuah ucapan"
+        },
+        "keystore":{
+            "tit":"Back up keystore",
+            "copy":"Duplikat",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat telah disalin",
+            "key_copy_success":"disalin berhasil"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
             "remove_success":"Berhasil dihapus",
             "save":"Buat dompet berhasil, simpan kunci keystore atau kunci pribadi Anda, jangan bagikan ke siapa pun!"
-        },
-
-
-        
-        
-        "remove_prompt":"Anda yakin ingin menghapus?",
-        "please_back_up":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
+        }
     }
 
 }

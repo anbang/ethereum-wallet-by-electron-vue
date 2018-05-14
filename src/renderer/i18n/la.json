@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Duo dumtaxat codice",
         "go_transfer":"initium capiat",
+
         "transfer_log":"Record transaction",
         "transfer_log_null":"Non transactions",
-        "copy_success":"Oratio est copied",
+
+        "active_icon":{
+            "go_transfer":"initium capiat",
+            "import_keystore":"Keystore",
+            "qrcode":"Duo dumtaxat codice"
+        },
         "edit_dia":{
             "tit":"Nota Edit",
-            "subtit":"Propterea quia non amplius VIII ad Eutropii longitudinem"
+            "subtit":"Nam designat quiddam ob gratiam tui"
+        },
+        "keystore":{
+            "tit":"Quod tergum sursum keystore",
+            "copy":"exemplum",
+            "download":"download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Oratio est copied",
+            "key_copy_success":"copied feliciter"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ratio import incassum fit, ut malum quod password",
             "remove_success":"remota feliciter",
             "save":"Peram facere bene servare privatis keystore ne cuiquam impertiar?"
-        },
-
-
-        
-        
-        "remove_prompt":"Tu es certus vos volo ut delete?",
-        "please_back_up":"Vide rationis iam certioribus illis ne proprietas damnum"
+        }
     }
 
 }

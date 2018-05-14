@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Kodiċi QR",
         "go_transfer":"Ibda t-trasferiment",
+
         "transfer_log":"L-istorja tat-tranżazzjoni",
         "transfer_log_null":"L-ebda storja ta 'transazzjoni",
-        "copy_success":"L-indirizz ġie kkupjat",
+
+        "active_icon":{
+            "go_transfer":"Ibda t-trasferiment",
+            "import_keystore":"Keystore",
+            "qrcode":"Kodiċi QR"
+        },
         "edit_dia":{
             "tit":"Tibdel in-nota",
-            "subtit":"Daħħal nota b'tul ta 'mhux aktar minn 8 ċifri għall-kont tiegħek"
+            "subtit":"Immarka nota għall-kont tiegħek"
+        },
+        "keystore":{
+            "tit":"Irsaq il-keystore",
+            "copy":"Duplikat",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"L-indirizz ġie kkupjat",
+            "key_copy_success":"Kopja b'suċċess"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
             "remove_success":"Mneħħija b'suċċess",
             "save":"Oħloq kartiera b'suċċess, ħlief is-keystore jew iċ-ċavetta privata tiegħek, ma taqsamha ma 'ħaddieħor!"
-        },
-
-
-        
-        
-        "remove_prompt":"Inti żgur li trid tħassar?",
-        "please_back_up":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
+        }
     }
 
 }

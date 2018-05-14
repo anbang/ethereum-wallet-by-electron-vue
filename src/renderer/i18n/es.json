@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Código QR",
         "go_transfer":"Iniciar transferencia",
+
         "transfer_log":"Historial de transacciones",
         "transfer_log_null":"Sin historial de transacciones",
-        "copy_success":"La dirección ha sido copiada",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferencia",
+            "import_keystore":"Keystore",
+            "qrcode":"Código QR"
+        },
         "edit_dia":{
             "tit":"Modificar nota",
-            "subtit":"Ingrese una nota con una longitud de no más de 8 dígitos para su cuenta"
+            "subtit":"Marque una nota para su cuenta"
+        },
+        "keystore":{
+            "tit":"Haga una copia de seguridad del almacén de claves",
+            "copy":"Duplicado",
+            "download":"Descargar keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"La dirección ha sido copiada",
+            "key_copy_success":"Copiado con éxito"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
             "remove_success":"Eliminado con éxito",
             "save":"Cree una billetera con éxito, guarde su almacén de claves o clave privada, ¡no la comparta con nadie!"
-        },
-
-
-        
-        
-        "remove_prompt":"¿Estás seguro de que quieres eliminar?",
-        "please_back_up":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
+        }
     }
 
 }

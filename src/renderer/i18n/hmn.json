@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Pib hloov chaw",
+
         "transfer_log":"Tuaj hauv keeb kwm",
         "transfer_log_null":"Tsis muaj keeb kwm ua lag luam",
-        "copy_success":"Chaw nyob tau luam tawm",
+
+        "active_icon":{
+            "go_transfer":"Pib hloov chaw",
+            "import_keystore":"Ntsiab Cai",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Hloov ntawv",
-            "subtit":"Sau ib daim ntawv nrog ntev ntev tsis tshaj 8 tus lej rau koj tus account"
+            "subtit":"Kos cim rau koj tus account"
+        },
+        "keystore":{
+            "tit":"Rov qab rau keystore",
+            "copy":"Duplicate",
+            "download":"Download tau keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Chaw nyob tau luam tawm",
+            "key_copy_success":"Hloov tau zoo"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ua tsis tau tejyam nyiaj, nws yuav yog tus password",
             "remove_success":"Tshem tawm suab",
             "save":"Ua kom lub hnab ntim tau zoo, thov cawm koj tus keystore lossis tus yuam sij, tsis txhob muab rau leej twg!"
-        },
-
-
-        
-        
-        "remove_prompt":"Koj puas paub tseeb tias koj xav rho tawm?",
-        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
+        }
     }
 
 }

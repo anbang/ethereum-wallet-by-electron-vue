@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kód",
         "go_transfer":"Zahajte převod",
+
         "transfer_log":"Historie transakcí",
         "transfer_log_null":"Žádná historie transakcí",
-        "copy_success":"Adresa byla zkopírována",
+
+        "active_icon":{
+            "go_transfer":"Zahajte převod",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kód"
+        },
         "edit_dia":{
             "tit":"Upravit poznámku",
-            "subtit":"Zadejte poznámku s délkou nejvýše 8 číslic pro váš účet"
+            "subtit":"Označte poznámku k účtu"
+        },
+        "keystore":{
+            "tit":"Zálohujte úložiště klíčů",
+            "copy":"Duplikovat",
+            "download":"Stáhněte si klíčenku"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa byla zkopírována",
+            "key_copy_success":"Úspěšně zkopírován"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
             "remove_success":"Úspěšně byla odebrána",
             "save":"Úspěšně vytvořte peněženku. Uložte prosím klíčenku nebo soukromý klíč, nikomu ji neomezujte!"
-        },
-
-
-        
-        
-        "remove_prompt":"Opravdu chcete smazat?",
-        "please_back_up":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
+        }
     }
 
 }

@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Fara canja wuri",
+
         "transfer_log":"Tarihin ma'amala",
         "transfer_log_null":"Babu tarihin fassarar",
-        "copy_success":"An buga adireshin",
+
+        "active_icon":{
+            "go_transfer":"Fara canja wuri",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Sauya bayanin kula",
-            "subtit":"Shigar da bayanin kula tare da tsawon fiye da 8 lambobi don asusunku"
+            "subtit":"Rubuta bayanin kula don asusunku"
+        },
+        "keystore":{
+            "tit":"Ajiye maɓallin kullun",
+            "copy":"Kwafi",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"An buga adireshin",
+            "key_copy_success":"An kwafe koyi"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ba a yi nasarar shigar da asusu ba, yana iya zama kalmar sirri mara daidai",
             "remove_success":"Ana cire nasarar",
             "save":"Ƙirƙiri walat ɗin nasara, don Allah a ajiye maɓallin kullunka ko maɓalli na sirri, kada ka raba wa kowa!"
-        },
-
-
-        
-        
-        "remove_prompt":"Kuna tabbatar kana so ka share?",
-        "please_back_up":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya"
+        }
     }
 
 }

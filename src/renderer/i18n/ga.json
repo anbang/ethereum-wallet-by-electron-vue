@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR cód",
         "go_transfer":"Aistriú a thosú",
+
         "transfer_log":"Stair na hidirbhearta",
         "transfer_log_null":"Uimh stair idirbheart",
-        "copy_success":"Tá an seoladh cóipeáilte",
+
+        "active_icon":{
+            "go_transfer":"Aistriú a thosú",
+            "import_keystore":"Eochairchlár",
+            "qrcode":"QR cód"
+        },
         "edit_dia":{
             "tit":"Nóta a mhodhnú",
-            "subtit":"Cuir nóta le fad nach mó ná 8 dhigit ar do chuntas"
+            "subtit":"Nóta a mharcáil le do chuntas"
+        },
+        "keystore":{
+            "tit":"Ar ais suas an eochairchlár",
+            "copy":"Dúblach",
+            "download":"Íoslódáil eochairchlár"
+        },
+        "msg_info":{
+            "ads_copy_success":"Tá an seoladh cóipeáilte",
+            "key_copy_success":"Cóipeáil go rathúil"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
             "remove_success":"Bainte go rathúil",
             "save":"Cruthaigh sparán go rathúil, sábháil do eochairchlár nó eochair phríobháideach, ná é a roinnt le duine ar bith!"
-        },
-
-
-        
-        
-        "remove_prompt":"An bhfuil tú cinnte gur mhaith leat a scriosadh?",
-        "please_back_up":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
+        }
     }
 
 }

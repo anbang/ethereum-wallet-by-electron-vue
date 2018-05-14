@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR code",
         "go_transfer":"Inizià trasferimentu",
+
         "transfer_log":"Storia di a transacità",
         "transfer_log_null":"Nisuna storia di transaczione",
-        "copy_success":"L'indirizzu hè statu copiatu",
+
+        "active_icon":{
+            "go_transfer":"Inizià trasferimentu",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Modifiche nota",
-            "subtit":"Ingressu una nota cun una durata di micca più di 8 ducumenti per u vostru contu"
+            "subtit":"Marcate una nota per u vostru contu"
+        },
+        "keystore":{
+            "tit":"Back up the keystore",
+            "copy":"Duplicate",
+            "download":"Scaricatu chjave"
+        },
+        "msg_info":{
+            "ads_copy_success":"L'indirizzu hè statu copiatu",
+            "key_copy_success":"Copiatu cun copia"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Ùn avianu impurtatu u vostru contu, pò esse una password erretta",
             "remove_success":"Removedu successu",
             "save":"Crea billeteratu bè, salvate a vostra chjave o chjave privata, ùn ci micca fà sparte cù nimu!"
-        },
-
-
-        
-        
-        "remove_prompt":"Sè sicuru chì vulete sguassate?",
-        "please_back_up":"Assicuratevi chì u vostru contu hè statu backed up per evità di danni à a pruprietà"
+        }
     }
 
 }

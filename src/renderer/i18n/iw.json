@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"קוד QR",
         "go_transfer":"התחל את ההעברה",
+
         "transfer_log":"היסטוריית עסקאות",
         "transfer_log_null":"אין היסטוריית עסקאות",
-        "copy_success":"הכתובת הועתקה",
+
+        "active_icon":{
+            "go_transfer":"התחל את ההעברה",
+            "import_keystore":"קיסטור",
+            "qrcode":"קוד QR"
+        },
         "edit_dia":{
             "tit":"שנה הערה",
-            "subtit":"הזן הערה עם אורך של לא יותר מ -8 ספרות עבור החשבון שלך"
+            "subtit":"סמן הערה עבור החשבון שלך"
+        },
+        "keystore":{
+            "tit":"לגבות את keystore",
+            "copy":"שכפל",
+            "download":"הורד keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"הכתובת הועתקה",
+            "key_copy_success":"הועתק בהצלחה"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
             "remove_success":"הוסר בהצלחה",
             "save":"צור ארנק בהצלחה, אנא שמור את keystore או מפתח פרטי, לא לשתף אותו לאף אחד!"
-        },
-
-
-        
-        
-        "remove_prompt":"האם אתה בטוח שברצונך למחוק?",
-        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
+        }
     }
 
 }

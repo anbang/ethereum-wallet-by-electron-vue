@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"Kod QR",
         "go_transfer":"Rozpocznij transfer",
+
         "transfer_log":"Historia transakcji",
         "transfer_log_null":"Brak historii transakcji",
-        "copy_success":"Adres został skopiowany",
+
+        "active_icon":{
+            "go_transfer":"Rozpocznij transfer",
+            "import_keystore":"Magazyn kluczy",
+            "qrcode":"Kod QR"
+        },
         "edit_dia":{
             "tit":"Zmodyfikuj notatkę",
-            "subtit":"Wprowadź notatkę o długości nie większej niż 8 cyfr dla swojego konta"
+            "subtit":"Zaznacz notatkę dla swojego konta"
+        },
+        "keystore":{
+            "tit":"Utwórz kopię zapasową magazynu kluczy",
+            "copy":"Duplikat",
+            "download":"Pobierz plik kluczy"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres został skopiowany",
+            "key_copy_success":"Z powodzeniem skopiowane"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
             "remove_success":"Usunięto pomyślnie",
             "save":"Utwórz portfel z powodzeniem, zapisz plik kluczy lub klucz prywatny, nie udostępniaj go nikomu!"
-        },
-
-
-        
-        
-        "remove_prompt":"Czy na pewno chcesz usunąć?",
-        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
+        }
     }
 
 }

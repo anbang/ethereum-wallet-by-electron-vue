@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kod",
         "go_transfer":"Pokrenite transfer",
+
         "transfer_log":"Istorija transakcija",
         "transfer_log_null":"Nema istorije transakcija",
-        "copy_success":"Adresa je kopirana",
+
+        "active_icon":{
+            "go_transfer":"Pokrenite transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kod"
+        },
         "edit_dia":{
             "tit":"Izmenite belešku",
-            "subtit":"Unesite belešku sa dužinom od najviše 8 cifara za vaš nalog"
+            "subtit":"Označite napomenu za svoj račun"
+        },
+        "keystore":{
+            "tit":"Napravite rezervnu kopiju ključa",
+            "copy":"Duplikat",
+            "download":"Preuzmite keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa je kopirana",
+            "key_copy_success":"Uspešno kopiran"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Nije uspela uvoziti račun, možda je pogrešna lozinka",
             "remove_success":"Uspešno uklonjeno",
             "save":"Kreirajte novčanik uspešno, sačuvajte svoj keystore ili privatni ključ, nemojte ga deliti nikome!"
-        },
-
-
-        
-        
-        "remove_prompt":"Da li ste sigurni da želite da izbrišete?",
-        "please_back_up":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
+        }
     }
 
 }

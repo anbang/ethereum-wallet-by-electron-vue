@@ -52,12 +52,27 @@
     "page_account":{
         "qrcode":"QR kóða",
         "go_transfer":"Hefja flutning",
+
         "transfer_log":"Viðskiptasaga",
         "transfer_log_null":"Engin viðskiptasaga",
-        "copy_success":"Heimilisfang hefur verið afritað",
+
+        "active_icon":{
+            "go_transfer":"Hefja flutning",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kóða"
+        },
         "edit_dia":{
             "tit":"Breyta athugasemd",
-            "subtit":"Sláðu inn minnismiða með lengd sem er ekki meira en 8 tölustafir fyrir reikninginn þinn"
+            "subtit":"Merktu athugasemd fyrir reikninginn þinn"
+        },
+        "keystore":{
+            "tit":"Taktu öryggisafrit af lyklaborðinu",
+            "copy":"Afrit",
+            "download":"Sækja keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Heimilisfang hefur verið afritað",
+            "key_copy_success":"Tókst að afrita"
         }
     },
     "page_home":{
@@ -110,13 +125,7 @@
             "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
             "remove_success":"Fjarlægt með góðum árangri",
             "save":"Búðuðu veskið með góðum árangri, vinsamlegast vista lykilhúsið þitt eða einkalykilinn, deildu því ekki með neinum!"
-        },
-
-
-        
-        
-        "remove_prompt":"Ertu viss um að þú viljir eyða?",
-        "please_back_up":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
+        }
     }
 
 }

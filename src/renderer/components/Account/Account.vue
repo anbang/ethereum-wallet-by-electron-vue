@@ -1,22 +1,20 @@
 <template>
   <div class="page-account-detail">
     <div class="account-banner">
-
       <div class="active-icon">
         <router-link :to="'/transfer?account=' + address" tag="div"  class="acc-interactive">
                 <i class="iconfont">&#xe605;</i>
-            <p class="icon-des">{{ $t('page_account.go_transfer') }}</p>
+            <p class="icon-des">{{ $t('page_account.active_icon.go_transfer') }}</p>
         </router-link>
         <div class="acc-interactive" @click="exportKeystore">
           <i class="iconfont">&#xe628;</i>
-          <p class="icon-des">导出keystore</p>
+          <p class="icon-des">{{ $t('page_account.active_icon.import_keystore') }}</p>
         </div>
 
         <div class="acc-interactive" @click="showQrCode">
           <i class="iconfont">&#xe628;</i>
-          <p class="icon-des">{{ $t('page_account.qrcode') }}</p>
+          <p class="icon-des">{{ $t('page_account.active_icon.qrcode') }}</p>
         </div>
-
       </div>
 
       <div class="account-center">
@@ -106,8 +104,7 @@
       </span>
     </el-dialog>
 
-    <el-dialog title="备份keystore" :visible.sync="dialogVisible.keystore">
-      <div class="mb10">请备份keystore</div>
+    <el-dialog :title="$t('page_account.keystore.copy')" :visible.sync="dialogVisible.keystore">
       <el-input
         v-if="accountInfo"
         :value="JSON.stringify(accountInfo.keystore)"
@@ -115,8 +112,8 @@
         :autosize="{minRows: 2}">
       </el-input>
       <div slot="footer">
-        <el-button @click="copyKeystore">复制</el-button>
-        <el-button type="primary" @click="downloadKeystore">下载keystore</el-button>
+        <el-button @click="copyKeystore">{{$t('page_account.keystore.copy')}}</el-button>
+        <el-button type="primary" @click="downloadKeystore">{{$t('page_account.keystore.download')}}</el-button>
       </div>
     </el-dialog>
 
@@ -188,7 +185,7 @@ export default {
     copyAddress: function() {
       clipboard.writeText(this.address);
       this.$message({
-        message: this.$t("page_account.copy_success"),
+        message: this.$t("page_account.msg_info.ads_copy_success"),
         type: "success"
       });
     },
@@ -218,7 +215,7 @@ export default {
     //copy
     copyKeystore () {
       clipboard.writeText(JSON.stringify(this.accountInfo.keystore))
-      this.$message.success('复制成功')
+      this.$message.success(this.$t("page_account.msg_info.key_copy_success"))
       this.dialogVisible.keystore = false
     },
 
@@ -250,7 +247,7 @@ export default {
   filters: {
     toCZRVal: function(val) {
       let tempVal=self.$web3.utils.fromWei(val, 'ether');
-      return tempVal;//TODO 保留4位小数
+      return tempVal;//TODO Keep 4 decimal places
     },
     toDate:function(val){
       let newDate = new Date();
