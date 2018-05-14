@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Contul de import",
-        "back_up_account":"Contul de rezervă",
         "add_account":"Cont nou",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"parolă",
-        "confirm_password":"Confirmați parola",
+        "acc":"cont",
+        "create_dia":{
+            "create_tit":"Creați un cont",
+            "backup_tit":"Creați copii de rezervă pentru noul dvs. cont",
+
+            "create_tag":"Numele contului",
+            "create_pwd":"Setați parola",
+            "create_repwd":"Confirmați parola",
+
+            "placeholder_tag":"Stabiliți numele contului",
+            "placeholder_pwd":"Stabiliți parola contului",
+            "placeholder_repwd":"Confirmați parola contului",
+            "strong_password":"Introduceți o parolă puternică, cu cel puțin 8 cifre",
+
+            "account_address":"cont",
+            "account_privateKey":"Cheia privată",
+            "account_download_keystore":"Descărcați fișierul pentru chei"
+        },
+        "import_dia":{
+            "tit":"Contul de import",
+            "select_type":"Selectați metoda de import",
+            "type_private":"Cheia privată",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Vă rugăm să lipiți cheia privată aici",
+            "placeholder_keystore":"Trageți aici fișierul cu chei",
+
+            "input_pwd":"Introduceți parola",
+            "placeholder_pwd":"Introduceți parola contului"
+
+        },
+        "remove_dia":{
+            "tit":"Sigur doriți să ștergeți?",
+            "backup":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
+        },
+        "msg_info":{
+            "exist":"Acest cont există deja, numele este",
+            "enter_password":"Introduceți parola",
+            "incons_password":"Parola introdusă de două ori este incoerentă",
+            "error":"Eroare:",
+            "imported_success":"Importați fișierul cu succes",
+            "enter_private":"Introduceți cheia",
+            "error_private":"Imposibil de importat contul, poate fi o cheie greșită",
+            "enter_keystore":"Vă rugăm să importați mai întâi fișierul cu chei",
+            "error_password":"Contul nu a putut fi importat, poate fi o parolă greșită",
+            "remove_success":"Eliminat cu succes",
+            "save":"Creați portofelul cu succes, salvați cheia dvs. de magazin sau cheia privată, nu o partajați nimănui!"
+        },
+
+
+        
         
         "remove_prompt":"Sigur doriți să ștergeți?",
-        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale",
-
-        "import_prompt":"Aveți deja un portofel CZR?",
-        "import_step":"Glisați fișierul portofel aici",
-        "import_or":"sau",
-        "import_click_up":"Faceți clic pentru a adăuga"
+        "please_back_up":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
     }
 
 }

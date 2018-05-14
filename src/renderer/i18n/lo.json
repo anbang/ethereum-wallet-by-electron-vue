@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"ບັນຊີນໍາເຂົ້າ",
-        "back_up_account":"ບັນຊີ Backup",
         "add_account":"ບັນຊີໃຫມ່",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"ລະຫັດຜ່ານ",
-        "confirm_password":"ຢືນຢັນລະຫັດຜ່ານ",
+        "acc":"ບັນຊີ",
+        "create_dia":{
+            "create_tit":"ສ້າງບັນຊີ",
+            "backup_tit":"ກັບຄືນໄປບ່ອນບັນຊີໃຫມ່ຂອງທ່ານ",
+
+            "create_tag":"ຊື່ບັນຊີ",
+            "create_pwd":"ຕັ້ງຄ່າລະຫັດຜ່ານ",
+            "create_repwd":"ຢືນຢັນລະຫັດຜ່ານ",
+
+            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນຊີ",
+            "placeholder_pwd":"ກະລຸນາຕັ້ງລະຫັດຜ່ານບັນຊີ",
+            "placeholder_repwd":"ກະລຸນາຢືນຢັນລະຫັດຜ່ານບັນຊີ",
+            "strong_password":"ໃສ່ລະຫັດຜ່ານທີ່ມີຄວາມເຂັ້ມແຂງ, ຢ່າງຫນ້ອຍ 8 ເລກ",
+
+            "account_address":"ບັນຊີ",
+            "account_privateKey":"ຄີເອກກະຊົນ",
+            "account_download_keystore":"ດາວໂຫລດໄຟລ໌ keystore"
+        },
+        "import_dia":{
+            "tit":"ບັນຊີນໍາເຂົ້າ",
+            "select_type":"ກະລຸນາເລືອກວິທີການນໍາເຂົ້າ",
+            "type_private":"ຄີເອກກະຊົນ",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"ກະລຸນາວາງຄີສ່ວນຕົວທີ່ນີ້",
+            "placeholder_keystore":"ກະລຸນາ drag ໄຟລ໌ keystore ຢູ່ທີ່ນີ້",
+
+            "input_pwd":"ໃສ່ລະຫັດຜ່ານ",
+            "placeholder_pwd":"ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີຂອງທ່ານ"
+
+        },
+        "remove_dia":{
+            "tit":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການລຶບ?",
+            "backup":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ"
+        },
+        "msg_info":{
+            "exist":"ບັນຊີນີ້ມີຢູ່ແລ້ວແລະຊື່ແມ່ນ",
+            "enter_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
+            "incons_password":"ລະຫັດຜ່ານເຂົ້າສອງເທື່ອແມ່ນບໍ່ສອດຄ່ອງ",
+            "error":"ຂໍ້ຜິດພາດ:",
+            "imported_success":"Import file successfully",
+            "enter_private":"ກະລຸນາໃສ່ຄີ",
+            "error_private":"ບໍ່ສາມາດນໍາເຂົ້າບັນຊີໄດ້, ມັນອາດຈະເປັນກຸນແຈທີ່ບໍ່ຖືກຕ້ອງ",
+            "enter_keystore":"ກະລຸນານໍາເຂົ້າໄຟລ໌ keystore ກ່ອນ",
+            "error_password":"ບໍ່ສາມາດເຂົ້າບັນຊີໄດ້, ມັນອາດເປັນລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ",
+            "remove_success":"ລຶບລ້າງຄວາມສໍາເລັດ",
+            "save":"ສ້າງປື້ມທີ່ປະສົບຄວາມສໍາເລັດ, ກະລຸນາບັນທຶກ keystore ຫຼືຄີສ່ວນຕົວຂອງທ່ານ, ຢ່າແບ່ງປັນໃຫ້ກັບໃຜ!"
+        },
+
+
+        
         
         "remove_prompt":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການລຶບ?",
-        "please_back_up":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ",
-
-        "import_prompt":"ທ່ານມີກະເປົາ CZR ແລ້ວບໍ?",
-        "import_step":"ລາກໄຟລ໌ wallet ຂອງທ່ານຢູ່ທີ່ນີ້",
-        "import_or":"Or",
-        "import_click_up":"ກົດເພື່ອເພີ່ມ"
+        "please_back_up":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ"
     }
 
 }

@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Innflutningur reikningur",
-        "back_up_account":"Backup reikningur",
         "add_account":"Nýr reikningur",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Lykilorð",
-        "confirm_password":"Staðfestu lykilorð",
+        "acc":"Reikningur",
+        "create_dia":{
+            "create_tit":"Búðu til reikning",
+            "backup_tit":"Afritaðu nýja reikninginn þinn",
+
+            "create_tag":"Reikningsheiti",
+            "create_pwd":"Stilltu lykilorð",
+            "create_repwd":"Staðfestu lykilorð",
+
+            "placeholder_tag":"Vinsamlegast settu inn heiti reiknings",
+            "placeholder_pwd":"Vinsamlegast settu lykilorð fyrir reikninginn",
+            "placeholder_repwd":"Vinsamlegast staðfestu lykilorð reikningsins",
+            "strong_password":"Sláðu inn sterkt aðgangsorð, að minnsta kosti 8 tölustafir",
+
+            "account_address":"Reikningur",
+            "account_privateKey":"Einkalykill",
+            "account_download_keystore":"Hlaða niður lykilskránni"
+        },
+        "import_dia":{
+            "tit":"Innflutningur reikningur",
+            "select_type":"Vinsamlegast veldu innflutningsaðferð",
+            "type_private":"Einkalykill",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Vinsamlegast límdu einkalyklinum hér",
+            "placeholder_keystore":"Vinsamlegast dragðu lykilskráina hér",
+
+            "input_pwd":"Sláðu inn lykilorð",
+            "placeholder_pwd":"Vinsamlegast sláðu inn aðgangsorðið þitt"
+
+        },
+        "remove_dia":{
+            "tit":"Ertu viss um að þú viljir eyða?",
+            "backup":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
+        },
+        "msg_info":{
+            "exist":"Þessi reikningur er þegar til, nafnið er",
+            "enter_password":"Vinsamlegast sláðu inn lykilorðið þitt",
+            "incons_password":"Lykilorðið sem slóst inn tvisvar er ósamræmi",
+            "error":"Villa:",
+            "imported_success":"Flytja inn skrá með góðum árangri",
+            "enter_private":"Vinsamlegast sláðu inn lykilinn",
+            "error_private":"Ekki tókst að flytja inn reikninginn, það gæti verið röng lykill",
+            "enter_keystore":"Vinsamlegast flytðu inn lykilskrána fyrst",
+            "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
+            "remove_success":"Fjarlægt með góðum árangri",
+            "save":"Búðuðu veskið með góðum árangri, vinsamlegast vista lykilhúsið þitt eða einkalykilinn, deildu því ekki með neinum!"
+        },
+
+
+        
         
         "remove_prompt":"Ertu viss um að þú viljir eyða?",
-        "please_back_up":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón",
-
-        "import_prompt":"Hefur þú nú þegar CZR veski?",
-        "import_step":"Dragðu veskisskrána þína hér",
-        "import_or":"Eða",
-        "import_click_up":"Smelltu til að bæta við"
+        "please_back_up":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
     }
 
 }

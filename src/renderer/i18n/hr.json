@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Uvoz računa",
-        "back_up_account":"Sigurnosni račun",
         "add_account":"Novi račun",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"lozinka",
-        "confirm_password":"Potvrdite lozinku",
+        "acc":"račun",
+        "create_dia":{
+            "create_tit":"Stvorite račun",
+            "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
+
+            "create_tag":"Naziv računa",
+            "create_pwd":"Postavi lozinku",
+            "create_repwd":"Potvrdite lozinku",
+
+            "placeholder_tag":"Postavite naziv računa",
+            "placeholder_pwd":"Postavite zaporku računa",
+            "placeholder_repwd":"Potvrdite zaporku računa",
+            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
+
+            "account_address":"račun",
+            "account_privateKey":"Privatni ključ",
+            "account_download_keystore":"Preuzmite datoteku ključa"
+        },
+        "import_dia":{
+            "tit":"Uvoz računa",
+            "select_type":"Odaberite način uvoza",
+            "type_private":"Privatni ključ",
+            "type_keystore":"ključeva",
+
+            "placeholder_private":"Ovdje zalijepite privatni ključ",
+            "placeholder_keystore":"Ovdje povucite datoteku ključa",
+
+            "input_pwd":"Unesite lozinku",
+            "placeholder_pwd":"Unesite zaporku svog računa"
+
+        },
+        "remove_dia":{
+            "tit":"Jeste li sigurni da želite izbrisati?",
+            "backup":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
+        },
+        "msg_info":{
+            "exist":"Taj račun već postoji i naziv je",
+            "enter_password":"Unesite zaporku",
+            "incons_password":"Unosom lozinke dvaput nije konzistentan",
+            "error":"pogreška:",
+            "imported_success":"Uvezi datoteku uspješno",
+            "enter_private":"Unesite ključ",
+            "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
+            "enter_keystore":"Najprije uvezite datoteku za ključeve",
+            "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
+            "remove_success":"Uklonjeno je uspješno",
+            "save":"Izradite novčanik uspješno, spremite ključnu poštu ili privatni ključ, nemojte ga dijeliti nikome!"
+        },
+
+
+        
         
         "remove_prompt":"Jeste li sigurni da želite izbrisati?",
-        "please_back_up":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine",
-
-        "import_prompt":"Imate li već novčanik CZR?",
-        "import_step":"Ovdje povucite datoteku lisnice",
-        "import_or":"ili",
-        "import_click_up":"Kliknite da biste dodali"
+        "please_back_up":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
     }
 
 }

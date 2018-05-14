@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ingiza akaunti",
-        "back_up_account":"Backup akaunti",
         "add_account":"Akaunti mpya",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Nenosiri",
-        "confirm_password":"Thibitisha nenosiri",
+        "acc":"Akaunti",
+        "create_dia":{
+            "create_tit":"Unda akaunti",
+            "backup_tit":"Rudirisha akaunti yako mpya",
+
+            "create_tag":"Jina la Akaunti",
+            "create_pwd":"Weka nenosiri",
+            "create_repwd":"Thibitisha nenosiri",
+
+            "placeholder_tag":"Tafadhali weka jina la akaunti",
+            "placeholder_pwd":"Tafadhali weka nenosiri la akaunti",
+            "placeholder_repwd":"Tafadhali thibitisha nenosiri la akaunti",
+            "strong_password":"Ingiza nenosiri kali, angalau tarakimu 8",
+
+            "account_address":"Akaunti",
+            "account_privateKey":"Kitufe cha faragha",
+            "account_download_keystore":"Pakua faili ya keystore"
+        },
+        "import_dia":{
+            "tit":"Ingiza akaunti",
+            "select_type":"Tafadhali chagua njia ya kuagiza",
+            "type_private":"Kitufe cha faragha",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Tafadhali weka kitufe cha faragha hapa",
+            "placeholder_keystore":"Tafadhali gusa faili ya keystore hapa",
+
+            "input_pwd":"Ingiza nenosiri",
+            "placeholder_pwd":"Tafadhali ingiza nenosiri lako la akaunti"
+
+        },
+        "remove_dia":{
+            "tit":"Una uhakika unataka kufuta?",
+            "backup":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
+        },
+        "msg_info":{
+            "exist":"Akaunti hii tayari iko, jina ni",
+            "enter_password":"Tafadhali ingiza nenosiri lako",
+            "incons_password":"Nenosiri lililoingia mara mbili halilingani",
+            "error":"Hitilafu:",
+            "imported_success":"Ingiza faili kwa mafanikio",
+            "enter_private":"Tafadhali ingiza ufunguo",
+            "error_private":"Imeshindwa kuingiza akaunti, inaweza kuwa ni ufunguo usio sahihi",
+            "enter_keystore":"Tafadhali ingiza faili ya keystore kwanza",
+            "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
+            "remove_success":"Imeondolewa kwa mafanikio",
+            "save":"Unda mkoba kwa ufanisi, tafadhali salama kitufe cha ufunguo au ufunguo wa faragha, usishiriki na mtu yeyote!"
+        },
+
+
+        
         
         "remove_prompt":"Una uhakika unataka kufuta?",
-        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali",
-
-        "import_prompt":"Je, tayari una mkoba wa CZR?",
-        "import_step":"Drag faili yako ya mkoba hapa",
-        "import_or":"Au",
-        "import_click_up":"Bofya ili kuongeza"
+        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
     }
 
 }

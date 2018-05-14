@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importní účet",
-        "back_up_account":"Zálohovací účet",
         "add_account":"Nový účet",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Heslo",
-        "confirm_password":"Potvrďte heslo",
+        "acc":"Účet",
+        "create_dia":{
+            "create_tit":"Vytvořte si účet",
+            "backup_tit":"Zálohujte nový účet",
+
+            "create_tag":"Název účtu",
+            "create_pwd":"Nastavte heslo",
+            "create_repwd":"Potvrďte heslo",
+
+            "placeholder_tag":"Nastavte prosím název účtu",
+            "placeholder_pwd":"Nastavte prosím heslo účtu",
+            "placeholder_repwd":"Potvrďte heslo účtu",
+            "strong_password":"Zadejte silné heslo, nejméně 8 číslic",
+
+            "account_address":"Účet",
+            "account_privateKey":"Soukromý klíč",
+            "account_download_keystore":"Stáhněte si soubor úložiště klíčů"
+        },
+        "import_dia":{
+            "tit":"Importní účet",
+            "select_type":"Vyberte prosím metodu importu",
+            "type_private":"Soukromý klíč",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Zde vložte soukromý klíč",
+            "placeholder_keystore":"Zde prosím přetáhněte soubor úložiště klíčů",
+
+            "input_pwd":"Zadejte heslo",
+            "placeholder_pwd":"Zadejte heslo svého účtu"
+
+        },
+        "remove_dia":{
+            "tit":"Opravdu chcete smazat?",
+            "backup":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
+        },
+        "msg_info":{
+            "exist":"Tento účet již existuje a jméno je",
+            "enter_password":"Zadejte své heslo",
+            "incons_password":"Zadané heslo dvakrát je nekonzistentní",
+            "error":"Chyba:",
+            "imported_success":"Importovat soubor úspěšně",
+            "enter_private":"Zadejte klíč",
+            "error_private":"Nepodařilo se importovat účet, může to být nesprávný klíč",
+            "enter_keystore":"Nejprve importujte soubor úložiště klíčů",
+            "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
+            "remove_success":"Úspěšně byla odebrána",
+            "save":"Úspěšně vytvořte peněženku. Uložte prosím klíčenku nebo soukromý klíč, nikomu ji neomezujte!"
+        },
+
+
+        
         
         "remove_prompt":"Opravdu chcete smazat?",
-        "please_back_up":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku",
-
-        "import_prompt":"Máte již peněženku CZR?",
-        "import_step":"Zde přetáhněte soubor peněľenky",
-        "import_or":"Or",
-        "import_click_up":"Klepnutím přidáte"
+        "please_back_up":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
     }
 
 }

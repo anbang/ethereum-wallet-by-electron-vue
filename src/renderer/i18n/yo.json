@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ṣe akọọlẹ akọọlẹ",
-        "back_up_account":"Iwe afẹyinti",
         "add_account":"Iroyin titun",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Ọrọigbaniwọle",
-        "confirm_password":"Jẹrisi ọrọ igbaniwọle",
+        "acc":"Iroyin",
+        "create_dia":{
+            "create_tit":"Ṣẹda iroyin kan",
+            "backup_tit":"Ṣe afẹyinti iroyin titun rẹ",
+
+            "create_tag":"Orukọ iroyin",
+            "create_pwd":"Ṣeto ọrọigbaniwọle",
+            "create_repwd":"Jẹrisi ọrọ igbaniwọle",
+
+            "placeholder_tag":"Jowo ṣeto orukọ iroyin",
+            "placeholder_pwd":"Jowo ṣeto ọrọ igbaniwọle iroyin",
+            "placeholder_repwd":"Jọwọ jẹrisi ọrọigbaniwọle iroyin",
+            "strong_password":"Tẹ ọrọigbaniwọle to lagbara, o kere awọn nọmba mẹjọ",
+
+            "account_address":"Iroyin",
+            "account_privateKey":"Bọtini aladani",
+            "account_download_keystore":"Gba awọn faili keystore"
+        },
+        "import_dia":{
+            "tit":"Ṣe akọọlẹ akọọlẹ",
+            "select_type":"Jowo yan ọna gbigbe wọle",
+            "type_private":"Bọtini aladani",
+            "type_keystore":"Atilẹju ọja",
+
+            "placeholder_private":"Jowo pa bọtini ikọkọ nihin",
+            "placeholder_keystore":"Jowo fa faili oju-iwe bọtini ni ibi",
+
+            "input_pwd":"Tẹ ọrọigbaniwọle sii",
+            "placeholder_pwd":"Jowo tẹ ọrọigbaniwọle igbaniwọle rẹ"
+
+        },
+        "remove_dia":{
+            "tit":"Ṣe o da ọ loju pe o fẹ paarẹ?",
+            "backup":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+        },
+        "msg_info":{
+            "exist":"Iroyin yii ti wa tẹlẹ ati orukọ naa jẹ",
+            "enter_password":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
+            "incons_password":"Ọrọigbaniwọle ti tẹ lẹẹmeji jẹ aisedede",
+            "error":"Aṣiṣe:",
+            "imported_success":"Faijade faili ni ifijišẹ",
+            "enter_private":"Jowo tẹ bọtini naa",
+            "error_private":"Ko kùn lati gbe akọọlẹ wọle, o le jẹ bọtini ti ko tọ",
+            "enter_keystore":"Jọwọ gbe faili faili bọtini ni akọkọ",
+            "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
+            "remove_success":"Pa kuro ni ifijišẹ",
+            "save":"Ṣẹda apamọwọ ni ifijiṣe, jọwọ ṣe afihan bọtini-igbẹ rẹ tabi bọtini ikọkọ, ma ṣe pin pin si ẹnikẹni!"
+        },
+
+
+        
         
         "remove_prompt":"Ṣe o da ọ loju pe o fẹ paarẹ?",
-        "please_back_up":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini",
-
-        "import_prompt":"Ṣe o ni apamọwọ CZR tẹlẹ?",
-        "import_step":"Fa faili faili apamọ rẹ nibi",
-        "import_or":"Tabi",
-        "import_click_up":"Tẹ lati fi kun"
+        "please_back_up":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
     }
 
 }

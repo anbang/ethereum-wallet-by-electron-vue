@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Lowani akaunti",
-        "back_up_account":"Kusunga akaunti",
         "add_account":"Nkhani yatsopano",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Chinsinsi",
-        "confirm_password":"Tsimikizani mawu achinsinsi",
+        "acc":"Akaunti",
+        "create_dia":{
+            "create_tit":"Pangani akaunti",
+            "backup_tit":"Bwezerani akaunti yanu yatsopano",
+
+            "create_tag":"Dzina la akaunti",
+            "create_pwd":"Ikani mawu achinsinsi",
+            "create_repwd":"Tsimikizani mawu achinsinsi",
+
+            "placeholder_tag":"Chonde lekani dzina la akaunti",
+            "placeholder_pwd":"Chonde lekani mawu achinsinsi",
+            "placeholder_repwd":"Chonde tsimikizirani mawu achinsinsi",
+            "strong_password":"Lowetsani mawu achinsinsi, osachepera maulendo 8",
+
+            "account_address":"Akaunti",
+            "account_privateKey":"Chinsinsi chachinsinsi",
+            "account_download_keystore":"Tsitsani fayilo ya keystore"
+        },
+        "import_dia":{
+            "tit":"Lowani akaunti",
+            "select_type":"Chonde sankhani njira yolowera",
+            "type_private":"Chinsinsi chachinsinsi",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Chonde dinani chinsinsi chapayekha apa",
+            "placeholder_keystore":"Chonde kukoka fayilo ya keystore pano",
+
+            "input_pwd":"Lowani mawu achinsinsi",
+            "placeholder_pwd":"Chonde lowetsani mawu achinsinsi anu"
+
+        },
+        "remove_dia":{
+            "tit":"Mukutsimikiza kuti mukufuna kuchotsa?",
+            "backup":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
+        },
+        "msg_info":{
+            "exist":"Nkhaniyi ilipo kale ndipo dzina liri",
+            "enter_password":"Chonde lowetsani mawu anu achinsinsi",
+            "incons_password":"Mawu achinsinsi adalowa kawiri ndi osagwirizana",
+            "error":"Cholakwika:",
+            "imported_success":"Lowani fayilo bwinobwino",
+            "enter_private":"Chonde lowetsani fungulo",
+            "error_private":"Zalephera kutumiza akauntiyo, ikhoza kukhala fungulo lolakwika",
+            "enter_keystore":"Chonde lowetsani fayilo ya keystore choyamba",
+            "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
+            "remove_success":"Kuchotsedwa bwino",
+            "save":"Pangani ngongole bwinobwino, chonde sungani sewero lanu lachinsinsi kapena chinsinsi chapadera, osagawana nawo kwa wina aliyense!"
+        },
+
+
+        
         
         "remove_prompt":"Mukutsimikiza kuti mukufuna kuchotsa?",
-        "please_back_up":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe",
-
-        "import_prompt":"Kodi muli ndi kalemba la CZR?",
-        "import_step":"Kokani fayilo yanu ya chikwama pano",
-        "import_or":"Kapena",
-        "import_click_up":"Dinani kuti muwonjezere"
+        "please_back_up":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
     }
 
 }

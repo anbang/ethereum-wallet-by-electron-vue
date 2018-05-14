@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Impurtante u compte",
-        "back_up_account":"Backup account",
         "add_account":"Novu contu",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Confirmate password",
+        "acc":"Cuntu",
+        "create_dia":{
+            "create_tit":"Crià una contu",
+            "backup_tit":"Back up your new account",
+
+            "create_tag":"Nome di cunta",
+            "create_pwd":"Set password",
+            "create_repwd":"Confirmate password",
+
+            "placeholder_tag":"Determinate u nome di cunnessione",
+            "placeholder_pwd":"Per settighite u password",
+            "placeholder_repwd":"Mandate cunfirmà a password",
+            "strong_password":"Ingrese una password forte, almenu 8 numeri",
+
+            "account_address":"Cuntu",
+            "account_privateKey":"Chjave privata",
+            "account_download_keystore":"Scaricate u schedariu chjave"
+        },
+        "import_dia":{
+            "tit":"Impurtante u compte",
+            "select_type":"Scelta metudu di impurtazione",
+            "type_private":"Chjave privata",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Paghjate puru a chjave privata",
+            "placeholder_keystore":"Per arrigguà u schedariu keystore",
+
+            "input_pwd":"Introduce password",
+            "placeholder_pwd":"Per piacè inserite u vostru password di contu"
+
+        },
+        "remove_dia":{
+            "tit":"Sè sicuru chì vulete sguassate?",
+            "backup":"Assicuratevi chì u vostru contu hè statu backed up per evità di danni à a pruprietà"
+        },
+        "msg_info":{
+            "exist":"Stu account hè digià esiste è u nome hè",
+            "enter_password":"Per piacè inserite u vostru password",
+            "incons_password":"A password hè inturnuata duie volte hè inconsistente",
+            "error":"Errore:",
+            "imported_success":"Prughjettu impurtazione successa",
+            "enter_private":"Per piacè inserite u chjave",
+            "error_private":"Ùn hà da impurtà u cuntestu, pò esse chjave falza",
+            "enter_keystore":"Imprezzate u schedariu keystore prima",
+            "error_password":"Ùn avianu impurtatu u vostru contu, pò esse una password erretta",
+            "remove_success":"Removedu successu",
+            "save":"Crea billeteratu bè, salvate a vostra chjave o chjave privata, ùn ci micca fà sparte cù nimu!"
+        },
+
+
+        
         
         "remove_prompt":"Sè sicuru chì vulete sguassate?",
-        "please_back_up":"Assicuratevi chì u vostru contu hà stati backed up per evità di danni à a pruprietà",
-
-        "import_prompt":"Avete digià un monete CZR?",
-        "import_step":"Arraste u vostru cartulare aqui",
-        "import_or":"Or",
-        "import_click_up":"Cliccate per aghjustà"
+        "please_back_up":"Assicuratevi chì u vostru contu hè statu backed up per evità di danni à a pruprietà"
     }
 
 }

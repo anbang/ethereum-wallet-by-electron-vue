@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"သွင်းကုန်အကောင့်",
-        "back_up_account":"Backup ကိုအကောင့်",
         "add_account":"အကောင့်အသစ်",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password ကို",
-        "confirm_password":"စကားဝှက်ကိုအတည်ပြုပါ",
+        "acc":"အကောင့်",
+        "create_dia":{
+            "create_tit":"အကောင့်တစ်ခု Create",
+            "backup_tit":"သင့်အကောင့်အသစ်ဖွင့် back",
+
+            "create_tag":"Account Name ကို",
+            "create_pwd":"Password ကို",
+            "create_repwd":"စကားဝှက်ကိုအတည်ပြုပါ",
+
+            "placeholder_tag":"Set အကောင့်အမည်ကို",
+            "placeholder_pwd":"Set အကောင့် password ကို",
+            "placeholder_repwd":"သေချာအကောင့် password ကို Make",
+            "strong_password":"ကြံ့ခိုင်တဲ့စကားဝှက်ကိုရိုက်ထည့်အနည်းဆုံးရှစ်",
+
+            "account_address":"အကောင့်",
+            "account_privateKey":"private key ကို",
+            "account_download_keystore":"keystore file ကို Download လုပ်ပါ"
+        },
+        "import_dia":{
+            "tit":"သွင်းကုန်အကောင့်",
+            "select_type":"သွင်းကုန် mode ကို select လုပ်ပါ ကျေးဇူးပြု.",
+            "type_private":"private key ကို",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"ဒီမှာ private key ကို paste ပေးပါ",
+            "placeholder_keystore":"ဤနေရာတွင်သို့ဖိုင် keystore ကျေးဇူးပြု.",
+
+            "input_pwd":"စကားဝှက်ကိုရိုက်ထည့်ပါ",
+            "placeholder_pwd":"အကောင့် password ကိုရိုက်ထည့်ပေးပါ"
+
+        },
+        "remove_dia":{
+            "tit":"သင်ကသင်ဖျက်ချင်တာသေချာလား?",
+            "backup":"အကောင့်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးသေချာအောင်လုပ်ပါ"
+        },
+        "msg_info":{
+            "exist":"ဒီအကောင့်ကိုပြီးသားဘွဲ့နာမတော်သည်တည်ရှိ",
+            "enter_password":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
+            "incons_password":"Passwords များကိုမတိုက်ဆိုင်ကြဘူး",
+            "error":"အမှား:",
+            "imported_success":"သွင်းကုန် file ကိုအောင်မြင်",
+            "enter_private":"သော့ကိုရိုက်ထည့်ပေးပါ",
+            "error_private":"အကောင့်တင်သွင်းပျက်ကွက်တစ်ခုအမှား key ကိုဖြစ်စေခြင်းငှါ",
+            "enter_keystore":"အဆိုပါ keystore ဖိုင်ကို import ကျေးဇူးပြု.",
+            "error_password":"အကောင့်တင်သွင်းပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
+            "remove_success":"အောင်မြင်စွာဖယ်ရှား",
+            "save":"အောင်မြင်သောတစ်ဦးပိုက်ဆံအိတ် Create, သင့် keystore သို့မဟုတ်ပုဂ္ဂလိကကယ်တင်မည်သူမဆိုအတူမျှဝေမပေးဘူး!"
+        },
+
+
+        
         
         "remove_prompt":"သင်ကသင်ဖျက်ချင်တာသေချာလား?",
-        "please_back_up":"အကောင့်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးသေချာအောင်လုပ်ပါ",
-
-        "import_prompt":"သငျသညျသေး CZR ပိုက်ဆံအိတ်ရှိသည်?",
-        "import_step":"ဒီနေရာမှာသင့်ရဲ့ပိုက်ဆံအိတ်သို့ File",
-        "import_or":"သို့မဟုတ်",
-        "import_click_up":"Add ကိုကလစ်နှိပ်ပါ"
+        "please_back_up":"အကောင့်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးသေချာအောင်လုပ်ပါ"
     }
 
 }

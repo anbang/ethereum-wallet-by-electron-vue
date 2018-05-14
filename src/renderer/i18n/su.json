@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"rekening impor",
-        "back_up_account":"rekening cadangan",
         "add_account":"akun anyar",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"sandi",
-        "confirm_password":"Tegeskeun deui kecap akses",
+        "acc":"rekening",
+        "create_dia":{
+            "create_tit":"Jieun akun",
+            "backup_tit":"Nyadangkeun akun anyar Anjeun",
+
+            "create_tag":"rekening Ngaran",
+            "create_pwd":"sandi",
+            "create_repwd":"Tegeskeun deui kecap akses",
+
+            "placeholder_tag":"Set ngaran akun",
+            "placeholder_pwd":"Set sandi akun",
+            "placeholder_repwd":"Pastikeun sandi akun",
+            "strong_password":"Asupkeun sandi kuat, sahenteuna dalapan",
+
+            "account_address":"rekening",
+            "account_privateKey":"konci swasta",
+            "account_download_keystore":"Download keystore file"
+        },
+        "import_dia":{
+            "tit":"rekening impor",
+            "select_type":"Mangga pilih modeu Impor",
+            "type_private":"konci swasta",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Mangga nempelkeun tombol swasta didieu",
+            "placeholder_keystore":"Mangga keystore file kana dieu",
+
+            "input_pwd":"Asupkeun kecep akses",
+            "placeholder_pwd":"Mangga lebetkeun sandi akun"
+
+        },
+        "remove_dia":{
+            "tit":"Anjeun yakin rék ngahapus eta?",
+            "backup":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
+        },
+        "msg_info":{
+            "exist":"Akun ieu geus aya, nami anu",
+            "enter_password":"Mangga lebetkeun sandi anjeun",
+            "incons_password":"Kecap akses teu cocog",
+            "error":"kasalahan:",
+            "imported_success":"Kasuksesan file Impor",
+            "enter_private":"Mangga lebetkeun konci",
+            "error_private":"Rekening impor gagal, kasalahan bisa jadi konci",
+            "enter_keystore":"Mangga ngimpor file keystore",
+            "error_password":"Rekening impor gagal, nya meureun sandi salah",
+            "remove_success":"dipupus junun",
+            "save":"Jieun dompét a sukses, simpen keystore Anjeun atawa swasta, teu babagi kalawan saha!"
+        },
+
+
+        
         
         "remove_prompt":"Anjeun yakin rék ngahapus eta?",
-        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat",
-
-        "import_prompt":"Anjeun boga CZR dompét acan?",
-        "import_step":"Berkas kana dompét anjeun didieu",
-        "import_or":"atawa",
-        "import_click_up":"Klik Tambahkeun"
+        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
     }
 
 }

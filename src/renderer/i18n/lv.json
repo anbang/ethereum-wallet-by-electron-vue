@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importēt kontu",
-        "back_up_account":"Rezerves konts",
         "add_account":"Jauns konts",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Parole",
-        "confirm_password":"Apstipriniet paroli",
+        "acc":"Konts",
+        "create_dia":{
+            "create_tit":"Izveidot kontu",
+            "backup_tit":"Dublējat savu jauno kontu",
+
+            "create_tag":"Konta nosaukums",
+            "create_pwd":"Iestatīt paroli",
+            "create_repwd":"Apstipriniet paroli",
+
+            "placeholder_tag":"Lūdzu, norādiet konta nosaukumu",
+            "placeholder_pwd":"Lūdzu, iestatiet konta paroli",
+            "placeholder_repwd":"Lūdzu, apstipriniet konta paroli",
+            "strong_password":"Ievadiet spēcīgu paroli, vismaz 8 ciparus",
+
+            "account_address":"Konts",
+            "account_privateKey":"Privātā atslēga",
+            "account_download_keystore":"Lejupielādējiet taustiņu saglabāšanas failu"
+        },
+        "import_dia":{
+            "tit":"Importēt kontu",
+            "select_type":"Lūdzu, atlasiet importēšanas metodi",
+            "type_private":"Privātā atslēga",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Lūdzu, ielīmējiet privāto atslēgu šeit",
+            "placeholder_keystore":"Lūdzu, velciet taustiņu saglabāšanas failu šeit",
+
+            "input_pwd":"Ievadiet paroli",
+            "placeholder_pwd":"Lūdzu, ievadiet sava konta paroli"
+
+        },
+        "remove_dia":{
+            "tit":"Vai tiešām vēlaties dzēst?",
+            "backup":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
+        },
+        "msg_info":{
+            "exist":"Šis konts jau eksistē un vārds ir",
+            "enter_password":"Lūdzu, ievadiet savu paroli",
+            "incons_password":"Divreiz ievadītā parole ir pretrunā",
+            "error":"Kļūda:",
+            "imported_success":"Importēt failu veiksmīgi",
+            "enter_private":"Lūdzu, ievadiet atslēgu",
+            "error_private":"Nevar importēt kontu, tas var būt nepareiza atslēga",
+            "enter_keystore":"Lūdzu, importējiet galveno datņu failu",
+            "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
+            "remove_success":"Noņemta veiksmīgi",
+            "save":"Veidojiet seifu veiksmīgi, lūdzu, saglabājiet savu atslēgu laukumu vai privāto atslēgu, nedodiet to nevienam!"
+        },
+
+
+        
         
         "remove_prompt":"Vai tiešām vēlaties dzēst?",
-        "please_back_up":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem",
-
-        "import_prompt":"Vai jums jau ir CZR kase?",
-        "import_step":"Velciet savu seifa failu šeit",
-        "import_or":"Or",
-        "import_click_up":"Noklikšķiniet, lai pievienotu"
+        "please_back_up":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
     }
 
 }

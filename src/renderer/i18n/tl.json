@@ -3,7 +3,7 @@
     "confirm":"Kumpirmasyon",
     "cancel":"Pagkansela",
     "dialog_tit":"Prompt",
-    "close":"Isinara",
+    "close":"malapit",
     "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit":{
         "czr":"CZR"
@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Mag-import ng account",
-        "back_up_account":"Backup account",
         "add_account":"Bagong account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Kumpirmahin ang password",
+        "acc":"Account",
+        "create_dia":{
+            "create_tit":"Gumawa ng isang account",
+            "backup_tit":"I-back up ang iyong bagong account",
+
+            "create_tag":"Pangalan ng account",
+            "create_pwd":"Itakda ang password",
+            "create_repwd":"Kumpirmahin ang password",
+
+            "placeholder_tag":"Mangyaring itakda ang pangalan ng account",
+            "placeholder_pwd":"Mangyaring itakda ang password ng account",
+            "placeholder_repwd":"Mangyaring kumpirmahin ang password ng account",
+            "strong_password":"Magpasok ng isang malakas na password, hindi bababa sa 8 digit",
+
+            "account_address":"Account",
+            "account_privateKey":"Pribadong key",
+            "account_download_keystore":"I-download ang file ng keystore"
+        },
+        "import_dia":{
+            "tit":"Mag-import ng account",
+            "select_type":"Mangyaring piliin ang paraan ng pag-import",
+            "type_private":"Pribadong key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Mangyaring ilagay ang pribadong key dito",
+            "placeholder_keystore":"Mangyaring i-drag ang keystore file dito",
+
+            "input_pwd":"Ipasok ang password",
+            "placeholder_pwd":"Mangyaring ipasok ang iyong password sa account"
+
+        },
+        "remove_dia":{
+            "tit":"Sigurado ka bang gusto mong tanggalin?",
+            "backup":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
+        },
+        "msg_info":{
+            "exist":"Mayroon nang account na ito at ang pangalan ay",
+            "enter_password":"Pakipasok ang iyong password",
+            "incons_password":"Ang dalawang beses na ipinasok ang password ay hindi naaayon",
+            "error":"Error:",
+            "imported_success":"Matagumpay na i-import ang file",
+            "enter_private":"Mangyaring ipasok ang susi",
+            "error_private":"Nabigong i-import ang account, maaaring ito ang maling susi",
+            "enter_keystore":"Mangyaring i-import muna ang keystore file",
+            "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
+            "remove_success":"Matagumpay na naalis",
+            "save":"Lumikha ng wallet nang matagumpay, mangyaring i-save ang iyong keystore o pribadong key, huwag ibahagi ito sa sinuman!"
+        },
+
+
+        
         
         "remove_prompt":"Sigurado ka bang gusto mong tanggalin?",
-        "please_back_up":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian",
-
-        "import_prompt":"Mayroon ka na bang CZR wallet?",
-        "import_step":"I-drag ang iyong file ng pitaka dito",
-        "import_or":"O kaya",
-        "import_click_up":"I-click upang idagdag"
+        "please_back_up":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
     }
 
 }

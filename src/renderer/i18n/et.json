@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Impordi konto",
-        "back_up_account":"Varukoopia konto",
         "add_account":"Uus konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Parool",
-        "confirm_password":"Kinnitage parool",
+        "acc":"Konto",
+        "create_dia":{
+            "create_tit":"Loo konto",
+            "backup_tit":"Varundage oma uus konto",
+
+            "create_tag":"Konto nimi",
+            "create_pwd":"Määra parool",
+            "create_repwd":"Kinnitage parool",
+
+            "placeholder_tag":"Palun määra konto nimi",
+            "placeholder_pwd":"Palun määrake konto parool",
+            "placeholder_repwd":"Kinnitage konto parool",
+            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
+
+            "account_address":"Konto",
+            "account_privateKey":"Privaatvõti",
+            "account_download_keystore":"Laadige võtmehoidla fail alla"
+        },
+        "import_dia":{
+            "tit":"Impordi konto",
+            "select_type":"Palun valige importimise meetod",
+            "type_private":"Privaatvõti",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Palun kleepige privaatvõtme siia",
+            "placeholder_keystore":"Palun lohistage võtmehoidja fail siit",
+
+            "input_pwd":"Sisestage parool",
+            "placeholder_pwd":"Palun sisesta oma konto parool"
+
+        },
+        "remove_dia":{
+            "tit":"Kas olete kindel, et soovite kustutada?",
+            "backup":"Veenduge, et konto on varundatud, et vältida varakahju"
+        },
+        "msg_info":{
+            "exist":"See konto on juba olemas, nimi on",
+            "enter_password":"Palun sisesta oma parool",
+            "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
+            "error":"Viga:",
+            "imported_success":"Impordi fail edukalt",
+            "enter_private":"Palun sisestage võti",
+            "error_private":"Konto importimine ebaõnnestus, see võib olla vale võti",
+            "enter_keystore":"Palun importige esmalt võtmesalvestusfail",
+            "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
+            "remove_success":"Eemaldati edukalt",
+            "save":"Rahakoti loomine edukalt, salvestage oma võtmehoidja või privaatvõti, ärge seda kellelegi jagage!"
+        },
+
+
+        
         
         "remove_prompt":"Kas olete kindel, et soovite kustutada?",
-        "please_back_up":"Veenduge, et konto on varundatud, et vältida varakahju",
-
-        "import_prompt":"Kas teil on juba CZR rahakott?",
-        "import_step":"Dragake oma rahakoti fail siit",
-        "import_or":"Or",
-        "import_click_up":"Klõpsa, et lisada"
+        "please_back_up":"Veenduge, et konto on varundatud, et vältida varakahju"
     }
 
 }

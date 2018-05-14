@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"propter Import",
-        "back_up_account":"propter tergum",
         "add_account":"ratio Novae",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Affirmo password",
+        "acc":"ratio",
+        "create_dia":{
+            "create_tit":"Create an account",
+            "backup_tit":"Novus tergum sursum vestri ratio",
+
+            "create_tag":"ratio nominis",
+            "create_pwd":"Password",
+            "create_repwd":"Affirmo password",
+
+            "placeholder_tag":"Set propter nomen tuum",
+            "placeholder_pwd":"Set propter password",
+            "placeholder_repwd":"Vide rationis password",
+            "strong_password":"Vasa fortis ignoro saltem octo",
+
+            "account_address":"ratio",
+            "account_privateKey":"privata clavem",
+            "account_download_keystore":"Download file keystore"
+        },
+        "import_dia":{
+            "tit":"propter Import",
+            "select_type":"Placere eligere Import modus",
+            "type_private":"privata clavem",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Placere privata crustulum key hic",
+            "placeholder_keystore":"Placere in keystore lima hic,",
+
+            "input_pwd":"Intra in password",
+            "placeholder_pwd":"PDF rationem ignoro"
+
+        },
+        "remove_dia":{
+            "tit":"Tu es certus vos volo ut delete?",
+            "backup":"Vide rationis iam certioribus illis ne proprietas damnum"
+        },
+        "msg_info":{
+            "exist":"Haec ratio Iam enim et hoc nomine",
+            "enter_password":"Please enter vestri password",
+            "incons_password":"Passwords non aequare",
+            "error":"Error:",
+            "imported_success":"Import file Success",
+            "enter_private":"Please enter the key",
+            "error_private":"Ratio import perit, sed error sit clavem",
+            "enter_keystore":"Placere importare file keystore",
+            "error_password":"Ratio import incassum fit, ut malum quod password",
+            "remove_success":"remota feliciter",
+            "save":"Peram facere bene servare privatis keystore ne cuiquam impertiar?"
+        },
+
+
+        
         
         "remove_prompt":"Tu es certus vos volo ut delete?",
-        "please_back_up":"Vide rationis iam certioribus illis ne proprietas damnum",
-
-        "import_prompt":"Nondum habes CZR vidulum?",
-        "import_step":"Hic vidulus tuus est in File",
-        "import_or":"aut",
-        "import_click_up":"Click Add"
+        "please_back_up":"Vide rationis iam certioribus illis ne proprietas damnum"
     }
 
 }

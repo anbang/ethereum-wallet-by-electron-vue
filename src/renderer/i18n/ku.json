@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Hesabê Import",
-        "back_up_account":"Hesabê Backup",
         "add_account":"Hesabê nû",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Şîfreya",
-        "confirm_password":"Şîfreya piştrast bikin",
+        "acc":"Hesabê",
+        "create_dia":{
+            "create_tit":"Hesab bike",
+            "backup_tit":"Vegerînek nû ya nû bike",
+
+            "create_tag":"Navê navê",
+            "create_pwd":"Şîfreya xwe bişîne",
+            "create_repwd":"Şîfreya piştrast bikin",
+
+            "placeholder_tag":"Ji kerema xwe navê navnîşan bigire",
+            "placeholder_pwd":"Ji kerema xwe şîfreyek hesab bike",
+            "placeholder_repwd":"Ji kerema xwe şîfreya hesabê piştrast bikin",
+            "strong_password":"Şîfreyeke bihêz binivîse, kêmanî 8 hejmaran",
+
+            "account_address":"Hesabê",
+            "account_privateKey":"Key key",
+            "account_download_keystore":"Pelê keystore hilbijêre"
+        },
+        "import_dia":{
+            "tit":"Hesabê Import",
+            "select_type":"Ji kerema xwe rêbazek importa hilbijêre",
+            "type_private":"Key key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Ji kerema xwe li klavyeya taybet aşkere bike",
+            "placeholder_keystore":"Ji kerema xwe pelê pelê keystore bike",
+
+            "input_pwd":"Şîfreya xwe binivîse",
+            "placeholder_pwd":"Ji kerema xwe şîfreya xwe binivîse"
+
+        },
+        "remove_dia":{
+            "tit":"Ma tu dixwazî ​​ku hûn dixwazin jêbirin?",
+            "backup":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
+        },
+        "msg_info":{
+            "exist":"Ev hesab jixwe heye û navê wî ye",
+            "enter_password":"Ji kerema xwe şîfreya xwe binivîse",
+            "incons_password":"Şîfreya du caran têkildar e",
+            "error":"Çewtiya",
+            "imported_success":"Import file successfully",
+            "enter_private":"Ji kerema xwe re kilît bike",
+            "error_private":"Ji bo hesabê veguhastin, ev dibe ku kilîtek çewt e",
+            "enter_keystore":"Ji kerema xwe pelê pelê keystore bikî",
+            "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
+            "remove_success":"Serkeftî hat",
+            "save":"Wallet bi serkeftî biafirîne, kerema xwe ya keystore yan kilîta xwe ya xwe biparêze, ne bi kesek re parve bike!"
+        },
+
+
+        
         
         "remove_prompt":"Ma tu dixwazî ​​ku hûn dixwazin jêbirin?",
-        "please_back_up":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin",
-
-        "import_prompt":"Hûn ji walleta CZR heye?",
-        "import_step":"Vê pelê xwe hilweşînin",
-        "import_or":"An",
-        "import_click_up":"Click to add"
+        "please_back_up":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
     }
 
 }

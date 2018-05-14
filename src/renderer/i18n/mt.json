@@ -25,7 +25,7 @@
             "tri_dialog":"Żid l-indirizz",
             "dialog_tit":"Daħħal l-informazzjoni tal-indirizz",
             "dialog_tag":"Tags",
-            "tag_placeholder":"Jekk jogħġbok ikteb it-tikketta tal-kumment għall-indirizz",
+            "tag_placeholder":"Jekk jogħġbok idħol it-tikketta tal-kumment għall-indirizz",
             "dialog_address":"Indirizz",
             "address_placeholder":"Jekk jogħġbok ikteb l-indirizz"
         },
@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Kont ta 'importazzjoni",
-        "back_up_account":"Kont ta 'backup",
         "add_account":"Kont ġdid",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Ikkonferma l-password",
+        "acc":"Kont",
+        "create_dia":{
+            "create_tit":"Oħloq kont",
+            "backup_tit":"Iffrankar il-kont il-ġdid tiegħek",
+
+            "create_tag":"Isem tal-kont",
+            "create_pwd":"Set password",
+            "create_repwd":"Ikkonferma l-password",
+
+            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont",
+            "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kont",
+            "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kont",
+            "strong_password":"Daħħal password soda, ta 'l-inqas 8 ċifri",
+
+            "account_address":"Kont",
+            "account_privateKey":"Ċavetta privata",
+            "account_download_keystore":"Niżżel il-fajl keystore"
+        },
+        "import_dia":{
+            "tit":"Kont ta 'importazzjoni",
+            "select_type":"Jekk jogħġbok agħżel il-metodu tal-importazzjoni",
+            "type_private":"Ċavetta privata",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Jekk jogħġbok agħmel iċ-ċavetta privata hawnhekk",
+            "placeholder_keystore":"Jekk jogħġbok drag il-fajl keystore hawn",
+
+            "input_pwd":"Daħħal il-password",
+            "placeholder_pwd":"Jekk jogħġbok daħħal il-password tal-kont tiegħek"
+
+        },
+        "remove_dia":{
+            "tit":"Inti żgur li trid tħassar?",
+            "backup":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
+        },
+        "msg_info":{
+            "exist":"Dan il-kont diġà jeżisti u l-isem huwa",
+            "enter_password":"Jekk jogħġbok daħħal il-password tiegħek",
+            "incons_password":"Il-password mdaħħla darbtejn hija inkonsistenti",
+            "error":"Żball:",
+            "imported_success":"Importa fajl b'suċċess",
+            "enter_private":"Jekk jogħġbok daħħal iċ-ċavetta",
+            "error_private":"Fin-nuqqas ta 'importazzjoni tal-kont, jista' jkun il-kjavi żbaljat",
+            "enter_keystore":"Jekk jogħġbok importa l-fajl keystore l-ewwel",
+            "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
+            "remove_success":"Mneħħija b'suċċess",
+            "save":"Oħloq kartiera b'suċċess, ħlief is-keystore jew iċ-ċavetta privata tiegħek, ma taqsamha ma 'ħaddieħor!"
+        },
+
+
+        
         
         "remove_prompt":"Inti żgur li trid tħassar?",
-        "please_back_up":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà",
-
-        "import_prompt":"Għandek diġà kartiera CZR?",
-        "import_step":"Drag il-fajl tal-kartiera tiegħek hawn",
-        "import_or":"Or",
-        "import_click_up":"Ikklikkja biex iżżid"
+        "please_back_up":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
     }
 
 }

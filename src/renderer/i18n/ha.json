@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Shigo da asusu",
-        "back_up_account":"Asusun Ajiyayyen",
         "add_account":"Sabon asusu",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Kalmar sirri",
-        "confirm_password":"Tabbatar da kalmar sirri",
+        "acc":"Asusun",
+        "create_dia":{
+            "create_tit":"Ƙirƙiri asusun",
+            "backup_tit":"Ajiye sabon asusunku",
+
+            "create_tag":"Sunan lissafin",
+            "create_pwd":"Saita kalmar sirri",
+            "create_repwd":"Tabbatar da kalmar sirri",
+
+            "placeholder_tag":"Don Allah a saita sunan asusun",
+            "placeholder_pwd":"Da fatan za a saita kalmar sirri ta asusun",
+            "placeholder_repwd":"Da fatan a tabbatar da kalmar sirri ta asusun",
+            "strong_password":"Shigar da kalmar sirri mai karfi, akalla 8 digiri",
+
+            "account_address":"Asusun",
+            "account_privateKey":"Maɓallin keɓaɓɓen",
+            "account_download_keystore":"Sauke fayil ɗin keystore"
+        },
+        "import_dia":{
+            "tit":"Shigo da asusu",
+            "select_type":"Da fatan a zaɓi hanyar sayarwa",
+            "type_private":"Maɓallin keɓaɓɓen",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Da fatan a danna maɓallin keɓaɓɓen a nan",
+            "placeholder_keystore":"Da fatan a jawo fayil ɗin maɓallin kullun a nan",
+
+            "input_pwd":"Shigar da kalmar sirri",
+            "placeholder_pwd":"Da fatan a shigar da kalmar sirrin ku"
+
+        },
+        "remove_dia":{
+            "tit":"Kuna tabbatar kana so ka share?",
+            "backup":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya"
+        },
+        "msg_info":{
+            "exist":"Wannan asusun ya wanzu kuma sunan yana",
+            "enter_password":"Da fatan a shigar da kalmar sirri",
+            "incons_password":"Kalmar shiga ta shiga sau biyu ba daidai ba ne",
+            "error":"Kuskure:",
+            "imported_success":"Shigar da fayil cikin nasara",
+            "enter_private":"Da fatan a shigar da maɓallin",
+            "error_private":"Ba a yi nasarar shigar da asusun ba, yana iya zama maɓallin kuskure",
+            "enter_keystore":"Da fatan a shigo da maɓallin kullun farko",
+            "error_password":"Ba a yi nasarar shigar da asusu ba, yana iya zama kalmar sirri mara daidai",
+            "remove_success":"Ana cire nasarar",
+            "save":"Ƙirƙiri walat ɗin nasara, don Allah a ajiye maɓallin kullunka ko maɓalli na sirri, kada ka raba wa kowa!"
+        },
+
+
+        
         
         "remove_prompt":"Kuna tabbatar kana so ka share?",
-        "please_back_up":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya",
-
-        "import_prompt":"Kuna da walat CZR?",
-        "import_step":"Jawo fayil din ku a nan",
-        "import_or":"Ko",
-        "import_click_up":"Danna don ƙarawa"
+        "please_back_up":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya"
     }
 
 }

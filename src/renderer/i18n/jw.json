@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Impor akun",
-        "back_up_account":"Akun cadangan",
         "add_account":"Akun anyar",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Pangguna Sandi",
-        "confirm_password":"Konfirmasi tembung sandi",
+        "acc":"Akun",
+        "create_dia":{
+            "create_tit":"Nggawe akun",
+            "backup_tit":"Gawe akun anyar",
+
+            "create_tag":"Jeneng akun",
+            "create_pwd":"Setel tembung sandhi",
+            "create_repwd":"Konfirmasi tembung sandi",
+
+            "placeholder_tag":"Mangga nyetel jeneng akun",
+            "placeholder_pwd":"Mangga nyetel akun sandhi",
+            "placeholder_repwd":"Konfirmasi sandhi akun",
+            "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
+
+            "account_address":"Akun",
+            "account_privateKey":"Tombol pribadi",
+            "account_download_keystore":"Ngundhuh file keystore"
+        },
+        "import_dia":{
+            "tit":"Impor akun",
+            "select_type":"Mangga pilih metode ngimpor",
+            "type_private":"Tombol pribadi",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Mangga dipindhah tombol pribadi ing kene",
+            "placeholder_keystore":"Monggo seret file keystore ing kene",
+
+            "input_pwd":"Ketik sandhi",
+            "placeholder_pwd":"Mangga ketik sandhi akun"
+
+        },
+        "remove_dia":{
+            "tit":"Apa sampeyan pengin mbusak?",
+            "backup":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
+        },
+        "msg_info":{
+            "exist":"Akun iki wis ana lan jeneng kasebut",
+            "enter_password":"Mangga ketik sandhi",
+            "incons_password":"Tembung sandhi sing kaping pindho ora konsisten",
+            "error":"Kesalahan:",
+            "imported_success":"Ngimpor file kanthi sukses",
+            "enter_private":"Mangga ketik tombol",
+            "error_private":"Gagal ngimpor akun, bisa dadi kunci sing salah",
+            "enter_keystore":"Mangga ngimpor file keystore dhisik",
+            "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
+            "remove_success":"Dibusak kasil",
+            "save":"Gawe dompet sukses, monggo simpen tombol keystore utawa pribadi, aja gawanen menyang sapa wae!"
+        },
+
+
+        
         
         "remove_prompt":"Apa sampeyan pengin mbusak?",
-        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti",
-
-        "import_prompt":"Sampeyan wis duwe dompet CZR?",
-        "import_step":"Seret file dompet sampeyan ing kene",
-        "import_or":"Utawa",
-        "import_click_up":"Klik kanggo nambah"
+        "please_back_up":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
     }
 
 }

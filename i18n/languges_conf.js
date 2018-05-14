@@ -59,7 +59,7 @@ const languges = {
     'lo': "ລາວ",//老挝语				    ລາວ
     'la': "Latine",//拉丁语				    Latine
     'lv': "Latviešu",//拉脱维亚语				Latviešu
-    'lt': "Lietuviškai",//立陶宛语				Lietuviškai
+    // 'lt': "Lietuviškai",//立陶宛语				Lietuviškai
     'lb': "Lëtzebuergesch",//卢森堡语			Lëtzebuergesch
     'mk': "Македонски",//马其顿语				Македонски
     'mg': "Malagasy",//马尔加什语				Malagasy

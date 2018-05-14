@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Tuo tili",
-        "back_up_account":"Varmuuskopiotili",
         "add_account":"Uusi tili",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"salasana",
-        "confirm_password":"Vahvista salasana",
+        "acc":"tili",
+        "create_dia":{
+            "create_tit":"Luo tili",
+            "backup_tit":"Varmuuskopioi uusi tili",
+
+            "create_tag":"Tilin nimi",
+            "create_pwd":"Aseta salasana",
+            "create_repwd":"Vahvista salasana",
+
+            "placeholder_tag":"Aseta tilin nimi",
+            "placeholder_pwd":"Aseta salasanasi",
+            "placeholder_repwd":"Vahvista tilin salasana",
+            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
+
+            "account_address":"tili",
+            "account_privateKey":"Yksityinen avain",
+            "account_download_keystore":"Lataa avainasematiedosto"
+        },
+        "import_dia":{
+            "tit":"Tuo tili",
+            "select_type":"Valitse tuontimenetelmä",
+            "type_private":"Yksityinen avain",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Liitä yksityinen avain tähän",
+            "placeholder_keystore":"Vedä avainniedosto täältä",
+
+            "input_pwd":"Anna salasana",
+            "placeholder_pwd":"Anna tilin salasana"
+
+        },
+        "remove_dia":{
+            "tit":"Haluatko varmasti poistaa?",
+            "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
+        },
+        "msg_info":{
+            "exist":"Tämä tili on jo olemassa ja nimi on",
+            "enter_password":"Anna salasanasi",
+            "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
+            "error":"Virhe:",
+            "imported_success":"Tuo tiedosto onnistuneesti",
+            "enter_private":"Anna avain",
+            "error_private":"Tilin tuominen epäonnistui, se voi olla väärä avain",
+            "enter_keystore":"Ole hyvä ja syötä ensin keystore-tiedosto",
+            "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
+            "remove_success":"Poistettu onnistuneesti",
+            "save":"Luo lompakko onnistuneesti, säilytä avaimen tai yksityisen avaimen, älä jakaa sitä kenellekään!"
+        },
+
+
+        
         
         "remove_prompt":"Haluatko varmasti poistaa?",
-        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja",
-
-        "import_prompt":"Onko sinulla jo CZR-lompakkoa?",
-        "import_step":"Vedä lompakon tiedosto täältä",
-        "import_or":"tai",
-        "import_click_up":"Napsauta lisätäksesi"
+        "please_back_up":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
     }
 
 }

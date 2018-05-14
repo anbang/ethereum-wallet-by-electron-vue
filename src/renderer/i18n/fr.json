@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importer un compte",
-        "back_up_account":"Compte de sauvegarde",
         "add_account":"Nouveau compte",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Confirmer le mot",
+        "acc":"Compte",
+        "create_dia":{
+            "create_tit":"Créer un compte",
+            "backup_tit":"Sauvegarder votre nouveau compte",
+
+            "create_tag":"Nom du compte",
+            "create_pwd":"Définir le mot",
+            "create_repwd":"Confirmer le mot",
+
+            "placeholder_tag":"Veuillez définir le nom du compte",
+            "placeholder_pwd":"Veuillez définir le mot de passe du compte",
+            "placeholder_repwd":"Veuillez confirmer le mot de passe du compte",
+            "strong_password":"Entrez un mot de passe fort, au moins 8 chiffres",
+
+            "account_address":"Compte",
+            "account_privateKey":"Clé privée",
+            "account_download_keystore":"Télécharger le fichier keystore"
+        },
+        "import_dia":{
+            "tit":"Importer un compte",
+            "select_type":"Veuillez sélectionner la méthode d'importation",
+            "type_private":"Clé privée",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Veuillez coller la clé privée ici",
+            "placeholder_keystore":"Faites glisser le fichier keystore ici",
+
+            "input_pwd":"Entrer le mot",
+            "placeholder_pwd":"Veuillez entrer le mot de passe de votre compte"
+
+        },
+        "remove_dia":{
+            "tit":"Êtes-vous sûr de vouloir supprimer?",
+            "backup":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels"
+        },
+        "msg_info":{
+            "exist":"Ce compte existe déjà, le nom est",
+            "enter_password":"Veuillez entrer votre mot de passe",
+            "incons_password":"Le mot de passe entré deux fois est incohérent",
+            "error":"Erreur:",
+            "imported_success":"Importer le fichier avec succès",
+            "enter_private":"Veuillez entrer la clé",
+            "error_private":"Impossible d'importer le compte, cela peut être la mauvaise clé",
+            "enter_keystore":"Veuillez d'abord importer le fichier keystore",
+            "error_password":"Impossible d'importer le compte, il peut s'agir d'un mot de passe incorrect",
+            "remove_success":"Retiré avec succès",
+            "save":"Créez un portefeuille avec succès, enregistrez votre fichier de clés ou votre clé privée, ne le partagez pas avec qui que ce soit!"
+        },
+
+
+        
         
         "remove_prompt":"Êtes-vous sûr de vouloir supprimer?",
-        "please_back_up":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels",
-
-        "import_prompt":"Avez-vous déjà un portefeuille CZR?",
-        "import_step":"Faites glisser votre fichier de portefeuille ici",
-        "import_or":"Ou",
-        "import_click_up":"Cliquez pour ajouter"
+        "please_back_up":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels"
     }
 
 }

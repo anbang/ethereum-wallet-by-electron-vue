@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Inportatu kontua",
-        "back_up_account":"Babeskopiaren kontua",
         "add_account":"Kontu berria",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Pasahitza",
-        "confirm_password":"Berretsi pasahitza",
+        "acc":"Kontu-",
+        "create_dia":{
+            "create_tit":"Sortu kontua",
+            "backup_tit":"Egin kontu berriaren babeskopia",
+
+            "create_tag":"Kontuaren izena",
+            "create_pwd":"Ezarri pasahitza",
+            "create_repwd":"Berretsi pasahitza",
+
+            "placeholder_tag":"Ezarri kontuaren izena",
+            "placeholder_pwd":"Ezarri kontuaren pasahitza",
+            "placeholder_repwd":"Berretsi kontuaren pasahitza",
+            "strong_password":"Idatzi pasahitz sendo bat, gutxienez 8 digitu",
+
+            "account_address":"Kontu-",
+            "account_privateKey":"Gako pribatua",
+            "account_download_keystore":"Deskargatu teklatuaren fitxategia"
+        },
+        "import_dia":{
+            "tit":"Inportatu kontua",
+            "select_type":"Hautatu inportatzeko metodoa",
+            "type_private":"Gako pribatua",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Itsatsi ezazu gako pribatua hemen",
+            "placeholder_keystore":"Arrastatu teklatuaren fitxategia hemen",
+
+            "input_pwd":"Idatzi pasahitza",
+            "placeholder_pwd":"Sartu zure kontuaren pasahitza"
+
+        },
+        "remove_dia":{
+            "tit":"Ziur al zaude ezabatu nahi duzula?",
+            "backup":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
+        },
+        "msg_info":{
+            "exist":"Kontu hau dagoeneko badago eta izena da",
+            "enter_password":"Idatzi zure pasahitza",
+            "incons_password":"Bihurtutako pasahitza ez da bateragarria",
+            "error":"Akatsa:",
+            "imported_success":"Inportatu fitxategia behar bezala",
+            "enter_private":"Sartu tekla",
+            "error_private":"Kontua inportatzean huts egin du",
+            "enter_keystore":"Inportatu keystore fitxategia lehenik",
+            "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
+            "remove_success":"Behar bezala kendu da",
+            "save":"Sortu zorroa arrakastaz, gorde teklak edo gako pribatua, ez partekatu inori!"
+        },
+
+
+        
         
         "remove_prompt":"Ziur al zaude ezabatu nahi duzula?",
-        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko",
-
-        "import_prompt":"Dagoeneko CZR zorroa al duzu?",
-        "import_step":"Arrastatu zure zorro fitxategia hemen",
-        "import_or":"edo",
-        "import_click_up":"Egin klik sartzeko"
+        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
     }
 
 }

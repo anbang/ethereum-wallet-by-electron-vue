@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Import konto",
-        "back_up_account":"Backup konto",
         "add_account":"Ny konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"adgangskode",
-        "confirm_password":"Bekræft adgangskode",
+        "acc":"konto",
+        "create_dia":{
+            "create_tit":"Opret en konto",
+            "backup_tit":"Sikkerhedskopier din nye konto",
+
+            "create_tag":"Kontonavn",
+            "create_pwd":"Indstil adgangskode",
+            "create_repwd":"Bekræft adgangskode",
+
+            "placeholder_tag":"Indstil venligst kontonavnet",
+            "placeholder_pwd":"Angiv venligst adgangskode til konto",
+            "placeholder_repwd":"Bekræft venligst adgangskoden til kontoen",
+            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
+
+            "account_address":"konto",
+            "account_privateKey":"Privat nøgle",
+            "account_download_keystore":"Download keystore filen"
+        },
+        "import_dia":{
+            "tit":"Import konto",
+            "select_type":"Vælg venligst importmetode",
+            "type_private":"Privat nøgle",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Indsæt venligst den private nøgle her",
+            "placeholder_keystore":"Træk venligst keystore filen her",
+
+            "input_pwd":"Indtast adgangskode",
+            "placeholder_pwd":"Indtast venligst din adgangskode til din konto"
+
+        },
+        "remove_dia":{
+            "tit":"Er du sikker på, at du vil slette?",
+            "backup":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+        },
+        "msg_info":{
+            "exist":"Denne konto eksisterer allerede, navnet er",
+            "enter_password":"Indtast venligst dit kodeord",
+            "incons_password":"Adgangskoden indtastet to gange er inkonsekvent",
+            "error":"Fejl:",
+            "imported_success":"Import fil med succes",
+            "enter_private":"Indtast venligst tasten",
+            "error_private":"Kunne ikke importere kontoen, det kan være den forkerte nøgle",
+            "enter_keystore":"Indtast venligst keystore filen først",
+            "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
+            "remove_success":"Fjernet med succes",
+            "save":"Opret lommebog med succes, gem venligst dit nøglelager eller privat nøgle, del det ikke til nogen!"
+        },
+
+
+        
         
         "remove_prompt":"Er du sikker på, at du vil slette?",
-        "please_back_up":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen",
-
-        "import_prompt":"Har du allerede en CZR tegnebog?",
-        "import_step":"Træk din tegnebogsfil her",
-        "import_or":"eller",
-        "import_click_up":"Klik for at tilføje"
+        "please_back_up":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
     }
 
 }

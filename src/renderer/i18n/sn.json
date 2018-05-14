@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Tumira nhoroondo",
-        "back_up_account":"Backup account",
         "add_account":"Nhoroondo itsva",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Tsimbisa password",
+        "acc":"Akaunti",
+        "create_dia":{
+            "create_tit":"Gadzira an account",
+            "backup_tit":"Dzorera kero yako itsva",
+
+            "create_tag":"Aunti yezita",
+            "create_pwd":"Isai password",
+            "create_repwd":"Tsimbisa password",
+
+            "placeholder_tag":"Ndapota ita zita rekombi",
+            "placeholder_pwd":"Ndapota chengetedza password yako",
+            "placeholder_repwd":"Ndapota simbisai password password",
+            "strong_password":"Isa chinyorwa chakasimba, zvisingaverengi mazita 8",
+
+            "account_address":"Akaunti",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Dhaunirodha foni yechikwereti"
+        },
+        "import_dia":{
+            "tit":"Tumira nhoroondo",
+            "select_type":"Ndapota sarudza nzira yekushandisa",
+            "type_private":"Private key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Ndapota tanidza kiyi yega yega pano",
+            "placeholder_keystore":"Ndapota dragha faira yechikoni apa",
+
+            "input_pwd":"Pinda password",
+            "placeholder_pwd":"Ndapota tumira password yako"
+
+        },
+        "remove_dia":{
+            "tit":"Unonyatsoziva here kuti unoda kubvisa?",
+            "backup":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
+        },
+        "msg_info":{
+            "exist":"Iyi nhoroondo yave ikopo, zita racho",
+            "enter_password":"Ndapota nyora password yako",
+            "incons_password":"Izwi rakapinda kaviri harisi",
+            "error":"Mhosva:",
+            "imported_success":"Tumira faira zvakanaka",
+            "enter_private":"Ndapota pindai kiyi",
+            "error_private":"Yakakundikana kutumira account, inogona kunge yakakosha",
+            "enter_keystore":"Ndapota tumira chinyorwa chekinyora kutanga",
+            "error_password":"Yakakundikana kutumira account, inogona kunge iri password isina kururama",
+            "remove_success":"Yakabviswa kubudirira",
+            "save":"Gadzira chikwama kubudirira, tapota ponesa kona yako yekodhi kana kiyi yega yega, urege kugovera kune ani zvake!"
+        },
+
+
+        
         
         "remove_prompt":"Unonyatsoziva here kuti unoda kubvisa?",
-        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba",
-
-        "import_prompt":"Iwe unotova neCZR chikwama here?",
-        "import_step":"Dragza faira yako yepakiti pano",
-        "import_or":"Kana",
-        "import_click_up":"Click to add"
+        "please_back_up":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
     }
 
 }

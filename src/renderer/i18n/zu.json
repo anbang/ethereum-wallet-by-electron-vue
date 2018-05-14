@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ngenisa i-akhawunti",
-        "back_up_account":"I-akhawunti yokulondoloza",
         "add_account":"I-akhawunti entsha",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Iphasiwedi",
-        "confirm_password":"Qinisekisa iphasiwedi",
+        "acc":"I-Akhawunti",
+        "create_dia":{
+            "create_tit":"Dala i-akhawunti",
+            "backup_tit":"Yenza isipele i-akhawunti yakho entsha",
+
+            "create_tag":"Igama le-akhawunti",
+            "create_pwd":"Setha iphasiwedi",
+            "create_repwd":"Qinisekisa iphasiwedi",
+
+            "placeholder_tag":"Sicela usethe igama le-akhawunti",
+            "placeholder_pwd":"Sicela usethe iphasiwedi ye-akhawunti",
+            "placeholder_repwd":"Sicela uqinisekise iphasiwedi ye-akhawunti",
+            "strong_password":"Faka iphasiwedi eqinile, okungenani amadijithi angu-8",
+
+            "account_address":"I-Akhawunti",
+            "account_privateKey":"Ukhiye wangasese",
+            "account_download_keystore":"Landa ifayela le-keystore"
+        },
+        "import_dia":{
+            "tit":"Ngenisa i-akhawunti",
+            "select_type":"Sicela ukhethe indlela yokungenisa",
+            "type_private":"Ukhiye wangasese",
+            "type_keystore":"I-keystore",
+
+            "placeholder_private":"Sicela unamathisele ukhiye wangasese lapha",
+            "placeholder_keystore":"Sicela uhudule ifayela le-keystore lapha",
+
+            "input_pwd":"Faka iphasiwedi",
+            "placeholder_pwd":"Sicela ufake iphasiwedi yakho ye-akhawunti"
+
+        },
+        "remove_dia":{
+            "tit":"Uqinisekile ukuthi ufuna ukususa?",
+            "backup":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla"
+        },
+        "msg_info":{
+            "exist":"Le akhawunti ivele ikhona, igama likhona",
+            "enter_password":"Sicela ufake iphasiwedi yakho",
+            "incons_password":"Iphasiwedi efakiwe kabili ayihambisani",
+            "error":"Iphutha:",
+            "imported_success":"Ngenisa ifayela ngempumelelo",
+            "enter_private":"Sicela ufake ukhiye",
+            "error_private":"Yehlulekile ukungenisa i-akhawunti, kungase kube ukhiye olungalungile",
+            "enter_keystore":"Sicela ungenise ifayela le-keystore kuqala",
+            "error_password":"Yehlulekile ukungenisa i-akhawunti, kungenzeka ukuthi iphasiwedi engalungile",
+            "remove_success":"Isusiwe ngempumelelo",
+            "save":"Dala isikhwama ngempumelelo, sicela ulondoloze ikhibhodi yakho noma ikhi yangasese, ungabelani nanoma ubani!"
+        },
+
+
+        
         
         "remove_prompt":"Uqinisekile ukuthi ufuna ukususa?",
-        "please_back_up":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla",
-
-        "import_prompt":"Usuvele unayo isikhwama se-CZR?",
-        "import_step":"Hudula ifayela lakho lesikhwama lapha",
-        "import_or":"Noma",
-        "import_click_up":"Chofoza ukuze ungeze"
+        "please_back_up":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla"
     }
 
 }

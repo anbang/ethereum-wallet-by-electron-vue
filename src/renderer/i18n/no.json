@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Import konto",
-        "back_up_account":"Backup-konto",
         "add_account":"Ny konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"passord",
-        "confirm_password":"Bekreft passord",
+        "acc":"konto",
+        "create_dia":{
+            "create_tit":"Opprett en konto",
+            "backup_tit":"Sikkerhetskopier din nye konto",
+
+            "create_tag":"Kontonavn",
+            "create_pwd":"Angi passord",
+            "create_repwd":"Bekreft passord",
+
+            "placeholder_tag":"Vennligst sett inn kontonavn",
+            "placeholder_pwd":"Vennligst sett inn konto passord",
+            "placeholder_repwd":"Vennligst bekreft kontopassordet",
+            "strong_password":"Skriv inn et sterkt passord, minst 8 siffer",
+
+            "account_address":"konto",
+            "account_privateKey":"Privat nøkkel",
+            "account_download_keystore":"Last ned nøkkelbutikkfilen"
+        },
+        "import_dia":{
+            "tit":"Import konto",
+            "select_type":"Vennligst velg importmetode",
+            "type_private":"Privat nøkkel",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Vennligst lim privat nøkkel her",
+            "placeholder_keystore":"Vennligst dra nøkkelstore filen her",
+
+            "input_pwd":"Skriv inn passord",
+            "placeholder_pwd":"Vennligst skriv inn passordet ditt"
+
+        },
+        "remove_dia":{
+            "tit":"Er du sikker på at du vil slette?",
+            "backup":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
+        },
+        "msg_info":{
+            "exist":"Denne kontoen eksisterer allerede, navnet er",
+            "enter_password":"Vennligst skriv inn passordet ditt",
+            "incons_password":"Passordet som er skrevet inn to ganger, er inkonsekvent",
+            "error":"feil:",
+            "imported_success":"Importer filen vellykket",
+            "enter_private":"Vennligst skriv inn tasten",
+            "error_private":"Kunne ikke importere kontoen, det kan være feil nøkkel",
+            "enter_keystore":"Vennligst importer nøkkelbutikkfilen først",
+            "error_password":"Kan ikke importere konto, det kan være et feil passord",
+            "remove_success":"Fjernet vellykket",
+            "save":"Opprett lommebok vellykket, vær så snill å lagre nøkkelbutikken eller privatnøkkelen, ikke del den til noen!"
+        },
+
+
+        
         
         "remove_prompt":"Er du sikker på at du vil slette?",
-        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom",
-
-        "import_prompt":"Har du allerede en CZR lommebok?",
-        "import_step":"Dra din lommebokfil her",
-        "import_or":"eller",
-        "import_click_up":"Klikk for å legge til"
+        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
     }
 
 }

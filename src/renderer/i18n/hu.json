@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Számla importálása",
-        "back_up_account":"Biztonsági másolat",
         "add_account":"Új fiók",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"jelszó",
-        "confirm_password":"Jelszó megerősítése",
+        "acc":"számla",
+        "create_dia":{
+            "create_tit":"Hozzon létre egy fiókot",
+            "backup_tit":"Hozza létre az új fiókot",
+
+            "create_tag":"Fiók neve",
+            "create_pwd":"Jelszó beállítása",
+            "create_repwd":"Jelszó megerősítése",
+
+            "placeholder_tag":"Állítsa be a fiók nevét",
+            "placeholder_pwd":"Kérjük, állítsa be a fiók jelszavát",
+            "placeholder_repwd":"Kérjük, erősítse meg a fiók jelszavát",
+            "strong_password":"Adjon meg egy erős jelszót, legalább 8 számjegyből",
+
+            "account_address":"számla",
+            "account_privateKey":"Privát kulcs",
+            "account_download_keystore":"Töltse le a kulcstároló fájlt"
+        },
+        "import_dia":{
+            "tit":"Számla importálása",
+            "select_type":"Válassza ki az importálási módot",
+            "type_private":"Privát kulcs",
+            "type_keystore":"kulcstárát",
+
+            "placeholder_private":"Kérjük, illessze be a privát kulcsot itt",
+            "placeholder_keystore":"Kérem húzza a kulcsfontosságú fájlt itt",
+
+            "input_pwd":"Adja meg a jelszót",
+            "placeholder_pwd":"Kérjük, adja meg fiókja jelszavát"
+
+        },
+        "remove_dia":{
+            "tit":"Biztosan törölni akarja?",
+            "backup":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
+        },
+        "msg_info":{
+            "exist":"Ez a fiók már létezik, a név",
+            "enter_password":"Kérjük, adja meg jelszavát",
+            "incons_password":"A kétszer beírt jelszó következetlen",
+            "error":"Hiba:",
+            "imported_success":"Fájl importálása sikeresen",
+            "enter_private":"Kérjük, adja meg a kulcsot",
+            "error_private":"Nem sikerült importálni a fiókot, lehet, hogy rossz kulcs",
+            "enter_keystore":"Kérjük, először importálja a kulcstároló fájlt",
+            "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
+            "remove_success":"Sikeresen eltávolítva",
+            "save":"Hozzon létre egy pénztárca sikeres mentse kulcstárát vagy magán, ne ossza meg senkivel!"
+        },
+
+
+        
         
         "remove_prompt":"Biztosan törölni akarja?",
-        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta",
-
-        "import_prompt":"Van már egy CZR pénztárcája?",
-        "import_step":"Húzza a pénztárca fájlját itt",
-        "import_or":"vagy",
-        "import_click_up":"Hozzáadás hozzáadásához"
+        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
     }
 
 }

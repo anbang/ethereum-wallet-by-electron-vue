@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ymportearje akkount",
-        "back_up_account":"Reservekopy",
         "add_account":"Nije akkount",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Wachtwurd",
-        "confirm_password":"Befêstigje wachtwurd",
+        "acc":"Akkount",
+        "create_dia":{
+            "create_tit":"In akkount oanmeitsje",
+            "backup_tit":"Werom nei jo nije akkount",
+
+            "create_tag":"Akkountnamme",
+            "create_pwd":"Set wachtwurd yn",
+            "create_repwd":"Befêstigje wachtwurd",
+
+            "placeholder_tag":"Kontrolearje asjebleaft",
+            "placeholder_pwd":"Set wachtwurd op",
+            "placeholder_repwd":"Besykje it akkount wachtwurd befêstigje",
+            "strong_password":"Fier in sterk wachtwurd, op syn minst 8 sifers",
+
+            "account_address":"Akkount",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Laden de keystore-bestân"
+        },
+        "import_dia":{
+            "tit":"Ymportearje akkount",
+            "select_type":"Selektearje ymporttoade",
+            "type_private":"Private key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Kies hjir de privee kaai yn",
+            "placeholder_keystore":"Slach hjir it keystore-bestân hjirûnder",
+
+            "input_pwd":"Wachtwurd ynfiere",
+            "placeholder_pwd":"Fier jo akkount wachtwurd yn"
+
+        },
+        "remove_dia":{
+            "tit":"Binne jo wis dat jo wiskje wolle?",
+            "backup":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen"
+        },
+        "msg_info":{
+            "exist":"Dit akkount bestiet al, de namme is",
+            "enter_password":"Fier jo wachtwurd ynfiere",
+            "incons_password":"It wachtwurd dy't twa kear ynfierd is net inkonsistint",
+            "error":"Flater:",
+            "imported_success":"Triem ynfiere mei suksesfol",
+            "enter_private":"Fier de kaai yn",
+            "error_private":"It wachtwurd koe net ymportearje, it kin de ferkearde kaai wêze",
+            "enter_keystore":"Please first select the keystore file",
+            "error_password":"It mislearre akkount mislearre, it kin in ferkeard wachtwurd wêze",
+            "remove_success":"Fuortsmite mei sukses",
+            "save":"Meitsje jo wallet mei súkses, besykje jo keystore of privee kaai te bewarjen, diel it net oan elkenien!"
+        },
+
+
+        
         
         "remove_prompt":"Binne jo wis dat jo wiskje wolle?",
-        "please_back_up":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen",
-
-        "import_prompt":"Hawwe jo al in CZR-jaske?",
-        "import_step":"Sleep jo wallet bestân hjir",
-        "import_or":"Or",
-        "import_click_up":"Klik om te tafoege"
+        "please_back_up":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen"
     }
 
 }

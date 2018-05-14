@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Import каттоо эсеби",
-        "back_up_account":"Көмөкчү каттоо эсеби",
         "add_account":"жаңы каттоо эсеби",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"пароль",
-        "confirm_password":"Сырсөздү ырастоо",
+        "acc":"каттоо",
+        "create_dia":{
+            "create_tit":"Эсеп жазуусун жаратуу",
+            "backup_tit":"Сиздин жаңы эсеп камдык",
+
+            "create_tag":"каттоо эсебинин аталышы",
+            "create_pwd":"пароль",
+            "create_repwd":"Сырсөздү ырастоо",
+
+            "placeholder_tag":"Set эсеп аты",
+            "placeholder_pwd":"Set эсеп пароль",
+            "placeholder_repwd":"эсеп-сөздү баамдагыла",
+            "strong_password":"Enter, жок эле дегенде сегиз, күчтүү сөздү",
+
+            "account_address":"каттоо",
+            "account_privateKey":"жеке ачкыч",
+            "account_download_keystore":"Download ачкыч билэ"
+        },
+        "import_dia":{
+            "tit":"Import каттоо эсеби",
+            "select_type":"Сураныч, Import режимин тандоо",
+            "type_private":"жеке ачкыч",
+            "type_keystore":"ачкыч",
+
+            "placeholder_private":"Сураныч, бул жерде жеке ачкычты көчүрүп",
+            "placeholder_keystore":"Сураныч, бул жерде эске билэни ачкыч",
+
+            "input_pwd":"сырсөз киргизүү",
+            "placeholder_pwd":"Сураныч, эсеп сырсөз"
+
+        },
+        "remove_dia":{
+            "tit":"Чын эле, аны жок кыласызбы?",
+            "backup":"Текшерип эсеп мүлктүк зыянга учуратпоо үчүн бекемделе элек"
+        },
+        "msg_info":{
+            "exist":"Бул каттоо эсеби мурунтан эле бар, аты",
+            "enter_password":"Сураныч, сөздү киргизип",
+            "incons_password":"Сырсөздөр дал келген жок",
+            "error":"Error:",
+            "imported_success":"Import билэ Ийгилик",
+            "enter_private":"Сураныч, ачкычты кирет",
+            "error_private":"Каттоо импорт албаса, ката негизги болушу мүмкүн",
+            "enter_keystore":"Сураныч, ачкыч билэни импорттоо",
+            "error_password":"Каттоо импорт албаса, бул туура эмес сөз болушу мүмкүн",
+            "remove_success":"ийгиликтүү алынып салынды",
+            "save":"Түзүү ийгиликтүү капчыгы сиздин ачкыч же жеке сактап, эч ким менен бөлүшө жок!"
+        },
+
+
+        
         
         "remove_prompt":"Чын эле, аны жок кыласызбы?",
-        "please_back_up":"Текшерип эсеп мүлктүк зыянга учуратпоо үчүн бекемделе элек",
-
-        "import_prompt":"Азырынча CZR капчыкты бар?",
-        "import_step":"File сиздин капчыкка салып бул жерде",
-        "import_or":"же",
-        "import_click_up":"кошуу Click"
+        "please_back_up":"Текшерип эсеп мүлктүк зыянга учуратпоо үчүн бекемделе элек"
     }
 
 }

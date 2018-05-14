@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Cunntas a-steach",
-        "back_up_account":"Cunntas cùl-taice",
         "add_account":"Cunntas ùr",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Facal-faire",
-        "confirm_password":"Dearbhaich am facal-faire",
+        "acc":"Cunntas",
+        "create_dia":{
+            "create_tit":"Cruthaich cunntas",
+            "backup_tit":"Cùl air ais an cunntas ùr agad",
+
+            "create_tag":"Ainm cunntais",
+            "create_pwd":"Cuir am facal-faire",
+            "create_repwd":"Dearbhaich am facal-faire",
+
+            "placeholder_tag":"Cuir a-steach ainm cunntais",
+            "placeholder_pwd":"Suidhich cunntas air facal-faire",
+            "placeholder_repwd":"Dearbhaich am facal-faire cunntais",
+            "strong_password":"Cuir a-steach facal-faire làidir, co-dhiù 8 dhigit",
+
+            "account_address":"Cunntas",
+            "account_privateKey":"Eochair prìobhaideach",
+            "account_download_keystore":"Luchdaich sìos am faidhle prìomh stòr"
+        },
+        "import_dia":{
+            "tit":"Cunntas a-steach",
+            "select_type":"Taghaibh dòigh-obrachaidh",
+            "type_private":"Eochair prìobhaideach",
+            "type_keystore":"Prìomh-stòr",
+
+            "placeholder_private":"Cleachd an iuchair phrìobhaideach an seo",
+            "placeholder_keystore":"Thoir dragh air a 'faidhle chudromach an seo",
+
+            "input_pwd":"Cuir a-steach facal-faire",
+            "placeholder_pwd":"Cuir a-steach am facal-faire cunntais agad"
+
+        },
+        "remove_dia":{
+            "tit":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
+            "backup":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
+        },
+        "msg_info":{
+            "exist":"Tha an cunntas seo mu thràth agus tha an t-ainm",
+            "enter_password":"Cuir a-steach am facal-faire agad",
+            "incons_password":"Tha am facal-faire a chaidh a-steach dà thuras neo-chunbhalach",
+            "error":"Mearachd:",
+            "imported_success":"Faidhle a-steach gu soirbheachail",
+            "enter_private":"Cuir a-steach an iuchair",
+            "error_private":"Dh'fhàillig an cunntas a thoirt a-steach, is dòcha gur e an iuchair ceàrr a th 'ann",
+            "enter_keystore":"Cuir a-steach am faidhle cudthromach an toiseach",
+            "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
+            "remove_success":"Thoir air falbh gu soirbheachail",
+            "save":"Cruthaich phasgan gu soirbheachail, sàbhail do stòr-inneal no iuchair prìobhaideach, na rannsaich e do dhuine sam bith!"
+        },
+
+
+        
         
         "remove_prompt":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
-        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh",
-
-        "import_prompt":"A bheil cearcall CZR agad mu thràth?",
-        "import_step":"Slaod am faidhle faire agad an seo",
-        "import_or":"No",
-        "import_click_up":"Briog airson cuir ris"
+        "please_back_up":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
     }
 
 }

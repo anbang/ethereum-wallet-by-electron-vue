@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Llogaria e importit",
-        "back_up_account":"Llogari rezervë",
         "add_account":"Llogari e re",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"fjalëkalim",
-        "confirm_password":"Konfirmo fjalëkalimin",
+        "acc":"llogari",
+        "create_dia":{
+            "create_tit":"Krijo një llogari",
+            "backup_tit":"Ruaje llogarinë tënde të re",
+
+            "create_tag":"Emri i llogarisë",
+            "create_pwd":"Cakto fjalëkalimin",
+            "create_repwd":"Konfirmo fjalëkalimin",
+
+            "placeholder_tag":"Vendosni emrin e llogarisë",
+            "placeholder_pwd":"Vendosni fjalëkalimin e llogarisë",
+            "placeholder_repwd":"Ju lutemi konfirmoni fjalëkalimin e llogarisë",
+            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
+
+            "account_address":"llogari",
+            "account_privateKey":"Çelësi privat",
+            "account_download_keystore":"Shkarko skedarin e keystore"
+        },
+        "import_dia":{
+            "tit":"Llogaria e importit",
+            "select_type":"Ju lutemi zgjidhni metodën e importit",
+            "type_private":"Çelësi privat",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Futeni këtu çelësin privat",
+            "placeholder_keystore":"Ju lutemi terhiq skedarin e keystore këtu",
+
+            "input_pwd":"Fut fjalëkalimin",
+            "placeholder_pwd":"Ju lutemi shkruani fjalëkalimin tuaj të llogarisë"
+
+        },
+        "remove_dia":{
+            "tit":"Jeni i sigurt që doni të fshini?",
+            "backup":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
+        },
+        "msg_info":{
+            "exist":"Kjo llogari tashmë ekziston dhe emri është",
+            "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
+            "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
+            "error":"gabim:",
+            "imported_success":"Dosja e importit me sukses",
+            "enter_private":"Futni çelësin",
+            "error_private":"Dështoi në importimin e llogarisë, mund të jetë çelësi i gabuar",
+            "enter_keystore":"Ju lutemi të importoni skedarin e keystore së pari",
+            "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
+            "remove_success":"Heqja me sukses",
+            "save":"Krijoni portofolin me sukses, ju lutemi ruani tastierën tuaj ose çelësin privat, mos e ndani atë askujt!"
+        },
+
+
+        
         
         "remove_prompt":"Jeni i sigurt që doni të fshini?",
-        "please_back_up":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës",
-
-        "import_prompt":"A keni një portofol CZR?",
-        "import_step":"Hiq skedarin e portofolit tënd këtu",
-        "import_or":"ose",
-        "import_click_up":"Kliko për të shtuar"
+        "please_back_up":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
     }
 
 }

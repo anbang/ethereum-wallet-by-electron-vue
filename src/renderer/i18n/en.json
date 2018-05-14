@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Import account",
-        "back_up_account":"Backup account",
         "add_account":"New account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"password",
-        "confirm_password":"confirm password",
+        "acc":"Account",
+        "create_dia":{
+            "create_tit":"Create an account",
+            "backup_tit":"Back up your new account",
+
+            "create_tag":"account name",
+            "create_pwd":"set password",
+            "create_repwd":"confirm password",
+
+            "placeholder_tag":"Please set account name",
+            "placeholder_pwd":"Please set account password",
+            "placeholder_repwd":"Please confirm the account password",
+            "strong_password":"Enter a strong password, at least 8 digits",
+
+            "account_address":"Account",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Download the keystore file"
+        },
+        "import_dia":{
+            "tit":"Import account",
+            "select_type":"Please select import method",
+            "type_private":"Private key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Please paste the private key here",
+            "placeholder_keystore":"Please drag the keystore file here",
+
+            "input_pwd":"enter password",
+            "placeholder_pwd":"Please enter your account password"
+
+        },
+        "remove_dia":{
+            "tit":"Are you sure you want to delete?",
+            "backup":"Please make sure the account has been backed up to avoid property damage"
+        },
+        "msg_info":{
+            "exist":"This account already exists and the name is",
+            "enter_password":"Please enter your password",
+            "incons_password":"The password entered twice is inconsistent",
+            "error":"error:",
+            "imported_success":"Import file successfully",
+            "enter_private":"Please enter the key",
+            "error_private":"Failed to import the account, it may be the wrong key",
+            "enter_keystore":"Please import the keystore file first",
+            "error_password":"Failed to import account, it may be a wrong password",
+            "remove_success":"Removed successfully",
+            "save":"Create wallet successfully, please save your keystore or private key, don't share it to anyone!"
+        },
+
+
+        
         
         "remove_prompt":"Are you sure you want to delete?",
-        "please_back_up":"Please make sure the account has been backed up to avoid property damage",
-
-        "import_prompt":"Do you already have a CZR wallet?",
-        "import_step":"Drag your wallet file here",
-        "import_or":"or",
-        "import_click_up":"Click to add"
+        "please_back_up":"Please make sure the account has been backed up to avoid property damage"
     }
 
 }

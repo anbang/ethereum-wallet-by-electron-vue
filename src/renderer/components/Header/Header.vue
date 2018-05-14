@@ -8,7 +8,7 @@
       </ul>
       <div class="has-assets-czr">
           {{ $t('model_header.total') }}
-          <strong>{{totalBalance}}</strong>
+          <!-- <strong>{{totalBalance}}</strong> -->
           {{ $t('unit.czr') }}
       </div>
   </header>
@@ -24,9 +24,9 @@ export default {
   },
   created() {
     // Init Account
-    const czrAccounts = this.$db.get('czr_accounts').value();
-    this.database = czrAccounts;
-    this.refresh()
+    // const czrAccounts = this.$db.get('czr_accounts').value();
+    // this.database = czrAccounts;
+    // this.refresh()
   },
   computed: {
     totalBalance:function(){
@@ -74,6 +74,7 @@ export default {
   text-align: left;
 }
 .has-assets-czr {
+  display: none;
   width: 30%;
   text-align: right;
   font-size: 16px;

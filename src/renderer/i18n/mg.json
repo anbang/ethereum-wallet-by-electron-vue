@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ampidiro ny kaonty",
-        "back_up_account":"Kaonty backup",
         "add_account":"New account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password",
-        "confirm_password":"Hamarino ny tenimiafina",
+        "acc":"Account",
+        "create_dia":{
+            "create_tit":"Mamorona kaonty",
+            "backup_tit":"Avereno ny kaontinao vaovao",
+
+            "create_tag":"Anaran'ny kaonty",
+            "create_pwd":"Mametraka tenimiafina",
+            "create_repwd":"Hamarino ny tenimiafina",
+
+            "placeholder_tag":"Alefaso azafady anaran'ny kaonty",
+            "placeholder_pwd":"Miangavy ny tenimiafina kaonty",
+            "placeholder_repwd":"Manamarina ny tenimiafina kaonty",
+            "strong_password":"Ampidiro ny tenimiafina matanjaka, farafahakeliny 8 isa",
+
+            "account_address":"Account",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Afeno ny rakitra fanalahidy"
+        },
+        "import_dia":{
+            "tit":"Ampidiro ny kaonty",
+            "select_type":"Miangavy azafady mifidiana metaly",
+            "type_private":"Private key",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Alefaso azafady ny fanalahidin'ny tenanao eto",
+            "placeholder_keystore":"Azafady azafady eto ny rakitra fanalahidy",
+
+            "input_pwd":"Hampiditra tenimiafina",
+            "placeholder_pwd":"Ampidiro azafady ny tenimiafinao"
+
+        },
+        "remove_dia":{
+            "tit":"Azonao antoka ve fa te-hamafa ianao?",
+            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
+        },
+        "msg_info":{
+            "exist":"Ity kaonty ity dia efa misy ary ny anarany dia",
+            "enter_password":"Ampidiro azafady ny tenimiafinao",
+            "incons_password":"Ny tenimiafina niditra indroa dia tsy mifanaraka",
+            "error":"Error:",
+            "imported_success":"Hamafa ny rakitra mahomby",
+            "enter_private":"Ampidiro azafady",
+            "error_private":"Tsy mety ny mividy ny kaonty, mety ny fanalahidy diso",
+            "enter_keystore":"Alefaso azafady aloha ny rakitra fanalahidy",
+            "error_password":"Tsy mety ny mampiditra ny kaonty, mety ho teny tsy mety izany",
+            "remove_success":"Nesorina tamim-pahombiazana",
+            "save":"Ataovy mahomby tsara ny kitapom-bola, azafady manangona ny keystore na ny fanalahidin'ny tenanao manokana, aza mizara izany amin'iza na iza!"
+        },
+
+
+        
         
         "remove_prompt":"Azonao antoka ve fa te-hamafa ianao?",
-        "please_back_up":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana",
-
-        "import_prompt":"Efa manana kitapo CZR ve ianao?",
-        "import_step":"Vahao eto ny rakitra misy ny kitaponao",
-        "import_or":"na",
-        "import_click_up":"Click to add"
+        "please_back_up":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
     }
 
 }

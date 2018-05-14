@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"导入账号",
-        "back_up_account":"备份账号",
         "add_account":"新建账号",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"密码",
-        "confirm_password":"确认密码",
+        "acc":"账户",
+        "create_dia":{
+            "create_tit":"创建账号",
+            "backup_tit":"备份您的新账号",
+
+            "create_tag":"账户名称",
+            "create_pwd":"设置密码",
+            "create_repwd":"确认密码",
+
+            "placeholder_tag":"请设置账户名称",
+            "placeholder_pwd":"请设置账户密码",
+            "placeholder_repwd":"请确认账户密码",
+            "strong_password":"输入一个强密码,至少8位",
+
+            "account_address":"账户",
+            "account_privateKey":"私钥",
+            "account_download_keystore":"下载keystore文件"
+        },
+        "import_dia":{
+            "tit":"导入账户",
+            "select_type":"请选择导入方式",
+            "type_private":"私钥",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"请将私钥粘贴在此处",
+            "placeholder_keystore":"请将keystore文件拖入此处",
+
+            "input_pwd":"输入密码",
+            "placeholder_pwd":"请输入账户密码"
+
+        },
+        "remove_dia":{
+            "tit":"你确定要删除吗？",
+            "backup":"请确定该账号已经备份，避免财产损失"
+        },
+        "msg_info":{
+            "exist":"此账户已经存在,名称是",
+            "enter_password":"请输入密码",
+            "incons_password":"两次输入的密码不一致",
+            "error":"错误：",
+            "imported_success":"导入文件成功",
+            "enter_private":"请输入密钥",
+            "error_private":"账户导入失败，可能是密钥错误",
+            "enter_keystore":"请先导入keystore文件",
+            "error_password":"账户导入失败，可能是密码错误",
+            "remove_success":"移除成功",
+            "save":"创建钱包成功,请保存你的keystore或者私钥，不要分享给任何人！"
+        },
+
+
+        
         
         "remove_prompt":"你确定要删除吗？",
-        "please_back_up":"请确定该账号已经备份，避免财产损失",
-
-        "import_prompt":"您已经有CZR钱包了吗？",
-        "import_step":"将您的钱包文件拖入此处",
-        "import_or":"或者",
-        "import_click_up":"点击添加"
+        "please_back_up":"请确定该账号已经备份，避免财产损失"
     }
 
 }

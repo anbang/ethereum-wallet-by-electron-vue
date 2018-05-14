@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Account importeren",
-        "back_up_account":"Back-upaccount",
         "add_account":"Nieuw account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"wachtwoord",
-        "confirm_password":"Bevestig wachtwoord",
+        "acc":"rekening",
+        "create_dia":{
+            "create_tit":"Maak een account aan",
+            "backup_tit":"Maak een back-up van uw nieuwe account",
+
+            "create_tag":"Account naam",
+            "create_pwd":"Wachtwoord instellen",
+            "create_repwd":"Bevestig wachtwoord",
+
+            "placeholder_tag":"Stel de accountnaam in",
+            "placeholder_pwd":"Stel uw wachtwoord in",
+            "placeholder_repwd":"Bevestig het wachtwoord van je account",
+            "strong_password":"Voer een sterk wachtwoord in, minimaal 8 cijfers",
+
+            "account_address":"rekening",
+            "account_privateKey":"Privésleutel",
+            "account_download_keystore":"Download het keystore-bestand"
+        },
+        "import_dia":{
+            "tit":"Account importeren",
+            "select_type":"Selecteer de importmethode",
+            "type_private":"Privésleutel",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Plak hier de privésleutel",
+            "placeholder_keystore":"Sleep het keystore-bestand hierheen",
+
+            "input_pwd":"Voer het wachtwoord in",
+            "placeholder_pwd":"Voer uw wachtwoord in"
+
+        },
+        "remove_dia":{
+            "tit":"Weet je zeker dat je wilt verwijderen?",
+            "backup":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
+        },
+        "msg_info":{
+            "exist":"Dit account bestaat al en de naam is",
+            "enter_password":"Voer uw wachtwoord in",
+            "incons_password":"Het wachtwoord dat tweemaal is ingevoerd, is inconsistent",
+            "error":"fout:",
+            "imported_success":"Bestand met succes importeren",
+            "enter_private":"Voer de sleutel in",
+            "error_private":"Het importeren van het account is mislukt, dit kan de verkeerde sleutel zijn",
+            "enter_keystore":"Importeer eerst het keystore-bestand",
+            "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
+            "remove_success":"Met succes verwijderd",
+            "save":"Maak een portemonnee succesvol, bewaar uw keystore of private sleutel, deel hem met niemand!"
+        },
+
+
+        
         
         "remove_prompt":"Weet je zeker dat je wilt verwijderen?",
-        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen",
-
-        "import_prompt":"Heb je al een CZR-portemonnee?",
-        "import_step":"Sleep hier je wallet-bestand",
-        "import_or":"of",
-        "import_click_up":"Klik om toe te voegen"
+        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
     }
 
 }

@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"መለያ አስገባ",
-        "back_up_account":"የመጠባበቂያ መለያ",
         "add_account":"አዲስ መለያ",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"የይለፍ ቃል",
-        "confirm_password":"የይለፍ ቃል አረጋግጥ",
+        "acc":"መለያ",
+        "create_dia":{
+            "create_tit":"መለያ ይፍጠሩ",
+            "backup_tit":"አዲሱን መለያዎን ምትኬ ያስቀምጡ",
+
+            "create_tag":"የመለያ ስም",
+            "create_pwd":"የይለፍ ቃል አዘጋጅ",
+            "create_repwd":"የይለፍ ቃል አረጋግጥ",
+
+            "placeholder_tag":"እባክዎ የመለያ ስም ያዘጋጁ",
+            "placeholder_pwd":"እባክዎ የመለያ የይለፍ ቃል ያዘጋጁ",
+            "placeholder_repwd":"እባክዎ የመለያውን ይለፍ ቃል ያረጋግጡ",
+            "strong_password":"ቢያንስ 8 ዲጂት ጠንካራ የይለፍ ቃል ያስገቡ",
+
+            "account_address":"መለያ",
+            "account_privateKey":"የግል ቁልፍ",
+            "account_download_keystore":"የቁልፍ ማከማቻ ፋይል አውርድ"
+        },
+        "import_dia":{
+            "tit":"መለያ አስገባ",
+            "select_type":"እባክዎ የመግቢያ ዘዴ ይምረጡ",
+            "type_private":"የግል ቁልፍ",
+            "type_keystore":"የቁልፍ መደብር",
+
+            "placeholder_private":"እባክዎን የግል ቁልፉን እዚህ ይለጥፉ",
+            "placeholder_keystore":"እባክዎ የቁልፍ ማከማቻ ፋይል እዚህ ይጎትቱት",
+
+            "input_pwd":"የይለፍ ቃል ያስገቡ",
+            "placeholder_pwd":"እባክዎ የመለያዎ የይለፍ ቃል ያስገቡ"
+
+        },
+        "remove_dia":{
+            "tit":"እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
+            "backup":"እባክዎ የንብረት ጉዳት እንዳይደርስበት ሂሳቡ እንደተቀመጠ እርግጠኛ ይሁኑ"
+        },
+        "msg_info":{
+            "exist":"ይህ መለያ አስቀድሞም ይገኛል, ስሙ",
+            "enter_password":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
+            "incons_password":"ሁለት ጊዜ የተገባው የይለፍ ቃል ወጥነት የለውም",
+            "error":"ስህተት:",
+            "imported_success":"ፋይል በተሳካ ሁኔታ አስመጣ",
+            "enter_private":"እባክዎ ቁልፉን ያስገቡ",
+            "error_private":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ ቁልፍ ሊሆን ይችላል",
+            "enter_keystore":"እባክዎ መጀመሪያ የቁልፍ ማከማቻ ፋይልን ያስኪጁ",
+            "error_password":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ የይለፍ ቃል ሊሆን ይችላል",
+            "remove_success":"በተሳካ ሁኔታ ተወግዷል",
+            "save":"ቦርሳ በተሳካ ሁኔታ ይፍጠሩ, እባክዎ የቁልፍ መደብርዎን ወይም የግል ቁልፍዎን ያስቀምጡ, ለማንም አያጋሩት!"
+        },
+
+
+        
         
         "remove_prompt":"እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
-        "please_back_up":"እባክዎ የንብረት ጉዳት እንዳይደርስበት ሂሳቡ እንደተቀመጠ እርግጠኛ ይሁኑ",
-
-        "import_prompt":"አስቀድመህ የሲዜር ኪስ ቦርሳ አለህ?",
-        "import_step":"የኪስ ቦርሳዎን እዚህ ይጎትቱ",
-        "import_or":"ወይም",
-        "import_click_up":"ለማከል ጠቅ ያድርጉ"
+        "please_back_up":"እባክዎ የንብረት ጉዳት እንዳይደርስበት ሂሳቡ እንደተቀመጠ እርግጠኛ ይሁኑ"
     }
 
 }

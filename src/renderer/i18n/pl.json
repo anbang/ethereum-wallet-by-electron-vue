@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importuj konto",
-        "back_up_account":"Konto zapasowe",
         "add_account":"Nowe konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Hasło",
-        "confirm_password":"Potwierdź hasło",
+        "acc":"Konto",
+        "create_dia":{
+            "create_tit":"Utwórz konto",
+            "backup_tit":"Utwórz kopię zapasową nowego konta",
+
+            "create_tag":"Nazwa konta",
+            "create_pwd":"Ustaw hasło",
+            "create_repwd":"Potwierdź hasło",
+
+            "placeholder_tag":"Ustaw nazwę konta",
+            "placeholder_pwd":"Ustaw hasło do konta",
+            "placeholder_repwd":"Potwierdź hasło do konta",
+            "strong_password":"Wprowadź silne hasło, co najmniej 8 cyfr",
+
+            "account_address":"Konto",
+            "account_privateKey":"Klucz prywatny",
+            "account_download_keystore":"Pobierz plik magazynu kluczy"
+        },
+        "import_dia":{
+            "tit":"Importuj konto",
+            "select_type":"Wybierz metodę importu",
+            "type_private":"Klucz prywatny",
+            "type_keystore":"Magazyn kluczy",
+
+            "placeholder_private":"Wklej tutaj klucz prywatny",
+            "placeholder_keystore":"Przeciągnij tutaj plik magazynu kluczy",
+
+            "input_pwd":"Wprowadź hasło",
+            "placeholder_pwd":"Wprowadź swoje hasło do konta"
+
+        },
+        "remove_dia":{
+            "tit":"Czy na pewno chcesz usunąć?",
+            "backup":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
+        },
+        "msg_info":{
+            "exist":"To konto już istnieje, a nazwa jest",
+            "enter_password":"Wprowadź swoje hasło",
+            "incons_password":"Wprowadzone dwukrotnie hasło jest niespójne",
+            "error":"Błąd:",
+            "imported_success":"Importuj plik pomyślnie",
+            "enter_private":"Wprowadź klucz",
+            "error_private":"Nie można zaimportować konta, może to być niewłaściwy klucz",
+            "enter_keystore":"Najpierw zaimportuj plik kluczy",
+            "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
+            "remove_success":"Usunięto pomyślnie",
+            "save":"Utwórz portfel z powodzeniem, zapisz plik kluczy lub klucz prywatny, nie udostępniaj go nikomu!"
+        },
+
+
+        
         
         "remove_prompt":"Czy na pewno chcesz usunąć?",
-        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności",
-
-        "import_prompt":"Czy masz już portfel CZR?",
-        "import_step":"Przeciągnij tutaj swój portfel",
-        "import_or":"Or",
-        "import_click_up":"Kliknij, aby dodać"
+        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
     }
 
 }

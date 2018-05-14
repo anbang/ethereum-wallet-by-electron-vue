@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"アカウントをインポートする",
-        "back_up_account":"バックアップアカウント",
         "add_account":"新しいアカウント",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"パスワード",
-        "confirm_password":"パスワードを確認する",
+        "acc":"アカウント",
+        "create_dia":{
+            "create_tit":"アカウントを作成する",
+            "backup_tit":"新しいアカウントをバックアップする",
+
+            "create_tag":"アカウント名",
+            "create_pwd":"パスワードを設定する",
+            "create_repwd":"パスワードを確認する",
+
+            "placeholder_tag":"アカウント名を設定してください",
+            "placeholder_pwd":"アカウントのパスワードを設定してください",
+            "placeholder_repwd":"アカウントのパスワードを確認してください",
+            "strong_password":"パスワードを8桁以上入力してください",
+
+            "account_address":"アカウント",
+            "account_privateKey":"秘密鍵",
+            "account_download_keystore":"キーストアファイルをダウンロードする"
+        },
+        "import_dia":{
+            "tit":"アカウントをインポートする",
+            "select_type":"インポート方法を選択してください",
+            "type_private":"秘密鍵",
+            "type_keystore":"キーストア",
+
+            "placeholder_private":"ここに秘密鍵を貼り付けてください",
+            "placeholder_keystore":"ここにキーストアファイルをドラッグしてください",
+
+            "input_pwd":"パスワードを入力",
+            "placeholder_pwd":"アカウントのパスワードを入力してください"
+
+        },
+        "remove_dia":{
+            "tit":"削除してもよろしいですか？",
+            "backup":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください"
+        },
+        "msg_info":{
+            "exist":"このアカウントは既に存在し、名前は",
+            "enter_password":"パスワードを入力してください",
+            "incons_password":"2回入力したパスワードが矛盾しています",
+            "error":"エラー：",
+            "imported_success":"ファイルを正常にインポートする",
+            "enter_private":"キーを入力してください",
+            "error_private":"アカウントのインポートに失敗しました。間違ったキーである可能性があります",
+            "enter_keystore":"キーストアファイルを最初にインポートしてください",
+            "error_password":"アカウントのインポートに失敗しました。パスワードが間違っている可能性があります",
+            "remove_success":"削除されました",
+            "save":"ウォレットを作成してください。キーストアまたは秘密鍵を保存してください。他の人と共有しないでください！"
+        },
+
+
+        
         
         "remove_prompt":"削除してもよろしいですか？",
-        "please_back_up":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください",
-
-        "import_prompt":"あなたはすでにCZRの財布を持っていますか？",
-        "import_step":"ウォレットファイルをここにドラッグします",
-        "import_or":"または",
-        "import_click_up":"クリックして追加する"
+        "please_back_up":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください"
     }
 
 }

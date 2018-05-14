@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Impor akun",
-        "back_up_account":"Akun cadangan",
         "add_account":"Akun baru",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Kata sandi",
-        "confirm_password":"Konfirmasi kata sandi",
+        "acc":"Akun",
+        "create_dia":{
+            "create_tit":"Buat akun",
+            "backup_tit":"Cadangkan akun baru Anda",
+
+            "create_tag":"Nama akun",
+            "create_pwd":"Setel kata sandi",
+            "create_repwd":"Konfirmasi kata sandi",
+
+            "placeholder_tag":"Silakan tentukan nama akun",
+            "placeholder_pwd":"Silakan atur kata sandi akun",
+            "placeholder_repwd":"Silakan konfirmasi kata sandi akun",
+            "strong_password":"Masukkan kata sandi yang kuat, minimal 8 digit",
+
+            "account_address":"Akun",
+            "account_privateKey":"Kunci pribadi",
+            "account_download_keystore":"Unduh file keystore"
+        },
+        "import_dia":{
+            "tit":"Impor akun",
+            "select_type":"Silakan pilih metode impor",
+            "type_private":"Kunci pribadi",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Silakan tempelkan kunci pribadi di sini",
+            "placeholder_keystore":"Harap seret file keystore di sini",
+
+            "input_pwd":"Masukkan kata sandi",
+            "placeholder_pwd":"Silakan masukkan kata sandi akun Anda"
+
+        },
+        "remove_dia":{
+            "tit":"Anda yakin ingin menghapus?",
+            "backup":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
+        },
+        "msg_info":{
+            "exist":"Akun ini sudah ada, namanya",
+            "enter_password":"Silakan masukkan kata sandi Anda",
+            "incons_password":"Kata sandi yang dimasukkan dua kali tidak konsisten",
+            "error":"Galat:",
+            "imported_success":"Impor file berhasil",
+            "enter_private":"Silakan masukkan kunci",
+            "error_private":"Gagal mengimpor akun, itu mungkin kunci yang salah",
+            "enter_keystore":"Harap impor file keystore terlebih dahulu",
+            "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
+            "remove_success":"Berhasil dihapus",
+            "save":"Buat dompet berhasil, simpan kunci keystore atau kunci pribadi Anda, jangan bagikan ke siapa pun!"
+        },
+
+
+        
         
         "remove_prompt":"Anda yakin ingin menghapus?",
-        "please_back_up":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti",
-
-        "import_prompt":"Apakah Anda sudah memiliki dompet CZR?",
-        "import_step":"Seret file dompet Anda di sini",
-        "import_or":"Atau",
-        "import_click_up":"Klik untuk menambahkan"
+        "please_back_up":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
     }
 
 }

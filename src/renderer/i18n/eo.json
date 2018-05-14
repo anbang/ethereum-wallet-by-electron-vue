@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importi konton",
-        "back_up_account":"Rezerva konton",
         "add_account":"Nova konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Pasvorto",
-        "confirm_password":"Konfirmu pasvorton",
+        "acc":"Konto",
+        "create_dia":{
+            "create_tit":"Krei konton",
+            "backup_tit":"Subtenu vian novan konton",
+
+            "create_tag":"Konto nomo",
+            "create_pwd":"Ŝanĝu pasvorton",
+            "create_repwd":"Konfirmu pasvorton",
+
+            "placeholder_tag":"Bonvolu agordi nomon",
+            "placeholder_pwd":"Bonvolu agordi pasvorton",
+            "placeholder_repwd":"Bonvolu konfirmi la konton-pasvorton",
+            "strong_password":"Enmetu fortan pasvorton, almenaŭ 8 ciferojn",
+
+            "account_address":"Konto",
+            "account_privateKey":"Privata ŝlosilo",
+            "account_download_keystore":"Elŝutu la ŝlosilon de dosiero"
+        },
+        "import_dia":{
+            "tit":"Importi konton",
+            "select_type":"Bonvolu elekti importan metodon",
+            "type_private":"Privata ŝlosilo",
+            "type_keystore":"Ŝlosilo",
+
+            "placeholder_private":"Bonvolu bati la privatan ŝlosilon ĉi tie",
+            "placeholder_keystore":"Bonvolu treni la ŝlosilon de ĉi tie dosiero",
+
+            "input_pwd":"Eniri pasvorton",
+            "placeholder_pwd":"Bonvolu enmeti vian konton-pasvorton"
+
+        },
+        "remove_dia":{
+            "tit":"Ĉu vi certas, ke vi volas forigi?",
+            "backup":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
+        },
+        "msg_info":{
+            "exist":"Ĉi tiu konto jam ekzistas kaj la nomo estas",
+            "enter_password":"Bonvolu enmeti vian pasvorton",
+            "incons_password":"La pasvorto enirita dufoje estas nekonsistente",
+            "error":"Eraro:",
+            "imported_success":"Importi dosieron sukcese",
+            "enter_private":"Bonvolu enmeti la ŝlosilon",
+            "error_private":"Malsukcesis importi la konton, eble ĝi estas malĝusta ŝlosilo",
+            "enter_keystore":"Bonvolu importi la klavaron unue",
+            "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
+            "remove_success":"Forigita sukcese",
+            "save":"Krei moneron kun sukceso, bonvolu ŝpari vian ŝlosilon aŭ privatan ŝlosilon, ne dividu ĝin al iu ajn!"
+        },
+
+
+        
         
         "remove_prompt":"Ĉu vi certas, ke vi volas forigi?",
-        "please_back_up":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn",
-
-        "import_prompt":"Ĉu vi jam havas CZR-monujon?",
-        "import_step":"Trenu ĉi tie vian dosierujon",
-        "import_or":"Aŭ",
-        "import_click_up":"Alklaku por aldoni"
+        "please_back_up":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
     }
 
 }

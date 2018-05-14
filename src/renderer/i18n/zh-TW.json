@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"導入賬號",
-        "back_up_account":"備份賬號",
         "add_account":"新建賬號",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"密碼",
-        "confirm_password":"確認密碼",
+        "acc":"賬戶",
+        "create_dia":{
+            "create_tit":"創建賬號",
+            "backup_tit":"備份您的新賬號",
+
+            "create_tag":"賬戶名稱",
+            "create_pwd":"設置密碼",
+            "create_repwd":"確認密碼",
+
+            "placeholder_tag":"請設置賬戶名稱",
+            "placeholder_pwd":"請設置賬戶密碼",
+            "placeholder_repwd":"請確認賬戶密碼",
+            "strong_password":"輸入一個強密碼,至少8位",
+
+            "account_address":"賬戶",
+            "account_privateKey":"私鑰",
+            "account_download_keystore":"下載keystore文件"
+        },
+        "import_dia":{
+            "tit":"導入賬戶",
+            "select_type":"請選擇導入方式",
+            "type_private":"私鑰",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"請將私鑰粘貼在此處",
+            "placeholder_keystore":"請將keystore文件拖入此處",
+
+            "input_pwd":"輸入密碼",
+            "placeholder_pwd":"請輸入賬戶密碼"
+
+        },
+        "remove_dia":{
+            "tit":"你確定要刪除嗎？",
+            "backup":"請確定該賬號已經備份，避免財產損失"
+        },
+        "msg_info":{
+            "exist":"此賬戶已經存在,名稱是",
+            "enter_password":"請輸入密碼",
+            "incons_password":"兩次輸入的密碼不一致",
+            "error":"錯誤：",
+            "imported_success":"導入文件成功",
+            "enter_private":"請輸入密鑰",
+            "error_private":"賬戶導入失敗，可能是密鑰錯誤",
+            "enter_keystore":"請先導入keystore文件",
+            "error_password":"賬戶導入失敗，可能是密碼錯誤",
+            "remove_success":"移除成功",
+            "save":"創建錢包成功,請保存你的keystore或者私鑰，不要分享給任何人！"
+        },
+
+
+        
         
         "remove_prompt":"你確定要刪除嗎？",
-        "please_back_up":"請確定該賬號已經備份，避免財產損失",
-
-        "import_prompt":"您已經有CZR錢包了嗎？",
-        "import_step":"將您的錢包文件拖入此處",
-        "import_or":"或者",
-        "import_click_up":"點擊添加"
+        "please_back_up":"請確定該賬號已經備份，避免財產損失"
     }
 
 }

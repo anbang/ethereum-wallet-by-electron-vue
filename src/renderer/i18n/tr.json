@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"İthalat hesabı",
-        "back_up_account":"Yedek hesap",
         "add_account":"Yeni hesap",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"şifre",
-        "confirm_password":"Şifreyi onayla",
+        "acc":"hesap",
+        "create_dia":{
+            "create_tit":"Bir hesap oluştur",
+            "backup_tit":"Yeni hesabınızı yedekleyin",
+
+            "create_tag":"Hesap adı",
+            "create_pwd":"Şifre ayarla",
+            "create_repwd":"Şifreyi onayla",
+
+            "placeholder_tag":"Lütfen hesap adını giriniz",
+            "placeholder_pwd":"Lütfen hesap şifresini ayarla",
+            "placeholder_repwd":"Lütfen hesap şifresini onaylayın",
+            "strong_password":"Güçlü bir şifre girin, en az 8 basamak",
+
+            "account_address":"hesap",
+            "account_privateKey":"Özel anahtar",
+            "account_download_keystore":"Anahtar deposu dosyasını indir"
+        },
+        "import_dia":{
+            "tit":"İthalat hesabı",
+            "select_type":"Lütfen ithalat yöntemini seçiniz",
+            "type_private":"Özel anahtar",
+            "type_keystore":"deposu",
+
+            "placeholder_private":"Lütfen özel anahtarı buraya yapıştırın",
+            "placeholder_keystore":"Lütfen anahtar deposu dosyasını buraya sürükleyin",
+
+            "input_pwd":"Şifre girin",
+            "placeholder_pwd":"Lütfen hesap şifrenizi girin"
+
+        },
+        "remove_dia":{
+            "tit":"Silmek istediğinden emin misin?",
+            "backup":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
+        },
+        "msg_info":{
+            "exist":"Bu hesap zaten var ve isim",
+            "enter_password":"Lütfen şifrenizi giriniz",
+            "incons_password":"İki kez girilen şifre tutarsız",
+            "error":"Hata:",
+            "imported_success":"Dosyayı başarıyla içe aktar",
+            "enter_private":"Lütfen anahtarı giriniz",
+            "error_private":"Hesabı içe aktarılamadı, yanlış anahtar olabilir",
+            "enter_keystore":"Lütfen önce anahtar deposu dosyasını içe aktarın",
+            "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
+            "remove_success":"Başarıyla kaldırıldı",
+            "save":"Cüzdanı başarılı bir şekilde oluşturun, lütfen anahtar deponuzu veya özel anahtarınızı kaydedin, kimseyle paylaşmayın!"
+        },
+
+
+        
         
         "remove_prompt":"Silmek istediğinden emin misin?",
-        "please_back_up":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun.",
-
-        "import_prompt":"Zaten bir CZR cüzdanınız var mı?",
-        "import_step":"Cüzdan dosyanızı buraya sürükleyin",
-        "import_or":"veya",
-        "import_click_up":"Eklemek için tıklayın"
+        "please_back_up":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
     }
 
 }

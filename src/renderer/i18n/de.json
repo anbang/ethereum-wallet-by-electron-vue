@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Konto importieren",
-        "back_up_account":"Konto sichern",
         "add_account":"Neues Konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Passwort",
-        "confirm_password":"Passwort bestätigen",
+        "acc":"Konto",
+        "create_dia":{
+            "create_tit":"Erstellen Sie ein Konto",
+            "backup_tit":"Sichern Sie Ihr neues Konto",
+
+            "create_tag":"Kontoname",
+            "create_pwd":"Passwort festlegen",
+            "create_repwd":"Passwort bestätigen",
+
+            "placeholder_tag":"Bitte legen Sie den Kontonamen fest",
+            "placeholder_pwd":"Bitte legen Sie das Kontopasswort fest",
+            "placeholder_repwd":"Bitte bestätigen Sie das Kontopasswort",
+            "strong_password":"Geben Sie ein sicheres Passwort mit mindestens 8 Ziffern ein",
+
+            "account_address":"Konto",
+            "account_privateKey":"Privater Schlüssel",
+            "account_download_keystore":"Laden Sie die Keystore-Datei herunter"
+        },
+        "import_dia":{
+            "tit":"Konto importieren",
+            "select_type":"Bitte wählen Sie die Importmethode",
+            "type_private":"Privater Schlüssel",
+            "type_keystore":"Schlüsselspeicher",
+
+            "placeholder_private":"Bitte fügen Sie den privaten Schlüssel hier ein",
+            "placeholder_keystore":"Bitte ziehen Sie die Keystore-Datei hierhin",
+
+            "input_pwd":"Passwort eingeben",
+            "placeholder_pwd":"Bitte geben Sie Ihr Kontopasswort ein"
+
+        },
+        "remove_dia":{
+            "tit":"Sind Sie sicher, dass Sie löschen möchten?",
+            "backup":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
+        },
+        "msg_info":{
+            "exist":"Dieser Account existiert bereits, der Name ist",
+            "enter_password":"Bitte geben Sie Ihr Passwort ein",
+            "incons_password":"Das doppelt eingegebene Passwort ist inkonsistent",
+            "error":"Fehler:",
+            "imported_success":"Datei erfolgreich importieren",
+            "enter_private":"Bitte geben Sie den Schlüssel ein",
+            "error_private":"Fehler beim Importieren des Kontos. Möglicherweise ist es der falsche Schlüssel",
+            "enter_keystore":"Bitte importieren Sie zuerst die Keystore-Datei",
+            "error_password":"Konnte das Konto nicht importieren, kann dies ein falsches Passwort sein",
+            "remove_success":"Erfolgreich entfernt",
+            "save":"Erstellen Sie die Brieftasche erfolgreich, speichern Sie Ihren Keystore oder privaten Schlüssel, teilen Sie ihn nicht mit anderen!"
+        },
+
+
+        
         
         "remove_prompt":"Sind Sie sicher, dass Sie löschen möchten?",
-        "please_back_up":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden",
-
-        "import_prompt":"Haben Sie bereits eine CZR Wallet?",
-        "import_step":"Ziehen Sie hier Ihre Brieftaschen-Datei",
-        "import_or":"Or",
-        "import_click_up":"Klicken Sie, um hinzuzufügen"
+        "please_back_up":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
     }
 
 }

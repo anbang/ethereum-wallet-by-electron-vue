@@ -3,7 +3,7 @@
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
-                <button class="bui-button" @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</button>
+                <el-button size="small" plain @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</el-button>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
 
 
         <el-dialog
-          title="创建钱包"
+          :title="createInfo.step === 0 ? $t('page_home.create_dia.create_tit') : $t('page_home.create_dia.backup_tit') "
           :visible.sync="dialogSwitch.create"
           @open="initCreateInfo"
           width="60%">
@@ -47,53 +47,53 @@
               type="error"
               show-icon>
             </el-alert>
-            <el-input v-model="createInfo.tag" placeholder="请设置钱包名称">
-              <template slot="prepend"><i class="el-icon-tickets"></i> 钱包名称</template>
+            <el-input v-model="createInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')">
+              <template slot="prepend"><i class="el-icon-tickets"></i> {{$t('page_home.create_dia.create_tag')}}</template>
             </el-input>
-            <el-input v-model="createInfo.pwd" placeholder="请设置钱包密码" type="password">
-              <template slot="prepend"><i class="el-icon-edit"></i> 设置密码</template>
+            <el-input v-model="createInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
             </el-input>
-            <el-input v-model="createInfo.repwd" placeholder="请确认钱包密码" type="password">
-              <template slot="prepend"><i class="el-icon-edit"></i> 确认密码</template>
+            <el-input v-model="createInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
             </el-input>
             <div slot="footer">
-              <el-button @click="dialogSwitch.create = false">取消</el-button>
-              <el-button type="primary" @click="createAccount">确定</el-button>
+              <el-button @click="dialogSwitch.create = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="createAccount">{{ $t('confirm') }}</el-button>
             </div>
           </template>
           <template v-else-if="createInfo.step === 1">
             <el-alert
-              title="创建钱包成功,请保存你的keystore或者私钥，不要分享给任何人！"
+              :title="$t('page_home.msg_info.save')"
               :closable="false"
               type="success"
               show-icon>
             </el-alert>
             <el-input :value="createInfo.address">
-              <template slot="prepend">账户</template>
+              <template slot="prepend">{{$t('page_home.create_dia.account_address')}}</template>
             </el-input>
             <el-input :value="createInfo.privateKey">
-              <template slot="prepend">私钥</template>
+              <template slot="prepend">{{$t('page_home.create_dia.account_privateKey')}}</template>
             </el-input>
             <div slot="footer">
-              <el-button type="primary" @click="downloadKeystore">下载keystore文件</el-button>
+              <el-button type="primary" @click="downloadKeystore">{{$t('page_home.create_dia.account_download_keystore')}}</el-button>
             </div>
           </template>
         </el-dialog>
 
         <el-dialog
-          title="导入钱包"
+          :title="$t('page_home.import_dia.tit')"
           :visible.sync="dialogSwitch.import"
           @open="initImportInfo"
           width="40%">
           <template v-if="importInfo.step === 0">
-            <div class="text">请选择导入方式</div>
+            <div class="text"> {{$t('page_home.import_dia.select_type')}} </div>
             <div>
-              <el-radio v-model="importInfo.type" label="0" border>私钥</el-radio>
-              <el-radio v-model="importInfo.type" label="1" border>keystore文件</el-radio>
+              <el-radio v-model="importInfo.type" label="0" border> {{$t('page_home.import_dia.type_private')}} </el-radio>
+              <el-radio v-model="importInfo.type" label="1" border> {{$t('page_home.import_dia.type_keystore')}} </el-radio>
             </div>
             <div slot="footer">
-              <el-button @click="dialogSwitch.import = false">取消</el-button>
-              <el-button type="primary" @click="importInfo.step = 1">确定</el-button>
+              <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="importInfo.step = 1">{{ $t('confirm') }}</el-button>
             </div>
           </template>
           <template v-if="importInfo.step === 1">
@@ -110,48 +110,48 @@
                 v-model="importInfo.privateKey"
                 type="textarea"
                 :autosize="{minRows: 2}"
-                placeholder="请将私钥粘贴在此处">
+                :placeholder="$t('page_home.import_dia.placeholder_private')">
               </el-input>
 
-              <el-input v-model="importInfo.tag" placeholder="请设置钱包名称">
-                <template slot="prepend"><i class="el-icon-document"></i> 钱包名称</template>
+              <el-input v-model="importInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')" >
+                <template slot="prepend"><i class="el-icon-document"></i> {{$t('page_home.create_dia.create_tag')}}</template>
               </el-input>
 
-              <el-input v-model="importInfo.pwd" placeholder="请设置钱包密码" type="password">
-                <template slot="prepend"><i class="el-icon-edit"></i> 设置密码</template>
+              <el-input v-model="importInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')"  type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
               </el-input>
 
-              <el-input v-model="importInfo.repwd" placeholder="请确认钱包密码" type="password">
-                <template slot="prepend"><i class="el-icon-edit"></i> 确认密码</template>
+              <el-input v-model="importInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')"  type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
               </el-input>
 
             </template>
             <template v-if="importInfo.type === '1'">
-              <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore">请将keystore文件拖入此处</div>
-              <el-input v-model="importInfo.tag" placeholder="请设置钱包名称">
-                <template slot="prepend"><i class="el-icon-document"></i> 钱包名称</template>
+              <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore"> {{$t('page_home.import_dia.placeholder_keystore')}} </div>
+              <el-input v-model="importInfo.tag"  :placeholder="$t('page_home.create_dia.placeholder_tag')" >
+                <template slot="prepend"><i class="el-icon-document"></i> {{$t('page_home.create_dia.create_tag')}}</template>
               </el-input>
-              <el-input v-model="importInfo.pwd" placeholder="请输入钱包密码" type="password">
-                <template slot="prepend"><i class="el-icon-edit"></i> 输入密码</template>
+              <el-input v-model="importInfo.pwd" :placeholder="$t('page_home.import_dia.placeholder_pwd')" type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.import_dia.input_pwd')}}</template>
               </el-input>
             </template>
             <div slot="footer">
-              <el-button @click="dialogSwitch.import = false">取消</el-button>
-              <el-button type="primary" @click="importAccount">确定</el-button>
+              <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="importAccount">{{ $t('confirm') }}</el-button>
             </div>
           </template>
         </el-dialog>
 
 
         <el-dialog
-          :title="$t('page_home.remove_prompt')"
+          :title="$t('page_home.remove_dia.tit')"
           :visible.sync="dialogSwitch.remove"
           width="50%" >
           <span>
             <p class="remove-acc">
               {{this.removeAccount}}
             </p>
-            {{$t('page_home.please_back_up')}}
+            {{ $t('page_home.remove_dia.backup') }}
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
@@ -196,7 +196,7 @@ export default {
     //Init Start
     initCreateInfo () {
       this.createInfo = {
-        tag: '账户' + (this.database.length + 1),
+        tag: this.$t('page_home.acc') + (this.database.length + 1),
         pwd: '',
         repwd: '',
 
@@ -210,7 +210,7 @@ export default {
     },
     initImportInfo () {
       this.importInfo = {
-        tag: '账户' + (this.database.length + 1),
+        tag: this.$t('page_home.acc') + (this.database.length + 1),
         pwd: '',
         repwd: '',
 
@@ -230,21 +230,43 @@ export default {
     getBalance (item) {
       this.$web3.eth.getBalance(item.address)
           .then(data => {
-              // item.balance = this.$web3.utils.fromWei(data, 'ether')
               item.balance = data
+              //TODO If it is written to the database, it causes the deletion of the import to be out of sync;
+              /* this.$db
+                  .read()
+                  .get("czr_accounts")
+                  .find({ address: item.address })
+                  .assign({ balance: data })
+                  .write(); */
           })
           .catch(console.log )
     },
     //Init End
 
+    initAccount:function(params){
+      var self=this;
+      let account = this.$db.get('czr_accounts')
+        .find({ address: params.address })
+        .value()
+      if(account){
+          this.$message.error(this.$t('page_home.msg_info.exist')+'"'+account.tag+'"')
+          return
+      }
+      this.$db
+          .get("czr_accounts")
+          .push(params)
+          .write();
+      this.getBalance(params)
+    },
+
     // Create Account Start
     createAccount:function(){
       if (!this.createInfo.pwd || !this.createInfo.repwd) {
-        this.createInfo.error = '请输入密码'
+        this.createInfo.error = this.$t('page_home.msg_info.enter_password')
         return
       }
       if (this.createInfo.pwd !== this.createInfo.repwd) {
-        this.createInfo.error = '两次输入的密码不一致'
+        this.createInfo.error = this.$t('page_home.msg_info.incons_password')
         return
       }
       let account = this.$web3.eth.accounts.create()
@@ -254,43 +276,13 @@ export default {
 
       let params = {
         address: account.address,
-        tag: this.createInfo.tag || '账户' + (this.database.length + 1),
+        tag: this.createInfo.tag || this.$t('page_home.acc') + (this.database.length + 1),
         keystore: this.createInfo.keystore,
         tx_list: [],
         balance: "0"
       }
       this.initAccount(params)
       this.createInfo.step = 1
-    },
-    initAccount:function(params){
-      var self=this;
-      let account = this.$db.get('czr_accounts')
-        .find({ address: params.address })
-        .value()
-      if(account){
-          this.$message.error('此钱包已经存在 , 名称是"'+account.tag+'"')
-          return
-      }
-
-      this.$db
-          .get("czr_accounts")
-          .push(params)
-          .write();
-      this.getBalance(params)
-
-      // this.database = this.$db.get('czr_accounts').value();;
-      // this.refresh()
-      // this.getBalance(params)
-      // this.$message({
-      //     type: 'success',
-      //     message: '操作成功',
-      //     duration: 1000,
-      //     onClose: () => {
-      //     }
-      //   })
-      // this.$message.success("操作成功")
-      // this.$router.push({name: 'Home'})
-
     },
     downloadKeystore () {
       let link = document.createElement('a')
@@ -317,14 +309,14 @@ export default {
 
     //Import Start
     importKeystore (event) {
-      let path = event.dataTransfer.files[0].path;//拖拽过程中数据传递对象
+      let path = event.dataTransfer.files[0].path;
       fs.readFile(path, 'utf8', (err, data) => {
         if (err) {
-          this.$message.error('错误：' + err)
+          this.$message.error(this.$t('page_home.msg_info.error')+':' + err)
         }
         this.importInfo.keystore = JSON.parse(data)
         this.importInfo.alert = {
-          content: '导入文件成功',
+          content: this.$t('page_home.msg_info.imported_success'),
           type: 'success'
         }
       })
@@ -334,21 +326,21 @@ export default {
       if (this.importInfo.type === '0') {
         if (!this.importInfo.privateKey) {
           this.importInfo.alert = {
-            content: '请输入密钥',
+            content: this.$t('page_home.msg_info.enter_private'),
             type: 'error'
           }
           return
         }
         if (!this.importInfo.pwd || !this.importInfo.repwd) {
           this.importInfo.alert = {
-            content: '请输入密码',
+            content: this.$t('page_home.msg_info.enter_password'),
             type: 'error'
           }
           return
         }
         if (this.importInfo.pwd !== this.importInfo.repwd) {
           this.importInfo.alert = {
-            content: '两次输入的密码不一致',
+            content: this.$t('page_home.msg_info.incons_password'),
             type: 'error'
           }
           return
@@ -362,7 +354,7 @@ export default {
         } catch (e) {
           console.log('importPrivateKeyError', e)
           this.importInfo.alert = {
-            content: '钱包导入失败，可能是密钥错误',
+            content: this.$t('page_home.msg_info.error_private'),
             type: 'error'
           }
           return
@@ -370,14 +362,14 @@ export default {
       } else if (this.importInfo.type === '1') {
         if (!this.importInfo.keystore) {
           this.importInfo.alert = {
-            content: '请先导入keystore文件',
+            content: this.$t('page_home.msg_info.enter_keystore'),
             type: 'error'
           }
           return
         }
         if (!this.importInfo.pwd) {
           this.importInfo.alert = {
-            content: '请输入密码',
+            content: this.$t('page_home.msg_info.enter_password'),
             type: 'error'
           }
           return
@@ -387,7 +379,7 @@ export default {
         } catch (e) {
           console.log('importWalletError', e)
           this.importInfo.alert = {
-            content: '钱包导入失败，可能是密码错误',
+            content: this.$t('page_home.msg_info.error_password'),
             type: 'error'
           }
           return
@@ -395,7 +387,7 @@ export default {
       }
       let params = {
         address: account.address,
-        tag: this.importInfo.tag || '账户' + (this.database.length + 1),
+        tag: this.importInfo.tag || this.$t('page_home.acc') + (this.database.length + 1),
         keystore: this.importInfo.keystore,
         tx_list: [],
         balance: "0"
@@ -403,7 +395,7 @@ export default {
 
       this.$web3.eth.getBalance(params.address)
           .then(data => {
-              params.balance = this.$web3.utils.fromWei(data, 'ether')
+              params.balance = data
               this.initAccount(params)
               this.dialogSwitch.import = false
           })
@@ -421,7 +413,7 @@ export default {
           .get("czr_accounts")
           .remove({ address: this.removeAccount })
           .write();
-        this.$message.success('删除成功')
+        this.$message.success(this.$t('page_home.msg_info.remove_success'))
         this.refresh()
         this.dialogSwitch.remove=false;
     },
@@ -430,7 +422,7 @@ export default {
   filters: {
     toEthVal:function(val){
       let tempVal=self.$web3.utils.fromWei(val, 'ether');
-      return tempVal;//TODO 保留4位小数
+      return tempVal;//TODO Keep 4 decimal places
      }
   }
 };
@@ -587,4 +579,8 @@ export default {
 .el-dialog .el-alert,
 .el-dialog .el-input,
 .el-dialog .text{margin-bottom: 10px;}
+.el-dialog .el-input  .el-input-group__prepend {
+    width: 200px;
+}
+
 </style>

@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"İdxal hesabı",
-        "back_up_account":"Backup hesabı",
         "add_account":"Yeni hesab",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Şifrə",
-        "confirm_password":"Şifrəni təsdiqləyin",
+        "acc":"Hesab",
+        "create_dia":{
+            "create_tit":"Hesab yaratmaq",
+            "backup_tit":"Yeni hesabınızı zənginləşdirin",
+
+            "create_tag":"Haqq-hesab adı",
+            "create_pwd":"Şifrəni seçin",
+            "create_repwd":"Şifrəni təsdiqləyin",
+
+            "placeholder_tag":"Hesabın adını təyin edin",
+            "placeholder_pwd":"Hesab parolunu təyin edin",
+            "placeholder_repwd":"Hesab parolunu təsdiqləyin",
+            "strong_password":"Güclü bir parol daxil edin, ən azı 8 rəqəm",
+
+            "account_address":"Hesab",
+            "account_privateKey":"Şəxsi açar",
+            "account_download_keystore":"Keystore faylını yükləyin"
+        },
+        "import_dia":{
+            "tit":"İdxal hesabı",
+            "select_type":"Xahiş edirik idxal üsulunu seçin",
+            "type_private":"Şəxsi açar",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Xahiş edirik burada xüsusi açarı yapışdırın",
+            "placeholder_keystore":"Xahiş edirik burada keystore faylını sürüşdürün",
+
+            "input_pwd":"Şifrəni daxil edin",
+            "placeholder_pwd":"Şifrənizi daxil edin"
+
+        },
+        "remove_dia":{
+            "tit":"Silmək istədiyinizə əminsiniz?",
+            "backup":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
+        },
+        "msg_info":{
+            "exist":"Bu hesab artıq mövcuddur və adıdır",
+            "enter_password":"Şifrənizi daxil edin",
+            "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
+            "error":"Hata:",
+            "imported_success":"Faylı uğurla gətir",
+            "enter_private":"Xahiş edirik düyməni daxil edin",
+            "error_private":"Hesabı idxal etmədikdə, səhv anla bilər",
+            "enter_keystore":"Öncə keystore faylını idxal edin",
+            "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
+            "remove_success":"Uğurla silindi",
+            "save":"Cüzdanı uğurla yaradın, keystore və ya gizli anahtarı saxlayın, onu heç kimə bölüşməyin!"
+        },
+
+
+        
         
         "remove_prompt":"Silmək istədiyinizə əminsiniz?",
-        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun",
-
-        "import_prompt":"Zaten CZR cüzdanınız var?",
-        "import_step":"Cüzdan dosyanızı burada çəkin",
-        "import_or":"Və ya",
-        "import_click_up":"Əlavə etmək üçün basın"
+        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
     }
 
 }

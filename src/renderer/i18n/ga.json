@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Cuntas iompórtála",
-        "back_up_account":"Cuntas Cúltaca",
         "add_account":"Cuntas nua",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Pasfhocal",
-        "confirm_password":"Dearbhaigh focal faire",
+        "acc":"Cuntas",
+        "create_dia":{
+            "create_tit":"Cruthaigh cuntas",
+            "backup_tit":"Cuir suas do chuntas nua ar ais",
+
+            "create_tag":"Ainm an chuntas",
+            "create_pwd":"Socraigh focal faire",
+            "create_repwd":"Dearbhaigh focal faire",
+
+            "placeholder_tag":"Socraigh ainm an chuntas le do thoil",
+            "placeholder_pwd":"Socraigh an focal faire cuntas le do thoil",
+            "placeholder_repwd":"Dearbhaigh an focal faire chuntais",
+            "strong_password":"Cuir isteach focal faire láidir, 8 dhigit ar a laghad",
+
+            "account_address":"Cuntas",
+            "account_privateKey":"Eochair phríobháideach",
+            "account_download_keystore":"Íoslódáil an comhad eochairchló"
+        },
+        "import_dia":{
+            "tit":"Cuntas iompórtála",
+            "select_type":"Roghnaigh modh allmhairithe",
+            "type_private":"Eochair phríobháideach",
+            "type_keystore":"Eochairchlár",
+
+            "placeholder_private":"Déan an eochair phríobháideach a ghreamú anseo",
+            "placeholder_keystore":"Tarraing an comhad eochairchló anseo anseo",
+
+            "input_pwd":"Cuir isteach focal faire",
+            "placeholder_pwd":"Cuir isteach do phasfhocal cuntas"
+
+        },
+        "remove_dia":{
+            "tit":"An bhfuil tú cinnte gur mhaith leat a scriosadh?",
+            "backup":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
+        },
+        "msg_info":{
+            "exist":"Tá an cuntas seo ann cheana agus is é an t-ainm atá ann",
+            "enter_password":"Cuir isteach do phasfhocal",
+            "incons_password":"Tá an focal faire isteach dhá uair neamhréireach",
+            "error":"Earráid:",
+            "imported_success":"Iompórtáil comhad go rath",
+            "enter_private":"Cuir isteach an eochair",
+            "error_private":"Theip ar an gcuntas a allmhairiú, b'fhéidir gurb é an eochair mícheart é",
+            "enter_keystore":"Cuir isteach an comhad eochaircheap ar dtús",
+            "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
+            "remove_success":"Bainte go rathúil",
+            "save":"Cruthaigh sparán go rathúil, sábháil do eochairchlár nó eochair phríobháideach, ná é a roinnt le duine ar bith!"
+        },
+
+
+        
         
         "remove_prompt":"An bhfuil tú cinnte gur mhaith leat a scriosadh?",
-        "please_back_up":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint",
-
-        "import_prompt":"An bhfuil sparán CZR agat cheana féin?",
-        "import_step":"Tarraing do chomhad sparán anseo",
-        "import_or":"Nó",
-        "import_click_up":"Cliceáil chun cur leis"
+        "please_back_up":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
     }
 
 }

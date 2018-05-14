@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Nhập tài khoản",
-        "back_up_account":"Tài khoản sao lưu",
         "add_account":"Tài khoản mới",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Mật khẩu",
-        "confirm_password":"Xác nhận mật khẩu",
+        "acc":"Tài khoản",
+        "create_dia":{
+            "create_tit":"Tạo tài khoản",
+            "backup_tit":"Sao lưu tài khoản mới của bạn",
+
+            "create_tag":"Tên tài khoản",
+            "create_pwd":"Đặt mật khẩu",
+            "create_repwd":"Xác nhận mật khẩu",
+
+            "placeholder_tag":"Vui lòng đặt tên tài khoản",
+            "placeholder_pwd":"Vui lòng đặt mật khẩu tài khoản",
+            "placeholder_repwd":"Vui lòng xác nhận mật khẩu tài khoản",
+            "strong_password":"Nhập mật khẩu mạnh, ít nhất 8 chữ số",
+
+            "account_address":"Tài khoản",
+            "account_privateKey":"Khóa cá nhân",
+            "account_download_keystore":"Tải xuống tệp kho khóa"
+        },
+        "import_dia":{
+            "tit":"Nhập tài khoản",
+            "select_type":"Vui lòng chọn phương thức nhập",
+            "type_private":"Khóa cá nhân",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Vui lòng dán khóa riêng tư tại đây",
+            "placeholder_keystore":"Vui lòng kéo tệp kho khóa ở đây",
+
+            "input_pwd":"Nhập mật khẩu",
+            "placeholder_pwd":"Vui lòng nhập mật khẩu tài khoản của bạn"
+
+        },
+        "remove_dia":{
+            "tit":"Bạn có chắc chắn muốn xóa không?",
+            "backup":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
+        },
+        "msg_info":{
+            "exist":"Tài khoản này đã tồn tại và tên là",
+            "enter_password":"Vui lòng nhập mật khẩu của bạn",
+            "incons_password":"Mật khẩu đã nhập hai lần không nhất quán",
+            "error":"Lỗi:",
+            "imported_success":"Nhập tệp thành công",
+            "enter_private":"Vui lòng nhập khóa",
+            "error_private":"Không thể nhập tài khoản, có thể đó là khóa sai",
+            "enter_keystore":"Vui lòng nhập tệp kho khóa trước",
+            "error_password":"Không thể nhập tài khoản, có thể đó là mật khẩu sai",
+            "remove_success":"Đã xóa thành công",
+            "save":"Tạo ví thành công, vui lòng lưu kho khóa hoặc khóa cá nhân của bạn, không chia sẻ nó cho bất kỳ ai!"
+        },
+
+
+        
         
         "remove_prompt":"Bạn có chắc chắn muốn xóa không?",
-        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản",
-
-        "import_prompt":"Bạn đã có ví CZR chưa?",
-        "import_step":"Kéo tệp ví của bạn vào đây",
-        "import_or":"Hoặc",
-        "import_click_up":"Nhấp để thêm"
+        "please_back_up":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
     }
 
 }

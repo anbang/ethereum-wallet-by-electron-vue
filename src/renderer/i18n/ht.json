@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Enpòte kont",
-        "back_up_account":"Kont sovgad",
         "add_account":"Nouvo kont",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Modpas",
-        "confirm_password":"Konfime modpas",
+        "acc":"Kont",
+        "create_dia":{
+            "create_tit":"Kreye yon kont",
+            "backup_tit":"Tounen moute nouvo kont ou",
+
+            "create_tag":"Non kont",
+            "create_pwd":"Mete modpas",
+            "create_repwd":"Konfime modpas",
+
+            "placeholder_tag":"Tanpri mete non kont",
+            "placeholder_pwd":"Tanpri mete modpas kont",
+            "placeholder_repwd":"Tanpri konfime modpas kont la",
+            "strong_password":"Mete yon modpas fò, omwen 8 chif",
+
+            "account_address":"Kont",
+            "account_privateKey":"Prive kle",
+            "account_download_keystore":"Download dosye a Keystore"
+        },
+        "import_dia":{
+            "tit":"Enpòte kont",
+            "select_type":"Tanpri chwazi metòd enpòte",
+            "type_private":"Prive kle",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Tanpri kole kle a prive isit la",
+            "placeholder_keystore":"Tanpri, trennen dosye kle a isit la",
+
+            "input_pwd":"Mete modpas",
+            "placeholder_pwd":"Tanpri antre modpas kont ou"
+
+        },
+        "remove_dia":{
+            "tit":"Èske ou sèten ou vle efase?",
+            "backup":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete"
+        },
+        "msg_info":{
+            "exist":"Kont sa a deja egziste, non an se",
+            "enter_password":"Tanpri antre modpas ou",
+            "incons_password":"Modpas la antre nan de fwa se konsistan",
+            "error":"Erè:",
+            "imported_success":"Import dosye avèk siksè",
+            "enter_private":"Tanpri antre kle a",
+            "error_private":"Echwe pou enpòte kont lan, li ka kle a mal",
+            "enter_keystore":"Tanpri enpòte dosye a kle premye",
+            "error_password":"Fayit enpòte kont, li ka yon modpas mal",
+            "remove_success":"Retire siksè",
+            "save":"Kreye bous avèk siksè, tanpri sove keystore ou oswa kle prive, pa pataje li nan nenpòt moun!"
+        },
+
+
+        
         
         "remove_prompt":"Èske ou sèten ou vle efase?",
-        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete",
-
-        "import_prompt":"Ou deja gen yon bous CZR?",
-        "import_step":"Trennen dosye bous ou isit la",
-        "import_or":"Oswa",
-        "import_click_up":"Klike sou yo ajoute"
+        "please_back_up":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete"
     }
 
 }

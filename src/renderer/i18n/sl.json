@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Uvoz računa",
-        "back_up_account":"Rezervni račun",
         "add_account":"Nov račun",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Geslo",
-        "confirm_password":"Potrdite geslo",
+        "acc":"Račun",
+        "create_dia":{
+            "create_tit":"Ustvarite račun",
+            "backup_tit":"Varnostno kopirajte svoj novi račun",
+
+            "create_tag":"Ime računa",
+            "create_pwd":"Nastavite geslo",
+            "create_repwd":"Potrdite geslo",
+
+            "placeholder_tag":"Nastavite ime računa",
+            "placeholder_pwd":"Nastavite geslo za račun",
+            "placeholder_repwd":"Potrdite geslo za račun",
+            "strong_password":"Vnesite močno geslo, najmanj 8 številk",
+
+            "account_address":"Račun",
+            "account_privateKey":"Zasebni ključ",
+            "account_download_keystore":"Prenesite datoteko keystore"
+        },
+        "import_dia":{
+            "tit":"Uvoz računa",
+            "select_type":"Izberite način uvoza",
+            "type_private":"Zasebni ključ",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Prosimo, prilepite zasebni ključ tukaj",
+            "placeholder_keystore":"Povlecite datoteko keystore tukaj",
+
+            "input_pwd":"Vnesite geslo",
+            "placeholder_pwd":"Vnesite geslo za račun"
+
+        },
+        "remove_dia":{
+            "tit":"Ali ste prepričani, da želite izbrisati?",
+            "backup":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+        },
+        "msg_info":{
+            "exist":"Ta račun že obstaja, ime je",
+            "enter_password":"Vnesite geslo",
+            "incons_password":"Dvakrat vneseno geslo ni v skladu",
+            "error":"Napaka:",
+            "imported_success":"Uvozite datoteko uspešno",
+            "enter_private":"Vnesite ključ",
+            "error_private":"Račun ni bilo mogoče uvoziti, morda je napačni ključ",
+            "enter_keystore":"Najprej uvozite datoteko keystore",
+            "error_password":"Ni bilo mogoče uvoziti računa, morda je napačno geslo",
+            "remove_success":"Uspešno je bil odstranjen",
+            "save":"Ustvarite denarnico uspešno, shranite ključni ključ ali zasebni ključ, ga ne delite nikomur!"
+        },
+
+
+        
         
         "remove_prompt":"Ali ste prepričani, da želite izbrisati?",
-        "please_back_up":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi",
-
-        "import_prompt":"Ali že imate denarnico CZR?",
-        "import_step":"Tukaj povlecite datoteko denarnice",
-        "import_or":"Or",
-        "import_click_up":"Kliknite za dodajanje"
+        "please_back_up":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
     }
 
 }

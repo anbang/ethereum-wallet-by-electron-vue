@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importar conta",
-        "back_up_account":"Conta de backup",
         "add_account":"Nova conta",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Senha",
-        "confirm_password":"Confirme a senha",
+        "acc":"Conta",
+        "create_dia":{
+            "create_tit":"Crie uma conta",
+            "backup_tit":"Faça backup de sua nova conta",
+
+            "create_tag":"Nome da conta",
+            "create_pwd":"Definir senha",
+            "create_repwd":"Confirme a senha",
+
+            "placeholder_tag":"Por favor, defina o nome da conta",
+            "placeholder_pwd":"Por favor, defina a senha da conta",
+            "placeholder_repwd":"Por favor, confirme a senha da conta",
+            "strong_password":"Digite uma senha forte, com pelo menos 8 dígitos",
+
+            "account_address":"Conta",
+            "account_privateKey":"Chave privada",
+            "account_download_keystore":"Faça o download do arquivo de armazenamento de chaves"
+        },
+        "import_dia":{
+            "tit":"Importar conta",
+            "select_type":"Por favor, selecione o método de importação",
+            "type_private":"Chave privada",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Por favor, cole a chave privada aqui",
+            "placeholder_keystore":"Por favor, arraste o arquivo de armazenamento de chaves aqui",
+
+            "input_pwd":"Digite a senha",
+            "placeholder_pwd":"Por favor insira a senha da sua conta"
+
+        },
+        "remove_dia":{
+            "tit":"Tem certeza de que deseja excluir?",
+            "backup":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
+        },
+        "msg_info":{
+            "exist":"Esta conta já existe e o nome é",
+            "enter_password":"Por favor digite sua senha",
+            "incons_password":"A senha digitada duas vezes é inconsistente",
+            "error":"Erro:",
+            "imported_success":"Importar arquivo com sucesso",
+            "enter_private":"Por favor insira a chave",
+            "error_private":"Falha ao importar a conta, pode ser a chave errada",
+            "enter_keystore":"Por favor, importe o arquivo keystore primeiro",
+            "error_password":"Falha ao importar conta, pode ser uma senha errada",
+            "remove_success":"Removido com sucesso",
+            "save":"Crie uma carteira com sucesso, por favor, salve seu keystore ou chave privada, não compartilhe com ninguém!"
+        },
+
+
+        
         
         "remove_prompt":"Tem certeza de que deseja excluir?",
-        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade",
-
-        "import_prompt":"Você já tem uma carteira CZR?",
-        "import_step":"Arraste seu arquivo da carteira aqui",
-        "import_or":"Ou",
-        "import_click_up":"Clique para adicionar"
+        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
     }
 
 }

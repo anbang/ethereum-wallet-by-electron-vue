@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ntshuam nyiaj",
-        "back_up_account":"Thaub qab thaub qab",
         "add_account":"Tshiab tus account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Lo lus zais",
-        "confirm_password":"Confirm password",
+        "acc":"Account",
+        "create_dia":{
+            "create_tit":"Tsim ib tug account",
+            "backup_tit":"Rov sau koj tus account tshiab",
+
+            "create_tag":"Account npe",
+            "create_pwd":"Teem password",
+            "create_repwd":"Confirm password",
+
+            "placeholder_tag":"Thov teem caij lub npe",
+            "placeholder_pwd":"Thov teem caij tus password",
+            "placeholder_repwd":"Thov paub meej tias tus account password",
+            "strong_password":"Sau tus password tshiab, tsawg kawg 8 tus lej",
+
+            "account_address":"Account",
+            "account_privateKey":"Tus yuam sij",
+            "account_download_keystore":"Download tau cov ntaub ntawv keystore"
+        },
+        "import_dia":{
+            "tit":"Ntshuam nyiaj",
+            "select_type":"Thov xaiv hom kev ntshuam",
+            "type_private":"Tus yuam sij",
+            "type_keystore":"Ntsiab Cai",
+
+            "placeholder_private":"Thov paste tus kheej qhov tseem ceeb ntawm no",
+            "placeholder_keystore":"Thov luag tuav cov ntaub ntawv tseem ceeb ntawm no",
+
+            "input_pwd":"Sau tus password",
+            "placeholder_pwd":"Thov sau koj tus password"
+
+        },
+        "remove_dia":{
+            "tit":"Koj puas paub tseeb tias koj xav rho tawm?",
+            "backup":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
+        },
+        "msg_info":{
+            "exist":"Cov nyiaj no twb muaj lawm thiab lub npe yog",
+            "enter_password":"Thov sau koj tus password",
+            "incons_password":"Tus password nkag ob yog inconsistent",
+            "error":"Yuam kev:",
+            "imported_success":"Ntshis ntawv tau zoo",
+            "enter_private":"Thov sau tus yuam sij",
+            "error_private":"Ua tsis tau tejyam nyiaj, nws yuav yog qhov tseem ceeb",
+            "enter_keystore":"Thov xa cov ntaub ntawv tseem ceeb ua ntej",
+            "error_password":"Ua tsis tau tejyam nyiaj, nws yuav yog tus password",
+            "remove_success":"Tshem tawm suab",
+            "save":"Ua kom lub hnab ntim tau zoo, thov cawm koj tus keystore lossis tus yuam sij, tsis txhob muab rau leej twg!"
+        },
+
+
+        
         
         "remove_prompt":"Koj puas paub tseeb tias koj xav rho tawm?",
-        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom",
-
-        "import_prompt":"Koj puas tau muaj CZR hnab nyiaj?",
-        "import_step":"Luag koj lub hnab nyiaj ntawm no",
-        "import_or":"Los yog",
-        "import_click_up":"Nyem ntxiv"
+        "please_back_up":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
     }
 
 }

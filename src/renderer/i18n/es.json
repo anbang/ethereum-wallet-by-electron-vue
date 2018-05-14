@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importar cuenta",
-        "back_up_account":"Cuenta de respaldo",
         "add_account":"Nueva cuenta",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Contraseña",
-        "confirm_password":"Confirmar contraseña",
+        "acc":"Cuenta",
+        "create_dia":{
+            "create_tit":"Crea una cuenta",
+            "backup_tit":"Haga una copia de seguridad de su nueva cuenta",
+
+            "create_tag":"Nombre de la cuenta",
+            "create_pwd":"Establecer contraseña",
+            "create_repwd":"Confirmar contraseña",
+
+            "placeholder_tag":"Por favor configure el nombre de la cuenta",
+            "placeholder_pwd":"Configura la contraseña de la cuenta",
+            "placeholder_repwd":"Por favor confirme la contraseña de la cuenta",
+            "strong_password":"Ingrese una contraseña segura, al menos 8 dígitos",
+
+            "account_address":"Cuenta",
+            "account_privateKey":"Clave privada",
+            "account_download_keystore":"Descargue el archivo keystore"
+        },
+        "import_dia":{
+            "tit":"Importar cuenta",
+            "select_type":"Seleccione el método de importación",
+            "type_private":"Clave privada",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Por favor, pegue la clave privada aquí",
+            "placeholder_keystore":"Arrastre el archivo de almacén de claves aquí",
+
+            "input_pwd":"Ingresa la contraseña",
+            "placeholder_pwd":"Por favor ingrese la contraseña de su cuenta"
+
+        },
+        "remove_dia":{
+            "tit":"¿Estás seguro de que quieres eliminar?",
+            "backup":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
+        },
+        "msg_info":{
+            "exist":"Esta cuenta ya existe y el nombre es",
+            "enter_password":"Por favor ingrese su contraseña",
+            "incons_password":"La contraseña ingresada dos veces es inconsistente",
+            "error":"Error:",
+            "imported_success":"Importar archivo exitosamente",
+            "enter_private":"Por favor ingrese la clave",
+            "error_private":"Error al importar la cuenta, puede ser la clave incorrecta",
+            "enter_keystore":"Importa primero el archivo de almacén de claves",
+            "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
+            "remove_success":"Eliminado con éxito",
+            "save":"Cree una billetera con éxito, guarde su almacén de claves o clave privada, ¡no la comparta con nadie!"
+        },
+
+
+        
         
         "remove_prompt":"¿Estás seguro de que quieres eliminar?",
-        "please_back_up":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad",
-
-        "import_prompt":"¿Ya tienes una billetera CZR?",
-        "import_step":"Arrastre el archivo de su billetera aquí",
-        "import_or":"O",
-        "import_click_up":"Haga clic para agregar"
+        "please_back_up":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
     }
 
 }

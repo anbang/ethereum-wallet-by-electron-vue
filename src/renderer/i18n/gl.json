@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importar conta",
-        "back_up_account":"Conta de copia de seguridade",
         "add_account":"Nova conta",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Contrasinal",
-        "confirm_password":"Confirmar o contrasinal",
+        "acc":"Conta",
+        "create_dia":{
+            "create_tit":"Crea unha conta",
+            "backup_tit":"Fai unha copia de seguridade da túa nova conta",
+
+            "create_tag":"Nome da conta",
+            "create_pwd":"Establecer o contrasinal",
+            "create_repwd":"Confirmar o contrasinal",
+
+            "placeholder_tag":"Establece o nome da conta",
+            "placeholder_pwd":"Configure o contrasinal da conta",
+            "placeholder_repwd":"Confirma o contrasinal da conta",
+            "strong_password":"Introduce un contrasinal forte, polo menos 8 díxitos",
+
+            "account_address":"Conta",
+            "account_privateKey":"Tecla privada",
+            "account_download_keystore":"Descargue o ficheiro de tecla"
+        },
+        "import_dia":{
+            "tit":"Importar conta",
+            "select_type":"Selecciona o método de importación",
+            "type_private":"Tecla privada",
+            "type_keystore":"Tenda de teclas",
+
+            "placeholder_private":"Pegue aquí a chave privada",
+            "placeholder_keystore":"Arrastra aquí o ficheiro de teclado",
+
+            "input_pwd":"Introduce o contrasinal",
+            "placeholder_pwd":"Insira o contrasinal da súa conta"
+
+        },
+        "remove_dia":{
+            "tit":"¿Estás seguro de que queres eliminar?",
+            "backup":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
+        },
+        "msg_info":{
+            "exist":"Esta conta xa existe eo nome é",
+            "enter_password":"Introduce o teu contrasinal",
+            "incons_password":"O contrasinal introducido dúas veces é inconsistente",
+            "error":"Erro:",
+            "imported_success":"Importar ficheiro con éxito",
+            "enter_private":"Introduce a tecla",
+            "error_private":"Erro ao importar a conta, pode ser a chave incorrecta",
+            "enter_keystore":"Importe primeiro o ficheiro de teclado",
+            "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
+            "remove_success":"Eliminouse con éxito",
+            "save":"Crea billetera con éxito, garda a túa tenda de teclas ou a chave privada, non a compartas a ninguén."
+        },
+
+
+        
         
         "remove_prompt":"¿Estás seguro de que queres eliminar?",
-        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade",
-
-        "import_prompt":"Xa tes unha moeda CZR?",
-        "import_step":"Arrastra aquí o teu ficheiro de billetera",
-        "import_or":"Ou",
-        "import_click_up":"Fai clic para engadir"
+        "please_back_up":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
     }
 
 }

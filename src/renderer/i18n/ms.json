@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Import akaun",
-        "back_up_account":"Akaun sandaran",
         "add_account":"Akaun baru",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Kata laluan",
-        "confirm_password":"Sahkan kata laluan",
+        "acc":"Akaun",
+        "create_dia":{
+            "create_tit":"Buat akaun",
+            "backup_tit":"Sandarkan akaun baru anda",
+
+            "create_tag":"Nama akaun",
+            "create_pwd":"Tetapkan kata laluan",
+            "create_repwd":"Sahkan kata laluan",
+
+            "placeholder_tag":"Sila nyatakan nama akaun",
+            "placeholder_pwd":"Sila nyatakan kata laluan akaun",
+            "placeholder_repwd":"Sila sahkan kata laluan akaun",
+            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
+
+            "account_address":"Akaun",
+            "account_privateKey":"Kunci persendirian",
+            "account_download_keystore":"Muat turun fail utama kedai"
+        },
+        "import_dia":{
+            "tit":"Import akaun",
+            "select_type":"Sila pilih kaedah import",
+            "type_private":"Kunci persendirian",
+            "type_keystore":"Kedai kunci",
+
+            "placeholder_private":"Sila tampal kunci peribadi di sini",
+            "placeholder_keystore":"Sila seret fail utama di sini",
+
+            "input_pwd":"Masukkan kata laluan",
+            "placeholder_pwd":"Sila masukkan kata laluan akaun anda"
+
+        },
+        "remove_dia":{
+            "tit":"Adakah anda pasti mahu memadamkannya?",
+            "backup":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
+        },
+        "msg_info":{
+            "exist":"Akaun ini sudah wujud dan nama itu ada",
+            "enter_password":"Sila masukkan kata laluan anda",
+            "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
+            "error":"Ralat:",
+            "imported_success":"Import fail berjaya",
+            "enter_private":"Sila masukkan kekunci",
+            "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
+            "enter_keystore":"Sila import fail utama utama dahulu",
+            "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
+            "remove_success":"Dihapuskan berjaya",
+            "save":"Buat dompet berjaya, sila simpan kunci utama atau kunci peribadi anda, jangan berkongsinya dengan sesiapa sahaja!"
+        },
+
+
+        
         
         "remove_prompt":"Adakah anda pasti mahu memadamkannya?",
-        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda",
-
-        "import_prompt":"Adakah anda sudah mempunyai dompet CZR?",
-        "import_step":"Seret fail dompet anda di sini",
-        "import_or":"Atau",
-        "import_click_up":"Klik untuk tambah"
+        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
     }
 
 }

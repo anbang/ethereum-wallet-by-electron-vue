@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Hisobni import qilish",
-        "back_up_account":"Zahira nusxasi",
         "add_account":"Yangi hisob",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Parol",
-        "confirm_password":"Parolni tasdiqlang",
+        "acc":"Hisob",
+        "create_dia":{
+            "create_tit":"Hisob yarating",
+            "backup_tit":"Yangi hisob qaydnomangizni zaxiralang",
+
+            "create_tag":"Hisob nomi",
+            "create_pwd":"Parolni o'rnating",
+            "create_repwd":"Parolni tasdiqlang",
+
+            "placeholder_tag":"Iltimos, hisob nomini tanlang",
+            "placeholder_pwd":"Hisob qaydnomangiz parolini o'rnating",
+            "placeholder_repwd":"Iltimos, parolni tasdiqlang",
+            "strong_password":"Kuchli parolni kiriting, kamida 8 ta raqam",
+
+            "account_address":"Hisob",
+            "account_privateKey":"Xususiy kalit",
+            "account_download_keystore":"Klaviatura faylini yuklab oling"
+        },
+        "import_dia":{
+            "tit":"Hisobni import qilish",
+            "select_type":"Import usulini tanlang",
+            "type_private":"Xususiy kalit",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Iltimos, maxfiy kalitni bu erga joylashtiring",
+            "placeholder_keystore":"Iltimos, keystore faylini bu erga ko'chiring",
+
+            "input_pwd":"Parolni kiriting",
+            "placeholder_pwd":"Iltimos, hisobingizni parolini kiriting"
+
+        },
+        "remove_dia":{
+            "tit":"Siz o'chirmoqchimisiz?",
+            "backup":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
+        },
+        "msg_info":{
+            "exist":"Ushbu hisob allaqachon mavjud, ism bor",
+            "enter_password":"Iltimos, parolingizni kiriting",
+            "incons_password":"Ikki marta kiritilgan parol barqaror emas",
+            "error":"Xato:",
+            "imported_success":"Faylni muvaffaqiyatli import qiling",
+            "enter_private":"Iltimos, kalitni kiriting",
+            "error_private":"Hisobni import qilish amalga oshmadi, bu noto'g'ri kalit bo'lishi mumkin",
+            "enter_keystore":"Avval keystore faylini import qiling",
+            "error_password":"Hisobni import qilish amalga oshmadi, u noto'g'ri parol bo'lishi mumkin",
+            "remove_success":"Muvaffaqiyatli olib tashlandi",
+            "save":"Hamyonni muvaffaqiyatli yaratish, keystore yoki maxfiy tugmachani saqlang, uni hech kimga qo'shmang!"
+        },
+
+
+        
         
         "remove_prompt":"Siz o'chirmoqchimisiz?",
-        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling",
-
-        "import_prompt":"Siz allaqachon CZR hamyoningiz bormi?",
-        "import_step":"Cüzdanınızın faylini bu erga ko'chiring",
-        "import_or":"Yoki",
-        "import_click_up":"Qo'shish uchun bosing"
+        "please_back_up":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
     }
 
 }

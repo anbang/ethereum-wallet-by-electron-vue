@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Ka lawe pūʻana i kaʻike",
-        "back_up_account":"Pūnaewele Pūnaewele",
         "add_account":"Pūʻulu hou",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Manaʻo",
-        "confirm_password":"Hōʻoia i ka memo",
+        "acc":"Pūnaewele",
+        "create_dia":{
+            "create_tit":"Hana i kahi moʻokāki",
+            "backup_tit":"E mālama i kāu moʻokāki hou",
+
+            "create_tag":"Helu inoa",
+            "create_pwd":"E hoʻonoho i ka memo",
+            "create_repwd":"Hōʻoia i ka memo",
+
+            "placeholder_tag":"Eʻoluʻolu e hoʻonoho inoa inoa",
+            "placeholder_pwd":"Eʻoluʻolu e hōʻolo i ka hua'ōlelo pilina",
+            "placeholder_repwd":"Eʻoluʻolu e hōʻoia i ka'ōlelo'ōlelo pūnaewele",
+            "strong_password":"E hoʻokomo i kahi hua'ōlelo ikaika, ma kahi o 8 mau helu",
+
+            "account_address":"Pūnaewele",
+            "account_privateKey":"Kelekele kiko'ī",
+            "account_download_keystore":"E kiʻi i ka faikelili keyka"
+        },
+        "import_dia":{
+            "tit":"Ka lawe pūʻana i kaʻike",
+            "select_type":"Eʻoluʻolu e koho i keʻano lawe komo",
+            "type_private":"Kelekele kiko'ī",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Eʻoluʻolu e paʻi i ke kī kīnā ma kahi",
+            "placeholder_keystore":"Eʻoluʻolu e kiʻi i kahi faila keleka maʻaneʻi",
+
+            "input_pwd":"E komo i ka hua'ōlelo",
+            "placeholder_pwd":"Eʻoluʻolu eʻoluʻoluʻoe i ka helu'ōlelo pūnaewele"
+
+        },
+        "remove_dia":{
+            "tit":"Makemakeʻoe makemake e holoi?",
+            "backup":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
+        },
+        "msg_info":{
+            "exist":"Ua hala kēia pūʻulu aʻo ka inoa",
+            "enter_password":"Eʻoluʻolu e kau i kāu hua'ōlelo",
+            "incons_password":"ʻO ka hua'ōlelo i komoʻelua manawa kuhi",
+            "error":"Kuhi:",
+            "imported_success":"E hoʻokahua pono i kahi pūnaewele",
+            "enter_private":"Eʻoluʻolu e komo i ka kī",
+            "error_private":"ʻAʻole i hiki iā ia ke hoʻokomo i ka hōʻike,ʻo ia paha ke kī hewa",
+            "enter_keystore":"E kāhuakomo i kahi faila failika mua",
+            "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
+            "remove_success":"Ua hoʻopau 'ia iā ia",
+            "save":"E hana maikaʻi i kahi putele, eʻoluʻolu e mālama i kāu keystore a kī kīnā paha, mai hoʻokaʻawale i kekahi i kekahi!"
+        },
+
+
+        
         
         "remove_prompt":"Makemakeʻoe makemake e holoi?",
-        "please_back_up":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai",
-
-        "import_prompt":"Loaʻa iāʻoe he putele CZR?",
-        "import_step":"E kahaki i kāu putele maʻaneʻi",
-        "import_or":"ʻO",
-        "import_click_up":"Kaomi no ka hoʻopau"
+        "please_back_up":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
     }
 
 }

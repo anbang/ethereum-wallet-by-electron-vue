@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Koontada la soo galo",
-        "back_up_account":"Koontada keydka",
         "add_account":"Koontada cusub",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Furaha",
-        "confirm_password":"Xaqiiji sirta",
+        "acc":"Koontada",
+        "create_dia":{
+            "create_tit":"Sameyso koonto",
+            "backup_tit":"Dib u soo celi xisaabtaada cusub",
+
+            "create_tag":"Magaca xisaabta",
+            "create_pwd":"Sameey sirta",
+            "create_repwd":"Xaqiiji sirta",
+
+            "placeholder_tag":"Fadlan magaca magacaaga",
+            "placeholder_pwd":"Fadlan xisaab furaha xisaabta",
+            "placeholder_repwd":"Fadlan hubi lambarka sirta",
+            "strong_password":"Gali ereyga sirta ah, ugu yaraan 8 lambar",
+
+            "account_address":"Koontada",
+            "account_privateKey":"Furaha gaarka ah",
+            "account_download_keystore":"Soo qaado faylka furaha"
+        },
+        "import_dia":{
+            "tit":"Koontada la soo galo",
+            "select_type":"Fadlan xulo habka dibaajiga",
+            "type_private":"Furaha gaarka ah",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Fadlan ku dhaji furaha gaarka ah halkan",
+            "placeholder_keystore":"Fadlan ku jiid feylka muhiimka ah halkan",
+
+            "input_pwd":"Geli password",
+            "placeholder_pwd":"Fadlan gali furaha xisaabtaada"
+
+        },
+        "remove_dia":{
+            "tit":"Ma hubtaa inaad rabto inaad tirtirto?",
+            "backup":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
+        },
+        "msg_info":{
+            "exist":"Koontadani horeba way jirtey oo magacuna waa",
+            "enter_password":"Fadlan gali sirtaada",
+            "incons_password":"Furaha sirta ah laba jeer ayaa ku haboon",
+            "error":"Cilad:",
+            "imported_success":"Soo qaado faylka si guul leh",
+            "enter_private":"Fadlan qor fure",
+            "error_private":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa fure khaldan",
+            "enter_keystore":"Fadlan horey u soo qaado faylka muhiimka ah",
+            "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
+            "remove_success":"Kala guuleysatay",
+            "save":"Abuuri jeebka si guul leh, fadlan badbaadi furahaaga furaha ama furaha gaarka ah, ha la wadaagin cid kale!"
+        },
+
+
+        
         
         "remove_prompt":"Ma hubtaa inaad rabto inaad tirtirto?",
-        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida",
-
-        "import_prompt":"Miyaad horey u leedahay jeebka CZR?",
-        "import_step":"Fadhi jadwalkaaga kumbuyuutarka halkan",
-        "import_or":"Ama",
-        "import_click_up":"Guji si aad ugu darto"
+        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
     }
 
 }

@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"ייבא חשבון",
-        "back_up_account":"חשבון גיבוי",
         "add_account":"חשבון חדש",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"סיסמה",
-        "confirm_password":"אשר סיסמה",
+        "acc":"חשבון",
+        "create_dia":{
+            "create_tit":"צור חשבון",
+            "backup_tit":"גבה את החשבון החדש שלך",
+
+            "create_tag":"שם החשבון",
+            "create_pwd":"הגדר סיסמה",
+            "create_repwd":"אשר סיסמה",
+
+            "placeholder_tag":"הזן שם חשבון",
+            "placeholder_pwd":"הגדר סיסמת חשבון",
+            "placeholder_repwd":"אשר את סיסמת החשבון",
+            "strong_password":"הזן סיסמה חזקה, לפחות 8 ספרות",
+
+            "account_address":"חשבון",
+            "account_privateKey":"מפתח פרטי",
+            "account_download_keystore":"הורד את הקובץ keystore"
+        },
+        "import_dia":{
+            "tit":"ייבא חשבון",
+            "select_type":"בחר שיטת ייבוא",
+            "type_private":"מפתח פרטי",
+            "type_keystore":"קיסטור",
+
+            "placeholder_private":"הדבק את המפתח הפרטי כאן",
+            "placeholder_keystore":"אנא גרור את הקובץ keystore כאן",
+
+            "input_pwd":"הזן סיסמה",
+            "placeholder_pwd":"הזן את סיסמת החשבון שלך"
+
+        },
+        "remove_dia":{
+            "tit":"האם אתה בטוח שברצונך למחוק?",
+            "backup":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
+        },
+        "msg_info":{
+            "exist":"חשבון זה כבר קיים והשם הוא",
+            "enter_password":"הזן את הסיסמה שלך",
+            "incons_password":"הסיסמה שהוזנה פעמיים אינה עקבית",
+            "error":"שגיאה:",
+            "imported_success":"ייבוא ​​הקובץ בהצלחה",
+            "enter_private":"הזן את המפתח",
+            "error_private":"ייבוא ​​החשבון נכשל, ייתכן שהוא המפתח הלא נכון",
+            "enter_keystore":"יש לייבא את הקובץ keystore הראשון",
+            "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
+            "remove_success":"הוסר בהצלחה",
+            "save":"צור ארנק בהצלחה, אנא שמור את keystore או מפתח פרטי, לא לשתף אותו לאף אחד!"
+        },
+
+
+        
         
         "remove_prompt":"האם אתה בטוח שברצונך למחוק?",
-        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש",
-
-        "import_prompt":"האם יש לך כבר ארנק CZR?",
-        "import_step":"גרור את קובץ הארנק שלך לכאן",
-        "import_or":"או",
-        "import_click_up":"לחץ כדי להוסיף"
+        "please_back_up":"ודא שהחשבון מגובה כדי למנוע נזק לרכוש"
     }
 
 }

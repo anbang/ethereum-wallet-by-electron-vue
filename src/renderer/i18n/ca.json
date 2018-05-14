@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importar compte",
-        "back_up_account":"Compte de còpia de seguretat",
         "add_account":"Nou compte",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Contrasenya",
-        "confirm_password":"Confirma la contrasenya",
+        "acc":"Compte",
+        "create_dia":{
+            "create_tit":"Crea un compte",
+            "backup_tit":"Feu una còpia de seguretat del vostre compte nou",
+
+            "create_tag":"Nom del compte",
+            "create_pwd":"Estableix la contrasenya",
+            "create_repwd":"Confirma la contrasenya",
+
+            "placeholder_tag":"Estableix el nom del compte",
+            "placeholder_pwd":"Estableix la contrasenya del compte",
+            "placeholder_repwd":"Confirmeu la contrasenya del compte",
+            "strong_password":"Introduïu una contrasenya segura, com a mínim 8 dígits",
+
+            "account_address":"Compte",
+            "account_privateKey":"Clau privada",
+            "account_download_keystore":"Descarregueu el fitxer de teclat"
+        },
+        "import_dia":{
+            "tit":"Importar compte",
+            "select_type":"Seleccioneu el mètode d'importació",
+            "type_private":"Clau privada",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Si us plau, enganxeu la clau privada aquí",
+            "placeholder_keystore":"Arrossegueu aquí el fitxer de teclat",
+
+            "input_pwd":"Introduïu la contrasenya",
+            "placeholder_pwd":"Si us plau, introdueixi la contrasenya de compte"
+
+        },
+        "remove_dia":{
+            "tit":"Esteu segur que voleu suprimir?",
+            "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+        },
+        "msg_info":{
+            "exist":"Aquest compte ja existeix i el nom és",
+            "enter_password":"Introduïu la vostra contrasenya",
+            "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
+            "error":"Error:",
+            "imported_success":"Importa el fitxer amb èxit",
+            "enter_private":"Introduïu la clau",
+            "error_private":"Conta la importació falla, un error pot ser clau",
+            "enter_keystore":"Importeu primer el fitxer de teclat",
+            "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
+            "remove_success":"S'ha eliminat correctament",
+            "save":"Crea un moneder amb èxit, si us plau, deseu el vostre magatzem de claus o la clau privada, no ho compartiu a ningú."
+        },
+
+
+        
         
         "remove_prompt":"Esteu segur que voleu suprimir?",
-        "please_back_up":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat",
-
-        "import_prompt":"Ja teniu una cartera CZR?",
-        "import_step":"Arrossega aquí el vostre fitxer de cartera",
-        "import_or":"O",
-        "import_click_up":"Feu clic per afegir"
+        "please_back_up":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
     }
 
 }

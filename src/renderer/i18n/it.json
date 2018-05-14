@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"Importa account",
-        "back_up_account":"Account di backup",
         "add_account":"Nuovo account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"password",
-        "confirm_password":"Conferma password",
+        "acc":"conto",
+        "create_dia":{
+            "create_tit":"Crea un account",
+            "backup_tit":"Esegui il backup del tuo nuovo account",
+
+            "create_tag":"Nome dell'account",
+            "create_pwd":"Imposta la password",
+            "create_repwd":"Conferma password",
+
+            "placeholder_tag":"Si prega di impostare il nome dell'account",
+            "placeholder_pwd":"Si prega di impostare la password dell'account",
+            "placeholder_repwd":"Si prega di confermare la password dell'account",
+            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
+
+            "account_address":"conto",
+            "account_privateKey":"Chiave privata",
+            "account_download_keystore":"Scarica il file keystore"
+        },
+        "import_dia":{
+            "tit":"Importa account",
+            "select_type":"Seleziona il metodo di importazione",
+            "type_private":"Chiave privata",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Si prega di incollare la chiave privata qui",
+            "placeholder_keystore":"Si prega di trascinare il file keystore qui",
+
+            "input_pwd":"Inserire la password",
+            "placeholder_pwd":"Per favore inserisci la password del tuo account"
+
+        },
+        "remove_dia":{
+            "tit":"Sei sicuro di voler eliminare?",
+            "backup":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
+        },
+        "msg_info":{
+            "exist":"Questo account esiste già e il nome è",
+            "enter_password":"Per favore inserisci la tua password",
+            "incons_password":"La password inserita due volte è incoerente",
+            "error":"Errore:",
+            "imported_success":"Importa file con successo",
+            "enter_private":"Si prega di inserire la chiave",
+            "error_private":"Impossibile importare l'account, potrebbe essere la chiave sbagliata",
+            "enter_keystore":"Si prega di importare prima il file keystore",
+            "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
+            "remove_success":"Rimosso con successo",
+            "save":"Crea portafoglio con successo, salva il tuo keystore o la tua chiave privata, non condividerlo con nessuno!"
+        },
+
+
+        
         
         "remove_prompt":"Sei sicuro di voler eliminare?",
-        "please_back_up":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà",
-
-        "import_prompt":"Hai già un portafoglio CZR?",
-        "import_step":"Trascina qui il file del tuo portafoglio",
-        "import_or":"o",
-        "import_click_up":"Clicca per aggiungere"
+        "please_back_up":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
     }
 
 }

@@ -62,19 +62,61 @@
     },
     "page_home":{
         "import_account":"수입 계정",
-        "back_up_account":"백업 계정",
         "add_account":"새 계정",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"비밀번호",
-        "confirm_password":"암호 확인",
+        "acc":"계정",
+        "create_dia":{
+            "create_tit":"계정 만들기",
+            "backup_tit":"새 계정 백업",
+
+            "create_tag":"계정 이름",
+            "create_pwd":"비밀번호 설정",
+            "create_repwd":"암호 확인",
+
+            "placeholder_tag":"계정 이름을 설정하십시오.",
+            "placeholder_pwd":"계정 비밀번호를 설정하십시오.",
+            "placeholder_repwd":"계정 비밀번호를 확인하십시오.",
+            "strong_password":"최소 8 자리 이상의 강력한 암호를 입력하십시오.",
+
+            "account_address":"계정",
+            "account_privateKey":"개인 키",
+            "account_download_keystore":"키 스토어 파일 다운로드"
+        },
+        "import_dia":{
+            "tit":"수입 계정",
+            "select_type":"가져 오기 방법을 선택하십시오.",
+            "type_private":"개인 키",
+            "type_keystore":"키 저장소",
+
+            "placeholder_private":"개인 키를 여기에 붙여 넣으십시오.",
+            "placeholder_keystore":"여기에 키 저장소 파일을 드래그하십시오.",
+
+            "input_pwd":"비밀번호 입력",
+            "placeholder_pwd":"계정 비밀번호를 입력하십시오."
+
+        },
+        "remove_dia":{
+            "tit":"정말로 삭제 하시겠습니까?",
+            "backup":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오."
+        },
+        "msg_info":{
+            "exist":"이 계정은 이미 존재하며 이름은입니다.",
+            "enter_password":"비밀번호를 입력하십시오.",
+            "incons_password":"두 번 입력 한 암호가 일치하지 않습니다.",
+            "error":"오류 :",
+            "imported_success":"파일 가져 오기가 완료되었습니다.",
+            "enter_private":"열쇠를 입력하십시오.",
+            "error_private":"계정을 가져 오지 못했습니다. 잘못된 키일 수 있습니다.",
+            "enter_keystore":"먼저 키 스토어 파일을 가져 오십시오.",
+            "error_password":"계정을 가져 오지 못했습니다. 잘못된 비밀번호 일 수 있습니다.",
+            "remove_success":"성공적으로 제거되었습니다.",
+            "save":"지갑을 성공적으로 만드십시오. 키 스토어 또는 개인 키를 저장하십시오. 누구와도 공유하지 마십시오!"
+        },
+
+
+        
         
         "remove_prompt":"정말로 삭제 하시겠습니까?",
-        "please_back_up":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오.",
-
-        "import_prompt":"이미 CZR 지갑이 있습니까?",
-        "import_step":"지갑 파일을 여기로 드래그하십시오.",
-        "import_or":"또는",
-        "import_click_up":"추가하려면 클릭하십시오."
+        "please_back_up":"재산 손실을 방지하기 위해 계정을 백업했는지 확인하십시오."
     }
 
 }
