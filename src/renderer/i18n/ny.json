@@ -1,5 +1,4 @@
 {
-    "lang":"Chilankhulo",
     "confirm":"Umboni",
     "cancel":"Kuletsedwa",
     "dialog_tit":"Mwamsanga",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Kunyumba",
         "transfer":"Tumizani",
-        "contacts":"Bukhu la Maadiresi",
+        "contacts":"Othandizira",
         "setting":"Makhalidwe",
         "total":"Chiwerengero"
     },
     "page_setting":{
         "tit":"Makhalidwe",
+        "lang":"Chilankhulo",
         "select":"Chonde sankhani"
     },
     "page_contacts":{
-        "tit":"Bukhu la Maadiresi",
+        "tit":"Othandizira",
+        "add_dialog":"Onjezani kukhudzana",
+
         "add_cont":{
-            "tri_dialog":"Onjezani adilesi",
-            "dialog_tit":"Lowani chidziwitso cha adresse",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Chonde lowetsani ndemanga ya ndemanga pa adilesi",
-            "dialog_address":"Adilesi",
-            "address_placeholder":"Chonde lowetsani adilesi"
+            "tit":"Lowani zambiri zothandizira",
+            "tag":"Tags",
+            "address":"Othandizira",
+            "tag_placeholder":"Chonde lowetsani ndemanga yotsutsa",
+            "address_placeholder":"Chonde lowetsani akaunti yothandizira"
         },
         "delete_dialog":{
             "title":"Mukuchotsa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Yambitsani kutumiza",
-
         "transfer_log":"Mbiri yamagulu",
         "transfer_log_null":"Palibe mbiri yakugulitsa",
 

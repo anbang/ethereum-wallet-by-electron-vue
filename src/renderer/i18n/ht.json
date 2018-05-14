@@ -1,5 +1,4 @@
 {
-    "lang":"Lang",
     "confirm":"Konfimasyon",
     "cancel":"Anilasyon",
     "dialog_tit":"Èd memwa",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Kay",
         "transfer":"Transfè",
-        "contacts":"Adrès liv",
+        "contacts":"Kontak",
         "setting":"Anviwònman",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Anviwònman",
+        "lang":"Lang",
         "select":"Tanpri chwazi"
     },
     "page_contacts":{
-        "tit":"Adrès liv",
+        "tit":"Kontak",
+        "add_dialog":"Add yon kontak",
+
         "add_cont":{
-            "tri_dialog":"Add adrès",
-            "dialog_tit":"Mete enfòmasyon sou adrès la",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Tanpri antre tag lan kòmantè pou adrès la",
-            "dialog_address":"Adrès",
-            "address_placeholder":"Tanpri antre adrès la"
+            "tit":"Mete enfòmasyon kontak",
+            "tag":"Tags",
+            "address":"Kontak",
+            "tag_placeholder":"Tanpri antre nan kòmantè kòmantè kontak la",
+            "address_placeholder":"Tanpri antre kont kontak la"
         },
         "delete_dialog":{
             "title":"Ou yo retire"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kòd",
-        "go_transfer":"Inisye transfè",
-
         "transfer_log":"Istwa tranzaksyon",
         "transfer_log_null":"Pa gen istwa tranzaksyon",
 

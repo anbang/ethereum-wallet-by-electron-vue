@@ -1,5 +1,4 @@
 {
-    "lang":"Језик",
     "confirm":"Потврда",
     "cancel":"Отказ",
     "dialog_tit":"Промпт",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Хоме",
         "transfer":"Трансфер",
-        "contacts":"Адресар",
+        "contacts":"Контакти",
         "setting":"Подешавања",
         "total":"Укупно"
     },
     "page_setting":{
         "tit":"Подешавања",
+        "lang":"Језик",
         "select":"Изаберите"
     },
     "page_contacts":{
-        "tit":"Адресар",
+        "tit":"Контакти",
+        "add_dialog":"Додајте контакт",
+
         "add_cont":{
-            "tri_dialog":"Додај адресу",
-            "dialog_tit":"Унесите информације о адреси",
-            "dialog_tag":"Ознаке",
-            "tag_placeholder":"Молимо унесите ознаку за коментар за адресу",
-            "dialog_address":"Адреса",
-            "address_placeholder":"Унесите адресу"
+            "tit":"Унесите информације о контакту",
+            "tag":"Ознаке",
+            "address":"Контакти",
+            "tag_placeholder":"Молимо унесите ознаку за коментаре",
+            "address_placeholder":"Молимо унесите контактни налог"
         },
         "delete_dialog":{
             "title":"Ви уклањате"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"КР код",
-        "go_transfer":"Покрените трансфер",
-
         "transfer_log":"Историја трансакција",
         "transfer_log_null":"Нема историје трансакција",
 

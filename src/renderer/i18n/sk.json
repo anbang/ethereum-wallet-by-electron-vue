@@ -1,5 +1,4 @@
 {
-    "lang":"jazyk",
     "confirm":"potvrdiť",
     "cancel":"zrušený",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"domov",
         "transfer":"prevod",
-        "contacts":"Adresár",
+        "contacts":"kontakt",
         "setting":"založiť",
         "total":"totálnej"
     },
     "page_setting":{
         "tit":"založiť",
+        "lang":"jazyk",
         "select":"Vyberte prosím"
     },
     "page_contacts":{
-        "tit":"Adresár",
+        "tit":"kontakt",
+        "add_dialog":"Pridajte kontakt",
+
         "add_cont":{
-            "tri_dialog":"Pridať adresu",
-            "dialog_tit":"Zadajte informácie o adrese",
-            "dialog_tag":"štítok",
-            "tag_placeholder":"Zadajte značku komentára pre adresu",
-            "dialog_address":"adresa",
-            "address_placeholder":"Zadajte adresu"
+            "tit":"Zadajte kontaktné informácie",
+            "tag":"štítok",
+            "address":"kontakt",
+            "tag_placeholder":"Zadajte značku komentára kontaktu",
+            "address_placeholder":"Zadajte konto kontaktu"
         },
         "delete_dialog":{
             "title":"Odstraňujete"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kód",
-        "go_transfer":"Spustenie prenosu",
-
         "transfer_log":"História transakcií",
         "transfer_log_null":"Žiadna história transakcií",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"Langue",
     "confirm":"Confirmation",
     "cancel":"Annulation",
     "dialog_tit":"Demander",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Accueil",
         "transfer":"Transfert",
-        "contacts":"Carnet d'adresses",
+        "contacts":"Contacts",
         "setting":"Paramètres",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Paramètres",
+        "lang":"Langue",
         "select":"Veuillez sélectionner"
     },
     "page_contacts":{
-        "tit":"Carnet d'adresses",
+        "tit":"Contacts",
+        "add_dialog":"Ajouter un contact",
+
         "add_cont":{
-            "tri_dialog":"Ajouter une adresse",
-            "dialog_tit":"Entrez les informations d'adresse",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Veuillez entrer le tag de commentaire pour l'adresse",
-            "dialog_address":"Adresse",
-            "address_placeholder":"S'il vous plaît entrer l'adresse"
+            "tit":"Entrez les informations de contact",
+            "tag":"Tags",
+            "address":"Contacts",
+            "tag_placeholder":"Veuillez entrer le tag de commentaire du contact",
+            "address_placeholder":"Veuillez entrer le compte de contact"
         },
         "delete_dialog":{
             "title":"Vous supprimez"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Initier le transfert",
-
         "transfer_log":"Historique des transactions",
         "transfer_log_null":"Aucun historique de transaction",
 

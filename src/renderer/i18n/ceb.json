@@ -1,5 +1,4 @@
 {
-    "lang":"Pinulongan",
     "confirm":"Pagkumpirma",
     "cancel":"Pagkansela",
     "dialog_tit":"Gipangayo",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Panimalay",
         "transfer":"Pagbalhin",
-        "contacts":"Address book",
+        "contacts":"Mga kontak",
         "setting":"Mga Setting",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Mga Setting",
+        "lang":"Pinulongan",
         "select":"Palihug pagpili"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Mga kontak",
+        "add_dialog":"Pagdugang usa ka kontak",
+
         "add_cont":{
-            "tri_dialog":"Idugang ang address",
-            "dialog_tit":"Pagsulod sa impormasyon sa address",
-            "dialog_tag":"Mga Tag",
-            "tag_placeholder":"Palihug ibutang ang comment tag alang sa address",
-            "dialog_address":"Address",
-            "address_placeholder":"Palihug pagsulod sa address"
+            "tit":"Pagsulod sa impormasyon sa kontak",
+            "tag":"Mga Tag",
+            "address":"Mga kontak",
+            "tag_placeholder":"Palihug ibutang ang comment tag sa kontak",
+            "address_placeholder":"Palihug pagsulod sa contact account"
         },
         "delete_dialog":{
             "title":"Gikuha nimo"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Pagsugod sa pagbalhin",
-
         "transfer_log":"Kasaysayan sa transaksyon",
         "transfer_log_null":"Walay kasaysayan sa transaksyon",
 

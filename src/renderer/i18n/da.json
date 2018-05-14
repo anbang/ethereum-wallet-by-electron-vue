@@ -1,5 +1,4 @@
 {
-    "lang":"sprog",
     "confirm":"bekræfte",
     "cancel":"aflyst",
     "dialog_tit":"Spørg",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Hjem",
         "transfer":"Overførsel",
-        "contacts":"Adressebog",
+        "contacts":"Kontakt",
         "setting":"Opsæt",
         "total":"I alt"
     },
     "page_setting":{
         "tit":"Opsæt",
+        "lang":"sprog",
         "select":"Vælg venligst"
     },
     "page_contacts":{
-        "tit":"Adressebog",
+        "tit":"Kontakt",
+        "add_dialog":"Tilføj en kontakt",
+
         "add_cont":{
-            "tri_dialog":"Tilføj adresse",
-            "dialog_tit":"Indtast adresseoplysninger",
-            "dialog_tag":"tag",
-            "tag_placeholder":"Indtast venligst kommentærkoden for adressen",
-            "dialog_address":"adresse",
-            "address_placeholder":"Indtast venligst adressen"
+            "tit":"Indtast kontaktoplysninger",
+            "tag":"tag",
+            "address":"Kontakt",
+            "tag_placeholder":"Indtast venligst kontaktens kommentærkode",
+            "address_placeholder":"Indtast venligst kontaktkontoen"
         },
         "delete_dialog":{
             "title":"Du fjerner"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kode",
-        "go_transfer":"Start overførsel",
-
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"Wika",
     "confirm":"Kumpirmasyon",
     "cancel":"Pagkansela",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Bahay",
         "transfer":"Maglipat",
-        "contacts":"Address book",
+        "contacts":"Mga contact",
         "setting":"Mga Setting",
         "total":"Kabuuang"
     },
     "page_setting":{
         "tit":"Mga Setting",
+        "lang":"Wika",
         "select":"Mangyaring piliin"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Mga contact",
+        "add_dialog":"Magdagdag ng contact",
+
         "add_cont":{
-            "tri_dialog":"Magdagdag ng address",
-            "dialog_tit":"Ipasok ang impormasyon ng address",
-            "dialog_tag":"Mga Tag",
-            "tag_placeholder":"Pakipasok ang tag ng komento para sa address",
-            "dialog_address":"Address",
-            "address_placeholder":"Mangyaring ipasok ang address"
+            "tit":"Ipasok ang impormasyon ng contact",
+            "tag":"Mga Tag",
+            "address":"Mga contact",
+            "tag_placeholder":"Pakipasok ang tag ng komento ng contact",
+            "address_placeholder":"Mangyaring ipasok ang contact account"
         },
         "delete_dialog":{
             "title":"Inaalis mo"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Magsimula ng paglipat",
-
         "transfer_log":"Kasaysayan ng transaksyon",
         "transfer_log_null":"Walang kasaysayan ng transaksyon",
 

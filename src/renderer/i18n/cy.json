@@ -1,5 +1,4 @@
 {
-    "lang":"Iaith",
     "confirm":"Cadarnhad",
     "cancel":"Canslo",
     "dialog_tit":"Yn brydlon",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Cartref",
         "transfer":"Trosglwyddo",
-        "contacts":"Llyfr cyfeiriadau",
+        "contacts":"Cysylltiadau",
         "setting":"Gosodiadau",
         "total":"Cyfanswm"
     },
     "page_setting":{
         "tit":"Gosodiadau",
+        "lang":"Iaith",
         "select":"Dewiswch"
     },
     "page_contacts":{
-        "tit":"Llyfr cyfeiriadau",
+        "tit":"Cysylltiadau",
+        "add_dialog":"Ychwanegu cyswllt",
+
         "add_cont":{
-            "tri_dialog":"Ychwanegu cyfeiriad",
-            "dialog_tit":"Rhowch wybodaeth gyfeiriad",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Rhowch y tag sylwadau ar gyfer y cyfeiriad",
-            "dialog_address":"Cyfeiriad",
-            "address_placeholder":"Rhowch y cyfeiriad"
+            "tit":"Rhowch wybodaeth gyswllt",
+            "tag":"Tags",
+            "address":"Cysylltiadau",
+            "tag_placeholder":"Rhowch tag sylw'r cyswllt",
+            "address_placeholder":"Rhowch y cyfrif cyswllt"
         },
         "delete_dialog":{
             "title":"Rydych chi'n cael gwared"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR cod",
-        "go_transfer":"Cychwyn trosglwyddo",
-
         "transfer_log":"Hanes trafodion",
         "transfer_log_null":"Dim hanes trafodion",
 

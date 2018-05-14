@@ -1,5 +1,4 @@
 {
-    "lang":"Hizkuntza",
     "confirm":"Berretsi",
     "cancel":"Bertan behera",
     "dialog_tit":"Galdetu",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Hasiera",
         "transfer":"Transfer",
-        "contacts":"Helbide liburua",
+        "contacts":"Harremanetarako",
         "setting":"Ezarri",
         "total":"Guztira"
     },
     "page_setting":{
         "tit":"Ezarri",
+        "lang":"Hizkuntza",
         "select":"Aukeratu ezazu"
     },
     "page_contacts":{
-        "tit":"Helbide liburua",
+        "tit":"Harremanetarako",
+        "add_dialog":"Gehitu kontaktua",
+
         "add_cont":{
-            "tri_dialog":"Gehitu helbidea",
-            "dialog_tit":"Idatzi helbide informazioa",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Idatzi iruzkina egiteko etiketa helbidera",
-            "dialog_address":"Helbidea",
-            "address_placeholder":"Idatzi helbidea"
+            "tit":"Sartu kontaktuen informazioa",
+            "tag":"Tag",
+            "address":"Harremanetarako",
+            "tag_placeholder":"Sartu kontaktuaren iruzkinen etiketa",
+            "address_placeholder":"Sartu kontaktuen kontua"
         },
         "delete_dialog":{
             "title":"Kendu egiten ari zara"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kodea",
-        "go_transfer":"Hasi transferentzia",
-
         "transfer_log":"Transakzioaren historia",
         "transfer_log_null":"Ez dago transakzioaren historia",
 

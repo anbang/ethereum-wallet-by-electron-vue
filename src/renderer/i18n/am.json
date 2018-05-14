@@ -1,5 +1,4 @@
 {
-    "lang":"ቋንቋ",
     "confirm":"ማረጋገጫ",
     "cancel":"ስረዛ",
     "dialog_tit":"አስገራሚ",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ቤት",
         "transfer":"ዝውውር",
-        "contacts":"የአድራሻ ደብተር",
+        "contacts":"እውቂያዎች",
         "setting":"ቅንብሮች",
         "total":"ጠቅላላ"
     },
     "page_setting":{
         "tit":"ቅንብሮች",
+        "lang":"ቋንቋ",
         "select":"እባክዎ ይምረጡ"
     },
     "page_contacts":{
-        "tit":"የአድራሻ ደብተር",
+        "tit":"እውቂያዎች",
+        "add_dialog":"እውቂያ አክል",
+
         "add_cont":{
-            "tri_dialog":"አድራሻ አክል",
-            "dialog_tit":"የአድራሻ መረጃ ያስገቡ",
-            "dialog_tag":"መለያዎች",
-            "tag_placeholder":"ለአድራሻው የአስተያየት መለያውን ያስገቡ",
-            "dialog_address":"አድራሻ",
-            "address_placeholder":"እባክህ አድራሻውን አስገባ"
+            "tit":"የእውቂያ መረጃን ያስገቡ",
+            "tag":"መለያዎች",
+            "address":"እውቂያዎች",
+            "tag_placeholder":"እባክህ የእውቂያውን የአመልካች መለያ ስም አስገባ",
+            "address_placeholder":"እባክዎ የእውቂያ መለያውን ያስገቡ"
         },
         "delete_dialog":{
             "title":"እያስወገድክ ነው"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR ኮድ",
-        "go_transfer":"ዝውውር ጀምር",
-
         "transfer_log":"የግብይት ታሪክ",
         "transfer_log_null":"ምንም የግብይት ታሪክ የለም",
 

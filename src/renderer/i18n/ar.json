@@ -1,5 +1,4 @@
 {
-    "lang":"لغة",
     "confirm":"أكد",
     "cancel":"ألغيت",
     "dialog_tit":"موجه",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"منزل",
         "transfer":"نقل",
-        "contacts":"دفتر العناوين",
+        "contacts":"اتصال",
         "setting":"نصب",
         "total":"مجموع"
     },
     "page_setting":{
         "tit":"نصب",
+        "lang":"لغة",
         "select":"يرجى الاختيار"
     },
     "page_contacts":{
-        "tit":"دفتر العناوين",
+        "tit":"اتصال",
+        "add_dialog":"إضافة جهة اتصال",
+
         "add_cont":{
-            "tri_dialog":"أضف العنوان",
-            "dialog_tit":"أدخل معلومات العنوان",
-            "dialog_tag":"بطاقة",
-            "tag_placeholder":"يرجى إدخال علامة التعليق للعنوان",
-            "dialog_address":"عنوان",
-            "address_placeholder":"يرجى إدخال العنوان"
+            "tit":"أدخل معلومات الاتصال",
+            "tag":"بطاقة",
+            "address":"اتصال",
+            "tag_placeholder":"يرجى إدخال علامة تعليق جهة الاتصال",
+            "address_placeholder":"يرجى إدخال حساب جهة الاتصال"
         },
         "delete_dialog":{
             "title":"أنت تزيل"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"رمز الاستجابة السريعة",
-        "go_transfer":"بدء النقل",
-
         "transfer_log":"سجل المعاملات",
         "transfer_log_null":"لا يوجد سجل المعاملات",
 

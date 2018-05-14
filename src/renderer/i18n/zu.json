@@ -1,5 +1,4 @@
 {
-    "lang":"Ulimi",
     "confirm":"Isiqinisekiso",
     "cancel":"Ukukhansela",
     "dialog_tit":"I-Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Ikhaya",
         "transfer":"Kudluliselwa",
-        "contacts":"Ibhuku lekheli",
+        "contacts":"Oxhumana nabo",
         "setting":"Izilungiselelo",
         "total":"Inani"
     },
     "page_setting":{
         "tit":"Izilungiselelo",
+        "lang":"Ulimi",
         "select":"Sicela ukhethe"
     },
     "page_contacts":{
-        "tit":"Ibhuku lekheli",
+        "tit":"Oxhumana nabo",
+        "add_dialog":"Engeza oxhumana naye",
+
         "add_cont":{
-            "tri_dialog":"Engeza ikheli",
-            "dialog_tit":"Faka imininingwane yekheli",
-            "dialog_tag":"Amathegi",
-            "tag_placeholder":"Sicela ufake ithegi yamazwana ekhelini",
-            "dialog_address":"Ikheli",
-            "address_placeholder":"Sicela ufake ikheli"
+            "tit":"Faka imininingwane yokuxhumana",
+            "tag":"Amathegi",
+            "address":"Oxhumana nabo",
+            "tag_placeholder":"Sicela ufake umaka wamazwana womxhumana naye",
+            "address_placeholder":"Sicela ufake i-akhawunti yokuxhumana"
         },
         "delete_dialog":{
             "title":"Ususa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Ikhodi ye-QR",
-        "go_transfer":"Qalisa ukudluliswa",
-
         "transfer_log":"Umlando wokuThengiswa",
         "transfer_log_null":"Ayikho umlando wokuthengiselana",
 

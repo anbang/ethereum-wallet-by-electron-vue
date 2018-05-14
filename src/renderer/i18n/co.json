@@ -1,5 +1,4 @@
 {
-    "lang":"Lingua",
     "confirm":"Cunfirmazione",
     "cancel":"Annullazione",
     "dialog_tit":"Avvirtendu",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Trasferimentu",
-        "contacts":"Address book",
+        "contacts":"Cuntatti",
         "setting":"Settings",
         "total":"Tuttu"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"Lingua",
         "select":"Sceglite puru"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Cuntatti",
+        "add_dialog":"Aghjunghje un cuntattu",
+
         "add_cont":{
-            "tri_dialog":"Aghjunghjenu indirizzu",
-            "dialog_tit":"Introduce l'indirizzu infurmazione",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Per piacè inserite u cumendariu à l'indirizzu",
-            "dialog_address":"Indirizzu",
-            "address_placeholder":"Per piacè entre in l'indirizzu"
+            "tit":"Ingrandà infurmazione di contactu",
+            "tag":"Tags",
+            "address":"Cuntatti",
+            "tag_placeholder":"Per piacè inserite u tag di cummentariu di u cuntattu",
+            "address_placeholder":"Per piacè inserite u cuntattu di cuntattu"
         },
         "delete_dialog":{
             "title":"Vulete sguassà"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Inizià trasferimentu",
-
         "transfer_log":"Storia di a transacità",
         "transfer_log_null":"Nisuna storia di transaczione",
 

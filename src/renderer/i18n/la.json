@@ -1,5 +1,4 @@
 {
-    "lang":"lingua",
     "confirm":"Constituo",
     "cancel":"Pax:",
     "dialog_tit":"promptus",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"domum",
         "transfer":"De translatione",
-        "contacts":"Address book",
+        "contacts":"Contact",
         "setting":"eriges",
         "total":"summa"
     },
     "page_setting":{
         "tit":"eriges",
+        "lang":"lingua",
         "select":"placere eligere"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Contact",
+        "add_dialog":"Add a contactu",
+
         "add_cont":{
-            "tri_dialog":"addere Oratio",
-            "dialog_tit":"Intra in notitia inscriptio",
-            "dialog_tag":"Tag →",
-            "tag_placeholder":"PDF titulus oratio Epistola",
-            "dialog_address":"oratio",
-            "address_placeholder":"Please enter inscriptione"
+            "tit":"Intra contactus notitia",
+            "tag":"Tag →",
+            "address":"Contact",
+            "tag_placeholder":"Placere contactus intrare notas titulus est scriptor",
+            "address_placeholder":"Placere contactus intrare Ratio"
         },
         "delete_dialog":{
             "title":"Movens igitur tu es"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Duo dumtaxat codice",
-        "go_transfer":"initium capiat",
-
         "transfer_log":"Record transaction",
         "transfer_log_null":"Non transactions",
 

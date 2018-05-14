@@ -1,5 +1,4 @@
 {
-    "lang":"언어",
     "confirm":"확인",
     "cancel":"취소",
     "dialog_tit":"프롬프트",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"홈",
         "transfer":"전송",
-        "contacts":"주소록",
+        "contacts":"연락처",
         "setting":"설정",
         "total":"합계"
     },
     "page_setting":{
         "tit":"설정",
+        "lang":"언어",
         "select":"선택하십시오"
     },
     "page_contacts":{
-        "tit":"주소록",
+        "tit":"연락처",
+        "add_dialog":"연락처 추가",
+
         "add_cont":{
-            "tri_dialog":"주소 추가",
-            "dialog_tit":"주소 정보 입력",
-            "dialog_tag":"태그",
-            "tag_placeholder":"주소에 대한 설명 태그를 입력하십시오.",
-            "dialog_address":"주소",
-            "address_placeholder":"주소를 입력하십시오."
+            "tit":"연락처 정보 입력",
+            "tag":"태그",
+            "address":"연락처",
+            "tag_placeholder":"연락처의 의견 태그를 입력하십시오.",
+            "address_placeholder":"연락처 계정을 입력하십시오."
         },
         "delete_dialog":{
             "title":"제거하고 있습니다."
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR 코드",
-        "go_transfer":"전송 시작",
-
         "transfer_log":"거래 내역",
         "transfer_log_null":"거래 내역 없음",
 

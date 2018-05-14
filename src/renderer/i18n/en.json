@@ -1,5 +1,4 @@
 {
-    "lang":"Language",
     "confirm":"confirm",
     "cancel":"cancel",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Address book",
+        "contacts":"Contacts",
         "setting":"Settings",
         "total":"total"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"Language",
         "select":"please choose"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Contacts",
+        "add_dialog":"Add contacts",
+
         "add_cont":{
-            "tri_dialog":"Add address",
-            "dialog_tit":"Enter address information",
-            "dialog_tag":"label",
-            "tag_placeholder":"Please enter the comment tag for the address",
-            "dialog_address":"address",
-            "address_placeholder":"Please enter the address"
+            "tit":"Enter contact information",
+            "tag":"label",
+            "address":"Contacts",
+            "tag_placeholder":"Please enter the contact's comment tag",
+            "address_placeholder":"Please enter the contact account"
         },
         "delete_dialog":{
             "title":"You are removing"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Initiate transfer",
-
         "transfer_log":"Transaction Record",
         "transfer_log_null":"No transaction history",
 

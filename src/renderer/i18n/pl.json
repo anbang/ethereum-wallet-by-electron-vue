@@ -1,5 +1,4 @@
 {
-    "lang":"Język",
     "confirm":"Potwierdzenie",
     "cancel":"Anulowanie",
     "dialog_tit":"Pytaj",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Strona główna",
         "transfer":"Przenieś",
-        "contacts":"Książka adresowa",
+        "contacts":"Kontakty",
         "setting":"Ustawienia",
         "total":"Razem"
     },
     "page_setting":{
         "tit":"Ustawienia",
+        "lang":"Język",
         "select":"Proszę wybrać"
     },
     "page_contacts":{
-        "tit":"Książka adresowa",
+        "tit":"Kontakty",
+        "add_dialog":"Dodaj kontakt",
+
         "add_cont":{
-            "tri_dialog":"Dodaj adres",
-            "dialog_tit":"Wprowadź dane adresowe",
-            "dialog_tag":"Tagi",
-            "tag_placeholder":"Wprowadź tag komentarza dla adresu",
-            "dialog_address":"Adres",
-            "address_placeholder":"Proszę podać adres"
+            "tit":"Wprowadź informacje kontaktowe",
+            "tag":"Tagi",
+            "address":"Kontakty",
+            "tag_placeholder":"Wprowadź znacznik komentarza kontaktu",
+            "address_placeholder":"Proszę wprowadzić dane kontaktowe"
         },
         "delete_dialog":{
             "title":"Usuwasz"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Kod QR",
-        "go_transfer":"Rozpocznij transfer",
-
         "transfer_log":"Historia transakcji",
         "transfer_log_null":"Brak historii transakcji",
 

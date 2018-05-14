@@ -1,5 +1,4 @@
 {
-    "lang":"ਭਾਸ਼ਾ",
     "confirm":"ਪੁਸ਼ਟੀ",
     "cancel":"ਰੱਦ ਕਰਨਾ",
     "dialog_tit":"ਪੁੱਛੋ",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ਘਰ",
         "transfer":"ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
-        "contacts":"ਐਡਰੈੱਸ ਬੁੱਕ",
+        "contacts":"ਸੰਪਰਕ",
         "setting":"ਸੈਟਿੰਗਾਂ",
         "total":"ਕੁੱਲ"
     },
     "page_setting":{
         "tit":"ਸੈਟਿੰਗਾਂ",
+        "lang":"ਭਾਸ਼ਾ",
         "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
     },
     "page_contacts":{
-        "tit":"ਐਡਰੈੱਸ ਬੁੱਕ",
+        "tit":"ਸੰਪਰਕ",
+        "add_dialog":"ਇੱਕ ਸੰਪਰਕ ਜੋੜੋ",
+
         "add_cont":{
-            "tri_dialog":"ਐਡਰੈੱਸ ਜੋੜੋ",
-            "dialog_tit":"ਐਡਰੈੱਸ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
-            "dialog_tag":"ਟੈਗਸ",
-            "tag_placeholder":"ਐਡਰੈੱਸ ਲਈ ਟਿੱਪਣੀ ਟੈਗ ਦਿਓ ਜੀ",
-            "dialog_address":"ਪਤਾ",
-            "address_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਪਤਾ ਦਰਜ ਕਰੋ"
+            "tit":"ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
+            "tag":"ਟੈਗਸ",
+            "address":"ਸੰਪਰਕ",
+            "tag_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਸੰਪਰਕ ਦੀ ਟਿੱਪਣੀ ਟੈਗ ਦਾਖਲ ਕਰੋ",
+            "address_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਸੰਪਰਕ ਅਕਾਊਂਟ ਦਾਖਲ ਕਰੋ"
         },
         "delete_dialog":{
             "title":"ਤੁਸੀਂ ਹਟਾ ਰਹੇ ਹੋ"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR ਕੋਡ",
-        "go_transfer":"ਟ੍ਰਾਂਸਫਰ ਸ਼ੁਰੂ ਕਰੋ",
-
         "transfer_log":"ਲੈਣਦੇਣ ਦਾ ਇਤਿਹਾਸ",
         "transfer_log_null":"ਕੋਈ ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਇਤਿਹਾਸ ਨਹੀਂ",
 

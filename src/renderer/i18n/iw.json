@@ -1,5 +1,4 @@
 {
-    "lang":"שפה",
     "confirm":"אישור",
     "cancel":"ביטול",
     "dialog_tit":"הפקודה",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"בית",
         "transfer":"העברה",
-        "contacts":"פנקס כתובות",
+        "contacts":"מגעים",
         "setting":"הגדרות",
         "total":"סך הכל"
     },
     "page_setting":{
         "tit":"הגדרות",
+        "lang":"שפה",
         "select":"בחר"
     },
     "page_contacts":{
-        "tit":"פנקס כתובות",
+        "tit":"מגעים",
+        "add_dialog":"הוסף איש קשר",
+
         "add_cont":{
-            "tri_dialog":"הוסף כתובת",
-            "dialog_tit":"הזן פרטי כתובת",
-            "dialog_tag":"תגים",
-            "tag_placeholder":"הזן את תג התגובה עבור הכתובת",
-            "dialog_address":"כתובת",
-            "address_placeholder":"הזן את הכתובת"
+            "tit":"הזן פרטים ליצירת קשר",
+            "tag":"תגים",
+            "address":"מגעים",
+            "tag_placeholder":"הזן את תג התגובה של איש הקשר",
+            "address_placeholder":"הזן את חשבון איש הקשר"
         },
         "delete_dialog":{
             "title":"אתה מסיר"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"קוד QR",
-        "go_transfer":"התחל את ההעברה",
-
         "transfer_log":"היסטוריית עסקאות",
         "transfer_log_null":"אין היסטוריית עסקאות",
 

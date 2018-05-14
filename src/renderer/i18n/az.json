@@ -1,5 +1,4 @@
 {
-    "lang":"Dil",
     "confirm":"Təsdiqləmə",
     "cancel":"Ləğv et",
     "dialog_tit":"Sövq et",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Ev",
         "transfer":"Transfer",
-        "contacts":"Ünvan kitab",
+        "contacts":"Əlaqə",
         "setting":"Ayarlar",
         "total":"Ümumi"
     },
     "page_setting":{
         "tit":"Ayarlar",
+        "lang":"Dil",
         "select":"Xahiş edirik seçin"
     },
     "page_contacts":{
-        "tit":"Ünvan kitab",
+        "tit":"Əlaqə",
+        "add_dialog":"Kontakt əlavə edin",
+
         "add_cont":{
-            "tri_dialog":"Ünvan əlavə edin",
-            "dialog_tit":"Ünvan məlumatını daxil edin",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Lütfən, ünvan üçün şərh etiketini daxil edin",
-            "dialog_address":"Ünvanı",
-            "address_placeholder":"Xahiş edirik ünvanı daxil edin"
+            "tit":"Əlaqə məlumatı daxil edin",
+            "tag":"Tags",
+            "address":"Əlaqə",
+            "tag_placeholder":"Xahiş edirik əlaqəin yazı etiketini daxil edin",
+            "address_placeholder":"Əlaqə hesabını daxil edin"
         },
         "delete_dialog":{
             "title":"Siz çıxarırsınız"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kodu",
-        "go_transfer":"Transferin təşəbbüsü",
-
         "transfer_log":"Əməliyyat tarixi",
         "transfer_log_null":"Əməliyyat tarixi yoxdur",
 

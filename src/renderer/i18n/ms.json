@@ -1,5 +1,4 @@
 {
-    "lang":"Bahasa",
     "confirm":"Pengesahan",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Rumah",
         "transfer":"Pemindahan",
-        "contacts":"Buku alamat",
+        "contacts":"Kenalan",
         "setting":"Tetapan",
         "total":"Jumlah"
     },
     "page_setting":{
         "tit":"Tetapan",
+        "lang":"Bahasa",
         "select":"Sila pilih"
     },
     "page_contacts":{
-        "tit":"Buku alamat",
+        "tit":"Kenalan",
+        "add_dialog":"Tambah kenalan",
+
         "add_cont":{
-            "tri_dialog":"Tambah alamat",
-            "dialog_tit":"Masukkan maklumat alamat",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Sila masukkan teg komen untuk alamat",
-            "dialog_address":"Alamat",
-            "address_placeholder":"Sila masukkan alamat"
+            "tit":"Masukkan maklumat hubungan",
+            "tag":"Tags",
+            "address":"Kenalan",
+            "tag_placeholder":"Sila masukkan teg komen kenalan",
+            "address_placeholder":"Sila masukkan akaun kenalan"
         },
         "delete_dialog":{
             "title":"Anda membuang"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Kod QR",
-        "go_transfer":"Pindahan awal",
-
         "transfer_log":"Sejarah urus niaga",
         "transfer_log_null":"Tiada sejarah transaksi",
 

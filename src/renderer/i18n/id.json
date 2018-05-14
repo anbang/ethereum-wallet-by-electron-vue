@@ -1,5 +1,4 @@
 {
-    "lang":"Bahasa",
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Rumah",
         "transfer":"Transfer",
-        "contacts":"Buku alamat",
+        "contacts":"Kontak",
         "setting":"Pengaturan",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Pengaturan",
+        "lang":"Bahasa",
         "select":"Silakan pilih"
     },
     "page_contacts":{
-        "tit":"Buku alamat",
+        "tit":"Kontak",
+        "add_dialog":"Tambahkan kontak",
+
         "add_cont":{
-            "tri_dialog":"Tambahkan alamat",
-            "dialog_tit":"Masukkan informasi alamat",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Silakan masukkan tag komentar untuk alamat tersebut",
-            "dialog_address":"Alamat",
-            "address_placeholder":"Silakan masukkan alamat"
+            "tit":"Masukkan informasi kontak",
+            "tag":"Tag",
+            "address":"Kontak",
+            "tag_placeholder":"Silakan masukkan tag komentar kontak",
+            "address_placeholder":"Silakan masukkan akun kontak"
         },
         "delete_dialog":{
             "title":"Anda menghapus"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Kode QR",
-        "go_transfer":"Mulai transfer",
-
         "transfer_log":"Riwayat transaksi",
         "transfer_log_null":"Tidak ada riwayat transaksi",
 

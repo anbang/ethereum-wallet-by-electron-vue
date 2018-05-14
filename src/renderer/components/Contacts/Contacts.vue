@@ -24,46 +24,47 @@
                 <div class="contacts-item add-contacts" @click="dialogFormVisible = true">
                     <div class="contacts-cont">
                       <i class="iconfont icon-add-contacts">&#xe63b;</i>
-                      <p class="add-contacts-des">{{ $t('page_contacts.add_cont.tri_dialog') }}</p>
+                      <p class="add-contacts-des">{{ $t('page_contacts.add_dialog') }}</p>
                     </div>  
                 </div>
 
 
             </div>
         </div>
-<!-- create dialog -->
-<el-dialog :title="$t('page_contacts.add_cont.dialog_tit')" 
-width="70%":visible.sync="dialogFormVisible">
-  <el-form :model="form">
-    <el-form-item :label="$t('page_contacts.add_cont.dialog_tag')" :label-width="formLabelWidth">
-      <el-input v-model="form.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
-    </el-form-item>
 
-    <el-form-item :label="$t('page_contacts.add_cont.dialog_address')" :label-width="formLabelWidth">
-      <el-input v-model="form.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')" 
-      ></el-input>
-    </el-form-item>
-  </el-form>
-  <div slot="footer" class="dialog-footer">
-    <el-button @click="dialogFormVisible = false">{{$t('cancel')}}</el-button>
-    <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
-  </div>
-</el-dialog>
+  <!-- create dialog -->
+  <el-dialog :title="$t('page_contacts.add_cont.tit')" 
+  width="70%":visible.sync="dialogFormVisible">
+    <el-form :model="form">
+      <el-form-item :label="$t('page_contacts.add_cont.tag')" :label-width="formLabelWidth">
+        <el-input v-model="form.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
+      </el-form-item>
 
-<!-- delete confirm dialog -->
-<el-dialog
-  :title="$t('page_contacts.delete_dialog.title')"
-  :visible.sync="dialogDelete.switch"
-  width="60%">
-  <p>
-    {{dialogDelete.addressObj.tag}}
-  </p>
-  <p class="text-regular">{{dialogDelete.addressObj.address}}</p>
-  <span slot="footer" class="dialog-footer">
-    <el-button @click="dialogDelete.switch = false">{{$t('cancel')}}</el-button>
-    <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
-  </span>
-</el-dialog>
+      <el-form-item :label="$t('page_contacts.add_cont.address')" :label-width="formLabelWidth">
+        <el-input v-model="form.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')" 
+        ></el-input>
+      </el-form-item>
+    </el-form>
+    <div slot="footer" class="dialog-footer">
+      <el-button @click="dialogFormVisible = false">{{$t('cancel')}}</el-button>
+      <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
+    </div>
+  </el-dialog>
+
+  <!-- delete confirm dialog -->
+  <el-dialog
+    :title="$t('page_contacts.delete_dialog.title')"
+    :visible.sync="dialogDelete.switch"
+    width="60%">
+    <p>
+      {{dialogDelete.addressObj.tag}}
+    </p>
+    <p class="text-regular">{{dialogDelete.addressObj.address}}</p>
+    <span slot="footer" class="dialog-footer">
+      <el-button @click="dialogDelete.switch = false">{{$t('cancel')}}</el-button>
+      <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
+    </span>
+  </el-dialog>
 
 </div>
 </template>

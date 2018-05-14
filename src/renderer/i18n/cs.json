@@ -1,5 +1,4 @@
 {
-    "lang":"Jazyk",
     "confirm":"Potvrzení",
     "cancel":"Zrušení",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Domů",
         "transfer":"Přenos",
-        "contacts":"Adresář",
+        "contacts":"Kontakty",
         "setting":"Nastavení",
         "total":"Celkem"
     },
     "page_setting":{
         "tit":"Nastavení",
+        "lang":"Jazyk",
         "select":"Vyberte prosím"
     },
     "page_contacts":{
-        "tit":"Adresář",
+        "tit":"Kontakty",
+        "add_dialog":"Přidat kontakt",
+
         "add_cont":{
-            "tri_dialog":"Přidat adresu",
-            "dialog_tit":"Zadejte informace o adrese",
-            "dialog_tag":"Tagy",
-            "tag_placeholder":"Zadejte značku komentářů pro adresu",
-            "dialog_address":"Adresa",
-            "address_placeholder":"Zadejte adresu"
+            "tit":"Zadejte kontaktní informace",
+            "tag":"Tagy",
+            "address":"Kontakty",
+            "tag_placeholder":"Zadejte značku komentářů kontaktu",
+            "address_placeholder":"Zadejte konto kontaktu"
         },
         "delete_dialog":{
             "title":"Odstraňujete"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kód",
-        "go_transfer":"Zahajte převod",
-
         "transfer_log":"Historie transakcí",
         "transfer_log_null":"Žádná historie transakcí",
 

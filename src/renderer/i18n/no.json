@@ -1,5 +1,4 @@
 {
-    "lang":"språk",
     "confirm":"bekrefte",
     "cancel":"avbrutt",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Hjem",
         "transfer":"Transfer",
-        "contacts":"Adressebok",
+        "contacts":"Kontakt",
         "setting":"Sett opp",
         "total":"total"
     },
     "page_setting":{
         "tit":"Sett opp",
+        "lang":"språk",
         "select":"Vennligst velg"
     },
     "page_contacts":{
-        "tit":"Adressebok",
+        "tit":"Kontakt",
+        "add_dialog":"Legg til en kontakt",
+
         "add_cont":{
-            "tri_dialog":"Legg til adresse",
-            "dialog_tit":"Skriv inn adresseinformasjon",
-            "dialog_tag":"tag",
-            "tag_placeholder":"Vennligst skriv inn kommentarmerket for adressen",
-            "dialog_address":"adresse",
-            "address_placeholder":"Vennligst skriv inn adressen"
+            "tit":"Skriv inn kontaktinformasjon",
+            "tag":"tag",
+            "address":"Kontakt",
+            "tag_placeholder":"Vennligst skriv inn kontaktens kommentarer-tagg",
+            "address_placeholder":"Vennligst skriv inn kontaktkontoen"
         },
         "delete_dialog":{
             "title":"Du fjerner"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-kode",
-        "go_transfer":"Start overføring",
-
         "transfer_log":"Transaksjonshistorikk",
         "transfer_log_null":"Ingen transaksjonshistorikk",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"'Ōlelo",
     "confirm":"Hōʻoia",
     "cancel":"Hoʻokahuli",
     "dialog_tit":"Hoʻonui",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Hoʻololi",
-        "contacts":"Puka puke",
+        "contacts":"Nāʻike",
         "setting":"Nā Papa",
         "total":"Hōʻuluʻulu"
     },
     "page_setting":{
         "tit":"Nā Papa",
+        "lang":"'Ōlelo",
         "select":"E koho"
     },
     "page_contacts":{
-        "tit":"Puka puke",
+        "tit":"Nāʻike",
+        "add_dialog":"Hoʻohui i kahi leka",
+
         "add_cont":{
-            "tri_dialog":"Pākuʻi i kahi helu",
-            "dialog_tit":"E komo i kaʻikepili kūlana",
-            "dialog_tag":"Nā helu",
-            "tag_placeholder":"Eʻoluʻolu e tomo i ka helu tag no ka helu",
-            "dialog_address":"Wāina",
-            "address_placeholder":"Eʻoluʻolu e komo i kahi helu"
+            "tit":"E komo i kaʻike hulina",
+            "tag":"Nā helu",
+            "address":"Nāʻike",
+            "tag_placeholder":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i ka helu kuhihewa o ka leka",
+            "address_placeholder":"Eʻoluʻolu e komo i ka helu kuhi"
         },
         "delete_dialog":{
             "title":"Ke wehe neiʻoe"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"E hoʻomaka i ka hoʻololi",
-
         "transfer_log":"Ka hana kuhi puke",
         "transfer_log_null":"ʻAʻohe kūkena maʻamau",
 

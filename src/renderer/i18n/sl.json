@@ -1,5 +1,4 @@
 {
-    "lang":"Jezik",
     "confirm":"Potrditev",
     "cancel":"Odpoved",
     "dialog_tit":"Poziv",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Domov",
         "transfer":"Prenos",
-        "contacts":"Imenik",
+        "contacts":"Stiki",
         "setting":"Nastavitve",
         "total":"Skupaj"
     },
     "page_setting":{
         "tit":"Nastavitve",
+        "lang":"Jezik",
         "select":"Prosim izberite"
     },
     "page_contacts":{
-        "tit":"Imenik",
+        "tit":"Stiki",
+        "add_dialog":"Dodaj stik",
+
         "add_cont":{
-            "tri_dialog":"Dodaj naslov",
-            "dialog_tit":"Vnesite podatke o naslovu",
-            "dialog_tag":"Oznake",
-            "tag_placeholder":"Prosimo, vnesite oznako za komentar za naslov",
-            "dialog_address":"Naslov",
-            "address_placeholder":"Vnesite naslov"
+            "tit":"Vnesite podatke za stik",
+            "tag":"Oznake",
+            "address":"Stiki",
+            "tag_placeholder":"Vnesite oznako za stik osebe",
+            "address_placeholder":"Vnesite kontaktni račun"
         },
         "delete_dialog":{
             "title":"Odstranite"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kodo",
-        "go_transfer":"Začnite prenos",
-
         "transfer_log":"Zgodovina transakcij",
         "transfer_log_null":"Brez zgodovine transakcij",
 

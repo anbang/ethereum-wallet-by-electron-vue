@@ -1,5 +1,4 @@
 {
-    "lang":"Teanga",
     "confirm":"Dearbhú",
     "cancel":"Cealú",
     "dialog_tit":"Pras",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Baile",
         "transfer":"Aistriú",
-        "contacts":"Leabhar seoladh",
+        "contacts":"Teagmhálacha",
         "setting":"Socruithe",
         "total":"Iomlán"
     },
     "page_setting":{
         "tit":"Socruithe",
+        "lang":"Teanga",
         "select":"Roghnaigh"
     },
     "page_contacts":{
-        "tit":"Leabhar seoladh",
+        "tit":"Teagmhálacha",
+        "add_dialog":"Cuir teagmhála leis",
+
         "add_cont":{
-            "tri_dialog":"Cuir seoladh",
-            "dialog_tit":"Cuir isteach eolas seoladh",
-            "dialog_tag":"Clibeanna",
-            "tag_placeholder":"Cuir isteach an tag tráchta don seoladh",
-            "dialog_address":"Seoladh",
-            "address_placeholder":"Cuir isteach an seoladh"
+            "tit":"Cuir isteach eolas teagmhála",
+            "tag":"Clibeanna",
+            "address":"Teagmhálacha",
+            "tag_placeholder":"Cuir isteach tag tagartha an teagmhála",
+            "address_placeholder":"Cuir isteach an gcuntas teagmhála"
         },
         "delete_dialog":{
             "title":"Tá tú ag baint úsáide as"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR cód",
-        "go_transfer":"Aistriú a thosú",
-
         "transfer_log":"Stair na hidirbhearta",
         "transfer_log_null":"Uimh stair idirbheart",
 

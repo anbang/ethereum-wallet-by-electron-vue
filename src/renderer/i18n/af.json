@@ -1,5 +1,4 @@
 {
-    "lang":"taal",
     "confirm":"bevestig",
     "cancel":"gekanselleer",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"huis",
         "transfer":"oordrag",
-        "contacts":"Adresboek",
+        "contacts":"Kontak",
         "setting":"opstel",
         "total":"totale"
     },
     "page_setting":{
         "tit":"opstel",
+        "lang":"taal",
         "select":"Kies asseblief"
     },
     "page_contacts":{
-        "tit":"Adresboek",
+        "tit":"Kontak",
+        "add_dialog":"Voeg 'n kontak by",
+
         "add_cont":{
-            "tri_dialog":"Voeg adres by",
-            "dialog_tit":"Voer adresinligting in",
-            "dialog_tag":"tag",
-            "tag_placeholder":"Voer asseblief die kommentaar tag vir die adres in",
-            "dialog_address":"adres",
-            "address_placeholder":"Voer asseblief die adres in"
+            "tit":"Voer kontakbesonderhede in",
+            "tag":"tag",
+            "address":"Kontak",
+            "tag_placeholder":"Voer asseblief die kontak se kommentaar tag in",
+            "address_placeholder":"Voer asseblief die kontakrekening in"
         },
         "delete_dialog":{
             "title":"Jy verwyder"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kode",
-        "go_transfer":"Inisieer oordrag",
-
         "transfer_log":"Transaksiegeskiedenis",
         "transfer_log_null":"Geen transaksiegeskiedenis nie",
 

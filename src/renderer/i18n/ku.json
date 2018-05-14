@@ -1,5 +1,4 @@
 {
-    "lang":"Ziman",
     "confirm":"Pejirandin",
     "cancel":"Daxistinê",
     "dialog_tit":"Bêguman",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Pirtûka navnîşê",
+        "contacts":"Têkilî",
         "setting":"Mîhengên",
         "total":"Tevahî"
     },
     "page_setting":{
         "tit":"Mîhengên",
+        "lang":"Ziman",
         "select":"Ji kerema xwe hilbijêrin"
     },
     "page_contacts":{
-        "tit":"Pirtûka navnîşê",
+        "tit":"Têkilî",
+        "add_dialog":"Pêwendî têkilî bikin",
+
         "add_cont":{
-            "tri_dialog":"Navnîşana Navnîşan",
-            "dialog_tit":"Agahdariya navnîşanê binivîse",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Ji kerema xwe ji navnîşana nîşana nîşana navnîşê binivîse",
-            "dialog_address":"Navnîşan",
-            "address_placeholder":"Ji kerema xwe navnîşana navnîşan bike"
+            "tit":"Agahdarî têkiliyê bike",
+            "tag":"Tags",
+            "address":"Têkilî",
+            "tag_placeholder":"Ji kerema xwe kerema xwe ya şîrove ya têkiliyê têkiliyê bike",
+            "address_placeholder":"Ji kerema xwe re hesabê têkiliyê bike"
         },
         "delete_dialog":{
             "title":"Tu derxistin"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Veguherîna destpêkirinê",
-
         "transfer_log":"Dîroka danûstendinê",
         "transfer_log_null":"Dîroka danûstandinê tune",
 

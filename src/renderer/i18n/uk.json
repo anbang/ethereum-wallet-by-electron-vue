@@ -1,5 +1,4 @@
 {
-    "lang":"Мова",
     "confirm":"Підтвердження",
     "cancel":"Скасування",
     "dialog_tit":"Підказка",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Будинок",
         "transfer":"Трансфер",
-        "contacts":"Адресна книга",
+        "contacts":"Контакти",
         "setting":"Налаштування",
         "total":"Всього"
     },
     "page_setting":{
         "tit":"Налаштування",
+        "lang":"Мова",
         "select":"Будь ласка, виберіть"
     },
     "page_contacts":{
-        "tit":"Адресна книга",
+        "tit":"Контакти",
+        "add_dialog":"Додати контакт",
+
         "add_cont":{
-            "tri_dialog":"Додати адресу",
-            "dialog_tit":"Введіть інформацію про адресу",
-            "dialog_tag":"Теги",
-            "tag_placeholder":"Будь ласка, введіть тег коментаря для адреси",
-            "dialog_address":"Адреса",
-            "address_placeholder":"Будь-ласка, введіть адресу"
+            "tit":"Введіть контактну інформацію",
+            "tag":"Теги",
+            "address":"Контакти",
+            "tag_placeholder":"Будь ласка, введіть тег коментарів контакту",
+            "address_placeholder":"Будь ласка, введіть контактний рахунок"
         },
         "delete_dialog":{
             "title":"Ви видаляєте"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-код",
-        "go_transfer":"Ініціюйте передачу",
-
         "transfer_log":"Історія транзакцій",
         "transfer_log_null":"Немає історії транзакцій",
 

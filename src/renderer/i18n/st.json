@@ -1,5 +1,4 @@
 {
-    "lang":"Puo",
     "confirm":"Bopaki",
     "cancel":"Ho hlakola",
     "dialog_tit":"Tsoela pele",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Lehae",
         "transfer":"Fetisetsa",
-        "contacts":"Buka ea Aterese",
+        "contacts":"Mabitso",
         "setting":"Lisebelisoa",
         "total":"Kakaretso"
     },
     "page_setting":{
         "tit":"Lisebelisoa",
+        "lang":"Puo",
         "select":"Ka kopo khetha"
     },
     "page_contacts":{
-        "tit":"Buka ea Aterese",
+        "tit":"Mabitso",
+        "add_dialog":"Kenya kopano",
+
         "add_cont":{
-            "tri_dialog":"Kenya aterese",
-            "dialog_tit":"Kenya boitsebiso ba aterese",
-            "dialog_tag":"Litlhaku",
-            "tag_placeholder":"Ka kopo kenya leboko la maikutlo bakeng sa aterese",
-            "dialog_address":"Aterese",
-            "address_placeholder":"Ka kopo kenya aterese"
+            "tit":"Kenya tlhahisoleseding ea puisano",
+            "tag":"Litlhaku",
+            "address":"Mabitso",
+            "tag_placeholder":"Ka kopo kenya lebokose la motsoalle",
+            "address_placeholder":"Ka kopo, kenya akhaonto ea puisano"
         },
         "delete_dialog":{
             "title":"Ua tlosa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Qala ho fetisetsa",
-
         "transfer_log":"Transaction histori",
         "transfer_log_null":"Ha ho histori ea ho rekisa",
 

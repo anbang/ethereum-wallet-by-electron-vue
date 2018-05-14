@@ -1,5 +1,4 @@
 {
-    "lang":"Jezik",
     "confirm":"Potvrda",
     "cancel":"Otkazivanje",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adresar",
+        "contacts":"Kontakti",
         "setting":"Postavke",
         "total":"Ukupno"
     },
     "page_setting":{
         "tit":"Postavke",
+        "lang":"Jezik",
         "select":"Molimo izaberite"
     },
     "page_contacts":{
-        "tit":"Adresar",
+        "tit":"Kontakti",
+        "add_dialog":"Dodajte kontakt",
+
         "add_cont":{
-            "tri_dialog":"Dodajte adresu",
-            "dialog_tit":"Unesite informacije o adresi",
-            "dialog_tag":"Oznake",
-            "tag_placeholder":"Molimo unesite oznaku za komentar za adresu",
-            "dialog_address":"Adresa",
-            "address_placeholder":"Molimo unesite adresu"
+            "tit":"Unesite informacije o kontaktu",
+            "tag":"Oznake",
+            "address":"Kontakti",
+            "tag_placeholder":"Molimo unesite oznaku za komentare",
+            "address_placeholder":"Molimo unesite kontaktni račun"
         },
         "delete_dialog":{
             "title":"Vi uklanjate"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kod",
-        "go_transfer":"Pokrenite transfer",
-
         "transfer_log":"Istorija transakcija",
         "transfer_log_null":"Nema istorije transakcija",
 

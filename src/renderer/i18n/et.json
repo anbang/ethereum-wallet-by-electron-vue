@@ -1,5 +1,4 @@
 {
-    "lang":"Keel",
     "confirm":"Kinnitus",
     "cancel":"Tühistamine",
     "dialog_tit":"Küsi",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Kodu",
         "transfer":"Üleandmine",
-        "contacts":"Aadressiraamat",
+        "contacts":"Kontaktid",
         "setting":"Seaded",
         "total":"Kokku"
     },
     "page_setting":{
         "tit":"Seaded",
+        "lang":"Keel",
         "select":"Palun vali"
     },
     "page_contacts":{
-        "tit":"Aadressiraamat",
+        "tit":"Kontaktid",
+        "add_dialog":"Lisage kontakt",
+
         "add_cont":{
-            "tri_dialog":"Lisage aadress",
-            "dialog_tit":"Sisestage aadressi andmed",
-            "dialog_tag":"Sildid",
-            "tag_placeholder":"Sisestage aadressi kommentaarimärgend",
-            "dialog_address":"Aadress",
-            "address_placeholder":"Palun sisestage aadress"
+            "tit":"Sisestage kontaktandmed",
+            "tag":"Sildid",
+            "address":"Kontaktid",
+            "tag_placeholder":"Sisestage kontakti kommentaarimärk",
+            "address_placeholder":"Palun sisestage kontaktisik"
         },
         "delete_dialog":{
             "title":"Te eemaldate"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-kood",
-        "go_transfer":"Käivita üleandmine",
-
         "transfer_log":"Tehinguajalugu",
         "transfer_log_null":"Tehingute ajalugu pole",
 

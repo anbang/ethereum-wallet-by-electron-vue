@@ -1,5 +1,4 @@
 {
-    "lang":"ພາສາ",
     "confirm":"ການຢືນຢັນ",
     "cancel":"ການຍົກເລີກ",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ຫນ້າທໍາອິດ",
         "transfer":"ການໂອນເງິນ",
-        "contacts":"ປື້ມທີ່ຢູ່",
+        "contacts":"ຕິດຕໍ່ພົວພັນ",
         "setting":"Settings",
         "total":"ລວມ"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"ພາສາ",
         "select":"ກະລຸນາເລືອກ"
     },
     "page_contacts":{
-        "tit":"ປື້ມທີ່ຢູ່",
+        "tit":"ຕິດຕໍ່ພົວພັນ",
+        "add_dialog":"ຕື່ມການຕິດຕໍ່",
+
         "add_cont":{
-            "tri_dialog":"ຕື່ມການທີ່ຢູ່",
-            "dialog_tit":"ໃສ່ຂໍ້ມູນທີ່ຢູ່",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"ກະລຸນາໃສ່ແທັບຄໍາສໍາລັບທີ່ຢູ່",
-            "dialog_address":"ທີ່ຢູ່",
-            "address_placeholder":"ກະລຸນາໃສ່ທີ່ຢູ່"
+            "tit":"ກະລຸນາໃສ່ຂໍ້ມູນການຕິດຕໍ່",
+            "tag":"Tags",
+            "address":"ຕິດຕໍ່ພົວພັນ",
+            "tag_placeholder":"ກະລຸນາໃສ່ແທັກຄໍາຄິດເຫັນຂອງຜູ້ຕິດຕໍ່",
+            "address_placeholder":"ກະລຸນາໃສ່ບັນຊີຕິດຕໍ່"
         },
         "delete_dialog":{
             "title":"ທ່ານກໍາລັງຖອນເອົາ"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
-
         "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
         "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
 

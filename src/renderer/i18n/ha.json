@@ -1,5 +1,4 @@
 {
-    "lang":"Harshe",
     "confirm":"Tabbatarwa",
     "cancel":"Cancellation",
     "dialog_tit":"Ƙaddara",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Canja wurin",
-        "contacts":"Littafin adireshi",
+        "contacts":"Lambobi",
         "setting":"Saituna",
         "total":"Jimlar"
     },
     "page_setting":{
         "tit":"Saituna",
+        "lang":"Harshe",
         "select":"Da fatan a zaɓi"
     },
     "page_contacts":{
-        "tit":"Littafin adireshi",
+        "tit":"Lambobi",
+        "add_dialog":"Ƙara lamba",
+
         "add_cont":{
-            "tri_dialog":"Ƙara adireshin",
-            "dialog_tit":"Shigar da bayanin adireshin",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Da fatan a shigar da tag na sharhi don adireshin",
-            "dialog_address":"Adireshin",
-            "address_placeholder":"Da fatan a shigar da adireshin"
+            "tit":"Shigar da bayanin lamba",
+            "tag":"Tags",
+            "address":"Lambobi",
+            "tag_placeholder":"Da fatan za a shigar da tag din adireshin mai lamba",
+            "address_placeholder":"Da fatan a shigar da asusun tuntuɓa"
         },
         "delete_dialog":{
             "title":"Ana cirewa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Fara canja wuri",
-
         "transfer_log":"Tarihin ma'amala",
         "transfer_log_null":"Babu tarihin fassarar",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"kieli",
     "confirm":"vahvistaa",
     "cancel":"peruttu",
     "dialog_tit":"nopea",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"koti",
         "transfer":"siirto",
-        "contacts":"Osoitekirja",
+        "contacts":"kosketus",
         "setting":"perustettu",
         "total":"kokonais-"
     },
     "page_setting":{
         "tit":"perustettu",
+        "lang":"kieli",
         "select":"Valitse"
     },
     "page_contacts":{
-        "tit":"Osoitekirja",
+        "tit":"kosketus",
+        "add_dialog":"Lisää yhteystieto",
+
         "add_cont":{
-            "tri_dialog":"Lisää osoite",
-            "dialog_tit":"Anna osoiteinformaatiot",
-            "dialog_tag":"tag",
-            "tag_placeholder":"Anna osoite kommenttikoodille",
-            "dialog_address":"osoite",
-            "address_placeholder":"Anna osoite"
+            "tit":"Anna yhteystiedot",
+            "tag":"tag",
+            "address":"kosketus",
+            "tag_placeholder":"Anna yhteyshenkilön kommenttikoodi",
+            "address_placeholder":"Anna yhteystili"
         },
         "delete_dialog":{
             "title":"Poistat"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-koodi",
-        "go_transfer":"Käynnistä siirto",
-
         "transfer_log":"Tapahtumahistoria",
         "transfer_log_null":"Ei tapahtumahistoriaa",
 

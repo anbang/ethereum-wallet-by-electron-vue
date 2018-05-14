@@ -1,5 +1,4 @@
 {
-    "lang":"ٻولي",
     "confirm":"تصديق",
     "cancel":"منسوب",
     "dialog_tit":"تڪڙو",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"گھر",
         "transfer":"منتقلي",
-        "contacts":"ايڊريس ڪتاب",
+        "contacts":"رابطا",
         "setting":"سيٽنگون",
         "total":"ڪل"
     },
     "page_setting":{
         "tit":"سيٽنگون",
+        "lang":"ٻولي",
         "select":"مهرباني ڪري چونڊيو"
     },
     "page_contacts":{
-        "tit":"ايڊريس ڪتاب",
+        "tit":"رابطا",
+        "add_dialog":"رابطو شامل ڪريو",
+
         "add_cont":{
-            "tri_dialog":"پتو شامل ڪريو",
-            "dialog_tit":"ايڊريس ڄاڻ داخل ڪريو",
-            "dialog_tag":"ٽيگ",
-            "tag_placeholder":"مهرباني ڪري پتي لاء تبصرو ٽيگ داخل ڪريو",
-            "dialog_address":"پتو",
-            "address_placeholder":"مهرباني ڪري ايڊريس داخل ڪريو"
+            "tit":"رابطي جي ڄاڻ داخل ڪريو",
+            "tag":"ٽيگ",
+            "address":"رابطا",
+            "tag_placeholder":"مهرباني ڪري رابطي جي راء جي ٽيگ داخل ڪريو",
+            "address_placeholder":"مهرباني ڪري رابطي وارو اڪائونٽ داخل ڪريو"
         },
         "delete_dialog":{
             "title":"توهان کي ختم ڪري رهيا آهيو"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"ڪوڊ ڪوڊ",
-        "go_transfer":"منتقلي جي منتقلي",
-
         "transfer_log":"ٽرانزيڪشن جي تاريخ",
         "transfer_log_null":"ڪابه ٽرانزيڪشن جي تاريخ",
 

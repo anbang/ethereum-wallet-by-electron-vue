@@ -1,5 +1,4 @@
 {
-    "lang":"gjuhë",
     "confirm":"konfirmoj",
     "cancel":"anuluar",
     "dialog_tit":"i menjëhershëm",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"shtëpi",
         "transfer":"transferim",
-        "contacts":"Libri i adresave",
+        "contacts":"kontakt",
         "setting":"ngritur",
         "total":"total"
     },
     "page_setting":{
         "tit":"ngritur",
+        "lang":"gjuhë",
         "select":"Ju lutem zgjidhni"
     },
     "page_contacts":{
-        "tit":"Libri i adresave",
+        "tit":"kontakt",
+        "add_dialog":"Shto një kontakt",
+
         "add_cont":{
-            "tri_dialog":"Shto adresën",
-            "dialog_tit":"Shkruani informacionin e adresës",
-            "dialog_tag":"etiketë",
-            "tag_placeholder":"Ju lutemi shkruani tag komentin për adresën",
-            "dialog_address":"adresë",
-            "address_placeholder":"Ju lutemi shkruani adresën"
+            "tit":"Shkruani informacionin e kontaktit",
+            "tag":"etiketë",
+            "address":"kontakt",
+            "tag_placeholder":"Ju lutemi shkruani tagun e komentit të kontaktit",
+            "address_placeholder":"Ju lutemi shkruani llogarinë e kontaktit"
         },
         "delete_dialog":{
             "title":"Po heq"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kodi",
-        "go_transfer":"Nise transferimin",
-
         "transfer_log":"Historiku i transaksionit",
         "transfer_log_null":"Asnjë histori transaksioni",
 

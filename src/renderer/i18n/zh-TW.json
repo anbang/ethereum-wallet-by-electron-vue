@@ -1,5 +1,4 @@
 {
-    "lang":"語言",
     "confirm":"確認",
     "cancel":"取消",
     "dialog_tit":"提示",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"首頁",
         "transfer":"轉賬",
-        "contacts":"地址薄",
+        "contacts":"聯繫人",
         "setting":"設置",
         "total":"合計"
     },
     "page_setting":{
         "tit":"設置",
+        "lang":"語言",
         "select":"請選擇"
     },
     "page_contacts":{
-        "tit":"地址薄",
+        "tit":"聯繫人",
+        "add_dialog":"添加聯繫人",
+
         "add_cont":{
-            "tri_dialog":"添加地址",
-            "dialog_tit":"輸入地址信息",
-            "dialog_tag":"標籤",
-            "tag_placeholder":"請輸入地址的備註標籤",
-            "dialog_address":"地址",
-            "address_placeholder":"請輸入地址"
+            "tit":"輸入聯繫人信息",
+            "tag":"標籤",
+            "address":"聯繫人",
+            "tag_placeholder":"請輸入聯繫人的備註標籤",
+            "address_placeholder":"請輸入聯繫人賬戶"
         },
         "delete_dialog":{
             "title":"您正在移除"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"二維碼",
-        "go_transfer":"發起轉賬",
-
         "transfer_log":"交易記錄",
         "transfer_log_null":"暫無交易記錄",
 

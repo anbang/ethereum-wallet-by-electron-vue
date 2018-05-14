@@ -1,5 +1,4 @@
 {
-    "lang":"fiteny",
     "confirm":"Hamarino",
     "cancel":"nofoanana ny",
     "dialog_tit":"avy hatrany",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adiresy boky",
+        "contacts":"Contact",
         "setting":"Manangana",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Manangana",
+        "lang":"fiteny",
         "select":"Mifantena azafady"
     },
     "page_contacts":{
-        "tit":"Adiresy boky",
+        "tit":"Contact",
+        "add_dialog":"Hanampy fifandraisana",
+
         "add_cont":{
-            "tri_dialog":"Ampio adiresy",
-            "dialog_tit":"Ampidiro ny fampahalalana ny adiresy",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Ampidiro azafady ny valin-kevitra momba ny adiresy",
-            "dialog_address":"Address",
-            "address_placeholder":"Azafady azafady ny adiresy"
+            "tit":"Ampidiro ny fampahalalana amin'ny fifandraisana",
+            "tag":"Tag",
+            "address":"Contact",
+            "tag_placeholder":"Ampidiro azafady ny valin-kevitra momba ny fifandraisana",
+            "address_placeholder":"Ampidiro azafady ny kaonty fifandraisana"
         },
         "delete_dialog":{
             "title":"Miala ianao"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Hanomboka handefasana",
-
         "transfer_log":"Tantaran'ny trosa",
         "transfer_log_null":"Tsy misy tantara momba ny raharaham-barotra",
 

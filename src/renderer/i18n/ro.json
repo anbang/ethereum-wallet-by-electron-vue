@@ -1,5 +1,4 @@
 {
-    "lang":"limbă",
     "confirm":"confirma",
     "cancel":"anulat",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"acasă",
         "transfer":"transfer",
-        "contacts":"Agendă de adrese",
+        "contacts":"contact",
         "setting":"Configurarea",
         "total":"total"
     },
     "page_setting":{
         "tit":"Configurarea",
+        "lang":"limbă",
         "select":"Selectați"
     },
     "page_contacts":{
-        "tit":"Agendă de adrese",
+        "tit":"contact",
+        "add_dialog":"Adăugați un contact",
+
         "add_cont":{
-            "tri_dialog":"Adăugați adresa",
-            "dialog_tit":"Introduceți informații despre adresă",
-            "dialog_tag":"etichetă",
-            "tag_placeholder":"Introduceți eticheta comentariu pentru adresă",
-            "dialog_address":"adresă",
-            "address_placeholder":"Introduceți adresa"
+            "tit":"Introduceți informațiile de contact",
+            "tag":"etichetă",
+            "address":"contact",
+            "tag_placeholder":"Introduceți eticheta comentariului persoanei de contact",
+            "address_placeholder":"Introduceți contul de contact"
         },
         "delete_dialog":{
             "title":"Înlăturați"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Codul QR",
-        "go_transfer":"Inițiați transferul",
-
         "transfer_log":"Istoricul tranzacțiilor",
         "transfer_log_null":"Nu există istoricul tranzacțiilor",
 

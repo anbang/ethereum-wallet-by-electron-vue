@@ -1,5 +1,4 @@
 {
-    "lang":"言語",
     "confirm":"確認",
     "cancel":"キャンセル",
     "dialog_tit":"プロンプト",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ホーム",
         "transfer":"転送",
-        "contacts":"アドレス帳",
+        "contacts":"連絡先",
         "setting":"設定",
         "total":"合計"
     },
     "page_setting":{
         "tit":"設定",
+        "lang":"言語",
         "select":"選択してください"
     },
     "page_contacts":{
-        "tit":"アドレス帳",
+        "tit":"連絡先",
+        "add_dialog":"連絡先を追加",
+
         "add_cont":{
-            "tri_dialog":"アドレスを追加する",
-            "dialog_tit":"アドレス情報を入力",
-            "dialog_tag":"タグ",
-            "tag_placeholder":"アドレスのコメントタグを入力してください",
-            "dialog_address":"住所",
-            "address_placeholder":"住所を入力してください"
+            "tit":"連絡先情報を入力してください",
+            "tag":"タグ",
+            "address":"連絡先",
+            "tag_placeholder":"連絡先のコメントタグを入力してください",
+            "address_placeholder":"連絡先のアカウントを入力してください"
         },
         "delete_dialog":{
             "title":"あなたは削除しています"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QRコード",
-        "go_transfer":"転送を開始する",
-
         "transfer_log":"取引履歴",
         "transfer_log_null":"取引履歴はありません",
 

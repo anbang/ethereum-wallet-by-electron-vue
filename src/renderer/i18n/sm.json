@@ -1,5 +1,4 @@
 {
-    "lang":"Gagana",
     "confirm":"Faamauga",
     "cancel":"Faaleaogaina",
     "dialog_tit":"Usiusitai",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Aiga",
         "transfer":"Fesuiaiga",
-        "contacts":"Tusi lauga",
+        "contacts":"Fesoʻotaʻiga",
         "setting":"Faʻasologa",
         "total":"Aofaʻi"
     },
     "page_setting":{
         "tit":"Faʻasologa",
+        "lang":"Gagana",
         "select":"Faamolemole filifili"
     },
     "page_contacts":{
-        "tit":"Tusi lauga",
+        "tit":"Fesoʻotaʻiga",
+        "add_dialog":"Faʻaopoopo se fesoʻotaʻiga",
+
         "add_cont":{
-            "tri_dialog":"Faʻaopoopo le tuatusi",
-            "dialog_tit":"Ulufale faʻamatalaga faʻamatalaga",
-            "dialog_tag":"Faailoga",
-            "tag_placeholder":"Faʻamolemole ulufale i le comment tag mo le tuatusi",
-            "dialog_address":"Tuatusi",
-            "address_placeholder":"Faamolemole ulufale mai i le tuatusi"
+            "tit":"Ulufale faʻamatalaga faʻamatalaga",
+            "tag":"Faailoga",
+            "address":"Fesoʻotaʻiga",
+            "tag_placeholder":"Faʻamolemole faʻafesoʻotaʻi le faʻamatalaga a le faʻafeagaiga",
+            "address_placeholder":"Faʻamolemole tuʻu le faʻamatalaga fesoʻotaʻiga"
         },
         "delete_dialog":{
             "title":"O loʻo e vaʻavaʻa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Amata le fesiitaiga",
-
         "transfer_log":"Talaʻaga o galuega",
         "transfer_log_null":"Leai se tala faʻasolopito",
 

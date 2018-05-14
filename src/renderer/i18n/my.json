@@ -1,5 +1,4 @@
 {
-    "lang":"ဘာသာစကား",
     "confirm":"အတည်ပြု",
     "cancel":"ဖျက်သိမ်း",
     "dialog_tit":"လျင်မြန်စွာ",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"နေအိမ်",
         "transfer":"လွှဲပြောင်း",
-        "contacts":"စာအုပ်နေရပ်လိပ်စာ",
+        "contacts":"ထိတှေ့",
         "setting":"တက် Set",
         "total":"စုစုပေါငျး"
     },
     "page_setting":{
         "tit":"တက် Set",
+        "lang":"ဘာသာစကား",
         "select":"ကို select ပေးပါ"
     },
     "page_contacts":{
-        "tit":"စာအုပ်နေရပ်လိပ်စာ",
+        "tit":"ထိတှေ့",
+        "add_dialog":"အဆက်အသွယ် Add",
+
         "add_cont":{
-            "tri_dialog":"လိပ်စာ Add",
-            "dialog_tit":"လိပ်စာသတင်းအချက်အလက် Enter",
-            "dialog_tag":"tag ကို",
-            "tag_placeholder":"လိပ်စာတံဆိပ်မှတ်ချက်ရိုက်ထည့်ပေးပါ",
-            "dialog_address":"လိပ်စာ",
-            "address_placeholder":"လိပ်စာရိုက်ထည့်ပေးပါ"
+            "tit":"ဆက်သွယ်ရန်အချက်အလက် Enter",
+            "tag":"tag ကို",
+            "address":"ထိတှေ့",
+            "tag_placeholder":"ဆက်သွယ်ရဲ့တံဆိပ်မှတ်စုများကိုရိုက်ထည့်ပေးပါ",
+            "address_placeholder":"ဆက်သွယ်အကောင့်ရိုက်ထည့်ပေးပါ"
         },
         "delete_dialog":{
             "title":"သငျသညျမဖယ်ရှားကြသည်"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Two-ရှုထောင်ကုဒ်",
-        "go_transfer":"လွှဲပြောင်း Initiate",
-
         "transfer_log":"ငွေသွင်းငွေထုတ်မှတ်တမ်း",
         "transfer_log_null":"အဘယ်သူမျှမငွေကြေးလွှဲပြောင်းမှုမှာ",
 

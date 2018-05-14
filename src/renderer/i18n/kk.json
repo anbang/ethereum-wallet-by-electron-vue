@@ -1,5 +1,4 @@
 {
-    "lang":"Тіл",
     "confirm":"Растау",
     "cancel":"Болдырмау",
     "dialog_tit":"Кеңес",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Үй",
         "transfer":"Аудару",
-        "contacts":"Мекенжайлық кітап",
+        "contacts":"Байланыс",
         "setting":"Параметрлер",
         "total":"жалпы"
     },
     "page_setting":{
         "tit":"Параметрлер",
+        "lang":"Тіл",
         "select":"Таңдаңыз"
     },
     "page_contacts":{
-        "tit":"Мекенжайлық кітап",
+        "tit":"Байланыс",
+        "add_dialog":"Контактіні қосыңыз",
+
         "add_cont":{
-            "tri_dialog":"Мекенжайды қосыңыз",
-            "dialog_tit":"Мекен-жай мәліметтерін енгізіңіз",
-            "dialog_tag":"Тегтер",
-            "tag_placeholder":"Мекен-жайы үшін түсініктеме тегін енгізіңіз",
-            "dialog_address":"Мекенжай",
-            "address_placeholder":"Мекенжайды енгізіңіз"
+            "tit":"Контакт туралы ақпаратты енгізіңіз",
+            "tag":"Тегтер",
+            "address":"Байланыс",
+            "tag_placeholder":"Контакт түсініктемесін енгізіңіз",
+            "address_placeholder":"Контакт тіркелгісін енгізіңіз"
         },
         "delete_dialog":{
             "title":"Сіз жойып жатырсыз"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR коды",
-        "go_transfer":"Ауыстыруды бастау",
-
         "transfer_log":"Транзакция тарихы",
         "transfer_log_null":"Транзакция тарихы жоқ",
 

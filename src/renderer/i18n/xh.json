@@ -1,5 +1,4 @@
 {
-    "lang":"ULwimi",
     "confirm":"Isiqinisekiso",
     "cancel":"Ku rhoxiswa",
     "dialog_tit":"Ukunyuswa",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Ikhaya",
         "transfer":"U tshintshelo",
-        "contacts":"Incwadi yee dilesi",
+        "contacts":"Ifowuni",
         "setting":"Izicwangciso",
         "total":"Iyonke"
     },
     "page_setting":{
         "tit":"Izicwangciso",
+        "lang":"ULwimi",
         "select":"Nceda ukhethe"
     },
     "page_contacts":{
-        "tit":"Incwadi yee dilesi",
+        "tit":"Ifowuni",
+        "add_dialog":"Yongeza umnxeba",
+
         "add_cont":{
-            "tri_dialog":"Yongeza idilesi",
-            "dialog_tit":"Faka idilesi yolwazi",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Nceda ufake itekiti yombono kwidilesi",
-            "dialog_address":"Idilesi",
-            "address_placeholder":"Nceda faka idilesi"
+            "tit":"Faka ulwazi lomnxeba",
+            "tag":"Tags",
+            "address":"Ifowuni",
+            "tag_placeholder":"Nceda faka itekisi yombono woqhagamshelwano",
+            "address_placeholder":"Nceda faka i-akhawunti yomnxeba"
         },
         "delete_dialog":{
             "title":"U kususa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR ikhowudi",
-        "go_transfer":"Qalisa ukudluliselwa",
-
         "transfer_log":"Imbali yomsebenzi",
         "transfer_log_null":"Akukho mlando wokuthengiselana",
 

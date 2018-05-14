@@ -1,5 +1,4 @@
 {
-    "lang":"Tungumál",
     "confirm":"Staðfesting",
     "cancel":"Afpöntun",
     "dialog_tit":"Hvetja",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Heim",
         "transfer":"Flytja",
-        "contacts":"Heimilisfang bók",
+        "contacts":"Tengiliðir",
         "setting":"Stillingar",
         "total":"Samtals"
     },
     "page_setting":{
         "tit":"Stillingar",
+        "lang":"Tungumál",
         "select":"Vinsamlegast veldu"
     },
     "page_contacts":{
-        "tit":"Heimilisfang bók",
+        "tit":"Tengiliðir",
+        "add_dialog":"Bæta við tengilið",
+
         "add_cont":{
-            "tri_dialog":"Bæta við heimilisfangi",
-            "dialog_tit":"Sláðu inn heimilisfangsupplýsingar",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Vinsamlegast sláðu inn athugasemdarkóðann fyrir heimilisfangið",
-            "dialog_address":"Heimilisfang",
-            "address_placeholder":"Vinsamlegast sláðu inn heimilisfangið"
+            "tit":"Sláðu inn tengiliðaupplýsingar",
+            "tag":"Tags",
+            "address":"Tengiliðir",
+            "tag_placeholder":"Vinsamlegast sláðu inn athugasemdirmerki tengiliðarins",
+            "address_placeholder":"Vinsamlegast sláðu inn tengiliðareikninginn"
         },
         "delete_dialog":{
             "title":"Þú ert að fjarlægja"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kóða",
-        "go_transfer":"Hefja flutning",
-
         "transfer_log":"Viðskiptasaga",
         "transfer_log_null":"Engin viðskiptasaga",
 

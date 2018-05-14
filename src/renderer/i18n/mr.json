@@ -1,5 +1,4 @@
 {
-    "lang":"भाषा",
     "confirm":"पुष्टीकरण",
     "cancel":"रद्दीकरण",
     "dialog_tit":"प्रॉम्प्ट",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"मुख्यपृष्ठ",
         "transfer":"हस्तांतरण",
-        "contacts":"अॅड्रेस बुक",
+        "contacts":"संपर्क",
         "setting":"सेटिंग्ज",
         "total":"एकूण"
     },
     "page_setting":{
         "tit":"सेटिंग्ज",
+        "lang":"भाषा",
         "select":"कृपया निवडा"
     },
     "page_contacts":{
-        "tit":"अॅड्रेस बुक",
+        "tit":"संपर्क",
+        "add_dialog":"एक संपर्क जोडा",
+
         "add_cont":{
-            "tri_dialog":"पत्ता जोडा",
-            "dialog_tit":"पत्ता माहिती प्रविष्ट करा",
-            "dialog_tag":"टॅग्ज",
-            "tag_placeholder":"कृपया पत्त्यासाठी टिप्पणी टॅग प्रविष्ट करा",
-            "dialog_address":"पत्ता",
-            "address_placeholder":"कृपया पत्ता प्रविष्ट करा"
+            "tit":"संपर्क माहिती प्रविष्ट करा",
+            "tag":"टॅग्ज",
+            "address":"संपर्क",
+            "tag_placeholder":"कृपया संपर्काचे टिप्पणी टॅग प्रविष्ट करा",
+            "address_placeholder":"कृपया संपर्क खाते प्रविष्ट करा"
         },
         "delete_dialog":{
             "title":"आपण काढत आहात"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR कोड",
-        "go_transfer":"हस्तांतरण आरंभ करा",
-
         "transfer_log":"व्यवहार इतिहास",
         "transfer_log_null":"व्यवहार इतिहास नाही",
 

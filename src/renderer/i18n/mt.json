@@ -1,5 +1,4 @@
 {
-    "lang":"Lingwa",
     "confirm":"Konferma",
     "cancel":"Kanċellazzjoni",
     "dialog_tit":"Pront",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Dar",
         "transfer":"Trasferiment",
-        "contacts":"Indirizz ktieb",
+        "contacts":"Kuntatti",
         "setting":"Settings",
         "total":"Totali"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"Lingwa",
         "select":"Jekk jogħġbok agħżel"
     },
     "page_contacts":{
-        "tit":"Indirizz ktieb",
+        "tit":"Kuntatti",
+        "add_dialog":"Żid kuntatt",
+
         "add_cont":{
-            "tri_dialog":"Żid l-indirizz",
-            "dialog_tit":"Daħħal l-informazzjoni tal-indirizz",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Jekk jogħġbok idħol it-tikketta tal-kumment għall-indirizz",
-            "dialog_address":"Indirizz",
-            "address_placeholder":"Jekk jogħġbok ikteb l-indirizz"
+            "tit":"Daħħal informazzjoni ta 'kuntatt",
+            "tag":"Tags",
+            "address":"Kuntatti",
+            "tag_placeholder":"Jekk jogħġbok ikteb it-tikketta tal-kumment tal-kuntatt",
+            "address_placeholder":"Jekk jogħġbok ikteb il-kont tal-kuntatt"
         },
         "delete_dialog":{
             "title":"Int qed tneħħi"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Kodiċi QR",
-        "go_transfer":"Ibda t-trasferiment",
-
         "transfer_log":"L-istorja tat-tranżazzjoni",
         "transfer_log_null":"L-ebda storja ta 'transazzjoni",
 

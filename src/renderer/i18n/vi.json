@@ -1,5 +1,4 @@
 {
-    "lang":"Ngôn ngữ",
     "confirm":"Xác nhận",
     "cancel":"Hủy bỏ",
     "dialog_tit":"Nhắc",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Trang chủ",
         "transfer":"Chuyển khoản",
-        "contacts":"Sổ địa chỉ",
+        "contacts":"Danh bạ",
         "setting":"Cài đặt",
         "total":"Tổng số"
     },
     "page_setting":{
         "tit":"Cài đặt",
+        "lang":"Ngôn ngữ",
         "select":"Vui lòng chọn"
     },
     "page_contacts":{
-        "tit":"Sổ địa chỉ",
+        "tit":"Danh bạ",
+        "add_dialog":"Thêm liên hệ",
+
         "add_cont":{
-            "tri_dialog":"Thêm địa chỉ",
-            "dialog_tit":"Nhập thông tin địa chỉ",
-            "dialog_tag":"Thẻ",
-            "tag_placeholder":"Vui lòng nhập thẻ nhận xét cho địa chỉ",
-            "dialog_address":"Địa chỉ",
-            "address_placeholder":"Vui lòng nhập địa chỉ"
+            "tit":"Nhập thông tin liên hệ",
+            "tag":"Thẻ",
+            "address":"Danh bạ",
+            "tag_placeholder":"Vui lòng nhập thẻ nhận xét của liên hệ",
+            "address_placeholder":"Vui lòng nhập tài khoản liên hệ"
         },
         "delete_dialog":{
             "title":"Bạn đang xóa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Mã QR",
-        "go_transfer":"Bắt đầu chuyển",
-
         "transfer_log":"Lịch sử giao dịch",
         "transfer_log_null":"Không có lịch sử giao dịch",
 

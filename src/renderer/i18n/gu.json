@@ -1,5 +1,4 @@
 {
-    "lang":"ભાષા",
     "confirm":"સમર્થન",
     "cancel":"રદ",
     "dialog_tit":"પ્રોમ્પ્ટ",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"હોમ",
         "transfer":"પરિવહન",
-        "contacts":"સરનામું પુસ્તક",
+        "contacts":"સંપર્કો",
         "setting":"સેટિંગ્સ",
         "total":"કુલ"
     },
     "page_setting":{
         "tit":"સેટિંગ્સ",
+        "lang":"ભાષા",
         "select":"કૃપા કરીને પસંદ કરો"
     },
     "page_contacts":{
-        "tit":"સરનામું પુસ્તક",
+        "tit":"સંપર્કો",
+        "add_dialog":"સંપર્ક ઉમેરો",
+
         "add_cont":{
-            "tri_dialog":"સરનામું ઉમેરો",
-            "dialog_tit":"સરનામું માહિતી દાખલ કરો",
-            "dialog_tag":"ટૅગ્સ",
-            "tag_placeholder":"સરનામા માટે ટિપ્પણી ટેગ દાખલ કરો",
-            "dialog_address":"સરનામું",
-            "address_placeholder":"કૃપા કરીને સરનામું દાખલ કરો"
+            "tit":"સંપર્ક માહિતી દાખલ કરો",
+            "tag":"ટૅગ્સ",
+            "address":"સંપર્કો",
+            "tag_placeholder":"કૃપા કરીને સંપર્કની ટિપ્પણી ટૅગ દાખલ કરો",
+            "address_placeholder":"કૃપા કરીને સંપર્ક એકાઉન્ટ દાખલ કરો"
         },
         "delete_dialog":{
             "title":"તમે દૂર કરી રહ્યાં છો"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR કોડ",
-        "go_transfer":"ટ્રાન્સફર શરૂ કરો",
-
         "transfer_log":"વ્યવહાર ઇતિહાસ",
         "transfer_log_null":"કોઈ વ્યવહાર ઇતિહાસ નથી",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"Valoda",
     "confirm":"Apstiprinājums",
     "cancel":"Anulēšana",
     "dialog_tit":"Uzvedne",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Mājas",
         "transfer":"Pārsūtīšana",
-        "contacts":"Adrešu grāmata",
+        "contacts":"Kontakti",
         "setting":"Iestatījumi",
         "total":"Kopā"
     },
     "page_setting":{
         "tit":"Iestatījumi",
+        "lang":"Valoda",
         "select":"Lūdzu, izvēlieties"
     },
     "page_contacts":{
-        "tit":"Adrešu grāmata",
+        "tit":"Kontakti",
+        "add_dialog":"Pievienojiet kontaktu",
+
         "add_cont":{
-            "tri_dialog":"Pievienot adresi",
-            "dialog_tit":"Ievadiet adreses informāciju",
-            "dialog_tag":"Birkas",
-            "tag_placeholder":"Lūdzu, ievadiet komentāra tagu par adresi",
-            "dialog_address":"Adrese",
-            "address_placeholder":"Lūdzu, ievadiet adresi"
+            "tit":"Ievadiet kontaktinformāciju",
+            "tag":"Birkas",
+            "address":"Kontakti",
+            "tag_placeholder":"Lūdzu, ievadiet kontaktpersonas komentāru tagu",
+            "address_placeholder":"Lūdzu, ievadiet kontakta kontu"
         },
         "delete_dialog":{
             "title":"Jūs noņemat"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kods",
-        "go_transfer":"Uzsākt pārskaitījumu;",
-
         "transfer_log":"Darījumu vēsture",
         "transfer_log_null":"Nav darījumu vēstures",
 

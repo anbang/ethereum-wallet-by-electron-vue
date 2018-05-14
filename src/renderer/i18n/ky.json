@@ -1,5 +1,4 @@
 {
-    "lang":"тил",
     "confirm":"ырастоо",
     "cancel":"жокко чыгарылды",
     "dialog_tit":"тез",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"үй",
         "transfer":"ташуу",
-        "contacts":"Дарек китеби",
+        "contacts":"Байланыш",
         "setting":"орнотуу",
         "total":"Бардыгы болуп"
     },
     "page_setting":{
         "tit":"орнотуу",
+        "lang":"тил",
         "select":"Сураныч, тандоо"
     },
     "page_contacts":{
-        "tit":"Дарек китеби",
+        "tit":"Байланыш",
+        "add_dialog":"Байланышты кошуу",
+
         "add_cont":{
-            "tri_dialog":"кошуу дарек",
-            "dialog_tit":"дарегин киргизүү",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Сураныч дарек этикеткасы Эскертүүлөр кирет",
-            "dialog_address":"дарек",
-            "address_placeholder":"Сураныч, дарегин киргизүү"
+            "tit":"Байланыш маалыматын киргизүү",
+            "tag":"Tag",
+            "address":"Байланыш",
+            "tag_placeholder":"Сураныч, байланыш этикеткасы киргизе",
+            "address_placeholder":"Байланыштын эсебин кирет"
         },
         "delete_dialog":{
             "title":"Сиз алып жатышат"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Эки өлчөмдүү коду",
-        "go_transfer":"которууну демилгелөө",
-
         "transfer_log":"бүтүмдүн Record",
         "transfer_log_null":"эч кандай бүтүмдөр",
 

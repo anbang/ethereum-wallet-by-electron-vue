@@ -1,5 +1,4 @@
 {
-    "lang":"Lus",
     "confirm":"Kev lees paub",
     "cancel":"Tshem tawm",
     "dialog_tit":"Sij hawm",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Tsev",
         "transfer":"Hloov mus",
-        "contacts":"Chaw nyob",
+        "contacts":"Hu rau",
         "setting":"Chaw",
         "total":"Tag nrho"
     },
     "page_setting":{
         "tit":"Chaw",
+        "lang":"Lus",
         "select":"Thov xaiv"
     },
     "page_contacts":{
-        "tit":"Chaw nyob",
+        "tit":"Hu rau",
+        "add_dialog":"Ntxiv ib qho kev sib cuag",
+
         "add_cont":{
-            "tri_dialog":"Ntxiv chaw nyob",
-            "dialog_tit":"Sau chaw nyob",
-            "dialog_tag":"Ntawv cim npe",
-            "tag_placeholder":"Thov sau tag saib rau qhov chaw nyob",
-            "dialog_address":"Chaw nyob",
-            "address_placeholder":"Thov sau chaw nyob"
+            "tit":"Sau cov lus qhia kev sib cuag",
+            "tag":"Ntawv cim npe",
+            "address":"Hu rau",
+            "tag_placeholder":"Thov sau tus neeg teb xov tooj",
+            "address_placeholder":"Thov sau tus account"
         },
         "delete_dialog":{
             "title":"Koj tshem tawm"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Pib hloov chaw",
-
         "transfer_log":"Tuaj hauv keeb kwm",
         "transfer_log_null":"Tsis muaj keeb kwm ua lag luam",
 

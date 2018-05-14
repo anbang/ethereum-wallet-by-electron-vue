@@ -1,5 +1,4 @@
 {
-    "lang":"Lingvo",
     "confirm":"Konfirmo",
     "cancel":"Nuligo",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Hejmo",
         "transfer":"Translokigo",
-        "contacts":"Libro de adresoj",
+        "contacts":"Kontaktoj",
         "setting":"Agordoj",
         "total":"Tuta"
     },
     "page_setting":{
         "tit":"Agordoj",
+        "lang":"Lingvo",
         "select":"Bonvolu elekti"
     },
     "page_contacts":{
-        "tit":"Libro de adresoj",
+        "tit":"Kontaktoj",
+        "add_dialog":"Aldonu kontakton",
+
         "add_cont":{
-            "tri_dialog":"Aldonu adreson",
-            "dialog_tit":"Eniri adreson-informojn",
-            "dialog_tag":"Etikedoj",
-            "tag_placeholder":"Bonvolu enmeti la komentan etikedon por la adreso",
-            "dialog_address":"Adreso",
-            "address_placeholder":"Bonvolu eniri la adreson"
+            "tit":"Eniri kontaktan informon",
+            "tag":"Etikedoj",
+            "address":"Kontaktoj",
+            "tag_placeholder":"Bonvolu enmeti la komentan etikedon de la kontakto",
+            "address_placeholder":"Bonvolu eniri la kontaktan konton"
         },
         "delete_dialog":{
             "title":"Vi forigas"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-kodo",
-        "go_transfer":"Komenca translokigo",
-
         "transfer_log":"Transakcio-historio",
         "transfer_log_null":"Neniu transakcia historio",
 

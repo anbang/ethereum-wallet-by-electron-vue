@@ -1,5 +1,4 @@
 {
-    "lang":"lingua",
     "confirm":"confermare",
     "cancel":"annullato",
     "dialog_tit":"sollecito",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"casa",
         "transfer":"trasferimento",
-        "contacts":"Rubrica",
+        "contacts":"contatto",
         "setting":"impostare",
         "total":"totale"
     },
     "page_setting":{
         "tit":"impostare",
+        "lang":"lingua",
         "select":"Per favore seleziona"
     },
     "page_contacts":{
-        "tit":"Rubrica",
+        "tit":"contatto",
+        "add_dialog":"Aggiungi un contatto",
+
         "add_cont":{
-            "tri_dialog":"Aggiungi indirizzo",
-            "dialog_tit":"Inserisci le informazioni sull'indirizzo",
-            "dialog_tag":"etichetta",
-            "tag_placeholder":"Si prega di inserire il tag commento per l'indirizzo",
-            "dialog_address":"indirizzo",
-            "address_placeholder":"Si prega di inserire l'indirizzo"
+            "tit":"Inserisci le informazioni di contatto",
+            "tag":"etichetta",
+            "address":"contatto",
+            "tag_placeholder":"Si prega di inserire il tag di commento del contatto",
+            "address_placeholder":"Si prega di inserire l'account di contatto"
         },
         "delete_dialog":{
             "title":"Stai rimuovendo"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Codice QR",
-        "go_transfer":"Inizia trasferimento",
-
         "transfer_log":"Cronologia delle transazioni",
         "transfer_log_null":"Nessuna cronologia delle transazioni",
 

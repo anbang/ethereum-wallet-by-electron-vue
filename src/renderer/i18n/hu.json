@@ -1,5 +1,4 @@
 {
-    "lang":"nyelv",
     "confirm":"Erősítse",
     "cancel":"törölve",
     "dialog_tit":"azonnali",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"otthon",
         "transfer":"átutalás",
-        "contacts":"Címjegyzék",
+        "contacts":"érintkezés",
         "setting":"beállítása",
         "total":"teljes"
     },
     "page_setting":{
         "tit":"beállítása",
+        "lang":"nyelv",
         "select":"Kérem válasszon"
     },
     "page_contacts":{
-        "tit":"Címjegyzék",
+        "tit":"érintkezés",
+        "add_dialog":"Adjon hozzá egy nevet",
+
         "add_cont":{
-            "tri_dialog":"Cím hozzáadása",
-            "dialog_tit":"Írja be a címadatokat",
-            "dialog_tag":"címke",
-            "tag_placeholder":"Adja meg a cím komment címkéjét",
-            "dialog_address":"cím",
-            "address_placeholder":"Kérjük, adja meg a címet"
+            "tit":"Adja meg az elérhetőségi adatokat",
+            "tag":"címke",
+            "address":"érintkezés",
+            "tag_placeholder":"Adja meg a partner kommentárcímkéjét",
+            "address_placeholder":"Kérjük, adja meg a kapcsolatfiókot"
         },
         "delete_dialog":{
             "title":"Ön eltávolít"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kód",
-        "go_transfer":"Átirányítás kezdeményezése",
-
         "transfer_log":"Tranzakciók előzményei",
         "transfer_log_null":"Nincs tranzakcióelőzmény",
 

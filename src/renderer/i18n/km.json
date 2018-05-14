@@ -1,5 +1,4 @@
 {
-    "lang":"ភាសា",
     "confirm":"ការបញ្ជាក់",
     "cancel":"ការលប់ចោល",
     "dialog_tit":"ប្រអប់បញ្ចូល",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ផ្ទះ",
         "transfer":"ផ្ទេរ",
-        "contacts":"សៀវភៅអាសយដ្ឋាន",
+        "contacts":"ទំនាក់ទំនង",
         "setting":"ការកំណត់",
         "total":"សរុប"
     },
     "page_setting":{
         "tit":"ការកំណត់",
+        "lang":"ភាសា",
         "select":"សូមជ្រើសរើស"
     },
     "page_contacts":{
-        "tit":"សៀវភៅអាសយដ្ឋាន",
+        "tit":"ទំនាក់ទំនង",
+        "add_dialog":"បន្ថែមទំនាក់ទំនង",
+
         "add_cont":{
-            "tri_dialog":"បន្ថែមអាសយដ្ឋាន",
-            "dialog_tit":"បញ្ចូលព័ត៌មានអាសយដ្ឋាន",
-            "dialog_tag":"ស្លាក",
-            "tag_placeholder":"សូមបញ្ចូលស្លាកមតិយោបល់សម្រាប់អាសយដ្ឋាន",
-            "dialog_address":"អាសយដ្ឋាន",
-            "address_placeholder":"សូមបញ្ចូលអាសយដ្ឋាន"
+            "tit":"បញ្ចូលព័ត៌មានទំនាក់ទំនង",
+            "tag":"ស្លាក",
+            "address":"ទំនាក់ទំនង",
+            "tag_placeholder":"សូមបញ្ចូលស្លាកមតិយោបល់របស់ទំនាក់ទំនង",
+            "address_placeholder":"សូមបញ្ចូលគណនីទំនាក់ទំនង"
         },
         "delete_dialog":{
             "title":"អ្នកកំពុងដកចេញ"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"ចាប់ផ្តើមផ្ទេរ",
-
         "transfer_log":"ប្រវត្តិប្រតិបត្តិការ",
         "transfer_log_null":"មិនមានប្រវត្តិប្រតិបត្តិការ",
 

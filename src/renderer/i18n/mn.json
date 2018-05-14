@@ -1,5 +1,4 @@
 {
-    "lang":"Хэл",
     "confirm":"Баталгаажуулалт",
     "cancel":"Цуцлах",
     "dialog_tit":"Захиалга",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Нүүр хуудас",
         "transfer":"Шилжүүлэх",
-        "contacts":"Хаяг ном",
+        "contacts":"Харилцагчид",
         "setting":"Тохиргоо",
         "total":"Нийт"
     },
     "page_setting":{
         "tit":"Тохиргоо",
+        "lang":"Хэл",
         "select":"Сонгоно уу"
     },
     "page_contacts":{
-        "tit":"Хаяг ном",
+        "tit":"Харилцагчид",
+        "add_dialog":"Харилцагч нэмэх",
+
         "add_cont":{
-            "tri_dialog":"Хаяг нэмэх",
-            "dialog_tit":"Хаягийн мэдээллийг оруулна уу",
-            "dialog_tag":"Сэдвийн",
-            "tag_placeholder":"Хаягийн тайлбар комментыг оруулна уу",
-            "dialog_address":"Хаяг",
-            "address_placeholder":"Хаягаа оруулна уу"
+            "tit":"Харилцагчийн мэдээллийг оруулна уу",
+            "tag":"Сэдвийн",
+            "address":"Харилцагчид",
+            "tag_placeholder":"Харилцагчийн коммандын тайлбарыг оруулна уу",
+            "address_placeholder":"Харилцагчийн хаягаа оруулна уу"
         },
         "delete_dialog":{
             "title":"Та устгаж байна"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR код",
-        "go_transfer":"Шилжүүлгийг эхлүүлэх",
-
         "transfer_log":"Гүйлгээний түүх",
         "transfer_log_null":"Ямар ч гүйлгээний түүх алга",
 

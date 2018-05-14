@@ -1,5 +1,4 @@
 {
-    "lang":"ภาษา",
     "confirm":"ยืนยัน",
     "cancel":"ยกเลิก",
     "dialog_tit":"รวดเร็ว",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"บ้าน",
         "transfer":"โอน",
-        "contacts":"สมุดที่อยู่",
+        "contacts":"ติดต่อ",
         "setting":"จัดตั้งขึ้น",
         "total":"ทั้งหมด"
     },
     "page_setting":{
         "tit":"จัดตั้งขึ้น",
+        "lang":"ภาษา",
         "select":"โปรดเลือก"
     },
     "page_contacts":{
-        "tit":"สมุดที่อยู่",
+        "tit":"ติดต่อ",
+        "add_dialog":"เพิ่มผู้ติดต่อ",
+
         "add_cont":{
-            "tri_dialog":"เพิ่มที่อยู่",
-            "dialog_tit":"ป้อนข้อมูลที่อยู่",
-            "dialog_tag":"แท็ก",
-            "tag_placeholder":"โปรดป้อนแท็กความคิดเห็นสำหรับที่อยู่",
-            "dialog_address":"ที่อยู่",
-            "address_placeholder":"โปรดป้อนที่อยู่"
+            "tit":"ป้อนข้อมูลการติดต่อ",
+            "tag":"แท็ก",
+            "address":"ติดต่อ",
+            "tag_placeholder":"โปรดป้อนแท็กความคิดเห็นของผู้ติดต่อ",
+            "address_placeholder":"โปรดป้อนบัญชีผู้ติดต่อ"
         },
         "delete_dialog":{
             "title":"คุณกำลังนำออก"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"รหัส QR",
-        "go_transfer":"เริ่มการถ่ายโอน",
-
         "transfer_log":"ประวัติการทำธุรกรรม",
         "transfer_log_null":"ไม่มีประวัติการทำธุรกรรม",
 

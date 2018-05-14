@@ -1,5 +1,4 @@
 {
-    "lang":"زبان",
     "confirm":"تأیید",
     "cancel":"لغو",
     "dialog_tit":"درخواست",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"خانه",
         "transfer":"انتقال",
-        "contacts":"کتاب آدرس",
+        "contacts":"اطلاعات تماس",
         "setting":"تنظیمات",
         "total":"کل"
     },
     "page_setting":{
         "tit":"تنظیمات",
+        "lang":"زبان",
         "select":"لطفا انتخاب کنید"
     },
     "page_contacts":{
-        "tit":"کتاب آدرس",
+        "tit":"اطلاعات تماس",
+        "add_dialog":"یک مخاطب اضافه کنید",
+
         "add_cont":{
-            "tri_dialog":"آدرس را اضافه کنید",
-            "dialog_tit":"اطلاعات آدرس را وارد کنید",
-            "dialog_tag":"برچسب ها",
-            "tag_placeholder":"لطفا برچسب نظر را برای آدرس وارد کنید",
-            "dialog_address":"آدرس",
-            "address_placeholder":"لطفا آدرس را وارد کنید"
+            "tit":"اطلاعات تماس را وارد کنید",
+            "tag":"برچسب ها",
+            "address":"اطلاعات تماس",
+            "tag_placeholder":"لطفا برچسب نظر تماس را وارد کنید",
+            "address_placeholder":"لطفا حساب تماس را وارد کنید"
         },
         "delete_dialog":{
             "title":"شما حذف می کنید"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"کد QR",
-        "go_transfer":"شروع انتقال",
-
         "transfer_log":"سابقه تراکنش",
         "transfer_log_null":"بدون تاریخ معامله",
 

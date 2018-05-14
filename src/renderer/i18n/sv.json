@@ -1,5 +1,4 @@
 {
-    "lang":"språk",
     "confirm":"bekräfta",
     "cancel":"Inställd",
     "dialog_tit":"prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adressbok",
+        "contacts":"Kontakta",
         "setting":"Ställ in",
         "total":"total"
     },
     "page_setting":{
         "tit":"Ställ in",
+        "lang":"språk",
         "select":"Vänligen välj"
     },
     "page_contacts":{
-        "tit":"Adressbok",
+        "tit":"Kontakta",
+        "add_dialog":"Lägg till en kontakt",
+
         "add_cont":{
-            "tri_dialog":"Lägg till adress",
-            "dialog_tit":"Ange adressinformation",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Vänligen ange kommentarkoden för adressen",
-            "dialog_address":"adress",
-            "address_placeholder":"Vänligen ange adressen"
+            "tit":"Ange kontaktinformation",
+            "tag":"Tag",
+            "address":"Kontakta",
+            "tag_placeholder":"Vänligen ange kontaktens kommentarer tagg",
+            "address_placeholder":"Vänligen ange kontaktkontot"
         },
         "delete_dialog":{
             "title":"Du tar bort"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR-kod",
-        "go_transfer":"Inleda överföring",
-
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
 

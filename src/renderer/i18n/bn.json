@@ -1,5 +1,4 @@
 {
-    "lang":"ভাষা",
     "confirm":"নিশ্চিত করা",
     "cancel":"বাতিল করা হয়েছে",
     "dialog_tit":"প্রম্পট",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"বাড়ি",
         "transfer":"হস্তান্তর",
-        "contacts":"ঠিকানা বই",
+        "contacts":"যোগাযোগ",
         "setting":"সেট আপ করুন",
         "total":"মোট"
     },
     "page_setting":{
         "tit":"সেট আপ করুন",
+        "lang":"ভাষা",
         "select":"নির্বাচন করুন"
     },
     "page_contacts":{
-        "tit":"ঠিকানা বই",
+        "tit":"যোগাযোগ",
+        "add_dialog":"একটি পরিচিতি যোগ করুন",
+
         "add_cont":{
-            "tri_dialog":"ঠিকানা জুড়ুন",
-            "dialog_tit":"ঠিকানা তথ্য লিখুন",
-            "dialog_tag":"ট্যাগ",
-            "tag_placeholder":"ঠিকানা জন্য মন্তব্য ট্যাগ লিখুন দয়া করে",
-            "dialog_address":"ঠিকানা",
-            "address_placeholder":"ঠিকানা লিখুন দয়া করে"
+            "tit":"যোগাযোগের তথ্য লিখুন",
+            "tag":"ট্যাগ",
+            "address":"যোগাযোগ",
+            "tag_placeholder":"দয়া করে যোগাযোগের মন্তব্য ট্যাগটি প্রবেশ করুন",
+            "address_placeholder":"দয়া করে যোগাযোগ অ্যাকাউন্টটি লিখুন"
         },
         "delete_dialog":{
             "title":"আপনি সরানো হয়"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR কোড",
-        "go_transfer":"স্থানান্তর আরম্ভ করুন",
-
         "transfer_log":"লেনদেনের ইতিহাস",
         "transfer_log_null":"কোনও লেনদেনের ইতিহাস",
 

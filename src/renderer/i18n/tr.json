@@ -1,5 +1,4 @@
 {
-    "lang":"dil",
     "confirm":"onaylamak",
     "cancel":"iptal edildi",
     "dialog_tit":"çabuk",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"ev",
         "transfer":"transfer",
-        "contacts":"Adres defteri",
+        "contacts":"temas",
         "setting":"kurmak",
         "total":"toplam"
     },
     "page_setting":{
         "tit":"kurmak",
+        "lang":"dil",
         "select":"Seçiniz"
     },
     "page_contacts":{
-        "tit":"Adres defteri",
+        "tit":"temas",
+        "add_dialog":"Bir kişi ekle",
+
         "add_cont":{
-            "tri_dialog":"Adres ekle",
-            "dialog_tit":"Adres bilgilerini girin",
-            "dialog_tag":"etiket",
-            "tag_placeholder":"Lütfen adres için yorum etiketini girin",
-            "dialog_address":"adres",
-            "address_placeholder":"Lütfen adresi giriniz"
+            "tit":"İletişim bilgilerini giriniz",
+            "tag":"etiket",
+            "address":"temas",
+            "tag_placeholder":"Lütfen kişinin yorum etiketini girin",
+            "address_placeholder":"Lütfen iletişim bilgilerini giriniz"
         },
         "delete_dialog":{
             "title":"Sen kaldırıyorsun"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR kodu",
-        "go_transfer":"Aktarımı başlat",
-
         "transfer_log":"İşlem geçmişi",
         "transfer_log_null":"İşlem geçmişi yok",
 

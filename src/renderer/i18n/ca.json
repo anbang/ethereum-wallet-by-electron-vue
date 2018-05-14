@@ -1,5 +1,4 @@
 {
-    "lang":"Llengua",
     "confirm":"Confirmació",
     "cancel":"Cancel·lació",
     "dialog_tit":"Preguntar",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Inici",
         "transfer":"Transferència",
-        "contacts":"Llibreta d'adreces",
+        "contacts":"Contactes",
         "setting":"Configuració",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Configuració",
+        "lang":"Llengua",
         "select":"Seleccioneu"
     },
     "page_contacts":{
-        "tit":"Llibreta d'adreces",
+        "tit":"Contactes",
+        "add_dialog":"Afegiu un contacte",
+
         "add_cont":{
-            "tri_dialog":"Afegeix adreça",
-            "dialog_tit":"Introduïu la informació d'adreça",
-            "dialog_tag":"Etiquetes",
-            "tag_placeholder":"Introduïu l'etiqueta de comentaris de l'adreça",
-            "dialog_address":"Adreça",
-            "address_placeholder":"Introduïu l'adreça"
+            "tit":"Introduïu la informació de contacte",
+            "tag":"Etiquetes",
+            "address":"Contactes",
+            "tag_placeholder":"Introduïu l'etiqueta de comentaris del contacte",
+            "address_placeholder":"Introduïu el compte de contacte"
         },
         "delete_dialog":{
             "title":"Estàs eliminant"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Codi QR",
-        "go_transfer":"Inicieu la transferència",
-
         "transfer_log":"Historial de transaccions",
         "transfer_log_null":"Sense historial de transaccions",
 

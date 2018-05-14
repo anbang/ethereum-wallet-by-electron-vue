@@ -1,5 +1,4 @@
 {
-    "lang":"زبان",
     "confirm":"تصدیق",
     "cancel":"منسوخی",
     "dialog_tit":"فوری طور پر",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"گھر",
         "transfer":"منتقلی",
-        "contacts":"ایڈریس بک",
+        "contacts":"رابطے",
         "setting":"ترتیبات",
         "total":"کل"
     },
     "page_setting":{
         "tit":"ترتیبات",
+        "lang":"زبان",
         "select":"براہ کرم منتخب کریں"
     },
     "page_contacts":{
-        "tit":"ایڈریس بک",
+        "tit":"رابطے",
+        "add_dialog":"ایک رابطہ شامل کریں",
+
         "add_cont":{
-            "tri_dialog":"ایڈریس شامل کریں",
-            "dialog_tit":"ایڈریس کی معلومات درج کریں",
-            "dialog_tag":"ٹیگز",
-            "tag_placeholder":"ایڈریس کے لئے تبصرہ ٹیگ درج کریں",
-            "dialog_address":"ایڈریس",
-            "address_placeholder":"ایڈریس درج کریں"
+            "tit":"رابطے کی معلومات درج کریں",
+            "tag":"ٹیگز",
+            "address":"رابطے",
+            "tag_placeholder":"براہ کرم رابطے کا تبصرہ ٹیگ درج کریں",
+            "address_placeholder":"برائے مہربانی رابطہ اکاؤنٹ درج کریں"
         },
         "delete_dialog":{
             "title":"آپ ہٹا رہے ہیں"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR کوڈ",
-        "go_transfer":"منتقلی شروع کریں",
-
         "transfer_log":"ٹرانزیکشن کی تاریخ",
         "transfer_log_null":"کوئی ٹرانزیکشن کی تاریخ نہیں",
 

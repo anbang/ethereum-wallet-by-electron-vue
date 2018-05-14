@@ -1,5 +1,4 @@
 {
-    "lang":"שפּראַך",
     "confirm":"באַשטעטיקונג",
     "cancel":"Cancellation",
     "dialog_tit":"פּינטלעך",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"היים",
         "transfer":"אַריבערפירן",
-        "contacts":"אַדרעס בוך",
+        "contacts":"קאָנטאַקטן",
         "setting":"Settings",
         "total":"גאַנץ"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"שפּראַך",
         "select":"ביטע אויסקלייַבן"
     },
     "page_contacts":{
-        "tit":"אַדרעס בוך",
+        "tit":"קאָנטאַקטן",
+        "add_dialog":"לייג אַ קאָנטאַקט",
+
         "add_cont":{
-            "tri_dialog":"לייג אַדרעס",
-            "dialog_tit":"אַרייַן אַדרעס אינפֿאָרמאַציע",
-            "dialog_tag":"טאַגס",
-            "tag_placeholder":"ביטע אַרייַן די באַמערקן צעטל פֿאַר די אַדרעס",
-            "dialog_address":"אַדרעס",
-            "address_placeholder":"ביטע אַרייַן די אַדרעס"
+            "tit":"אַרייַן קאָנטאַקט אינפֿאָרמאַציע",
+            "tag":"טאַגס",
+            "address":"קאָנטאַקטן",
+            "tag_placeholder":"ביטע אַרייַן די באַמערקונג פון דיין קאָנטאַקט",
+            "address_placeholder":"ביטע אַרייַן די קאָנטאַקט חשבון"
         },
         "delete_dialog":{
             "title":"איר זענען רימוווינג"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"אָנהייבן אַריבערפירן",
-
         "transfer_log":"ויספאָרשונג געשיכטע",
         "transfer_log_null":"קיין דורכפאָר געשיכטע",
 

@@ -1,5 +1,4 @@
 {
-    "lang":"Basa",
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Ngarep",
         "transfer":"Transfer",
-        "contacts":"Buku alamat",
+        "contacts":"Kontak",
         "setting":"Setelan",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Setelan",
+        "lang":"Basa",
         "select":"Mangga pilih"
     },
     "page_contacts":{
-        "tit":"Buku alamat",
+        "tit":"Kontak",
+        "add_dialog":"Tambahake kontak",
+
         "add_cont":{
-            "tri_dialog":"Tambah alamat",
-            "dialog_tit":"Ketik informasi alamat",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Mangga ketikake tag komentar kanggo alamat kasebut",
-            "dialog_address":"Alamat",
-            "address_placeholder":"Mangga mlebu alamat"
+            "tit":"Ketik informasi kontak",
+            "tag":"Tags",
+            "address":"Kontak",
+            "tag_placeholder":"Mangga ketik tag komentar",
+            "address_placeholder":"Mangga mlebu akun kontak"
         },
         "delete_dialog":{
             "title":"Sampeyan ngilangi"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Miwiti transfer",
-
         "transfer_log":"Sajarah transaksi",
         "transfer_log_null":"Ora ana riwayat transaksi",
 

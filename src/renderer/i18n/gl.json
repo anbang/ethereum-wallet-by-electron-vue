@@ -1,5 +1,4 @@
 {
-    "lang":"Linguaxe",
     "confirm":"Confirmación",
     "cancel":"Cancelación",
     "dialog_tit":"Preguntar",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Inicio",
         "transfer":"Transferencia",
-        "contacts":"Caderno de enderezos",
+        "contacts":"Contactos",
         "setting":"Configuración",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Configuración",
+        "lang":"Linguaxe",
         "select":"Selecciona"
     },
     "page_contacts":{
-        "tit":"Caderno de enderezos",
+        "tit":"Contactos",
+        "add_dialog":"Engadir un contacto",
+
         "add_cont":{
-            "tri_dialog":"Engadir enderezo",
-            "dialog_tit":"Introduce a información do enderezo",
-            "dialog_tag":"Etiquetas",
-            "tag_placeholder":"Introduce a etiqueta de comentario para a dirección",
-            "dialog_address":"Enderezo",
-            "address_placeholder":"Introduce o enderezo"
+            "tit":"Introduce a información de contacto",
+            "tag":"Etiquetas",
+            "address":"Contactos",
+            "tag_placeholder":"Introduce a etiqueta de comentario do contacto",
+            "address_placeholder":"Introduce a conta de contacto"
         },
         "delete_dialog":{
             "title":"Estás a eliminar"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"Código QR",
-        "go_transfer":"Iniciar transferencia",
-
         "transfer_log":"Historial de transaccións",
         "transfer_log_null":"Sen historial de transaccións",
 

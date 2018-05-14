@@ -1,5 +1,4 @@
 {
-    "lang":"Cànan",
     "confirm":"Dearbhadh",
     "cancel":"Sguir dheth",
     "dialog_tit":"Ceasnachadh",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Dachaigh",
         "transfer":"Aistridh",
-        "contacts":"Leabhar seòlaidh",
+        "contacts":"Caraidean",
         "setting":"Roghainnean",
         "total":"Iomlan"
     },
     "page_setting":{
         "tit":"Roghainnean",
+        "lang":"Cànan",
         "select":"Tagh"
     },
     "page_contacts":{
-        "tit":"Leabhar seòlaidh",
+        "tit":"Caraidean",
+        "add_dialog":"Cuir brath a-steach",
+
         "add_cont":{
-            "tri_dialog":"Cuir seòladh",
-            "dialog_tit":"Cuir a-steach fiosrachadh seòlaidh",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Cuir a-steach an tag tag airson an t-seòlaidh",
-            "dialog_address":"Seòladh",
-            "address_placeholder":"Cuir a-steach an seòladh"
+            "tit":"Cuir a-steach fiosrachadh conaltraidh",
+            "tag":"Tags",
+            "address":"Caraidean",
+            "tag_placeholder":"Cuir a-steach tag tagraidh a 'chonaltraidh",
+            "address_placeholder":"Cuir a-steach an cunntas-conaltraidh"
         },
         "delete_dialog":{
             "title":"Tha thu a 'toirt air falbh"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR còd",
-        "go_transfer":"A 'tòiseachadh a' gluasad",
-
         "transfer_log":"Eachdraidh atharrachadh",
         "transfer_log_null":"Chan eil eachdraidh malairt",
 

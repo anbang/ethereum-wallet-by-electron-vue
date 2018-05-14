@@ -1,5 +1,4 @@
 {
-    "lang":"Luuqadda",
     "confirm":"Xaqiijinta",
     "cancel":"Joojinta",
     "dialog_tit":"Baahi",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Guriga",
         "transfer":"Bedelka",
-        "contacts":"Buugga Cinwaanka",
+        "contacts":"Xiriirrada",
         "setting":"Goobaha",
         "total":"Wadarta"
     },
     "page_setting":{
         "tit":"Goobaha",
+        "lang":"Luuqadda",
         "select":"Fadlan dooro"
     },
     "page_contacts":{
-        "tit":"Buugga Cinwaanka",
+        "tit":"Xiriirrada",
+        "add_dialog":"Kala xiriir",
+
         "add_cont":{
-            "tri_dialog":"Ku dar cinwaanka",
-            "dialog_tit":"Gali macluumaadka cinwaanka",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Fadlan qor taariikhda faallooyinka cinwaanka",
-            "dialog_address":"Cinwaanka",
-            "address_placeholder":"Fadlan qor cinwaanka"
+            "tit":"Gali macluumaadka xiriirka",
+            "tag":"Tags",
+            "address":"Xiriirrada",
+            "tag_placeholder":"Fadlan qor qoraalka faallooyinka xidhiidhka",
+            "address_placeholder":"Fadlan gali koontada xiriirka"
         },
         "delete_dialog":{
             "title":"Adigu waad ka saartaa"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Kala bedel wareejinta",
-
         "transfer_log":"Taariikhda wax-gadashada",
         "transfer_log_null":"Taariikhda isweydaarsiga",
 

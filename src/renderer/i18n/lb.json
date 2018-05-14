@@ -1,5 +1,4 @@
 {
-    "lang":"Sprooch",
     "confirm":"Bestätegung",
     "cancel":"Annulatioun",
     "dialog_tit":"Prompéiert",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adressbuch",
+        "contacts":"Kontakter",
         "setting":"Astellungen",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Astellungen",
+        "lang":"Sprooch",
         "select":"Wielt we g"
     },
     "page_contacts":{
-        "tit":"Adressbuch",
+        "tit":"Kontakter",
+        "add_dialog":"Fügt e Kontakt",
+
         "add_cont":{
-            "tri_dialog":"Adress schécken",
-            "dialog_tit":"Adress Adress",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Gidd weg de Kommentartyp fir d'Adress",
-            "dialog_address":"Adress",
-            "address_placeholder":"Gitt d'Adress un"
+            "tit":"Gitt Kontact Informatioun",
+            "tag":"Tags",
+            "address":"Kontakter",
+            "tag_placeholder":"Gitt weg den Commentairen vum Kontakt",
+            "address_placeholder":"Gidd weg den Kontaktkonto"
         },
         "delete_dialog":{
             "title":"Dir sidd ewechhuelen"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Initiatioun transferéieren",
-
         "transfer_log":"Transaktiounsgeschicht",
         "transfer_log_null":"Keng Transaktiounsgeschicht",
 

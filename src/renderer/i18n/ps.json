@@ -1,5 +1,4 @@
 {
-    "lang":"ژبه",
     "confirm":"تایید",
     "cancel":"ردول",
     "dialog_tit":"ژبړئ",
@@ -11,23 +10,25 @@
     "model_header":{
         "home":"کور",
         "transfer":"انتقال",
-        "contacts":"د پته کتاب",
+        "contacts":"اړیکې",
         "setting":"امستنې",
         "total":"ټول"
     },
     "page_setting":{
         "tit":"امستنې",
+        "lang":"ژبه",
         "select":"مهرباني وکړئ غوره کړه"
     },
     "page_contacts":{
-        "tit":"د پته کتاب",
+        "tit":"اړیکې",
+        "add_dialog":"اړیکه زیاته کړه",
+
         "add_cont":{
-            "tri_dialog":"پته اضافه کړه",
-            "dialog_tit":"د ادرس معلومات ولیکئ",
-            "dialog_tag":"ټکي",
-            "tag_placeholder":"لطفا د پته لپاره د تبصره لیک وليکئ",
-            "dialog_address":"پته",
-            "address_placeholder":"لطفا پته ولیکئ"
+            "tit":"د اړیکو معلومات داخل کړئ",
+            "tag":"ټکي",
+            "address":"اړیکې",
+            "tag_placeholder":"مهرباني وکړئ د اړیکو د تبصرې ټکي وليکئ",
+            "address_placeholder":"مهرباني وکړئ د اړیکو حساب ولیکئ"
         },
         "delete_dialog":{
             "title":"تاسو لرې کول"
@@ -50,9 +51,6 @@
         }
     },
     "page_account":{
-        "qrcode":"د QR کود",
-        "go_transfer":"د لیږد پیل",
-
         "transfer_log":"د راکړې ورکړې تاریخ",
         "transfer_log_null":"د لیږد تاریخ نه",
 
