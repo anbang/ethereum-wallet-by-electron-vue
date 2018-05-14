@@ -37,7 +37,7 @@ for(const languge in languges){
     messages[languge]=require("@/i18n/"+languge+".json");
 }
 //Determine the user's language
-var locale =db.get('czr_setting.lang').value() ;
+let locale =db.get('czr_setting.lang').value() ;
 const i18n = new VueI18n({
     locale: locale ,// set locale
     messages,       // set locale messages

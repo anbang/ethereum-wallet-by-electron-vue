@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     totalBalance:function(){
-      var total=0;
+      let total=0;
       if(this.database.length){
         this.database.forEach(item => {
             total+=Number(item.balance);

@@ -32,8 +32,8 @@ export default {
   },
   computed: {
     options: function() {
-      var langs = this.$db.get("czr_setting.lang_conf").value();
-      var tempOption = [];
+      let langs = this.$db.get("czr_setting.lang_conf").value();
+      let tempOption = [];
       for (const lang in langs) {
         tempOption.push({
           value: lang,

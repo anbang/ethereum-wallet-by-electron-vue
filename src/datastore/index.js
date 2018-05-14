@@ -45,9 +45,9 @@ if (!db.has('czr_setting').value()) {
 //Get user browser preference language
 function getLanguage() {
   if (navigator.language) {
-    var language = navigator.language;
+    let language = navigator.language;
   } else {
-    var language = navigator.browserLanguage;
+    let language = navigator.browserLanguage;
   }
   return language;
 }
