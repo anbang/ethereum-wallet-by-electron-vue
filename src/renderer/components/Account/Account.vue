@@ -20,7 +20,7 @@
       <div class="account-center">
         <div class="account-alias-wrap">
           <span class="text-sub-color">{{ accountInfo.tag }}</span>
-          <i class="iconfont icon-edit-alias"   @click="dialogVisible.editName = true"> &#xe604; </i>
+          <i class="iconfont icon-edit-alias"   @click="dialogSwitch.editName = true"> &#xe604; </i>
         </div>
         <div class="account-has-assets">
           <h1 class="account-assets">{{ accountInfo.balance | toCZRVal }}</h1>
@@ -79,32 +79,32 @@
 
     <el-dialog
       :title="$t('dialog_tit')"
-      :visible.sync="dialogVisible.qrCode"
+      :visible.sync="dialogSwitch.qrCode"
       width="40%" center>
       <span>
         <img :src="qrImgUrl" alt="code" class="qrcode-img">
         <p class="dia-address">{{address}}</p>
       </span>
       <!-- <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogVisible.qrCode = false">{{$t('close')}}</el-button>
+        <el-button @click="dialogSwitch.qrCode = false">{{$t('close')}}</el-button>
       </span> -->
     </el-dialog>
 
     <el-dialog
       :title="$t('page_account.edit_dia.tit')"
-      :visible.sync="dialogVisible.editName"
+      :visible.sync="dialogSwitch.editName"
       width="65%" center>
       <span>
         <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
         <el-input v-model="editTag"></el-input>
       </span>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogVisible.editName = false">{{$t('cancel')}}</el-button>
+        <el-button @click="dialogSwitch.editName = false">{{$t('cancel')}}</el-button>
         <el-button type="primary" @click="setEditTag">{{$t('confirm')}}</el-button>
       </span>
     </el-dialog>
 
-    <el-dialog :title="$t('page_account.keystore.copy')" :visible.sync="dialogVisible.keystore">
+    <el-dialog :title="$t('page_account.keystore.copy')" :visible.sync="dialogSwitch.keystore">
       <el-input
         v-if="accountInfo"
         :value="JSON.stringify(accountInfo.keystore)"
@@ -129,7 +129,7 @@ export default {
   name: "Account",
   data() {
     return {
-      dialogVisible:{
+      dialogSwitch:{
         qrCode:false,
         editName:false,
         keystore:false
@@ -192,7 +192,7 @@ export default {
 
     //Show Qrcode
     showQrCode: function() {
-      this.dialogVisible.qrCode = true;
+      this.dialogSwitch.qrCode = true;
     },
 
     //Edit Tag
@@ -204,19 +204,19 @@ export default {
         .assign({ tag: this.editTag })
         .write();
       this.accountInfo.tag=this.editTag
-      this.dialogVisible.editName = false;
+      this.dialogSwitch.editName = false;
     },
 
     //export Keystore
     exportKeystore () {
-      this.dialogVisible.keystore = true
+      this.dialogSwitch.keystore = true
     },
 
     //copy
     copyKeystore () {
       clipboard.writeText(JSON.stringify(this.accountInfo.keystore))
       this.$message.success(this.$t("page_account.msg_info.key_copy_success"))
-      this.dialogVisible.keystore = false
+      this.dialogSwitch.keystore = false
     },
 
     //download
@@ -229,7 +229,7 @@ export default {
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
-      this.dialogVisible.keystore = false
+      this.dialogSwitch.keystore = false
     },
     getNowTime:function () {
         let date = new Date();

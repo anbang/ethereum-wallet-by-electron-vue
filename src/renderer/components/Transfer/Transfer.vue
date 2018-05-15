@@ -81,6 +81,7 @@
       </span>
     </el-dialog>
 
+    <!-- confirm tran -->
     <template>  
       <el-dialog 
         :title="$t('page_transfer.confirmDia.title')"
