@@ -46,13 +46,20 @@
         "send_all":"Skicka allt",
         "remark":"anmärkning",
         "fees":"avgifter",
-        "expected_fees":"Uppskattade avgifter",
         "total":"total",
         "select":"Vänligen välj",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vänligen välj"
+        },
+        "confirm_dia":{
             "title":"Vänligen bekräfta",
             "enter_passworld_tit":"Vänligen ange ditt lösenord",
             "enter_passworld_place":"Vänligen ange ditt lösenord"
+        },
+        "msg_info":{
+            "decrypt_err":"Pappersparsning misslyckades, kan vara ett lösenordsfel",
+            "send_success":"Skicka framgång",
+            "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och minimilön"
         }
     },
     "page_account":{

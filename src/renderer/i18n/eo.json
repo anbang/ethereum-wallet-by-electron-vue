@@ -46,13 +46,20 @@
         "send_all":"Sendu ĉion",
         "remark":"Noto",
         "fees":"Kotizoj",
-        "expected_fees":"Takso de taksoj",
         "total":"Tuta",
         "select":"Bonvolu elekti",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Bonvolu elekti"
+        },
+        "confirm_dia":{
             "title":"Bonvolu konfirmi",
             "enter_passworld_tit":"Bonvolu enmeti vian pasvorton",
             "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
+        },
+        "msg_info":{
+            "decrypt_err":"Malkrapa prizorgado malsukcesis, eble pasvorto eraro",
+            "send_success":"Sendu sukceson",
+            "send_error":"Transakcio malsukcesis: Bonvolu kontroli ĉu estas sufiĉa ekvilibro kaj la salajro de la ministo"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"omnes Mitte",
         "remark":"Attende",
         "fees":"fees",
-        "expected_fees":"aestimari feodo",
         "total":"summa",
         "select":"placere eligere",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"placere eligere"
+        },
+        "confirm_dia":{
             "title":"Quaesumus, adfirma",
             "enter_passworld_tit":"Please enter vestri password",
             "enter_passworld_place":"Please enter vestri password"
+        },
+        "msg_info":{
+            "decrypt_err":"Peram animi fallit peccatum sit ignoro",
+            "send_success":"mitte victoria",
+            "send_error":"Rei deficit: vide si satis est ut Reprehendo et fossores feodo statera"
         }
     },
     "page_account":{

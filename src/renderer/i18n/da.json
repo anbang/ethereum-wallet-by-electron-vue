@@ -46,13 +46,20 @@
         "send_all":"Send alle",
         "remark":"bemærkning",
         "fees":"Gebyrer",
-        "expected_fees":"Anslåede gebyrer",
         "total":"I alt",
         "select":"Vælg venligst",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vælg venligst"
+        },
+        "confirm_dia":{
             "title":"Bekræft venligst",
             "enter_passworld_tit":"Indtast venligst dit kodeord",
             "enter_passworld_place":"Indtast venligst dit kodeord"
+        },
+        "msg_info":{
+            "decrypt_err":"Palletparsing mislykkedes, det kan være en adgangskodefejl",
+            "send_success":"Send succes",
+            "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejderens gebyr"
         }
     },
     "page_account":{

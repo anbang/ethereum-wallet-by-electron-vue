@@ -46,13 +46,20 @@
         "send_all":"Voye tout",
         "remark":"Remak",
         "fees":"Frè",
-        "expected_fees":"Estimasyon frè",
         "total":"Total",
         "select":"Tanpri chwazi",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Tanpri chwazi"
+        },
+        "confirm_dia":{
             "title":"Tanpri konfime",
             "enter_passworld_tit":"Tanpri antre modpas ou",
             "enter_passworld_place":"Tanpri antre modpas ou"
+        },
+        "msg_info":{
+            "decrypt_err":"Bous koule echwe, kapab yon erè modpas",
+            "send_success":"Voye siksè",
+            "send_error":"Tranzaksyon echwe: Tanpri tcheke si gen ase balans ak frè minè a"
         }
     },
     "page_account":{

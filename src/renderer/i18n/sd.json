@@ -46,13 +46,20 @@
         "send_all":"سڀئي موڪل",
         "remark":"نوٽ",
         "fees":"فيز",
-        "expected_fees":"متوقع فيس",
         "total":"ڪل",
         "select":"مهرباني ڪري چونڊيو",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"مهرباني ڪري چونڊيو"
+        },
+        "confirm_dia":{
             "title":"مهرباني ڪري تصديق ڪريو",
             "enter_passworld_tit":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو",
             "enter_passworld_place":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو"
+        },
+        "msg_info":{
+            "decrypt_err":"والرسسل ناڪام ٿي، ٿي سگهي ٿو پاسورڊ غلطي",
+            "send_success":"ڪاميابي کي موڪليو",
+            "send_error":"ٽرانزيڪشن ناڪام ٿيو: مهرباني ڪري پڪ ڪريو ته اتي ڪافي توازن ۽ منر جي فيس آهي"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Invia tutto",
         "remark":"osservazione",
         "fees":"tasse",
-        "expected_fees":"Tasse stimate",
         "total":"totale",
         "select":"Per favore seleziona",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Per favore seleziona"
+        },
+        "confirm_dia":{
             "title":"Per favore conferma",
             "enter_passworld_tit":"Per favore inserisci la tua password",
             "enter_passworld_place":"Per favore inserisci la tua password"
+        },
+        "msg_info":{
+            "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe essere un errore della password",
+            "send_success":"Invia successo",
+            "send_error":"Transazione fallita: si prega di verificare se vi è sufficiente equilibrio e tassa del minatore"
         }
     },
     "page_account":{

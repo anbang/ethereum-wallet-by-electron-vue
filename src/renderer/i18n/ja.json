@@ -46,13 +46,20 @@
         "send_all":"すべてを送る",
         "remark":"ノート",
         "fees":"料金",
-        "expected_fees":"見積もり手数料",
         "total":"合計",
         "select":"選択してください",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"選択してください"
+        },
+        "confirm_dia":{
             "title":"確認してください",
             "enter_passworld_tit":"パスワードを入力してください",
             "enter_passworld_place":"パスワードを入力してください"
+        },
+        "msg_info":{
+            "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
+            "send_success":"成功を送る",
+            "send_error":"取引に失敗しました：十分な残高と鉱夫の手数料があるかどうか確認してください"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Enviar todo",
         "remark":"Nota",
         "fees":"Honorarios",
-        "expected_fees":"Tasas estimadas",
         "total":"Total",
         "select":"Por favor selecciona",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Por favor selecciona"
+        },
+        "confirm_dia":{
             "title":"Por favor confirme",
             "enter_passworld_tit":"Por favor ingrese su contraseña",
             "enter_passworld_place":"Por favor ingrese su contraseña"
+        },
+        "msg_info":{
+            "decrypt_err":"El análisis de Wallet falló, puede haber un error de contraseña",
+            "send_success":"Enviar el exito",
+            "send_error":"Transacción fallida: verifique si hay saldo suficiente y la tarifa del minero"
         }
     },
     "page_account":{

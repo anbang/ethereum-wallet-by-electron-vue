@@ -46,13 +46,20 @@
         "send_all":"Ipadala ang tanan",
         "remark":"Mubo nga sulat",
         "fees":"Bayad",
-        "expected_fees":"Gibanabana nga bayad",
         "total":"Total",
         "select":"Palihug pagpili",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Palihug pagpili"
+        },
+        "confirm_dia":{
             "title":"Palihug kumpirma",
             "enter_passworld_tit":"Palihug pasabta ang imong password",
             "enter_passworld_place":"Palihug pasabta ang imong password"
+        },
+        "msg_info":{
+            "decrypt_err":"Ang pagwagtang sa pitaka napakyas, tingali usa ka sayop nga password",
+            "send_success":"Ipadala ang kalampusan",
+            "send_error":"Ang transaksyon napakyas: Palihug susiha kung adunay igong balanse ug bayad sa minero"
         }
     },
     "page_account":{

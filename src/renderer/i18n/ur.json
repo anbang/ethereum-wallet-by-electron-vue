@@ -46,13 +46,20 @@
         "send_all":"سب بھیجیں",
         "remark":"نوٹ",
         "fees":"فیس",
-        "expected_fees":"متوقع فیس",
         "total":"کل",
         "select":"براہ کرم منتخب کریں",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"براہ کرم منتخب کریں"
+        },
+        "confirm_dia":{
             "title":"براہ مہربانی تصدیق کریں",
             "enter_passworld_tit":"اپنا پاس ورڈ درج کریں",
             "enter_passworld_place":"اپنا پاس ورڈ درج کریں"
+        },
+        "msg_info":{
+            "decrypt_err":"وال پیپر ناکام ہوگیا ہو سکتا ہے، پاس ورڈ غلطی ہوسکتی ہے",
+            "send_success":"کامیابی بھیجیں",
+            "send_error":"ٹرانزیکشن ناکام ہوگیا: برائے مہربانی چیک کریں کہ کافی توازن اور معدنیات کی فیس موجود ہے"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Hantar semua",
         "remark":"Nota",
         "fees":"Bayaran",
-        "expected_fees":"Anggaran yuran",
         "total":"Jumlah",
         "select":"Sila pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Sila pilih"
+        },
+        "confirm_dia":{
             "title":"Sila sahkan",
             "enter_passworld_tit":"Sila masukkan kata laluan anda",
             "enter_passworld_place":"Sila masukkan kata laluan anda"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
+            "send_success":"Hantar kejayaan",
+            "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"
         }
     },
     "page_account":{

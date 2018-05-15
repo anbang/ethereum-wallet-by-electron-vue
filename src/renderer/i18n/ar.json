@@ -46,13 +46,20 @@
         "send_all":"إرسال الكل",
         "remark":"تعليق",
         "fees":"رسوم",
-        "expected_fees":"الرسوم المقدرة",
         "total":"مجموع",
         "select":"يرجى الاختيار",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"يرجى الاختيار"
+        },
+        "confirm_dia":{
             "title":"يرجى تأكيد",
             "enter_passworld_tit":"يرجى إدخال كلمة المرور الخاصة بك",
             "enter_passworld_place":"يرجى إدخال كلمة المرور الخاصة بك"
+        },
+        "msg_info":{
+            "decrypt_err":"فشل تحليل المحفظة ، قد يكون خطأ كلمة مرور",
+            "send_success":"ارسل النجاح",
+            "send_error":"فشلت المعاملة: الرجاء التحقق مما إذا كان هناك رصيد كافٍ ورسوم عامل منجم"
         }
     },
     "page_account":{

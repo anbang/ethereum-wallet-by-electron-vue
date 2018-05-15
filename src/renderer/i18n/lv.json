@@ -46,13 +46,20 @@
         "send_all":"Sūtīt visus",
         "remark":"Piezīme",
         "fees":"Maksas",
-        "expected_fees":"Aprēķinātās maksas",
         "total":"Kopā",
         "select":"Lūdzu, izvēlieties",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Lūdzu, izvēlieties"
+        },
+        "confirm_dia":{
             "title":"Lūdzu, apstipriniet",
             "enter_passworld_tit":"Lūdzu, ievadiet savu paroli",
             "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
+        },
+        "msg_info":{
+            "decrypt_err":"Nevarēja veikt maketa parsēšanu, iespējams, ir paroles kļūda",
+            "send_success":"Nosūtiet veiksmi",
+            "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekams atlikums un ieguvējs maksa"
         }
     },
     "page_account":{

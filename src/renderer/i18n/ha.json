@@ -46,13 +46,20 @@
         "send_all":"Aika duk",
         "remark":"Lura",
         "fees":"Kudin",
-        "expected_fees":"An kiyasta kudade",
         "total":"Jimlar",
         "select":"Da fatan a zaɓi",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Da fatan a zaɓi"
+        },
+        "confirm_dia":{
             "title":"Da fatan a tabbatar",
             "enter_passworld_tit":"Da fatan a shigar da kalmar sirri",
             "enter_passworld_place":"Da fatan a shigar da kalmar sirri"
+        },
+        "msg_info":{
+            "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
+            "send_success":"Aika nasara",
+            "send_error":"An gama aiki: Da fatan a bincika idan akwai cikakken ma'auni da kudin kuɗi"
         }
     },
     "page_account":{

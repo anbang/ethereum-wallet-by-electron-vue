@@ -46,13 +46,20 @@
         "send_all":"Tuma yote",
         "remark":"Kumbuka",
         "fees":"Malipo",
-        "expected_fees":"Thamani zilizohesabiwa",
         "total":"Jumla",
         "select":"Tafadhali chagua",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Tafadhali chagua"
+        },
+        "confirm_dia":{
             "title":"Tafadhali thibitisha",
             "enter_passworld_tit":"Tafadhali ingiza nenosiri lako",
             "enter_passworld_place":"Tafadhali ingiza nenosiri lako"
+        },
+        "msg_info":{
+            "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
+            "send_success":"Tuma mafanikio",
+            "send_error":"Shughuli imeshindwa: Tafadhali angalia ikiwa kuna usawa wa kutosha na ada ya mchimbaji"
         }
     },
     "page_account":{

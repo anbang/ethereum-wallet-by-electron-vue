@@ -46,13 +46,20 @@
         "send_all":"Lähetä kaikki",
         "remark":"huomautus",
         "fees":"palkkiot",
-        "expected_fees":"Arvioidut maksut",
         "total":"kokonais-",
         "select":"Valitse",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Valitse"
+        },
+        "confirm_dia":{
             "title":"Vahvista",
             "enter_passworld_tit":"Anna salasanasi",
             "enter_passworld_place":"Anna salasanasi"
+        },
+        "msg_info":{
+            "decrypt_err":"Lompakon jäsentely epäonnistui, voi olla salasanavirhe",
+            "send_success":"Lähetä menestys",
+            "send_error":"Tapahtuma epäonnistui: tarkista, onko riittävä saldo ja kaivostyöntekijän maksu"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Изпратете всички",
         "remark":"забележка",
         "fees":"Такси",
-        "expected_fees":"Оценени такси",
         "total":"общо",
         "select":"Моля, изберете",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Моля, изберете"
+        },
+        "confirm_dia":{
             "title":"Моля, потвърдете",
             "enter_passworld_tit":"Моля, въведете паролата си",
             "enter_passworld_place":"Моля, въведете паролата си"
+        },
+        "msg_info":{
+            "decrypt_err":"Разписанието на Wallet не бе успешно, може да е грешка в паролата",
+            "send_success":"Изпратете успех",
+            "send_error":"Транзакцията не бе успешна: Проверете дали има достатъчно салдо и минната такса"
         }
     },
     "page_account":{

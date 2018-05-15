@@ -46,13 +46,20 @@
         "send_all":"שיקן אַלע",
         "remark":"באַמערקונג",
         "fees":"Fees",
-        "expected_fees":"עסטימאַטעד פיז",
         "total":"גאַנץ",
         "select":"ביטע אויסקלייַבן",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ביטע אויסקלייַבן"
+        },
+        "confirm_dia":{
             "title":"ביטע באַשטעטיקן",
             "enter_passworld_tit":"ביטע אַרייַן דיין פּאַראָל",
             "enter_passworld_place":"ביטע אַרייַן דיין פּאַראָל"
+        },
+        "msg_info":{
+            "decrypt_err":"וואַללעט פּאַרסינג אַנדערש, קען זיין אַ פּאַראָל טעות",
+            "send_success":"שיקן הצלחה",
+            "send_error":"אָפּמאַך אַנדערש: ביטע טשעק אויב עס איז גענוג וואָג און מיינער ס אָפּצאָל"
         }
     },
     "page_account":{

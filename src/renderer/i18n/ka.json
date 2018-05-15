@@ -46,13 +46,20 @@
         "send_all":"გააგზავნე ყველაფერი",
         "remark":"შენიშვნა",
         "fees":"მოსაკრებელი",
-        "expected_fees":"სავარაუდო საფასური",
         "total":"სულ",
         "select":"გთხოვთ, აირჩიოთ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"გთხოვთ, აირჩიოთ"
+        },
+        "confirm_dia":{
             "title":"გთხოვთ დაადასტუროთ",
             "enter_passworld_tit":"გთხოვთ შეიყვანოთ პაროლი",
             "enter_passworld_place":"გთხოვთ შეიყვანოთ პაროლი"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet პარსინგი ჩაიშალა, შეიძლება იყოს პაროლის შეცდომა",
+            "send_success":"გააგზავნე წარმატება",
+            "send_error":"ტრანზაქცია ვერ მოხერხდა: შეამოწმეთ თუ არსებობს საკმარისი ბალანსი და მინარეთის საფასური"
         }
     },
     "page_account":{

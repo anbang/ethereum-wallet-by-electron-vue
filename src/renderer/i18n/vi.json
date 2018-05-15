@@ -46,13 +46,20 @@
         "send_all":"Gửi tất cả",
         "remark":"Lưu ý",
         "fees":"Phí",
-        "expected_fees":"Phí ước tính",
         "total":"Tổng số",
         "select":"Vui lòng chọn",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vui lòng chọn"
+        },
+        "confirm_dia":{
             "title":"Vui lòng xác nhận",
             "enter_passworld_tit":"Vui lòng nhập mật khẩu của bạn",
             "enter_passworld_place":"Vui lòng nhập mật khẩu của bạn"
+        },
+        "msg_info":{
+            "decrypt_err":"Phân tích cú pháp trên Wallet không thành công, có thể là lỗi mật khẩu",
+            "send_success":"Gửi thành công",
+            "send_error":"Giao dịch không thành công: Vui lòng kiểm tra xem có đủ số dư và phí của thợ mỏ không"
         }
     },
     "page_account":{

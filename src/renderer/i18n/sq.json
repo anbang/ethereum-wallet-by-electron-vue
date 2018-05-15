@@ -46,13 +46,20 @@
         "send_all":"Dërgo te gjitha",
         "remark":"vërejtje",
         "fees":"tarifat",
-        "expected_fees":"Tarifat e vlerësuara",
         "total":"total",
         "select":"Ju lutem zgjidhni",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Ju lutem zgjidhni"
+        },
+        "confirm_dia":{
             "title":"Ju lutem konfirmoni",
             "enter_passworld_tit":"Ju lutemi shkruani fjalëkalimin tuaj",
             "enter_passworld_place":"Ju lutemi shkruani fjalëkalimin tuaj"
+        },
+        "msg_info":{
+            "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
+            "send_success":"Dërgo sukses",
+            "send_error":"Transaksioni dështoi: Ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }
     },
     "page_account":{

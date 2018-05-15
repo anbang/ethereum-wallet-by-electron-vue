@@ -46,13 +46,20 @@
         "send_all":"Kirim semua",
         "remark":"Catatan",
         "fees":"Biaya",
-        "expected_fees":"Taksiran biaya",
         "total":"Total",
         "select":"Silakan pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Silakan pilih"
+        },
+        "confirm_dia":{
             "title":"Tolong konfirmasi",
             "enter_passworld_tit":"Silakan masukkan kata sandi Anda",
             "enter_passworld_place":"Silakan masukkan kata sandi Anda"
+        },
+        "msg_info":{
+            "decrypt_err":"Gagal menguraikan dompet, mungkin merupakan kesalahan kata sandi",
+            "send_success":"Kirim sukses",
+            "send_error":"Transaksi gagal: Silakan periksa apakah ada saldo yang cukup dan biaya penambang"
         }
     },
     "page_account":{

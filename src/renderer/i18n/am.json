@@ -46,13 +46,20 @@
         "send_all":"ሁሉንም ላክ",
         "remark":"ማስታወሻ",
         "fees":"ክፍያዎች",
-        "expected_fees":"ግምታዊ ክፍያዎች",
         "total":"ጠቅላላ",
         "select":"እባክዎ ይምረጡ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"እባክዎ ይምረጡ"
+        },
+        "confirm_dia":{
             "title":"እባክዎ ያረጋግጡ",
             "enter_passworld_tit":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
             "enter_passworld_place":"እባክዎ የይለፍ ቃልዎን ያስገቡ"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet መተንተን አልተሳካም የይለፍ ቃል ስህተት ሊሆን ይችላል",
+            "send_success":"ስኬት ላክ",
+            "send_error":"ግብይቱ አልተሳካም: እባክዎ በቂ ሚዛን እና የአሠሪዎች ክፍያ ካለ ያረጋግጡ"
         }
     },
     "page_account":{

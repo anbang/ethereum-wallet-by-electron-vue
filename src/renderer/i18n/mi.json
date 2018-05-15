@@ -46,13 +46,20 @@
         "send_all":"Tukua katoatia",
         "remark":"Tuhipoka",
         "fees":"Nga utu",
-        "expected_fees":"Te utu kua whakaritea",
         "total":"Te tapeke",
         "select":"Tono koa",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Tono koa"
+        },
+        "confirm_dia":{
             "title":"Tena koa",
             "enter_passworld_tit":"Tomohia koa to kupuhipa",
             "enter_passworld_place":"Tomohia koa to kupuhipa"
+        },
+        "msg_info":{
+            "decrypt_err":"Kua rahua te taraipa taraiwa, he hapa hapa kupuhipa",
+            "send_success":"Tukua he angitu",
+            "send_error":"Kua rahua te mahi: Titiro koa mēnā he nui te utu me te utu a te minita"
         }
     },
     "page_account":{

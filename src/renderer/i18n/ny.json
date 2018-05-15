@@ -46,13 +46,20 @@
         "send_all":"Tumizani zonse",
         "remark":"Zindikirani",
         "fees":"Malipiro",
-        "expected_fees":"Malipiro owerengedwa",
         "total":"Chiwerengero",
         "select":"Chonde sankhani",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Chonde sankhani"
+        },
+        "confirm_dia":{
             "title":"Chonde tsimikizirani",
             "enter_passworld_tit":"Chonde lowetsani mawu anu achinsinsi",
             "enter_passworld_place":"Chonde lowetsani mawu anu achinsinsi"
+        },
+        "msg_info":{
+            "decrypt_err":"Kusungidwa kwa ngongole kunalephera, kukhoza kukhala chinsinsi chachinsinsi",
+            "send_success":"Tumizani kupambana",
+            "send_error":"Kugulitsa kunalephera: Chonde onani ngati pali malipiro okwanira komanso malipiro a minera"
         }
     },
     "page_account":{

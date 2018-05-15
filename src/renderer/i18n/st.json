@@ -46,13 +46,20 @@
         "send_all":"Romela tsohle",
         "remark":"Hlokomela",
         "fees":"Litefiso",
-        "expected_fees":"Litefiso tse lekantsoeng",
         "total":"Kakaretso",
         "select":"Ka kopo khetha",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Ka kopo khetha"
+        },
+        "confirm_dia":{
             "title":"Ka kopo netefatsa",
             "enter_passworld_tit":"Ka kopo kenya phasewete ea hau",
             "enter_passworld_place":"Ka kopo kenya phasewete ea hau"
+        },
+        "msg_info":{
+            "decrypt_err":"Ho fapana ha lichelete ho hlōlehile, e ka 'na ea e-ba phoso ea password",
+            "send_success":"Romela katleho",
+            "send_error":"Transaction e ile ea hlōleha: Ka kōpo hlahloba hore na ho na le tekanyo e lekaneng ea tekanyo le tefo ea merafo"
         }
     },
     "page_account":{

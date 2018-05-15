@@ -46,13 +46,20 @@
         "send_all":"Anfonwch bawb",
         "remark":"Nodyn",
         "fees":"Ffioedd",
-        "expected_fees":"Ffioedd amcangyfrifedig",
         "total":"Cyfanswm",
         "select":"Dewiswch",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Dewiswch"
+        },
+        "confirm_dia":{
             "title":"Cadarnhewch",
             "enter_passworld_tit":"Rhowch eich cyfrinair",
             "enter_passworld_place":"Rhowch eich cyfrinair"
+        },
+        "msg_info":{
+            "decrypt_err":"Efallai y bydd dadliad gwaledi yn methu cyfrinair",
+            "send_success":"Anfon llwyddiant",
+            "send_error":"Methodd y trafodiad: Gwiriwch a oes digon o gydbwysedd a ffioedd y glowyr"
         }
     },
     "page_account":{

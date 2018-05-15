@@ -46,13 +46,20 @@
         "send_all":"Enviar tudo",
         "remark":"Nota",
         "fees":"Taxas",
-        "expected_fees":"Taxas estimadas",
         "total":"Total",
         "select":"Por favor selecione",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Por favor selecione"
+        },
+        "confirm_dia":{
             "title":"Por favor confirme",
             "enter_passworld_tit":"Por favor digite sua senha",
             "enter_passworld_place":"Por favor digite sua senha"
+        },
+        "msg_info":{
+            "decrypt_err":"A análise da carteira falhou, pode ser um erro de senha",
+            "send_success":"Envie sucesso",
+            "send_error":"Falha na transação: verifique se há saldo suficiente e taxa do mineiro"
         }
     },
     "page_account":{

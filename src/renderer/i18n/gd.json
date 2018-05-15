@@ -46,13 +46,20 @@
         "send_all":"Cuir a h-uile càil",
         "remark":"Nota",
         "fees":"Cìsean",
-        "expected_fees":"Cìsean àbhaisteach",
         "total":"Iomlan",
         "select":"Tagh",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Tagh"
+        },
+        "confirm_dia":{
             "title":"Dearbhaich",
             "enter_passworld_tit":"Cuir a-steach am facal-faire agad",
             "enter_passworld_place":"Cuir a-steach am facal-faire agad"
+        },
+        "msg_info":{
+            "decrypt_err":"Dh'fhàillig parsadh barain, is dòcha gur e mearachd facal-faire a th 'ann",
+            "send_success":"Cuir soirbheachadh",
+            "send_error":"Dh'fhàillig an t-atharrachadh: Dèan cinnteach a bheil cothromachadh gu leòr ann agus cìs nam mèinnearan"
         }
     },
     "page_account":{

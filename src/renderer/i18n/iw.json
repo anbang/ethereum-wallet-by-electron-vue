@@ -46,13 +46,20 @@
         "send_all":"שלח הכל",
         "remark":"הערה",
         "fees":"אגרות",
-        "expected_fees":"תשלומים משוערים",
         "total":"סך הכל",
         "select":"בחר",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"בחר"
+        },
+        "confirm_dia":{
             "title":"אשר",
             "enter_passworld_tit":"הזן את הסיסמה שלך",
             "enter_passworld_place":"הזן את הסיסמה שלך"
+        },
+        "msg_info":{
+            "decrypt_err":"ניתוח הארנק נכשל, עשויה להיות שגיאת סיסמה",
+            "send_success":"שלח הצלחה",
+            "send_error":"העסקה נכשלה: בדוק אם יש מספיק איזון ודמי כורה"
         }
     },
     "page_account":{

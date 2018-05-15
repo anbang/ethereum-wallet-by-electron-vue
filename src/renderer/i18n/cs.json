@@ -46,13 +46,20 @@
         "send_all":"Pošlete vše",
         "remark":"Poznámka:",
         "fees":"Poplatky",
-        "expected_fees":"Odhadované poplatky",
         "total":"Celkem",
         "select":"Vyberte prosím",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vyberte prosím"
+        },
+        "confirm_dia":{
             "title":"Potvrďte prosím",
             "enter_passworld_tit":"Zadejte své heslo",
             "enter_passworld_place":"Zadejte své heslo"
+        },
+        "msg_info":{
+            "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
+            "send_success":"Pošlete úspěch",
+            "send_error":"Transakce selhala: Zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za hornictví"
         }
     },
     "page_account":{

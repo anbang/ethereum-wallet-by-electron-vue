@@ -46,13 +46,20 @@
         "send_all":"Barchasini jo'natish",
         "remark":"Eslatma",
         "fees":"Narxlar",
-        "expected_fees":"Bashoratli to'lovlar",
         "total":"Jami",
         "select":"Iltimos, tanlang",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Iltimos, tanlang"
+        },
+        "confirm_dia":{
             "title":"Iltimos, tasdiqlang",
             "enter_passworld_tit":"Iltimos, parolingizni kiriting",
             "enter_passworld_place":"Iltimos, parolingizni kiriting"
+        },
+        "msg_info":{
+            "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, parol xato bo'lishi mumkin",
+            "send_success":"Muvaffaqiyatli yuboring",
+            "send_error":"Transaction failed: Iltimos, balans va miner ish haqi mavjudligini tekshiring"
         }
     },
     "page_account":{

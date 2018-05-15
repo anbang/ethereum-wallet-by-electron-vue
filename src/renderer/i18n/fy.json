@@ -46,13 +46,20 @@
         "send_all":"Alle stjoere",
         "remark":"Notysje",
         "fees":"Fees",
-        "expected_fees":"Estimated fees",
         "total":"Totaal",
         "select":"Please select",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Please select"
+        },
+        "confirm_dia":{
             "title":"Besykje befêstigje",
             "enter_passworld_tit":"Fier jo wachtwurd ynfiere",
             "enter_passworld_place":"Fier jo wachtwurd ynfiere"
+        },
+        "msg_info":{
+            "decrypt_err":"Portemonneare parsing mislearre, kin in wachtwurd fout wêze",
+            "send_success":"Stjoer sukses",
+            "send_error":"Ferkearing mislearre: Kontrolearje oft der foldwaande balâns en mineraske fergoeding is"
         }
     },
     "page_account":{

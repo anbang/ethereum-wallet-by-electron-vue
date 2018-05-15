@@ -46,13 +46,20 @@
         "send_all":"Enviar todo",
         "remark":"Nota",
         "fees":"Taxas",
-        "expected_fees":"Taxas estimadas",
         "total":"Total",
         "select":"Selecciona",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Selecciona"
+        },
+        "confirm_dia":{
             "title":"Confirma",
             "enter_passworld_tit":"Introduce o teu contrasinal",
             "enter_passworld_place":"Introduce o teu contrasinal"
+        },
+        "msg_info":{
+            "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
+            "send_success":"Enviar éxito",
+            "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
         }
     },
     "page_account":{

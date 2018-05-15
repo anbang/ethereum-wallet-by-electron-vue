@@ -46,13 +46,20 @@
         "send_all":"Stuur alles",
         "remark":"opmerking",
         "fees":"fooie",
-        "expected_fees":"Geskatte fooie",
         "total":"totale",
         "select":"Kies asseblief",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Kies asseblief"
+        },
+        "confirm_dia":{
             "title":"Bevestig asseblief",
             "enter_passworld_tit":"Voer asseblief u wagwoord in",
             "enter_passworld_place":"Voer asseblief u wagwoord in"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet parsing misluk, kan 'n wagwoord fout wees",
+            "send_success":"Stuur sukses",
+            "send_error":"Transaksie misluk: Kontroleer asseblief of daar voldoende balans en mynwerker se fooi is"
         }
     },
     "page_account":{

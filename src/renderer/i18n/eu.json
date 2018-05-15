@@ -46,13 +46,20 @@
         "send_all":"Bidali dena",
         "remark":"Oharra",
         "fees":"Tarifak",
-        "expected_fees":"Estimatutako tasak",
         "total":"Guztira",
         "select":"Aukeratu ezazu",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Aukeratu ezazu"
+        },
+        "confirm_dia":{
             "title":"Berretsi",
             "enter_passworld_tit":"Idatzi zure pasahitza",
             "enter_passworld_place":"Idatzi zure pasahitza"
+        },
+        "msg_info":{
+            "decrypt_err":"Ezin izan da horma-paperaren azterketa egin. Pasahitzaren errorea izan daiteke",
+            "send_success":"Bidali arrakasta",
+            "send_error":"Transakzioak huts egin du: Egiaztatu oreka nahikoa eta mineraren kuota dagoela"
         }
     },
     "page_account":{

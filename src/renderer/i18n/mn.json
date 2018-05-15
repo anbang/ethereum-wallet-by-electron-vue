@@ -46,13 +46,20 @@
         "send_all":"Бүгдийг нь илгээх",
         "remark":"Тэмдэглэл",
         "fees":"Төлбөр",
-        "expected_fees":"Төлөвлөсөн төлбөр",
         "total":"Нийт",
         "select":"Сонгоно уу",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Сонгоно уу"
+        },
+        "confirm_dia":{
             "title":"Баталгаажуулна уу",
             "enter_passworld_tit":"Нууц үгээ оруулна уу",
             "enter_passworld_place":"Нууц үгээ оруулна уу"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet түрийвч амжилтгүй болсон нь нууц үгийн алдаа байж болох юм",
+            "send_success":"Амжилтыг илгээх",
+            "send_error":"Гүйлгээ амжилтгүй болсон: Баланс, уурхайчдын төлбөр хангалттай эсэхийг шалгана уу"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Trimiteți-le pe toate",
         "remark":"remarcă",
         "fees":"Taxe",
-        "expected_fees":"Taxele estimate",
         "total":"total",
         "select":"Selectați",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Selectați"
+        },
+        "confirm_dia":{
             "title":"Vă rugăm să confirmați",
             "enter_passworld_tit":"Introduceți parola",
             "enter_passworld_place":"Introduceți parola"
+        },
+        "msg_info":{
+            "decrypt_err":"Parcelarea parolei nu a reușit, poate fi o eroare de parolă",
+            "send_success":"Trimite succesul",
+            "send_error":"Tranzacția a eșuat: verificați dacă există un echilibru suficient și taxa minelor"
         }
     },
     "page_account":{

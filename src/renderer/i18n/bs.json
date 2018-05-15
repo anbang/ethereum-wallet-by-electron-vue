@@ -46,13 +46,20 @@
         "send_all":"Pošaljite sve",
         "remark":"Napomena",
         "fees":"Naknade",
-        "expected_fees":"Procenjene naknade",
         "total":"Ukupno",
         "select":"Molimo izaberite",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Molimo izaberite"
+        },
+        "confirm_dia":{
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite svoju lozinku",
             "enter_passworld_place":"Unesite svoju lozinku"
+        },
+        "msg_info":{
+            "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
+            "send_success":"Pošalji uspeh",
+            "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
         }
     },
     "page_account":{

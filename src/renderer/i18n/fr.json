@@ -46,13 +46,20 @@
         "send_all":"Envoyer tout",
         "remark":"Remarque",
         "fees":"Les frais",
-        "expected_fees":"Frais estimés",
         "total":"Total",
         "select":"Veuillez sélectionner",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Veuillez sélectionner"
+        },
+        "confirm_dia":{
             "title":"Veuillez confirmer",
             "enter_passworld_tit":"Veuillez entrer votre mot de passe",
             "enter_passworld_place":"Veuillez entrer votre mot de passe"
+        },
+        "msg_info":{
+            "decrypt_err":"résolution de portefeuille échoue, il peut être mauvais mot de passe",
+            "send_success":"Envoyer le succès",
+            "send_error":"La transaction a échoué: Veuillez vérifier s'il y a un solde suffisant et les frais de mineur"
         }
     },
     "page_account":{

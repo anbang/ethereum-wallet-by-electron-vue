@@ -46,13 +46,20 @@
         "send_all":"Alefaso ny rehetra",
         "remark":"fanamarihana",
         "fees":"Fees",
-        "expected_fees":"Estimated fees",
         "total":"Total",
         "select":"Mifantena azafady",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Mifantena azafady"
+        },
+        "confirm_dia":{
             "title":"Miangavy azafady",
             "enter_passworld_tit":"Ampidiro azafady ny tenimiafinao",
             "enter_passworld_place":"Ampidiro azafady ny tenimiafinao"
+        },
+        "msg_info":{
+            "decrypt_err":"Tsy nahomby ny fanesorana ny kitapo, mety ho fahadisoana anaty tenimiafina",
+            "send_success":"Alefaso ny fahombiazana",
+            "send_error":"Tsy nahomby ny fanatanterahana: Tsidiho azafady raha misy ny salanisa sy ny sara-mineraly ampy"
         }
     },
     "page_account":{

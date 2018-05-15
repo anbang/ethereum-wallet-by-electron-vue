@@ -46,13 +46,20 @@
         "send_all":"ټول ولېږل",
         "remark":"یادونه",
         "fees":"فیسونه",
-        "expected_fees":"اټکل شوی فيس",
         "total":"ټول",
         "select":"مهرباني وکړئ غوره کړه",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"مهرباني وکړئ غوره کړه"
+        },
+        "confirm_dia":{
             "title":"مهرباني وکړئ تایید کړئ",
             "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
             "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
+        },
+        "msg_info":{
+            "decrypt_err":"د پیپر پیر کول ناکام شو، کیدای شي د شفر غلطۍ وي",
+            "send_success":"بریالیتوب واستوئ",
+            "send_error":"معامله ناکامه شوه: لطفا وګورئ چې آیا کافی اندازه توازن او د کانونو فیس شتون لري"
         }
     },
     "page_account":{

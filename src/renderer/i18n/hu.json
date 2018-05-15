@@ -46,13 +46,20 @@
         "send_all":"Küldj mindent",
         "remark":"megjegyzés",
         "fees":"díjak",
-        "expected_fees":"Becsült díjak",
         "total":"teljes",
         "select":"Kérem válasszon",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Kérem válasszon"
+        },
+        "confirm_dia":{
             "title":"Kérjük, erősítse meg",
             "enter_passworld_tit":"Kérjük, adja meg jelszavát",
             "enter_passworld_place":"Kérjük, adja meg jelszavát"
+        },
+        "msg_info":{
+            "decrypt_err":"A Wallet-elemzés sikertelen, jelszóhiba lehet",
+            "send_success":"Küldje el sikerét",
+            "send_error":"A tranzakció sikertelen: Ellenőrizze, van-e elegendő egyensúly és bányász díja"
         }
     },
     "page_account":{

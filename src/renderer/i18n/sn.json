@@ -46,13 +46,20 @@
         "send_all":"Tumira zvose",
         "remark":"Cherechedza",
         "fees":"Mari",
-        "expected_fees":"Inofanirwa mari",
         "total":"Total",
         "select":"Ndapota sarudza",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Ndapota sarudza"
+        },
+        "confirm_dia":{
             "title":"Ndapota chengetedza",
             "enter_passworld_tit":"Ndapota nyora password yako",
             "enter_passworld_place":"Ndapota nyora password yako"
+        },
+        "msg_info":{
+            "decrypt_err":"Chikwereti chekurapa chakakundikana, chinogona kunge chiri chipikiso chepa password",
+            "send_success":"Tumira kubudirira",
+            "send_error":"Transaction yakakundikana: Ndapota ona kana pane kukwana kwakakwana uye mari yemaminetsi"
         }
     },
     "page_account":{

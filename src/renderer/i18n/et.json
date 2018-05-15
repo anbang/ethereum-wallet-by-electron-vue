@@ -46,13 +46,20 @@
         "send_all":"Saada kõik",
         "remark":"Märkus",
         "fees":"Tasud",
-        "expected_fees":"Hinnangulised tasud",
         "total":"Kokku",
         "select":"Palun vali",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Palun vali"
+        },
+        "confirm_dia":{
             "title":"Palun kinnitage",
             "enter_passworld_tit":"Palun sisesta oma parool",
             "enter_passworld_place":"Palun sisesta oma parool"
+        },
+        "msg_info":{
+            "decrypt_err":"Rahakoti parsing ebaõnnestus, võib olla parooli viga",
+            "send_success":"Saada edu",
+            "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja kaevandamise tasu"
         }
     },
     "page_account":{

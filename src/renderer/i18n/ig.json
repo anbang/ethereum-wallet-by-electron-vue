@@ -46,13 +46,20 @@
         "send_all":"Ziga niile",
         "remark":"Rịba ama",
         "fees":"Ụgwọ",
-        "expected_fees":"Atụle ụgwọ",
         "total":"Ọnụ",
         "select":"Biko họrọ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Biko họrọ"
+        },
+        "confirm_dia":{
             "title":"Biko gosi",
             "enter_passworld_tit":"Biko tinye paswọọdụ gị",
             "enter_passworld_place":"Biko tinye paswọọdụ gị"
+        },
+        "msg_info":{
+            "decrypt_err":"Ikwusi obere akpa wuru, nwere ike ịbụ njehie paswọọdụ",
+            "send_success":"Zipụ ihe ịga nke ọma",
+            "send_error":"Azụmahịa ejirila: Biko lelee ma ọ bụrụ na ego zuru oke na ego onye na-egwuputa ego"
         }
     },
     "page_account":{

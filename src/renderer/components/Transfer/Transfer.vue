@@ -3,7 +3,7 @@
     <div class="transfer-cont">
       <el-form ref="form" label-width="100px">
           <el-form-item :label="$t('page_transfer.from_address')">
-              <el-select v-model="fromAccount" :placeholder="$t('page_transfer.select')" style="width:100%;" >
+              <el-select v-model="fromInfo.account" :placeholder="$t('page_transfer.select')" style="width:100%;" >
                 <el-option
                   v-for="item in database"
                   :key="item.address"
@@ -15,7 +15,7 @@
               </el-select>
           </el-form-item>
           <el-form-item :label="$t('page_transfer.to_address')">
-            <div class="trigger-contacts"  @click="dialogVisible.contacts = true">
+            <div class="trigger-contacts"  @click="dialogSwitch.contacts = true">
               <i class="el-icon-tickets"></i>
             </div>
             <el-input v-model="toAccount" ></el-input>
@@ -48,7 +48,7 @@
                   >
                 </el-slider>
               </div>
-            <span class='speculate-wrap'>{{$t('page_transfer.expected_fees')}} <strong v-text="fee" ></strong>{{$t('unit.czr')}}</span>
+            <span class='speculate-wrap'>{{$t('page_transfer.fees')}} <strong v-text="fee" ></strong>{{$t('unit.czr')}}</span>
           </el-form-item>
 
           <el-form-item>
@@ -61,10 +61,10 @@
     <!-- Dialog select contacts -->
     <el-dialog
       :title= "$t('dialog_tit')"
-      :visible.sync="dialogVisible.contacts"
+      :visible.sync="dialogSwitch.contacts"
       width="70%">
       <span>
-          <el-select v-model="selectedContact" :placeholder="$t('page_transfer.select')" style="width:100%;" >
+          <el-select v-model="selectedContact" :placeholder="$t('page_transfer.contacts_dig.select_placeholder')" style="width:100%;" >
             <el-option
               v-for="item in contacts"
               :key="item.address"
@@ -76,7 +76,7 @@
           </el-select>
       </span>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogVisible.contacts = false">{{$t('cancel')}}</el-button>
+        <el-button @click="dialogSwitch.contacts = false">{{$t('cancel')}}</el-button>
         <el-button type="primary" @click="confrimContacts">{{$t('confirm')}}</el-button>
       </span>
     </el-dialog>
@@ -84,13 +84,13 @@
     <!-- confirm tran -->
     <template>  
       <el-dialog 
-        :title="$t('page_transfer.confirmDia.title')"
+        :title="$t('page_transfer.confirm_dia.title')"
         width="65%"
-        :visible.sync="dialogVisible.confrim">
+        :visible.sync="dialogSwitch.confrim">
 
           <el-form ref="form"label-width="120px">
             <el-form-item :label="$t('page_transfer.from_address')">
-              <p>{{fromAccount}}</p>
+              <p>{{fromInfo.account}}</p>
             </el-form-item>
               <el-form-item :label="$t('page_transfer.to_address')">
               <p>{{toAccount || "-"}}</p>
@@ -109,28 +109,21 @@
             </el-form-item>
           </el-form>          
           <div slot="footer" class="dialog-footer">
-            <el-button @click="dialogVisible.confrim = false">{{$t('cancel')}}</el-button>
-            <el-button type="primary" @click="dialogVisible.passworld = true">{{$t('confirm')}}</el-button>
+            <el-button @click="dialogSwitch.confrim = false">{{$t('cancel')}}</el-button>
+            <el-button type="primary" @click="dialogSwitch.passworld = true">{{$t('confirm')}}</el-button>
           </div>
 
           <el-dialog
             width="60%"
-            :title="$t('page_transfer.confirmDia.enter_passworld_tit')"
-            :visible.sync="dialogVisible.passworld"
+            :title="$t('page_transfer.confirm_dia.enter_passworld_tit')"
+            :visible.sync="dialogSwitch.passworld"
             append-to-body>
-              <el-alert
-                v-if="alertMsg"
-                :title="alertMsg.content"
-                :closable="false"
-                :type="alertMsg.type"
-                show-icon>
-              </el-alert>
             <el-form ref="form" label-width="100px">
-                <el-input v-model="fromAccountPwd" :placeholder="$t('page_transfer.confirmDia.enter_passworld_place')" type="password"></el-input>
+                <el-input v-model="fromInfo.passworld" :placeholder="$t('page_transfer.confirm_dia.enter_passworld_place')" type="password"></el-input>
             </el-form>
 
             <div slot="footer" class="dialog-footer">
-                <el-button @click="dialogVisible.passworld = false">{{$t('cancel')}}</el-button>
+                <el-button @click="dialogSwitch.passworld = false">{{$t('cancel')}}</el-button>
                 <el-button type="primary" @click="sendTransaction">{{$t('confirm')}}</el-button>
             </div>
           </el-dialog>
@@ -145,31 +138,33 @@
 <script>
 let self=null;
 export default {
-  name: "Search",
+  name: "Transfer",
   data() {
     return {
-        alertMsg:null,
-        dialogVisible:{
+        dialogSwitch:{
           contacts:false,
           confrim:false,
           passworld:false
         },
 
         database: [],
-        fromAccount: '',
-        fromAccountPwd:"",
-
         contacts:[],
+        checkedAll: false,
         selectedContact: '',
 
-        gasPrice: '',
+        fromInfo:null,
+        submitInfo:{
 
+        },
+
+        toAccount: '',
+        amount: 0,
+        gasPrice: '',
         feePercent: 100,
         gasLimit: 200000,//参考  myetherwallet
-        checkedAll: false,
-        amount: 0,
         extraData: '',
-        toAccount: ''
+
+
     };
   },
 
@@ -177,13 +172,18 @@ export default {
     self=this;
     this.database = this.$db.get('czr_accounts').value();
     this.contacts = this.$db.get('czr_contacts.contact_ary').value();
-    this.fromAccount = this.$route.query.account || this.database[0].address 
+    
+    this.fromInfo={
+      account:this.$route.query.account || this.database[0].address,
+      passworld:""
+    }
+
     this.refresh()
     this.getGasPrice()
   },
 
   computed: {
-    //初始化手续费
+    //Init
     fee () {
       if (this.selectedGasPrice) {
         //Transaction Fees  ＝  Gas Limit * Gas Price
@@ -198,10 +198,10 @@ export default {
             return Math.ceil(this.gasPrice * (this.feePercent / 100))
         }
     },
-    //初始化账户余额等信息
+    //Init 
     accountInfo () {
-      if (this.fromAccount) {
-        return this.database.find(item => item.address === this.fromAccount)
+      if (this.fromInfo.account) {
+        return this.database.find(item => item.address === this.fromInfo.account)
       } else {
         return {}
       }
@@ -211,11 +211,7 @@ export default {
       let feeWei=this.$web3.utils.toWei(this.fee.toString(), 'ether');
       let totalVal=Number(amountWei)+Number(feeWei);
       return this.$web3.utils.fromWei(totalVal.toString(), 'ether');;
-    },
-
-
-
-
+    }
 
   },
   methods: {
@@ -244,7 +240,7 @@ export default {
     },
     confrimContacts:function(){
       this.toAccount=this.selectedContact;
-      this.dialogVisible.contacts = false
+      this.dialogSwitch.contacts = false
     },
     sendAllAmount: function() {
       if (this.checkedAll) {
@@ -258,9 +254,8 @@ export default {
 
     //confrim validate
     validateForm:function(){
-      //todo Validate'
-      console.log("Validate")
-      this.dialogVisible.confrim = true
+      //TODO Validate
+      this.dialogSwitch.confrim = true
     },
 
 
@@ -271,15 +266,11 @@ export default {
       let value = this.$web3.utils.toWei(this.amount.toString(), 'ether');      
       let account = null
 
-      //TODO 私钥通过密码+keystore解析出来；
       try {
-        account = this.$web3.eth.accounts.decrypt(JSON.stringify(this.accountInfo.keystore), this.fromAccountPwd)
+        account = this.$web3.eth.accounts.decrypt(JSON.stringify(this.accountInfo.keystore), this.fromInfo.passworld)
       } catch (e) {
         console.log('sendDecryptWalletError', e)
-        this.alertMsg = {
-          content: '钱包解析失败，可能是密码错误',
-          type: 'error'
-        }
+        this.$message.error(this.$t('page_transfer.msg_info.decrypt_err'))
         return
       }
       //Signs an Ethereum transaction with a given private key
@@ -300,7 +291,6 @@ export default {
                 rawTransaction: '0xf86a8086d55698372431831e848094f0109fc8df283027b6285cc889f5aa624eac1f55843b9aca008025a009ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9ca0440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428'
             }
             */
-          console.log("hex",hex)
           return this.$web3.eth.sendSignedTransaction(hex.rawTransaction)
         })
         .then(data => {
@@ -318,11 +308,8 @@ export default {
               status : true
            }
 */            
-            console.log("发送成功",data)
             this.$web3.eth.getTransaction(data.transactionHash).then(receiptData =>{
-                console.log("receipt",receiptData);
                 this.$web3.eth.getBlock(data.blockHash).then(blockObj =>{
-                    console.log("blockObj",blockObj.timestamp);
                     receiptData.timestamp=blockObj.timestamp;
 
                     let testFrom = self.$db.get("czr_accounts").find({ address: account.address }).value();
@@ -336,10 +323,10 @@ export default {
                       self.$db.get("czr_accounts").find({ address: self.toAccount }).get("tx_list").unshift(receiptData).write();
                     }
 
-                    this.$message.success('发送成功')
+                    this.$message.success(this.$t('page_transfer.msg_info.send_success'))
                     //Clear data
-                    self.dialogVisible.confrim = false;
-                    self.dialogVisible.passworld = false;
+                    self.dialogSwitch.confrim = false;
+                    self.dialogSwitch.passworld = false;
                     self.$router.push("/account/" + account.address);
 
                 })
@@ -348,7 +335,7 @@ export default {
         })
         .catch(err => {
           console.log(err)
-          this.$message.error('交易失败：请检查是否有足量余额和矿工费')
+          this.$message.error(this.$t('page_transfer.msg_info.send_error'))
         })
     }
 

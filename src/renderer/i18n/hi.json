@@ -46,13 +46,20 @@
         "send_all":"सभी भेजें",
         "remark":"टिप्पणी",
         "fees":"फीस",
-        "expected_fees":"अनुमानित शुल्क",
         "total":"संपूर्ण",
         "select":"कृपया चुनें",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"कृपया चुनें"
+        },
+        "confirm_dia":{
             "title":"कृपया पुष्टि करें",
             "enter_passworld_tit":"कृपया अपना पासवर्ड दर्ज करें",
             "enter_passworld_place":"कृपया अपना पासवर्ड दर्ज करें"
+        },
+        "msg_info":{
+            "decrypt_err":"वॉलेट पार्सिंग विफल, पासवर्ड त्रुटि हो सकती है",
+            "send_success":"सफलता भेजें",
+            "send_error":"लेनदेन विफल: कृपया जांचें कि पर्याप्त शेष राशि और खनिक का शुल्क है या नहीं"
         }
     },
     "page_account":{

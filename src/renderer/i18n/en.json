@@ -46,13 +46,20 @@
         "send_all":"Send all",
         "remark":"Note",
         "fees":"Fees",
-        "expected_fees":"Estimated fees",
         "total":"total",
         "select":"please choose",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"please choose"
+        },
+        "confirm_dia":{
             "title":"please confirm",
             "enter_passworld_tit":"Please enter your password",
             "enter_passworld_place":"Please enter your password"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet parsing failed, may be a password error",
+            "send_success":"Sent successfully",
+            "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"
         }
     },
     "page_account":{

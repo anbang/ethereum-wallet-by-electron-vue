@@ -46,13 +46,20 @@
         "send_all":"Stuur alles",
         "remark":"opmerking",
         "fees":"vergoedingen",
-        "expected_fees":"Geschatte vergoedingen",
         "total":"totaal",
         "select":"Selecteer alstublieft",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Selecteer alstublieft"
+        },
+        "confirm_dia":{
             "title":"Bevestig alstublieft",
             "enter_passworld_tit":"Voer uw wachtwoord in",
             "enter_passworld_place":"Voer uw wachtwoord in"
+        },
+        "msg_info":{
+            "decrypt_err":"Portefeuille parseren mislukt, mogelijk een wachtwoordfout",
+            "send_success":"Stuur succes",
+            "send_error":"Transactie mislukt: controleer of er voldoende saldo en mijnwerkerskosten zijn"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Kirim sadaya",
         "remark":"nyarios",
         "fees":"waragad",
-        "expected_fees":"fee diperkirakeun",
         "total":"total",
         "select":"Mangga pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Mangga pilih"
+        },
+        "confirm_dia":{
             "title":"Mangga mastikeun",
             "enter_passworld_tit":"Mangga lebetkeun sandi anjeun",
             "enter_passworld_place":"Mangga lebetkeun sandi anjeun"
+        },
+        "msg_info":{
+            "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
+            "send_success":"Kirim surélék ayaan",
+            "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Seol go léir",
         "remark":"Nóta",
         "fees":"Táillí",
-        "expected_fees":"Táillí measta",
         "total":"Iomlán",
         "select":"Roghnaigh",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Roghnaigh"
+        },
+        "confirm_dia":{
             "title":"Deimhnigh le do thoil",
             "enter_passworld_tit":"Cuir isteach do phasfhocal",
             "enter_passworld_place":"Cuir isteach do phasfhocal"
+        },
+        "msg_info":{
+            "decrypt_err":"D'fhéadfadh earráid phasfhocal a bheith i gceist le parsáil sa sparán",
+            "send_success":"Seol rath",
+            "send_error":"Theip ar an Idirbheart: Seiceáil le do thoil má tá cothromaíocht leordhóthanach agus táille an mhinéir"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Tümünü gönder",
         "remark":"düşünce",
         "fees":"harç",
-        "expected_fees":"Tahmini ücretler",
         "total":"toplam",
         "select":"Seçiniz",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Seçiniz"
+        },
+        "confirm_dia":{
             "title":"Lütfen onaylayın",
             "enter_passworld_tit":"Lütfen şifrenizi giriniz",
             "enter_passworld_place":"Lütfen şifrenizi giriniz"
+        },
+        "msg_info":{
+            "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
+            "send_success":"Başarı gönder",
+            "send_error":"İşlem başarısız oldu: Lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
         }
     },
     "page_account":{

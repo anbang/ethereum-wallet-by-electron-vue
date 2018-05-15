@@ -46,13 +46,20 @@
         "send_all":"Pošlji vse",
         "remark":"Opomba",
         "fees":"Pristojbine",
-        "expected_fees":"Ocenjene pristojbine",
         "total":"Skupaj",
         "select":"Prosim izberite",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Prosim izberite"
+        },
+        "confirm_dia":{
             "title":"Prosimo, potrdite",
             "enter_passworld_tit":"Vnesite geslo",
             "enter_passworld_place":"Vnesite geslo"
+        },
+        "msg_info":{
+            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, je lahko napaka gesla",
+            "send_success":"Pošlji uspeh",
+            "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
         }
     },
     "page_account":{

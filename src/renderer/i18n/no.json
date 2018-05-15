@@ -46,13 +46,20 @@
         "send_all":"Send alle",
         "remark":"bemerkning",
         "fees":"avgifter",
-        "expected_fees":"Estimerte avgifter",
         "total":"total",
         "select":"Vennligst velg",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vennligst velg"
+        },
+        "confirm_dia":{
             "title":"Vennligst bekreft",
             "enter_passworld_tit":"Vennligst skriv inn passordet ditt",
             "enter_passworld_place":"Vennligst skriv inn passordet ditt"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet-parsing mislyktes, kan være en passordfeil",
+            "send_success":"Send suksess",
+            "send_error":"Transaksjonen feilet: Vennligst sjekk om det er tilstrekkelig balanse og minerens gebyr"
         }
     },
     "page_account":{

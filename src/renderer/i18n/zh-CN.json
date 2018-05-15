@@ -46,13 +46,20 @@
         "send_all":"发送全部",
         "remark":"备注",
         "fees":"手续费",
-        "expected_fees":"预估手续费",
         "total":"合计",
         "select":"请选择",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"请选择"
+        },
+        "confirm_dia":{
             "title":"请确认",
             "enter_passworld_tit":"请输入密码",
             "enter_passworld_place":"请输入密码"
+        },
+        "msg_info":{
+            "decrypt_err":"钱包解析失败，可能是密码错误",
+            "send_success":"发送成功",
+            "send_error":"交易失败：请检查是否有足量余额和矿工费"
         }
     },
     "page_account":{

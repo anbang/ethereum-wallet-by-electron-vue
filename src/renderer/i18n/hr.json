@@ -46,13 +46,20 @@
         "send_all":"Pošalji sve",
         "remark":"primjedba",
         "fees":"naknade",
-        "expected_fees":"Procijenjene naknade",
         "total":"ukupno",
         "select":"Molimo odaberite",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Molimo odaberite"
+        },
+        "confirm_dia":{
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite zaporku",
             "enter_passworld_place":"Unesite zaporku"
+        },
+        "msg_info":{
+            "decrypt_err":"Analiza novčanika nije uspjela, može biti pogreška u zaporci",
+            "send_success":"Pošaljite uspjeh",
+            "send_error":"Transakcija nije uspjela: provjerite ima li dovoljno ravnoteže i naknadu rudara"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"ارسال همه",
         "remark":"توجه داشته باشید",
         "fees":"هزینه ها",
-        "expected_fees":"هزینه های تخمینی",
         "total":"کل",
         "select":"لطفا انتخاب کنید",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"لطفا انتخاب کنید"
+        },
+        "confirm_dia":{
             "title":"لطفا تایید کنید",
             "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
             "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
+        },
+        "msg_info":{
+            "decrypt_err":"تجزیه پول نقد انجام نشد، ممکن است یک خطای رمز عبور باشد",
+            "send_success":"ارسال موفقیت",
+            "send_error":"معامله شکست خورد: لطفا بررسی کنید که آیا تعادل کافی و هزینه معدنچی وجود دارد"
         }
     },
     "page_account":{

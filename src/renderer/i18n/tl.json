@@ -46,13 +46,20 @@
         "send_all":"Ipadala lahat",
         "remark":"Tandaan",
         "fees":"Bayad",
-        "expected_fees":"Tinatayang mga bayarin",
         "total":"Kabuuang",
         "select":"Mangyaring piliin",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Mangyaring piliin"
+        },
+        "confirm_dia":{
             "title":"Mangyaring kumpirmahin",
             "enter_passworld_tit":"Pakipasok ang iyong password",
             "enter_passworld_place":"Pakipasok ang iyong password"
+        },
+        "msg_info":{
+            "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring isang error sa password",
+            "send_success":"Magpadala ng tagumpay",
+            "send_error":"Ang transaksiyon nabigo: Suriin upang makita kung mayroong sapat na balanse at mga minero fee"
         }
     },
     "page_account":{

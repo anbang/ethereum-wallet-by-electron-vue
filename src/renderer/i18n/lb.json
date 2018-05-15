@@ -46,13 +46,20 @@
         "send_all":"Schéckt all",
         "remark":"Notéieren",
         "fees":"Bénévolat",
-        "expected_fees":"Geschätzte Käschten",
         "total":"Total",
         "select":"Wielt we g",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Wielt we g"
+        },
+        "confirm_dia":{
             "title":"Confirméiert weg",
             "enter_passworld_tit":"Gidd weg Äert Passwuert",
             "enter_passworld_place":"Gidd weg Äert Passwuert"
+        },
+        "msg_info":{
+            "decrypt_err":"Portemonnaie vu Portemonnaie konnt net e Passwuertfehler sinn",
+            "send_success":"Sende Erfolleg",
+            "send_error":"Transaktioun ofgeschalt: Préift weg, ob et genuch Ausbezuelen a Biergermesser ass"
         }
     },
     "page_account":{

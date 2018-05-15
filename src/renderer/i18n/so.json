@@ -46,13 +46,20 @@
         "send_all":"Soo dir dhammaan",
         "remark":"Ogow",
         "fees":"Khidmadaha",
-        "expected_fees":"Qiimaha qiyaasta",
         "total":"Wadarta",
         "select":"Fadlan dooro",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Fadlan dooro"
+        },
+        "confirm_dia":{
             "title":"Fadlan cadee",
             "enter_passworld_tit":"Fadlan gali sirtaada",
             "enter_passworld_place":"Fadlan gali sirtaada"
+        },
+        "msg_info":{
+            "decrypt_err":"Qashin khatarta ah ayaa ku fashilantay, waxay noqon kartaa qalad sir ah",
+            "send_success":"U soo dir guul",
+            "send_error":"Hawlgalku wuu ku fashilmay: Fadlan hubi haddii ay jirto dheelitir ku filan iyo kharashka macdanta"
         }
     },
     "page_account":{

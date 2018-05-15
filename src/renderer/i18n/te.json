@@ -46,13 +46,20 @@
         "send_all":"అన్నింటినీ పంపండి",
         "remark":"వ్యాఖ్య",
         "fees":"ఫీజు",
-        "expected_fees":"అంచనా వేసిన ఫీజులు",
         "total":"మొత్తం",
         "select":"దయచేసి ఎంచుకోండి",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"దయచేసి ఎంచుకోండి"
+        },
+        "confirm_dia":{
             "title":"దయచేసి నిర్ధారించండి",
             "enter_passworld_tit":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి",
             "enter_passworld_place":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet పార్సింగ్ విఫలమైంది, పాస్వర్డ్ తప్పు కావచ్చు",
+            "send_success":"విజయం పంపండి",
+            "send_error":"లావాదేవీ విఫలమైంది: దయచేసి తగినంత బ్యాలెన్స్ మరియు మైనర్ ఫీజు ఉంటే తనిఖీ చేయండి"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Kirim kabeh",
         "remark":"Cathetan",
         "fees":"Biaya",
-        "expected_fees":"Biaya ditrapake",
         "total":"Total",
         "select":"Mangga pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Mangga pilih"
+        },
+        "confirm_dia":{
             "title":"Mangga konfirmasi",
             "enter_passworld_tit":"Mangga ketik sandhi",
             "enter_passworld_place":"Mangga ketik sandhi"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
+            "send_success":"Kirim sukses",
+            "send_error":"Transaksi gagal: Mangga dipriksa manawa ana keseimbangan sing cukup lan ragad penambang"
         }
     },
     "page_account":{

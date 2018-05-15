@@ -46,13 +46,20 @@
         "send_all":"Sende alles",
         "remark":"Hinweis",
         "fees":"Gebühren",
-        "expected_fees":"Geschätzte Gebühren",
         "total":"Summe",
         "select":"Bitte auswählen",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Bitte auswählen"
+        },
+        "confirm_dia":{
             "title":"Bitte bestätigen",
             "enter_passworld_tit":"Bitte geben Sie Ihr Passwort ein",
             "enter_passworld_place":"Bitte geben Sie Ihr Passwort ein"
+        },
+        "msg_info":{
+            "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise ein Kennwortfehler",
+            "send_success":"Senden Sie Erfolg",
+            "send_error":"Transaktion fehlgeschlagen: Bitte prüfen Sie, ob genügend Guthaben und Bergarbeitergeld vorhanden sind"
         }
     },
     "page_account":{

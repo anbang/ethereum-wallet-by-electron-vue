@@ -46,13 +46,20 @@
         "send_all":"Thumela konke",
         "remark":"Qaphela",
         "fees":"Imali",
-        "expected_fees":"Izimali ezilinganiselwe",
         "total":"Inani",
         "select":"Sicela ukhethe",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Sicela ukhethe"
+        },
+        "confirm_dia":{
             "title":"Sicela uqinisekise",
             "enter_passworld_tit":"Sicela ufake iphasiwedi yakho",
             "enter_passworld_place":"Sicela ufake iphasiwedi yakho"
+        },
+        "msg_info":{
+            "decrypt_err":"Ukukhishwa kwe-Wallet kuhlulekile, kungenzeka kube yiphutha lephasiwedi",
+            "send_success":"Thumela impumelelo",
+            "send_error":"Ukuthengiswa kwehlulekile: Sicela uhlole ukuthi kukhona imali ebhalansi kanye nemali yommbizi"
         }
     },
     "page_account":{

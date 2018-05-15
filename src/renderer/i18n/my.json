@@ -46,13 +46,20 @@
         "send_all":"အားလုံး Send",
         "remark":"ပွောဆို",
         "fees":"အဖိုးအခ",
-        "expected_fees":"ခန့်မှန်းခြေကြေး",
         "total":"စုစုပေါငျး",
         "select":"ကို select ပေးပါ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ကို select ပေးပါ"
+        },
+        "confirm_dia":{
             "title":"ကျေးဇူးပြု. အတည်ပြု",
             "enter_passworld_tit":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
             "enter_passworld_place":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ"
+        },
+        "msg_info":{
+            "decrypt_err":"ပိုက်ဆံအိတ် resolution ကိုပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
+            "send_success":"အောင်မြင်မှု Send",
+            "send_error":"အဆိုပါငွေပေးငွေယူပျက်ကွက်: အလုံအလောက်ချိန်ခွင်လျှာနှင့်မိုင်းလုပ်သားအခကြေးငွေရှိလျှင်ကြည့်ဖို့ Check"
         }
     },
     "page_account":{

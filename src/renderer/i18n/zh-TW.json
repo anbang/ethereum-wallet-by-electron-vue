@@ -46,13 +46,20 @@
         "send_all":"發送全部",
         "remark":"備註",
         "fees":"手續費",
-        "expected_fees":"預估手續費",
         "total":"合計",
         "select":"請選擇",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"請選擇"
+        },
+        "confirm_dia":{
             "title":"請確認",
             "enter_passworld_tit":"請輸入密碼",
             "enter_passworld_place":"請輸入密碼"
+        },
+        "msg_info":{
+            "decrypt_err":"錢包解析失敗，可能是密碼錯誤",
+            "send_success":"發送成功",
+            "send_error":"交易失敗：請檢查是否有足量餘額和礦工費"
         }
     },
     "page_account":{

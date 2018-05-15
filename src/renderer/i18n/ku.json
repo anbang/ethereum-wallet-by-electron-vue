@@ -46,13 +46,20 @@
         "send_all":"Hemî bişînin",
         "remark":"Têbînî",
         "fees":"Fees",
-        "expected_fees":"Heqê nirxandin",
         "total":"Tevahî",
         "select":"Ji kerema xwe hilbijêrin",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Ji kerema xwe hilbijêrin"
+        },
+        "confirm_dia":{
             "title":"Ji kerema xwe piştrast bikin",
             "enter_passworld_tit":"Ji kerema xwe şîfreya xwe binivîse",
             "enter_passworld_place":"Ji kerema xwe şîfreya xwe binivîse"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsing failed, dibe ku çewtiyek şîfre be",
+            "send_success":"Serkeftî bişînin",
+            "send_error":"Veguhastin têkelî: Ji kerema xwe hebe ku heger heya heqê heqê û heqê minerek hebe"
         }
     },
     "page_account":{

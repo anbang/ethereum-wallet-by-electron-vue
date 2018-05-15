@@ -46,13 +46,20 @@
         "send_all":"Пошаљите све",
         "remark":"Напомена",
         "fees":"Накнаде",
-        "expected_fees":"Процењене накнаде",
         "total":"Укупно",
         "select":"Изаберите",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Изаберите"
+        },
+        "confirm_dia":{
             "title":"Потврдите",
             "enter_passworld_tit":"Унесите своју лозинку",
             "enter_passworld_place":"Унесите своју лозинку"
+        },
+        "msg_info":{
+            "decrypt_err":"Анализирање новчаника није успело, можда грешка грешке",
+            "send_success":"Пошаљи успех",
+            "send_error":"Трансакција није успела: проверите да ли постоји довољна равнотежа и рударска накнада"
         }
     },
     "page_account":{

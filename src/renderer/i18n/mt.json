@@ -46,13 +46,20 @@
         "send_all":"Ibgħat kollha",
         "remark":"Nota",
         "fees":"Drittijiet",
-        "expected_fees":"Ħlas stmat",
         "total":"Totali",
         "select":"Jekk jogħġbok agħżel",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Jekk jogħġbok agħżel"
+        },
+        "confirm_dia":{
             "title":"Jekk jogħġbok ikkonferma",
             "enter_passworld_tit":"Jekk jogħġbok daħħal il-password tiegħek",
             "enter_passworld_place":"Jekk jogħġbok daħħal il-password tiegħek"
+        },
+        "msg_info":{
+            "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
+            "send_success":"Ibgħat suċċess",
+            "send_error":"Tranżizzjoni naqset: Jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u l-miżata tal-minatur"
         }
     },
     "page_account":{

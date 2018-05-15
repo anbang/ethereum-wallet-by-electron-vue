@@ -46,13 +46,20 @@
         "send_all":"ਸਭ ਨੂੰ ਭੇਜੋ",
         "remark":"ਨੋਟ",
         "fees":"ਫੀਸ",
-        "expected_fees":"ਅੰਦਾਜ਼ਾ ਫੀਸ",
         "total":"ਕੁੱਲ",
         "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
+        },
+        "confirm_dia":{
             "title":"ਕਿਰਪਾ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ",
             "enter_passworld_tit":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
             "enter_passworld_place":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"
+        },
+        "msg_info":{
+            "decrypt_err":"ਵਾਲਿਟ ਪਾਰਸਿੰਗ ਅਸਫਲ, ਇੱਕ ਪਾਸਵਰਡ ਗਲਤੀ ਹੋ ਸਕਦੀ ਹੈ",
+            "send_success":"ਸਫਲਤਾ ਭੇਜੋ",
+            "send_error":"ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਅਸਫਲ: ਕਿਰਪਾ ਕਰਕੇ ਚੈੱਕ ਕਰੋ ਕਿ ਕੀ ਲੋੜੀਂਦੀ ਬਕਾਇਆ ਹੈ ਅਤੇ ਖਾਨਾਂ ਦੀ ਫੀਸ"
         }
     },
     "page_account":{

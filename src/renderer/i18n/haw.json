@@ -46,13 +46,20 @@
         "send_all":"Hoʻouna i nā mea a pau",
         "remark":"Kākau",
         "fees":"Nā uku",
-        "expected_fees":"Kūlāʻia nā uku",
         "total":"Hōʻuluʻulu",
         "select":"E koho",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"E koho"
+        },
+        "confirm_dia":{
             "title":"Eʻoluʻolu e hōʻike",
             "enter_passworld_tit":"Eʻoluʻolu e kau i kāu hua'ōlelo",
             "enter_passworld_place":"Eʻoluʻolu e kau i kāu hua'ōlelo"
+        },
+        "msg_info":{
+            "decrypt_err":"ʻAʻole i pohō ka wallet, hiki paha i kahi kuhi hewa",
+            "send_success":"E hoʻouna i ka holomua",
+            "send_error":"Ua pau ka hana: Eʻoluʻolu e nānā inā loaʻa ka uku kūpono a me ka uku o ka miner"
         }
     },
     "page_account":{

@@ -46,13 +46,20 @@
         "send_all":"Firanṣẹ gbogbo",
         "remark":"Akiyesi",
         "fees":"Owo sisan",
-        "expected_fees":"Awọn owo iṣiro",
         "total":"Lapapọ",
         "select":"Jọwọ yan",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Jọwọ yan"
+        },
+        "confirm_dia":{
             "title":"Jọwọ jẹrisi",
             "enter_passworld_tit":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
             "enter_passworld_place":"Jọwọ tẹ ọrọigbaniwọle rẹ sii"
+        },
+        "msg_info":{
+            "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
+            "send_success":"Firanṣẹ aseyori",
+            "send_error":"Ti kuna iṣẹ-ṣiṣe: Jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }
     },
     "page_account":{

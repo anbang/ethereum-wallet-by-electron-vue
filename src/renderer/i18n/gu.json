@@ -46,13 +46,20 @@
         "send_all":"બધા મોકલો",
         "remark":"નોંધ",
         "fees":"ફી",
-        "expected_fees":"અંદાજિત ફી",
         "total":"કુલ",
         "select":"કૃપા કરીને પસંદ કરો",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"કૃપા કરીને પસંદ કરો"
+        },
+        "confirm_dia":{
             "title":"કૃપા કરીને પુષ્ટિ કરો",
             "enter_passworld_tit":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો",
             "enter_passworld_place":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો"
+        },
+        "msg_info":{
+            "decrypt_err":"વૉલેટ પર્સિંગ નિષ્ફળ થયું, પાસવર્ડ ભૂલ હોઈ શકે છે",
+            "send_success":"સફળતા મોકલો",
+            "send_error":"ટ્રાન્ઝેક્શન નિષ્ફળ: કૃપા કરીને તપાસો કે શું પૂરતી સિલક અને ખાણિયોની ફી છે"
         }
     },
     "page_account":{

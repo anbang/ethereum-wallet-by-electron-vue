@@ -46,13 +46,20 @@
         "send_all":"адправіць ўсе",
         "remark":"заўвагу",
         "fees":"зборы",
-        "expected_fees":"ацэначны плата",
         "total":"агульны",
         "select":"Калі ласка, абярыце",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Калі ласка, абярыце"
+        },
+        "confirm_dia":{
             "title":"Калі ласка, пацвердзіце",
             "enter_passworld_tit":"Калі ласка, увядзіце ваш пароль",
             "enter_passworld_place":"Калі ласка, увядзіце ваш пароль"
+        },
+        "msg_info":{
+            "decrypt_err":"дазвол Wallet выходзіць з ладу, гэта можа быць няправільны пароль",
+            "send_success":"адправіць поспех",
+            "send_error":"Здзелка не дапамагае: Праверце, ці дастаткова баланс і шахцёры платы"
         }
     },
     "page_account":{

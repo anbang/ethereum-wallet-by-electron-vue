@@ -46,13 +46,20 @@
         "send_all":"Wyślij wszystko",
         "remark":"Uwaga",
         "fees":"Opłaty",
-        "expected_fees":"Szacowane opłaty",
         "total":"Razem",
         "select":"Proszę wybrać",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Proszę wybrać"
+        },
+        "confirm_dia":{
             "title":"Proszę potwierdzić",
             "enter_passworld_tit":"Wprowadź swoje hasło",
             "enter_passworld_place":"Wprowadź swoje hasło"
+        },
+        "msg_info":{
+            "decrypt_err":"Przetwarzanie portfela nie powiodło się, może to być błąd hasła",
+            "send_success":"Wyślij sukces",
+            "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy jest wystarczająca opłata bilansowa i górnicza"
         }
     },
     "page_account":{

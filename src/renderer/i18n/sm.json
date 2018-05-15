@@ -46,13 +46,20 @@
         "send_all":"Auina uma",
         "remark":"Manatua",
         "fees":"Totogi",
-        "expected_fees":"Tausaga fuafuaina",
         "total":"Aofaʻi",
         "select":"Faamolemole filifili",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Faamolemole filifili"
+        },
+        "confirm_dia":{
             "title":"Faʻamolemole faʻamaonia",
             "enter_passworld_tit":"Faʻamolemole ulufale i lau faʻaupuga",
             "enter_passworld_place":"Faʻamolemole ulufale i lau faʻaupuga"
+        },
+        "msg_info":{
+            "decrypt_err":"Ua le manuia le faila o le faila, atonu o se faʻasologa sese",
+            "send_success":"Auina atu le manuia",
+            "send_error":"Ua le manuia le gaioiga: Faamolemole siaki pe a lava le paleni paleni ma le totogi o le tagata"
         }
     },
     "page_account":{

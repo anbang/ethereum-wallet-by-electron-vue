@@ -46,13 +46,20 @@
         "send_all":"सर्व पाठवा",
         "remark":"टीप",
         "fees":"फी",
-        "expected_fees":"अंदाजे फी",
         "total":"एकूण",
         "select":"कृपया निवडा",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"कृपया निवडा"
+        },
+        "confirm_dia":{
             "title":"कृपया पुष्टी करा",
             "enter_passworld_tit":"कृपया आपला संकेतशब्द प्रविष्ट करा",
             "enter_passworld_place":"कृपया आपला संकेतशब्द प्रविष्ट करा"
+        },
+        "msg_info":{
+            "decrypt_err":"वॉलेट पार्स करणे अयशस्वी झाले, कदाचित एक संकेतशब्द त्रुटी असू शकते",
+            "send_success":"यश पाठवा",
+            "send_error":"व्यवहार अयशस्वी: कृपया पुरेसे शिल्लक आणि खाण कामगारांची फी असल्याचे तपासून पहा"
         }
     },
     "page_account":{

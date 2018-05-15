@@ -46,13 +46,20 @@
         "send_all":"Xa tag nrho",
         "remark":"Lus Cim",
         "fees":"Tus Nqi",
-        "expected_fees":"Cov nqi kwv yees",
         "total":"Tag nrho",
         "select":"Thov xaiv",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Thov xaiv"
+        },
+        "confirm_dia":{
             "title":"Thov paub meej",
             "enter_passworld_tit":"Thov sau koj tus password",
             "enter_passworld_place":"Thov sau koj tus password"
+        },
+        "msg_info":{
+            "decrypt_err":"Cov hnab parsing puav tsis tau, tej zaum yuav ua yuam kev password",
+            "send_success":"Xa ntawv zoo",
+            "send_error":"Kev Them Xam Xaj: Thov saib xyuas seb puas muaj nyiaj txaus thiab me me tus nqi"
         }
     },
     "page_account":{

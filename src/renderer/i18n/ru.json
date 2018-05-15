@@ -46,13 +46,20 @@
         "send_all":"Отправить все",
         "remark":"замечание",
         "fees":"сборы",
-        "expected_fees":"Расчетные сборы",
         "total":"общий",
         "select":"Пожалуйста, выберите",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Пожалуйста, выберите"
+        },
+        "confirm_dia":{
             "title":"Пожалуйста, подтвердите",
             "enter_passworld_tit":"Введите пароль",
             "enter_passworld_place":"Введите пароль"
+        },
+        "msg_info":{
+            "decrypt_err":"Ошибка анализа паролей, может быть ошибкой пароля",
+            "send_success":"Отправить успех",
+            "send_error":"Не удалось выполнить транзакцию: проверьте, есть ли достаточный баланс и гонорар шахтера"
         }
     },
     "page_account":{

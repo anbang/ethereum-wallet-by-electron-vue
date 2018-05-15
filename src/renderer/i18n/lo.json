@@ -46,13 +46,20 @@
         "send_all":"ສົ່ງທັງຫມົດ",
         "remark":"ຫມາຍເຫດ",
         "fees":"ຄ່າທໍານຽມ",
-        "expected_fees":"ຄ່າທໍານຽມທີ່ຄາດຄະເນ",
         "total":"ລວມ",
         "select":"ກະລຸນາເລືອກ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ກະລຸນາເລືອກ"
+        },
+        "confirm_dia":{
             "title":"ໂປດຍືນຍັນ",
             "enter_passworld_tit":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
             "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
+        },
+        "msg_info":{
+            "decrypt_err":"ການວິເຄາະຂອງ Wallet ລົ້ມເຫລວອາດຈະເປັນຂໍ້ຜິດພາດລະຫັດຜ່ານ",
+            "send_success":"ສົ່ງຜົນສໍາເລັດ",
+            "send_error":"ບັນຊີການເຮັດທຸລະກິດລົ້ມເຫລວ: ກະລຸນາກວດເບິ່ງວ່າມີຍອດເງິນສົມທົບແລະຄ່າທໍານຽມຂອງແຮ່ທາດຢ່າງພຽງພໍ"
         }
     },
     "page_account":{

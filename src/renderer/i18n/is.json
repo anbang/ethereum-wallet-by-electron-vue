@@ -46,13 +46,20 @@
         "send_all":"Senda allt",
         "remark":"Athugaðu",
         "fees":"Gjöld",
-        "expected_fees":"Áætlaðir gjöld",
         "total":"Samtals",
         "select":"Vinsamlegast veldu",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vinsamlegast veldu"
+        },
+        "confirm_dia":{
             "title":"Vinsamlegast staðfestu",
             "enter_passworld_tit":"Vinsamlegast sláðu inn lykilorðið þitt",
             "enter_passworld_place":"Vinsamlegast sláðu inn lykilorðið þitt"
+        },
+        "msg_info":{
+            "decrypt_err":"Pappaþáttun mistókst, gæti verið lykilorðsvilla",
+            "send_success":"Senda velgengni",
+            "send_error":"Breyting mistókst: Vinsamlegast athugaðu hvort það sé nægjanlegt jafnvægi og gjaldþrota"
         }
     },
     "page_account":{
