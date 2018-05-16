@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Biztosan törölni akarja?",
+            "tit":"Biztosan eltávolítja?",
+            "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
             "backup":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Kérjük, először importálja a kulcstároló fájlt",
             "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
             "remove_success":"Sikeresen eltávolítva",
-            "save":"Hozzon létre egy pénztárca sikeres mentse kulcstárát vagy magán, ne ossza meg senkivel!"
+            "create_success":"Létrehozva sikeresen",
+            "save":"Kérem, mentse el a kulcstartót vagy a privát kulcsot, és ne ossza meg senkivel!"
         }
     }
 

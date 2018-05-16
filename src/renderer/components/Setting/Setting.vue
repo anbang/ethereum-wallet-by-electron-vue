@@ -68,6 +68,7 @@ export default {
 }
 .setting-banner .setting-tit {
   height: 175px;
+  text-align: center;
   line-height: 175px;
   font-weight: 400;
   font-size: 30px;

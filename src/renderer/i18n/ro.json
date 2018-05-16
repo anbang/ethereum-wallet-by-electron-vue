@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sigur doriți să ștergeți?",
+            "tit":"Sigur doriți să îl eliminați?",
+            "remove_confrim":"Sunt sigur că voi elimina",
             "backup":"Asigurați-vă că contul a fost susținut pentru a evita daunele materiale"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Vă rugăm să importați mai întâi fișierul cu chei",
             "error_password":"Contul nu a putut fi importat, poate fi o parolă greșită",
             "remove_success":"Eliminat cu succes",
-            "save":"Creați portofelul cu succes, salvați cheia dvs. de magazin sau cheia privată, nu o partajați nimănui!"
+            "create_success":"Creat cu succes",
+            "save":"Vă rugăm să salvați depozitul de chei sau private, nu împărtășesc cu nimeni!"
         }
     }
 

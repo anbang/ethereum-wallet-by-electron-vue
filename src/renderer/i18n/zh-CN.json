@@ -90,8 +90,8 @@
         "add_account":"新建账号",
         "acc":"账户",
         "create_dia":{
-            "create_tit":"创建账号",
-            "backup_tit":"备份您的新账号",
+            "create_tit":"创建账户",
+            "backup_tit":"备份您的新账户",
 
             "create_tag":"账户名称",
             "create_pwd":"设置密码",
@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"你确定要删除吗？",
+            "tit":"你确定要移除吗？",
+            "remove_confrim":"我确定移除",
             "backup":"请确定该账号已经备份，避免财产损失"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"请先导入keystore文件",
             "error_password":"账户导入失败，可能是密码错误",
             "remove_success":"移除成功",
-            "save":"创建钱包成功,请保存你的keystore或者私钥，不要分享给任何人！"
+            "create_success":"创建成功",
+            "save":"请保存你的keystore或者私钥，不要分享给任何人！"
         }
     }
 

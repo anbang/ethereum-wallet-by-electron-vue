@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Jeste li sigurni da želite izbrisati?",
+            "tit":"Jeste li sigurni da ga želite ukloniti?",
+            "remove_confrim":"Sigurno ću ukloniti",
             "backup":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Najprije uvezite datoteku za ključeve",
             "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
             "remove_success":"Uklonjeno je uspješno",
-            "save":"Izradite novčanik uspješno, spremite ključnu poštu ili privatni ključ, nemojte ga dijeliti nikome!"
+            "create_success":"Izrađeno je uspješno",
+            "save":"Spremite ključnu poštu ili privatni ključ i nemojte ga dijeliti nikome!"
         }
     }
 

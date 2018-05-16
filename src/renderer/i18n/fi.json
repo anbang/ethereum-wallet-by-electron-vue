@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Haluatko varmasti poistaa?",
+            "tit":"Haluatko varmasti poistaa sen?",
+            "remove_confrim":"Olen varma poistaa",
             "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Ole hyvä ja syötä ensin keystore-tiedosto",
             "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
             "remove_success":"Poistettu onnistuneesti",
-            "save":"Luo lompakko onnistuneesti, säilytä avaimen tai yksityisen avaimen, älä jakaa sitä kenellekään!"
+            "create_success":"Luotu onnistuneesti",
+            "save":"Tallenna avainpohja tai yksityinen avain ja älä jakaa sitä kenenkään kanssa!"
         }
     }
 

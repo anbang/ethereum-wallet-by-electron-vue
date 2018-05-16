@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Inti żgur li trid tħassar?",
+            "tit":"Int żgur li trid tneħħih?",
+            "remove_confrim":"Jiena ċert li tneħħi",
             "backup":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Jekk jogħġbok importa l-fajl keystore l-ewwel",
             "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
             "remove_success":"Mneħħija b'suċċess",
-            "save":"Oħloq kartiera b'suċċess, ħlief is-keystore jew iċ-ċavetta privata tiegħek, ma taqsamha ma 'ħaddieħor!"
+            "create_success":"Maħluq b'suċċess",
+            "save":"Jekk jogħġbok ħlief il-keystore jew iċ-ċavetta privata tiegħek u ma taqsamha ma 'ħaddieħor!"
         }
     }
 

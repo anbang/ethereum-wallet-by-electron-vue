@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Ṣe o da ọ loju pe o fẹ paarẹ?",
+            "tit":"Ṣe o da ọ loju pe o fẹ yọ kuro?",
+            "remove_confrim":"Mo daju lati yọ kuro",
             "backup":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Jọwọ gbe faili faili bọtini ni akọkọ",
             "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
             "remove_success":"Pa kuro ni ifijišẹ",
-            "save":"Ṣẹda apamọwọ ni ifijiṣe, jọwọ ṣe afihan bọtini-igbẹ rẹ tabi bọtini ikọkọ, ma ṣe pin pin si ẹnikẹni!"
+            "create_success":"Ṣẹda ni ifijišẹ",
+            "save":"Jowo fi oju-ipamọ bọtini rẹ tabi bọtini ikọkọ ti o ko pin pẹlu ẹnikẹni!"
         }
     }
 

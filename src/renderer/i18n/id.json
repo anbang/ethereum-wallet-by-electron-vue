@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Anda yakin ingin menghapus?",
+            "tit":"Anda yakin ingin menghapusnya?",
+            "remove_confrim":"Saya yakin untuk menghapus",
             "backup":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Harap impor file keystore terlebih dahulu",
             "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
             "remove_success":"Berhasil dihapus",
-            "save":"Buat dompet berhasil, simpan kunci keystore atau kunci pribadi Anda, jangan bagikan ke siapa pun!"
+            "create_success":"Berhasil dibuat",
+            "save":"Simpan kunci keystore atau pribadi Anda dan jangan bagikan dengan siapa pun!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Koj puas paub tseeb tias koj xav rho tawm?",
+            "tit":"Koj puas paub tseeb tias koj xav muab nws tshem?",
+            "remove_confrim":"Kuv nco ntsoov tshem tawm",
             "backup":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Thov xa cov ntaub ntawv tseem ceeb ua ntej",
             "error_password":"Ua tsis tau tejyam nyiaj, nws yuav yog tus password",
             "remove_success":"Tshem tawm suab",
-            "save":"Ua kom lub hnab ntim tau zoo, thov cawm koj tus keystore lossis tus yuam sij, tsis txhob muab rau leej twg!"
+            "create_success":"Tsim tau zoo",
+            "save":"Thov txuag koj tus keystore los yog tus yuam sij thiab tsis koom nrog leej twg!"
         }
     }
 

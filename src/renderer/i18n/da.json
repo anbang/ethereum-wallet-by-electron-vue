@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Er du sikker på, at du vil slette?",
+            "tit":"Er du sikker på at du vil fjerne den?",
+            "remove_confrim":"Jeg er sikker på at fjerne",
             "backup":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Indtast venligst keystore filen først",
             "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
             "remove_success":"Fjernet med succes",
-            "save":"Opret lommebog med succes, gem venligst dit nøglelager eller privat nøgle, del det ikke til nogen!"
+            "create_success":"Oprettet succesfuldt",
+            "save":"Vær venlig at gemme dit keystore eller private nøgle og ikke dele det med nogen!"
         }
     }
 

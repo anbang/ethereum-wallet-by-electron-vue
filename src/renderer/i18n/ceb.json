@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sigurado ba nga gusto nimong papason?",
+            "tit":"Sigurado ba nga gusto nimong kuhaon kini?",
+            "remove_confrim":"Sigurado ko nga kuhaon",
             "backup":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Palihug i-import una ang keystore file una",
             "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
             "remove_success":"Malampuson nga nahuman",
-            "save":"Himoa nga malampuson ang pitaka, palihug haw-i ang imong keystore o pribadong yawe, ayaw ipaambit kini sa bisan kinsa!"
+            "create_success":"Nahimo nga malampuson",
+            "save":"Palihog luwasa ang imong keystore o pribadong yawe ug ayaw ipaambit kini sa bisan kinsa!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Är du säker på att du vill radera?",
+            "tit":"Är du säker på att du vill ta bort den?",
+            "remove_confrim":"Jag är säker på att ta bort",
             "backup":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Vänligen importera nyckelhanteringsfilen först",
             "error_password":"Det gick inte att importera ett konto, det kan vara ett felaktigt lösenord",
             "remove_success":"Avlägsnades framgångsrikt",
-            "save":"Skapa en plånbok med framgång, var god spara din nyckelbutik eller privat nyckel, dela inte den till någon!"
+            "create_success":"Skapades framgångsrikt",
+            "save":"Var god spara din nyckelbutik eller privat nyckel och dela den inte med någon!"
         }
     }
 

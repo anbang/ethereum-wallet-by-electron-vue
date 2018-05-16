@@ -121,6 +121,7 @@
         },
         "remove_dia":{
             "tit":"Uqinisekile ukuthi ufuna ukususa?",
+            "remove_confrim":"Ngiyaqiniseka ukususa",
             "backup":"Sicela uqiniseke ukuthi i-akhawunti isixhaswe ukuze igweme ukulimala kwempahla"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Sicela ungenise ifayela le-keystore kuqala",
             "error_password":"Yehlulekile ukungenisa i-akhawunti, kungenzeka ukuthi iphasiwedi engalungile",
             "remove_success":"Isusiwe ngempumelelo",
-            "save":"Dala isikhwama ngempumelelo, sicela ulondoloze ikhibhodi yakho noma ikhi yangasese, ungabelani nanoma ubani!"
+            "create_success":"Idalwe ngempumelelo",
+            "save":"Sicela ulondoloze i-keystore yakho noma ukhiye wangasese futhi ungahlanganyeli nanoma ubani!"
         }
     }
 

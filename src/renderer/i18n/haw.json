@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Makemakeʻoe makemake e holoi?",
+            "tit":"Makemakeʻoe makemake e wehe i kahi?",
+            "remove_confrim":"Makemake wau e wehe",
             "backup":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"E kāhuakomo i kahi faila failika mua",
             "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
             "remove_success":"Ua hoʻopau 'ia iā ia",
-            "save":"E hana maikaʻi i kahi putele, eʻoluʻolu e mālama i kāu keystore a kī kīnā paha, mai hoʻokaʻawale i kekahi i kekahi!"
+            "create_success":"Hanaʻia me ka maikaʻi",
+            "save":"Eʻoluʻolu e mālama i kāu keystore a kīnā pūnaewele paha aʻaʻoleʻoe e puʻunaue i kekahi me kekahi!"
         }
     }
 

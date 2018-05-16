@@ -121,6 +121,7 @@
         },
         "remove_dia":{
             "tit":"Apa sampeyan pengin mbusak?",
+            "remove_confrim":"Aku arep mbusak",
             "backup":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Mangga ngimpor file keystore dhisik",
             "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
             "remove_success":"Dibusak kasil",
-            "save":"Gawe dompet sukses, monggo simpen tombol keystore utawa pribadi, aja gawanen menyang sapa wae!"
+            "create_success":"Digawe sukses",
+            "save":"Monggo simpen tombol keystore utawa pribadi lan aja bareng karo sapa waé!"
         }
     }
 

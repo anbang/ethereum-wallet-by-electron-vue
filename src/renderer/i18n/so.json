@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Ma hubtaa inaad rabto inaad tirtirto?",
+            "tit":"Ma hubtaa inaad rabto inaad ka saarto?",
+            "remove_confrim":"Waxaan hubaa in aan ka saaro",
             "backup":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Fadlan horey u soo qaado faylka muhiimka ah",
             "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
             "remove_success":"Kala guuleysatay",
-            "save":"Abuuri jeebka si guul leh, fadlan badbaadi furahaaga furaha ama furaha gaarka ah, ha la wadaagin cid kale!"
+            "create_success":"Abuuray guul",
+            "save":"Fadlan keydso furahaaga furaha ama furaha gaarka ah oo ha la wadaagin cid kale!"
         }
     }
 

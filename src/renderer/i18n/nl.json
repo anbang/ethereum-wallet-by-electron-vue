@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Weet je zeker dat je wilt verwijderen?",
+            "tit":"Weet je zeker dat je het wilt verwijderen?",
+            "remove_confrim":"Ik ben zeker om te verwijderen",
             "backup":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Importeer eerst het keystore-bestand",
             "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
             "remove_success":"Met succes verwijderd",
-            "save":"Maak een portemonnee succesvol, bewaar uw keystore of private sleutel, deel hem met niemand!"
+            "create_success":"Met succes gemaakt",
+            "save":"Bewaar uw sleutelbewaarplaats of persoonlijke sleutel en deel deze met niemand!"
         }
     }
 

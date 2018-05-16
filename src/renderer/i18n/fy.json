@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Binne jo wis dat jo wiskje wolle?",
+            "tit":"Binne jo wis dat jo it fuortsmite wolle?",
+            "remove_confrim":"Ik bin wis wis om te fuortsmite",
             "backup":"Soargje derfoar dat it akkount opslein is om foarkomt te foarkommen"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Please first select the keystore file",
             "error_password":"It mislearre akkount mislearre, it kin in ferkeard wachtwurd wêze",
             "remove_success":"Fuortsmite mei sukses",
-            "save":"Meitsje jo wallet mei súkses, besykje jo keystore of privee kaai te bewarjen, diel it net oan elkenien!"
+            "create_success":"Súkses is makke",
+            "save":"Graach jo keystore of privee-kaai besparje en diel it net mei elkenien!"
         }
     }
 

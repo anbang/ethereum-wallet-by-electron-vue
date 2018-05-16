@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sei sicuro di voler eliminare?",
+            "tit":"Sei sicuro di volerlo rimuovere?",
+            "remove_confrim":"Sono sicuro di rimuovere",
             "backup":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Si prega di importare prima il file keystore",
             "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
             "remove_success":"Rimosso con successo",
-            "save":"Crea portafoglio con successo, salva il tuo keystore o la tua chiave privata, non condividerlo con nessuno!"
+            "create_success":"Creato con successo",
+            "save":"Si prega di salvare il keystore o la chiave privata e non condividerlo con nessuno!"
         }
     }
 

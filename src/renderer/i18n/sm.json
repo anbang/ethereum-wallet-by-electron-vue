@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"E te mautinoa e te manaʻo e faʻamalo?",
+            "tit":"E te mautinoa e te manaʻo e aveese?",
+            "remove_confrim":"Ou te mautinoa e aveese",
             "backup":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Faamolemole faaulu muamua le faila o le faila",
             "error_password":"Ua le mafai ona faaulufale mai le teugatupe, atonu o se sese sese",
             "remove_success":"Aveese ma le manuia",
-            "save":"Fausia le atotupe ma le manuia, faʻamolemole faʻapolopolo lou kiliva poʻo le faalilolilo, aua le faʻasoa atu i se tasi!"
+            "create_success":"Fausia lelei",
+            "save":"Faʻamolemole faʻapolopolo lou kiliva poʻo le faʻamaoni tumaʻoti ma aua le faʻasoa atu i soo se tasi!"
         }
     }
 

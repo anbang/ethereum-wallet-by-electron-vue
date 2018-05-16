@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Adakah anda pasti mahu memadamkannya?",
+            "tit":"Adakah anda pasti mahu mengeluarkannya?",
+            "remove_confrim":"Saya pasti akan mengeluarkannya",
             "backup":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Sila import fail utama utama dahulu",
             "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
             "remove_success":"Dihapuskan berjaya",
-            "save":"Buat dompet berjaya, sila simpan kunci utama atau kunci peribadi anda, jangan berkongsinya dengan sesiapa sahaja!"
+            "create_success":"Dibuat berjaya",
+            "save":"Sila simpan kunci utama atau kunci peribadi anda dan jangan kongsi dengan sesiapa!"
         }
     }
 

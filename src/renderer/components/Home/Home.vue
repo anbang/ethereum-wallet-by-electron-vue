@@ -63,7 +63,8 @@
           </template>
           <template v-else-if="createInfo.step === 1">
             <el-alert
-              :title="$t('page_home.msg_info.save')"
+              :title="$t('page_home.msg_info.create_success')"
+              :description="$t('page_home.msg_info.save')"
               :closable="false"
               type="success"
               show-icon>
@@ -84,10 +85,10 @@
           :title="$t('page_home.import_dia.tit')"
           :visible.sync="dialogSwitch.import"
           @open="initImportInfo"
-          width="40%">
+          width="50%">
           <template v-if="importInfo.step === 0">
-            <div class="text"> {{$t('page_home.import_dia.select_type')}} </div>
-            <div>
+            <div class="import-type-wrap">
+              <div class="text"> {{$t('page_home.import_dia.select_type')}} </div>
               <el-radio v-model="importInfo.type" label="0" border> {{$t('page_home.import_dia.type_private')}} </el-radio>
               <el-radio v-model="importInfo.type" label="1" border> {{$t('page_home.import_dia.type_keystore')}} </el-radio>
             </div>
@@ -155,7 +156,7 @@
           </span>
           <span slot="footer" class="dialog-footer">
             <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="removeAccountFn">{{ $t('confirm') }}</el-button>
+            <el-button type="danger" @click="removeAccountFn">{{ $t('page_home.remove_dia.remove_confrim') }}</el-button>
           </span>
         </el-dialog>
 
@@ -269,6 +270,10 @@ export default {
         this.createInfo.error = this.$t('page_home.msg_info.incons_password')
         return
       }
+      if(this.createInfo.pwd.length<8 || this.createInfo.repwd.length<8){
+        this.createInfo.error = this.$t('page_home.create_dia.strong_password')
+        return
+      }
       let account = this.$web3.eth.accounts.create()
       this.createInfo.address = account.address;
       this.createInfo.privateKey = account.privateKey
@@ -345,6 +350,14 @@ export default {
           }
           return
         }
+        if(this.importInfo.pwd.length<8 || this.importInfo.repwd.length<8){
+          this.importInfo.alert = {
+            content: this.$t('page_home.create_dia.strong_password'),
+            type: 'error'
+          }
+          return
+        }
+
         if (this.importInfo.privateKey.indexOf('0x') !== 0) {
           this.importInfo.privateKey = '0x' + this.importInfo.privateKey
         }
@@ -434,6 +447,7 @@ export default {
 }
 .home-banner {
   width: 100%;
+  text-align: center;
   height: 175px;
   background-image: linear-gradient(
     45deg,
@@ -468,6 +482,7 @@ export default {
 }
 .accounrt-item {
   width: 218px;
+  text-align: center;
   border: 1px transparent;
   padding: 44px 10px 10px 10px;
   position: relative;
@@ -582,5 +597,5 @@ export default {
 .el-dialog .el-input  .el-input-group__prepend {
     width: 200px;
 }
-
+.import-type-wrap{text-align: center;}
 </style>

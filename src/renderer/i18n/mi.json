@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Kei te hiahia koe kia muku?",
+            "tit":"Kei te hiahia koe kia tangohia?",
+            "remove_confrim":"E mohio ana ahau ki te tango",
             "backup":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Me kawemai te tuatahi o te pouaka matua",
             "error_password":"I rahua te kawemai i te pūkete, he kupuhipa he",
             "remove_success":"Tangohia angitu",
-            "save":"Waihanga i te putea pai, waiho koa to maatau matua, tautuhi takitahi ranei, kaua e tuwha atu ki tetahi!"
+            "create_success":"I waihangatia pai",
+            "save":"Whakaorangia koa i to keystore, i te tautuhi tūmataiti rānei, kaua hoki e tuwhaina ki tetahi!"
         }
     }
 

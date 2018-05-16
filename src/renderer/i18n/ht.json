@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Èske ou sèten ou vle efase?",
+            "tit":"Èske ou sèten ou vle retire li?",
+            "remove_confrim":"Mwen asire w ke yo retire",
             "backup":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Tanpri enpòte dosye a kle premye",
             "error_password":"Fayit enpòte kont, li ka yon modpas mal",
             "remove_success":"Retire siksè",
-            "save":"Kreye bous avèk siksè, tanpri sove keystore ou oswa kle prive, pa pataje li nan nenpòt moun!"
+            "create_success":"Kreye avèk siksè",
+            "save":"Tanpri, sove keystore ou oswa kle prive epi pa pataje li avèk nenpòt moun!"
         }
     }
 

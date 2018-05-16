@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Tem certeza de que deseja excluir?",
+            "tit":"Tem certeza de que deseja removê-lo?",
+            "remove_confrim":"Tenho certeza de remover",
             "backup":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Por favor, importe o arquivo keystore primeiro",
             "error_password":"Falha ao importar conta, pode ser uma senha errada",
             "remove_success":"Removido com sucesso",
-            "save":"Crie uma carteira com sucesso, por favor, salve seu keystore ou chave privada, não compartilhe com ninguém!"
+            "create_success":"Criado com sucesso",
+            "save":"Por favor, salve seu keystore ou chave privada e não o compartilhe com ninguém!"
         }
     }
 

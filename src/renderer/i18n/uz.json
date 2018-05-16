@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Siz o'chirmoqchimisiz?",
+            "tit":"Uni olib tashlashni xohlaysizmi?",
+            "remove_confrim":"Ishonchim komilki",
             "backup":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Avval keystore faylini import qiling",
             "error_password":"Hisobni import qilish amalga oshmadi, u noto'g'ri parol bo'lishi mumkin",
             "remove_success":"Muvaffaqiyatli olib tashlandi",
-            "save":"Hamyonni muvaffaqiyatli yaratish, keystore yoki maxfiy tugmachani saqlang, uni hech kimga qo'shmang!"
+            "create_success":"Muvaffaqiyatli yaratildi",
+            "save":"Klaviaturani yoki shaxsiy kalitingizni saqlang va uni hech kim bilan baham ko'rmang!"
         }
     }
 

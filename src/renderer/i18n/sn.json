@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Unonyatsoziva here kuti unoda kubvisa?",
+            "tit":"Une chokwadi here kuti unoda kuibvisa?",
+            "remove_confrim":"Ndine chokwadi chokuti ndichabvisa",
             "backup":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Ndapota tumira chinyorwa chekinyora kutanga",
             "error_password":"Yakakundikana kutumira account, inogona kunge iri password isina kururama",
             "remove_success":"Yakabviswa kubudirira",
-            "save":"Gadzira chikwama kubudirira, tapota ponesa kona yako yekodhi kana kiyi yega yega, urege kugovera kune ani zvake!"
+            "create_success":"Yakagadzirwa zvakanaka",
+            "save":"Ndapota chengetedza keseti yako yekodhi kana kiyi yega yega uye usagovana nayo kune ani zvake!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Azonao antoka ve fa te-hamafa ianao?",
+            "tit":"Tena tianao ve ny manala azy?",
+            "remove_confrim":"Azoko antoka fa tokony hesorina aho",
             "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Alefaso azafady aloha ny rakitra fanalahidy",
             "error_password":"Tsy mety ny mampiditra ny kaonty, mety ho teny tsy mety izany",
             "remove_success":"Nesorina tamim-pahombiazana",
-            "save":"Ataovy mahomby tsara ny kitapom-bola, azafady manangona ny keystore na ny fanalahidin'ny tenanao manokana, aza mizara izany amin'iza na iza!"
+            "create_success":"Noforonina tsara",
+            "save":"Azafady azafady ny fanalahidinao na ny fanalahidinao manokana ary aza zaranao amin'ny olona izany!"
         }
     }
 

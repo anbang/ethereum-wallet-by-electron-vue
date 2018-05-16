@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Una uhakika unataka kufuta?",
+            "tit":"Una uhakika unataka kuiondoa?",
+            "remove_confrim":"Nina uhakika kuondoa",
             "backup":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Tafadhali ingiza faili ya keystore kwanza",
             "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
             "remove_success":"Imeondolewa kwa mafanikio",
-            "save":"Unda mkoba kwa ufanisi, tafadhali salama kitufe cha ufunguo au ufunguo wa faragha, usishiriki na mtu yeyote!"
+            "create_success":"Imeundwa kwa ufanisi",
+            "save":"Tafadhali salama keystore yako au ufunguo wa kibinafsi na usishiriki na mtu yeyote!"
         }
     }
 

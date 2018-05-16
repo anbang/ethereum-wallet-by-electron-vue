@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"¿Estás seguro de que queres eliminar?",
+            "tit":"Estás seguro de que queres eliminar?",
+            "remove_confrim":"Estou seguro de eliminar",
             "backup":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Importe primeiro o ficheiro de teclado",
             "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
             "remove_success":"Eliminouse con éxito",
-            "save":"Crea billetera con éxito, garda a túa tenda de teclas ou a chave privada, non a compartas a ninguén."
+            "create_success":"Creado con éxito",
+            "save":"Garda o seu teclado ou a chave privada e non o comparte con ninguén."
         }
     }
 

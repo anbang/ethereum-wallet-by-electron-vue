@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Ertu viss um að þú viljir eyða?",
+            "tit":"Ertu viss um að þú viljir fjarlægja það?",
+            "remove_confrim":"Ég er viss um að fjarlægja",
             "backup":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Vinsamlegast flytðu inn lykilskrána fyrst",
             "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
             "remove_success":"Fjarlægt með góðum árangri",
-            "save":"Búðuðu veskið með góðum árangri, vinsamlegast vista lykilhúsið þitt eða einkalykilinn, deildu því ekki með neinum!"
+            "create_success":"Búið til með góðum árangri",
+            "save":"Vinsamlegast vistaðu lykilhúsið þitt eða einkalykilinn og deildu því ekki með neinum!"
         }
     }
 

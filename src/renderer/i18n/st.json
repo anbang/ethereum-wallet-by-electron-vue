@@ -121,6 +121,7 @@
         },
         "remove_dia":{
             "tit":"Na u netefatsa hore u batla ho e tlosa?",
+            "remove_confrim":"Ke kholisehile ho tlosa",
             "backup":"Ka kopo etsa bonnete ba hore akhaonto e tšehetsoe ho qoba tšenyo ea thepa"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Ka kopo kenya inthanete ea keystore pele",
             "error_password":"E hlōlehile ho kenya akhaonto, e ka 'na ea e-ba polelo e fosahetseng",
             "remove_success":"E tlosoa ka katleho",
-            "save":"Etsa ka katleho sepache, ka kopo pholosa sesepa sa hau sa keystore kapa senotlolo se le seng, u se ke ua se arolelana le mang kapa mang!"
+            "create_success":"E entsoe ka katleho",
+            "save":"Ka kopo pholosa sesepa sa hau sa keystore kapa senotlolo sa hau le sephiri '"
         }
     }
 

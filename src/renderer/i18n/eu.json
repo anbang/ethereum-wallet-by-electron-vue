@@ -121,6 +121,7 @@
         },
         "remove_dia":{
             "tit":"Ziur al zaude ezabatu nahi duzula?",
+            "remove_confrim":"Ziur kendu egin behar dudala",
             "backup":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Inportatu keystore fitxategia lehenik",
             "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
             "remove_success":"Behar bezala kendu da",
-            "save":"Sortu zorroa arrakastaz, gorde teklak edo gako pribatua, ez partekatu inori!"
+            "create_success":"Sortu arrakastaz",
+            "save":"Mesedez, gorde teklatu edo gako pribatua eta ez partekatu edonorekin!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Silmek istediğinden emin misin?",
+            "tit":"Onu kaldırmak istediğinden emin misin?",
+            "remove_confrim":"Çıkarmak için eminim",
             "backup":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Lütfen önce anahtar deposu dosyasını içe aktarın",
             "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
             "remove_success":"Başarıyla kaldırıldı",
-            "save":"Cüzdanı başarılı bir şekilde oluşturun, lütfen anahtar deponuzu veya özel anahtarınızı kaydedin, kimseyle paylaşmayın!"
+            "create_success":"Başarıyla oluşturuldu",
+            "save":"Lütfen anahtar deponuzu veya özel anahtarınızı kaydedin ve kimseyle paylaşmayın!"
         }
     }
 

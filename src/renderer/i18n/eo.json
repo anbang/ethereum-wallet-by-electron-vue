@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Ĉu vi certas, ke vi volas forigi?",
+            "tit":"Ĉu vi certas, ke vi volas forigi ĝin?",
+            "remove_confrim":"Mi certe forigas",
             "backup":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Bonvolu importi la klavaron unue",
             "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
             "remove_success":"Forigita sukcese",
-            "save":"Krei moneron kun sukceso, bonvolu ŝpari vian ŝlosilon aŭ privatan ŝlosilon, ne dividu ĝin al iu ajn!"
+            "create_success":"Kreita sukcese",
+            "save":"Bonvolu konservi vian ŝlosilon aŭ privatan ŝlosilon kaj ne dividu ĝin kun iu ajn!"
         }
     }
 

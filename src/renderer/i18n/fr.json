@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Êtes-vous sûr de vouloir supprimer?",
+            "tit":"Êtes-vous sûr de vouloir l'enlever?",
+            "remove_confrim":"Je suis sûr d'enlever",
             "backup":"Veuillez vous assurer que le compte a été sauvegardé pour éviter les dommages matériels"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Veuillez d'abord importer le fichier keystore",
             "error_password":"Impossible d'importer le compte, il peut s'agir d'un mot de passe incorrect",
             "remove_success":"Retiré avec succès",
-            "save":"Créez un portefeuille avec succès, enregistrez votre fichier de clés ou votre clé privée, ne le partagez pas avec qui que ce soit!"
+            "create_success":"Créé avec succès",
+            "save":"Veuillez sauvegarder votre fichier de clés ou votre clé privée et ne le partagez avec personne!"
         }
     }
 

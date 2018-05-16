@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Czy na pewno chcesz usunąć?",
+            "tit":"Czy na pewno chcesz go usunąć?",
+            "remove_confrim":"Jestem pewien, że usunę",
             "backup":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Najpierw zaimportuj plik kluczy",
             "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
             "remove_success":"Usunięto pomyślnie",
-            "save":"Utwórz portfel z powodzeniem, zapisz plik kluczy lub klucz prywatny, nie udostępniaj go nikomu!"
+            "create_success":"Utworzono pomyślnie",
+            "save":"Zapisz swój magazyn kluczy lub klucz prywatny i nie udostępniaj go nikomu!"
         }
     }
 

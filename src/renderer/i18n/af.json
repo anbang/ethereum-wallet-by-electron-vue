@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Is jy seker jy wil verwyder?",
+            "tit":"Is jy seker jy wil dit verwyder?",
+            "remove_confrim":"Ek is seker om te verwyder",
             "backup":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Voer asseblief die sleutelwinkel-lêer eerste in",
             "error_password":"Kon nie rekening invoer nie, dit mag dalk 'n verkeerde wagwoord wees",
             "remove_success":"Suksesvol verwyder",
-            "save":"Skep 'n beursie suksesvol, slaan asseblief jou sleutelwinkel of privaat sleutel op, moenie dit aan enigiemand deel nie!"
+            "create_success":"Geskep suksesvol",
+            "save":"Slaan asseblief jou sleutelwinkel of privaat sleutel op en moenie dit met enigiemand deel nie!"
         }
     }
 

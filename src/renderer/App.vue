@@ -22,11 +22,11 @@ export default {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   width: 100%;
   /* margin-top: 60px; */
 }
+
 #bodyer{min-height: 550px;width: 100%;;margin: 0 auto;background-color: #ececec;}
 
 </style>

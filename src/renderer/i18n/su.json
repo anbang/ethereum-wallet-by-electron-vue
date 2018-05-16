@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Anjeun yakin rék ngahapus eta?",
+            "tit":"Anjeun yakin rék ngaleupaskeun?",
+            "remove_confrim":"Kuring yakin ngaleupaskeun",
             "backup":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Mangga ngimpor file keystore",
             "error_password":"Rekening impor gagal, nya meureun sandi salah",
             "remove_success":"dipupus junun",
-            "save":"Jieun dompét a sukses, simpen keystore Anjeun atawa swasta, teu babagi kalawan saha!"
+            "create_success":"nyieun ayaan",
+            "save":"Mangga ngahemat keystore Anjeun atawa swasta, teu babagi kalawan saha!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Kuna tabbatar kana so ka share?",
+            "tit":"Shin kuna tabbatar kuna so ku cire shi?",
+            "remove_confrim":"Na tabbata cire",
             "backup":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Da fatan a shigo da maɓallin kullun farko",
             "error_password":"Ba a yi nasarar shigar da asusu ba, yana iya zama kalmar sirri mara daidai",
             "remove_success":"Ana cire nasarar",
-            "save":"Ƙirƙiri walat ɗin nasara, don Allah a ajiye maɓallin kullunka ko maɓalli na sirri, kada ka raba wa kowa!"
+            "create_success":"An yi nasara",
+            "save":"Don Allah ajiye your keystore ko masu zaman kansu, ba tare da raba kowa!"
         }
     }
 

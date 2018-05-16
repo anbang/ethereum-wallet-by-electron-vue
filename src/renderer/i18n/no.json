@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Er du sikker på at du vil slette?",
+            "tit":"Er du sikker på at du vil fjerne den?",
+            "remove_confrim":"Jeg er sikker på å fjerne",
             "backup":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Vennligst importer nøkkelbutikkfilen først",
             "error_password":"Kan ikke importere konto, det kan være et feil passord",
             "remove_success":"Fjernet vellykket",
-            "save":"Opprett lommebok vellykket, vær så snill å lagre nøkkelbutikken eller privatnøkkelen, ikke del den til noen!"
+            "create_success":"Opprettet med hell",
+            "save":"Vennligst lagre nøkkelbutikken eller privatnøkkelen og ikke del den med noen!"
         }
     }
 

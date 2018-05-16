@@ -121,6 +121,7 @@
         },
         "remove_dia":{
             "tit":"Naozaj chcete odstrániť?",
+            "remove_confrim":"Určite odstrániť",
             "backup":"Uistite sa, že bol účet zálohovaný, aby ste predišli poškodeniu majetku"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Najprv importujte súbor úložiska kľúčov",
             "error_password":"Nepodarilo sa importovať účet, môže to byť nesprávne heslo",
             "remove_success":"Úspešne odstránené",
-            "save":"Vytvorte peňaženku úspešne, uložte prosím svoj obchod s kľúčovými slovami alebo súkromný kľúč, nikomu ho nenechajte zdieľať!"
+            "create_success":"Vytvorené úspešne",
+            "save":"Uložte prosím svoj obchod s kľúčovými slovami alebo súkromný kľúč a nedajte sa s nikým zdieľať!"
         }
     }
 

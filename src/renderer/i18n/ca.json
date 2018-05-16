@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Esteu segur que voleu suprimir?",
+            "tit":"Esteu segur que voleu eliminar-lo?",
+            "remove_confrim":"Estic segur de suprimir",
             "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Importeu primer el fitxer de teclat",
             "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
             "remove_success":"S'ha eliminat correctament",
-            "save":"Crea un moneder amb èxit, si us plau, deseu el vostre magatzem de claus o la clau privada, no ho compartiu a ningú."
+            "create_success":"Creat amb èxit",
+            "save":"Deseu el botó de claus o la clau privada i no ho compartiu amb ningú."
         }
     }
 

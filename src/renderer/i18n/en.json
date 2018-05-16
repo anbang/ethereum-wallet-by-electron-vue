@@ -90,7 +90,7 @@
         "add_account":"New account",
         "acc":"Account",
         "create_dia":{
-            "create_tit":"Create an account",
+            "create_tit":"create Account",
             "backup_tit":"Back up your new account",
 
             "create_tag":"account name",
@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Are you sure you want to delete?",
+            "tit":"Are you sure you want to remove it?",
+            "remove_confrim":"I am sure to remove",
             "backup":"Please make sure the account has been backed up to avoid property damage"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Please import the keystore file first",
             "error_password":"Failed to import account, it may be a wrong password",
             "remove_success":"Removed successfully",
-            "save":"Create wallet successfully, please save your keystore or private key, don't share it to anyone!"
+            "create_success":"Created successfully",
+            "save":"Please save your keystore or private key and don't share it with anyone!"
         }
     }
 

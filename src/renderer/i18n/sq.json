@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Jeni i sigurt që doni të fshini?",
+            "tit":"Jeni i sigurt se doni ta hiqni atë?",
+            "remove_confrim":"Unë jam i sigurt për të hequr",
             "backup":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Ju lutemi të importoni skedarin e keystore së pari",
             "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
             "remove_success":"Heqja me sukses",
-            "save":"Krijoni portofolin me sukses, ju lutemi ruani tastierën tuaj ose çelësin privat, mos e ndani atë askujt!"
+            "create_success":"Krijuar me sukses",
+            "save":"Ju lutemi ruani tastierën tuaj ose çelësin privat dhe mos e ndani me askënd!"
         }
     }
 

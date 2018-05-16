@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Mukutsimikiza kuti mukufuna kuchotsa?",
+            "tit":"Kodi mukutsimikiza kuti mukufuna kuchotsa?",
+            "remove_confrim":"Ndikutsimikiza kuchotsa",
             "backup":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Chonde lowetsani fayilo ya keystore choyamba",
             "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
             "remove_success":"Kuchotsedwa bwino",
-            "save":"Pangani ngongole bwinobwino, chonde sungani sewero lanu lachinsinsi kapena chinsinsi chapadera, osagawana nawo kwa wina aliyense!"
+            "create_success":"Zapangidwa bwino",
+            "save":"Chonde sungani chinsinsi chanu chachinsinsi kapena chinsinsi chapadera ndipo musagwirizane nawo ndi wina aliyense!"
         }
     }
 

@@ -158,6 +158,7 @@ export default {
 }
 .contacts-banner .contacts-tit {
   height: 175px;
+  text-align: center;
   line-height: 175px;
   font-weight: 400;
   font-size: 30px;
@@ -175,6 +176,7 @@ export default {
 }
 .contacts-item {
   width: 218px;
+  text-align: center;
   border: 1px transparent;
   padding: 44px 10px 10px 10px;
   position: relative;

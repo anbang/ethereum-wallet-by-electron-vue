@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sind Sie sicher, dass Sie löschen möchten?",
+            "tit":"Sind Sie sicher, dass Sie es entfernen möchten?",
+            "remove_confrim":"Ich bin sicher, zu entfernen",
             "backup":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Bitte importieren Sie zuerst die Keystore-Datei",
             "error_password":"Konnte das Konto nicht importieren, kann dies ein falsches Passwort sein",
             "remove_success":"Erfolgreich entfernt",
-            "save":"Erstellen Sie die Brieftasche erfolgreich, speichern Sie Ihren Keystore oder privaten Schlüssel, teilen Sie ihn nicht mit anderen!"
+            "create_success":"Erfolgreich erstellt",
+            "save":"Bitte speichern Sie Ihren Schlüsselspeicher oder privaten Schlüssel und teilen Sie ihn nicht mit anderen!"
         }
     }
 

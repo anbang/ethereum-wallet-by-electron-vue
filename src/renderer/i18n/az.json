@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Silmək istədiyinizə əminsiniz?",
+            "tit":"Bunu aradan qaldırmaq istədiyinizə əminsiniz?",
+            "remove_confrim":"Çıxaracağınızdan əminəm",
             "backup":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Öncə keystore faylını idxal edin",
             "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
             "remove_success":"Uğurla silindi",
-            "save":"Cüzdanı uğurla yaradın, keystore və ya gizli anahtarı saxlayın, onu heç kimə bölüşməyin!"
+            "create_success":"Tərəqqi yaradılıb",
+            "save":"Xahiş edirik keystore və ya xüsusi anahtarı saxlayın və onu hər kəslə bölüşməyin!"
         }
     }
 

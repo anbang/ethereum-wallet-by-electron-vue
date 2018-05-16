@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"A bheil thu cinnteach gu bheil thu airson a sguabadh às?",
+            "tit":"A bheil thu cinnteach gu bheil thu airson a thoirt às?",
+            "remove_confrim":"Tha mi cinnteach gun cuir mi às",
             "backup":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Cuir a-steach am faidhle cudthromach an toiseach",
             "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
             "remove_success":"Thoir air falbh gu soirbheachail",
-            "save":"Cruthaich phasgan gu soirbheachail, sàbhail do stòr-inneal no iuchair prìobhaideach, na rannsaich e do dhuine sam bith!"
+            "create_success":"Cruthaichte gu soirbheachail",
+            "save":"Sàbhail an iuchair chudromach agad no iuchair phrìobhaideach agus na co-roinn e le duine sam bith!"
         }
     }
 

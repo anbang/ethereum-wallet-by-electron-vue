@@ -266,6 +266,7 @@ export default {
 <style scoped>
 .account-banner {
   height: 175px;
+  text-align: center;
   background-color: #5a59a0;
   color: #fff;
   width: 100%;

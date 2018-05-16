@@ -90,8 +90,8 @@
         "add_account":"新建賬號",
         "acc":"賬戶",
         "create_dia":{
-            "create_tit":"創建賬號",
-            "backup_tit":"備份您的新賬號",
+            "create_tit":"創建賬戶",
+            "backup_tit":"備份您的新賬戶",
 
             "create_tag":"賬戶名稱",
             "create_pwd":"設置密碼",
@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"你確定要刪除嗎？",
+            "tit":"你確定要移除嗎？",
+            "remove_confrim":"我確定移除",
             "backup":"請確定該賬號已經備份，避免財產損失"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"請先導入keystore文件",
             "error_password":"賬戶導入失敗，可能是密碼錯誤",
             "remove_success":"移除成功",
-            "save":"創建錢包成功,請保存你的keystore或者私鑰，不要分享給任何人！"
+            "create_success":"創建成功",
+            "save":"請保存你的keystore或者私鑰，不要分享給任何人！"
         }
     }
 

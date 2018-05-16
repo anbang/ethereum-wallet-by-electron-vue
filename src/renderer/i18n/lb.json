@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sidd Dir sécher datt Dir wëllt läschen?",
+            "tit":"Sidd Dir sécher, datt Dir se ewechhuelt?",
+            "remove_confrim":"Ech si sécher si ze läschen",
             "backup":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Kuckt weg un d'Tastekonto Datei zuerst",
             "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
             "remove_success":"Erofgeholl",
-            "save":"Setzt Är Portemonnaie Succès, späichere weg Äre Keystore oder e privaten Schlëssel, liwwere se net u jiddereen!"
+            "create_success":"Erfolleg gemaach",
+            "save":"Dir kënnt Äre Keystore oder Äre privaten Schlëssel späicheren an net mat jiddereen ze deelen!"
         }
     }
 

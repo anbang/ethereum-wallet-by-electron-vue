@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"An bhfuil tú cinnte gur mhaith leat a scriosadh?",
+            "tit":"An bhfuil tú cinnte gur mhaith leat é a bhaint?",
+            "remove_confrim":"Táim cinnte go mbainfí as",
             "backup":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Cuir isteach an comhad eochaircheap ar dtús",
             "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
             "remove_success":"Bainte go rathúil",
-            "save":"Cruthaigh sparán go rathúil, sábháil do eochairchlár nó eochair phríobháideach, ná é a roinnt le duine ar bith!"
+            "create_success":"Cruthaithe go rathúil",
+            "save":"Sábháil an eochairchlár nó an eochair phríobháideach agus ná é a roinnt le duine ar bith!"
         }
     }
 

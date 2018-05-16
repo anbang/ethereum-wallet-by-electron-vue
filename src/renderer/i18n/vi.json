@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Bạn có chắc chắn muốn xóa không?",
+            "tit":"Bạn có chắc chắn muốn xóa nó không?",
+            "remove_confrim":"Tôi chắc chắn sẽ xóa",
             "backup":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Vui lòng nhập tệp kho khóa trước",
             "error_password":"Không thể nhập tài khoản, có thể đó là mật khẩu sai",
             "remove_success":"Đã xóa thành công",
-            "save":"Tạo ví thành công, vui lòng lưu kho khóa hoặc khóa cá nhân của bạn, không chia sẻ nó cho bất kỳ ai!"
+            "create_success":"Đã tạo thành công",
+            "save":"Vui lòng lưu keystore hoặc khóa riêng của bạn và không chia sẻ với bất kỳ ai!"
         }
     }
 

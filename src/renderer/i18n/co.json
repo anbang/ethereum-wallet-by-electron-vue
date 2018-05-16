@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sè sicuru chì vulete sguassate?",
+            "tit":"Sè sicuru chì vulete sguassà?",
+            "remove_confrim":"Sò sicuru d'eliminà",
             "backup":"Assicuratevi chì u vostru contu hè statu backed up per evità di danni à a pruprietà"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Imprezzate u schedariu keystore prima",
             "error_password":"Ùn avianu impurtatu u vostru contu, pò esse una password erretta",
             "remove_success":"Removedu successu",
-            "save":"Crea billeteratu bè, salvate a vostra chjave o chjave privata, ùn ci micca fà sparte cù nimu!"
+            "create_success":"Creatu successu",
+            "save":"Sfranzate i vostri keystore o chjave privata è ùn ne micca sparte cù tutti!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Sigurado ka bang gusto mong tanggalin?",
+            "tit":"Sigurado ka bang gusto mong alisin ito?",
+            "remove_confrim":"Sigurado ako na mag-alis",
             "backup":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Mangyaring i-import muna ang keystore file",
             "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
             "remove_success":"Matagumpay na naalis",
-            "save":"Lumikha ng wallet nang matagumpay, mangyaring i-save ang iyong keystore o pribadong key, huwag ibahagi ito sa sinuman!"
+            "create_success":"Matagumpay na nalikha",
+            "save":"Mangyaring i-save ang iyong keystore o pribadong key at huwag ibahagi ito sa sinuman!"
         }
     }
 

@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"¿Estás seguro de que quieres eliminar?",
+            "tit":"¿Seguro que quieres eliminarlo?",
+            "remove_confrim":"Estoy seguro de eliminar",
             "backup":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Importa primero el archivo de almacén de claves",
             "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
             "remove_success":"Eliminado con éxito",
-            "save":"Cree una billetera con éxito, guarde su almacén de claves o clave privada, ¡no la comparta con nadie!"
+            "create_success":"Creado con éxito",
+            "save":"¡Guarde su almacén de claves o clave privada y no la comparta con nadie!"
         }
     }
 

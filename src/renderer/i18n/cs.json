@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Opravdu chcete smazat?",
+            "tit":"Opravdu ji chcete odstranit?",
+            "remove_confrim":"Určitě odstraním",
             "backup":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Nejprve importujte soubor úložiště klíčů",
             "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
             "remove_success":"Úspěšně byla odebrána",
-            "save":"Úspěšně vytvořte peněženku. Uložte prosím klíčenku nebo soukromý klíč, nikomu ji neomezujte!"
+            "create_success":"Vytvořeno úspěšně",
+            "save":"Uložte prosím svůj klíčový nebo soukromý klíč a nesdílejte ho nikomu!"
         }
     }
 

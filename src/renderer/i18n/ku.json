@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Ma tu dixwazî ​​ku hûn dixwazin jêbirin?",
+            "tit":"Ma hûn bawer dikin ku hûn dixwazin jêbirin?",
+            "remove_confrim":"Ez bawer dikim ku jêbirin",
             "backup":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Ji kerema xwe pelê pelê keystore bikî",
             "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
             "remove_success":"Serkeftî hat",
-            "save":"Wallet bi serkeftî biafirîne, kerema xwe ya keystore yan kilîta xwe ya xwe biparêze, ne bi kesek re parve bike!"
+            "create_success":"Serkeftî çêkir",
+            "save":"Ji kerema xwe ji klavyoya xwe ya keyhî an taybetmendiyê biparêze û bi kesek re parve bike!"
         }
     }
 

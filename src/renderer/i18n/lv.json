@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Vai tiešām vēlaties dzēst?",
+            "tit":"Vai tiešām vēlaties to noņemt?",
+            "remove_confrim":"Es esmu pārliecināts, ka noņems",
             "backup":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Lūdzu, importējiet galveno datņu failu",
             "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
             "remove_success":"Noņemta veiksmīgi",
-            "save":"Veidojiet seifu veiksmīgi, lūdzu, saglabājiet savu atslēgu laukumu vai privāto atslēgu, nedodiet to nevienam!"
+            "create_success":"Veidots veiksmīgi",
+            "save":"Lūdzu, saglabājiet savu taustiņu vai privāto atslēgu un nedodiet to citiem!"
         }
     }
 

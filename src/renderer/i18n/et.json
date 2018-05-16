@@ -120,7 +120,8 @@
 
         },
         "remove_dia":{
-            "tit":"Kas olete kindel, et soovite kustutada?",
+            "tit":"Kas olete kindel, et soovite selle eemaldada?",
+            "remove_confrim":"Ma kindlasti eemaldan",
             "backup":"Veenduge, et konto on varundatud, et vältida varakahju"
         },
         "msg_info":{
@@ -134,7 +135,8 @@
             "enter_keystore":"Palun importige esmalt võtmesalvestusfail",
             "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
             "remove_success":"Eemaldati edukalt",
-            "save":"Rahakoti loomine edukalt, salvestage oma võtmehoidja või privaatvõti, ärge seda kellelegi jagage!"
+            "create_success":"Loodud edukalt",
+            "save":"Palun salvestage oma võtmehoidja või privaatvõti ja ärge seda kellelgigi jagage!"
         }
     }
 
