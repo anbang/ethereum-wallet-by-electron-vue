@@ -48,6 +48,7 @@
         "fees":"Bayaran",
         "total":"Jumlah",
         "select":"Sila pilih",
+        "no_account_info":"Tiada akaun, sila buat atau import akaun",
         "contacts_dig":{
             "select_placeholder":"Sila pilih"
         },
@@ -125,7 +126,7 @@
             "backup":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
         },
         "msg_info":{
-            "exist":"Akaun ini sudah wujud dan nama itu ada",
+            "exist":"Akaun ini sudah wujud, namanya",
             "enter_password":"Sila masukkan kata laluan anda",
             "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
             "error":"Ralat:",

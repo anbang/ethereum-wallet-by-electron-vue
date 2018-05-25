@@ -48,6 +48,7 @@
         "fees":"Fees",
         "total":"Total",
         "select":"Mifantena azafady",
+        "no_account_info":"Tsy misy kaonty, azafady manamboara na manafatra kaonty",
         "contacts_dig":{
             "select_placeholder":"Mifantena azafady"
         },
@@ -59,7 +60,7 @@
         "msg_info":{
             "decrypt_err":"Tsy nahomby ny fanesorana ny kitapo, mety ho fahadisoana anaty tenimiafina",
             "send_success":"Alefaso ny fahombiazana",
-            "send_error":"Tsy nahomby ny fanatanterahana: Tsidiho azafady raha misy ny salanisa sy ny sara-mineraly ampy"
+            "send_error":"Tsy nahomby ny fifanarahana: Tsidiho azafady raha misy ny salanisa sy ny karama fitrandrahana"
         }
     },
     "page_account":{
@@ -122,10 +123,10 @@
         "remove_dia":{
             "tit":"Tena tianao ve ny manala azy?",
             "remove_confrim":"Azoko antoka fa tokony hesorina aho",
-            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
+            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
         },
         "msg_info":{
-            "exist":"Ity kaonty ity dia efa misy ary ny anarany dia",
+            "exist":"Ity kaonty ity dia efa misy, ny anarany dia",
             "enter_password":"Ampidiro azafady ny tenimiafinao",
             "incons_password":"Ny tenimiafina niditra indroa dia tsy mifanaraka",
             "error":"Error:",

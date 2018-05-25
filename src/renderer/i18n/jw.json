@@ -48,6 +48,7 @@
         "fees":"Biaya",
         "total":"Total",
         "select":"Mangga pilih",
+        "no_account_info":"Ora ana akun, mangga nggawe utawa ngimpor akun",
         "contacts_dig":{
             "select_placeholder":"Mangga pilih"
         },
@@ -73,16 +74,16 @@
         },
         "edit_dia":{
             "tit":"Ngowahi cathetan",
-            "subtit":"Kanggo akun tandha komentar sing"
+            "subtit":"Tandai cathetan kanggo akun sampeyan"
         },
         "keystore":{
-            "tit":"Nggawe serep keystore ing",
-            "copy":"Copy",
-            "download":"download keystore"
+            "tit":"Back up keystore",
+            "copy":"Duplikat",
+            "download":"Download keystore"
         },
         "msg_info":{
             "ads_copy_success":"Alamat wis disalin",
-            "key_copy_success":"disalin kasil"
+            "key_copy_success":"Kasil disalin"
         }
     },
     "page_home":{
@@ -125,7 +126,7 @@
             "backup":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
         },
         "msg_info":{
-            "exist":"Akun iki wis ana lan jeneng kasebut",
+            "exist":"Akun iki wis ana, jeneng kasebut",
             "enter_password":"Mangga ketik sandhi",
             "incons_password":"Tembung sandhi sing kaping pindho ora konsisten",
             "error":"Kesalahan:",

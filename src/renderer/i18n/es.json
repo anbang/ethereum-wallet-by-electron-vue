@@ -48,6 +48,7 @@
         "fees":"Honorarios",
         "total":"Total",
         "select":"Por favor selecciona",
+        "no_account_info":"Sin cuenta, crea o importa una cuenta",
         "contacts_dig":{
             "select_placeholder":"Por favor selecciona"
         },
@@ -125,7 +126,7 @@
             "backup":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
         },
         "msg_info":{
-            "exist":"Esta cuenta ya existe y el nombre es",
+            "exist":"Esta cuenta ya existe, el nombre es",
             "enter_password":"Por favor ingrese su contraseña",
             "incons_password":"La contraseña ingresada dos veces es inconsistente",
             "error":"Error:",

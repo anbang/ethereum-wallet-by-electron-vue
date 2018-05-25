@@ -48,6 +48,7 @@
         "fees":"Ücretler",
         "total":"Ümumi",
         "select":"Xahiş edirik seçin",
+        "no_account_info":"Hesabınız yoxdur, hesab yaradın və ya idxal edin",
         "contacts_dig":{
             "select_placeholder":"Xahiş edirik seçin"
         },
@@ -125,7 +126,7 @@
             "backup":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
         },
         "msg_info":{
-            "exist":"Bu hesab artıq mövcuddur və adıdır",
+            "exist":"Bu hesab artıq mövcuddur, adıdır",
             "enter_password":"Şifrənizi daxil edin",
             "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
             "error":"Hata:",

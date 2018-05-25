@@ -48,6 +48,7 @@
         "fees":"tasse",
         "total":"totale",
         "select":"Per favore seleziona",
+        "no_account_info":"Nessun account, crea o importa un account",
         "contacts_dig":{
             "select_placeholder":"Per favore seleziona"
         },
@@ -125,7 +126,7 @@
             "backup":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
         },
         "msg_info":{
-            "exist":"Questo account esiste già e il nome è",
+            "exist":"Questo account esiste già, il nome è",
             "enter_password":"Per favore inserisci la tua password",
             "incons_password":"La password inserita due volte è incoerente",
             "error":"Errore:",

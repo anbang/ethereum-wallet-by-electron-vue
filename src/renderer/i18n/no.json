@@ -48,6 +48,7 @@
         "fees":"avgifter",
         "total":"total",
         "select":"Vennligst velg",
+        "no_account_info":"Ingen konto, vennligst opprett eller importer konto",
         "contacts_dig":{
             "select_placeholder":"Vennligst velg"
         },

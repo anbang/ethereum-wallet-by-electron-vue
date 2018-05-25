@@ -28,7 +28,7 @@
             "tag":"etiket",
             "address":"temas",
             "tag_placeholder":"Lütfen kişinin yorum etiketini girin",
-            "address_placeholder":"Lütfen iletişim bilgilerini giriniz"
+            "address_placeholder":"Lütfen kişi hesabını giriniz"
         },
         "delete_dialog":{
             "title":"Sen kaldırıyorsun"
@@ -48,6 +48,7 @@
         "fees":"harç",
         "total":"toplam",
         "select":"Seçiniz",
+        "no_account_info":"Hesap yok, lütfen hesabı oluştur veya içe aktar",
         "contacts_dig":{
             "select_placeholder":"Seçiniz"
         },
@@ -125,7 +126,7 @@
             "backup":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
         },
         "msg_info":{
-            "exist":"Bu hesap zaten var ve isim",
+            "exist":"Bu hesap zaten var, isim",
             "enter_password":"Lütfen şifrenizi giriniz",
             "incons_password":"İki kez girilen şifre tutarsız",
             "error":"Hata:",

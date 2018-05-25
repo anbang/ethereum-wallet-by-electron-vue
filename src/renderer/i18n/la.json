@@ -48,6 +48,7 @@
         "fees":"fees",
         "total":"summa",
         "select":"placere eligere",
+        "no_account_info":"Nulla ratio, aut placere import rationem creare",
         "contacts_dig":{
             "select_placeholder":"placere eligere"
         },

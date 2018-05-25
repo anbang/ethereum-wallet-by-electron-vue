@@ -48,6 +48,7 @@
         "fees":"အဖိုးအခ",
         "total":"စုစုပေါငျး",
         "select":"ကို select ပေးပါ",
+        "no_account_info":"အဘယ်သူမျှမအကောင့်, အကောင့်တစ်ခုသို့မဟုတ်သွင်းကုန်ဖန်တီးကျေးဇူးပြုပြီး",
         "contacts_dig":{
             "select_placeholder":"ကို select ပေးပါ"
         },

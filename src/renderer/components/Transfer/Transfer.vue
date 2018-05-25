@@ -1,7 +1,7 @@
 <template>
   <div class="page-transfer">
     <div class="transfer-cont">
-      <el-form ref="form" label-width="100px">
+      <el-form ref="form" label-width="100px" v-if="this.database.length>0">
           <el-form-item :label="$t('page_transfer.from_address')">
               <el-select v-model="fromInfo.account" :placeholder="$t('page_transfer.select')" style="width:100%;" >
                 <el-option
@@ -55,8 +55,12 @@
             <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
             
           </el-form-item>
-    </el-form>
-  </div>
+      </el-form>
+      <div v-else>
+        <i class="el-icon-circle-close-outline no-account-icon"></i>
+        <p class="no-account-des">{{$t('page_transfer.no_account_info')}}</p>
+      </div>
+    </div>
 
     <!-- Dialog select contacts -->
     <el-dialog
@@ -152,7 +156,10 @@ export default {
         checkedAll: false,
         selectedContact: '',
 
-        fromInfo:null,
+        fromInfo:{
+          account:"",
+          passworld:""
+        },
         submitInfo:{
 
         },
@@ -172,14 +179,15 @@ export default {
     self=this;
     this.database = this.$db.get('czr_accounts').value();
     this.contacts = this.$db.get('czr_contacts.contact_ary').value();
-    
-    this.fromInfo={
-      account:this.$route.query.account || this.database[0].address,
-      passworld:""
-    }
 
-    this.refresh()
-    this.getGasPrice()
+    if(this.database.length){
+      this.fromInfo={
+        account:this.$route.query.account || this.database[0].address || '',
+        passworld:""
+      }
+      this.refresh()
+      this.getGasPrice()
+    }
   },
 
   computed: {
@@ -357,6 +365,7 @@ export default {
 }
 .transfer-cont {
   padding: 0 90px;
+  min-height: 450px;
 }
 .page-transfer .bui-form-selector {
   width: 420px;
@@ -406,4 +415,15 @@ export default {
 .speculate-wrap {
   color: rgb(168, 168, 168);
 }
+.no-account-icon{
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+.no-account-des{
+  text-align: center;
+  margin-top: 40px;
+}
+
 </style>

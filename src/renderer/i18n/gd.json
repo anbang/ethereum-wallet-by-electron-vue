@@ -48,6 +48,7 @@
         "fees":"Cìsean",
         "total":"Iomlan",
         "select":"Tagh",
+        "no_account_info":"Chan eil cunntas, cruthaich no cuir a-steach cunntas",
         "contacts_dig":{
             "select_placeholder":"Tagh"
         },
@@ -125,7 +126,7 @@
             "backup":"Dèan cinnteach gu bheil an cunntas air a bhith taiceil gus nach tèid milleadh air togalaichean a sheachnadh"
         },
         "msg_info":{
-            "exist":"Tha an cunntas seo mu thràth agus tha an t-ainm",
+            "exist":"Tha an cunntas seo mu thràth, is e an t-ainm",
             "enter_password":"Cuir a-steach am facal-faire agad",
             "incons_password":"Tha am facal-faire a chaidh a-steach dà thuras neo-chunbhalach",
             "error":"Mearachd:",
@@ -133,7 +134,7 @@
             "enter_private":"Cuir a-steach an iuchair",
             "error_private":"Dh'fhàillig an cunntas a thoirt a-steach, is dòcha gur e an iuchair ceàrr a th 'ann",
             "enter_keystore":"Cuir a-steach am faidhle cudthromach an toiseach",
-            "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
+            "error_password":"Dh'fhàillig air cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
             "remove_success":"Thoir air falbh gu soirbheachail",
             "create_success":"Cruthaichte gu soirbheachail",
             "save":"Sàbhail an iuchair chudromach agad no iuchair phrìobhaideach agus na co-roinn e le duine sam bith!"

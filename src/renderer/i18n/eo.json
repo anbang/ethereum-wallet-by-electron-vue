@@ -48,6 +48,7 @@
         "fees":"Kotizoj",
         "total":"Tuta",
         "select":"Bonvolu elekti",
+        "no_account_info":"Neniu konto, bonvolu krei aŭ importi konton",
         "contacts_dig":{
             "select_placeholder":"Bonvolu elekti"
         },
@@ -125,7 +126,7 @@
             "backup":"Bonvolu certigi, ke la konton estis rezervita por eviti nemoveblaĵojn"
         },
         "msg_info":{
-            "exist":"Ĉi tiu konto jam ekzistas kaj la nomo estas",
+            "exist":"Ĉi tiu konto jam ekzistas, la nomo estas",
             "enter_password":"Bonvolu enmeti vian pasvorton",
             "incons_password":"La pasvorto enirita dufoje estas nekonsistente",
             "error":"Eraro:",

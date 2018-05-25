@@ -48,6 +48,7 @@
         "fees":"Gebyrer",
         "total":"I alt",
         "select":"Vælg venligst",
+        "no_account_info":"Ingen konto, vær venlig at oprette eller importere konto",
         "contacts_dig":{
             "select_placeholder":"Vælg venligst"
         },

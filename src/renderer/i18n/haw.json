@@ -48,6 +48,7 @@
         "fees":"Nā uku",
         "total":"Hōʻuluʻulu",
         "select":"E koho",
+        "no_account_info":"ʻAʻohe pūnaewele, e hoʻokomo a hoʻokomo i ka pūnaewele",
         "contacts_dig":{
             "select_placeholder":"E koho"
         },
@@ -81,7 +82,7 @@
             "download":"Hoʻoiho i kahi makaikai"
         },
         "msg_info":{
-            "ads_copy_success":"Ua kāpiliʻia ka helu",
+            "ads_copy_success":"Ua kopeʻia ka helu",
             "key_copy_success":"Hoʻoponopono kopeʻia"
         }
     },

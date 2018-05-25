@@ -48,6 +48,7 @@
         "fees":"Imali",
         "total":"Iyonke",
         "select":"Nceda ukhethe",
+        "no_account_info":"Ayikho i-akhawunti, nceda udale okanye ungenise i-akhawunti",
         "contacts_dig":{
             "select_placeholder":"Nceda ukhethe"
         },
@@ -59,7 +60,7 @@
         "msg_info":{
             "decrypt_err":"I-Wallet parsing yahluleka, ingaba yimpazamo yephasiwedi",
             "send_success":"Thumela impumelelo",
-            "send_error":"Ukuthengiswa kwehlulekile: Nceda uqaphele ukuba kukho ukulingana okwaneleyo nemirhumo yemayini"
+            "send_error":"Ukuthengiswa kwehlulekile: Nceda uqaphele ukuba kukho ukulingana okwaneleyo nemirhumo yommbizi"
         }
     },
     "page_account":{

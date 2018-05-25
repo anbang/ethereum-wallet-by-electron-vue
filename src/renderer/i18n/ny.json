@@ -48,6 +48,7 @@
         "fees":"Malipiro",
         "total":"Chiwerengero",
         "select":"Chonde sankhani",
+        "no_account_info":"Palibe akaunti, chonde kulenga kapena kulowetsa akaunti",
         "contacts_dig":{
             "select_placeholder":"Chonde sankhani"
         },
@@ -125,7 +126,7 @@
             "backup":"Chonde onetsetsani kuti nkhaniyi yathandizidwa kuti zisamangidwe"
         },
         "msg_info":{
-            "exist":"Nkhaniyi ilipo kale ndipo dzina liri",
+            "exist":"Nkhaniyi ilipo kale, dzina lake ndilo",
             "enter_password":"Chonde lowetsani mawu anu achinsinsi",
             "incons_password":"Mawu achinsinsi adalowa kawiri ndi osagwirizana",
             "error":"Cholakwika:",

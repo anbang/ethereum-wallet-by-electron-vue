@@ -48,6 +48,7 @@
         "fees":"Puli",
         "total":"Tuttu",
         "select":"Sceglite puru",
+        "no_account_info":"Nisun compte, create cumentu o impurtà importatu",
         "contacts_dig":{
             "select_placeholder":"Sceglite puru"
         },
@@ -122,10 +123,10 @@
         "remove_dia":{
             "tit":"Sè sicuru chì vulete sguassà?",
             "remove_confrim":"Sò sicuru d'eliminà",
-            "backup":"Assicuratevi chì u vostru contu hè statu backed up per evità di danni à a pruprietà"
+            "backup":"Assicuratevi chì u vostru contu hà stati backed up per evità di danni à a pruprietà"
         },
         "msg_info":{
-            "exist":"Stu account hè digià esiste è u nome hè",
+            "exist":"Stu account hè digià esiste, u nomu hè",
             "enter_password":"Per piacè inserite u vostru password",
             "incons_password":"A password hè inturnuata duie volte hè inconsistente",
             "error":"Errore:",

@@ -48,6 +48,7 @@
         "fees":"waragad",
         "total":"total",
         "select":"Mangga pilih",
+        "no_account_info":"No Rekening, mangga jieun rekening atawa impor",
         "contacts_dig":{
             "select_placeholder":"Mangga pilih"
         },

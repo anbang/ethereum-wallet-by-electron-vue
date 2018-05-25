@@ -48,6 +48,7 @@
         "fees":"Biaya",
         "total":"Total",
         "select":"Silakan pilih",
+        "no_account_info":"Tanpa akun, silakan buat atau impor akun",
         "contacts_dig":{
             "select_placeholder":"Silakan pilih"
         },
@@ -73,16 +74,16 @@
         },
         "edit_dia":{
             "tit":"Ubah catatan",
-            "subtit":"Untuk akun Anda menandai sebuah ucapan"
+            "subtit":"Tandai catatan untuk akun Anda"
         },
         "keystore":{
-            "tit":"Back up keystore",
+            "tit":"Cadangkan keystore",
             "copy":"Duplikat",
-            "download":"Download keystore"
+            "download":"Unduh keystore"
         },
         "msg_info":{
             "ads_copy_success":"Alamat telah disalin",
-            "key_copy_success":"disalin berhasil"
+            "key_copy_success":"Berhasil disalin"
         }
     },
     "page_home":{

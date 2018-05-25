@@ -48,6 +48,7 @@
         "fees":"Fees",
         "total":"Totaal",
         "select":"Please select",
+        "no_account_info":"Gjin akkount, skeakelje of ymportearje ymportearje",
         "contacts_dig":{
             "select_placeholder":"Please select"
         },

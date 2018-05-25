@@ -48,6 +48,7 @@
         "fees":"Khidmadaha",
         "total":"Wadarta",
         "select":"Fadlan dooro",
+        "no_account_info":"No account, fadlan abuur ama soo galin xisaabta",
         "contacts_dig":{
             "select_placeholder":"Fadlan dooro"
         },
@@ -125,7 +126,7 @@
             "backup":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
         },
         "msg_info":{
-            "exist":"Koontadani horeba way jirtey oo magacuna waa",
+            "exist":"Koontadani hore ayay u jirtaa, magacaagu waa",
             "enter_password":"Fadlan gali sirtaada",
             "incons_password":"Furaha sirta ah laba jeer ayaa ku haboon",
             "error":"Cilad:",

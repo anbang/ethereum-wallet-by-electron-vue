@@ -48,6 +48,7 @@
         "fees":"فیسونه",
         "total":"ټول",
         "select":"مهرباني وکړئ غوره کړه",
+        "no_account_info":"نه حساب، لطفا د حساب جوړولو یا واردول",
         "contacts_dig":{
             "select_placeholder":"مهرباني وکړئ غوره کړه"
         },

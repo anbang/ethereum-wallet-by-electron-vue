@@ -48,6 +48,7 @@
         "fees":"Ụgwọ",
         "total":"Ọnụ",
         "select":"Biko họrọ",
+        "no_account_info":"Enweghị akaụntụ, biko mepụta ma ọ bụ bubata akaụntụ",
         "contacts_dig":{
             "select_placeholder":"Biko họrọ"
         },
@@ -125,7 +126,7 @@
             "backup":"Biko jide n'aka na akwadola akaụntụ ahụ iji zere mmebi ihe onwunwe"
         },
         "msg_info":{
-            "exist":"Ihe ndekọ a adịlarị ma aha ahụ bụ",
+            "exist":"Ihe ndekọ a adịlarị, aha ahụ bụ",
             "enter_password":"Biko tinye paswọọdụ gị",
             "incons_password":"Okwuntughe abanye ugboro abuo ekwenyeghi",
             "error":"Njehie:",

@@ -48,6 +48,7 @@
         "fees":"料金",
         "total":"合計",
         "select":"選択してください",
+        "no_account_info":"アカウントがありません。アカウントを作成またはインポートしてください",
         "contacts_dig":{
             "select_placeholder":"選択してください"
         },
@@ -73,16 +74,16 @@
         },
         "edit_dia":{
             "tit":"メモを変更する",
-            "subtit":"アカウントの発言をマーク"
+            "subtit":"あなたのアカウントのメモをマークする"
         },
         "keystore":{
-            "tit":"キーストアのバックアップ",
+            "tit":"キーストアをバックアップする",
             "copy":"重複",
-            "download":"ダウンロードストア"
+            "download":"キーストアをダウンロードする"
         },
         "msg_info":{
             "ads_copy_success":"アドレスがコピーされました",
-            "key_copy_success":"正常にコピー"
+            "key_copy_success":"コピーが成功しました"
         }
     },
     "page_home":{
@@ -115,7 +116,7 @@
             "placeholder_private":"ここに秘密鍵を貼り付けてください",
             "placeholder_keystore":"ここにキーストアファイルをドラッグしてください",
 
-            "input_pwd":"パスワードを入力します。",
+            "input_pwd":"パスワードを入力",
             "placeholder_pwd":"アカウントのパスワードを入力してください"
 
         },
@@ -125,7 +126,7 @@
             "backup":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください"
         },
         "msg_info":{
-            "exist":"このアカウントは既に存在し、名前は",
+            "exist":"このアカウントは既に存在し、その名前は",
             "enter_password":"パスワードを入力してください",
             "incons_password":"2回入力したパスワードが矛盾しています",
             "error":"エラー：",

@@ -48,6 +48,7 @@
         "fees":"Phí",
         "total":"Tổng số",
         "select":"Vui lòng chọn",
+        "no_account_info":"Không có tài khoản, vui lòng tạo hoặc nhập tài khoản",
         "contacts_dig":{
             "select_placeholder":"Vui lòng chọn"
         },
@@ -125,7 +126,7 @@
             "backup":"Vui lòng đảm bảo rằng tài khoản đã được sao lưu để tránh thiệt hại về tài sản"
         },
         "msg_info":{
-            "exist":"Tài khoản này đã tồn tại và tên là",
+            "exist":"Tài khoản này đã tồn tại, tên là",
             "enter_password":"Vui lòng nhập mật khẩu của bạn",
             "incons_password":"Mật khẩu đã nhập hai lần không nhất quán",
             "error":"Lỗi:",

@@ -48,6 +48,7 @@
         "fees":"Gebühren",
         "total":"Summe",
         "select":"Bitte auswählen",
+        "no_account_info":"Kein Konto, bitte Konto erstellen oder importieren",
         "contacts_dig":{
             "select_placeholder":"Bitte auswählen"
         },
@@ -73,16 +74,16 @@
         },
         "edit_dia":{
             "tit":"Notiz ändern",
-            "subtit":"Für Ihr Konto markiert eine Bemerkung"
+            "subtit":"Markieren Sie eine Notiz für Ihr Konto"
         },
         "keystore":{
-            "tit":"Sichern der Schlüsselspeicher",
-            "copy":"Kopie",
-            "download":"Herunterladen Schlüsselspeicher"
+            "tit":"Sichern Sie den Schlüsselspeicher",
+            "copy":"Duplizieren",
+            "download":"Laden Sie den Keystore herunter"
         },
         "msg_info":{
             "ads_copy_success":"Die Adresse wurde kopiert",
-            "key_copy_success":"kopiert erfolgreich"
+            "key_copy_success":"Erfolgreich kopiert"
         }
     },
     "page_home":{
@@ -125,7 +126,7 @@
             "backup":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
         },
         "msg_info":{
-            "exist":"Dieser Account existiert bereits, der Name ist",
+            "exist":"Dieser Account existiert bereits und der Name ist",
             "enter_password":"Bitte geben Sie Ihr Passwort ein",
             "incons_password":"Das doppelt eingegebene Passwort ist inkonsistent",
             "error":"Fehler:",

@@ -48,6 +48,7 @@
         "fees":"Gjöld",
         "total":"Samtals",
         "select":"Vinsamlegast veldu",
+        "no_account_info":"Engin reikningur, vinsamlegast búðu til eða flytja inn reikning",
         "contacts_dig":{
             "select_placeholder":"Vinsamlegast veldu"
         },

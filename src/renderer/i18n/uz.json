@@ -48,6 +48,7 @@
         "fees":"Narxlar",
         "total":"Jami",
         "select":"Iltimos, tanlang",
+        "no_account_info":"Hech qanday hisob qaydnomasi yo'q, hisobni yaratib, import qiling",
         "contacts_dig":{
             "select_placeholder":"Iltimos, tanlang"
         },

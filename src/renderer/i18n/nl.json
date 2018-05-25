@@ -48,6 +48,7 @@
         "fees":"vergoedingen",
         "total":"totaal",
         "select":"Selecteer alstublieft",
+        "no_account_info":"Geen account, maak of importeer een account",
         "contacts_dig":{
             "select_placeholder":"Selecteer alstublieft"
         },
@@ -125,7 +126,7 @@
             "backup":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
         },
         "msg_info":{
-            "exist":"Dit account bestaat al en de naam is",
+            "exist":"Dit account bestaat al, de naam is",
             "enter_password":"Voer uw wachtwoord in",
             "incons_password":"Het wachtwoord dat tweemaal is ingevoerd, is inconsistent",
             "error":"fout:",

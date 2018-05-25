@@ -48,6 +48,7 @@
         "fees":"Mari",
         "total":"Total",
         "select":"Ndapota sarudza",
+        "no_account_info":"Kwete nhamba, ndapota simbisa kana kutumira akaunti",
         "contacts_dig":{
             "select_placeholder":"Ndapota sarudza"
         },

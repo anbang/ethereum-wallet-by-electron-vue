@@ -48,6 +48,7 @@
         "fees":"Les frais",
         "total":"Total",
         "select":"Veuillez sélectionner",
+        "no_account_info":"Pas de compte, veuillez créer ou importer un compte",
         "contacts_dig":{
             "select_placeholder":"Veuillez sélectionner"
         },
@@ -57,7 +58,7 @@
             "enter_passworld_place":"Veuillez entrer votre mot de passe"
         },
         "msg_info":{
-            "decrypt_err":"résolution de portefeuille échoue, il peut être mauvais mot de passe",
+            "decrypt_err":"Échec de l'analyse du portefeuille, peut être une erreur de mot de passe",
             "send_success":"Envoyer le succès",
             "send_error":"La transaction a échoué: Veuillez vérifier s'il y a un solde suffisant et les frais de mineur"
         }

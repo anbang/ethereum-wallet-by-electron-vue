@@ -48,6 +48,7 @@
         "fees":"tarifat",
         "total":"total",
         "select":"Ju lutem zgjidhni",
+        "no_account_info":"Nuk ka llogari, të lutem krijoni ose importoni llogarinë",
         "contacts_dig":{
             "select_placeholder":"Ju lutem zgjidhni"
         },
@@ -125,7 +126,7 @@
             "backup":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
         },
         "msg_info":{
-            "exist":"Kjo llogari tashmë ekziston dhe emri është",
+            "exist":"Kjo llogari tashmë ekziston, emri është",
             "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
             "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
             "error":"gabim:",

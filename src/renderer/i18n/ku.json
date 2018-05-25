@@ -48,6 +48,7 @@
         "fees":"Fees",
         "total":"Tevahî",
         "select":"Ji kerema xwe hilbijêrin",
+        "no_account_info":"Hesab nîne, kerema xwe çêbikin an hesabê bikirse",
         "contacts_dig":{
             "select_placeholder":"Ji kerema xwe hilbijêrin"
         },

@@ -48,6 +48,7 @@
         "fees":"Taxas",
         "total":"Total",
         "select":"Por favor selecione",
+        "no_account_info":"Nenhuma conta, por favor crie ou importe conta",
         "contacts_dig":{
             "select_placeholder":"Por favor selecione"
         },

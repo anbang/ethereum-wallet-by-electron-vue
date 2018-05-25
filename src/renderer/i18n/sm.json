@@ -48,6 +48,7 @@
         "fees":"Totogi",
         "total":"Aofaʻi",
         "select":"Faamolemole filifili",
+        "no_account_info":"Leai se faʻamatalaga, faamolemole ia fatuina pe faaulufale mai le teugatupe",
         "contacts_dig":{
             "select_placeholder":"Faamolemole filifili"
         },
@@ -125,7 +126,7 @@
             "backup":"Faamolemole ia mautinoa ua lagolagoina le teugatupe ina ia aloese mai le faaleagaina o meatotino"
         },
         "msg_info":{
-            "exist":"O loʻo iai nei tala ma o le igoa",
+            "exist":"O loʻo iai nei tala, o le igoa",
             "enter_password":"Faʻamolemole ulufale i lau faʻaupuga",
             "incons_password":"O le faʻaulufaleina faʻalua e lua e le ogatasi",
             "error":"Laʻasaga:",

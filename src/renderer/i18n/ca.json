@@ -48,6 +48,7 @@
         "fees":"Honoraris",
         "total":"Total",
         "select":"Seleccioneu",
+        "no_account_info":"Sense compte, creeu o importeu un compte",
         "contacts_dig":{
             "select_placeholder":"Seleccioneu"
         },
@@ -116,22 +117,22 @@
             "placeholder_keystore":"Arrossegueu aquí el fitxer de teclat",
 
             "input_pwd":"Introduïu la contrasenya",
-            "placeholder_pwd":"Si us plau, introdueixi la contrasenya de compte"
+            "placeholder_pwd":"Introduïu la contrasenya del vostre compte"
 
         },
         "remove_dia":{
             "tit":"Esteu segur que voleu eliminar-lo?",
-            "remove_confrim":"Estic segur de suprimir",
+            "remove_confrim":"Estic segur d'eliminar",
             "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
         },
         "msg_info":{
-            "exist":"Aquest compte ja existeix i el nom és",
+            "exist":"Aquest compte ja existeix, el nom és",
             "enter_password":"Introduïu la vostra contrasenya",
             "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
             "error":"Error:",
             "imported_success":"Importa el fitxer amb èxit",
             "enter_private":"Introduïu la clau",
-            "error_private":"Conta la importació falla, un error pot ser clau",
+            "error_private":"No s'ha pogut importar el compte, pot ser que la clau sigui incorrecta",
             "enter_keystore":"Importeu primer el fitxer de teclat",
             "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
             "remove_success":"S'ha eliminat correctament",

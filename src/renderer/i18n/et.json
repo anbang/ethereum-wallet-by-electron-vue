@@ -48,6 +48,7 @@
         "fees":"Tasud",
         "total":"Kokku",
         "select":"Palun vali",
+        "no_account_info":"Konto pole, looge või importige konto",
         "contacts_dig":{
             "select_placeholder":"Palun vali"
         },

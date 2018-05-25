@@ -48,6 +48,7 @@
         "fees":"fooie",
         "total":"totale",
         "select":"Kies asseblief",
+        "no_account_info":"Geen rekening, skep of invoer rekening",
         "contacts_dig":{
             "select_placeholder":"Kies asseblief"
         },
@@ -125,7 +126,7 @@
             "backup":"Maak asseblief seker dat die rekening gerugsteun is om skade aan eiendom te voorkom"
         },
         "msg_info":{
-            "exist":"Hierdie rekening bestaan ​​reeds en die naam is",
+            "exist":"Hierdie rekening bestaan ​​reeds, die naam is",
             "enter_password":"Voer asseblief u wagwoord in",
             "incons_password":"Die twee keer ingevoerde wagwoord is teenstrydig",
             "error":"fout:",

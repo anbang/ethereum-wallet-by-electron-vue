@@ -48,6 +48,7 @@
         "fees":"رسوم",
         "total":"مجموع",
         "select":"يرجى الاختيار",
+        "no_account_info":"لا يوجد حساب ، يرجى إنشاء أو استيراد حساب",
         "contacts_dig":{
             "select_placeholder":"يرجى الاختيار"
         },

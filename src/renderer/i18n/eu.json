@@ -48,6 +48,7 @@
         "fees":"Tarifak",
         "total":"Guztira",
         "select":"Aukeratu ezazu",
+        "no_account_info":"Konturik ez, sortu edo inportatu kontua",
         "contacts_dig":{
             "select_placeholder":"Aukeratu ezazu"
         },

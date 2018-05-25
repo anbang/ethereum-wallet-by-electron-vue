@@ -44,11 +44,14 @@ if (!db.has('czr_setting').value()) {
 
 //Get user browser preference language
 function getLanguage() {
+  let language
   if (navigator.language) {
-    let language = navigator.language;
+    language = navigator.language;
   } else {
-    let language = navigator.browserLanguage;
+    language = navigator.browserLanguage;
   }
+  language = language ? language : 'zh-CN'
+  console.log("language",language)
   return language;
 }
 

@@ -48,6 +48,7 @@
         "fees":"avgifter",
         "total":"total",
         "select":"Vänligen välj",
+        "no_account_info":"Inget konto, var god skapa eller importera konto",
         "contacts_dig":{
             "select_placeholder":"Vänligen välj"
         },
@@ -59,7 +60,7 @@
         "msg_info":{
             "decrypt_err":"Pappersparsning misslyckades, kan vara ett lösenordsfel",
             "send_success":"Skicka framgång",
-            "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och minimilön"
+            "send_error":"Transaktionen misslyckas: Kontrollera om det finns tillräckligt med balans och gruvarbetare avgift"
         }
     },
     "page_account":{
@@ -125,7 +126,7 @@
             "backup":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
         },
         "msg_info":{
-            "exist":"Detta konto finns redan och namnet är",
+            "exist":"Det här kontot finns redan, namnet är",
             "enter_password":"Vänligen ange ditt lösenord",
             "incons_password":"Lösenordet som anges två gånger är inkonsekvent",
             "error":"fel:",

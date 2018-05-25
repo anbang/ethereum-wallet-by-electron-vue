@@ -48,6 +48,7 @@
         "fees":"Litefiso",
         "total":"Kakaretso",
         "select":"Ka kopo khetha",
+        "no_account_info":"Ha ho na ak'haonte, ka kopo o bopa kapa o kenye akhaonto",
         "contacts_dig":{
             "select_placeholder":"Ka kopo khetha"
         },

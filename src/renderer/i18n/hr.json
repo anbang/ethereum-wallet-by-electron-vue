@@ -48,6 +48,7 @@
         "fees":"naknade",
         "total":"ukupno",
         "select":"Molimo odaberite",
+        "no_account_info":"Nema računa, izradite ili uvezite račun",
         "contacts_dig":{
             "select_placeholder":"Molimo odaberite"
         },
@@ -125,7 +126,7 @@
             "backup":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
         },
         "msg_info":{
-            "exist":"Taj račun već postoji i naziv je",
+            "exist":"Taj račun već postoji, naziv je",
             "enter_password":"Unesite zaporku",
             "incons_password":"Unosom lozinke dvaput nije konzistentan",
             "error":"pogreška:",

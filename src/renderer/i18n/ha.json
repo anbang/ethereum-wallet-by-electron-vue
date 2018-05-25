@@ -48,6 +48,7 @@
         "fees":"Kudin",
         "total":"Jimlar",
         "select":"Da fatan a zaɓi",
+        "no_account_info":"Babu asusun, don Allah ƙirƙira ko shigar da asusu",
         "contacts_dig":{
             "select_placeholder":"Da fatan a zaɓi"
         },
@@ -125,7 +126,7 @@
             "backup":"Da fatan a tabbatar cewa an goge bayanan ne don kauce wa lalacewar dukiya"
         },
         "msg_info":{
-            "exist":"Wannan asusun ya wanzu kuma sunan yana",
+            "exist":"Wannan asusun ya wanzu, sunan shine",
             "enter_password":"Da fatan a shigar da kalmar sirri",
             "incons_password":"Kalmar shiga ta shiga sau biyu ba daidai ba ne",
             "error":"Kuskure:",
@@ -136,7 +137,7 @@
             "error_password":"Ba a yi nasarar shigar da asusu ba, yana iya zama kalmar sirri mara daidai",
             "remove_success":"Ana cire nasarar",
             "create_success":"An yi nasara",
-            "save":"Don Allah ajiye your keystore ko masu zaman kansu, ba tare da raba kowa!"
+            "save":"Da fatan a adana maɓallin kullunku ko maɓalli na sirri kuma kada ku raba shi da kowa!"
         }
     }
 

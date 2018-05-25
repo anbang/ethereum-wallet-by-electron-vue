@@ -48,6 +48,7 @@
         "fees":"Ffioedd",
         "total":"Cyfanswm",
         "select":"Dewiswch",
+        "no_account_info":"Dim cyfrif, creu neu fewnforio cyfrif",
         "contacts_dig":{
             "select_placeholder":"Dewiswch"
         },

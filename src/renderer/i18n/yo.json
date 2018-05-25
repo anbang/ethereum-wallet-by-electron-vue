@@ -48,6 +48,7 @@
         "fees":"Owo sisan",
         "total":"Lapapọ",
         "select":"Jọwọ yan",
+        "no_account_info":"Ko si iroyin, jọwọ ṣẹda tabi gbe iroyin wọle",
         "contacts_dig":{
             "select_placeholder":"Jọwọ yan"
         },
@@ -125,7 +126,7 @@
             "backup":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
         },
         "msg_info":{
-            "exist":"Iroyin yii ti wa tẹlẹ ati orukọ naa jẹ",
+            "exist":"Iroyin yii wa tẹlẹ, orukọ naa jẹ",
             "enter_password":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
             "incons_password":"Ọrọigbaniwọle ti tẹ lẹẹmeji jẹ aisedede",
             "error":"Aṣiṣe:",

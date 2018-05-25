@@ -48,6 +48,7 @@
         "fees":"Nga utu",
         "total":"Te tapeke",
         "select":"Tono koa",
+        "no_account_info":"Kaore he kaute, maatua te waihanga, te kawemai ranei i te putea",
         "contacts_dig":{
             "select_placeholder":"Tono koa"
         },
@@ -125,7 +126,7 @@
             "backup":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
         },
         "msg_info":{
-            "exist":"Kua oti tenei kaute me te ingoa",
+            "exist":"Kei te ngaro tenei kaute, ko te ingoa",
             "enter_password":"Tomohia koa to kupuhipa",
             "incons_password":"Ko te kupuhipa i whakauruhia e rua kaore i te rereke",
             "error":"Hapa:",

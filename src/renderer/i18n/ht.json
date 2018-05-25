@@ -48,6 +48,7 @@
         "fees":"Frè",
         "total":"Total",
         "select":"Tanpri chwazi",
+        "no_account_info":"Pa gen kont, tanpri kreye oswa enpòte kont",
         "contacts_dig":{
             "select_placeholder":"Tanpri chwazi"
         },

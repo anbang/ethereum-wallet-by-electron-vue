@@ -48,6 +48,7 @@
         "fees":"Bayad",
         "total":"Total",
         "select":"Palihug pagpili",
+        "no_account_info":"Wala'y asoy, palihug paghimo o pag-import nga account",
         "contacts_dig":{
             "select_placeholder":"Palihug pagpili"
         },
@@ -125,7 +126,7 @@
             "backup":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
         },
         "msg_info":{
-            "exist":"Adunay kini nga asoy ug ang ngalan",
+            "exist":"Adunay kini nga asoy, ang ngalan mao",
             "enter_password":"Palihug pasabta ang imong password",
             "incons_password":"Ang duha ka password nga gisudlan sa duha dili magkasumpaki",
             "error":"Sayop:",
@@ -133,7 +134,7 @@
             "enter_private":"Palihug pagsulod sa yawe",
             "error_private":"Napakyas sa pag-import sa account, kini mahimong sayop nga yawe",
             "enter_keystore":"Palihug i-import una ang keystore file una",
-            "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
+            "error_password":"Napakyas sa pag-import sa account, mahimong sayop nga password",
             "remove_success":"Malampuson nga nahuman",
             "create_success":"Nahimo nga malampuson",
             "save":"Palihog luwasa ang imong keystore o pribadong yawe ug ayaw ipaambit kini sa bisan kinsa!"

@@ -34,9 +34,9 @@
             "title":"Ön eltávolít"
         },
         "msg_info":{
-            "no_tag":"Fióknév megadása",
-            "no_address":"Kérjük, adja meg a fiók címe",
-            "exist":"Kapcsolat már létezik,"
+            "no_tag":"Adja meg a fiók nevét",
+            "no_address":"Kérjük, adja meg a fiókcímét",
+            "exist":"A kapcsolat már létezik,"
         }
     },
     "page_transfer":{
@@ -48,6 +48,7 @@
         "fees":"díjak",
         "total":"teljes",
         "select":"Kérem válasszon",
+        "no_account_info":"Nincs számla, kérjük, hozzon létre vagy importáljon fiókot",
         "contacts_dig":{
             "select_placeholder":"Kérem válasszon"
         },

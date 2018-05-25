@@ -48,6 +48,7 @@
         "fees":"Malipo",
         "total":"Jumla",
         "select":"Tafadhali chagua",
+        "no_account_info":"Hakuna akaunti, tafadhali unda au uingize akaunti",
         "contacts_dig":{
             "select_placeholder":"Tafadhali chagua"
         },
@@ -125,7 +126,7 @@
             "backup":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
         },
         "msg_info":{
-            "exist":"Akaunti hii tayari iko, jina ni",
+            "exist":"Akaunti hii tayari iko na jina ni",
             "enter_password":"Tafadhali ingiza nenosiri lako",
             "incons_password":"Nenosiri lililoingia mara mbili halilingani",
             "error":"Hitilafu:",

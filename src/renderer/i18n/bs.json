@@ -48,6 +48,7 @@
         "fees":"Naknade",
         "total":"Ukupno",
         "select":"Molimo izaberite",
+        "no_account_info":"Nema naloga, kreirajte ili uvezite račun",
         "contacts_dig":{
             "select_placeholder":"Molimo izaberite"
         },

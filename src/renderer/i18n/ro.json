@@ -48,6 +48,7 @@
         "fees":"Taxe",
         "total":"total",
         "select":"Selectați",
+        "no_account_info":"Nu aveți cont, vă rugăm să creați sau să importați un cont",
         "contacts_dig":{
             "select_placeholder":"Selectați"
         },
@@ -136,7 +137,7 @@
             "error_password":"Contul nu a putut fi importat, poate fi o parolă greșită",
             "remove_success":"Eliminat cu succes",
             "create_success":"Creat cu succes",
-            "save":"Vă rugăm să salvați depozitul de chei sau private, nu împărtășesc cu nimeni!"
+            "save":"Salvați cheia dvs. cheie sau cheia privată și nu-l împărtășiți nimănui!"
         }
     }
 

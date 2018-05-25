@@ -48,6 +48,7 @@
         "fees":"手續費",
         "total":"合計",
         "select":"請選擇",
+        "no_account_info":"暫無賬號，請創建或者導入賬號",
         "contacts_dig":{
             "select_placeholder":"請選擇"
         },

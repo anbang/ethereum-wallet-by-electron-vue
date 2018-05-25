@@ -48,6 +48,7 @@
         "fees":"手续费",
         "total":"合计",
         "select":"请选择",
+        "no_account_info":"暂无账号，请创建或者导入账号",
         "contacts_dig":{
             "select_placeholder":"请选择"
         },

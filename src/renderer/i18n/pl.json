@@ -48,6 +48,7 @@
         "fees":"Opłaty",
         "total":"Razem",
         "select":"Proszę wybrać",
+        "no_account_info":"Brak konta, proszę utworzyć lub zaimportować konto",
         "contacts_dig":{
             "select_placeholder":"Proszę wybrać"
         },
@@ -125,7 +126,7 @@
             "backup":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
         },
         "msg_info":{
-            "exist":"To konto już istnieje, a nazwa jest",
+            "exist":"To konto już istnieje, jest to nazwa",
             "enter_password":"Wprowadź swoje hasło",
             "incons_password":"Wprowadzone dwukrotnie hasło jest niespójne",
             "error":"Błąd:",

@@ -48,6 +48,7 @@
         "fees":"Imali",
         "total":"Inani",
         "select":"Sicela ukhethe",
+        "no_account_info":"Ayikho i-akhawunti, sicela udale noma ungenise i-akhawunti",
         "contacts_dig":{
             "select_placeholder":"Sicela ukhethe"
         },

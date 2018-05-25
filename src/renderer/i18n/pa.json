@@ -48,6 +48,7 @@
         "fees":"ਫੀਸ",
         "total":"ਕੁੱਲ",
         "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ",
+        "no_account_info":"ਕੋਈ ਖਾਤਾ ਨਹੀਂ, ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਬਣਾਉ ਜਾਂ ਆਯਾਤ ਕਰੋ",
         "contacts_dig":{
             "select_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
         },

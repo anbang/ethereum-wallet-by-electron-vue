@@ -48,6 +48,7 @@
         "fees":"Táillí",
         "total":"Iomlán",
         "select":"Roghnaigh",
+        "no_account_info":"Níl aon chuntas agat, le do thoil cruthaigh nó cuntas a allmhairiú",
         "contacts_dig":{
             "select_placeholder":"Roghnaigh"
         },

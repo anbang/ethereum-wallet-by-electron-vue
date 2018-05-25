@@ -48,6 +48,7 @@
         "fees":"Төлбөр",
         "total":"Нийт",
         "select":"Сонгоно уу",
+        "no_account_info":"Харилцах данс үүсгэх эсвэл импорт хийх боломжтой",
         "contacts_dig":{
             "select_placeholder":"Сонгоно уу"
         },

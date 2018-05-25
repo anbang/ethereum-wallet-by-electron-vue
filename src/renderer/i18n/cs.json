@@ -48,6 +48,7 @@
         "fees":"Poplatky",
         "total":"Celkem",
         "select":"Vyberte prosím",
+        "no_account_info":"Žádný účet, prosím, vytvořte nebo importujte účet",
         "contacts_dig":{
             "select_placeholder":"Vyberte prosím"
         },
@@ -59,7 +60,7 @@
         "msg_info":{
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
             "send_success":"Pošlete úspěch",
-            "send_error":"Transakce selhala: Zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za hornictví"
+            "send_error":"Transakce se nezdařila: Zkontrolujte prosím, zda je dostatečný zůstatek a hornický poplatek"
         }
     },
     "page_account":{
@@ -125,7 +126,7 @@
             "backup":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
         },
         "msg_info":{
-            "exist":"Tento účet již existuje a jméno je",
+            "exist":"Tento účet již existuje, název je",
             "enter_password":"Zadejte své heslo",
             "incons_password":"Zadané heslo dvakrát je nekonzistentní",
             "error":"Chyba:",

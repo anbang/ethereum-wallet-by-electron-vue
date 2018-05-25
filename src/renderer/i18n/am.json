@@ -48,6 +48,7 @@
         "fees":"ክፍያዎች",
         "total":"ጠቅላላ",
         "select":"እባክዎ ይምረጡ",
+        "no_account_info":"መለያ የለም, እባክህ መለያ ፍጠር ወይም አስገባ",
         "contacts_dig":{
             "select_placeholder":"እባክዎ ይምረጡ"
         },

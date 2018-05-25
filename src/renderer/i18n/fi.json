@@ -48,6 +48,7 @@
         "fees":"palkkiot",
         "total":"kokonais-",
         "select":"Valitse",
+        "no_account_info":"Ei tiliä, luo tili tai luo tili",
         "contacts_dig":{
             "select_placeholder":"Valitse"
         },

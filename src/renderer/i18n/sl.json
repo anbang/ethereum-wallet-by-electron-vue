@@ -48,6 +48,7 @@
         "fees":"Pristojbine",
         "total":"Skupaj",
         "select":"Prosim izberite",
+        "no_account_info":"Brez računa, ustvarite ali uvozite račun",
         "contacts_dig":{
             "select_placeholder":"Prosim izberite"
         },
@@ -122,7 +123,7 @@
         "remove_dia":{
             "tit":"Ali ste prepričani, da ga želite odstraniti?",
             "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+            "backup":"Prepričajte se, da je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
         },
         "msg_info":{
             "exist":"Ta račun že obstaja, ime je",

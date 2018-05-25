@@ -48,6 +48,7 @@
         "fees":"poplatky",
         "total":"totálnej",
         "select":"Vyberte prosím",
+        "no_account_info":"Žiadny účet, vytvorte alebo importujte účet",
         "contacts_dig":{
             "select_placeholder":"Vyberte prosím"
         },
